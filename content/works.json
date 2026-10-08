@@ -1,0 +1,239 @@
+[
+  {
+    "id": "ai-reading-pilot",
+    "slug": "ai-reading-pilot",
+    "title": "3주 AI 활용 읽기 파일럿",
+    "summary": "AI와 함께 읽되, 판단과 설명은 학습자의 것으로. 더 나은 교양교육을 위한 3주간의 수업 운영안.",
+    "date": "2026-10-08",
+    "kind": "talk",
+    "topics": ["AI 교육", "읽기", "교양교육"],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "featuredOrder": 1,
+    "poster": "/images/studio-paper.webp",
+    "posterAlt": "책과 트레이싱 페이퍼, 금속 프레임을 놓은 작업대",
+    "body": "AI 활용 읽기 파일럿 운영안. 핵심 이해, 질문, 검증, 설명과 평가를 연결하는 교육 설계.",
+    "htmlSource": "AI_reading_3week_pilot_20261008.html",
+    "event": "AI 활용 더 나은 교양교육 연구 TF",
+    "artifacts": [
+      {
+        "type": "html",
+        "url": "/AI_reading_3week_pilot_20261008.html",
+        "label": "발표 시작",
+        "version": "2026-10-08",
+        "modes": ["present", "read"]
+      }
+    ],
+    "mediaIds": []
+  },
+  {
+    "id": "meal",
+    "slug": "meal",
+    "title": "생각이 맛이 되다",
+    "summary": "고르는 눈, 준비, 타이밍, 불의 강약, 마지막 조절. 빠른 손을 움직이는 판단을 보여주고, 완전한 문장을 여러 컷에 걸쳐 이어갑니다.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["기획", "실사 + 그래픽", "음악과 편집"],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "featuredOrder": 2,
+    "poster": "/images/meal.webp",
+    "posterAlt": "생각이 맛이 되다의 실제 영상 장면",
+    "body": "고르는 눈, 준비, 타이밍, 불의 강약, 마지막 조절. 빠른 손을 움직이는 판단을 보여주고, 완전한 문장을 여러 컷에 걸쳐 이어갑니다.\n\n180초 / 89컷 / 실사 + 정밀 그래픽",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/meal/film/?v=35",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["meal-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#meal"
+  },
+  {
+    "id": "racing",
+    "slug": "racing",
+    "title": "RACING LAB · 속도를 지배하는 순간",
+    "summary": "질주·제동·코너·재가속. 빠른 편집과 긴 호흡을 대비하고, 화면 착지와 실제 음악 타격의 관계를 교정한 가상 레이싱 콘셉트입니다.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/racing.webp",
+    "posterAlt": "RACING LAB · 속도를 지배하는 순간의 실제 영상 장면",
+    "body": "질주·제동·코너·재가속. 빠른 편집과 긴 호흡을 대비하고, 화면 착지와 실제 음악 타격의 관계를 교정한 가상 레이싱 콘셉트입니다.\n\n180초 / 116컷 / 음악 + 주행 + 효과음",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/racing/film/?v=30",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["racing-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#racing"
+  },
+  {
+    "id": "pedal",
+    "slug": "pedal",
+    "title": "페달 · 리듬이 속도가 되는 순간",
+    "summary": "발에서 구동계로, 바퀴에서 노면과 방향으로. 음악의 반복 묶음과 쉼·재진입을 따라 편집한 공개본입니다.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/pedal.webp",
+    "posterAlt": "페달 · 리듬이 속도가 되는 순간의 실제 영상 장면",
+    "body": "발에서 구동계로, 바퀴에서 노면과 방향으로. 음악의 반복 묶음과 쉼·재진입을 따라 편집한 공개본입니다.\n\n180초 / 음악 묶음·착지 교정판",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/pedal/musical/full/",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["pedal-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#pedal"
+  },
+  {
+    "id": "city",
+    "slug": "city",
+    "title": "도시의 맥박",
+    "summary": "깨어남·이동·질서·연결·숨·밤·사람. 서울과 부산의 촬영 자료에 정밀 그래픽을 연결하고, 휴식 장면의 소리와 행동의 연결을 수정했습니다.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/city.webp",
+    "posterAlt": "도시의 맥박의 실제 영상 장면",
+    "body": "깨어남·이동·질서·연결·숨·밤·사람. 서울과 부산의 촬영 자료에 정밀 그래픽을 연결하고, 휴식 장면의 소리와 행동의 연결을 수정했습니다.\n\n180초 / 한국 도시 실사 + SVG·타이포",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/city?v=16#film",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["city-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#city"
+  },
+  {
+    "id": "grandeur",
+    "slug": "grandeur",
+    "title": "자동차 · 움직임의 끝까지",
+    "summary": "직접 작성한 차량 형상, 빠른 컷, 가속·마찰 효과음. 정지와 함께 음악이 끝나고 로고 효과음만 남는 엔딩까지.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/grandeur.webp",
+    "posterAlt": "자동차 · 움직임의 끝까지의 실제 영상 장면",
+    "body": "직접 작성한 차량 형상, 빠른 컷, 가속·마찰 효과음. 정지와 함께 음악이 끝나고 로고 효과음만 남는 엔딩까지.\n\n150초 / 46컷 / 공간 카메라 + SVG",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/car.html",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["grandeur-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#car"
+  },
+  {
+    "id": "book",
+    "slug": "book",
+    "title": "책 한 권이 태어나는 시간",
+    "summary": "원고·교정·조판·CMYK·인쇄·접기·실 제본·표지·독서. 새로운 작곡과 효과음으로 이어지는 한 권의 이야기.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/book.webp",
+    "posterAlt": "책 한 권이 태어나는 시간의 실제 영상 장면",
+    "body": "원고·교정·조판·CMYK·인쇄·접기·실 제본·표지·독서. 새로운 작곡과 효과음으로 이어지는 한 권의 이야기.\n\n150초 / 12개 시퀀스 / SVG",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#book",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["book-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#book"
+  },
+  {
+    "id": "flight",
+    "slug": "flight",
+    "title": "안내표에서 비행까지",
+    "summary": "안내표의 같은 편명과 목적지가 세계지도·항로·비행기로 연결됩니다.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/flight.webp",
+    "posterAlt": "안내표에서 비행까지의 실제 영상 장면",
+    "body": "안내표의 같은 편명과 목적지가 세계지도·항로·비행기로 연결됩니다.\n\n15초 / SVG / 가상 여행 브랜드",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#flight",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["flight-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#flight"
+  },
+  {
+    "id": "water",
+    "slug": "water",
+    "title": "체를 통과하는 물",
+    "summary": "유입관에서 체의 단면으로, 남은 입자와 통과한 물에서 배출관으로. 내용을 실제 행동으로 보여주는 실험.",
+    "date": "2026-10-08",
+    "kind": "motion",
+    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/water.webp",
+    "posterAlt": "체를 통과하는 물의 실제 영상 장면",
+    "body": "유입관에서 체의 단면으로, 남은 입자와 통과한 물에서 배출관으로. 내용을 실제 행동으로 보여주는 실험.\n\n12초 / SVG / 설명용 원리 모형",
+    "artifacts": [
+      {
+        "type": "link",
+        "url": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#water",
+        "label": "제작 과정 보기",
+        "version": "2026-10-08",
+        "modes": []
+      }
+    ],
+    "mediaIds": ["water-film"],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#water"
+  }
+]

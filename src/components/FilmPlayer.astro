@@ -1,0 +1,137 @@
+---
+import type { Media } from '../lib/schema';
+import { formatDuration } from '../lib/content';
+interface Props {
+  film: Media;
+  slug: string;
+  embedded?: boolean;
+}
+const { film, slug, embedded = false } = Astro.props;
+const current = film.versions.find((v) => v.id === film.currentVersion)!;
+---
+
+<div
+  data-film-player
+  data-media-id={film.id}
+  data-work-slug={slug}
+  data-versions={JSON.stringify(film.versions)}
+  data-current-version={film.currentVersion}
+  data-embedded={embedded}
+>
+  <div class="film-stage">
+    <video
+      controls
+      playsinline
+      muted
+      preload="none"
+      poster={film.poster}
+      aria-label={film.title}
+    >
+      <source src={current.url} type="video/mp4" />
+      {current.captions && (
+        <track
+          kind="captions"
+          src={current.captions}
+          srclang="ko"
+          label="한국어"
+        />
+      )}
+      <p>영상을 재생할 수 없습니다. 아래 원본 링크를 이용해 주세요.</p>
+    </video>
+    <div class="film-tools">
+      <span>
+        {formatDuration(current.duration)} / 음악은 플레이어에서 켤 수 있습니다.
+      </span>
+      <div>
+        <button type="button" data-fullscreen>
+          전체화면
+        </button>{' '}
+        <a
+          data-original-video
+          href={current.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          원본 영상 ↗
+        </a>
+      </div>
+    </div>
+    <p data-film-error hidden role="status">
+      영상 연결을 확인해 주세요. 원본 영상 링크에서도 열 수 있습니다.
+    </p>
+  </div>
+  {!embedded && (
+    <div class="page-gutter content-section">
+      <div class="detail-layout">
+        <section class="clip-panel" data-slide-exempt>
+          <span class="eyebrow">TAKE A SCENE</span>
+          <h2>다음 발표에 가져갈 장면.</h2>
+          <p>
+            필요한 구간을 초 단위로 지정하세요. 링크와 삽입 정보에는 사용한 영상
+            버전이 함께 남습니다.
+          </p>
+          <div class="clip-fields">
+            <label>
+              시작 · 초
+              <input
+                data-clip-start
+                type="number"
+                min="0"
+                step=".1"
+                value="0"
+              />
+            </label>
+            <label>
+              끝 · 초
+              <input
+                data-clip-end
+                type="number"
+                min=".1"
+                step=".1"
+                max={current.duration}
+                value={current.duration}
+              />
+            </label>
+            <button class="button" type="button" data-play-clip>
+              구간 재생 ▶
+            </button>
+            <button class="button secondary" type="button" data-play-full>
+              전체 재생
+            </button>
+          </div>
+          <div class="actions">
+            <button class="button secondary" type="button" data-copy="link">
+              구간 링크 복사
+            </button>
+            <button class="button secondary" type="button" data-copy="embed">
+              HTML 삽입 코드
+            </button>
+            <button class="button secondary" type="button" data-copy="json">
+              AI용 삽입 정보
+            </button>
+          </div>
+          <p class="clip-message" role="status" aria-live="polite"></p>
+          <textarea
+            class="copy-fallback"
+            hidden
+            readonly
+            aria-label="복사할 내용"
+          ></textarea>
+        </section>
+        <aside>
+          <dl>
+            <dt>사용 버전</dt>
+            <dd data-version-label>{current.id}</dd>
+            <dt>재사용 방식</dt>
+            <dd>구간 링크 · HTML · JSON</dd>
+            <dt>저장 방식</dt>
+            <dd>원본 영상을 그대로 참조</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  )}
+</div>
+<script>
+  import '../scripts/film';
+</script>

@@ -1,0 +1,47 @@
+---
+import { kindLabel, formatDate } from '../lib/content';
+import type { PublicWork } from '../lib/schema';
+interface Props {
+  work: PublicWork;
+  index?: number;
+  large?: boolean;
+}
+const { work: w, index = 0, large = false } = Astro.props;
+---
+
+<article class:list={['work-card', { large }]} data-work-id={w.id}>
+  <a class="work-image" href={w.href} aria-label={w.title + ' 상세 보기'}>
+    <img
+      src={w.poster}
+      alt={w.posterAlt}
+      width="1440"
+      height="810"
+      loading="lazy"
+    />
+    <span class="image-corner" aria-hidden="true">
+      {w.kind === 'motion' ? '↗' : '↗'}
+    </span>
+    <span class="work-number" aria-hidden="true">
+      {String(index + 1).padStart(2, '0')}
+    </span>
+  </a>
+  <div class="work-info">
+    <div class="work-meta">
+      <span>
+        {kindLabel[w.kind]}
+        {w.status === 'study' ? ' · 습작' : ''}
+      </span>
+      <span>{formatDate(w.date)}</span>
+    </div>
+    <h3>
+      <a href={w.href}>{w.title}</a>
+    </h3>
+    <p>{w.summary}</p>
+    <div class="work-tags">
+      {w.topics.slice(0, 3).map((t) => (
+        <span>{t}</span>
+      ))}
+    </div>
+    <p class="search-match" hidden></p>
+  </div>
+</article>

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "meal-film",
+    "workId": "meal",
+    "title": "생각이 맛이 되다",
+    "currentVersion": "meal-chef-full180-v2",
+    "versions": [
+      {
+        "id": "meal-chef-full180-v2",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/meal-chef-full180-v2.mp4",
+        "duration": 180,
+        "label": "등록 공개본",
+        "creditsUrl": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/meal-chef-full180-v2-report.json"
+      }
+    ],
+    "poster": "/images/meal.webp",
+    "credits": "Pop04 — Grigoriy Nuzhny / Mixkit. 발췌·음량·엔딩 편집. Mixkit·Pexels 촬영 자료의 출처와 개별 이용 조건은 보고서에 수록했습니다.",
+    "external": false
+  },
+  {
+    "id": "racing-film",
+    "workId": "racing",
+    "title": "RACING LAB · 속도를 지배하는 순간",
+    "currentVersion": "racing-full180-v1",
+    "versions": [
+      {
+        "id": "racing-full180-v1",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/racing-full180-v1.mp4",
+        "duration": 180,
+        "label": "등록 공개본",
+        "creditsUrl": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/racing-full180-v1-report.json"
+      }
+    ],
+    "poster": "/images/racing.webp",
+    "credits": "Blown Away — Kevin MacLeod (incompetech.com), CC BY 4.0. 발췌·음량·동기화 편집 및 자체 효과음. 촬영 자료는 Pexels 개별 조건 적용. 공식 팀·브랜드 광고가 아닙니다.",
+    "external": false
+  },
+  {
+    "id": "pedal-film",
+    "workId": "pedal",
+    "title": "페달 · 리듬이 속도가 되는 순간",
+    "currentVersion": "pedal-musical-full-v6",
+    "versions": [
+      {
+        "id": "pedal-musical-full-v6",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/pedal-musical-full-v6.mp4",
+        "duration": 180,
+        "label": "등록 공개본",
+        "creditsUrl": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/pedal-180-editorial-v4-REPRODUCE.md"
+      }
+    ],
+    "poster": "/images/pedal.webp",
+    "credits": "The Lift — Kevin MacLeod (incompetech.com), CC BY 4.0. 발췌·페이드·음량 편집, 자체 효과음. 서로 다른 라이더의 시각적 비유이며 한 선수의 경기 기록이 아닙니다.",
+    "external": false
+  },
+  {
+    "id": "city-film",
+    "workId": "city",
+    "title": "도시의 맥박",
+    "currentVersion": "city-pulse-180-v4",
+    "versions": [
+      {
+        "id": "city-pulse-180-v4",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/city-pulse-180-v4.mp4",
+        "duration": 180,
+        "label": "등록 공개본",
+        "captions": "/captions/city-pulse-180.vtt",
+        "creditsUrl": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/city-coffee-revision-report.json"
+      }
+    ],
+    "poster": "/images/city.webp",
+    "credits": "The Lift — Kevin MacLeod (incompetech.com), CC BY 4.0. 발췌·페이드·음량·효과음 편집. Pexels 촬영 자료, Natural Earth 지도. 기관 공식 광고나 같은 날의 실제 기록이 아닙니다.",
+    "external": false
+  },
+  {
+    "id": "grandeur-film",
+    "workId": "grandeur",
+    "title": "자동차 · 움직임의 끝까지",
+    "currentVersion": "grandeur-150",
+    "versions": [
+      {
+        "id": "grandeur-150",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/grandeur-150.mp4",
+        "duration": 150,
+        "label": "등록 공개본",
+        "creditsUrl": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/car.html"
+      }
+    ],
+    "poster": "/images/grandeur.webp",
+    "credits": "“Exit the Premises” — Kevin MacLeod (incompetech.com), CC BY 4.0. 구간 편집·144 BPM 템포 조정. 현대자동차가 제작하거나 승인한 광고가 아닌 비공식 연구작입니다.",
+    "external": false
+  },
+  {
+    "id": "book-film",
+    "workId": "book",
+    "title": "책 한 권이 태어나는 시간",
+    "currentVersion": "book",
+    "versions": [
+      {
+        "id": "book",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/book.mp4",
+        "duration": 150,
+        "label": "등록 공개본",
+        "captions": "/captions/book.vtt",
+        "creditsUrl": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#book"
+      }
+    ],
+    "poster": "/images/book.webp",
+    "credits": "Achmage · 직접 제작한 SVG 모션 및 음악·효과음. 세부 제작 정보는 원본 공개 페이지에서 확인할 수 있습니다.",
+    "external": false
+  },
+  {
+    "id": "flight-film",
+    "workId": "flight",
+    "title": "안내표에서 비행까지",
+    "currentVersion": "flight",
+    "versions": [
+      {
+        "id": "flight",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/flight.mp4",
+        "duration": 15,
+        "label": "등록 공개본",
+        "creditsUrl": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#flight"
+      }
+    ],
+    "poster": "/images/flight.webp",
+    "credits": "Achmage · 직접 제작한 SVG 모션 및 음악·효과음. 세부 제작 정보는 원본 공개 페이지에서 확인할 수 있습니다.",
+    "external": false
+  },
+  {
+    "id": "water-film",
+    "workId": "water",
+    "title": "체를 통과하는 물",
+    "currentVersion": "water",
+    "versions": [
+      {
+        "id": "water",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/water.mp4",
+        "duration": 12,
+        "label": "등록 공개본",
+        "creditsUrl": "https://motion-art-director-review-oct05.achmage2.chatgpt.site/experiments.html#water"
+      }
+    ],
+    "poster": "/images/water.webp",
+    "credits": "Achmage · 직접 제작한 SVG 모션 및 음악·효과음. 세부 제작 정보는 원본 공개 페이지에서 확인할 수 있습니다.",
+    "external": false
+  }
+]

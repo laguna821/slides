@@ -1,0 +1,37 @@
+{
+  "name": "achmage-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "tsx scripts/prepare.ts && astro build && tsx scripts/verify-build.ts",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check && tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "content:check": "tsx scripts/prepare.ts --check",
+    "content:import": "tsx scripts/import-html.ts",
+    "brand:build": "tsx scripts/brand-assets.ts",
+    "format": "prettier --write src scripts tests docs content *.json *.mjs README.md"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "26.6.4",
+    "@types/sanitize-html": "2.16.2",
+    "prettier": "3.9.9",
+    "prettier-plugin-astro": "1.1.0",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  },
+  "dependencies": {
+    "astro": "7.3.7",
+    "cheerio": "1.2.0",
+    "marked": "18.1.0",
+    "sanitize-html": "2.18.0",
+    "zod": "4.6.5"
+  }
+}

@@ -1,0 +1,134 @@
+---
+import Base from '../../../layouts/Base.astro';
+import {
+  works,
+  media,
+  usages,
+  kindLabel,
+  formatDate,
+} from '../../../lib/content';
+export function getStaticPaths() {
+  return works
+    .filter((w) => w.kind !== 'motion')
+    .map((work) => ({ params: { slug: work.slug }, props: { work } }));
+}
+const { work } = Astro.props;
+const related = media.filter(
+  (m) =>
+    work.mediaIds.includes(m.id) ||
+    usages.some((u) => u.workId === work.id && u.mediaId === m.id),
+);
+const html = work.artifacts.find(
+  (a) => a.type === 'html' && a.modes.includes('present'),
+);
+const pdf = work.artifacts.find((a) => a.type === 'pdf');
+---
+
+<Base
+  title={work.title}
+  description={work.summary}
+  image={work.poster}
+  noindex={work.seo === 'noindex' || work.visibility !== 'listed'}
+  active="archive"
+>
+  <section class="page-intro page-gutter" data-slide-exempt>
+    <div class="crumb">
+      <a href="/archive/">전체 자료</a>
+      <span>/</span>
+      <span>{kindLabel[work.kind]}</span>
+    </div>
+    <span class="eyebrow">{work.topics.join(' / ')}</span>
+    <h1>{work.title}</h1>
+    <p class="intro-text">{work.summary}</p>
+    <div class="actions">
+      {html && (
+        <a class="button" href={html.url}>
+          발표 시작 ↗
+        </a>
+      )}
+      {work.readingHtml && (
+        <a class="button secondary" href={work.href + 'read/'}>
+          편하게 읽기
+        </a>
+      )}
+      {pdf && (
+        <a class="button secondary" href={pdf.url}>
+          PDF 보기
+        </a>
+      )}
+    </div>
+  </section>
+  <section class="content-section page-gutter" data-slide-exempt>
+    <div class="detail-layout">
+      <div>
+        <img
+          class="detail-image"
+          src={work.poster}
+          alt={work.posterAlt}
+          width="1440"
+          height="810"
+        />
+        <div class="prose">
+          <h2>발표의 흐름</h2>
+          {work.segments.length > 0 ? (
+            <ol>
+              {work.segments.map((s) => (
+                <li>
+                  <a href={work.href + 'read/#' + encodeURIComponent(s.id)}>
+                    {s.title}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <p>{work.summary}</p>
+          )}
+        </div>
+        {related.length > 0 && (
+          <div class="prose">
+            <h2>발표 속 영상 · {related.length}</h2>
+            {related.map((m) => (
+              <p>
+                <a
+                  href={
+                    m.external
+                      ? m.versions.find((v) => v.id === m.currentVersion)!.url
+                      : works.find((w) => w.id === m.workId)!.href
+                  }
+                >
+                  {m.title} ↗
+                </a>
+              </p>
+            ))}
+          </div>
+        )}
+      </div>
+      <aside>
+        <dl>
+          <dt>날짜</dt>
+          <dd>{formatDate(work.date)}</dd>
+          <dt>유형</dt>
+          <dd>{kindLabel[work.kind]}</dd>
+          {work.event && (
+            <>
+              <dt>발표 자리</dt>
+              <dd>{work.event}</dd>
+            </>
+          )}
+          <dt>주제</dt>
+          <dd>{work.topics.join(' · ')}</dd>
+          {work.course && (
+            <>
+              <dt>과목</dt>
+              <dd>
+                <a href={'/courses/' + work.course.id + '/'}>
+                  {work.course.title} ↗
+                </a>
+              </dd>
+            </>
+          )}
+        </dl>
+      </aside>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+.env*
+!.env.example
+.local/
+validation/private/
+src/generated/
+public/catalogue.json
+public/search-index.json
+public/AI_reading_3week_pilot_20261008.html

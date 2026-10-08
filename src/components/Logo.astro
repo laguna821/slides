@@ -1,0 +1,23 @@
+---
+import wordmark from '../lib/brand-wordmark.json';
+import { brandFlowStops } from '../lib/brand';
+const { small = false } = Astro.props;
+const flowId = small ? 'brand-flow-footer' : 'brand-flow-header';
+---
+
+<a class:list={['brand', { small }]} href="/" aria-label="Achmage 홈">
+  <svg viewBox={wordmark.viewBox} aria-hidden="true">
+    <defs>
+      <linearGradient id={flowId} x1="0" y1="0" x2="0.16" y2="1">
+        {brandFlowStops.map(([offset, light, dark]) => (
+          <stop
+            offset={offset}
+            style={`--stop-light:${light};--stop-dark:${dark}`}
+          />
+        ))}
+      </linearGradient>
+    </defs>
+    <path d={wordmark.inkPath} fill="currentColor" fill-rule="evenodd" />
+    <path d={wordmark.flowPath} fill={`url(#${flowId})`} fill-rule="evenodd" />
+  </svg>
+</a>

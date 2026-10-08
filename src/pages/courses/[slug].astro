@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorkCard from '../../components/WorkCard.astro';
+import { listed } from '../../lib/content';
+export function getStaticPaths() {
+  const courses = [
+    ...new Map(
+      listed.filter((w) => w.course).map((w) => [w.course!.id, w.course!]),
+    ).values(),
+  ];
+  return courses.map((course) => ({
+    params: { slug: course.id },
+    props: { course },
+  }));
+}
+const { course } = Astro.props;
+const lectures = listed
+  .filter((w) => w.course?.id === course.id)
+  .sort((a, b) => (a.course?.week || 0) - (b.course?.week || 0));
+---
+
+<Base title={course.title} noindex active="archive">
+  <section class="page-intro page-gutter" data-slide-exempt>
+    <span class="eyebrow">{course.term}</span>
+    <h1>{course.title}</h1>
+    <p class="intro-text">{lectures.length}개의 강의 자료</p>
+  </section>
+  <section class="content-section page-gutter" data-slide-exempt>
+    <div class="archive-grid">
+      {lectures.map((w, i) => (
+        <div>
+          {w.course?.week && <p class="eyebrow">{w.course.week}주차</p>}
+          <WorkCard work={w} index={i} />
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

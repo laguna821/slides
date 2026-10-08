@@ -1,0 +1,139 @@
+---
+import Logo from '../components/Logo.astro';
+import '../styles/global.css';
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  image?: string;
+  active?: string;
+}
+const {
+  title = '교육 · 발표 · 모션 스튜디오',
+  description = '안창현의 발표, 교육 설계, 모션그래픽. 생각을 장면으로 만들고, 다음 작업으로 이어갑니다.',
+  noindex = false,
+  image = '/images/studio-frame.webp',
+  active = '',
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title} — Achmage</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title + ' — Achmage'} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
+    <link
+      rel="preload"
+      href="/fonts/PretendardVariable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script is:inline>
+      try {
+        const saved = localStorage.getItem('achmage-theme');
+        document.documentElement.dataset.theme =
+          saved === 'light' || saved === 'dark'
+            ? saved
+            : matchMedia('(prefers-color-scheme:dark)').matches
+              ? 'dark'
+              : 'light';
+      } catch {
+        document.documentElement.dataset.theme = 'light';
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      본문으로 이동
+    </a>
+    <header class="site-header">
+      <Logo />
+      <nav aria-label="주 메뉴">
+        <a
+          href="/#selected"
+          aria-current={active === 'home' ? 'page' : undefined}
+        >
+          대표작
+        </a>
+        <a
+          href="/archive/"
+          aria-current={active === 'archive' ? 'page' : undefined}
+        >
+          전체 자료
+        </a>
+        <a
+          href="/motion/"
+          aria-current={active === 'motion' ? 'page' : undefined}
+        >
+          Motion
+        </a>
+        <a
+          href="/about/"
+          aria-current={active === 'about' ? 'page' : undefined}
+        >
+          소개
+        </a>
+      </nav>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="어두운 화면으로 전환"
+        title="화면 테마 전환"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          width="20"
+          height="20"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="7" />
+          <path d="M12 5v14" stroke-width="7" />
+        </svg>
+      </button>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div>
+        <Logo small />
+        <p>교육 · 발표 · 모션 스튜디오</p>
+      </div>
+      <p class="footer-statement">
+        만들고, 보여주고.
+        <br />
+        다음 생각으로 이어갑니다.
+      </p>
+      <div class="footer-links">
+        <a href="/archive/">자료 찾아보기 ↗</a>
+        <a
+          href="https://github.com/laguna821/slides"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+        <span>© {new Date().getFullYear()} Achmage · 안창현</span>
+      </div>
+    </footer>
+    <script>
+      import '../scripts/site';
+    </script>
+  </body>
+</html>

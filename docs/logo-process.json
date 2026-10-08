@@ -1,0 +1,19 @@
+{
+  "tool": "image_gen built-in; native SVG paths and gradient finishing",
+  "status": "Revision following explicit no-bend and navy-gradient correction; not recorded as final user approval",
+  "stages": [
+    {
+      "role": "cursive silhouette exploration",
+      "prompt": "Create a beautifully refined integrated calligraphic wordmark for the exact name \"Achmage.\" on a plain light ivory background, wide landscape. Use the attached chosen A symbol at the start: preserve its navy angular A, four-point star above right, and powerful rising teal crossing stroke. CRITICAL: the teal crossing stroke must CONTINUE DIRECTLY INTO THE ACTUAL LOWERCASE CURSIVE LETTERS \"chmage.\" in one continuous handwriting gesture. The stroke BECOMES the connected cursive letterforms themselves. Do NOT draw block uppercase CHMAGE, do NOT draw normal letters with a separate wave across them, do NOT put a decorative underline under a word. The initial icon is the first A, followed seamlessly by lowercase handwritten cursive c-h-m-a-g-e and a period. This must be a coherent one-stroke connected signature-style custom logotype, very legible from far away, crafted with deliberate ink modulation, broad open loops, clear h ascender, unmistakable m/a/g/e, a restrained g descender, fluid joins and subtly sharpened terminals echoing the A. One A star only; no extra flourish loops, no extra stars. Scholarly mage, agile action, elegant knowledge flowing into execution. Clean confident refined contemporary calligraphy, not childish handwriting, not a wedding script. Keep the A identical enough to recognize. Navy #002E6E A; the teal #00B5AD stroke evolves into all the cursive lettering. Flat solid vector-like colors, no gradients, no shadow, no texture, no mockup. Exactly ONE wordmark, large quiet margin, no explanation or labels. All letters must read \"Achmage.\" exactly.",
+      "output": "exec-d131bda7-169d-45fd-a28d-4f4be8545480.png"
+    },
+    {
+      "role": "rising stroke and gradient direction",
+      "prompt": "Create a refined Achmage. logo combining Image 1's EXACT approved A with Image 2's connected lowercase cursive chmage. THE TOP PRIORITY IS IMAGE 1'S A CROSSING STROKE: preserve its confident smooth continuously RISING sweep and sharp forward/upward direction. It must NOT hook, turn down, curl back, form an arch, or bend over to reach c. The prior attempt wrongly turned the A stroke down into c. Do not repeat that. Instead optically align the cursive entry higher and let a fine rising tangent continue the A's original energy naturally into the handwriting; the one-brush feeling comes from the handwriting, not from distorting the A. The stroke should feel like one fluid calligraphic gesture from A through lowercase chmage., with no forced knot or loop at the A/c junction. Preserve legibility of exact \"Achmage.\", not uppercase block letters. Distinct h, m, a, g, e. A's star only, restrained details. COLOR REVISION: the lettering must NOT be solid teal. Use a deeply refined navy-dominant ink gradient blending #002E6E and #0066B3 with subtle limited #00B5AD highlights, around 65% navy/deep blue appearance, 25% blue, 10% teal. Navy initial A. Elegant blue-to-navy-to-teal-to-navy transitions within the flowing handwriting, no rainbow, no glossy 3D. Plain light ivory background, ONE wordmark, wide horizontal, crisp smooth vector-like edges. Knowledge/scholar/mage plus agility/action. No labels, no mockup.",
+      "output": "exec-f9d63c64-7212-4bf1-9b4e-480cb72fc762.png"
+    }
+  ],
+  "vectorSource": "src/lib/brand-wordmark.json",
+  "build": "npm run brand:build",
+  "notes": "The A sweep keeps its rising direction; the lowercase letters are joined internally. A-to-c has optical continuity, not a single physical path. Gradient values live in src/lib/brand.ts."
+}

@@ -1,0 +1,89 @@
+{
+  "motionSourceCommit": "fc8659c6700e47650d39d1747ee1ea8eced59a53",
+  "assets": [
+    {
+      "id": "water",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434037285-09278dfc-bb8f-41e4-99ab-e1e889b1b99d.png",
+      "sha256": "d7f4541bf520e065752fee057df7fb573be7a62f78ed3ba4598e8f087df350b9"
+    },
+    {
+      "id": "flight",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434063450-b8bc6ece-2a3a-492d-8cfc-c59e80cbb065.png",
+      "sha256": "56deab4a7344e40600c66128cb402c0e48032aba4011433a81973d78c244c3cc"
+    },
+    {
+      "id": "book",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434146410-15332065-973f-48b2-b62c-031b106a5d66.png",
+      "sha256": "b2d5ff8983a08daa6d14c77c0e9f2ecfe882b5fbb22269c246addbe1e81d3711"
+    },
+    {
+      "id": "grandeur",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434198335-da71f81f-9501-4c42-bb0c-b83d49754ac2.png",
+      "sha256": "7fa5018bcfe72399f0976b50deb0e13f68659ac495837cab5c5110671abc7faf"
+    },
+    {
+      "id": "city",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434495750-cb005660-d898-4ac2-b6de-281cf6cfa5d7.png",
+      "sha256": "3d1587c1da66105134328d7731c0feec689de84e816c07b023ee847156a695f7"
+    },
+    {
+      "id": "pedal",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434831447-0551758c-d11a-4c72-8668-30fe5f35fe95.png",
+      "sha256": "01454b26e2088a5f23b0e9d5872e7d61d129de034196af073384f5654fb1febc"
+    },
+    {
+      "id": "racing",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791434939704-ce65af43-0463-4803-907d-ce4b1eb20de8.png",
+      "sha256": "4624f36aebfe7f653da504f0a096b8eb4f26cf417a572d206a7918b5a34ab7b2"
+    },
+    {
+      "id": "meal",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791445169872-edbacf86-ac7e-443f-a1c8-5b6353edbf41.png",
+      "sha256": "0f2ca34080fe4d9dd653e0aa32b566a72281bf645908ad723d5252a8936fbbb1"
+    },
+    {
+      "id": "studio-frame",
+      "source": "OpenAI image_gen",
+      "file": "exec-b249013d-1df7-4c9d-88b7-ea956ca13126.png",
+      "generated": "2026-10-08"
+    },
+    {
+      "id": "studio-paper",
+      "source": "OpenAI image_gen",
+      "file": "exec-97f099d1-c12e-4e13-9460-6f869d382fa9.png",
+      "generated": "2026-10-08"
+    },
+    {
+      "id": "meal-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/meal-chef-full180-poster-v2.jpg"
+    },
+    {
+      "id": "racing-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/racing-full180-poster-v1.jpg"
+    },
+    {
+      "id": "pedal-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/pedal-musical-full-v6-poster.jpg"
+    },
+    {
+      "id": "city-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/city-pulse-180-v4-poster.jpg"
+    },
+    {
+      "id": "grandeur-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/grandeur-poster.jpg"
+    },
+    {
+      "id": "book-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/book.png"
+    },
+    {
+      "id": "flight-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/flight.png"
+    },
+    {
+      "id": "water-official-poster",
+      "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/water.png"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorkCard from '../../components/WorkCard.astro';
+import { listed } from '../../lib/content';
+const films = listed.filter((w) => w.kind === 'motion');
+---
+
+<Base title="Motion 작품관" active="motion">
+  <section class="page-intro page-gutter" data-slide-exempt>
+    <span class="eyebrow">MOTION STUDIES</span>
+    <h1>
+      움직임에도,
+      <br />
+      생각의 순서가 있습니다.
+    </h1>
+    <p class="intro-text">
+      대상을 이해하고, 장면을 구성하고, 음악의 호흡을 맞춥니다.
+      <br />
+      하나의 작품에서 다음 발표에 쓸 장면까지.
+    </p>
+  </section>
+  <div class="page-gutter">
+    <div class="filter-chips" role="group" aria-label="작품 분류">
+      <button data-film-filter="all" aria-pressed="true">
+        전체 {films.length}
+      </button>
+      <button data-film-filter="selected" aria-pressed="false">
+        선별 작품 {films.filter((w) => w.status === 'selected').length}
+      </button>
+      <button data-film-filter="study" aria-pressed="false">
+        습작 {films.filter((w) => w.status === 'study').length}
+      </button>
+    </div>
+    <p class="result-count" data-film-count aria-live="polite">
+      {films.length}개 작품
+    </p>
+    <div class="archive-grid" style="padding-top:24px">
+      {films.map((w, i) => (
+        <div data-film-status={w.status}>
+          <WorkCard work={w} index={i} />
+        </div>
+      ))}
+    </div>
+  </div>
+  <script>
+    const buttons =
+      document.querySelectorAll<HTMLButtonElement>('[data-film-filter]');
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => {
+        let count = 0;
+        const filter = b.dataset.filmFilter;
+        document
+          .querySelectorAll<HTMLElement>('[data-film-status]')
+          .forEach((el) => {
+            el.hidden = filter !== 'all' && filter !== el.dataset.filmStatus;
+            if (!el.hidden) count++;
+          });
+        buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        document.querySelector('[data-film-count]')!.textContent =
+          count + '개 작품';
+      }),
+    );
+  </script>
+</Base>
