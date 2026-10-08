@@ -1,6 +1,6 @@
 {
   "tool": "image_gen built-in; native SVG paths and gradient finishing",
-  "status": "Revision following explicit no-bend and navy-gradient correction; not recorded as final user approval",
+  "status": "Updated by explicit user correction: only A crossing arc teal blue; all lettering and star navy.",
   "stages": [
     {
       "role": "cursive silhouette exploration",
@@ -15,5 +15,5 @@
   ],
   "vectorSource": "src/lib/brand-wordmark.json",
   "build": "npm run brand:build",
-  "notes": "The A sweep keeps its rising direction; the lowercase letters are joined internally. A-to-c has optical continuity, not a single physical path. Gradient values live in src/lib/brand.ts."
+  "notes": "Rising A arc unchanged. Lowercase chmage. remains connected cursive. A-to-c is optical continuity. Only arcPath uses #00B5AD; body/lettering/dot/star use #002E6E. Earlier gradient exploration is superseded."
 }

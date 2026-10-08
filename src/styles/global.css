@@ -1527,12 +1527,7 @@ a[target='_blank'] {
   height: auto;
   aspect-ratio: 1574/547;
 }
-.brand stop {
-  stop-color: var(--stop-light);
-}
-:root[data-theme='dark'] .brand stop {
-  stop-color: var(--stop-dark);
-}
+
 @media (max-width: 650px) {
   .site-header .brand svg {
     width: 175px;
@@ -1540,4 +1535,8 @@ a[target='_blank'] {
   .site-footer .brand svg {
     width: 138px;
   }
+}
+
+:root {
+  --brand-accent: #00b5ad;
 }
