@@ -26,7 +26,7 @@ Astro7.3.7 개발 서버는 이 public HTML에 Accept:text/html 요청을404로 
 출시 전 운영 배포: `slides-osw90kzm9-laguna821s-projects.vercel.app`
 Vercel 배포 ID: `AaU5GguXRQtoMzKpagPpmTYsaNaw`
 Git 기준: `99e2c547b7f12c184b0ed8de0f6eca6ec8774e38`
-기존 발표는 제공하지만 홈페이지가 없는 상태다. 신규 미리보기·운영 검증은 실제 배포 후 기록한다.
+기존 발표는 제공하지만 홈페이지가 없는 상태다. 신규 배포 결과는 아래에 기록한다.
 
 ## 남은 연결
 
@@ -35,3 +35,15 @@ Git 기준: `99e2c547b7f12c184b0ed8de0f6eca6ec8774e38`
 삽입 영상 보완: 재생·다시보기 버튼으로 1초 시작, 약3.07초 정지, 다시보기 시1초로 복귀 후 다시 약3.08초 정지. 구간은 첫 정지 후에도 유지된다. 376px에서 버튼·가로 넘침·대비 검사 통과.
 
 강의는 명시적으로 등록한 항목이 없어 빈 상태이며, 폴더를 임의 공개하지 않았다. 새 발표 엔진의 rendererPath/packageSha256가 확정되기 전까지 신규 암호화 노트·발표자 창·엔진 PDF 검증은 보류한다. 도메인 연결은 계획대로 첫 출시 이후다.
+
+## 첫 운영 출시 확인
+
+- 코드: 73895a1b30e809bc70665ed6793c8ef98031ba1a, GitHub main.
+- 미리보기: https://slides-56u8clajn-laguna821s-projects.vercel.app/ (Ready, Vercel 로그인 보호 유지).
+- 운영 배포: https://slides-kxmucedh8-laguna821s-projects.vercel.app/ , ID3uPjc3bqTXjW76MHw5EDwJkWCSn5 (Ready).
+- 운영 별칭: https://achmage-slides.vercel.app/ . 홈·기존 발표·검색·읽기·모션·삽입·로고·자막·사이트맵·검색 JSON 10개 주소 HTTP200.
+- 기존 발표는 108435바이트, 위 SHA256와 일치. 새 홈페이지404 해결.
+- 실제 운영에서 검색/목록 URL 새로고침 유지, Northeastern→읽기#s03 이동(화면 위49.7px), 1–3초 재생 후3.08초 정지 확인.
+- 운영 도메인의 Edge 배율100%에서 정확한 CSS375·768·1440 × 밝음/어두움으로 홈·브랜드12개 조합 검사. 가로 넘침·텍스트 대비 경고·44px 미만 버튼0.
+- 첫 정상 웹사이트 배포를 향후 복구 기준으로 보존. 후속 문서 커밋은 이 코드 검증 결과를 변경하지 않는다.
+- 관련 연구: research:rr-c3a7be96cdea7d16bbcdb248f8aa1be9:13f950b2672709951bd26e9fc9d3ebb4551947ad842adfa5b55d8eca9938e582.

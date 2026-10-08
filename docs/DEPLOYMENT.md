@@ -37,3 +37,5 @@
 현재 MP4는 이미 공개된 주소를 재사용합니다. 필요하면 별도 Cloudflare R2와 미디어 도메인으로 옮기고 기존 버전 참조를 유지합니다. r2.dev 주소를 새 운영용 CDN으로 채택하지 않습니다.
 
 공식 안내: [Astro/Vercel](https://docs.astro.build/en/guides/deploy/vercel/), [Vercel domains](https://vercel.com/docs/domains/working-with-domains/add-a-domain), [Cloudflare DNS](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/), [R2 public buckets](https://developers.cloudflare.com/r2/buckets/public-buckets/).
+
+첫 정상 웹사이트 복구 기준: 커밋73895a1b30e809bc70665ed6793c8ef98031ba1a, 배포3uPjc3bqTXjW76MHw5EDwJkWCSn5, https://slides-kxmucedh8-laguna821s-projects.vercel.app/ . 운영/미리보기 UI 및 원본 바이트 확인 완료. 실제 롤백 실행은 하지 않았다.

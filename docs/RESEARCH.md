@@ -2,7 +2,7 @@
 
 - R005 발표 구성 분석: `research:rr-93a315eb6d796be93a8199e69ae7cdae:ab2f48000ce792b6729a0d131aa0e194c0cb68366ae40681bbf363fc15f7fa90`
 - 모션 제작·사용자 평가 기록: `research:rr-3397c15e1edc811c64a3ad33fcad1780:0783a68532585c96cfe5263246deed947b98de0bf1d1c6a556ff6978f11e805e`
-- 구현 연구 R-001: `research:rr-c3a7be96cdea7d16bbcdb248f8aa1be9:ce75a04284a60666732d27789b0a080a1ca66b395aa81cf5cd53f17289e396e4` (UI 검증 중간 revision; 완료 revision은 검증 결과와 Achmage 작업 기록에 후속 연결)
+- 구현 연구 R-001: `research:rr-c3a7be96cdea7d16bbcdb248f8aa1be9:13f950b2672709951bd26e9fc9d3ebb4551947ad842adfa5b55d8eca9938e582` (첫 운영 출시 검증 revision; 새 엔진 연결은 후속)
 - 검색 원형: achmage-markdown-renderer `6177bf9e57998e1572347eba271ecc5ff70307a3`. 순수 검색 모듈만 사용하고 볼트 탐색·로컬 파일 서버는 포함하지 않습니다.
 - 모션 공개본: Achmage-Skills `fc8659c6700e47650d39d1747ee1ea8eced59a53`. 카드의 공개/대표작 판정은 파일명이나 기술 검증 통과 여부와 구분합니다.
 
