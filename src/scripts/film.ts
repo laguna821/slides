@@ -70,7 +70,14 @@ if (root) {
   video.addEventListener('timeupdate', () => {
     if (range && video.currentTime >= range.end) {
       video.pause();
-      range = null;
+    }
+  });
+  video.addEventListener('play', () => {
+    if (
+      range &&
+      (video.currentTime >= range.end || video.currentTime < range.start)
+    ) {
+      video.currentTime = range.start;
     }
   });
   video.addEventListener('error', () => {

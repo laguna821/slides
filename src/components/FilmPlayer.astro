@@ -21,6 +21,7 @@ const current = film.versions.find((v) => v.id === film.currentVersion)!;
   <div class="film-stage">
     <video
       controls
+      tabindex="0"
       playsinline
       muted
       preload="none"
@@ -43,6 +44,11 @@ const current = film.versions.find((v) => v.id === film.currentVersion)!;
         {formatDuration(current.duration)} / 음악은 플레이어에서 켤 수 있습니다.
       </span>
       <div>
+        {embedded && (
+          <button type="button" data-play-clip>
+            재생 · 다시보기
+          </button>
+        )}
         <button type="button" data-fullscreen>
           전체화면
         </button>{' '}
@@ -56,6 +62,7 @@ const current = film.versions.find((v) => v.id === film.currentVersion)!;
         </a>
       </div>
     </div>
+    {embedded && <p class="clip-message" role="status" aria-live="polite"></p>}
     <p data-film-error hidden role="status">
       영상 연결을 확인해 주세요. 원본 영상 링크에서도 열 수 있습니다.
     </p>
