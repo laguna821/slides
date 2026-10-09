@@ -3,8 +3,9 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
+import experiments from '../content/experiments.json';
 import { workHref } from '../src/lib/schema';
-export const reviewRoutes=[...new Set(['/', '/archive/', '/posters/', ...works.filter(w=>w.visibility!=='draft').map(w=>workHref(w as any))])];
+export const reviewRoutes=[...new Set(['/', '/archive/', '/posters/', ...experiments.items.map(x=>x.path), ...works.filter(w=>w.visibility!=='draft').map(w=>workHref(w as any))])];
 export function canonicalJson(value:any):string {
   if(Array.isArray(value))return '['+value.map(canonicalJson).join(',')+']';
   if(value && typeof value==='object')return '{'+Object.keys(value).sort().map(key=>JSON.stringify(key)+':'+canonicalJson(value[key])).join(',')+'}';
@@ -33,6 +34,7 @@ export function validateReview(review:any,digest:string){
   for(const route of reviewRoutes)
     for(const width of [375,768,1440])for(const theme of ['light','dark'])
       if(!review.views?.some((v:any)=>v.route===route && v.width===width && Math.abs(v.actualWidth-width)<=1 && v.theme===theme && v.overflow===false && v.brokenImages?.length===0))throw Error('화면 검토 누락: '+route+'/'+width+'/'+theme);
+  if(!review.functional?.posterSeries)throw Error('순환 포스터 기능 검토 누락');
   if(!review.functional?.search || !review.functional?.posterFixture || !review.functional?.keyboard)throw Error('기능 검토 누락');
 }
 if(process.argv[1]?.replaceAll('\\','/').endsWith('/release-gate.ts')){
