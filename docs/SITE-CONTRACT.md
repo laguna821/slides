@@ -56,3 +56,11 @@ print.iccProfile은 명시적 CMYK 출력 ICC 경로다. sRGB 입력색을 Littl
 인쇄소 지정 프로파일이 없으면 선택한 출력 조건의 준비본(prepared-cmyk)으로 구분한다. 특정 코팅지 ICC는 모든 출력기의 보편 설정이 아니다. 인쇄소·용지 확인 전 press-approved 또는 PDF/X 인증을 주장하지 않는다. 프로파일이 없으면 RGB 교정본(needs-print-profile)이다. 치수·bleed·폰트·원고·색 연산자·프로파일 해시를 preflight에 남긴다. PDF 1장·HTML 2장 회귀 시험을 필수로 한다.
 
 근거: research:rr-65561c770e1b02b0cdf42f4f70308137:7acc943667de014d9259ad95207ef503f05e547e2e9d56bf05e1e83d83d44603
+
+정책2.4.0 / viewer rc5부터 공유 계약을 강제한다. 이전 고정 출력은 보존한다.
+## PS10 · 모바일 HTML 공유 미리보기
+순환 포스터에도 공유 이미지를 독립 산출한다. 1200×600 RGB PNG와 내용 해시 파일명, 절대 HTTPS canonical/og:url/og:image·제목·설명·이미지 형식/크기/대체텍스트를 초기 head에 넣는다. A2 전체 인쇄 미리보기를 OG로 재사용하지 않는다.
+공개 poster.html은 폰트·PDF를 별도 파일로 제공하고, poster-offline.html은 같은 본문과 PDF를 내장한다. 공개 파일은 share-manifest.json의 명시된 파일·SHA256만 게시한다. 폴더 재귀 복사 금지. 프로젝트 자체 예산은 HTML256KiB/head64KiB/이미지1MiB이며 카카오 공식 크기 제한으로 주장하지 않는다.
+생성→시각 검수→게시→공개 HTML·이미지·폰트 HTTP200/형식/크기/해시 및 canonical 확인을 필수로 한다. 일반 UA와 카카오 UA 응답을 비교하되 실제 카카오 수집 성공과 구분한다. 카카오 metadata debugger 로그인/캐시 확인 또는 실기기 카드 확인 전에는 kakao-preview-verified로 표시하지 않는다. 이미지 변경 시 URL도 해시로 바뀐다. 저장된 미리보기 갱신은 공식 도구 https://developers.kakao.com/tool/debugger/sharing 를 사용하며 메시지는 사용자 요청 없이 발송하지 않는다.
+공유 공개 HTML의 수정이 화면 4초·교차 테마·공통 기하·넓은 모바일 폭·독립 A2 한 장을 바꾸면 안 된다. 종이 엔진은 PS09핀을 유지한다. 기존 legacy 출력은 승인 버전을 유지한다.
+근거: research:rr-5107dcb3a351649bf07c26c031c27256:f34567b4510382c329f5d35224e482d86836b8f685ffb18bd469c51a8ce0c8f5

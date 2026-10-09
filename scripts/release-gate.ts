@@ -46,7 +46,7 @@ export function validateReview(review:any,digest:string){
   for(const route of reviewRoutes)
     for(const width of [375,768,1440])for(const theme of ['light','dark'])
       if(!review.views?.some((v:any)=>v.route===route && v.width===width && Math.abs(v.actualWidth-width)<=1 && v.theme===theme && v.overflow===false && v.brokenImages?.length===0))throw Error('화면 검토 누락: '+route+'/'+width+'/'+theme);
-  for(const item of experiments.items.filter(x=>['1.2.0-rc.3','1.2.0-rc.4'].includes(x.viewerVersion)))validatePosterGeometry(review.posterGeometry,item.path,item.screenScenes!,item.viewerVersion==='1.2.0-rc.4');
+  for(const item of experiments.items.filter(x=>['1.2.0-rc.3','1.2.0-rc.4','1.2.0-rc.5'].includes(x.viewerVersion)))validatePosterGeometry(review.posterGeometry,item.path,item.screenScenes!,['1.2.0-rc.4','1.2.0-rc.5'].includes(item.viewerVersion));
   if(!review.functional?.posterSeries)throw Error('순환 포스터 기능 검토 누락');
   if(!review.functional?.search || !review.functional?.posterFixture || !review.functional?.keyboard)throw Error('기능 검토 누락');
 }
