@@ -1,0 +1,290 @@
+{
+  "pages": 2,
+  "trimMm": [
+    420,
+    594
+  ],
+  "mediaMm": [
+    424,
+    598
+  ],
+  "bleedMm": 2,
+  "marginPreset": "A",
+  "fields": 78,
+  "missingFields": [],
+  "regions": [
+    {
+      "id": "overview",
+      "x": 32.0,
+      "y": 153.2145,
+      "width": 360.0,
+      "height": 19.15344444444445,
+      "withinSafeArea": true,
+      "page": 1
+    },
+    {
+      "id": "gu-structure",
+      "x": 32.0,
+      "y": 179.7179444444444,
+      "width": 175.5,
+      "height": 178.91238888888887,
+      "withinSafeArea": true,
+      "page": 1
+    },
+    {
+      "id": "kim-evaluation",
+      "x": 216.5,
+      "y": 179.7179444444444,
+      "width": 175.5,
+      "height": 178.91238888888887,
+      "withinSafeArea": true,
+      "page": 1
+    },
+    {
+      "id": "program",
+      "x": 32.0,
+      "y": 366.1355555555555,
+      "width": 175.5,
+      "height": 72.94500000000002,
+      "withinSafeArea": true,
+      "page": 1
+    },
+    {
+      "id": "context",
+      "x": 216.5,
+      "y": 366.1355555555555,
+      "width": 175.5,
+      "height": 78.61766666666651,
+      "withinSafeArea": true,
+      "page": 1
+    },
+    {
+      "id": "overview",
+      "x": 32.0,
+      "y": 153.2145,
+      "width": 360.0,
+      "height": 19.15344444444445,
+      "withinSafeArea": true,
+      "page": 2
+    },
+    {
+      "id": "ahn-writing",
+      "x": 32.0,
+      "y": 179.7179444444444,
+      "width": 175.5,
+      "height": 201.3067222222222,
+      "withinSafeArea": true,
+      "page": 2
+    },
+    {
+      "id": "jo-reuse",
+      "x": 216.5,
+      "y": 179.7179444444444,
+      "width": 175.5,
+      "height": 201.3067222222222,
+      "withinSafeArea": true,
+      "page": 2
+    },
+    {
+      "id": "program",
+      "x": 32.0,
+      "y": 388.5298888888889,
+      "width": 175.5,
+      "height": 72.94500000000002,
+      "withinSafeArea": true,
+      "page": 2
+    },
+    {
+      "id": "context",
+      "x": 216.5,
+      "y": 388.5298888888889,
+      "width": 175.5,
+      "height": 78.61766666666651,
+      "withinSafeArea": true,
+      "page": 2
+    }
+  ],
+  "logoStrip": [
+    {
+      "name": "커맨드스페이스",
+      "xMm": 32.0,
+      "widthMm": 53.282023111979164,
+      "heightMm": 13,
+      "gapAfterMm": 12
+    },
+    {
+      "name": "한림대학교",
+      "xMm": 97.28202311197916,
+      "widthMm": 42.915730794270836,
+      "heightMm": 13,
+      "gapAfterMm": 12
+    }
+  ],
+  "printStatus": "needs-print-profile",
+  "colorSpace": "RGB proof; output ICC not provided",
+  "vectorLogos": true,
+  "id": "research-structure",
+  "focus": "01 · 지식 구조와 검증 가능한 평가",
+  "page": 1,
+  "pageAudits": [
+    {
+      "pages": 1,
+      "trimMm": [
+        420,
+        594
+      ],
+      "mediaMm": [
+        424,
+        598
+      ],
+      "bleedMm": 2,
+      "marginPreset": "A",
+      "fields": 39,
+      "missingFields": [],
+      "regions": [
+        {
+          "id": "overview",
+          "x": 32.0,
+          "y": 153.2145,
+          "width": 360.0,
+          "height": 19.15344444444445,
+          "withinSafeArea": true
+        },
+        {
+          "id": "gu-structure",
+          "x": 32.0,
+          "y": 179.7179444444444,
+          "width": 175.5,
+          "height": 178.91238888888887,
+          "withinSafeArea": true
+        },
+        {
+          "id": "kim-evaluation",
+          "x": 216.5,
+          "y": 179.7179444444444,
+          "width": 175.5,
+          "height": 178.91238888888887,
+          "withinSafeArea": true
+        },
+        {
+          "id": "program",
+          "x": 32.0,
+          "y": 366.1355555555555,
+          "width": 175.5,
+          "height": 72.94500000000002,
+          "withinSafeArea": true
+        },
+        {
+          "id": "context",
+          "x": 216.5,
+          "y": 366.1355555555555,
+          "width": 175.5,
+          "height": 78.61766666666651,
+          "withinSafeArea": true
+        }
+      ],
+      "logoStrip": [
+        {
+          "name": "커맨드스페이스",
+          "xMm": 32.0,
+          "widthMm": 53.282023111979164,
+          "heightMm": 13,
+          "gapAfterMm": 12
+        },
+        {
+          "name": "한림대학교",
+          "xMm": 97.28202311197916,
+          "widthMm": 42.915730794270836,
+          "heightMm": 13,
+          "gapAfterMm": 12
+        }
+      ],
+      "printStatus": "needs-print-profile",
+      "colorSpace": "RGB proof; output ICC not provided",
+      "vectorLogos": true,
+      "id": "research-structure",
+      "focus": "01 · 지식 구조와 검증 가능한 평가",
+      "page": 1
+    },
+    {
+      "pages": 1,
+      "trimMm": [
+        420,
+        594
+      ],
+      "mediaMm": [
+        424,
+        598
+      ],
+      "bleedMm": 2,
+      "marginPreset": "A",
+      "fields": 39,
+      "missingFields": [],
+      "regions": [
+        {
+          "id": "overview",
+          "x": 32.0,
+          "y": 153.2145,
+          "width": 360.0,
+          "height": 19.15344444444445,
+          "withinSafeArea": true
+        },
+        {
+          "id": "ahn-writing",
+          "x": 32.0,
+          "y": 179.7179444444444,
+          "width": 175.5,
+          "height": 201.3067222222222,
+          "withinSafeArea": true
+        },
+        {
+          "id": "jo-reuse",
+          "x": 216.5,
+          "y": 179.7179444444444,
+          "width": 175.5,
+          "height": 201.3067222222222,
+          "withinSafeArea": true
+        },
+        {
+          "id": "program",
+          "x": 32.0,
+          "y": 388.5298888888889,
+          "width": 175.5,
+          "height": 72.94500000000002,
+          "withinSafeArea": true
+        },
+        {
+          "id": "context",
+          "x": 216.5,
+          "y": 388.5298888888889,
+          "width": 175.5,
+          "height": 78.61766666666651,
+          "withinSafeArea": true
+        }
+      ],
+      "logoStrip": [
+        {
+          "name": "커맨드스페이스",
+          "xMm": 32.0,
+          "widthMm": 53.282023111979164,
+          "heightMm": 13,
+          "gapAfterMm": 12
+        },
+        {
+          "name": "한림대학교",
+          "xMm": 97.28202311197916,
+          "widthMm": 42.915730794270836,
+          "heightMm": 13,
+          "gapAfterMm": 12
+        }
+      ],
+      "printStatus": "needs-print-profile",
+      "colorSpace": "RGB proof; output ICC not provided",
+      "vectorLogos": true,
+      "id": "research-practice",
+      "focus": "02 · 내 판단을 남기고 지식을 다시 쓰기",
+      "page": 2
+    }
+  ],
+  "composition": "explicit-independent-pages"
+}
