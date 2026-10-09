@@ -12,7 +12,7 @@ export function canonicalJson(value:any):string {
   return JSON.stringify(value);
 }
 export async function releaseManifest(root=process.cwd()) {
-  const files=['package.json','package-lock.json','astro.config.mjs','tsconfig.json','vercel.json','AGENTS.md'];
+  const files=['package.json','package-lock.json','astro.config.mjs','tsconfig.json','vercel.json','AGENTS.md','.gitattributes'];
   const works=JSON.parse(await fs.readFile(path.join(root,'content/works.json'),'utf8'));
   for(const work of works)for(const source of [work.htmlSource,work.markdownSource].filter(Boolean)){
     const absolute=path.resolve(root,source);
@@ -25,7 +25,7 @@ export async function releaseManifest(root=process.cwd()) {
     if((await fs.stat(path.join(root,rel))).isFile())files.push(rel);
   }
   const result:Record<string,string>={};
-  for(const file of [...new Set(files)].sort()){const bytes=await fs.readFile(path.join(root,file));const content=file==='vercel.json'?canonicalJson(JSON.parse(bytes.toString('utf8'))):/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes;result[file]=createHash('sha256').update(content).digest('hex');}
+  for(const file of [...new Set(files)].sort()){const bytes=await fs.readFile(path.join(root,file));const content=file==='vercel.json'?canonicalJson(JSON.parse(bytes.toString('utf8'))):(file==='.gitattributes'||/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file))?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes;result[file]=createHash('sha256').update(content).digest('hex');}
   return result;
 }
 export async function releaseDigest(root=process.cwd()){return createHash('sha256').update(JSON.stringify(await releaseManifest(root))).digest('hex');}

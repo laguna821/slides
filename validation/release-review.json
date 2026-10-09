@@ -1,10 +1,11 @@
 {
   "policyVersion": "2.1.0",
   "status": "passed",
-  "reviewedAt": "2026-10-09T05:17:21.563Z",
+  "reviewedAt": "2026-10-09T05:19:50.203Z",
   "environment": "Windows Edge via cua; measured viewport",
-  "digest": "d73352a2a27af06abd9ab6123b0baf2ac2e6e52f58e9a7a5151902aeac91c7c2",
+  "digest": "c4269853c466c9c724d9b700caf25ea229faa4b148b1a1694a6a23170bbd69cb",
   "sourceFiles": {
+    ".gitattributes": "c97a1babe2375389eb162859d30d0cf63ef8c2e97c0b641d404fee9f674e32d7",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
     "AGENTS.md": "9e7240b93a9f99ce9d826e1f18ca7f3b2f5523d2a4c239aeebff17967f4e0816",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
@@ -72,7 +73,7 @@
     "scripts/experiments.ts": "4090ca6e3a4e5613fc4c54d3ebb6ebed8032c40065cf4c042dee399b22a4b90a",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/prepare.ts": "b8f6b479c24af0d06864f0cc6e15f55cd666b14e1211d18fd26af440f006648b",
-    "scripts/release-gate.ts": "3e63fbf69d4494a6e6ca62a93a6dbb09590104bcfaa3dd79f5c76fc2d0c3c177",
+    "scripts/release-gate.ts": "058a9582329bbe6fecba5d06451b09e9ea1b4f178bb549eb39d834663acf854e",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/verify-build.ts": "73287b19811faea76fbd4829d9a6445713d4e6221cea2204a8d87800d9da839a",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
