@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "AI 시대의 연구 워크플로우\n리캘리브레이션",
   "eyebrow": "Hallym CMDS PKM Conference 2026",
-  "description": "Hallym CMDS PKM Conference 2026. 고정 브랜드 프레임과 순환 장면, 독립 편집한 A2 PDF를 시험하는 과거 행사 리디자인입니다.",
+  "description": "Hallym CMDS PKM Conference 2026. 본문과 상하단 테마가 함께 순환하는 1초 디스플레이와 독립 A2 PDF의 과거 행사 리디자인입니다.",
   "frame": {
     "title": "Hallym CMDS PKM 2026",
     "date": "2026.09.21 · 13–18시",
@@ -137,7 +137,7 @@
         "overview"
       ],
       "theme": "light",
-      "seconds": 15,
+      "seconds": 1,
       "layout": "hero-layout"
     },
     {
@@ -148,7 +148,7 @@
         "kim"
       ],
       "theme": "dark",
-      "seconds": 15
+      "seconds": 1
     },
     {
       "id": "program-pm",
@@ -158,7 +158,7 @@
         "jo"
       ],
       "theme": "dark",
-      "seconds": 15
+      "seconds": 1
     },
     {
       "id": "timetable",
@@ -167,7 +167,7 @@
         "timetable"
       ],
       "theme": "light",
-      "seconds": 15,
+      "seconds": 1,
       "layout": "hero-layout"
     },
     {
@@ -177,7 +177,7 @@
         "attendance"
       ],
       "theme": "light",
-      "seconds": 15,
+      "seconds": 1,
       "layout": "hero-layout"
     }
   ],
@@ -209,21 +209,25 @@
       "source": "https://labs.cmdspace.work/assets/cmds-logo-round.png",
       "provenance": "공식 PNG에서 사용자 요청에 따라 재구성한 벡터; 공식 벡터 원본 아님",
       "method": "vtracer 0.6.15 binary spline",
-      "sha256": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b"
+      "darkProvenance": "사용자 요청으로 심벌 경로를 보존하고 어두운 배경용 색상만 조정한 파생 벡터; 공식 제공 변형 아님",
+      "sha256": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
+      "darkSha256": "53926ed4b4f7be5dc0230b64e828fb0f2fdca43d19e2a2921ee04ea6a7f0872f"
     },
     {
       "name": "한림대학교",
       "role": "주관",
       "source": "https://pr.hallym.ac.kr/hallym/965/subview.do",
       "provenance": "기존 Hallym skill에 보존된 엠블럼 SVG",
-      "sha256": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d"
+      "darkProvenance": "사용자 요청으로 심벌 경로를 보존하고 어두운 배경용 색상만 조정한 파생 벡터; 공식 제공 변형 아님",
+      "sha256": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
+      "darkSha256": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf"
     }
   ],
   "researchRefs": [
     "research:rr-a79e0a3813c14e6338d0409cca2aa1cb:3617a1f4ca7e3a9a8d1e9188456aeae398b74a059947b9617178ddcd58192697",
     "research:rr-440429d8a490ea4b0998cfcd268c3552:743051f81df283c302337f9c87c80443eeffec8c39b998fe6defa04d9de9df82",
     "research:rr-a8e54620b2bfe6102499c8fc0c54b03f:2bcab6c7786c3400c5417b42a8360e3f3c0edb9b5e0134c9ce5ef2bbb409d5a7",
-    "research:rr-c9823a2bf65aba8c19330cf312bb8ace:a91588543c513b93d9a1337cae0c7ddb78dcee396cf9d03d369e7b2af4693a77",
+    "research:rr-c9823a2bf65aba8c19330cf312bb8ace:6ea7dea77489e3013c70d0e37e09e1cb48c3ca76a7f9eb4969ed82c20a945c18",
     "research:rr-744924c66378a0f77d6ad2911d151090:960efe4a8eeaf3e111aaedba134ec952882e6bb66765b5dbcbfb373b50d667a9"
   ]
 }
