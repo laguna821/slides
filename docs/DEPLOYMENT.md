@@ -6,7 +6,7 @@
 
 - Framework: Astro
 - Install: `npm ci`
-- Build: `npm run build`
+- Build: `npm run release:verify`
 - Output: `dist`
 - Production branch: `main`
 - Root directory: 저장소 루트

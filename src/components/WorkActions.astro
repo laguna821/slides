@@ -1,5 +1,7 @@
 ---
 import type { PublicWork } from '../lib/schema';
+import { resources } from '../lib/content';
+import { policy } from '../lib/policy';
 interface Props {
   work: PublicWork;
 }
@@ -8,7 +10,7 @@ const present = work.artifacts.find(
   (a) => a.type === 'html' && a.modes.includes('present'),
 );
 const pdf = work.artifacts.find((a) => a.type === 'pdf');
-const actions =
+const originalActions =
   work.kind === 'motion'
     ? [{ url: work.href + '#watch', label: '영상 감상' }]
     : [
@@ -18,13 +20,21 @@ const actions =
           : []),
         ...(pdf ? [{ url: pdf.url, label: 'PDF 보기' }] : []),
       ];
+const posters=resources.filter(r=>r.workId===work.id || work.resourceIds.includes(r.id));
+const actions = [
+ ...originalActions.filter(a=>a.label!=='PDF 보기'),
+ ...posters.map(r=>({url:work.href+'#poster-'+r.id,label:'포스터 보기'})),
+ ...(work.videoCount && work.kind!=='motion'?[{url:work.href+'#videos',label:'영상 '+work.videoCount+'편'}]:[]),
+ ...work.artifacts.filter(a=>a!==present).map(a=>({url:a.url,label:a.label})),
+];
 ---
 
 <div class="card-actions">
-  {actions.slice(0, 2).map((a) => (
+  {actions.slice(0, policy.cardActions).map((a) => (
     <a href={a.url}>
       {a.label}
       <span aria-hidden="true"> ↗</span>
     </a>
   ))}
+  {actions.length>policy.cardActions && <a href={work.href+'#resources'}>자료 더 보기 ↗</a>}
 </div>

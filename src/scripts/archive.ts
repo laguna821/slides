@@ -33,6 +33,7 @@ if (root) {
   }
   function sync() {
     for (const key of [
+      'resource',
       'q',
       'kind',
       'year',
@@ -42,7 +43,7 @@ if (root) {
     ] as const) {
       const el = form.elements.namedItem(key) as
         HTMLInputElement | HTMLSelectElement;
-      if (el) el.value = state[key];
+      if (el) el.value = state[key] || '';
     }
     grid.dataset.view = state.view;
     root!
@@ -56,7 +57,7 @@ if (root) {
   }
   function read() {
     const f = new FormData(form);
-    for (const key of ['q', 'kind', 'year', 'topic', 'course', 'sort'] as const)
+    for (const key of ['q', 'kind', 'year', 'topic', 'course', 'sort', 'resource'] as const)
       state[key] = String(f.get(key) || '');
   }
   function render(push = false) {
@@ -83,12 +84,21 @@ if (root) {
           link.textContent =
             ' — ' +
             hit.segmentTitle +
-            (hit.entry.segmentKind === 'caption' ? ' 구간 보기' : ' 읽기');
+            (hit.entry.segmentKind === 'caption' ? ' 구간 보기' : hit.entry.segmentKind === 'poster' ? ' 포스터 보기' : ' 읽기');
           line.append(link);
         }
       }
     });
+    grid.querySelectorAll('.month-heading').forEach(el=>el.remove());
+    const byMonth=['latest','oldest'].includes(state.sort || (state.q?'relevance':'latest'));
+    let previousMonth='';
     result.forEach((hit) => {
+      const month=(hit.entry.date||'').slice(0,7);
+      if(byMonth && month!==previousMonth){
+        const h=document.createElement('h2');h.className='month-heading';
+        h.textContent=month.replace('-', '년 ')+'월 · '+result.filter(x=>(x.entry.date||'').startsWith(month)).length;
+        grid.append(h);previousMonth=month;
+      }
       const card = cards.find((c) => c.dataset.workId === hit.entry.workId);
       if (card) grid.append(card);
     });
@@ -148,6 +158,7 @@ if (root) {
     clearTimeout(timer);
     state = {
       q: '',
+      resource: '',
       kind: '',
       year: '',
       topic: '',

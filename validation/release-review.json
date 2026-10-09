@@ -1,0 +1,698 @@
+{
+  "policyVersion": "2.0.0",
+  "digest": "235ae7f95d752da5d17b08c2dee0dfcc44a52f65b74fb0a0b5a58c2687cf2680",
+  "status": "passed",
+  "reviewedAt": "2026-10-09T03:47:30.990Z",
+  "reviewer": "Codex with independent source review",
+  "environment": "Edge desktop; actual widths recorded; 1px viewport rounding; physical mobile not tested",
+  "views": [
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 1440
+    }
+  ],
+  "functional": {
+    "search": true,
+    "posterFixture": true,
+    "keyboard": true
+  },
+  "evidence": [
+    "docs/POLICY2-VALIDATION.md",
+    "validation/private/site-policy2-matrix.json",
+    "validation/private/poster-rc6-matrix.json"
+  ],
+  "sourceFiles": {
+    ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
+    "AGENTS.md": "9e7240b93a9f99ce9d826e1f18ca7f3b2f5523d2a4c239aeebff17967f4e0816",
+    "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
+    "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
+    "content/legacy.json": "0f30406f186315bd9e97e3c1cad2e690cefeac89730260239f63e3f973b8624e",
+    "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
+    "content/resources.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "content/site-policy.json": "ae434e67af6ef125165d5276fcf6b43c060422e0988092516b82a060f8f4bc73",
+    "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "content/works.json": "0550ac134ba9a315429392586fa4a6ca293189545f9d85de3ef9157264c55413",
+    "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
+    "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
+    "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
+    "docs/OPERATIONS.md": "68b5dd01ff9c13c39db17e271ddbee51ac34593bd722f2897a8f68a038342137",
+    "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
+    "docs/POSTER-MASTERPLAN.md": "c9894d200915eb5638e77308da420d04b7a9310031b9e144727b6f97a8e13a42",
+    "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
+    "docs/SITE-CONTRACT.md": "5557bf66a79fe6a53e4989feabb7deec726da36cb4b3959cc9c330a5c19f417a",
+    "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
+    "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
+    "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
+    "docs/image-prompts.json": "2bebf318139125661d9c41b08fe0f7fb74a6437d763d3588ba874c0514de1455",
+    "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
+    "package-lock.json": "5e08920aae04c69452242806f028e2d7d3c3f45d8de865862d7d3b51be7ba861",
+    "package.json": "31cec1ae514684b5ae195edd0db76e0411e398043d775218ec1d7b82e9590ec7",
+    "public/brand/ach-frame-mono.svg": "d167133514a827c35ec861c96e91df6d01f9cca1d57785df636c504329ce0738",
+    "public/brand/ach-frame-reversed.svg": "b0d081887955986c0a3e7a7fadb5f678d202274391c1ce7c77803d9fe6039bb5",
+    "public/brand/ach-frame.svg": "f62509fca977620091d2cd953eb54d8bd3ba116809dd8c4ce0d2fbedfc67a1af",
+    "public/brand/achmage-symbol-mono.svg": "d167133514a827c35ec861c96e91df6d01f9cca1d57785df636c504329ce0738",
+    "public/brand/achmage-symbol-reversed.svg": "b0d081887955986c0a3e7a7fadb5f678d202274391c1ce7c77803d9fe6039bb5",
+    "public/brand/achmage-symbol.svg": "f62509fca977620091d2cd953eb54d8bd3ba116809dd8c4ce0d2fbedfc67a1af",
+    "public/brand/achmage-wordmark-mono.svg": "822c4b5ee641cfa4b0ef7b09084cd9789c9cfcba69f642e673643d126466a391",
+    "public/brand/achmage-wordmark-reversed.svg": "41ab7e6c227b4e2fa72140f1acc41e88d342867115ce612bc63e7b38b6fc7357",
+    "public/brand/achmage-wordmark.svg": "0f2471cdac5bd7c3a0a1b7115536a149cc9434283d62783ba35907add68b7894",
+    "public/brand/favicon.svg": "d18389bf1b5a6ac92ddb33dc06160a7c4f3cbe86fa8d2441bdc52236dd2f17c9",
+    "public/captions/book.vtt": "dd1e351eda609dcdb17d1b9ddf692cf7ea7a16a8880709d5fef9ea44ff2a7bae",
+    "public/captions/city-pulse-180.vtt": "191b5bca4400ce9f97ccdd5529ef6e05b7a4cfa0afea5b5dec7947e09c62488a",
+    "public/fonts/Pretendard-OFL.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+    "public/fonts/PretendardVariable.woff2": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+    "public/images/ai-reading-slide.webp": "cd9d4ef8c3bcb14e064db7942800ae36a01b8c34918646e879c41961bb2d598b",
+    "public/images/book.webp": "bdeb6c9584c76d11247c8639799c99ae7e5d5577c8396fea9b89c7d855342858",
+    "public/images/city.webp": "3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20",
+    "public/images/flight.webp": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
+    "public/images/grandeur.webp": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
+    "public/images/meal.webp": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
+    "public/images/pedal.webp": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
+    "public/images/racing.webp": "269d6f39925fa5abee6c8efc9921d245f006b0931507471ecddc3144a3840cb0",
+    "public/images/studio-frame.webp": "e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374",
+    "public/images/studio-paper.webp": "b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e",
+    "public/images/water.webp": "269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333",
+    "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
+    "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
+    "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
+    "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
+    "scripts/prepare.ts": "5e863be7d801bcbfaee311c0a62e903c516d5cd71b4e6486d098728c1eeefaad",
+    "scripts/release-gate.ts": "8a35940c45af9affc01b65e7506e149ec88f0a36ed3263e297102640541d764e",
+    "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
+    "scripts/verify-build.ts": "b4fe30b367a0c6d402547a8251603e5b60280e6a3f5617dc00a96df5d37be5e5",
+    "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
+    "src/components/Logo.astro": "033a48ccab2f90602cd9089c2045cb01752f31c1bfb9326c65da6590422622d1",
+    "src/components/ProjectResources.astro": "d7fd271bb53b98ccdd1a09b24a7998a95340bae53c96894892a3eb4b9b148123",
+    "src/components/WorkActions.astro": "eb418907c7e8512289479b8586ef7fb3e41c35baae9c4ec4d673a8d5a52151ca",
+    "src/components/WorkCard.astro": "9b455c879de72a15782fe86db7c1a6980fd33ae6a21a9b2889c160a887e6145f",
+    "src/layouts/Base.astro": "97f44cece7856e04f2375fb0ef06a59bba53f17e9e8c45a7e3091bbc8d1d5887",
+    "src/lib/brand-wordmark.json": "b620e2c21fb1a7c9e08770955f07505b4581653af20de9bc4233e7e413de0f68",
+    "src/lib/brand.ts": "cbbc9bc114f730fb711ae27f227b19402fa6ddd5a2123590f0c358c2660c96c6",
+    "src/lib/captions.ts": "9e2d5346f44ba52547d28907abb417548e506ff8532cffb362dadf6217fb9a7a",
+    "src/lib/clip.ts": "44e9c46e514e6e59d75f377a3a22880f6d7b36d1f0c09599ce7c2c51c558fc03",
+    "src/lib/content.ts": "0cdd305aecccef93dcaac06bc87fcba310e9fe0965f1e04e29729094c5ab6c4f",
+    "src/lib/extract.ts": "f115999b6bb0d6da9821314d3e570d088e232865ed6f66e31552fc088c185df9",
+    "src/lib/media-links.ts": "3a4aa49fa2e0f4d229214aef2279a6c9f1cf4218a573cef9bc71832800e4668a",
+    "src/lib/policy.ts": "48acc294917f40aa1723955cc4d1c1833705f664338318dcfd05dc31c354dc0d",
+    "src/lib/schema.ts": "c67dd7f738806e083b509342c1e15b9c51a516187140841485661cdd6b4d516d",
+    "src/lib/search.ts": "eb717cb64a9d8929f3ed72d2b733f2df6e67ec2800ca31a2641eacd760910021",
+    "src/pages/404.astro": "b29e3b4591c9ddf81a1db3ce39e61d79b27f97c613020e68d20997df9f168cf3",
+    "src/pages/about.astro": "949deaf8cbef198fc6c798e620f1557d660459f8d545ee15ad63ca94b8ad9e69",
+    "src/pages/archive.astro": "c38988fa68abb0ea210fa1233d5856abd477755e85cabf192657bb1111f2b883",
+    "src/pages/brand.astro": "57186744b94bff106a8170a00ad20a6343dc6f7ca127b301b8cfe79e712e31e6",
+    "src/pages/courses/[slug].astro": "a19fb0075b118e5b0ce44425a527bf0e8dbb80aa96f484ed8bf42c56beb89fa2",
+    "src/pages/courses/index.astro": "7302b10e23fcb7f099c2efd95a79a1f134977ab46b2600f5a6fdd89268890e68",
+    "src/pages/index.astro": "0bd827eb546c99ed9cb057496743640753437dfcfa6fdf125028f791fc19f070",
+    "src/pages/motion/[slug]/embed.astro": "713da30715255ccfa759b5364561d6136d6f59a87efd9824d19647e95e6828c0",
+    "src/pages/motion/[slug]/index.astro": "8a116e3636de77718f0f4666c26f32a1c1c49628c4357feb575988b43eb09672",
+    "src/pages/motion/index.astro": "5f1b6a7fa20800aee1607e1fb6514e1ee003106b1c5e361c96c716601a80e432",
+    "src/pages/posters/index.astro": "ca370817c09c1ebf52bb88afa43803388f3e8a5bbdebddf32d1ceef4590b16a8",
+    "src/pages/sitemap.xml.ts": "8616da4029a1d7fc1619b0c4ed398978a1f92cd68c33b9c4566f1da19f3bc5f7",
+    "src/pages/talks/[slug]/index.astro": "ae4be63e75b4d0a2fa6314927e8465c5a2bb5798a2ab4fafc5fd119efe0f2f39",
+    "src/pages/talks/[slug]/read.astro": "132c7dfcc947ebcec3097223732c1a85f0ef1570be06ca39c628e8a640e2555f",
+    "src/pages/videos.astro": "02f8dcbaa37599160eda841b22035dde8d09f4f15ab7c89931294fe958fd7aa7",
+    "src/scripts/archive.ts": "e79aee65c3647f576f69211245dde026009ebdc07ec1e0d7a8a1eac0c614ad5c",
+    "src/scripts/film.ts": "d1b1486976cd1538de7dc84cd094343ecc2e4258e06587843a067c587bcee1ad",
+    "src/scripts/site.ts": "5cd2be0d94b8e3947a65d88ecdd6ac17740c3f8df2110c9a4d04e29522919473",
+    "src/styles/global.css": "f4d4ed842ae95a77a5e9e009bd7978876049451576882bd598c7f5e4c12c851b",
+    "src/vendor/home-search.ts": "400cebce8e60936460aee9cc5d6841a2665bf625f5fc82c223388a06c3439425",
+    "src/vendor/types.ts": "5b203a6d5b57a8a4cb9998141b6afd8beec01c4f718124980180aa9695b00c74",
+    "tests/as-regression.test.ts": "e8a27f05a5f79aa69aff136c3b89ebc7c8d92d2929f0d471e1a30754a859537e",
+    "tests/content.test.ts": "b017f6b6b96448e16ac84587ad9e0e1898360586deae55c9e51b84ea31cc30de",
+    "tests/governance.test.ts": "14552cbe92dadcec7b1d53c668cf6e2020fa6c1339301a812f7247c513048fa9",
+    "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
+    "vercel.json": "86f7a84faec0d68811e9b4528937514bae4faa29bc6d49809774814a632cc869"
+  }
+}

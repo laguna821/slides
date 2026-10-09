@@ -1,5 +1,6 @@
 import data from '../generated/content.json';
-import type { PublicWork, Media, Usage } from './schema';
+import type { PublicWork, Media, Usage, Resource } from './schema';
+export const resources = data.resources as Resource[];
 export const works = data.works as PublicWork[];
 export const media = data.media as Media[];
 export const usages = data.usages as Usage[];
@@ -12,6 +13,7 @@ export const kindLabel: Record<string, string> = {
   lecture: '강의',
   motion: '모션',
   note: '기록',
+  poster: '포스터',
 };
 export const formatDate = (d: string) => d.replaceAll('-', '.');
 export const formatDuration = (n?: number) =>

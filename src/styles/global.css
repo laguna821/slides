@@ -2113,3 +2113,12 @@ a[target='_blank'] {
     font-size: 36px;
   }
 }
+/* Project bundles and portrait artifacts — site policy 2.0. */
+.month-heading { grid-column:1/-1; margin:24px 0 4px; font-size:20px; padding-bottom:12px; border-bottom:1px solid var(--line); }
+.catalogue-status { font-size:13px; line-height:1.6; color:var(--muted); margin-top:20px; }
+.resources-section { padding-bottom:70px; }
+.poster-gallery { display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:32px; }
+.poster-preview { width:100%;max-height:640px;object-fit:contain;object-position:top;background:var(--surface); }
+.poster-resource { display:grid;grid-template-columns:minmax(120px,240px) 1fr;gap:24px;margin:32px 0;scroll-margin-top:110px; }
+.poster-resource .actions { flex-wrap:wrap; }
+@media(max-width:650px){.poster-resource{grid-template-columns:1fr}.poster-preview{max-height:500px}.card-actions{flex-wrap:wrap}.month-heading{font-size:18px}}

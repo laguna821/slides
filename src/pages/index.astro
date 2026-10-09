@@ -42,6 +42,7 @@ const recent = [...listed]
         <a href="/archive/?kind=talk">발표자료 보기 ↗</a>
         <a href="/motion/">모션 감상하기 ↗</a>
       </div>
+      <p class="catalogue-status">공개 프로젝트 {listed.length}개 · 최근 등록 {[...listed].map(w=>w.registeredAt||w.date).sort().at(-1)?.replaceAll("-", ".")}</p>
       <p class="studio-signature">생각을 장면으로.</p>
     </div>
     <div id="selected" class="home-featured">

@@ -1,4 +1,5 @@
 ---
+import { policy } from '../lib/policy';
 import Logo from '../components/Logo.astro';
 import '../styles/global.css';
 interface Props {
@@ -61,32 +62,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     </a>
     <header class="site-header">
       <Logo />
-      <nav aria-label="주 메뉴">
-        <a
-          href="/#selected"
-          aria-current={active === 'home' ? 'page' : undefined}
-        >
-          대표작
-        </a>
-        <a
-          href="/archive/"
-          aria-current={active === 'archive' ? 'page' : undefined}
-        >
-          전체 자료
-        </a>
-        <a
-          href="/motion/"
-          aria-current={active === 'motion' ? 'page' : undefined}
-        >
-          Motion
-        </a>
-        <a
-          href="/about/"
-          aria-current={active === 'about' ? 'page' : undefined}
-        >
-          소개
-        </a>
-      </nav>
+      <nav aria-label="주 메뉴">{policy.navigation.map(item=><a href={item.href} aria-current={active===item.active?'page':undefined}>{item.label}</a>)}</nav>
       <button
         class="theme-toggle"
         type="button"

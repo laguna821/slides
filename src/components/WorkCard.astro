@@ -36,10 +36,10 @@ const duration = film?.versions.find(
         {formatDate(w.date)}
       </span>
     </div>
+    {(w.event || w.audience) && <p class="card-context">{[w.event,w.audience].filter(Boolean).join(" · ")}</p>}
     <h3>
       <a href={w.href}>{w.title}</a>
     </h3>
-    {w.audience && <p class="card-context">{w.audience}</p>}
     <p class="card-summary">{w.summary}</p>
     {large && w.featuredReason && (
       <p class="selection-reason">{w.featuredReason}</p>

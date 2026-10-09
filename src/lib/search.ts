@@ -13,8 +13,10 @@ export type SearchEntry = HomeSearchEntry & {
   course: string;
   segmentTitle?: string;
   segmentKind?: string;
+  hasPoster?: boolean;
 };
 export type Filters = {
+  resource?: string;
   q: string;
   kind: string;
   year: string;
@@ -24,6 +26,7 @@ export type Filters = {
   view: string;
 };
 export const defaultFilters: Filters = {
+  resource: '',
   q: '',
   kind: '',
   year: '',
@@ -35,7 +38,7 @@ export const defaultFilters: Filters = {
 export function readFilters(params: URLSearchParams): Filters {
   const out = { ...defaultFilters };
   for (const key of Object.keys(out) as (keyof Filters)[])
-    out[key] = params.get(key) || out[key];
+    out[key] = params.get(key) || out[key] || '';
   out.view = out.view === 'list' ? 'list' : 'grid';
   out.sort = ['latest', 'oldest', 'title', 'relevance'].includes(out.sort)
     ? out.sort
@@ -64,6 +67,7 @@ export function makeSearchEntries(works: PublicWork[]): SearchEntry[] {
         inlineTags: [],
         originalOrder: i,
         workId: w.id,
+        hasPoster: w.segments.some(s=>s.kind==='poster'),
         href: w.href,
         kind: w.kind,
         topics: w.topics,
@@ -78,7 +82,7 @@ export function makeSearchEntries(works: PublicWork[]): SearchEntry[] {
           title: w.title + ' · ' + s.title,
           plainBody: s.text,
           href:
-            s.kind === 'caption'
+            s.kind === 'caption' || s.kind === 'poster'
               ? s.href
               : w.href + 'read/#' + encodeURIComponent(s.id),
           segmentKind: s.kind || 'slide',
@@ -90,6 +94,7 @@ export function makeSearchEntries(works: PublicWork[]): SearchEntry[] {
 export function runSearch(entries: SearchEntry[], filters: Filters) {
   const selected = entries.filter(
     (e) =>
+      (!filters.resource || (filters.resource==='poster' && e.hasPoster)) &&
       (!filters.kind || e.kind === filters.kind) &&
       (!filters.year || e.year === filters.year) &&
       (!filters.topic || e.topics.includes(filters.topic)) &&

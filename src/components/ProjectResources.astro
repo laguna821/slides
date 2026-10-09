@@ -1,0 +1,13 @@
+---
+import { resources } from '../lib/content';
+import type { PublicWork } from '../lib/schema';
+interface Props {work:PublicWork}
+const {work}=Astro.props;
+const posters=resources.filter(r=>r.workId===work.id || work.resourceIds.includes(r.id));
+---
+<div id="resources" class="prose">
+<h2>제공 자료</h2>
+{work.artifacts.length>0 && <ul>{work.artifacts.map(a=><li><a href={a.url}>{a.label} ↗</a> <small>{a.type.toUpperCase()} · {a.version}</small></li>)}</ul>}
+{posters.map(r=>{const v=r.versions.find(v=>v.id===r.currentVersion)!;return <article id={'poster-'+r.id} class="poster-resource"><a href={v.html}><img class="poster-preview" src={r.preview} alt={r.previewAlt} loading="lazy" /></a><div><h3>{r.title}</h3><p>{r.summary}</p><div class="actions"><a class="button secondary" href={v.html}>포스터 보기 ↗</a>{v.pdf&&<a class="button secondary" href={v.pdf}>PDF</a>}{v.image&&<a href={v.image}>이미지</a>}</div><small>버전 {v.id}</small></div></article>})}
+{work.kind==='motion' && !posters.length && <p>영상은 위에서 감상하고 구간을 선택할 수 있습니다.</p>}
+</div>
