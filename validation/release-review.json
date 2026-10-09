@@ -1,0 +1,596 @@
+{
+  "policyVersion": "2.0.0",
+  "digest": "4aff089a2e9136c8d4b64c57f58c6a4d66a7ea660f56c480a25e383d0157a28b",
+  "status": "passed",
+  "reviewedAt": "2026-10-09T03:42:39.452Z",
+  "reviewer": "Codex with independent source review",
+  "environment": "Edge desktop; actual widths recorded; 1px viewport rounding; physical mobile not tested",
+  "views": [
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/archive/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/posters/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/meal/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/racing/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/pedal/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/city/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/grandeur/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/book/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/flight/",
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "actualWidth": 374,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "actualWidth": 767,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "route": "/motion/water/",
+      "theme": "dark",
+      "width": 1440
+    }
+  ],
+  "functional": {
+    "search": true,
+    "posterFixture": true,
+    "keyboard": true
+  },
+  "evidence": [
+    "docs/POLICY2-VALIDATION.md",
+    "validation/private/site-policy2-matrix.json",
+    "validation/private/poster-rc6-matrix.json"
+  ]
+}

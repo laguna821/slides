@@ -1,5 +1,6 @@
 ---
 import { usageHref } from '../../../lib/media-links';
+import ProjectResources from '../../../components/ProjectResources.astro';
 import Base from '../../../layouts/Base.astro';
 import {
   works,
@@ -23,6 +24,7 @@ const html = work.artifacts.find(
   (a) => a.type === 'html' && a.modes.includes('present'),
 );
 const pdf = work.artifacts.find((a) => a.type === 'pdf');
+const outline=work.segments.filter(s=>s.kind!=='poster');
 ---
 
 <Base
@@ -42,8 +44,7 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf');
     <h1>{work.title}</h1>
     <p class="intro-text">{work.summary}</p>
     <p class="detail-context">
-      {work.audience}
-      {work.event && <> · {work.event}</>} · {formatDate(work.date)}
+      {[work.audience,work.event,formatDate(work.date)].filter(Boolean).join(' · ')}
     </p>
     <div class="actions">
       {html && (
@@ -83,11 +84,11 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf');
             </ul>
           </div>
         )}
-        <div class="prose">
+        {outline.length > 0 && <div class="prose">
           <h2>발표의 흐름</h2>
           {work.segments.length > 0 ? (
             <ol>
-              {work.segments.map((s) => (
+              {outline.map((s) => (
                 <li>
                   <a href={work.href + 'read/#' + encodeURIComponent(s.id)}>
                     {s.title}
@@ -98,10 +99,10 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf');
           ) : (
             <p>{work.summary}</p>
           )}
-        </div>
+        </div>}
         {related.length > 0 && (
           <div class="prose">
-            <h2>발표 속 영상 · {related.length}</h2>
+            <h2 id="videos">발표 속 영상 · {related.length}</h2>
             {related.flatMap((m) => {
               const recorded = usages.filter(
                 (u) => u.workId === work.id && u.mediaId === m.id,
@@ -165,4 +166,5 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf');
       </aside>
     </div>
   </section>
+<section class="page-gutter resources-section"><ProjectResources work={work} /></section>
 </Base>

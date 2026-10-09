@@ -1,5 +1,6 @@
 ---
 import { slideHref } from '../../../lib/media-links';
+import ProjectResources from '../../../components/ProjectResources.astro';
 import Base from '../../../layouts/Base.astro';
 import FilmPlayer from '../../../components/FilmPlayer.astro';
 import { works, media, usages, formatDate } from '../../../lib/content';
@@ -74,4 +75,5 @@ const related = usages
       </p>
     </div>
   </section>
+<section class="page-gutter resources-section"><ProjectResources work={work} /></section>
 </Base>

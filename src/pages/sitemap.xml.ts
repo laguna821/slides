@@ -6,6 +6,7 @@ export const GET: APIRoute = () => {
     '/archive/',
     '/motion/',
     '/videos/',
+    '/posters/',
     '/about/',
     ...works
       .filter((w) => w.visibility === 'listed' && w.seo === 'index')

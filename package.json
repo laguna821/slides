@@ -15,7 +15,8 @@
     "content:check": "tsx scripts/prepare.ts --check",
     "content:import": "tsx scripts/import-html.ts",
     "brand:build": "tsx scripts/brand-assets.ts",
-    "format": "prettier --write src scripts tests docs content *.json *.mjs README.md"
+    "format": "prettier --write src scripts tests docs content *.json *.mjs README.md",
+    "release:verify": "npm run build && npm run check && npm test && tsx scripts/release-gate.ts"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

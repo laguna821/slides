@@ -25,6 +25,7 @@ const courses = [
     <div class="subnav">
       {courses.length > 0 && <a href="/courses/">과목별 강의</a>}
       <a href="/videos/">영상 모아보기</a>
+      <a href="/posters/">포스터 모아보기</a>
     </div>
   </section>
   <div class="page-gutter" data-archive>
@@ -54,6 +55,7 @@ const courses = [
         </button>
       </label>
       <div class="filters">
+        <label class="filter-field">포함 자료<select name="resource"><option value="">모든 자료</option><option value="poster">포스터 포함</option></select></label>
         <label class="filter-field">
           자료 유형
           <select name="kind">

@@ -3,7 +3,12 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
+import { localAssetPath, rejectDraftResource } from './resource-files';
 const raw = JSON.parse(await fs.readFile('content/works.json', 'utf8'));
+const resources = JSON.parse(await fs.readFile('content/resources.json','utf8'));
+for(const r of resources.filter((r:any)=>raw.find((w:any)=>w.id===r.workId)?.visibility==='draft')){
+  await rejectDraftResource('dist',r);
+}
 const baseline = JSON.parse(await fs.readFile('content/legacy.json', 'utf8'));
 const sitemap = await fs.readFile('dist/sitemap.xml', 'utf8');
 const search = await fs.readFile('dist/search-index.json', 'utf8');
@@ -23,7 +28,7 @@ for (const w of raw) {
     for (const a of w.artifacts)
       if (a.url.startsWith('/'))
         await assert.rejects(
-          fs.access('dist' + a.url),
+          fs.access(localAssetPath('dist',a.url)!),
           'Draft asset must not be shipped',
         );
   }
