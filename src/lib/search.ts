@@ -12,6 +12,7 @@ export type SearchEntry = HomeSearchEntry & {
   year: string;
   course: string;
   segmentTitle?: string;
+  segmentKind?: string;
 };
 export type Filters = {
   q: string;
@@ -76,7 +77,11 @@ export function makeSearchEntries(works: PublicWork[]): SearchEntry[] {
           slug: w.id + ':' + s.id,
           title: w.title + ' · ' + s.title,
           plainBody: s.text,
-          href: w.href + 'read/#' + encodeURIComponent(s.id),
+          href:
+            s.kind === 'caption'
+              ? s.href
+              : w.href + 'read/#' + encodeURIComponent(s.id),
+          segmentKind: s.kind || 'slide',
           segmentTitle: s.title,
         })),
       ];

@@ -22,6 +22,15 @@ export const workSchema = z
     title: z.string().min(1),
     summary: z.string().min(1),
     date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    dateKind: z.enum(['published', 'registered']).default('published'),
+    registeredAt: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/)
+      .optional(),
+    audience: z.string().optional(),
+    takeaways: z.array(z.string()).default([]),
+    productionNote: z.string().optional(),
+    featuredReason: z.string().optional(),
     kind: z.enum(['talk', 'lecture', 'motion', 'note']),
     topics: z.array(z.string()).min(1),
     visibility: z.enum(['listed', 'unlisted', 'draft']),
@@ -93,7 +102,13 @@ export const usageSchema = z
 export type Work = z.infer<typeof workSchema>;
 export type Media = z.infer<typeof mediaSchema>;
 export type Usage = z.infer<typeof usageSchema>;
-export type Segment = { id: string; title: string; text: string; href: string };
+export type Segment = {
+  id: string;
+  title: string;
+  text: string;
+  href: string;
+  kind?: 'slide' | 'caption';
+};
 export type PublicWork = Omit<
   Work,
   'htmlSource' | 'markdownSource' | 'provenance'

@@ -1,131 +1,69 @@
 ---
 import Base from '../layouts/Base.astro';
 import WorkCard from '../components/WorkCard.astro';
-import { featured, listed, media } from '../lib/content';
-const listedMedia = media.filter((m) => listed.some((w) => w.id === m.workId));
+import { featured, listed } from '../lib/content';
 const recent = [...listed]
-  .sort((a, b) => b.date.localeCompare(a.date))
+  .sort((a, b) =>
+    (b.registeredAt || b.date).localeCompare(a.registeredAt || a.date),
+  )
   .filter((w) => !w.featuredOrder)
   .slice(0, 4);
 ---
 
 <Base active="home">
-  <section class="hero page-gutter" data-slide-exempt>
-    <div class="hero-topline">
-      <span>ACHMAGE / INDEPENDENT STUDIO</span>
-      <span class="status-line">
-        <i></i> 계속 만드는 중
-      </span>
-    </div>
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">교육 · 발표 · 모션</p>
-        <h1>
-          생각을
-          <br />
-          <span>장면으로.</span>
-        </h1>
-        <p class="hero-description">
-          배움을 설계하고, 이야기를 발표하고,
-          <br class="desktop-br" /> 움직이는 이미지로 생각을 확장합니다.
-        </p>
-        <a class="text-link" href="#selected">
-          선별한 작업 보기 <span aria-hidden="true">↘</span>
-        </a>
-      </div>
-      <figure class="hero-figure">
-        <img
-          src="/images/studio-frame.webp"
-          alt="햇빛을 받는 열린 금속 프레임과 푸른 유리, 접힌 종이의 스튜디오 구성"
-          width="1536"
-          height="1024"
-          fetchpriority="high"
-        />
-        <figcaption>
-          <span>01 / FRAME STUDY</span>
-          <span>생각의 틀을 열어두기</span>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="hero-baseline">
-      <span>안창현의 작업과 실험</span>
-      <span>PRESENTATIONS &nbsp; / &nbsp; LEARNING &nbsp; / &nbsp; MOTION</span>
-      <span aria-hidden="true">↓</span>
-    </div>
-  </section>
-  <section id="selected" class="selected-section page-gutter" data-slide-exempt>
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">SELECTED WORKS / 01</span>
-        <h2>지금, 보여드릴 작업.</h2>
-      </div>
-      <a class="text-link" href="/archive/">
-        전체 자료 <span aria-hidden="true">↗</span>
-      </a>
-    </div>
-    <div class="selected-grid">
-      {featured.map((w, i) => (
-        <WorkCard work={w} index={i} large />
-      ))}
-    </div>
-  </section>
-  <section
-    id="motion-studies"
-    class="motion-band page-gutter"
-    data-slide-exempt
-  >
-    <div class="motion-band-copy">
-      <span class="eyebrow">MOTION / 02</span>
-      <h2>
-        말로 설명하던 것을,
+  <section class="studio-opening page-gutter" data-slide-exempt>
+    <div class="studio-intro">
+      <p class="eyebrow">ACHMAGE · 안창현의 교육 · 발표 · 모션</p>
+      <h1>
+        교육을 설계하고,
         <br />
-        움직임으로.
-      </h2>
-      <p>
-        물의 흐름에서 도시의 리듬까지.
-        <br />
-        이미지와 소리로 풀어낸 {listedMedia.length}개의 실험을 만나보세요.
+        발표와 모션으로
+        <br class="desktop-break" /> 전합니다.
+      </h1>
+      <p class="studio-description">
+        안창현의 발표자료와 모션 작업을 모았습니다. 발표는 웹에서 읽거나
+        슬라이드로 보고, 모션은 감상하며 필요한 구간을 찾아볼 수 있습니다.
       </p>
-      <a class="button light" href="/motion/">
-        Motion 작품관 <span aria-hidden="true">↗</span>
-      </a>
-    </div>
-    <a class="motion-triptych" href="/motion/" aria-label="모션 작품관 열기">
-      <img
-        src="/images/city.webp"
-        alt="도시의 맥박 장면"
-        width="960"
-        height="540"
-        loading="lazy"
-      />
-      <img
-        src="/images/book.webp"
-        alt="책 한 권이 태어나는 시간 장면"
-        width="960"
-        height="540"
-        loading="lazy"
-      />
-      <img
-        src="/images/racing.webp"
-        alt="RACING LAB 장면"
-        width="960"
-        height="540"
-        loading="lazy"
-      />
-      <span class="round-arrow" aria-hidden="true">
-        ↗
-      </span>
-    </a>
-  </section>
-  <section id="recent" class="recent-section page-gutter" data-slide-exempt>
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">FIELD NOTES / 03</span>
-        <h2>쌓여가는 실험.</h2>
+      <form class="home-search" action="/archive/" role="search">
+        <label class="sr-only" for="home-q">
+          자료 검색
+        </label>
+        <input
+          id="home-q"
+          name="q"
+          type="search"
+          placeholder="제목·본문·자막으로 찾기"
+        />
+        <button type="submit" aria-label="자료 검색">
+          검색 ↗
+        </button>
+      </form>
+      <div class="home-routes">
+        <a href="/archive/?kind=talk">발표자료 보기 ↗</a>
+        <a href="/motion/">모션 감상하기 ↗</a>
       </div>
-      <a class="text-link" href="/archive/">
-        아카이브 탐색 <span aria-hidden="true">↗</span>
-      </a>
+      <p class="studio-signature">생각을 장면으로.</p>
+    </div>
+    <div id="selected" class="home-featured">
+      <div class="compact-section-head">
+        <h2>먼저 만나볼 작업</h2>
+        <a href="/archive/">전체 자료 ↗</a>
+      </div>
+      <div class="featured-pair">
+        {featured.map((w, i) => (
+          <WorkCard work={w} index={i} large />
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="recent-section page-gutter" data-slide-exempt>
+    <div class="compact-section-head">
+      <div>
+        <span class="eyebrow">RECENT ADDITIONS</span>
+        <h2>최근 등록한 작업</h2>
+        <p>작은 실험도 다음 작업의 재료가 되도록 남깁니다.</p>
+      </div>
+      <a href="/archive/">자료 더 보기 ↗</a>
     </div>
     <div class="recent-grid">
       {recent.map((w, i) => (
@@ -133,15 +71,17 @@ const recent = [...listed]
       ))}
     </div>
   </section>
-  <section id="about-studio" class="about-strip page-gutter" data-slide-exempt>
+  <section class="about-strip page-gutter" data-slide-exempt>
     <span class="eyebrow">ABOUT ACHMAGE</span>
-    <p>
-      가르치는 사람의 질문과
-      <br />
-      만드는 사람의 실행 사이에서.
-    </p>
+    <div>
+      <h2>가르치며 묻고, 만들며 확인합니다.</h2>
+      <p>
+        AI 활용 읽기 수업을 설계하고, 움직이는 이미지로 설명하는 방법을
+        실험합니다. 작업의 의도와 과정을 함께 남깁니다.
+      </p>
+    </div>
     <a class="text-link" href="/about/">
-      스튜디오 소개 <span aria-hidden="true">↗</span>
+      안창현의 작업 방식 ↗
     </a>
   </section>
 </Base>

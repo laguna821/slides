@@ -10,7 +10,9 @@ import {
   isPublished,
   type PublicWork,
 } from '../src/lib/schema';
-import { extractHtml, renderMarkdown, vttText } from '../src/lib/extract';
+import { extractHtml, renderMarkdown } from '../src/lib/extract';
+import { parseVtt } from '../src/lib/captions';
+import { clipHref } from '../src/lib/media-links';
 import { makeSearchEntries } from '../src/lib/search';
 const root = process.cwd();
 const read = async (p: string) =>
@@ -64,14 +66,24 @@ for (const w of works.filter(isPublished)) {
       w.mediaIds.includes(m.id) ||
       usages.some((u: any) => u.workId === w.id && u.mediaId === m.id),
   );
-  for (const m of related) {
+  for (const m of related.filter((m) => m.workId === w.id && !m.external)) {
     for (const v of m.versions) {
       if (v.captions?.startsWith('/')) {
-        body +=
-          ' ' +
-          vttText(
-            await fs.readFile(path.join(root, 'public', v.captions), 'utf8'),
-          );
+        const cues = parseVtt(
+          await fs.readFile(path.join(root, 'public', v.captions), 'utf8'),
+        );
+        body += ' ' + cues.map((c) => c.text).join(' ');
+        for (const cue of cues) {
+          if (v.duration && cue.end > v.duration)
+            throw Error('Caption exceeds video duration: ' + m.id);
+          segments.push({
+            id: m.id + ':' + v.id + ':' + cue.id,
+            title: cue.start + '–' + cue.end + '초',
+            text: cue.text,
+            href: clipHref(w.slug, v.id, cue.start, cue.end),
+            kind: 'caption',
+          });
+        }
       }
     }
   }

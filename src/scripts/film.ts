@@ -1,3 +1,4 @@
+import { embedCode } from '../lib/media-links';
 import type { Media } from '../lib/schema';
 import { validateClip } from '../lib/clip';
 const root = document.querySelector<HTMLElement>('[data-film-player]');
@@ -5,6 +6,8 @@ if (root) {
   const video = root.querySelector<HTMLVideoElement>('video')!;
   const versions = JSON.parse(root.dataset.versions!) as Media['versions'];
   const params = new URLSearchParams(location.search);
+  const reuse = root.querySelector<HTMLDetailsElement>('.reuse-details');
+  if (reuse && (params.has('start') || params.has('end'))) reuse.open = true;
   const current =
     versions.find((v) => v.id === params.get('v')) ||
     versions.find((v) => v.id === root.dataset.currentVersion)!;
@@ -147,12 +150,10 @@ if (root) {
         let value = base.href;
         if (button.dataset.copy === 'embed') {
           base.pathname += 'embed/';
-          value =
-            '<iframe src="' +
-            base.href.replaceAll('&', '&amp;') +
-            '" title="' +
-            video.getAttribute('aria-label')!.replaceAll('"', '&quot;') +
-            '" width="960" height="540" loading="lazy" allow="fullscreen" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>';
+          value = embedCode(
+            base.href,
+            video.getAttribute('aria-label') || '영상',
+          );
         }
         if (button.dataset.copy === 'json')
           value = JSON.stringify(

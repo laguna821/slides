@@ -1,0 +1,30 @@
+---
+import type { PublicWork } from '../lib/schema';
+interface Props {
+  work: PublicWork;
+}
+const { work } = Astro.props;
+const present = work.artifacts.find(
+  (a) => a.type === 'html' && a.modes.includes('present'),
+);
+const pdf = work.artifacts.find((a) => a.type === 'pdf');
+const actions =
+  work.kind === 'motion'
+    ? [{ url: work.href + '#watch', label: '영상 감상' }]
+    : [
+        ...(present ? [{ url: present.url, label: '슬라이드 보기' }] : []),
+        ...(work.readingHtml
+          ? [{ url: work.href + 'read/', label: '읽기' }]
+          : []),
+        ...(pdf ? [{ url: pdf.url, label: 'PDF 보기' }] : []),
+      ];
+---
+
+<div class="card-actions">
+  {actions.slice(0, 2).map((a) => (
+    <a href={a.url}>
+      {a.label}
+      <span aria-hidden="true"> ↗</span>
+    </a>
+  ))}
+</div>

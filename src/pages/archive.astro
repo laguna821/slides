@@ -16,16 +16,14 @@ const courses = [
 ---
 
 <Base title="전체 자료" active="archive">
-  <section class="page-intro page-gutter" data-slide-exempt>
+  <section class="page-intro archive-intro page-gutter" data-slide-exempt>
     <span class="eyebrow">THE ARCHIVE</span>
-    <h1>다음 생각의 재료.</h1>
+    <h1>전체 자료</h1>
     <p class="intro-text">
-      발표, 강의, 움직이는 이미지.
-      <br />
-      제목부터 본문과 자막까지, 필요한 장면을 찾아보세요.
+      발표 본문과 영상 자막에서 필요한 내용을 찾아보세요.
     </p>
     <div class="subnav">
-      <a href="/courses/">과목별 강의</a>
+      {courses.length > 0 && <a href="/courses/">과목별 강의</a>}
       <a href="/videos/">영상 모아보기</a>
     </div>
   </section>
@@ -65,43 +63,50 @@ const courses = [
             ))}
           </select>
         </label>
-        <label class="filter-field">
-          연도
-          <select name="year">
-            <option value="">모든 연도</option>
-            {years.map((y) => (
-              <option value={y}>{y}</option>
-            ))}
-          </select>
-        </label>
-        <label class="filter-field">
-          주제
-          <select name="topic">
-            <option value="">모든 주제</option>
-            {topics.map((t) => (
-              <option value={t}>{t}</option>
-            ))}
-          </select>
-        </label>
-        <label class="filter-field">
-          과목
-          <select name="course">
-            <option value="">모든 과목</option>
-            {courses.map((c) => (
-              <option value={c.id}>{c.title}</option>
-            ))}
-          </select>
-        </label>
-        <label class="filter-field">
-          정렬
-          <select name="sort">
-            <option value="">자동 · 검색 시 관련도순</option>
-            <option value="latest">최신순</option>
-            <option value="oldest">오래된순</option>
-            <option value="title">제목순</option>
-            <option value="relevance">관련도순</option>
-          </select>
-        </label>
+        <details class="advanced-filters">
+          <summary>상세 필터</summary>
+          <div class="advanced-fields">
+            <label class="filter-field">
+              연도
+              <select name="year">
+                <option value="">모든 연도</option>
+                {years.map((y) => (
+                  <option value={y}>{y}</option>
+                ))}
+              </select>
+            </label>
+            <label class="filter-field">
+              주제
+              <select name="topic">
+                <option value="">모든 주제</option>
+                {topics.map((t) => (
+                  <option value={t}>{t}</option>
+                ))}
+              </select>
+            </label>
+            {courses.length > 0 && (
+              <label class="filter-field">
+                과목
+                <select name="course">
+                  <option value="">모든 과목</option>
+                  {courses.map((c) => (
+                    <option value={c.id}>{c.title}</option>
+                  ))}
+                </select>
+              </label>
+            )}
+            <label class="filter-field">
+              정렬
+              <select name="sort">
+                <option value="">자동 · 검색 시 관련도순</option>
+                <option value="latest">최신순</option>
+                <option value="oldest">오래된순</option>
+                <option value="title">제목순</option>
+                <option value="relevance">관련도순</option>
+              </select>
+            </label>
+          </div>
+        </details>
         <button type="reset" class="clear-filters">
           조건 초기화
         </button>

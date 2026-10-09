@@ -6,13 +6,17 @@
     "summary": "AI와 함께 읽되, 판단과 설명은 학습자의 것으로. 더 나은 교양교육을 위한 3주간의 수업 운영안.",
     "date": "2026-10-08",
     "kind": "talk",
-    "topics": ["AI 교육", "읽기", "교양교육"],
+    "topics": [
+      "AI 교육",
+      "읽기",
+      "교양교육"
+    ],
     "visibility": "listed",
     "seo": "index",
     "status": "selected",
     "featuredOrder": 1,
-    "poster": "/images/studio-paper.webp",
-    "posterAlt": "책과 트레이싱 페이퍼, 금속 프레임을 놓은 작업대",
+    "poster": "/images/ai-reading-slide.webp",
+    "posterAlt": "3주 AI 활용 읽기 파일럿의 실제 표지 슬라이드",
     "body": "AI 활용 읽기 파일럿 운영안. 핵심 이해, 질문, 검증, 설명과 평가를 연결하는 교육 설계.",
     "htmlSource": "AI_reading_3week_pilot_20261008.html",
     "event": "AI 활용 더 나은 교양교육 연구 TF",
@@ -22,10 +26,21 @@
         "url": "/AI_reading_3week_pilot_20261008.html",
         "label": "발표 시작",
         "version": "2026-10-08",
-        "modes": ["present", "read"]
+        "modes": [
+          "present",
+          "read"
+        ]
       }
     ],
-    "mediaIds": []
+    "mediaIds": [],
+    "registeredAt": "2026-10-08",
+    "dateKind": "published",
+    "audience": "AI 활용 읽기 수업을 설계하는 교수자",
+    "takeaways": [
+      "원문 근거를 찾고 AI 요약의 누락·과장을 확인하는 3주 활동",
+      "학생의 판단·근거·수정 기록과 교수자 운영 기준"
+    ],
+    "featuredReason": "교수자의 질문을 실제 수업 운영안으로 연결한 발표."
   },
   {
     "id": "meal",
@@ -34,7 +49,11 @@
     "summary": "고르는 눈, 준비, 타이밍, 불의 강약, 마지막 조절. 빠른 손을 움직이는 판단을 보여주고, 완전한 문장을 여러 컷에 걸쳐 이어갑니다.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["기획", "실사 + 그래픽", "음악과 편집"],
+    "topics": [
+      "기획",
+      "실사 + 그래픽",
+      "음악과 편집"
+    ],
     "visibility": "listed",
     "seo": "index",
     "status": "selected",
@@ -51,8 +70,14 @@
         "modes": []
       }
     ],
-    "mediaIds": ["meal-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#meal"
+    "mediaIds": [
+      "meal-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#meal",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "고르는 눈, 준비, 타이밍, 불의 강약, 마지막 조절. 빠른 손을 움직이는 판단을 보여주고, 완전한 문장을 여러 컷에 걸쳐 이어갑니다.\n\n180초 / 89컷 / 실사 + 정밀 그래픽",
+    "featuredReason": "판단과 타이밍을 요리 장면과 음악으로 풀어낸 3분 모션."
   },
   {
     "id": "racing",
@@ -61,7 +86,11 @@
     "summary": "질주·제동·코너·재가속. 빠른 편집과 긴 호흡을 대비하고, 화면 착지와 실제 음악 타격의 관계를 교정한 가상 레이싱 콘셉트입니다.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "topics": [
+      "실사 + 그래픽",
+      "음악과 편집",
+      "모션 실험"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -77,8 +106,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["racing-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#racing"
+    "mediaIds": [
+      "racing-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#racing",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "질주·제동·코너·재가속. 빠른 편집과 긴 호흡을 대비하고, 화면 착지와 실제 음악 타격의 관계를 교정한 가상 레이싱 콘셉트입니다.\n\n180초 / 116컷 / 음악 + 주행 + 효과음"
   },
   {
     "id": "pedal",
@@ -87,7 +121,11 @@
     "summary": "발에서 구동계로, 바퀴에서 노면과 방향으로. 음악의 반복 묶음과 쉼·재진입을 따라 편집한 공개본입니다.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "topics": [
+      "실사 + 그래픽",
+      "음악과 편집",
+      "모션 실험"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -103,8 +141,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["pedal-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#pedal"
+    "mediaIds": [
+      "pedal-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#pedal",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "발에서 구동계로, 바퀴에서 노면과 방향으로. 음악의 반복 묶음과 쉼·재진입을 따라 편집한 공개본입니다.\n\n180초 / 음악 묶음·착지 교정판"
   },
   {
     "id": "city",
@@ -113,7 +156,11 @@
     "summary": "깨어남·이동·질서·연결·숨·밤·사람. 서울과 부산의 촬영 자료에 정밀 그래픽을 연결하고, 휴식 장면의 소리와 행동의 연결을 수정했습니다.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "topics": [
+      "실사 + 그래픽",
+      "음악과 편집",
+      "모션 실험"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -129,8 +176,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["city-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#city"
+    "mediaIds": [
+      "city-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#city",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "깨어남·이동·질서·연결·숨·밤·사람. 서울과 부산의 촬영 자료에 정밀 그래픽을 연결하고, 휴식 장면의 소리와 행동의 연결을 수정했습니다.\n\n180초 / 한국 도시 실사 + SVG·타이포"
   },
   {
     "id": "grandeur",
@@ -139,7 +191,11 @@
     "summary": "직접 작성한 차량 형상, 빠른 컷, 가속·마찰 효과음. 정지와 함께 음악이 끝나고 로고 효과음만 남는 엔딩까지.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["실사 + 그래픽", "음악과 편집", "모션 실험"],
+    "topics": [
+      "실사 + 그래픽",
+      "음악과 편집",
+      "모션 실험"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -155,8 +211,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["grandeur-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#car"
+    "mediaIds": [
+      "grandeur-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#car",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "직접 작성한 차량 형상, 빠른 컷, 가속·마찰 효과음. 정지와 함께 음악이 끝나고 로고 효과음만 남는 엔딩까지.\n\n150초 / 46컷 / 공간 카메라 + SVG"
   },
   {
     "id": "book",
@@ -165,7 +226,11 @@
     "summary": "원고·교정·조판·CMYK·인쇄·접기·실 제본·표지·독서. 새로운 작곡과 효과음으로 이어지는 한 권의 이야기.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "topics": [
+      "모션 실험",
+      "SVG",
+      "설명 디자인"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -181,8 +246,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["book-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#book"
+    "mediaIds": [
+      "book-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#book",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "원고·교정·조판·CMYK·인쇄·접기·실 제본·표지·독서. 새로운 작곡과 효과음으로 이어지는 한 권의 이야기.\n\n150초 / 12개 시퀀스 / SVG"
   },
   {
     "id": "flight",
@@ -191,7 +261,11 @@
     "summary": "안내표의 같은 편명과 목적지가 세계지도·항로·비행기로 연결됩니다.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "topics": [
+      "모션 실험",
+      "SVG",
+      "설명 디자인"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -207,8 +281,13 @@
         "modes": []
       }
     ],
-    "mediaIds": ["flight-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#flight"
+    "mediaIds": [
+      "flight-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#flight",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "안내표의 같은 편명과 목적지가 세계지도·항로·비행기로 연결됩니다.\n\n15초 / SVG / 가상 여행 브랜드"
   },
   {
     "id": "water",
@@ -217,7 +296,11 @@
     "summary": "유입관에서 체의 단면으로, 남은 입자와 통과한 물에서 배출관으로. 내용을 실제 행동으로 보여주는 실험.",
     "date": "2026-10-08",
     "kind": "motion",
-    "topics": ["모션 실험", "SVG", "설명 디자인"],
+    "topics": [
+      "모션 실험",
+      "SVG",
+      "설명 디자인"
+    ],
     "visibility": "listed",
     "seo": "noindex",
     "status": "study",
@@ -233,7 +316,12 @@
         "modes": []
       }
     ],
-    "mediaIds": ["water-film"],
-    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#water"
+    "mediaIds": [
+      "water-film"
+    ],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/fc8659c6700e47650d39d1747ee1ea8eced59a53/Video-Production/examples/motion-art-director/index.html#water",
+    "registeredAt": "2026-10-08",
+    "dateKind": "registered",
+    "productionNote": "유입관에서 체의 단면으로, 남은 입자와 통과한 물에서 배출관으로. 내용을 실제 행동으로 보여주는 실험.\n\n12초 / SVG / 설명용 원리 모형"
   }
 ]

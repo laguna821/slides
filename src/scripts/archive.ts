@@ -17,7 +17,11 @@ if (root) {
   let state = readFilters(new URLSearchParams(location.search));
   if (!new URLSearchParams(location.search).has('view')) {
     try {
-      if (localStorage.getItem('achmage-view') === 'list') {
+      const preference = localStorage.getItem('achmage-view');
+      if (
+        preference === 'list' ||
+        (!preference && matchMedia('(max-width: 650px)').matches)
+      ) {
         state.view = 'list';
         history.replaceState(
           null,
@@ -76,7 +80,10 @@ if (root) {
         if (hit.segmentTitle) {
           const link = document.createElement('a');
           link.href = hit.href;
-          link.textContent = ' — ' + hit.segmentTitle + ' 읽기';
+          link.textContent =
+            ' — ' +
+            hit.segmentTitle +
+            (hit.entry.segmentKind === 'caption' ? ' 구간 보기' : ' 읽기');
           line.append(link);
         }
       }
@@ -99,6 +106,8 @@ if (root) {
         history.pushState(null, '', next);
     }
   }
+  if (state.year || state.topic || state.course || state.sort)
+    root.querySelector<HTMLDetailsElement>('.advanced-filters')!.open = true;
   sync();
   fetch('/search-index.json')
     .then((r) => {

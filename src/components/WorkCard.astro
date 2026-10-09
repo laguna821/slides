@@ -1,12 +1,17 @@
 ---
-import { kindLabel, formatDate } from '../lib/content';
+import { kindLabel, formatDate, media, formatDuration } from '../lib/content';
+import WorkActions from './WorkActions.astro';
 import type { PublicWork } from '../lib/schema';
 interface Props {
   work: PublicWork;
   index?: number;
   large?: boolean;
 }
-const { work: w, index = 0, large = false } = Astro.props;
+const { work: w, large = false } = Astro.props;
+const film = media.find((m) => m.workId === w.id);
+const duration = film?.versions.find(
+  (v) => v.id === film.currentVersion,
+)?.duration;
 ---
 
 <article class:list={['work-card', { large }]} data-work-id={w.id}>
@@ -16,14 +21,9 @@ const { work: w, index = 0, large = false } = Astro.props;
       alt={w.posterAlt}
       width="1440"
       height="810"
-      loading="lazy"
+      loading={large ? 'eager' : 'lazy'}
     />
-    <span class="image-corner" aria-hidden="true">
-      {w.kind === 'motion' ? '↗' : '↗'}
-    </span>
-    <span class="work-number" aria-hidden="true">
-      {String(index + 1).padStart(2, '0')}
-    </span>
+    {duration && <span class="duration-badge">{formatDuration(duration)}</span>}
   </a>
   <div class="work-info">
     <div class="work-meta">
@@ -31,17 +31,20 @@ const { work: w, index = 0, large = false } = Astro.props;
         {kindLabel[w.kind]}
         {w.status === 'study' ? ' · 습작' : ''}
       </span>
-      <span>{formatDate(w.date)}</span>
+      <span>
+        {w.dateKind === 'registered' ? '등록 ' : ''}
+        {formatDate(w.date)}
+      </span>
     </div>
     <h3>
       <a href={w.href}>{w.title}</a>
     </h3>
-    <p>{w.summary}</p>
-    <div class="work-tags">
-      {w.topics.slice(0, 3).map((t) => (
-        <span>{t}</span>
-      ))}
-    </div>
+    {w.audience && <p class="card-context">{w.audience}</p>}
+    <p class="card-summary">{w.summary}</p>
+    {large && w.featuredReason && (
+      <p class="selection-reason">{w.featuredReason}</p>
+    )}
+    <WorkActions work={w} />
     <p class="search-match" hidden></p>
   </div>
 </article>
