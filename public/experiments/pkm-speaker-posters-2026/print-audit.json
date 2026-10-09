@@ -1,5 +1,5 @@
 {
-  "pages": 2,
+  "pages": 1,
   "trimMm": [
     420,
     594
@@ -10,98 +10,64 @@
   ],
   "bleedMm": 2,
   "marginPreset": "A",
-  "fields": 78,
+  "fields": 60,
   "missingFields": [],
   "regions": [
     {
       "id": "overview",
       "x": 32.0,
-      "y": 153.2145,
+      "y": 138.50416666666663,
       "width": 360.0,
-      "height": 19.15344444444445,
-      "withinSafeArea": true,
-      "page": 1
+      "height": 16.23244444444444,
+      "withinSafeArea": true
     },
     {
       "id": "gu-structure",
       "x": 32.0,
-      "y": 179.7179444444444,
+      "y": 162.0866111111111,
       "width": 175.5,
-      "height": 178.91238888888887,
-      "withinSafeArea": true,
-      "page": 1
+      "height": 129.25538888888894,
+      "withinSafeArea": true
     },
     {
       "id": "kim-evaluation",
       "x": 216.5,
-      "y": 179.7179444444444,
+      "y": 162.0866111111111,
       "width": 175.5,
-      "height": 178.91238888888887,
-      "withinSafeArea": true,
-      "page": 1
-    },
-    {
-      "id": "program",
-      "x": 32.0,
-      "y": 366.1355555555555,
-      "width": 175.5,
-      "height": 72.94500000000002,
-      "withinSafeArea": true,
-      "page": 1
-    },
-    {
-      "id": "context",
-      "x": 216.5,
-      "y": 366.1355555555555,
-      "width": 175.5,
-      "height": 78.61766666666651,
-      "withinSafeArea": true,
-      "page": 1
-    },
-    {
-      "id": "overview",
-      "x": 32.0,
-      "y": 153.2145,
-      "width": 360.0,
-      "height": 19.15344444444445,
-      "withinSafeArea": true,
-      "page": 2
+      "height": 129.25538888888894,
+      "withinSafeArea": true
     },
     {
       "id": "ahn-writing",
       "x": 32.0,
-      "y": 179.7179444444444,
+      "y": 298.8472222222222,
       "width": 175.5,
-      "height": 201.3067222222222,
-      "withinSafeArea": true,
-      "page": 2
+      "height": 145.8077222222223,
+      "withinSafeArea": true
     },
     {
       "id": "jo-reuse",
       "x": 216.5,
-      "y": 179.7179444444444,
+      "y": 298.8472222222222,
       "width": 175.5,
-      "height": 201.3067222222222,
-      "withinSafeArea": true,
-      "page": 2
+      "height": 145.8077222222223,
+      "withinSafeArea": true
     },
     {
       "id": "program",
       "x": 32.0,
-      "y": 388.5298888888889,
+      "y": 452.16016666666656,
       "width": 175.5,
-      "height": 72.94500000000002,
-      "withinSafeArea": true,
-      "page": 2
+      "height": 60.28733333333332,
+      "withinSafeArea": true
     },
     {
       "id": "context",
       "x": 216.5,
-      "y": 388.5298888888889,
+      "y": 452.16016666666656,
       "width": 175.5,
-      "height": 78.61766666666651,
-      "withinSafeArea": true,
-      "page": 2
+      "height": 65.95999999999981,
+      "withinSafeArea": true
     }
   ],
   "logoStrip": [
@@ -120,171 +86,22 @@
       "gapAfterMm": 12
     }
   ],
-  "printStatus": "needs-print-profile",
-  "colorSpace": "RGB proof; output ICC not provided",
+  "printStatus": "prepared-cmyk",
+  "colorSpace": "ICC-managed CMYK",
+  "outputProfile": {
+    "name": "Japan Color 2001 Coated",
+    "sha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+    "assumption": "Printer/stock must confirm this output condition; not PDF/X certification"
+  },
   "vectorLogos": true,
-  "id": "research-structure",
-  "focus": "01 · 지식 구조와 검증 가능한 평가",
-  "page": 1,
-  "pageAudits": [
-    {
-      "pages": 1,
-      "trimMm": [
-        420,
-        594
-      ],
-      "mediaMm": [
-        424,
-        598
-      ],
-      "bleedMm": 2,
-      "marginPreset": "A",
-      "fields": 39,
-      "missingFields": [],
-      "regions": [
-        {
-          "id": "overview",
-          "x": 32.0,
-          "y": 153.2145,
-          "width": 360.0,
-          "height": 19.15344444444445,
-          "withinSafeArea": true
-        },
-        {
-          "id": "gu-structure",
-          "x": 32.0,
-          "y": 179.7179444444444,
-          "width": 175.5,
-          "height": 178.91238888888887,
-          "withinSafeArea": true
-        },
-        {
-          "id": "kim-evaluation",
-          "x": 216.5,
-          "y": 179.7179444444444,
-          "width": 175.5,
-          "height": 178.91238888888887,
-          "withinSafeArea": true
-        },
-        {
-          "id": "program",
-          "x": 32.0,
-          "y": 366.1355555555555,
-          "width": 175.5,
-          "height": 72.94500000000002,
-          "withinSafeArea": true
-        },
-        {
-          "id": "context",
-          "x": 216.5,
-          "y": 366.1355555555555,
-          "width": 175.5,
-          "height": 78.61766666666651,
-          "withinSafeArea": true
-        }
-      ],
-      "logoStrip": [
-        {
-          "name": "커맨드스페이스",
-          "xMm": 32.0,
-          "widthMm": 53.282023111979164,
-          "heightMm": 13,
-          "gapAfterMm": 12
-        },
-        {
-          "name": "한림대학교",
-          "xMm": 97.28202311197916,
-          "widthMm": 42.915730794270836,
-          "heightMm": 13,
-          "gapAfterMm": 12
-        }
-      ],
-      "printStatus": "needs-print-profile",
-      "colorSpace": "RGB proof; output ICC not provided",
-      "vectorLogos": true,
-      "id": "research-structure",
-      "focus": "01 · 지식 구조와 검증 가능한 평가",
-      "page": 1
-    },
-    {
-      "pages": 1,
-      "trimMm": [
-        420,
-        594
-      ],
-      "mediaMm": [
-        424,
-        598
-      ],
-      "bleedMm": 2,
-      "marginPreset": "A",
-      "fields": 39,
-      "missingFields": [],
-      "regions": [
-        {
-          "id": "overview",
-          "x": 32.0,
-          "y": 153.2145,
-          "width": 360.0,
-          "height": 19.15344444444445,
-          "withinSafeArea": true
-        },
-        {
-          "id": "ahn-writing",
-          "x": 32.0,
-          "y": 179.7179444444444,
-          "width": 175.5,
-          "height": 201.3067222222222,
-          "withinSafeArea": true
-        },
-        {
-          "id": "jo-reuse",
-          "x": 216.5,
-          "y": 179.7179444444444,
-          "width": 175.5,
-          "height": 201.3067222222222,
-          "withinSafeArea": true
-        },
-        {
-          "id": "program",
-          "x": 32.0,
-          "y": 388.5298888888889,
-          "width": 175.5,
-          "height": 72.94500000000002,
-          "withinSafeArea": true
-        },
-        {
-          "id": "context",
-          "x": 216.5,
-          "y": 388.5298888888889,
-          "width": 175.5,
-          "height": 78.61766666666651,
-          "withinSafeArea": true
-        }
-      ],
-      "logoStrip": [
-        {
-          "name": "커맨드스페이스",
-          "xMm": 32.0,
-          "widthMm": 53.282023111979164,
-          "heightMm": 13,
-          "gapAfterMm": 12
-        },
-        {
-          "name": "한림대학교",
-          "xMm": 97.28202311197916,
-          "widthMm": 42.915730794270836,
-          "heightMm": 13,
-          "gapAfterMm": 12
-        }
-      ],
-      "printStatus": "needs-print-profile",
-      "colorSpace": "RGB proof; output ICC not provided",
-      "vectorLogos": true,
-      "id": "research-practice",
-      "focus": "02 · 내 판단을 남기고 지식을 다시 쓰기",
-      "page": 2
-    }
-  ],
-  "composition": "explicit-independent-pages"
+  "preflight": {
+    "embeddedFonts": [
+      "/AAAAAA+Pretendard-Bold",
+      "/AAAAAA+Pretendard-ExtraBold",
+      "/AAAAAA+Pretendard-Regular",
+      "/AAAAAB+Pretendard-Regular"
+    ],
+    "rgbOperators": 0,
+    "cmykOperators": 405
+  }
 }

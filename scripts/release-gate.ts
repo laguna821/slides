@@ -29,7 +29,7 @@ export async function releaseManifest(root=process.cwd()) {
   return result;
 }
 export async function releaseDigest(root=process.cwd()){return createHash('sha256').update(JSON.stringify(await releaseManifest(root))).digest('hex');}
-export function validatePosterGeometry(rows:any,route:string,pageCount:number){
+export function validatePosterGeometry(rows:any,route:string,pageCount:number,requireMobileWidth=false){
  if(!Number.isInteger(pageCount)||pageCount<1)throw Error('Poster page count missing');
  for(const width of [375,768,1440])for(const theme of ['light','dark']){
   const row=rows?.find((r:any)=>r.route===route&&r.width===width&&r.theme===theme);
@@ -38,6 +38,7 @@ export function validatePosterGeometry(rows:any,route:string,pageCount:number){
    ||row.sameScale!==true||row.sameLogicalWidth!==true||row.clipped!==0
    ||!['boxMaxDelta','headingMaxDelta','factsMaxDelta'].every(k=>Number.isFinite(row[k])&&row[k]>=0&&row[k]<=.5))
    throw Error('순환 장 사이 기하 검토 누락/불일치: '+route+'/'+width+'/'+theme);
+  if(requireMobileWidth&&width===375&&(!Number.isFinite(row.actualHeight)||row.actualHeight<row.actualWidth||!Number.isFinite(row.minContentWidthRatio)||row.minContentWidthRatio<.9||row.minContentWidthRatio>1))throw Error('모바일 포스터 본문 가로 점유율 검토 실패: '+route+'/'+theme);
  }
 }
 export function validateReview(review:any,digest:string){
@@ -45,7 +46,7 @@ export function validateReview(review:any,digest:string){
   for(const route of reviewRoutes)
     for(const width of [375,768,1440])for(const theme of ['light','dark'])
       if(!review.views?.some((v:any)=>v.route===route && v.width===width && Math.abs(v.actualWidth-width)<=1 && v.theme===theme && v.overflow===false && v.brokenImages?.length===0))throw Error('화면 검토 누락: '+route+'/'+width+'/'+theme);
-  for(const item of experiments.items.filter(x=>x.viewerVersion==='1.2.0-rc.3'))validatePosterGeometry(review.posterGeometry,item.path,item.screenScenes!);
+  for(const item of experiments.items.filter(x=>['1.2.0-rc.3','1.2.0-rc.4'].includes(x.viewerVersion)))validatePosterGeometry(review.posterGeometry,item.path,item.screenScenes!,item.viewerVersion==='1.2.0-rc.4');
   if(!review.functional?.posterSeries)throw Error('순환 포스터 기능 검토 누락');
   if(!review.functional?.search || !review.functional?.posterFixture || !review.functional?.keyboard)throw Error('기능 검토 누락');
 }
