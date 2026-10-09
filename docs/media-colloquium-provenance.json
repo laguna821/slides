@@ -1,0 +1,243 @@
+{
+  "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/Slide_6-10-2026_dark.html",
+  "sourceCommit": "9b9e9e718cbaa55ac672ce7e8492c5aed913bb95",
+  "slides": 58,
+  "engine": {
+    "name": "Legacy inline 1920x1080 Dark Brutalist",
+    "rendererPath": "public/decks/media-colloquium-2026-06-10/index.html",
+    "inlineRendererSha256": "8ad5235834b150be11d90ced18b72c2ff9ad750c27f2dc4cc623500c0701e27b",
+    "packageSha256": null,
+    "reason": "No historical package receipt. Existing HTML and inline renderer pinned; no engine migration."
+  },
+  "files": [
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/index.html",
+      "url": "/decks/media-colloquium-2026-06-10/index.html",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/Slide_6-10-2026_dark.html",
+      "sha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0",
+      "bytes": 71626
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/1_1693_952px.png",
+      "sha256": "9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c",
+      "bytes": 728943
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/2_1691_949px.png",
+      "sha256": "12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb",
+      "bytes": 1418172
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/3_1693_948px.png",
+      "sha256": "1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308",
+      "bytes": 867380
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/4_1697_940px.png",
+      "sha256": "e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e",
+      "bytes": 1424729
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/5_1695_949px.png",
+      "sha256": "4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4",
+      "bytes": 926039
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/6_1698_947px.png",
+      "sha256": "f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719",
+      "bytes": 826413
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/7_1684_952px.png",
+      "sha256": "418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264",
+      "bytes": 1679390
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/8_1696_949px.png",
+      "sha256": "b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f",
+      "bytes": 1202483
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/13_1005_916px.png",
+      "sha256": "d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed",
+      "bytes": 241416
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/9_751_680px.webp",
+      "sha256": "6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5",
+      "bytes": 74478
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/10_1029_431px.png",
+      "sha256": "b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2",
+      "bytes": 166778
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/11_1004_474px.png",
+      "sha256": "c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc",
+      "bytes": 176359
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/12_1011_968px.png",
+      "sha256": "af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649",
+      "bytes": 282307
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/14_751_730px.webp",
+      "sha256": "e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c",
+      "bytes": 86274
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/15_1432_648px.png",
+      "sha256": "75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80",
+      "bytes": 32002
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/17_2752_1536px.png",
+      "sha256": "7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa",
+      "bytes": 8205415
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/16_2752_1536px.jpeg",
+      "sha256": "07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887",
+      "bytes": 517379
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/18_1272_862px.png",
+      "sha256": "012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53",
+      "bytes": 99836
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/19_828_842px.png",
+      "sha256": "4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085",
+      "bytes": 89951
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/20_1105_831px.png",
+      "sha256": "9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5",
+      "bytes": 80455
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/22_1672_941px.png",
+      "sha256": "6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab",
+      "bytes": 1151472
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/21_1672_941px.png",
+      "sha256": "cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d",
+      "bytes": 1379728
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/23_1672_941px.png",
+      "sha256": "af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a",
+      "bytes": 1242858
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/24_1672_941px.png",
+      "sha256": "31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0",
+      "bytes": 1178990
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/evidence/25_1672_941px.png",
+      "sha256": "8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4",
+      "bytes": 1352603
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/img1.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/img1.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/img1.png",
+      "sha256": "ef4993613946fde3c1f3ce596cac359eb32f3f476350a58cb114506c4efe9d52",
+      "bytes": 1197068
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/img2.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/img2.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/img2.png",
+      "sha256": "c479f3ff8405156d12dd128f426c6f289f249ab34364138f582f784b5847417b",
+      "bytes": 1278055
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/img3.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/img3.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/img3.png",
+      "sha256": "29ce74d823931067cde5b049241117d259b74c2a3164f8d814cdcf20772c071b",
+      "bytes": 1649303
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/img4.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/img4.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/img4.png",
+      "sha256": "a93e9afdba1d1e0a889aa5f181291596c83aabfd44de43bfe44bceace531ac6e",
+      "bytes": 1266575
+    },
+    {
+      "source": "public/decks/media-colloquium-2026-06-10/assets/img5.png",
+      "url": "/decks/media-colloquium-2026-06-10/assets/img5.png",
+      "sourceUrl": "https://laguna821.github.io/Hallym_Media_Day/Colloquium_6_10/assets/img5.png",
+      "sha256": "92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352",
+      "bytes": 1245230
+    }
+  ],
+  "researchRefs": [
+    "research:rr-a70a5de2d00f9b390460652a7e9f8642:111964645473456293fcc1761c0d9a7658ea2ec6df61100a21c9dbaa2c47e169",
+    "research:rr-9d024df632d9a2ccc892b1065cad252b:03feaf0548030d5ceae345b5bbfccbb1128107faa9c05162757cd1df58f4995b",
+    "research:rr-a70a5de2d00f9b390460652a7e9f8642:8326544e941ae1a53edbd6248ecafcc8bdd9f9cfb5a38e54fdcdc7d41abfa9b3"
+  ],
+  "registeredAt": "2026-10-09",
+  "permissions": "Author explicitly requested adding this existing presentation to own portfolio. No Human Vault original or event-poster screenshot copied.",
+  "limitations": [
+    "External Pretendard CDN dependency preserved; not labelled fully offline.",
+    "Legacy engine has no deep links, read mode, or verified PDF export. No unsupported controls advertised.",
+    "Mobile newsletter and Web article left unregistered due to old local .md links and unfinished note templates."
+  ]
+}
