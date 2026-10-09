@@ -72,7 +72,8 @@
         "poster-spec.json": "d208826cdd078f62a4f6e683085504e48152288bb02d6842ddfec2da23618fdf",
         "poster.pdf": "60cb35e4437bca688297447ec92e533a7e4000302c5783066a1a6d8e63c1e610",
         "print-audit.json": "7ea52949a369408cfbdf26072e18a0f3620c8b379fcefe907a4e36875a9656b5"
-      }
+      },
+      "screenScenes": 2
     }
   ]
 }

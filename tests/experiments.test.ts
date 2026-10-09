@@ -7,3 +7,5 @@ test('registered series assets, provenance, paper and PDF link are valid',async(
 test('public experiment cannot silently enter listings',async()=>{const m=structuredClone(original);m.items[0].visibility='listed';await assert.rejects(verifyExperiments(process.cwd(),'public',m),/exposure/);});
 test('experiment output changes invalidate the asset pin',async()=>{const m=structuredClone(original);m.items[0].files['poster.pdf']='0'.repeat(64);await assert.rejects(verifyExperiments(process.cwd(),'public',m),/changed/);});
 test('unapproved renderer cannot ship as an experiment',async()=>{const m=structuredClone(original);m.items[0].viewerVersion='unknown';await assert.rejects(verifyExperiments(process.cwd(),'public',m),/renderer/);});
+
+test('geometry review page count is pinned to the actual poster spec',async()=>{const m=structuredClone(original);m.items.find((x:any)=>x.viewerVersion==='1.2.0-rc.3').screenScenes=1;await assert.rejects(verifyExperiments(process.cwd(),'public',m),/page count/);});

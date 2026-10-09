@@ -51,9 +51,11 @@ test('release rejects stale or incomplete review',()=>{
 test('circulating posters require measured stable geometry for every size and theme',()=>{
  const route='/experiments/test/';
  const rows=[375,768,1440].flatMap(width=>['light','dark'].map(theme=>({route,width,actualWidth:width,theme,pages:['a','b'],sameScale:true,sameLogicalWidth:true,clipped:0,boxMaxDelta:0,headingMaxDelta:0,factsMaxDelta:0})));
- validatePosterGeometry(rows,route);
- assert.throws(()=>validatePosterGeometry(rows.slice(1),route));
+ validatePosterGeometry(rows,route,2);
+ validatePosterGeometry(rows.map(r=>({...r,pages:['single']})),route,1);
+ assert.throws(()=>validatePosterGeometry(rows,route,3));
+ assert.throws(()=>validatePosterGeometry(rows.slice(1),route,2));
  for(const change of [{boxMaxDelta:49},{headingMaxDelta:1},{factsMaxDelta:NaN},{sameScale:false},{sameLogicalWidth:false},{clipped:1},{pages:['a','a']}]){
-  assert.throws(()=>validatePosterGeometry([{...rows[0],...change},...rows.slice(1)],route));
+  assert.throws(()=>validatePosterGeometry([{...rows[0],...change},...rows.slice(1)],route,2));
  }
 });

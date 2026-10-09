@@ -26,6 +26,7 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   if($('meta[name=robots]').attr('content')!=='noindex,nofollow')throw Error('Experiment must be noindex');
   if(!$('#pdf').attr('href')?.startsWith('poster.pdf'))throw Error('Missing actual PDF link');
   const spec=JSON.parse(await fs.readFile(path.join(base,'poster-spec.json'),'utf8'));
+  if(item.viewerVersion==='1.2.0-rc.3'&&item.screenScenes!==spec.scenes.length)throw Error('Poster page count pin mismatch');
   const audit=JSON.parse(await fs.readFile(path.join(base,'print-audit.json'),'utf8'));
   const expectedPages=spec.print.pages?.length??1;
   if(audit.pages!==expectedPages||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');

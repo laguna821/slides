@@ -29,11 +29,12 @@ export async function releaseManifest(root=process.cwd()) {
   return result;
 }
 export async function releaseDigest(root=process.cwd()){return createHash('sha256').update(JSON.stringify(await releaseManifest(root))).digest('hex');}
-export function validatePosterGeometry(rows:any,route:string){
+export function validatePosterGeometry(rows:any,route:string,pageCount:number){
+ if(!Number.isInteger(pageCount)||pageCount<1)throw Error('Poster page count missing');
  for(const width of [375,768,1440])for(const theme of ['light','dark']){
   const row=rows?.find((r:any)=>r.route===route&&r.width===width&&r.theme===theme);
   if(!row||!Number.isFinite(row.actualWidth)||Math.abs(row.actualWidth-width)>1
-   ||!Array.isArray(row.pages)||row.pages.length<2||new Set(row.pages).size!==row.pages.length
+   ||!Array.isArray(row.pages)||row.pages.length!==pageCount||new Set(row.pages).size!==row.pages.length
    ||row.sameScale!==true||row.sameLogicalWidth!==true||row.clipped!==0
    ||!['boxMaxDelta','headingMaxDelta','factsMaxDelta'].every(k=>Number.isFinite(row[k])&&row[k]>=0&&row[k]<=.5))
    throw Error('순환 장 사이 기하 검토 누락/불일치: '+route+'/'+width+'/'+theme);
@@ -44,7 +45,7 @@ export function validateReview(review:any,digest:string){
   for(const route of reviewRoutes)
     for(const width of [375,768,1440])for(const theme of ['light','dark'])
       if(!review.views?.some((v:any)=>v.route===route && v.width===width && Math.abs(v.actualWidth-width)<=1 && v.theme===theme && v.overflow===false && v.brokenImages?.length===0))throw Error('화면 검토 누락: '+route+'/'+width+'/'+theme);
-  for(const item of experiments.items.filter(x=>x.viewerVersion==='1.2.0-rc.3'))validatePosterGeometry(review.posterGeometry,item.path);
+  for(const item of experiments.items.filter(x=>x.viewerVersion==='1.2.0-rc.3'))validatePosterGeometry(review.posterGeometry,item.path,item.screenScenes!);
   if(!review.functional?.posterSeries)throw Error('순환 포스터 기능 검토 누락');
   if(!review.functional?.search || !review.functional?.posterFixture || !review.functional?.keyboard)throw Error('기능 검토 누락');
 }
