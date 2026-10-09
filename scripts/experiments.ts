@@ -27,13 +27,28 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   if(!$('#pdf').attr('href')?.startsWith('poster.pdf'))throw Error('Missing actual PDF link');
   const spec=JSON.parse(await fs.readFile(path.join(base,'poster-spec.json'),'utf8'));
   const audit=JSON.parse(await fs.readFile(path.join(base,'print-audit.json'),'utf8'));
-  if(audit.pages!==1||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');
+  const expectedPages=spec.print.pages?.length??1;
+  if(audit.pages!==expectedPages||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');
   if(!audit.logoStrip?.length||audit.logoStrip.some((x:any,i:number)=>x.heightMm!==13||(i>0&&Math.abs(x.xMm-audit.logoStrip[i-1].xMm-audit.logoStrip[i-1].widthMm-12)>.01)))throw Error('Co-organizer logo strip spacing failed');
   if(spec.logos.some((l:any)=>l.file||l.fileDark||!l.source||!l.sha256)||/C:[/\\\\]|file:\/\//i.test(JSON.stringify(spec)))throw Error('Private path in public spec');
-  if(['1.1.0-rc.2','1.2.0-rc.1'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
+  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
   if(item.contract==='series-v2'){
    if(spec.schemaVersion!==2||spec.composition?.mode!=='complete-posters'||spec.composition.sharedRefs.length<2)throw Error('Complete-poster contract missing');
    const shared=spec.composition.sharedRefs;
+   if(spec.print.pages){
+    if(spec.print.rows||audit.pageAudits?.length!==expectedPages)throw Error('Ambiguous or incomplete paper composition');
+    const allRefs=new Set<string>();
+    for(const [n,p] of spec.print.pages.entries()){
+     const refs=p.rows.flat();
+     if(!p.focus||new Set(refs).size!==refs.length||!shared.every((id:string)=>refs.includes(id)))throw Error('Print poster essentials missing');
+     refs.forEach((id:string)=>allRefs.add(id));
+     const a=audit.pageAudits[n];
+     if(a.id!==p.id||a.page!==n+1||a.missingFields.length||a.trimMm.join(',')!=='420,594'||a.mediaMm.join(',')!=='424,598'||!a.regions.every((x:any)=>x.withinSafeArea)||JSON.stringify(a.regions.map((x:any)=>x.id).sort())!==JSON.stringify([...refs].sort()))throw Error('Per-page A2 proof failed');
+     if(n>0&&!item.files['poster-preview-'+String(n+1).padStart(2,'0')+'.png'])throw Error('Missing paper page preview');
+    }
+    if(allRefs.size!==spec.content.length||!spec.content.every((b:any)=>allRefs.has(b.id)))throw Error('Print content coverage failed');
+   }
+
    if(spec.scenes.length!==$('#stage>.scene').length)throw Error('Authored poster count changed');
    if(/function splitScene/.test(html))throw Error('Automatic fragment pagination forbidden');
    const byid=new Map(spec.content.map((x:any)=>[x.id,x]));
