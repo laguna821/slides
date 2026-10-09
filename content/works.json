@@ -350,5 +350,72 @@
     "dateKind": "registered",
     "productionNote": "유입관에서 체의 단면으로, 남은 입자와 통과한 물에서 배출관으로. 내용을 실제 행동으로 보여주는 실험.\n\n12초 / SVG / 설명용 원리 모형",
     "resourceIds": []
+  },
+  {
+    "id": "human-reading-writing-2026",
+    "slug": "human-reading-writing-2026",
+    "title": "인간 중심 읽기와 쓰기",
+    "summary": "내가 쓰기 위해, AI를 쓴다. AI 요약을 모으는 데서 원문 확인·판단 기록·내 문장 쓰기로 이어지는 18장 발표와 행사 재구성 포스터.",
+    "date": "2026-09-21",
+    "dateKind": "published",
+    "registeredAt": "2026-10-09",
+    "kind": "talk",
+    "topics": [
+      "AI 활용",
+      "읽기와 쓰기",
+      "지식관리"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "poster": "/images/human-reading-writing.webp",
+    "posterAlt": "인간 중심 읽기와 쓰기 발표 원본 표지 — AI는 더 잘 쓰는데, 내 지식은 쌓이고 있습니까?",
+    "body": "Hallym CMDS PKM Conference 2026 · 안창현의 인간 중심 읽기와 쓰기. 내가 쓰기 위해 AI를 쓴다. 기존 18장 HTML 완성본과 PDF를 보존하고, 독자용 읽기 안내와 행사 후 제작한 AI 재구성 포스터를 함께 제공합니다.",
+    "markdownSource": "content/reading/human-reading-writing-2026.md",
+    "event": "Hallym CMDS PKM Conference 2026",
+    "audience": "AI를 연구·교육·업무에 활용하는 교수자와 지식노동자",
+    "takeaways": [
+      "원문을 확인하고 자신의 말로 적는 읽기 과정",
+      "근거·조건·예외와 채택·보류 이유를 남기는 판단 기록",
+      "검토한 원고를 문서·발표·워크플로우로 다시 쓰는 방법"
+    ],
+    "artifacts": [
+      {
+        "id": "pkm-slides-html",
+        "role": "slides",
+        "type": "html",
+        "url": "/decks/human-reading-writing-2026/index.html",
+        "label": "원본 발표 · 18장",
+        "version": "v5 · 2026-09-21",
+        "modes": [
+          "present"
+        ]
+      },
+      {
+        "id": "pkm-slides-pdf",
+        "role": "slides",
+        "type": "pdf",
+        "url": "/decks/human-reading-writing-2026/slides.pdf",
+        "label": "원본 발표 PDF · 18쪽",
+        "version": "v5 · 2026-09-21",
+        "modes": [
+          "download"
+        ]
+      },
+      {
+        "id": "pkm-padlet",
+        "role": "reference",
+        "type": "link",
+        "url": "https://padlet.com/johnfkoo951/hallym-pkm-conference-2026-s023rrnlpyhas2njhtk9/wish/J24jale6rLGEQ0A1",
+        "label": "행사 Padlet의 원래 공유 글",
+        "version": "2026-09-21",
+        "modes": []
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [
+      "hallym-pkm-reconstructed-poster"
+    ],
+    "provenance": "Local final v5 matched to author-owned Padlet PDF; AS016. Original HTML and PDF SHA256 pinned in content/legacy.json."
   }
 ]

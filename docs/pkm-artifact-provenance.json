@@ -1,0 +1,26 @@
+{
+  "researchRef": "research:rr-9d024df632d9a2ccc892b1065cad252b:82ca6f0c8655403beeaa77afa9dbe5a50a5000f00f95d57b58e11e1aa7fbf769",
+  "deck": {
+    "version": 5,
+    "slides": 18,
+    "htmlSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1",
+    "pdfSha256": "b9ea50907d08c001e035e2bd0a9875b58446fceb87ee72457433b9bb81970715",
+    "renderer": "embedded deck-stage web component",
+    "rendererSha256": "41733f458d04f025e1c57d4c5382ac914928792e3bdf231d4b327014c1787b74",
+    "packageSha256": null,
+    "packageNote": "Legacy final file has no saved package pin. Original renderer and artifact hashes are preserved; no engine migration.",
+    "navigation": "#1 through #18",
+    "speakerNotes": "No active notes element; commented empty example only."
+  },
+  "poster": {
+    "sourceExperiment": "pkm-speaker-posters-2026",
+    "publicationAuthorizedBy": "User requested publishing recovered HTML together with poster, 2026-10-09",
+    "sourceHtmlSha256": "918c90183bb8a5b102d08db1df258ea2cc8fa3d70b5c96ceae5740c6242acecd",
+    "publishedHtmlSha256": "c810ea9471ef62635ec8c004c3f77d10b316b88ab65e6c011e6eea7332cab40b",
+    "pdfSha256": "d045085d18007bb253fd5829cb0c910398b5695e00625518a38d5d966c1630d7",
+    "contentChanged": false,
+    "sharingChange": "Canonical and OG URLs point to the registered portfolio copy; original experiment remains unlisted.",
+    "viewerVersion": "1.2.0-rc.5",
+    "packageSha256": "a6fc16736fb4fcd8d804e1e5e5716561ccfb7ff8bed8075df5df99a02b3f28dc"
+  }
+}
