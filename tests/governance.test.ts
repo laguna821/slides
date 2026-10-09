@@ -59,3 +59,9 @@ test('circulating posters require measured stable geometry for every size and th
   assert.throws(()=>validatePosterGeometry([{...rows[0],...change},...rows.slice(1)],route,2));
  }
 });
+test('new portrait posters must occupy at least ninety percent of usable width',()=>{
+ const route='/experiments/test/';
+ const rows=[375,768,1440].flatMap(width=>['light','dark'].map(theme=>({route,width,actualWidth:width,actualHeight:width===375?760:900,theme,pages:['a','b'],sameScale:true,sameLogicalWidth:true,clipped:0,boxMaxDelta:0,headingMaxDelta:0,factsMaxDelta:0,minContentWidthRatio:.93})));
+ validatePosterGeometry(rows,route,2,true);
+ for(const change of [{minContentWidthRatio:.79},{minContentWidthRatio:NaN},{actualHeight:320}])assert.throws(()=>validatePosterGeometry([{...rows[0],...change},...rows.slice(1)],route,2,true));
+});

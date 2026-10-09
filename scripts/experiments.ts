@@ -12,7 +12,7 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   ids.add(item.id);
   if(item.path!=='/experiments/'+item.id+'/'||item.visibility!=='unlisted'||item.seo!=='noindex')throw Error('Experiment exposure policy invalid');
   if(item.contract!==policy.experimentalPosterContract||!policy.acceptedPosterViewers.includes(item.viewerVersion)||!/^[a-f0-9]{64}$/.test(item.packageSha256))throw Error('Unpinned experiment renderer');
-  if(!item.researchRefs?.length||item.printStatus!=='needs-print-profile')throw Error('Experiment evidence/print status missing');
+  if(!item.researchRefs?.length||!['needs-print-profile','prepared-cmyk'].includes(item.printStatus))throw Error('Experiment evidence/print status missing');
   const base=path.join(root,stage,item.path);
   for(const required of ['index.html','poster.pdf','poster-preview.png','poster-spec.json','print-audit.json'])if(!item.files?.[required])throw Error('Missing experiment file: '+required);
   const actual=(await fs.readdir(base)).sort();
@@ -26,13 +26,14 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   if($('meta[name=robots]').attr('content')!=='noindex,nofollow')throw Error('Experiment must be noindex');
   if(!$('#pdf').attr('href')?.startsWith('poster.pdf'))throw Error('Missing actual PDF link');
   const spec=JSON.parse(await fs.readFile(path.join(base,'poster-spec.json'),'utf8'));
-  if(item.viewerVersion==='1.2.0-rc.3'&&item.screenScenes!==spec.scenes.length)throw Error('Poster page count pin mismatch');
+  if(['1.2.0-rc.3','1.2.0-rc.4'].includes(item.viewerVersion)&&item.screenScenes!==spec.scenes.length)throw Error('Poster page count pin mismatch');
   const audit=JSON.parse(await fs.readFile(path.join(base,'print-audit.json'),'utf8'));
   const expectedPages=spec.print.pages?.length??1;
+  if(item.viewerVersion==='1.2.0-rc.4')validateParallelPoster(item,spec,audit);
   if(audit.pages!==expectedPages||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');
   if(!audit.logoStrip?.length||audit.logoStrip.some((x:any,i:number)=>x.heightMm!==13||(i>0&&Math.abs(x.xMm-audit.logoStrip[i-1].xMm-audit.logoStrip[i-1].widthMm-12)>.01)))throw Error('Co-organizer logo strip spacing failed');
   if(spec.logos.some((l:any)=>l.file||l.fileDark||!l.source||!l.sha256)||/C:[/\\\\]|file:\/\//i.test(JSON.stringify(spec)))throw Error('Private path in public spec');
-  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2','1.2.0-rc.3'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
+  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2','1.2.0-rc.3','1.2.0-rc.4'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
   if(item.contract==='series-v2'){
    if(spec.schemaVersion!==2||spec.composition?.mode!=='complete-posters'||spec.composition.sharedRefs.length<2)throw Error('Complete-poster contract missing');
    const shared=spec.composition.sharedRefs;
@@ -75,4 +76,21 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   }
  }
  return data.items.length;
+}
+
+export function validateParallelPoster(item:any,spec:any,audit:any){
+ const pages=spec.print.pages?.length??1;
+ if(item.printPages!==pages||audit.pages!==pages)throw Error('Independent paper page count pin mismatch');
+ if(!['alternating','authored','light','dark'].includes(spec.defaultTheme??'alternating'))throw Error('Invalid poster default theme');
+ if(pages>1&&(spec.print.allowMultiplePages!==true||typeof spec.print.multiPageReason!=='string'||spec.print.multiPageReason.trim().length<20))throw Error('Paper multipage requires explicit separate authorization');
+ const rows=spec.print.pages?.flatMap((p:any)=>p.rows)??spec.print.rows;
+ if(!Array.isArray(rows)||!rows.every((r:any)=>Array.isArray(r)&&r.length>0))throw Error('Independent paper rows missing');
+ const refs=rows.flat(), contentIds=spec.content.map((b:any)=>b.id);
+ if(refs.some((id:any)=>!contentIds.includes(id))||!contentIds.every((id:any)=>refs.includes(id)))throw Error('Independent paper content coverage failed');
+ if(pages===1&&(new Set(refs).size!==refs.length||JSON.stringify([...refs].sort())!==JSON.stringify(audit.regions.map((r:any)=>r.id).sort())))throw Error('Single paper composition/audit mismatch');
+ if(audit.printStatus!==item.printStatus||!audit.preflight?.embeddedFonts?.length)throw Error('Paper preflight/status missing');
+ if(item.printStatus==='prepared-cmyk'){
+  const hash=audit.outputProfile?.sha256;
+  if(!/^[a-f0-9]{64}$/.test(hash)||spec.print.iccSha256!==hash||!audit.outputProfile.name||!audit.outputProfile.assumption||audit.preflight.rgbOperators!==0||!Number.isFinite(audit.preflight.cmykOperators)||audit.preflight.cmykOperators<=0)throw Error('CMYK output profile/preflight invalid');
+ }
 }

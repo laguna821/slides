@@ -1,0 +1,5 @@
+A2 one-sheet print preparation
+Trim: 420 x 594 mm; media/bleed: 424 x 598 mm, 2 mm each side.
+Print at 100%; use PDF TrimBox. Embedded Pretendard fonts and vector logos/QR.
+ICC-managed CMYK: Japan Color 2001 Coated. Printer/stock must confirm this output condition before production. No PDF/X certification claimed.
+Ended event / AI reconstructed test poster.

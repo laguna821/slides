@@ -179,44 +179,32 @@
     }
   ],
   "print": {
+    "layout": "academic-one-sheet",
     "margin": "A",
-    "bodySizePt": 24,
-    "pages": [
-      {
-        "id": "research-structure",
-        "focus": "01 · 지식 구조와 검증 가능한 평가",
-        "rows": [
-          [
-            "overview"
-          ],
-          [
-            "gu-structure",
-            "kim-evaluation"
-          ],
-          [
-            "program",
-            "context"
-          ]
-        ]
-      },
-      {
-        "id": "research-practice",
-        "focus": "02 · 내 판단을 남기고 지식을 다시 쓰기",
-        "rows": [
-          [
-            "overview"
-          ],
-          [
-            "ahn-writing",
-            "jo-reuse"
-          ],
-          [
-            "program",
-            "context"
-          ]
-        ]
-      }
-    ]
+    "bodySizePt": 18,
+    "rows": [
+      [
+        "overview"
+      ],
+      [
+        "gu-structure",
+        "kim-evaluation"
+      ],
+      [
+        "ahn-writing",
+        "jo-reuse"
+      ],
+      [
+        "program",
+        "context"
+      ]
+    ],
+    "iccSha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+    "outputProfile": {
+      "name": "Japan Color 2001 Coated",
+      "sha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+      "assumption": "Printer/stock must confirm this output condition; not PDF/X certification"
+    }
   },
   "logos": [
     {
@@ -247,7 +235,8 @@
     "research:rr-744924c66378a0f77d6ad2911d151090:960efe4a8eeaf3e111aaedba134ec952882e6bb66765b5dbcbfb373b50d667a9",
     "research:rr-90a590f9604e62d3dd8029544b7da83e:acf1d4132c846b5cd3bf95c3ee811cefd30f6bbcdb58aecb998263888cc57dc9",
     "research:rr-ebcdf3fe5e952f1797668a6df93ec1ac:f14f43cf7ce1e0333249792298c5fd12acdc1dcd6919e8d661a6fc4f5b5b5b55",
-    "research:rr-2c7054a29684f4702e0a44e488ebc7a2:ce7544724ab972c990145aa5b6de833b960fdf02c76e54f168f5fd68767dcac7"
+    "research:rr-2c7054a29684f4702e0a44e488ebc7a2:ce7544724ab972c990145aa5b6de833b960fdf02c76e54f168f5fd68767dcac7",
+    "research:rr-65561c770e1b02b0cdf42f4f70308137:db8d1a969a4f46d84102dca782a37310cab1ca0fd42de593482e49e756304f21"
   ],
   "composition": {
     "mode": "complete-posters",
@@ -257,5 +246,6 @@
       "context"
     ],
     "splitReason": "한 장 행사 안내를 유지한 상태에서 네 발표의 핵심 과정과 적용 기준을 추가하면 독립된 두 장 분량이다. 지식 구조·평가와 인간 중심 읽기·재사용이라는 두 초점으로 재편집하며 각 장에 전체 행사·프로그램·조건을 반복한다."
-  }
+  },
+  "defaultTheme": "alternating"
 }
