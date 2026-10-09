@@ -1,0 +1,21 @@
+{
+  "contract": "poster-sharing-v1",
+  "imageFile": "og-fd44dd375022.png",
+  "imageSha256": "fd44dd37502259b1338373b7cdf317ce3ef16356b2a75a57cf37e6910598edf4",
+  "width": 1200,
+  "height": 600,
+  "mime": "image/png",
+  "alt": "AI 시대의 연구 워크플로우 리캘리브레이션",
+  "publishUrl": "https://achmage-slides.vercel.app/posters/hallym-pkm-2026/v1/",
+  "publicHtmlSha256": "c810ea9471ef62635ec8c004c3f77d10b316b88ab65e6c011e6eea7332cab40b",
+  "offlineHtmlSha256": "c5963da87c89782e341b66a9b2ae62a1f7164866c60c13f88b66c33fe79b6a60",
+  "publicFiles": {
+    "pretendard-400.woff2": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+    "pretendard-700.woff2": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+    "pretendard-800.woff2": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "pretendard-ofl.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+  },
+  "pdfSha256": "d045085d18007bb253fd5829cb0c910398b5695e00625518a38d5d966c1630d7",
+  "status": "assets-ready-live-verification-pending",
+  "actualKakaoPreview": "original-experiment-confirmed-by-user;new-url-not-verified"
+}

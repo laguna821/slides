@@ -1,26 +1,1175 @@
 {
   "policyVersion": "2.4.0",
   "status": "passed",
-  "reviewedAt": "2026-10-09T08:18:35.415Z",
-  "environment": "Windows Edge via Cua; localhost8794, measured110%zoom",
-  "digest": "c92e661b068bf2e9771dbe285a718ac6e59264f92292b5cec3383a81df20a10d",
+  "environment": "Windows Edge via Cua, localhost9719, actual CSS sizes measured at110% zoom; content registration only.",
+  "views": [
+    {
+      "route": "/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 800,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "posterGeometry": [
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9336764558832696
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9336764558832696
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9336764558832696
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 375,
+      "actualWidth": 376,
+      "actualHeight": 667,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9336764558832696
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9364399115244547
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9364399115244547
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9364399115244547
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 768,
+      "actualWidth": 768,
+      "actualHeight": 1023,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.9364399115244547
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.4303164588080512
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "light",
+      "pages": [
+        "structure-evaluation",
+        "reading-reuse"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.4303164588080512
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.4303164588080512
+    },
+    {
+      "route": "/posters/hallym-pkm-2026/v1/index.html",
+      "width": 1440,
+      "actualWidth": 1440,
+      "actualHeight": 900,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0,
+      "minContentWidthRatio": 0.4303164588080512
+    }
+  ],
+  "functional": {
+    "posterSeries": true,
+    "search": true,
+    "posterFixture": true,
+    "keyboard": true
+  },
+  "limitations": [
+    "Original HTML F fullscreen entry not confirmed in Edge automation; original renderer unchanged.",
+    "New poster URL Kakao cache not manually checked."
+  ],
+  "digest": "2a626852b9d7cc90fcdf56e881ef3f609ff01a07a585a82c9c5ff9b6128a657d",
   "sourceFiles": {
-    ".gitattributes": "c97a1babe2375389eb162859d30d0cf63ef8c2e97c0b641d404fee9f674e32d7",
+    ".gitattributes": "ca7763b32a7852f2abe6a9f2511ef27f6447ccfd91e97e9a23185e6649e56f04",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
     "AGENTS.md": "9e7240b93a9f99ce9d826e1f18ca7f3b2f5523d2a4c239aeebff17967f4e0816",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
-    "content/legacy.json": "0f30406f186315bd9e97e3c1cad2e690cefeac89730260239f63e3f973b8624e",
+    "content/legacy.json": "a62f1f1f7a18539924a6d902800381a21abade6b39d36cf9d75510530670e9d7",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
-    "content/resources.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "content/reading/human-reading-writing-2026.md": "4abdf7ca27c068d16477154ca6a5001925c7f095ae8018bd890c734fbeea549f",
+    "content/resources.json": "455d9904f9799526cce3ea7d2de56763ee85a5a80a568163fa1a82346256fe38",
     "content/site-policy.json": "b928a57808c06e8040cf87f33fcfe25ea5c11eecbde444dbc0427b73f0b47c91",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/works.json": "0550ac134ba9a315429392586fa4a6ca293189545f9d85de3ef9157264c55413",
+    "content/works.json": "5a886895292ac2d8ae4b96bc5c8f3189c03a42a7d51f2729e33c3cb11d1d9ff9",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
     "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
     "docs/OPERATIONS.md": "68b5dd01ff9c13c39db17e271ddbee51ac34593bd722f2897a8f68a038342137",
+    "docs/PKM-REGISTRATION.md": "07aca0b08911c8470e81c0065b406dee0c24516bbc6aa16096308d04735e5a41",
     "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
     "docs/POSTER-COMPLETE-V2-VALIDATION.md": "ab7455068ae50ae321552c81a29226ee4b56407664f3e9134bdb39c598980754",
     "docs/POSTER-MASTERPLAN.md": "c9894d200915eb5638e77308da420d04b7a9310031b9e144727b6f97a8e13a42",
@@ -38,6 +1187,7 @@
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
     "docs/image-prompts.json": "2bebf318139125661d9c41b08fe0f7fb74a6437d763d3588ba874c0514de1455",
     "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
+    "docs/pkm-artifact-provenance.json": "c54b7b06f726a7554e0050364807e9eebd9902e741830bdb83ce9d896d030496",
     "package-lock.json": "5e08920aae04c69452242806f028e2d7d3c3f45d8de865862d7d3b51be7ba861",
     "package.json": "31cec1ae514684b5ae195edd0db76e0411e398043d775218ec1d7b82e9590ec7",
     "public/brand/ach-frame-mono.svg": "d167133514a827c35ec861c96e91df6d01f9cca1d57785df636c504329ce0738",
@@ -52,6 +1202,9 @@
     "public/brand/favicon.svg": "d18389bf1b5a6ac92ddb33dc06160a7c4f3cbe86fa8d2441bdc52236dd2f17c9",
     "public/captions/book.vtt": "dd1e351eda609dcdb17d1b9ddf692cf7ea7a16a8880709d5fef9ea44ff2a7bae",
     "public/captions/city-pulse-180.vtt": "191b5bca4400ce9f97ccdd5529ef6e05b7a4cfa0afea5b5dec7947e09c62488a",
+    "public/decks/human-reading-writing-2026/Pretendard-LICENSE.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+    "public/decks/human-reading-writing-2026/index.html": "f2006e9cadf707d8a341a21b9720e0a9ed17858bbca97268bbdf4398f58fd2f8",
+    "public/decks/human-reading-writing-2026/slides.pdf": "b9ea50907d08c001e035e2bd0a9875b58446fceb87ee72457433b9bb81970715",
     "public/experiments/pkm-poster-2026/cmds-dark.svg": "529975d3b0c1dc6acc5b20980634527116832026b43cebfc654a41c011e7b2be",
     "public/experiments/pkm-poster-2026/cmds-reconstructed.svg": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
     "public/experiments/pkm-poster-2026/hallym-dark.svg": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf",
@@ -86,12 +1239,30 @@
     "public/images/city.webp": "3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20",
     "public/images/flight.webp": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
     "public/images/grandeur.webp": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
+    "public/images/human-reading-writing.webp": "4f6acaf6be084d82fdb76b471ebeff88da719d087c4eda9b218abc489b71759b",
     "public/images/meal.webp": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
     "public/images/pedal.webp": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
     "public/images/racing.webp": "269d6f39925fa5abee6c8efc9921d245f006b0931507471ecddc3144a3840cb0",
     "public/images/studio-frame.webp": "e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374",
     "public/images/studio-paper.webp": "b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e",
     "public/images/water.webp": "269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333",
+    "public/posters/hallym-pkm-2026/v1/cmds-dark.svg": "529975d3b0c1dc6acc5b20980634527116832026b43cebfc654a41c011e7b2be",
+    "public/posters/hallym-pkm-2026/v1/cmds-reconstructed.svg": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
+    "public/posters/hallym-pkm-2026/v1/hallym-dark.svg": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf",
+    "public/posters/hallym-pkm-2026/v1/hallym-emblem.svg": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
+    "public/posters/hallym-pkm-2026/v1/index.html": "870118c9eccef126465fa11a3f6e8a0afd5abf35e634f327347cd5074f29d44b",
+    "public/posters/hallym-pkm-2026/v1/offline.zip": "363ef498be81d3561b670d4c13e8347c4c3983add00c914d7050c3cd296b323e",
+    "public/posters/hallym-pkm-2026/v1/og-fd44dd375022.png": "fd44dd37502259b1338373b7cdf317ce3ef16356b2a75a57cf37e6910598edf4",
+    "public/posters/hallym-pkm-2026/v1/poster-preview.png": "a93aedc4945d401d32de2b6a1aba84402eb939ccce6edf65c9f253b524a7f1db",
+    "public/posters/hallym-pkm-2026/v1/poster-spec.json": "5f5b3e811c601dc63dbda77e811977b75596cc2ef579a10022dd3a7757829dae",
+    "public/posters/hallym-pkm-2026/v1/poster.pdf": "d045085d18007bb253fd5829cb0c910398b5695e00625518a38d5d966c1630d7",
+    "public/posters/hallym-pkm-2026/v1/pretendard-400.woff2": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+    "public/posters/hallym-pkm-2026/v1/pretendard-700.woff2": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+    "public/posters/hallym-pkm-2026/v1/pretendard-800.woff2": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "public/posters/hallym-pkm-2026/v1/pretendard-ofl.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+    "public/posters/hallym-pkm-2026/v1/print-audit.json": "4c22783a84b49ac4bed384806fbc67c9581dcb963b4bebcdd24370ff477e4cb8",
+    "public/posters/hallym-pkm-2026/v1/print-handoff.txt": "562ddb0649e95176c3f2cae5266392b774cf5f59950057199d6e8e985442992a",
+    "public/posters/hallym-pkm-2026/v1/share-manifest.json": "87de03d324c85adc15bbdfb8db7ff5ab08e67f478b9744d02060a17901445ea6",
     "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
     "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
@@ -146,1042 +1317,5 @@
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "341321f2a2313c54d4647e2cb08992dca7284539bfe69ba2d02d9ab76c216639"
   },
-  "views": [
-    {
-      "route": "/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/posters/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "theme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    }
-  ],
-  "posterGeometry": [
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "actualHeight": 667,
-      "theme": "light",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.934278922063608
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 375,
-      "actualWidth": 376,
-      "actualHeight": 667,
-      "theme": "dark",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.934278922063608
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "actualHeight": 1023,
-      "theme": "light",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.9358491540090008
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "actualWidth": 768,
-      "actualHeight": 1023,
-      "theme": "dark",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.9358491540090008
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "theme": "light",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.6885063807852092
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "theme": "dark",
-      "pages": [
-        "structure-evaluation",
-        "reading-reuse"
-      ],
-      "sameScale": true,
-      "sameLogicalWidth": true,
-      "clipped": 0,
-      "boxMaxDelta": 0,
-      "headingMaxDelta": 0,
-      "factsMaxDelta": 0,
-      "minContentWidthRatio": 0.6885063807852092
-    }
-  ],
-  "functional": {
-    "search": true,
-    "posterFixture": true,
-    "keyboard": true,
-    "posterSeries": true
-  },
-  "evidence": {
-    "observed": "114 views at375(actual376)/768/1440, both themes, 12 interpage geometry measurements; no overflow/broken images. Outside viewport lazy images counted separately.",
-    "search": "읽기 query submitted:1 result",
-    "keyboard": "7-block reading opens/closes; focus returns tools-toggle; manual next pauses",
-    "posterSeries": "Alternating light/dark and synchronized frames observed;4s attributes, unchanged scheduling code. Public/offline body identical, shared geometry unchanged.",
-    "posterFixture": "Old poster files and PDF remain byte-identical. New public fonts loaded to same geometry.",
-    "sharing": "1200x600 RGB PNG inspected; early static metadata, explicit font manifest; HTML181991bytes; real Kakao card/cache not verified."
-  }
+  "reviewedAt": "2026-10-09T09:37:21.627Z"
 }
