@@ -1,0 +1,92 @@
+{
+  "pages": 1,
+  "trimMm": [
+    420,
+    594
+  ],
+  "mediaMm": [
+    424,
+    598
+  ],
+  "bleedMm": 2,
+  "marginPreset": "A",
+  "fields": 55,
+  "missingFields": [],
+  "regions": [
+    {
+      "id": "overview",
+      "x": 32.0,
+      "y": 138.50416666666663,
+      "width": 360.0,
+      "height": 71.35044444444443,
+      "withinSafeArea": true
+    },
+    {
+      "id": "gu",
+      "x": 32.0,
+      "y": 217.20461111111106,
+      "width": 175.5,
+      "height": 62.58744444444443,
+      "withinSafeArea": true
+    },
+    {
+      "id": "kim",
+      "x": 216.5,
+      "y": 217.20461111111106,
+      "width": 175.5,
+      "height": 51.87711111111109,
+      "withinSafeArea": true
+    },
+    {
+      "id": "ahn",
+      "x": 32.0,
+      "y": 287.1420555555555,
+      "width": 175.5,
+      "height": 62.58744444444443,
+      "withinSafeArea": true
+    },
+    {
+      "id": "jo",
+      "x": 216.5,
+      "y": 287.1420555555555,
+      "width": 175.5,
+      "height": 62.58744444444443,
+      "withinSafeArea": true
+    },
+    {
+      "id": "timetable",
+      "x": 32.0,
+      "y": 357.07949999999994,
+      "width": 175.5,
+      "height": 141.5814444444446,
+      "withinSafeArea": true
+    },
+    {
+      "id": "attendance",
+      "x": 216.5,
+      "y": 357.07949999999994,
+      "width": 175.5,
+      "height": 51.2209444444445,
+      "withinSafeArea": true
+    }
+  ],
+  "logoStrip": [
+    {
+      "name": "커맨드스페이스",
+      "xMm": 32.0,
+      "widthMm": 53.282023111979164,
+      "heightMm": 13,
+      "gapAfterMm": 12
+    },
+    {
+      "name": "한림대학교",
+      "xMm": 97.28202311197916,
+      "widthMm": 42.915730794270836,
+      "heightMm": 13,
+      "gapAfterMm": 12
+    }
+  ],
+  "printStatus": "needs-print-profile",
+  "colorSpace": "RGB proof; output ICC not provided",
+  "vectorLogos": true
+}

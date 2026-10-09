@@ -1,13 +1,40 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "contentVersion": 2,
   "minimumPosterViewer": "1.0.0-rc.6",
   "cardActions": 3,
   "navigation": [
-    {"href":"/#selected","label":"대표작","active":"home"},
-    {"href":"/archive/","label":"전체 자료","active":"archive"},
-    {"href":"/motion/","label":"Motion","active":"motion"},
-    {"href":"/about/","label":"소개","active":"about"}
+    {
+      "href": "/#selected",
+      "label": "대표작",
+      "active": "home"
+    },
+    {
+      "href": "/archive/",
+      "label": "전체 자료",
+      "active": "archive"
+    },
+    {
+      "href": "/motion/",
+      "label": "Motion",
+      "active": "motion"
+    },
+    {
+      "href": "/about/",
+      "label": "소개",
+      "active": "about"
+    }
   ],
-  "exceptions": [{"workId":"ai-reading-pilot","rule":"legacy-notes","reason":"기존 공개 발표 바이트 보존. 신규 자료에는 적용하지 않는다."}]
+  "exceptions": [
+    {
+      "workId": "ai-reading-pilot",
+      "rule": "legacy-notes",
+      "reason": "기존 공개 발표 바이트 보존. 신규 자료에는 적용하지 않는다."
+    }
+  ],
+  "acceptedPosterViewers": [
+    "1.0.0-rc.6",
+    "1.1.0-rc.1"
+  ],
+  "experimentalPosterContract": "series-v1"
 }

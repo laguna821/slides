@@ -16,7 +16,7 @@ export function validatePolicy(works: Work[], media: Media[], resources: Resourc
   for(const r of resources){
     const owner=works.find(w=>w.id===r.workId)!; if(owner.visibility==='draft') continue;
     for(const v of r.versions){
-      if(v.id===r.currentVersion && v.viewerVersion!==policy.minimumPosterViewer) throw Error(r.id+': poster viewer migration required');
+      if(v.id===r.currentVersion && !policy.acceptedPosterViewers.includes(v.viewerVersion)) throw Error(r.id+': poster viewer migration required');
       for(const url of [v.html,v.pdf,v.image].filter(Boolean) as string[]) if(!v.files[url]) throw Error(r.id+': missing output hash');
     }
   }

@@ -1,607 +1,20 @@
 {
-  "policyVersion": "2.0.0",
-  "digest": "235ae7f95d752da5d17b08c2dee0dfcc44a52f65b74fb0a0b5a58c2687cf2680",
+  "policyVersion": "2.1.0",
   "status": "passed",
-  "reviewedAt": "2026-10-09T03:47:30.990Z",
-  "reviewer": "Codex with independent source review",
-  "environment": "Edge desktop; actual widths recorded; 1px viewport rounding; physical mobile not tested",
-  "views": [
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/archive/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/posters/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/talks/ai-reading-pilot/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/meal/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/racing/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/pedal/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/city/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/grandeur/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/book/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/flight/",
-      "theme": "dark",
-      "width": 1440
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "light",
-      "width": 375
-    },
-    {
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "dark",
-      "width": 375
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "light",
-      "width": 768
-    },
-    {
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "dark",
-      "width": 768
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "light",
-      "width": 1440
-    },
-    {
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false,
-      "route": "/motion/water/",
-      "theme": "dark",
-      "width": 1440
-    }
-  ],
-  "functional": {
-    "search": true,
-    "posterFixture": true,
-    "keyboard": true
-  },
-  "evidence": [
-    "docs/POLICY2-VALIDATION.md",
-    "validation/private/site-policy2-matrix.json",
-    "validation/private/poster-rc6-matrix.json"
-  ],
+  "reviewedAt": "2026-10-09T05:19:50.203Z",
+  "environment": "Windows Edge via cua; measured viewport",
+  "digest": "c4269853c466c9c724d9b700caf25ea229faa4b148b1a1694a6a23170bbd69cb",
   "sourceFiles": {
+    ".gitattributes": "c97a1babe2375389eb162859d30d0cf63ef8c2e97c0b641d404fee9f674e32d7",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
     "AGENTS.md": "9e7240b93a9f99ce9d826e1f18ca7f3b2f5523d2a4c239aeebff17967f4e0816",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
+    "content/experiments.json": "00887d07f2e560a790b5eadf55b213f27ac20879f0e08e6d587e3058e6ab964e",
     "content/legacy.json": "0f30406f186315bd9e97e3c1cad2e690cefeac89730260239f63e3f973b8624e",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
     "content/resources.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/site-policy.json": "ae434e67af6ef125165d5276fcf6b43c060422e0988092516b82a060f8f4bc73",
+    "content/site-policy.json": "ad7abbefcf60fe5209a69a7b1e97914f052ce469d432929eee376d58c77eef0e",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "content/works.json": "0550ac134ba9a315429392586fa4a6ca293189545f9d85de3ef9157264c55413",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
@@ -610,6 +23,8 @@
     "docs/OPERATIONS.md": "68b5dd01ff9c13c39db17e271ddbee51ac34593bd722f2897a8f68a038342137",
     "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
     "docs/POSTER-MASTERPLAN.md": "c9894d200915eb5638e77308da420d04b7a9310031b9e144727b6f97a8e13a42",
+    "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
+    "docs/POSTER-SERIES.md": "e46b342f14eebbeee75a2257600b7dc09a57f6c04df29a4bbf4424f5362145ad",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
     "docs/SITE-CONTRACT.md": "5557bf66a79fe6a53e4989feabb7deec726da36cb4b3959cc9c330a5c19f417a",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
@@ -631,6 +46,14 @@
     "public/brand/favicon.svg": "d18389bf1b5a6ac92ddb33dc06160a7c4f3cbe86fa8d2441bdc52236dd2f17c9",
     "public/captions/book.vtt": "dd1e351eda609dcdb17d1b9ddf692cf7ea7a16a8880709d5fef9ea44ff2a7bae",
     "public/captions/city-pulse-180.vtt": "191b5bca4400ce9f97ccdd5529ef6e05b7a4cfa0afea5b5dec7947e09c62488a",
+    "public/experiments/pkm-poster-2026/cmds-reconstructed.svg": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
+    "public/experiments/pkm-poster-2026/hallym-emblem.svg": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
+    "public/experiments/pkm-poster-2026/index.html": "11754b1b2d21c1ac05319599cd5de3130270141664ee56d383955f1bba9ed1c1",
+    "public/experiments/pkm-poster-2026/offline.zip": "53aa1150ad4e45d71e266ba64317782c42feee63b3fdde310947b1e06dc4aed2",
+    "public/experiments/pkm-poster-2026/poster-preview.png": "8e4176deb1461323e1815154d3b5e4e44e6c9f04038ec2720e1caf560375d7ff",
+    "public/experiments/pkm-poster-2026/poster-spec.json": "521d9f3301e6639a8a450d51a9614ac5df1ba1d8606047c39e02148d9d6080c1",
+    "public/experiments/pkm-poster-2026/poster.pdf": "473ea8b9152bd6a627f94116a3ccfa892437fd9ccc08417dbbe77d58f2d45e6d",
+    "public/experiments/pkm-poster-2026/print-audit.json": "0fca5d3596f0504aace396c4fadb8c0f00512f8717ab23ca3a4eeb25084cadb3",
     "public/fonts/Pretendard-OFL.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
     "public/fonts/PretendardVariable.woff2": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
     "public/images/ai-reading-slide.webp": "cd9d4ef8c3bcb14e064db7942800ae36a01b8c34918646e879c41961bb2d598b",
@@ -647,11 +70,12 @@
     "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
     "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
+    "scripts/experiments.ts": "4090ca6e3a4e5613fc4c54d3ebb6ebed8032c40065cf4c042dee399b22a4b90a",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
-    "scripts/prepare.ts": "5e863be7d801bcbfaee311c0a62e903c516d5cd71b4e6486d098728c1eeefaad",
-    "scripts/release-gate.ts": "8a35940c45af9affc01b65e7506e149ec88f0a36ed3263e297102640541d764e",
+    "scripts/prepare.ts": "b8f6b479c24af0d06864f0cc6e15f55cd666b14e1211d18fd26af440f006648b",
+    "scripts/release-gate.ts": "058a9582329bbe6fecba5d06451b09e9ea1b4f178bb549eb39d834663acf854e",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
-    "scripts/verify-build.ts": "b4fe30b367a0c6d402547a8251603e5b60280e6a3f5617dc00a96df5d37be5e5",
+    "scripts/verify-build.ts": "73287b19811faea76fbd4829d9a6445713d4e6221cea2204a8d87800d9da839a",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
     "src/components/Logo.astro": "033a48ccab2f90602cd9089c2045cb01752f31c1bfb9326c65da6590422622d1",
     "src/components/ProjectResources.astro": "d7fd271bb53b98ccdd1a09b24a7998a95340bae53c96894892a3eb4b9b148123",
@@ -665,7 +89,7 @@
     "src/lib/content.ts": "0cdd305aecccef93dcaac06bc87fcba310e9fe0965f1e04e29729094c5ab6c4f",
     "src/lib/extract.ts": "f115999b6bb0d6da9821314d3e570d088e232865ed6f66e31552fc088c185df9",
     "src/lib/media-links.ts": "3a4aa49fa2e0f4d229214aef2279a6c9f1cf4218a573cef9bc71832800e4668a",
-    "src/lib/policy.ts": "48acc294917f40aa1723955cc4d1c1833705f664338318dcfd05dc31c354dc0d",
+    "src/lib/policy.ts": "d7981f3ab250bbd1adb126acd412f10580cd8c23b1566dc014477f61795cb4d1",
     "src/lib/schema.ts": "c67dd7f738806e083b509342c1e15b9c51a516187140841485661cdd6b4d516d",
     "src/lib/search.ts": "eb717cb64a9d8929f3ed72d2b733f2df6e67ec2800ca31a2641eacd760910021",
     "src/pages/404.astro": "b29e3b4591c9ddf81a1db3ce39e61d79b27f97c613020e68d20997df9f168cf3",
@@ -691,8 +115,649 @@
     "src/vendor/types.ts": "5b203a6d5b57a8a4cb9998141b6afd8beec01c4f718124980180aa9695b00c74",
     "tests/as-regression.test.ts": "e8a27f05a5f79aa69aff136c3b89ebc7c8d92d2929f0d471e1a30754a859537e",
     "tests/content.test.ts": "b017f6b6b96448e16ac84587ad9e0e1898360586deae55c9e51b84ea31cc30de",
+    "tests/experiments.test.ts": "b83514398e0a79012f54359f526e927aa6b1ff59f41b80ed1e7fd093d68276af",
     "tests/governance.test.ts": "14552cbe92dadcec7b1d53c668cf6e2020fa6c1339301a812f7247c513048fa9",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
-    "vercel.json": "86f7a84faec0d68811e9b4528937514bae4faa29bc6d49809774814a632cc869"
+    "vercel.json": "341321f2a2313c54d4647e2cb08992dca7284539bfe69ba2d02d9ab76c216639"
+  },
+  "views": [
+    {
+      "route": "/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "functional": {
+    "search": true,
+    "posterFixture": true,
+    "keyboard": true,
+    "posterSeries": true
+  },
+  "evidence": {
+    "observed": "72 existing views + 6 series viewport/theme views, plus all-scene stress audit",
+    "search": "판단2/9, list query and reload restored",
+    "keyboard": "series previous/next, Escape reading restore to tools-toggle",
+    "posterFixture": "unchanged resource renderer from policy2 plus 28 regression tests; new series actual browser/PDF inspect",
+    "posterSeries": "62 portrait/desktop scene-theme checks, 24 short landscape; user pause and theme/PDF link observed",
+    "limitations": "short landscape 3 scenes use readable scroll fallback; device PDF viewer pixels unavailable; iOS/Android and printer ICC not verified"
   }
 }

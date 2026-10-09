@@ -1,3 +1,4 @@
+import {verifyExperiments} from './experiments';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -160,3 +161,5 @@ console.log(
     publicMedia.length +
     ' videos. Legacy bytes preserved.',
 );
+
+await verifyExperiments();

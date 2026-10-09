@@ -1,3 +1,4 @@
+import {verifyExperiments} from './experiments';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
@@ -89,3 +90,5 @@ console.log(
     htmlCount +
     ' HTML pages; legacy SHA256, local links, indexing policy, public data.',
 );
+
+await verifyExperiments(process.cwd(),'dist');
