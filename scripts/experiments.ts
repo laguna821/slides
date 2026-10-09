@@ -23,17 +23,18 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
    if(createHash('sha256').update(bytes).digest('hex')!==hash)throw Error('Experiment asset changed: '+file);
   }
   const html=await fs.readFile(path.join(base,'index.html'),'utf8'),$=load(html);
+  if(item.viewerVersion==='1.2.0-rc.5')await validateSharing(base,item,html);
   if($('meta[name=robots]').attr('content')!=='noindex,nofollow')throw Error('Experiment must be noindex');
   if(!$('#pdf').attr('href')?.startsWith('poster.pdf'))throw Error('Missing actual PDF link');
   const spec=JSON.parse(await fs.readFile(path.join(base,'poster-spec.json'),'utf8'));
-  if(['1.2.0-rc.3','1.2.0-rc.4'].includes(item.viewerVersion)&&item.screenScenes!==spec.scenes.length)throw Error('Poster page count pin mismatch');
+  if(['1.2.0-rc.3','1.2.0-rc.4','1.2.0-rc.5'].includes(item.viewerVersion)&&item.screenScenes!==spec.scenes.length)throw Error('Poster page count pin mismatch');
   const audit=JSON.parse(await fs.readFile(path.join(base,'print-audit.json'),'utf8'));
   const expectedPages=spec.print.pages?.length??1;
-  if(item.viewerVersion==='1.2.0-rc.4')validateParallelPoster(item,spec,audit);
+  if(['1.2.0-rc.4','1.2.0-rc.5'].includes(item.viewerVersion))validateParallelPoster(item,spec,audit);
   if(audit.pages!==expectedPages||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');
   if(!audit.logoStrip?.length||audit.logoStrip.some((x:any,i:number)=>x.heightMm!==13||(i>0&&Math.abs(x.xMm-audit.logoStrip[i-1].xMm-audit.logoStrip[i-1].widthMm-12)>.01)))throw Error('Co-organizer logo strip spacing failed');
   if(spec.logos.some((l:any)=>l.file||l.fileDark||!l.source||!l.sha256)||/C:[/\\\\]|file:\/\//i.test(JSON.stringify(spec)))throw Error('Private path in public spec');
-  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2','1.2.0-rc.3','1.2.0-rc.4'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
+  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2','1.2.0-rc.3','1.2.0-rc.4','1.2.0-rc.5'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
   if(item.contract==='series-v2'){
    if(spec.schemaVersion!==2||spec.composition?.mode!=='complete-posters'||spec.composition.sharedRefs.length<2)throw Error('Complete-poster contract missing');
    const shared=spec.composition.sharedRefs;
@@ -76,6 +77,23 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   }
  }
  return data.items.length;
+}
+
+export async function validateSharing(base:string,item:any,html:string){
+ if(item.sharingContract!=='poster-sharing-v1')throw Error('Sharing contract missing');
+ const m=JSON.parse(await fs.readFile(path.join(base,'share-manifest.json'),'utf8')),$=load(html);
+ const hash=(b:Buffer|string)=>createHash('sha256').update(b).digest('hex');
+ const url='https://achmage-slides.vercel.app'+item.path;
+ if(m.contract!==item.sharingContract||m.publishUrl!==url||m.publicHtmlSha256!==hash(html)||m.pdfSha256!==item.files['poster.pdf'])throw Error('Sharing manifest mismatch');
+ if(Buffer.byteLength(html)>256*1024||Buffer.byteLength(html.split('</head>')[0])>64*1024||/data:font\/woff2/.test(html)||JSON.parse($('#series-config').text()).pdf!=='')throw Error('Published HTML sharing budget/embedded payload');
+ const values:Record<string,string>={'og:type':'website','og:url':url,'og:image':url+m.imageFile,'og:image:type':'image/png','og:image:width':'1200','og:image:height':'600'};
+ for(const [key,value] of Object.entries(values))if($('head meta[property="'+key+'"]').length!==1||$('head meta[property="'+key+'"]').attr('content')!==value||html.indexOf('property="'+key+'"')>4096)throw Error('Early sharing metadata invalid: '+key);
+ for(const key of ['og:title','og:description','og:image:alt'])if(!$('head meta[property="'+key+'"]').attr('content')?.trim())throw Error('Sharing label missing');
+ if($('head link[rel=canonical]').length!==1||$('head link[rel=canonical]').attr('href')!==url)throw Error('Sharing canonical mismatch');
+ if(!/^og-[a-f0-9]{12}\.png$/.test(m.imageFile)||item.files[m.imageFile]!==m.imageSha256)throw Error('Sharing image pin missing');
+ const image=await fs.readFile(path.join(base,m.imageFile));
+ if(image.length>1024*1024||image.subarray(0,8).toString('hex')!=='89504e470d0a1a0a'||image.readUInt32BE(16)!==1200||image.readUInt32BE(20)!==600||image[25]!==2||hash(image)!==m.imageSha256||!m.imageFile.includes(m.imageSha256.slice(0,12)))throw Error('Sharing image must be hash-versioned 2:1 RGB PNG');
+ for(const name of ['pretendard-400.woff2','pretendard-700.woff2','pretendard-800.woff2','pretendard-ofl.txt'])if(!m.publicFiles[name]||item.files[name]!==m.publicFiles[name])throw Error('Sharing font dependency missing');
 }
 
 export function validateParallelPoster(item:any,spec:any,audit:any){

@@ -11,7 +11,7 @@ test('unapproved renderer cannot ship as an experiment',async()=>{const m=struct
 test('geometry review page count is pinned to the actual poster spec',async()=>{const m=structuredClone(original);m.items.find((x:any)=>x.id==='pkm-speaker-posters-2026').screenScenes=1;await assert.rejects(verifyExperiments(process.cwd(),'public',m),/page count/);});
 
 test('HTML two posters and independently composed one-page CMYK A2 stay separate',async()=>{
- const item=original.items.find((x:any)=>x.viewerVersion==='1.2.0-rc.4');
+ const item=original.items.find((x:any)=>x.id==='pkm-speaker-posters-2026');
  const spec=JSON.parse(await fs.readFile('public'+item.path+'poster-spec.json','utf8'));
  const audit=JSON.parse(await fs.readFile('public'+item.path+'print-audit.json','utf8'));
  assert.equal(spec.scenes.length,2);assert.equal(audit.pages,1);validateParallelPoster(item,spec,audit);
