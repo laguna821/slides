@@ -1312,7 +1312,7 @@
     "Original HTML F fullscreen entry not confirmed in Edge automation; original renderer unchanged.",
     "New poster URL Kakao cache not manually checked."
   ],
-  "digest": "5f5317e24ef234c895007e7a6721c8a41d748cb0e62d2337fdf83a31fd79ca09",
+  "digest": "279d8fc926ed3a0e685f4095a1b505e08491be8469a0f90a193e77c09a7ed62b",
   "sourceFiles": {
     ".gitattributes": "ca7763b32a7852f2abe6a9f2511ef27f6447ccfd91e97e9a23185e6649e56f04",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
@@ -1331,7 +1331,7 @@
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
     "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
-    "docs/MEDIA-COLLOQUIUM-REGISTRATION.md": "cb9a6c6d8d476bef6fbd3361a67ca77913d6dad1fd217f79b77f65683ad84c49",
+    "docs/MEDIA-COLLOQUIUM-REGISTRATION.md": "23e76e10587b94532f9ce9eef52500a1ff9f8b92eb477e990e5d53ba24e615a3",
     "docs/OPERATIONS.md": "68b5dd01ff9c13c39db17e271ddbee51ac34593bd722f2897a8f68a038342137",
     "docs/PKM-REGISTRATION.md": "07aca0b08911c8470e81c0065b406dee0c24516bbc6aa16096308d04735e5a41",
     "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
@@ -1351,7 +1351,7 @@
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
     "docs/image-prompts.json": "2bebf318139125661d9c41b08fe0f7fb74a6437d763d3588ba874c0514de1455",
     "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
-    "docs/media-colloquium-provenance.json": "992ef820b8efe95e92427a0066217a5c2e455e26abd0b3e394477948fa3cafa7",
+    "docs/media-colloquium-provenance.json": "6aafa2bed65d26118aeb728a19d9ccfb1709e8101bc2771a57202bdf7fdbfe15",
     "docs/pkm-artifact-provenance.json": "c54b7b06f726a7554e0050364807e9eebd9902e741830bdb83ce9d896d030496",
     "package-lock.json": "5e08920aae04c69452242806f028e2d7d3c3f45d8de865862d7d3b51be7ba861",
     "package.json": "31cec1ae514684b5ae195edd0db76e0411e398043d775218ec1d7b82e9590ec7",
@@ -1514,7 +1514,7 @@
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "341321f2a2313c54d4647e2cb08992dca7284539bfe69ba2d02d9ab76c216639"
   },
-  "reviewedAt": "2026-10-09T13:07:50.942Z",
+  "reviewedAt": "2026-10-09T13:09:59.065Z",
   "notes": [
     "AS017 docs/MEDIA-COLLOQUIUM-REGISTRATION.md",
     "Original 58-slide HTML and30assets pinned; rawbody search Original Data=1/11; read#section-6; exact q/kind/view back restore.",

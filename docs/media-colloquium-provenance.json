@@ -238,6 +238,6 @@
   "limitations": [
     "External Pretendard CDN dependency preserved; not labelled fully offline.",
     "Legacy engine has no deep links, read mode, or verified PDF export. No unsupported controls advertised.",
-    "Mobile newsletter and Web article left unregistered due to old local .md links and unfinished note templates."
+    "Mobile newsletter left unregistered: legacy local .md links and unfinished templates observed in Edge. Companion Web article also not registered in this deck-only publication; no equivalent defect claimed."
   ]
 }
