@@ -168,5 +168,75 @@
     "source": "public/decks/media-colloquium-2026-06-10/assets/img5.png",
     "url": "/decks/media-colloquium-2026-06-10/assets/img5.png",
     "sha256": "92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/index.html",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/index.html",
+    "sha256": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/dark.html",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/dark.html",
+    "sha256": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf",
+    "sha256": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png",
+    "sha256": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg",
+    "sha256": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png",
+    "sha256": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png",
+    "sha256": "29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png",
+    "sha256": "e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png",
+    "sha256": "cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png",
+    "sha256": "a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png",
+    "sha256": "f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png",
+    "sha256": "67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png",
+    "sha256": "09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd"
+  },
+  {
+    "source": "public/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png",
+    "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png",
+    "sha256": "35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81"
   }
 ]

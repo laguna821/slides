@@ -472,5 +472,75 @@
     "mediaIds": [],
     "resourceIds": [],
     "provenance": "Public author-owned deck matched to Human Vault and event notice; AS017. Original HTML and 30 image dependencies pinned in content/legacy.json; no engine migration."
+  },
+  {
+    "id": "educational-harness-workshop-2026-07-06",
+    "slug": "educational-harness-workshop-2026-07-06",
+    "title": "Educational Harness Engineering",
+    "summary": "AI 시대, 학생들의 꼼수에 강한 수업·평가를 설계하는 법. 원주 오크밸리 미디어스쿨 교수 워크샵 발표 원고와 원본 스크린샷을 보존해 다시 편집한 슬라이드·행사 포스터입니다.",
+    "date": "2026-07-06",
+    "dateKind": "published",
+    "registeredAt": "2026-10-10",
+    "kind": "talk",
+    "topics": [
+      "AI 교육",
+      "수업·평가 설계",
+      "Harness Engineering"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "poster": "/images/educational-harness-workshop-2026-07-06.webp",
+    "posterAlt": "Educational Harness Engineering — 7월 6일 미디어스쿨 교수 워크샵 발표의 리메이크 표지",
+    "body": "한림대학교 미디어스쿨 2026 여름 교수 워크샵 · 교과과정 개선 세미나. 안창현 교수, 2026년 7월 6일 16:30–17:20, 원주 오크밸리 리조트.\n\n2026년 10월 원문 보존 리메이크입니다. 당시 발표 원고의 문구·숫자·인용과 스크린샷 11개를 유지해 102장 HTML과 PDF로 재편집했습니다. 행사 안내는 원래 문구를 보존한 모바일 HTML 1장과 별도 A2 종이 포스터 1장으로 제공합니다.",
+    "markdownSource": "content/reading/educational-harness-workshop-2026-07-06.md",
+    "event": "2026 미디어스쿨 여름 교수 워크샵 · 교과과정 개선 세미나 · 원주 오크밸리",
+    "audience": "미디어스쿨 교수자 · 수업과 평가를 설계하는 교육자",
+    "takeaways": [
+      "AI 금지·탐지의 한계와 평가 설계로의 전환",
+      "AI활용조사방법론의 글쓰기·메타인지 리포트·대면 평가 사례",
+      "AI Digital Graphic Design의 HTML 발표 제작과 과정 평가"
+    ],
+    "artifacts": [
+      {
+        "id": "harness-html",
+        "role": "slides",
+        "type": "html",
+        "url": "/decks/educational-harness-workshop-2026-07-06/v1/index.html",
+        "label": "원문 보존 리메이크 · 102장",
+        "version": "remake-v1 · 2026-10-09",
+        "modes": [
+          "present",
+          "read"
+        ]
+      },
+      {
+        "id": "harness-pdf",
+        "role": "slides",
+        "type": "pdf",
+        "url": "/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf",
+        "label": "슬라이드 PDF · 102쪽",
+        "version": "remake-v1 · 2026-10-09",
+        "modes": [
+          "download"
+        ]
+      },
+      {
+        "id": "harness-source",
+        "role": "reference",
+        "type": "markdown",
+        "url": "/decks/educational-harness-workshop-2026-07-06/v1/source.md",
+        "label": "발표 원고 Markdown",
+        "version": "source · 2026-07-06",
+        "modes": [
+          "download"
+        ]
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [
+      "media-school-workshop-20260706-poster"
+    ],
+    "provenance": "docs/educational-harness-provenance.json"
   }
 ]

@@ -1,0 +1,269 @@
+{
+  "status": "passed",
+  "sourceUnits": 332,
+  "sourceUnitsMissing": 0,
+  "slideCount": 102,
+  "pdfPages": 102,
+  "images": 11,
+  "posterFields": 23,
+  "posterPages": 1,
+  "hashes": {
+    "light": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453",
+    "dark": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7",
+    "pdf": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be",
+    "observations": "5a9c614beb88385a8299e2ed3e92a1e5e7a7c9c5bba316ae5e88174d1f0472a0"
+  },
+  "browser": {
+    "name": "Edge CUA",
+    "physicalDevice": false,
+    "conditions": 48,
+    "observations": 3280,
+    "siteViews": 162,
+    "widths": [
+      375,
+      390,
+      768,
+      812,
+      1440
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "modes": [
+      "present",
+      "read",
+      "fit"
+    ],
+    "aspects": [
+      "16x9",
+      "16x10"
+    ],
+    "animation": "settled before measurement",
+    "collector": "schema5 real DOM Range; childNodes/Number compatibility only"
+  },
+  "functional": {
+    "gates": {
+      "search": true,
+      "posterFixture": true,
+      "keyboard": true,
+      "posterSeries": true
+    },
+    "evidence": [
+      {
+        "check": "body-search-anchor",
+        "path": "/talks/educational-harness-workshop-2026-07-06/read/#section-3",
+        "heading": "1.1 영국고등교육정책연구소 (HEPI) 연구결과 (2026)"
+      },
+      {
+        "check": "search-url-reload-back",
+        "q": "HEPI",
+        "kind": "talk",
+        "view": "list",
+        "result": 1
+      },
+      {
+        "check": "empty-query",
+        "result": 0,
+        "emptyMessage": "아직 만나는 자료가 없네요."
+      },
+      {
+        "check": "poster-body-query",
+        "q": "황금들밥",
+        "result": 1,
+        "anchor": "#poster-media-school-workshop-20260706-poster"
+      },
+      {
+        "check": "one-sheet-poster",
+        "scenes": 1,
+        "themeOptions": [
+          "alternating",
+          "light",
+          "dark"
+        ],
+        "readingDialog": true,
+        "pdfHref": "poster.pdf?v=1e67aec465f2",
+        "originalInstitutionVisible": true
+      },
+      {
+        "check": "native-keyboard-form-submit-and-tab",
+        "submitted": "HEPI",
+        "url": "http://localhost:9720/archive/?q=HEPI&view=list",
+        "result": 1,
+        "method": "Focused search input; native Return then Tab. Locator focus preparation timed out, no input sent; native current-focus path succeeded."
+      },
+      {
+        "check": "series-autoplay-alternating",
+        "defaultSeconds": 4,
+        "samples": [
+          {
+            "elapsedMs": 0,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 515,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 1044,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 1564,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 2088,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 2601,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 3127,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 3654,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 4177,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 4697,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 5221,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 13751,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 14292,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 14817,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 15331,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 15853,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 16381,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 16894,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 17420,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 17944,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 18467,
+            "id": "reading-reuse",
+            "theme": "dark"
+          },
+          {
+            "elapsedMs": 18992,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 19516,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 20037,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 20550,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 21074,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 21599,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 22126,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 22650,
+            "id": "structure-evaluation",
+            "theme": "light"
+          },
+          {
+            "elapsedMs": 23173,
+            "id": "reading-reuse",
+            "theme": "dark"
+          }
+        ],
+        "geometryEvidence": ".local/july-remake/poster-geometry-release.json"
+      }
+    ]
+  },
+  "independent": {
+    "reviewed": "102 HTML/PDF pages,6 contact sheets,429 output node units; no blocking layout defects",
+    "initialScore": "38/70, includes original source argument quality; not rescored as a layout metric",
+    "adoptionTable": "docs/EDUCATIONAL-HARNESS-REGISTRATION.md"
+  },
+  "limitations": [
+    "No physical iPhone/printer test",
+    "Fullscreen denied by browser",
+    "Original claims and typos intentionally preserved",
+    "Small text inside report screenshots is illustrative; full image sources remain available",
+    "Actual Kakao card not verified for this new URL"
+  ],
+  "researchRefs": [
+    "research:rr-9988c127b605008f351e7673a428d124:10c1e45732b875f86548d4946ef27406107032c6b83ac02490b82435cddf0c9a"
+  ]
+}

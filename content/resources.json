@@ -39,5 +39,41 @@
         }
       }
     ]
+  },
+  {
+    "id": "media-school-workshop-20260706-poster",
+    "kind": "poster",
+    "workId": "educational-harness-workshop-2026-07-06",
+    "title": "2026 여름 교수 워크샵",
+    "summary": "당시 행사 안내 원문의 문구를 그대로 보존한 레이아웃 리메이크입니다. 7월 6–7일 원주 오크밸리, 교과과정 개선 세미나의 세 발표와 자유 토론·점심식사·문화 탐방을 담았습니다.",
+    "body": "종료 행사 · 원문 보존 리메이크. 모바일 HTML 완결 포스터 1장과 독립 편집한 A2 PDF 1장입니다.\n한림대학교 미디어스쿨\n2026 여름 교수 워크샵\n2026년 7월 6일 (월) - 7월 7일 (화) · 원주 오크밸리 리조트\n2026 여름 교수 워크샵\n한림대학교 미디어스쿨\n원주 오크밸리 리조트\n2026년 7월 6일 (월) - 7월 7일 (화)\n교과과정 개선 세미나\n김경희 교수님\n14:30 ~ 15:20\n캡스톤디자인수업과 포토폴리오\n이재길 교수님\n15:30 ~ 16:20\n바이브 코딩 기반 인터랙티브 미디어 교과의 확대\n안창현 교수님\n16:30 ~ 17:20\nEducational Harness Engineering: AI 시대, 학생들의 꼼수에 강한 수업·평가를 설계하는 법\n17:30 ~ 18:00\n자유 토론\n점심식사 장소 및 시간\n7월 6일 12시 30분, 황금들밥 오크밸리월송점\n강원 원주시 지정면 정골길 10\n문화 탐방\n뮤지엄산\n강원특별자치도 원주시 지정면 오크밸리2길 260 뮤지엄산",
+    "preview": "/posters/media-school-workshop-20260706/v1/poster-preview.png",
+    "previewAlt": "한림대학교 미디어스쿨 2026 여름 교수 워크샵의 원문을 한 장에 배치한 A2 포스터",
+    "currentVersion": "remake-v1",
+    "versions": [
+      {
+        "id": "remake-v1",
+        "html": "/posters/media-school-workshop-20260706/v1/index.html",
+        "pdf": "/posters/media-school-workshop-20260706/v1/poster.pdf",
+        "image": "/posters/media-school-workshop-20260706/v1/poster-preview.png",
+        "engineVersion": "1.2.0-rc.4",
+        "viewerVersion": "1.2.0-rc.5",
+        "packageSha256": "a6fc16736fb4fcd8d804e1e5e5716561ccfb7ff8bed8075df5df99a02b3f28dc",
+        "files": {
+          "/posters/media-school-workshop-20260706/v1/og-29d2621be6c8.png": "29d2621be6c846f4449519b939145f7d0a4be1336053cba4515510fdf24543b0",
+          "/posters/media-school-workshop-20260706/v1/poster-preview.png": "793ccbc4bc369825e137dc0297d236e9e8c6ba34d8d695b7b94170a972e160ad",
+          "/posters/media-school-workshop-20260706/v1/poster-spec.json": "eae3b89d764fb6d7f8f71699734e9e0641405b5750d4046001f4c8d73d9a2cdc",
+          "/posters/media-school-workshop-20260706/v1/poster.html": "006909ee2938330781e1d80b3e19fa83ee468abde3a8d2005f424ac9e9b95390",
+          "/posters/media-school-workshop-20260706/v1/poster.pdf": "1e67aec465f22336cb8b40de20346051a1915e148070d21286e1393b28e85bf6",
+          "/posters/media-school-workshop-20260706/v1/pretendard-400.woff2": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+          "/posters/media-school-workshop-20260706/v1/pretendard-700.woff2": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+          "/posters/media-school-workshop-20260706/v1/pretendard-800.woff2": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+          "/posters/media-school-workshop-20260706/v1/pretendard-ofl.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "/posters/media-school-workshop-20260706/v1/print-audit.json": "f9ee8ff59c05489bfb3ecea79a5a70a8580b67494e75704006382861de6b4b52",
+          "/posters/media-school-workshop-20260706/v1/share-manifest.json": "c3ec6c0053fe1ec814343bbaf09895d223be22c32df8c6bdfea33d4d7411e3b1",
+          "/posters/media-school-workshop-20260706/v1/index.html": "006909ee2938330781e1d80b3e19fa83ee468abde3a8d2005f424ac9e9b95390"
+        }
+      }
+    ]
   }
 ]

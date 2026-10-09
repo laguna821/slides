@@ -1,0 +1,21 @@
+{
+  "contract": "poster-sharing-v1",
+  "imageFile": "og-29d2621be6c8.png",
+  "imageSha256": "29d2621be6c846f4449519b939145f7d0a4be1336053cba4515510fdf24543b0",
+  "width": 1200,
+  "height": 600,
+  "mime": "image/png",
+  "alt": "2026 여름 교수 워크샵",
+  "publishUrl": "https://achmage-slides.vercel.app/posters/media-school-workshop-20260706/v1/",
+  "publicHtmlSha256": "006909ee2938330781e1d80b3e19fa83ee468abde3a8d2005f424ac9e9b95390",
+  "offlineHtmlSha256": "babc0042a55aab767189e95d9f47ba5800bee6bdba90b4541d1d89dfdc11f562",
+  "publicFiles": {
+    "pretendard-400.woff2": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+    "pretendard-700.woff2": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+    "pretendard-800.woff2": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "pretendard-ofl.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+  },
+  "pdfSha256": "1e67aec465f22336cb8b40de20346051a1915e148070d21286e1393b28e85bf6",
+  "status": "assets-ready-live-verification-pending",
+  "actualKakaoPreview": "not-verified"
+}
