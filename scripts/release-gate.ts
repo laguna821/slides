@@ -5,7 +5,7 @@ import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import { workHref } from '../src/lib/schema';
 export const reviewRoutes=[...new Set(['/', '/archive/', '/posters/', ...works.filter(w=>w.visibility!=='draft').map(w=>workHref(w as any))])];
-export async function releaseDigest(root=process.cwd()) {
+export async function releaseManifest(root=process.cwd()) {
   const files=['package.json','package-lock.json','astro.config.mjs','tsconfig.json','vercel.json','AGENTS.md'];
   const works=JSON.parse(await fs.readFile(path.join(root,'content/works.json'),'utf8'));
   for(const work of works)for(const source of [work.htmlSource,work.markdownSource].filter(Boolean)){
@@ -18,10 +18,11 @@ export async function releaseDigest(root=process.cwd()) {
     if(rel.startsWith('src/generated/') || ['public/search-index.json','public/catalogue.json','public/AI_reading_3week_pilot_20261008.html'].includes(rel))continue;
     if((await fs.stat(path.join(root,rel))).isFile())files.push(rel);
   }
-  const hash=createHash('sha256');
-  for(const file of [...new Set(files)].sort()){hash.update(file+'\0');const bytes=await fs.readFile(path.join(root,file));hash.update(/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes);}
-  return hash.digest('hex');
+  const result:Record<string,string>={};
+  for(const file of [...new Set(files)].sort()){const bytes=await fs.readFile(path.join(root,file));result[file]=createHash('sha256').update(/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes).digest('hex');}
+  return result;
 }
+export async function releaseDigest(root=process.cwd()){return createHash('sha256').update(JSON.stringify(await releaseManifest(root))).digest('hex');}
 export function validateReview(review:any,digest:string){
   if(review.policyVersion!==policy.version || review.digest!==digest || review.status!=='passed')throw Error('미리보기 검토가 없거나 변경 후 오래되었습니다. 같은 파일 해시의 검토를 갱신하세요.');
   for(const route of reviewRoutes)
@@ -32,5 +33,7 @@ export function validateReview(review:any,digest:string){
 if(process.argv[1]?.replaceAll('\\','/').endsWith('/release-gate.ts')){
   const digest=await releaseDigest();
   if(process.argv.includes('--digest'))console.log(digest);
-  else {validateReview(JSON.parse(await fs.readFile('validation/release-review.json','utf8')),digest);console.log('Release review matches policy and content digest');}
+  else {const review=JSON.parse(await fs.readFile('validation/release-review.json','utf8'));
+    if(review.digest!==digest){const actual=await releaseManifest();const expected=review.sourceFiles||{};console.error('Review file differences', [...new Set([...Object.keys(actual),...Object.keys(expected)])].filter(file=>actual[file]!==expected[file]));}
+    validateReview(review,digest);console.log('Release review matches policy and content digest');}
 }
