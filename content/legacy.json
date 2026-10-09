@@ -13,5 +13,160 @@
     "source": "public/decks/human-reading-writing-2026/slides.pdf",
     "url": "/decks/human-reading-writing-2026/slides.pdf",
     "sha256": "b9ea50907d08c001e035e2bd0a9875b58446fceb87ee72457433b9bb81970715"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/index.html",
+    "url": "/decks/media-colloquium-2026-06-10/index.html",
+    "sha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+    "sha256": "9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+    "sha256": "12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+    "sha256": "1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+    "sha256": "e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+    "sha256": "4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+    "sha256": "f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+    "sha256": "418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+    "sha256": "b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+    "sha256": "d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+    "sha256": "6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+    "sha256": "b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+    "sha256": "c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+    "sha256": "af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+    "sha256": "e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+    "sha256": "75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+    "sha256": "7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+    "sha256": "07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+    "sha256": "012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+    "sha256": "4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+    "sha256": "9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+    "sha256": "6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+    "sha256": "cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+    "sha256": "af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+    "sha256": "31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+    "sha256": "8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/img1.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/img1.png",
+    "sha256": "ef4993613946fde3c1f3ce596cac359eb32f3f476350a58cb114506c4efe9d52"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/img2.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/img2.png",
+    "sha256": "c479f3ff8405156d12dd128f426c6f289f249ab34364138f582f784b5847417b"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/img3.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/img3.png",
+    "sha256": "29ce74d823931067cde5b049241117d259b74c2a3164f8d814cdcf20772c071b"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/img4.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/img4.png",
+    "sha256": "a93e9afdba1d1e0a889aa5f181291596c83aabfd44de43bfe44bceace531ac6e"
+  },
+  {
+    "source": "public/decks/media-colloquium-2026-06-10/assets/img5.png",
+    "url": "/decks/media-colloquium-2026-06-10/assets/img5.png",
+    "sha256": "92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352"
   }
 ]

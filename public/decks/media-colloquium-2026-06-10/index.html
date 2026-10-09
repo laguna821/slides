@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>독서토론이 곧 뉴스레터다 — 콜로퀴움 2026.06.10</title>
+<style>
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+
+/* ============ TOKENS ============ */
+:root{
+  --img1:url("assets/img1.png");
+  --img2:url("assets/img2.png");
+  --img3:url("assets/img3.png");
+  --img4:url("assets/img4.png");
+  --img5:url("assets/img5.png");
+
+  --bg:#06070a;
+  --panel:rgba(13,18,15,.82);
+  --panel-2:rgba(9,12,10,.92);
+  --ink:#f4f7f4;
+  --muted:rgba(244,247,244,.64);
+  --faint:rgba(244,247,244,.40);
+  --accent:#b6ff00;
+  --accent-dim:rgba(182,255,0,.30);
+  --accent-soft:rgba(182,255,0,.12);
+  --line:rgba(255,255,255,.12);
+
+  --deck-scale:1;
+}
+
+/* ============ RESET / BASE ============ */
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{height:100%;background:#000;}
+body{
+  font-family:"Pretendard Variable","Pretendard",-apple-system,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",system-ui,sans-serif;
+  color:var(--ink);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* ============ RUNTIME CANVAS ============ */
+#viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#000;overflow:hidden;}
+.slide{
+  position:absolute;top:50%;left:50%;
+  width:1920px;height:1080px;
+  transform:translate(-50%,-50%) scale(var(--deck-scale,1));
+  transform-origin:center center;
+  display:none;overflow:hidden;
+}
+.slide.active{display:block;}
+.slide-shell,.slide-ui{position:relative;width:100%;height:100%;}
+
+/* ============ BG-STAGE SYSTEM (V8) ============ */
+.bg-stage{background:var(--bg);color:var(--ink);}
+.bg-full{position:absolute;inset:0;background-size:cover;background-position:center;filter:saturate(.95) contrast(1.05);}
+.img1{background-image:var(--img1);}
+.img2{background-image:var(--img2);}
+.img3{background-image:var(--img3);}
+.img4{background-image:var(--img4);}
+.img5{background-image:var(--img5);}
+.bg-treatment{position:absolute;inset:0;pointer-events:none;}
+.bg-grid{position:absolute;inset:0;opacity:.40;mix-blend-mode:screen;pointer-events:none;
+  background-image:linear-gradient(rgba(182,255,0,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(182,255,0,.07) 1px,transparent 1px);
+  background-size:40px 40px;}
+.slide-ui{z-index:5;height:100%;overflow:hidden;}
+
+/* background modes */
+.mode-tone .bg-treatment{background:linear-gradient(135deg,rgba(4,5,8,.92),rgba(7,30,7,.56)),radial-gradient(circle at 78% 24%,rgba(182,255,0,.20),transparent 34%);}
+.mode-tone.neon .bg-treatment{background:linear-gradient(135deg,rgba(4,5,8,.84),rgba(6,30,6,.48)),radial-gradient(circle at 72% 20%,rgba(182,255,0,.40),transparent 30%);}
+.mode-blend-right .bg-treatment{background:linear-gradient(90deg,rgba(4,5,8,.98) 0%,rgba(4,5,8,.92) 28%,rgba(4,5,8,.52) 60%,rgba(4,5,8,.10) 100%);}
+.mode-blend-left .bg-treatment{background:linear-gradient(90deg,rgba(4,5,8,.10) 0%,rgba(4,5,8,.52) 40%,rgba(4,5,8,.92) 72%,rgba(4,5,8,.98) 100%);}
+.mode-wash .bg-full{filter:brightness(1.2) saturate(.8) blur(6px);opacity:.30;transform:scale(1.06);}
+.mode-wash .bg-treatment{background:linear-gradient(180deg,rgba(6,7,10,.80),rgba(6,7,10,.92));}
+/* mode-texture = BRIGHTENED faint image (per ACH note: lighten, never re-darken) */
+.mode-texture .bg-full{filter:brightness(1.55) saturate(.85) contrast(1.0);opacity:.17;transform:scale(1.04);}
+.mode-texture .bg-treatment{background:radial-gradient(circle at 74% 28%,rgba(182,255,0,.10),transparent 44%),linear-gradient(180deg,rgba(6,7,10,.64),rgba(6,7,10,.82));}
+
+/* ============ LAYOUT ============ */
+.shell-pad{padding:80px 96px;height:100%;display:flex;flex-direction:column;}
+.shell-pad.center{justify-content:center;}
+.shell-pad.between{justify-content:space-between;}
+.kicker{font-size:22px;font-weight:800;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;display:flex;align-items:center;gap:14px;}
+.kicker::before{content:"";width:44px;height:3px;background:var(--accent);display:inline-block;}
+.headline{font-size:66px;font-weight:900;line-height:1.14;letter-spacing:-.02em;}
+.headline.sm{font-size:54px;}
+.hi{color:var(--accent);}
+.sub{font-size:32px;font-weight:500;color:var(--muted);line-height:1.5;}
+.foot{font-size:22px;color:var(--faint);}
+.foot b{color:var(--ink);font-weight:700;}
+.src{font-size:18px;color:var(--faint);letter-spacing:.01em;}
+.row{display:flex;gap:28px;min-height:0;}
+.row>*,.grid>*,.compare>*{min-height:0;min-width:0;}
+.shell-pad>*{min-height:0;}
+.spacer{flex:1;}
+
+/* big type */
+.cover-title{font-size:122px;font-weight:950;line-height:1.02;letter-spacing:-.035em;}
+.cover-sub{font-size:38px;font-weight:600;color:var(--muted);line-height:1.4;}
+.divider-title{font-size:140px;font-weight:950;line-height:1.0;letter-spacing:-.04em;}
+.statement{font-size:78px;font-weight:900;line-height:1.2;letter-spacing:-.02em;max-width:1560px;}
+.statement.sm{font-size:62px;}
+.big-q{font-size:104px;font-weight:950;line-height:1.08;letter-spacing:-.03em;}
+
+/* stat */
+.stat-huge{font-size:200px;font-weight:950;color:var(--accent);line-height:.84;letter-spacing:-.04em;}
+.stat-row{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;}
+.stat-unit{font-size:46px;font-weight:800;color:var(--ink);}
+.stat-mid{font-size:120px;font-weight:950;color:var(--accent);line-height:.9;letter-spacing:-.03em;}
+
+/* quote */
+.quote-big{font-size:58px;font-weight:800;line-height:1.32;padding-left:46px;border-left:7px solid var(--accent);}
+.quote-big.sm{font-size:46px;}
+.quote-attr{font-size:28px;color:var(--muted);margin-top:26px;}
+.quote-en{font-size:24px;color:var(--faint);font-style:italic;margin-top:14px;line-height:1.5;}
+
+/* cards / grids */
+.grid{display:grid;gap:24px;flex:1;min-height:0;}
+.g2{grid-template-columns:1fr 1fr;}
+.g3{grid-template-columns:repeat(3,1fr);}
+.g4{grid-template-columns:repeat(4,1fr);}
+.g6{grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;}
+.card{background-color:var(--panel);border:1px solid var(--accent-dim);border-radius:18px;padding:34px 34px;display:flex;flex-direction:column;gap:14px;min-height:0;box-shadow:0 18px 44px rgba(0,0,0,.4);}
+.card.tight{padding:26px 28px;gap:10px;}
+.card .num{font-size:30px;font-weight:950;color:var(--accent);}
+.card h3{font-size:34px;font-weight:800;line-height:1.2;}
+.card h3.sm{font-size:28px;}
+.card p{font-size:25px;color:var(--muted);line-height:1.45;}
+.card .big{font-size:88px;font-weight:950;color:var(--accent);line-height:1;}
+
+/* material image card — raw5 image visible behind a dark scrim (no backdrop-filter; headless-safe) */
+.material-image-card{position:relative;isolation:isolate;overflow:hidden;border-radius:18px;padding:28px 30px;display:flex;flex-direction:column;gap:12px;min-height:0;color:#fff;border:1px solid var(--accent-dim);box-shadow:0 22px 60px rgba(0,0,0,.46);background-color:rgba(6,8,12,.5);}
+.material-image-card::before{content:"";position:absolute;inset:-8px;z-index:-2;background-image:var(--card-img,var(--img1));background-size:cover;background-position:center;filter:brightness(.6) saturate(.9) contrast(1.15) blur(2px);transform:scale(1.04);}
+.material-image-card::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 22% 12%,rgba(255,255,255,.10),transparent 30%),linear-gradient(180deg,rgba(5,7,10,.30) 0%,rgba(5,7,10,.56) 46%,rgba(5,7,10,.82) 100%);}
+.material-image-card .num{font-size:28px;font-weight:950;color:var(--accent);}
+.material-image-card h3{font-size:30px;font-weight:800;line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.5);}
+.material-image-card h3.sm{font-size:26px;}
+.material-image-card p{font-size:23px;color:rgba(255,255,255,.9);line-height:1.42;text-shadow:0 2px 14px rgba(0,0,0,.5);}
+
+/* evidence window (dark frame; charts on white inner panel, photos on dark) */
+.evidence{background-color:var(--panel);border:1px solid var(--accent-dim);border-radius:16px;padding:14px;box-shadow:0 24px 60px rgba(0,0,0,.5);display:flex;flex-direction:column;gap:10px;min-height:0;overflow:hidden;}
+.evidence figcaption{font-size:19px;color:var(--muted);line-height:1.4;flex:none;}
+.evidence figcaption b{color:var(--accent);font-weight:700;}
+.evidence>img{display:block;max-width:100%;height:auto;border-radius:9px;background-color:#fff;}
+.ev-wrap{flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background-color:#fff;border-radius:9px;}
+.ev-wrap.dark{background-color:#0a0c0a;}
+.ev-wrap img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;}
+/* cropped thumbnail frame (cover = crop to fill, never distort) */
+.shot-frame{flex:1 1 0;min-width:0;min-height:0;overflow:hidden;border-radius:8px;background:#0a0c0a;}
+.shot{width:100%;height:100%;object-fit:cover;display:block;}
+
+/* compare */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:30px;flex:1;align-items:stretch;position:relative;min-height:0;}
+.vs{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:50%;background:var(--bg);border:2px solid var(--accent);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:950;z-index:8;}
+.grade{font-size:140px;font-weight:950;color:var(--accent);line-height:.9;}
+
+/* table */
+.tbl{width:100%;border-collapse:collapse;font-size:30px;}
+.tbl th,.tbl td{text-align:left;padding:24px 28px;border-bottom:1px solid var(--line);vertical-align:top;}
+.tbl th{color:var(--accent);font-size:24px;letter-spacing:.06em;text-transform:uppercase;}
+.tbl td:first-child{color:var(--muted);width:42%;}
+.tbl td .punch{color:var(--accent);font-weight:800;}
+
+/* def rows */
+.defs{display:flex;flex-direction:column;gap:20px;flex:1;justify-content:center;min-height:0;}
+.def{display:flex;gap:24px;align-items:flex-start;border-left:4px solid var(--accent-dim);padding-left:24px;}
+.def .dn{flex:none;color:var(--accent);font-size:30px;font-weight:950;min-width:42px;}
+.def .dt{font-size:30px;line-height:1.45;}
+.def .dt b{color:var(--ink);font-weight:800;}
+.def .dt small{display:block;font-size:24px;color:var(--muted);margin-top:6px;line-height:1.4;}
+
+/* 10 commandments grid */
+.cmd-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 48px;flex:1;align-content:center;min-height:0;}
+.cmd{display:flex;gap:20px;align-items:flex-start;}
+.cmd .n{flex:none;width:52px;height:52px;border:2px solid var(--accent);color:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:950;}
+.cmd .t{font-size:28px;line-height:1.38;padding-top:4px;}
+.cmd .t b{color:var(--accent);font-weight:800;}
+
+/* svg chart frame */
+.chart{width:100%;background-color:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:16px;}
+.chart .axis{stroke:rgba(255,255,255,.22);stroke-width:1.5;}
+.chart .grid-line{stroke:rgba(255,255,255,.10);stroke-width:1;}
+.chart .bar{fill:var(--accent);}
+.chart .bar-dim{fill:rgba(182,255,0,.30);}
+.chart .lab{fill:var(--ink);font-size:20px;font-weight:700;font-family:inherit;}
+.chart .val{fill:var(--accent);font-size:24px;font-weight:900;font-family:inherit;}
+.chart .stroke{stroke:var(--accent);stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+
+/* pills / tags */
+.pill{display:inline-block;border:1px solid var(--accent-dim);color:var(--accent);border-radius:999px;padding:8px 20px;font-size:22px;font-weight:700;}
+.tag{color:var(--accent);font-weight:800;}
+
+/* ============ NAV / CONTROLLER ============ */
+#controller{position:fixed;right:22px;bottom:20px;z-index:9999;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .18s ease,transform .18s ease;display:flex;gap:6px;align-items:center;background:rgba(8,10,9,.82);border:1px solid var(--accent-dim);border-radius:999px;padding:7px 12px;backdrop-filter:blur(4px);}
+#controller.is-visible,#controller:hover{opacity:1;transform:none;pointer-events:auto;}
+#controller button{background:none;border:none;color:var(--ink);font-size:22px;cursor:pointer;width:38px;height:38px;border-radius:50%;}
+#controller button:hover{background:var(--accent-soft);color:var(--accent);}
+#controller .pg{font-size:18px;color:var(--muted);min-width:74px;text-align:center;letter-spacing:.04em;}
+.touch-zone{position:fixed;top:0;bottom:0;width:11%;z-index:9000;}
+.touch-zone.left{left:0;}
+.touch-zone.right{right:0;}
+#toc,.toc,.slide-index,.thumb-strip,.slide-dots,.page-list{display:none!important;visibility:hidden!important;pointer-events:none!important;}
+</style>
+</head>
+<body>
+<div id="viewport">
+
+<!-- ===== 01 · COVER ===== -->
+<section class="slide active bg-stage mode-tone" data-slide="1">
+  <div class="bg-full img1"></div>
+  <div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">한림대학교 미디어스쿨 콜로퀴움 · 2026.06.10</div>
+    <div>
+      <div class="cover-title">독서토론이 곧<br><span class="hi">뉴스레터</span>다</div>
+      <div class="cover-sub" style="margin-top:34px;"><b style="color:var(--ink)">글쓰기가 곧 미디어가 되는<br><span class="tag">AI 시대의 전공 수업 설계</span></b></div>
+    </div>
+    <div class="foot">발표 · <b>안창현</b> (Achmage)</div>
+  </div></div>
+</section>
+
+<!-- ===== 02 · THESIS SEED ===== -->
+<section class="slide bg-stage mode-texture" data-slide="2">
+  <div class="bg-full img1"></div>
+  <div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">오늘의 질문</div>
+    <div class="big-q" style="margin-top:30px;">AI 시대,<br>우리는 무엇을<br><span class="hi">«평가»</span>받게 되는가?</div>
+    <div class="sub" style="margin-top:40px;max-width:1200px;"><b style="color:var(--ink)">결과물이 아니라 ‘과정’ — <span class="tag">그리고 그 과정은 어디에 남는가.</span></b></div>
+  </div></div>
+</section>
+
+<!-- ===== 03 · PART 0 DIVIDER ===== -->
+<section class="slide bg-stage mode-blend-right" data-slide="3">
+  <div class="bg-full img3"></div>
+  <div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 0 · 도입</div>
+    <div class="divider-title">20년차 기자도<br>고전한<br><span class="hi">‘AI 시험’</span></div>
+    <div class="foot">SK AX AI 역량 인증 시험 — KBS 9시 뉴스 (2026.06.01)</div>
+  </div></div>
+</section>
+
+<!-- ===== 04 · KBS EVIDENCE ===== -->
+<section class="slide bg-stage" data-slide="4">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 0 · 도입</div>
+    <h2 class="headline" style="margin-top:20px;">SK가 만든 <span class="hi">‘AI 역량 인증 시험’</span>이<br>9시 뉴스에 나왔습니다</h2>
+    <figure class="evidence photo" style="flex:1;min-height:0;margin-top:28px;">
+      <div class="ev-wrap dark"><img src="assets/evidence/1_1693_952px.png" width="1693" height="952" alt="KBS 뉴스9 — SK AX AI 역량시험 보도 장면"></div>
+      <figcaption><b>KBS 뉴스9</b> (2026.06.01) · “채용·승진 가르는 ‘AI 시험’…직접 쳐봤습니다”</figcaption>
+    </figure>
+  </div></div>
+</section>
+
+<!-- ===== 05 · COMPARE A vs B ===== -->
+<section class="slide bg-stage" data-slide="5">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 0 · 도입</div>
+    <h2 class="headline sm" style="margin-top:18px;">9년차는 <span class="hi">A</span>, 20년차는 <span class="hi">B</span> —<br>다년차 KBS 기자들도 고전했습니다</h2>
+    <div class="compare" style="margin-top:24px;">
+      <div class="card" style="gap:14px;">
+        <div class="row" style="align-items:center;justify-content:space-between;">
+          <div><h3>방준원 기자</h3><p><b style="color:var(--ink)">KBS · 2018년 입사(45기) · 9년차</b></p></div>
+          <div class="grade">A</div>
+        </div>
+        <div class="row" style="gap:12px;flex:1;min-height:0;">
+          <div class="shot-frame"><img class="shot" src="assets/evidence/2_1691_949px.png" alt="방준원 기자 보도 장면 1"></div>
+          <div class="shot-frame"><img class="shot" src="assets/evidence/3_1693_948px.png" alt="방준원 기자 보도 장면 2"></div>
+        </div>
+      </div>
+      <div class="card" style="gap:14px;">
+        <div class="row" style="align-items:center;justify-content:space-between;">
+          <div><h3>김준범 기자</h3><p><b style="color:var(--ink)">KBS · 2007년 입사(33기) · 20년차</b></p></div>
+          <div class="grade">B</div>
+        </div>
+        <div class="row" style="gap:12px;flex:1;min-height:0;">
+          <div class="shot-frame"><img class="shot" src="assets/evidence/4_1697_940px.png" alt="김준범 기자 보도 장면 1"></div>
+          <div class="shot-frame"><img class="shot" src="assets/evidence/5_1695_949px.png" alt="김준범 기자 보도 장면 2"></div>
+        </div>
+      </div>
+      <div class="vs">≠</div>
+    </div>
+    <div class="src" style="margin-top:16px;"><b style="color:var(--ink)">최고 등급은 S </b>· 출처: KBS 뉴스9(2026.06.01), 나무위키 KBS NEWS 구성원</div>
+  </div></div>
+</section>
+
+<!-- ===== 06 · 2-STAGE TEST ===== -->
+<section class="slide bg-stage" data-slide="6">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 0 · 도입</div>
+    <h2 class="headline sm" style="margin-top:18px;">시험은 2단계 — <span class="hi">리터러시</span>, 그리고 <span class="hi">부트캠프</span></h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:26px;gap:30px;align-items:stretch;">
+      <div style="flex:1;display:flex;flex-direction:column;gap:18px;justify-content:center;">
+        <div class="card"><div class="num">STEP 1 · AI 리터러시</div><p><b style="color:var(--ink)">생성형 AI 원리 이해부터 <span class="tag">프롬프트 활용·일상 업무 적용</span>까지. 실제 업무 맥락에서 문해력과 실행력을 평가.</b></p></div>
+        <div class="card"><div class="num">STEP 2 · AI 부트캠프</div><p><b style="color:var(--ink)"><span class="tag">RAG 시스템·AI 웹/앱 개발 실습</span>을 거쳐 <span class="tag">AI 에이전트를 직접 설계·개발</span>하고 기술 평가로 인증.</b></p></div>
+      </div>
+      <figure class="evidence photo" style="flex:1;min-height:0;">
+        <div class="ev-wrap dark"><img src="assets/evidence/6_1698_947px.png" width="1698" height="947" alt="SK AX AI 시험 보도 장면"></div>
+        <figcaption>AI 활용 <b>과정</b> 자체를 채점한다 — KBS / SK AX</figcaption>
+      </figure>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 07 · 윤성환 QUOTE ===== -->
+<section class="slide bg-stage mode-tone" data-slide="7">
+  <div class="bg-full img3"></div>
+  <div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 0 · 도입</div>
+    <blockquote class="quote-big">“코딩을 몰라도 풀 수 있습니다.<br>핵심은 주어진 문제를 얼마나<br><span class="hi">구조화하고 단계적으로 접근</span>하느냐를<br>중점으로 평가하는 것입니다.”
+      <div class="quote-attr"><span class="tag">— 윤성환 · SK AX AI시험 사업부 팀장</span></div>
+    </blockquote>
+    <div class="row" style="align-items:center;gap:22px;">
+      <figure class="evidence photo" style="width:420px;"><img src="assets/evidence/7_1684_952px.png" width="1684" height="952" alt="SK AX 윤성환 팀장 인터뷰"></figure>
+      <div class="sub"><b style="color:var(--ink)">시험은 답이 아니라 ‘문제를 푸는 과정’을 본다.</b></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 08 · STATEMENT (과정 채점) ===== -->
+<section class="slide bg-stage mode-texture" data-slide="8">
+  <div class="bg-full img3"></div>
+  <div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">한 문장으로</div>
+    <div class="statement" style="margin-top:28px;">기업은 결과물이 아니라<br><span class="hi">‘AI를 쓰는 과정’</span>을<br>채점하기 시작했습니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 09 · 신입 PD 3축 ===== -->
+<section class="slide bg-stage" data-slide="9">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 0 · 도입</div>
+    <h2 class="headline sm" style="margin-top:18px;">방송국 신입 PD도 곧 — <span class="hi">세 가지를 동시에</span> 봅니다</h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:24px;gap:30px;align-items:stretch;">
+      <figure class="evidence photo" style="flex:1.15;min-height:0;">
+        <div class="ev-wrap dark"><img src="assets/evidence/8_1696_949px.png" width="1696" height="949" alt="비개발자 대상 AI 바이브 코딩 시험 — opencode 화면과 ‘비개발자용 시험’ 자막"></div>
+        <figcaption>비개발자도 <b>‘바이브 코딩’</b>으로 문제를 푸는 시대 — KBS 뉴스9</figcaption>
+      </figure>
+      <div style="flex:.85;display:flex;flex-direction:column;gap:16px;justify-content:center;">
+        <div class="card tight"><div class="num">01</div><h3 class="sm"><span class="tag">글쓰기 · 기획력</span></h3><p><b style="color:var(--ink)">독자와의 관계를 설계하는 힘.</b></p></div>
+        <div class="card tight"><div class="num">02</div><h3 class="sm"><span class="tag">AI 구조화 능력</span></h3><p><b style="color:var(--ink)">문제를 분해해 단계적으로 AI에 시키는 사고.</b></p></div>
+        <div class="card tight"><div class="num">03</div><h3 class="sm"><span class="tag">바이브 코딩 실행력</span></h3><p><b style="color:var(--ink)">대시보드·팩트체크 앱을 직접 만들어 보이기.</b></p></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 10 · PART 1 DIVIDER ===== -->
+<section class="slide bg-stage mode-tone" data-slide="10">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 1 · 학계와 연구</div>
+    <div class="divider-title">학계는 이미<br><span class="hi">‘과정’</span>을 봅니다</div>
+    <div class="foot">Nature · Frontiers · Wiley 설문 (2025–2026)</div>
+  </div></div>
+</section>
+
+<!-- ===== 11 · STAT 1,043 / 4,946 ===== -->
+<section class="slide bg-stage" data-slide="11">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · 학계와 연구</div>
+    <h2 class="headline sm" style="margin-top:18px;">전 세계 연구자 4,946명 중,<br>실제로 AI를 연구에 쓴 사람은 <span class="hi">1,043명</span>뿐</h2>
+    <div class="row" style="flex:1;margin-top:24px;gap:34px;align-items:center;">
+      <div style="flex:.92;">
+        <div class="stat-huge">1,043</div>
+        <div class="stat-unit" style="margin-top:10px;"><br>— 실제로 AI를 연구에 써봤다 (21%)</div>
+        <div class="sub" style="margin-top:18px;"><b style="color:var(--ink)">“써봤다”는 응답조차 <span class="tag">편집 28%, 초안 작성 8% 미만</span><br>(Nature 설문조사, <span class="tag">2025년 2월</span> 기준)</b></div>
+      </div>
+      <figure class="evidence" style="flex:1.08;align-self:stretch;">
+        <div class="ev-wrap" style="flex:1;"><img src="assets/evidence/13_1005_916px.png" width="1005" height="916" alt="AI로 논문을 써본 경험 설문 — 소수만 실제 사용"></div>
+        <figcaption>“AI로 논문을 써봤는가” — 대부분 <b>안 해봤거나 안 쓰겠다</b>. Nature·Wiley 설문</figcaption>
+      </figure>
+    </div>
+    <div class="src" style="margin-top:12px;">출처: Wiley “전 세계 연구자 AI 활용 실태”(2025.02.04) · Nature</div>
+  </div></div>
+</section>
+
+<!-- ===== 12 · 66% lack training ===== -->
+<section class="slide bg-stage" data-slide="12">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · 학계와 연구</div>
+    <h2 class="headline sm" style="margin-top:18px;">못 쓰는 이유의 <span class="hi">66%</span>는 실력이 아니라<br>‘교육·지침 부족’이었습니다</h2>
+    <div class="row" style="flex:1;margin-top:24px;gap:34px;align-items:center;">
+      <div style="flex:.9;display:flex;flex-direction:column;gap:18px;justify-content:center;">
+        <div class="card tight"><h3 class="sm">필요한 건 ‘AI 교육’ <span class="hi">44%</span></h3></div>
+        <div class="card tight"><h3 class="sm">‘어디서 시작할지 모름’ <span class="hi">22%</span></h3></div>
+        <div class="sub"><b style="color:var(--ink)">그리고 대부분은 <br>“원고·보조금·동료평가에서 곧 보편화될 것”이라 답했다.</b></div>
+      </div>
+      <figure class="evidence" style="flex:1.08;align-self:stretch;">
+        <div class="ev-wrap" style="flex:1;"><img src="assets/evidence/9_751_680px.webp" width="751" height="680" alt="대부분의 AI 활용이 몇 년 내 받아들여질 것이라는 전망 차트"></div>
+        <figcaption>대부분의 AI 활용은 <b>몇 년 내 받아들여질 것</b>으로 예상 — Nature</figcaption>
+      </figure>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 13 · edit/translate charts ===== -->
+<section class="slide bg-stage" data-slide="13">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · 학계와 연구</div>
+    <h2 class="headline sm" style="margin-top:18px;">어디까지 허용되나 — <span class="hi">편집 90%</span>, <span class="hi">번역 91%</span></h2>
+    <div class="grid g2" style="margin-top:24px;">
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/10_1029_431px.png" width="1029" height="431" alt="AI 편집 허용도 차트"></div><figcaption><b>편집</b> — 초안은 사람이 쓰고 AI로 다듬기: 허용 90%</figcaption></figure>
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/11_1004_474px.png" width="1004" height="474" alt="AI 번역 허용도 차트"></div><figcaption><b>번역</b> — 전체 번역에 AI 사용: 허용 91%</figcaption></figure>
+    </div>
+    <div class="sub" style="margin-top:22px;"><b style="color:var(--ink)">단, ‘프롬프트까지 공개하라’는 응답이 번역에선 42%. — 과정 공개 압력은 이미 시작됐다.</b></div>
+    <div class="src" style="margin-top:10px;">출처: Nature 설문(2025.05.14), 5,000여 명 · Dr Bloggs 시나리오</div>
+  </div></div>
+</section>
+
+<!-- ===== 14 · Methods/Results never ===== -->
+<section class="slide bg-stage" data-slide="14">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · 학계와 연구</div>
+    <h2 class="headline sm" style="margin-top:18px;">그러나 <span class="hi">Methods·Results·Discussion</span>은<br>‘절대 쓰지 말라’가 과반입니다</h2>
+    <div class="row" style="flex:1;margin-top:22px;gap:34px;align-items:center;">
+      <figure class="evidence" style="flex:1.12;align-self:stretch;"><div class="ev-wrap" style="flex:1;"><img src="assets/evidence/12_1011_968px.png" width="1011" height="968" alt="논문 섹션별 AI 사용 허용도 차트"></div><figcaption>섹션이 ‘결과’에 가까울수록 <b>Never appropriate</b> 비율이 치솟는다 — Nature</figcaption></figure>
+      <div style="flex:.88;">
+        <div class="sub"><b style="color:var(--ink)">초록·서론엔 관대하지만,<br> <span class="tag>결과·해석·결론</span>은 인간이 직접.<br>= AI는 <span class="tag">생산성 보조</span>, 판단은 사람.</b></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 15 · experience quote ===== -->
+<section class="slide bg-stage mode-tone" data-slide="15">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">Part 1 · 결정적 발견</div>
+    <blockquote class="quote-big" style="margin-top:24px;">AI를 <span class="hi">‘써본’ 사람</span>일수록<br>AI 활용에 호의적이었다.
+      <div class="quote-en"><b style="color:var(--ink)">“respondents’ self-reported experience with AI for writing or reviewing papers did correlate strongly with having favourable opinions of the scenarios.”</b></div>
+      <div class="quote-attr"><span class="tag">— Nature 설문 분석 (2025.05.14)</span></div>
+    </blockquote>
+    <div class="sub" style="margin-top:28px;max-width:1320px;"><b style="color:var(--ink)">태도를 가르는 건 찬반이 아니라  — 그리고 경험은 <span class="tag">기록</span>으로만 쌓인다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 16 · Hao stats ===== -->
+<section class="slide bg-stage mode-texture" data-slide="16">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · Hao et al. 2026 (Nature)</div>
+    <h2 class="headline sm" style="margin-top:18px;">AI를 ‘도구로 쓴’ 논문은 — <span class="hi">압도적으로</span> 앞서갑니다</h2>
+    <div class="grid g3" style="margin-top:28px;align-items:stretch;">
+      <div class="card" style="justify-content:center;"><div class="big">3.02×</div><h3 class="sm">논문 출판 편수</h3></div>
+      <div class="card" style="justify-content:center;"><div class="big">4.84×</div><h3 class="sm">피인용 횟수</h3></div>
+      <div class="card" style="justify-content:center;"><div class="big">−1.37년</div><h3 class="sm">팀장 승진까지 시간</h3></div>
+    </div>
+    <div class="src" style="margin-top:20px;">1980–2025년 4,129만 편 분석 · “AI를 도구로 쓴 자연과학 논문” · Hao et al., Nature (2026.01)</div>
+  </div></div>
+</section>
+
+<!-- ===== 17 · paradox ===== -->
+<section class="slide bg-stage mode-texture" data-slide="17">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">역설</div>
+    <div class="statement sm" style="margin-top:22px;">그런데 AI는 새로운 주제를 열기보다<br><span class="hi">‘기존 인기 주제’</span>를<br>반복하게 만들었습니다.</div>
+    <div class="sub" style="margin-top:28px;max-width:1320px;"><b style="color:var(--ink)">새 논문조차 결국 ‘최초의 원본’만 인용한다 — <span class="tag">확산은 빨라지지만, 사유는 좁아진다.</tag></b></div>
+  </div></div>
+</section>
+
+<!-- ===== 18 · original data ===== -->
+<section class="slide bg-stage mode-tone" data-slide="18">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">핵심</div>
+    <div class="statement" style="margin-top:22px;">관건은 ‘AI를 썼느냐’가 아니라<br><span class="hi">‘내 Original Data가 있느냐’</span>였습니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 19 · peer review flip ===== -->
+<section class="slide bg-stage" data-slide="19">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · 동료평가 (Peer Review)</div>
+    <h2 class="headline sm" style="margin-top:18px;">단 <span class="hi">7개월</span> 만의 반전</h2>
+    <div class="compare" style="margin-top:24px;">
+      <div class="card" style="justify-content:space-between;">
+        <div><div class="num">2025년 5월 · Nature</div><h3 style="margin-top:8px;">“Peer review에 AI, <span class="hi">절대 반대</span>” 52%</h3></div>
+        <figure class="evidence" style="margin-top:12px;"><div class="ev-wrap"><img src="assets/evidence/14_751_730px.webp" width="751" height="730" alt="동료평가 AI 사용 의견 차트"></div></figure>
+      </div>
+      <div class="card" style="justify-content:center;align-items:center;text-align:center;">
+        <div class="num">2025년 12월 · Frontiers</div>
+        <div class="big" style="margin-top:10px;">55%</div>
+        <h3 class="sm">“이미 동료평가에 AI를 쓰고 있다”<br>(전 세계 1,600여 명)</h3>
+      </div>
+      <div class="vs">7개월</div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 20 · Frontiers 6 ===== -->
+<section class="slide bg-stage" data-slide="20">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 1 · Frontiers 2025 종합 권고</div>
+    <h2 class="headline sm" style="margin-top:18px;">학계의 처방은 <span class="hi">6가지</span> — 전부 ‘과정’을 가리킵니다</h2>
+    <div class="grid g6" style="margin-top:24px;">
+      <div class="material-image-card" style="--card-img:var(--img1)"><div class="num">01</div><h3 class="sm">투명성과 책임</h3><p>언제·어디서·어떻게 AI를 썼는지 공개</p></div>
+      <div class="material-image-card" style="--card-img:var(--img2)"><div class="num">02</div><h3 class="sm">AI 리터러시 교육</h3><p>구조화된 교육·공인 프로그램</p></div>
+      <div class="material-image-card" style="--card-img:var(--img3)"><div class="num">03</div><h3 class="sm">윤리·무결성</h3><p>인간 책임·편향 테스트·재현성 감사</p></div>
+      <div class="material-image-card" style="--card-img:var(--img4)"><div class="num">04</div><h3 class="sm">형평성·접근성</h3><p>AI 역량에 공평한 접근 보장</p></div>
+      <div class="material-image-card" style="--card-img:var(--img5)"><div class="num">05</div><h3 class="sm">커뮤니티 참여</h3><p>정책 공동 수립·피드백 메커니즘</p></div>
+      <div class="material-image-card" style="--card-img:var(--img1)"><div class="num">06</div><h3 class="sm">정책 리더십</h3><p>글로벌 표준 수립에 기여</p></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 21 · keyword ===== -->
+<section class="slide bg-stage mode-texture" data-slide="21">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">반복되는 한 단어</div>
+    <div class="big-q" style="margin-top:18px;">‘<span class="hi">과정</span>’ 검증<br>‘<span class="hi">과정</span>’ 교육<br>‘<span class="hi">과정</span>’ 평가</div>
+  </div></div>
+</section>
+
+<!-- ===== 22 · bridge question ===== -->
+<section class="slide bg-stage mode-tone" data-slide="22">
+  <div class="bg-full img1"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">그렇다면</div>
+    <div class="big-q" style="margin-top:18px;">그 ‘과정’은<br><span class="hi">어디에</span> 저장합니까?</div>
+    <div class="sub" style="margin-top:34px;max-width:1240px;"><b style="color:var(--ink)"><span class="tag">GPT 채팅창에?</span> 새 창을 열 때마다 맥락은 초기화됩니다.<br><span class ="tag">머릿속에?</span> 생각날 때마다 처음부터 재구성해야 합니다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 23 · PART 2 DIVIDER ===== -->
+<section class="slide bg-stage mode-blend-right" data-slide="23">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 2 · 저널리즘 교육</div>
+    <div class="divider-title">저널리즘 교육은<br><span class="hi">어디로</span> 가고 있나</div>
+    <div class="foot">ACEJMC · Columbia · USC · Columbia Journalism Review</div>
+  </div></div>
+</section>
+
+<!-- ===== 24 · ACEJMC ===== -->
+<section class="slide bg-stage mode-blend-right" data-slide="24">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 2 · ACEJMC (미국 저널리즘 인증)</div>
+    <h2 class="headline sm" style="margin-top:18px;">졸업생 핵심 역량 — 결국 <span class="hi">같은 네 가지</span></h2>
+    <div class="defs" style="margin-top:22px;">
+      <div class="def"><div class="dn">찾기</div><div class="dt">적절한 도구로 <b>이미지와 정보</b>를 효과적으로 제시한다</div></div>
+      <div class="def"><div class="dn">평가</div><div class="dt"><b>비판적 사고</b>로 연구를 수행하고 정보를 평가한다</div></div>
+      <div class="def"><div class="dn">검증</div><div class="dt">정확성·공정성·명확성과 <b>기본 수치·통계</b>를 비판적으로 검증한다</div></div>
+      <div class="def"><div class="dn">표현</div><div class="dt">대상·목적에 맞게 <b>정확하고 명확하게 글을 쓴다</b></div></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 25 · statement (기록 습관) ===== -->
+<section class="slide bg-stage mode-texture" data-slide="25">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">그런데</div>
+    <div class="statement sm" style="margin-top:22px;">이 역량은 전부<br><span class="hi">‘기록하는 습관’</span> 없이는<br>작동하지 않습니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 26 · CJS 2030 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="26">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 2 · Columbia Journalism School (CJS 2030)</div>
+    <div>
+      <div class="big-q" style="font-size:92px;">Learn. <span class="hi">Build.</span> Critique.</div>
+      <div class="sub" style="margin-top:24px;max-width:1320px;"><b style="color:var(--ink)"><span class="tag">자료를 찾고·모으고·분석하는 역량</span>을 강조하며 — <br>“개인이 스스로 <span class="tag">디지털 아카이브</span>를 구축하라”고 명시한다.</b></div>
+    </div>
+    <div class="foot">데이터 저널리즘 = 단발성 프롬프트가 아니라 ‘자료·출처·분석·판단이 남는 작업 환경’.</div>
+  </div></div>
+</section>
+
+<!-- ===== 27 · CJR setup ===== -->
+<section class="slide bg-stage mode-tone" data-slide="27">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">Part 2 · USC AIMS × Columbia Journalism Review</div>
+    <div class="big-q" style="margin-top:18px;">18명의 기자에게 물었습니다 —<br><span class="hi">“당신은 AI를 어떻게 쓰는가”</span></div>
+  </div></div>
+</section>
+
+<!-- ===== 28 · quote 1/4 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="28">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">기자들의 증언 · 01 / 04</div>
+    <blockquote class="quote-big">“AI는 <span class="hi">생산성</span>을 위한 것이지,<br><span class="hi">글쓰기</span>를 위한 것이 아니다.”
+      <div class="quote-en"><b style="color:var(--ink)">“As much as I believe that AI helps my productivity, I refuse to use it for writing.”</b></div>
+      <div class="quote-attr"><b style="color:var(--ink)"><span class="tag">— Emilia David · VentureBeat</span></b></div>
+    </blockquote>
+    <div class="foot">글쓰기를 AI에 넘기면 독자와의 관계도, 역량 자체도 사라진다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 29 · quote 2/4 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="29">
+  <div class="bg-full img5"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">기자들의 증언 · 02 / 04</div>
+    <blockquote class="quote-big">그 자체로 AI는<br><span class="hi">눈속임(parlor trick)</span>일 뿐이다.
+      <div class="quote-en"><b style="color:var(--ink)">“AI on its own is a parlor trick … useful when paired with properly structured data and someone who knows what they’re doing.”</b></div>
+      <div class="quote-attr"><b style="color:var(--ink)"><span class="tag">— Zach Seward · The New York Times, AI 총괄</span></b></div>
+    </blockquote>
+    <div class="foot"><b style="color:var(--ink)"><span class="tag">구조화된 데이터 + 도메인 지식</span>이 있어야 AI가 작동한다 = PKM의 존재 이유.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 30 · quote 3/4 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="30">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">기자들의 증언 · 03 / 04</div>
+    <blockquote class="quote-big">AI는 <span class="hi">손</span>으로 여겨야지,<br><span class="hi">두뇌</span>로 여겨선 안 된다.
+      <div class="quote-en"><b style="color:var(--ink)">“I don’t fear AI if it’s used as a hand, not a brain.”</b></div>
+      <div class="quote-attr"><b style="color:var(--ink)"><span class="tag">— Susie Cagle</span></b></div>
+    </blockquote>
+    <div class="foot"><b style="color:var(--ink)"><span class="tag">판단하는 두뇌는 사람이다</span> — AI에 맡기면 빨라지지만, 덜 인간적이고 덜 진실해진다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 31 · quote 4/4 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="31">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">기자들의 증언 · 04 / 04</div>
+    <blockquote class="quote-big sm">똑똑하지만 헛소리도 잘하는 조수 —<br><span class="hi">내 원고와 인터뷰 녹취록을 먼저 올린 뒤</span>에야 검증시킨다.
+      <div class="quote-en"><b style="color:var(--ink)">“I’ll upload sections of my book, along with interview transcripts … I would never ask it to write anything, though.”</b></div>
+      <div class="quote-attr"><b style="color:var(--ink)"><span class="tag">— Nicholas Thompson · The Atlantic, CEO</span></b></div>
+    </blockquote>
+    <div class="foot"><b style="color:var(--ink)"><span class="tag">인간의 1차 자료·기록</span>이 있어야 AI가 비로소 일한다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 32 · flow ===== -->
+<section class="slide bg-stage mode-texture" data-slide="32">
+  <div class="bg-full img5"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 2 · 공통 구조</div>
+    <h2 class="headline sm" style="margin-top:18px;">AI를 잘 쓰는 기자들의 작업은 <span class="hi">똑같은 모양</span>입니다</h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:28px;align-items:center;gap:16px;">
+      <div class="card" style="flex:1;justify-content:center;"><div class="num">01 · 인간</div><h3 class="sm">1차 자료를 만든다</h3><p><b style="color:var(--ink)">취재·기록·글쓰기로 <span class="tag">원본 데이터</span> 생성</b></p></div>
+      <div style="color:var(--accent);font-size:42px;font-weight:900;flex:none;">▶</div>
+      <div class="card" style="flex:1;justify-content:center;"><div class="num">02 · AI</div><h3 class="sm">보조한다</h3><p><b style="color:var(--ink)">정리·검증·요약·번역 <span class = "tag">(AI는 ‘손’)</span></b></p></div>
+      <div style="color:var(--accent);font-size:42px;font-weight:900;flex:none;">▶</div>
+      <div class="card" style="flex:1;justify-content:center;"><div class="num">03 · 인간</div><h3 class="sm">최종 판단·발행</h3><p><b style="color:var(--ink)">“유일한 출처가 AI라면 보도하지 않는다”</b></p></div>
+    </div>
+    <div class="src" style="margin-top:18px;">Ben Welsh(Reuters)·Sarah Cahlan(WaPo)·Khari Johnson(CalMatters) — CJR “How We’re Using AI”(2025.05.12)</div>
+  </div></div>
+</section>
+
+<!-- ===== 33 · statement (PKM) ===== -->
+<section class="slide bg-stage mode-tone" data-slide="33">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">결론</div>
+    <div class="statement sm" style="margin-top:22px;">AI를 잘 쓰는 기자일수록,<br>자신의 1차 자료를<br><span class="hi">체계적으로 축적</span>합니다. = PKM</div>
+    <div class="sub" style="margin-top:28px;max-width:1320px;"><b style="color:var(--ink)">구조화된 개인 지식이 없는 사람에게 AI는 <span class="tag">‘parlor trick(눈속임)’</span>에 그친다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 34 · Northwestern intro ===== -->
+<section class="slide bg-stage mode-tone" data-slide="34">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 2 · Northwestern University</div>
+    <h2 class="headline sm" style="margin-top:18px;">‘<span class="hi">Agentic Investigation Challenge</span>’ — 지금 진행 중입니다</h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:24px;gap:30px;align-items:stretch;">
+      <figure class="evidence" style="flex:1.3;min-height:0;">
+        <div class="ev-wrap"><img src="assets/evidence/15_1432_648px.png" width="1432" height="648" alt="Northwestern Agentic Investigation Challenge — 상금과 일정 안내"></div>
+        <figcaption>상금 $5,000 · 마감 7/15 · 심사 8/15 — AI 활용 탐사보도 공모전</figcaption>
+      </figure>
+      <div style="flex:.7;display:flex;flex-direction:column;justify-content:center;">
+        <div class="sub"><b style="color:var(--ink)">“AI로 취재한 기사 한 편”이 아니라,<br><span class="tag">AI를 어떻게 썼는지에 대한 모든 과정 기록</span>을 통째로 제출하라.</b></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 35 · 4 submissions ===== -->
+<section class="slide bg-stage" data-slide="35">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 2 · 무엇을 제출하나</div>
+    <h2 class="headline sm" style="margin-top:18px;">제출물 <span class="hi">4종</span> — 결과물이 아니라 ‘과정’입니다</h2>
+    <div class="grid g4" style="margin-top:26px;">
+      <div class="material-image-card" style="--card-img:var(--img1)"><div class="num">①</div><h3 class="sm"><span class="tag">Agent Skills</span></h3><p>재사용 가능한 AI 작업 절차 (디렉터리)</p></div>
+      <div class="material-image-card" style="--card-img:var(--img2)"><div class="num">②</div><h3 class="sm"><span class="tag">Findings (PDF)</span></h3><p>외부 자료까지 결합한 발견 보고서</p></div>
+      <div class="material-image-card" style="--card-img:var(--img3)"><div class="num">③</div><h3 class="sm"><span class="tag">Interaction Traces (JSON)</span></h3><p>입력·도구호출·출력·개입의 전체 로그</p></div>
+      <div class="material-image-card" style="--card-img:var(--img4)"><div class="num">④</div><h3 class="sm"><span class="tag">README.md</span></h3><p>전체 구조를 잇는 마크다운 색인</p></div>
+    </div>
+    <div class="src" style="margin-top:18px;">출처: Agentic AI Investigative Journalism Challenge, Northwestern (2026.06 진행 중)</div>
+  </div></div>
+</section>
+
+<!-- ===== 36 · Agent Skills ===== -->
+<section class="slide bg-stage mode-texture" data-slide="36">
+  <div class="bg-full img5"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">① Agent Skills</div>
+    <div class="statement sm" style="margin-top:22px;">10번 돌려 9번 같은 결과를 내는,<br><span class="hi">‘재현 가능한 작업 절차’</span></div>
+    <div class="sub" style="margin-top:28px;max-width:1320px;"><b style="color:var(--ink)">한 번 쓰고 버리는 프롬프트가 아니라 — 구조화·저장된 <span class="tag">지식 자산</span>.</div>
+  </div></div>
+</section>
+
+<!-- ===== 37 · Interaction Traces ===== -->
+<section class="slide bg-stage mode-tone" data-slide="37">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">③ Interaction Traces</div>
+    <div class="statement sm" style="margin-top:22px;">입력 · 도구호출 · 출력 —<br>그리고 <span class="hi">‘내가 개입해 바로잡은 순간’</span>까지<br>전체 로그를 통째로.</div>
+    <div class="sub" style="margin-top:28px;max-width:1320px;"><b style="color:var(--ink)">채팅창을 닫으면 사라지는 방식으론 불가능 — 별도로 <span class="tag">저장·관리하는 시스템</span>이 필요하다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 38 · 결정타 ===== -->
+<section class="slide bg-stage mode-tone neon" data-slide="38">
+  <div class="bg-full img3"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">결정타</div>
+    <div class="statement" style="margin-top:22px;">파일로 안 남으면,<br><span class="hi">제출 자체가 불가능</span>합니다.</div>
+    <div class="row" style="margin-top:36px;gap:20px;flex-wrap:wrap;">
+      <div class="pill" style="border-color:rgba(255,255,255,.28);color:var(--muted);">GPT 웹 채팅 → traces 증발 ✗</div>
+      <div class="pill">로컬 기록 (PKM) → 그대로 제출 ✓</div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 39 · PART 3 DIVIDER ===== -->
+<section class="slide bg-stage mode-tone" data-slide="39">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 3 · 기록</div>
+    <div class="divider-title">그래서, 결국<br><span class="hi">‘기록’</span>입니다</div>
+    <div class="foot"><b style="color:var(--ink)">과정을 평가하려면, 그 과정이 어딘가에 남아 있어야 한다.</b></div>
+  </div></div>
+</section>
+
+<!-- ===== 40 · three streams ===== -->
+<section class="slide bg-stage" data-slide="40">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · 총정리</div>
+    <h2 class="headline sm" style="margin-top:18px;">세 갈래가 <span class="hi">한 곳</span>을 가리킵니다</h2>
+    <div class="grid g3" style="margin-top:28px;">
+      <div class="material-image-card" style="--card-img:var(--img1)"><div class="num">기업</div><h3 class="sm">SK AX</h3><p>결과물이 아니라 <b style="color:#fff">문제를 구조화하고 푸는 과정</b>을 평가</p></div>
+      <div class="material-image-card" style="--card-img:var(--img2)"><div class="num">학계</div><h3 class="sm">Nature · Frontiers</h3><p>‘썼다/안 썼다’를 넘어 <b style="color:#fff">프롬프트·작업 과정 공개</b>로</p></div>
+      <div class="material-image-card" style="--card-img:var(--img3)"><div class="num">저널리즘</div><h3 class="sm">Northwestern</h3><p>취재·작업의 <b style="color:#fff">전 과정 기록·검증</b>을 요구</p></div>
+    </div>
+    <div class="statement" style="margin-top:30px;font-size:44px;">공통점은 하나 — <span class="hi">‘과정’</span>을 본다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 41 · 5-stage evolution ===== -->
+<section class="slide bg-stage" data-slide="41">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · AI 활용의 진화</div>
+    <h2 class="headline sm" style="margin-top:18px;">AI는 <span class="hi">5단계</span>로 진화했습니다 — 프롬프트에서 하네스까지</h2>
+    <div class="grid g2" style="margin-top:22px;">
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/17_2752_1536px.png" width="2752" height="1536" alt="AI 활용법 5단 진화: 프롬프트→CoT→MCP→스킬스→하네스"></div><figcaption><b>프롬프트 → CoT → MCP → 스킬스 → 하네스 &amp; AI OS</b></figcaption></figure>
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/16_2752_1536px.jpeg" width="2752" height="1536" alt="프롬프트에서 ‘나를 아는 AI’까지의 진화"></div><figcaption>같은 흐름의 다른 정리 — ‘나를 아는 AI’로 수렴</figcaption></figure>
+    </div>
+    <div class="src" style="margin-top:14px;">출처: 더베러 뉴스레터 220호</div>
+  </div></div>
+</section>
+
+<!-- ===== 42 · national markdown ===== -->
+<section class="slide bg-stage mode-tone" data-slide="42">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · 국가 표준</div>
+    <h2 class="headline sm" style="margin-top:18px;">국가 AI전략위가 <span class="hi">‘마크다운’</span>을 표준 문서로 채택했습니다</h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:24px;gap:30px;align-items:stretch;">
+      <figure class="evidence" style="flex:1.25;min-height:0;"><div class="ev-wrap"><img src="assets/evidence/18_1272_862px.png" width="1272" height="862" alt="국가 AI전략위 마크다운 채택 보도자료(2026-03-05)"></div><figcaption>국가인공지능전략위원회 보도자료 (2026.03.05)</figcaption></figure>
+      <div style="flex:.75;display:flex;flex-direction:column;justify-content:center;">
+        <div class="sub"><b style="color:var(--ink)"><span class="tag">마크다운 (Markdown/.MD)</span><br>“복잡한 서식 없이 제목·문단·목차를 단순 기호로 표현해 <span class="tag">사람과 AI가 함께 읽기 쉬운 문서 방식.”</span></b></div>
+        <div class="foot" style="margin-top:20px;"><b style="color:var(--ink)"><span class="tag">기존 한글 문서</span>는 편집이 많아 <span class="tag">AI가 구조를 인식하기 어렵다는 문제의식.</span></b></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 43 · human eye vs AI eye ===== -->
+<section class="slide bg-stage" data-slide="43">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · 기록의 ‘형태’</div>
+    <h2 class="headline sm" style="margin-top:18px;">같은 파일 — 사람 눈엔 <span class="hi">깔끔</span>, AI 눈엔 <span class="hi">깨짐</span></h2>
+    <div class="compare" style="margin-top:24px;">
+      <div class="card" style="gap:12px;"><div class="num">사람의 눈 (한글 .hwp)</div>
+        <figure class="evidence" style="flex:1;min-height:0;"><div class="ev-wrap"><img src="assets/evidence/19_828_842px.png" width="828" height="842" alt="한글 문서 — 사람 눈엔 깔끔"></div></figure>
+      </div>
+      <div class="card" style="gap:12px;"><div class="num">AI의 눈 (메모장으로 열기)</div>
+        <figure class="evidence" style="flex:1;min-height:0;"><div class="ev-wrap"><img src="assets/evidence/20_1105_831px.png" width="1105" height="831" alt="같은 파일을 메모장으로 — 깨진 텍스트"></div></figure>
+      </div>
+      <div class="vs">=</div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 44 · format table ===== -->
+<section class="slide bg-stage mode-blend-right" data-slide="44">
+  <div class="bg-full img2"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · 급소</div>
+    <h2 class="headline sm" style="margin-top:18px;">문제는 기록의 <span class="hi">존재</span>가 아니라 기록의 <span class="hi">형태</span>입니다</h2>
+    <table class="tbl" style="margin-top:26px;">
+      <thead><tr><th>흔한 항변</th><th>진짜 문제 (급소)</th></tr></thead>
+      <tbody>
+        <tr><td>“한글·워드로 다 정리했는데?”</td><td><span class="punch">죽은 그릇</span> — AI가 못 읽습니다</td></tr>
+        <tr><td>“수첩·공책에 펜으로 적었는데?”</td><td><span class="punch">검색·재현·연결</span>이 불가능합니다</td></tr>
+        <tr><td>“GPT 로그인하면 다 있는데?”</td><td>채팅창끼리는 <span class="punch">서로 연결</span>이 안 됩니다</td></tr>
+      </tbody>
+    </table>
+    <div class="foot" style="margin-top:26px;"><span class="tag">‘기록이 있다’와 ‘AI가 읽을 수 있다’는 전혀 다른 이야기입니다.</span></div>
+  </div></div>
+</section>
+
+<!-- ===== 45 · interview statement ===== -->
+<section class="slide bg-stage mode-texture" data-slide="45">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">Part 3 · 현장 — 26-1학기 오디세이세미나3</div>
+    <div class="statement sm" style="margin-top:22px;">16명을 면담했습니다.<br>모두가 <span class="tag">“AI도 쓰고,<br>기록도 한다”</span>고 했습니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 46 · 3 patterns ===== -->
+<section class="slide bg-stage" data-slide="46">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 3 · 면담 결과 — 공통점 3가지</div>
+    <h2 class="headline sm" style="margin-top:18px;">“알고 있지만, <span class="hi">하지 않는다</span>”</h2>
+    <div class="grid g3" style="margin-top:28px;">
+      <div class="card"><div class="num">01</div><h3 class="sm"><span class="tag">임시 저장소 수준</span></h3><p><b style="color:var(--ink)">수첩·메모장·카톡 ‘나에게 보내기’. 경험은 있되 <span class="tag">지식으로 변환하는 과정</span>이 없다.</b></p></div>
+      <div class="card"><div class="num">02</div><h3 class="sm"><span class="tag">‘머릿속’에만 존재</span></h3><p><b style="color:var(--ink)">관찰·취재는 풍부하나  <span class="tag">과정이 안 남아—</span>  <br>포트폴리오는 ‘기억’으로 재구성.</b></p></div>
+      <div class="card"><div class="num">03</div><h3 class="sm"><span class="tag">인식 ≠ 실행</span></h3><p><b style="color:var(--ink)">모두 필요성에 공감. <br>다만 <span class="tag">어디서·어떻게 시작할지</span>를 모른다.</b></p></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 47 · 기억 vs 기록 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="47">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">핵심</div>
+    <div class="statement sm" style="margin-top:22px;">“기억은 휘발되지만,<br><span class="hi">기록은 축적된다</span>” —<br>의지가 아니라 ‘설계’의 문제입니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 48 · TL;DR ===== -->
+<section class="slide bg-stage mode-tone neon" data-slide="48">
+  <div class="bg-full img1"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">TL;DR · Markdown is all you need</div>
+    <div class="statement" style="margin-top:22px;">기록이 없어서가 아닙니다.<br>그 기록이 <span class="hi">마크다운이 아니라서</span>,<br>AI가 못 읽어서 문제입니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 49 · PART 4 DIVIDER ===== -->
+<section class="slide bg-stage mode-blend-right" data-slide="49">
+  <div class="bg-full img5"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 4 · 어떻게 저장하나</div>
+    <div class="divider-title">.md를<br><span class="hi">‘어떻게’</span> 저장하나</div>
+    <div class="foot">CMDS LLM Wiki · CMDS Vault · Achmage OS — 3중 아키텍처</div>
+  </div></div>
+</section>
+
+<!-- ===== 50 · architecture overview ===== -->
+<section class="slide bg-stage" data-slide="50">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 4 · 3중 아키텍처</div>
+    <h2 class="headline sm" style="margin-top:18px;">핵심은 <span class="hi">수집·이해·실행을 ‘분리’</span>하는 것</h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:24px;gap:30px;align-items:stretch;">
+      <div style="flex:.95;display:flex;flex-direction:column;gap:16px;justify-content:center;">
+        <div class="card tight"><div class="num">수집</div><h3 class="sm"><span class="tag">CMDS LLM Wiki</span></h3><p><b style="color:var(--ink)">AI가 고품질 자료를 자동 수집 — 찾는 노력을 줄인다.</b></p></div>
+        <div class="card tight"><div class="num">이해</div><h3 class="sm"><span class="tag">CMDS Vault</span></h3><p><b style="color:var(--ink)">내가 읽고·이해하고·직접 쓴 것만 (AI 절대 금지).</b></p></div>
+        <div class="card tight"><div class="num">실행</div><h3 class="sm"><span class="tag">Achmage OS</span></h3><p><b style="color:var(--ink)">반복 제작을 단축·표준화하는 시스템.</b></p></div>
+      </div>
+      <figure class="evidence" style="flex:1.05;min-height:0;"><div class="ev-wrap"><img src="assets/evidence/22_1672_941px.png" width="1672" height="941" alt="3중 아키텍처 구조 다이어그램"></div><figcaption><b>수집·이해·실행을 섞지 않고 분리 관리한다</b></figcaption></figure>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 51 · three roles ===== -->
+<section class="slide bg-stage" data-slide="51">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 4 · 세 공간이 하는 일</div>
+    <h2 class="headline sm" style="margin-top:18px;">“모으는 곳 · 이해하는 곳 · <span class="hi">만들어 내는 곳</span>”</h2>
+    <div class="grid g2" style="margin-top:22px;">
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/21_1672_941px.png" width="1672" height="941" alt="세 가지 볼트 쉽게 설명"></div><figcaption><b>세 가지 볼트, 쉽게 — 저장 / 모아 둠 / 실행</b></figcaption></figure>
+      <figure class="evidence"><div class="ev-wrap"><img src="assets/evidence/23_1672_941px.png" width="1672" height="941" alt="지식의 이해와 실행은 다르다"></div><figcaption><b>수집 ≠ 이해 ≠ 실행 — 역할이 다르다</b></figcaption></figure>
+    </div>
+    <div class="src" style="margin-top:14px;">LLM Wiki는 모으는 곳, Vault는 이해하는 곳, Achmage OS는 만들어 내는 곳.</div>
+  </div></div>
+</section>
+
+<!-- ===== 52 · daily workflow ===== -->
+<section class="slide bg-stage" data-slide="52">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 4 · 하루 작업 흐름</div>
+    <h2 class="headline sm" style="margin-top:18px;">자료 수집 → 이해 여부 판단 → <span class="hi">축적 → 실행</span></h2>
+    <figure class="evidence" style="flex:1;min-height:0;margin-top:24px;"><div class="ev-wrap"><img src="assets/evidence/24_1672_941px.png" width="1672" height="941" alt="하루 작업 흐름 다이어그램"></div><figcaption><b>수집·이해·실행을 분리하면 — 지식도 안 꼬이고, AI 실행도 안정된다</b></figcaption></figure>
+  </div></div>
+</section>
+
+<!-- ===== 53 · student newsroom ===== -->
+<section class="slide bg-stage" data-slide="53">
+  <div class="bg-grid"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">Part 4 · 학생 개인 뉴스룸으로 보면</div>
+    <h2 class="headline sm" style="margin-top:18px;">자료수집 데스크 · 편집·독서 노트 · <span class="hi">제작 데스크</span></h2>
+    <div class="row" style="flex:1;min-height:0;margin-top:24px;gap:30px;align-items:stretch;">
+      <figure class="evidence" style="flex:1.3;min-height:0;"><div class="ev-wrap"><img src="assets/evidence/25_1672_941px.png" width="1672" height="941" alt="학생 개인 뉴스룸 비유 다이어그램"></div><figcaption><b>편집·독서 노트(Vault)에 가장 많은 시간을 써야 한다</b></figcaption></figure>
+      <div style="flex:.7;display:flex;flex-direction:column;gap:14px;justify-content:center;">
+        <div class="card tight"><h3 class="sm"><span class="tag">LLM Wiki</span></h3><p><b style="color:var(--ink)">편집장에게 자료를 수집·제공</b></p></div>
+        <div class="card tight"><h3 class="sm"><span class="tag">Vault</span></h3><p><b style="color:var(--ink)">읽기·검수·소화 — <span class="tag">시간 최다 투입</span></b></p></div>
+        <div class="card tight"><h3 class="sm"><span class="tag">Achmage OS</span></h3><p><b style="color:var(--ink)">제작 노가다↓, <span class="tag">내용 집중↑</span></b></p></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 54 · why statement ===== -->
+<section class="slide bg-stage mode-texture" data-slide="54">
+  <div class="bg-full img5"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad center">
+    <div class="kicker">핵심</div>
+    <div class="statement sm" style="margin-top:22px;">도구가 아니라 —<br><span class="hi">“무엇을 위해, 어떤 지식을<br>왜 모으는가”</span>입니다.</div>
+  </div></div>
+</section>
+
+<!-- ===== 55 · PART 5 DIVIDER ===== -->
+<section class="slide bg-stage mode-tone" data-slide="55">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">Part 5 · 10계명</div>
+    <div class="divider-title">도구가 아니라<br>사고의 원칙 —<br><span class="hi">“기록은 실천”</span></div>
+    <div class="foot">10 commandments — 기록하는 사람을 위한 원칙</div>
+  </div></div>
+</section>
+
+<!-- ===== 56 · 10 commandments 1-5 ===== -->
+<section class="slide bg-stage mode-tone" data-slide="56">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">기록은 실천입니다 · 1–5</div>
+    <div class="cmd-grid" style="margin-top:22px;">
+      <div class="cmd"><div class="n">1</div><div class="t"><b>단 한 줄이라도 직접</b> 기록하라 — AI가 쓴 1,000줄보다 내가 쓴 한 줄.</div></div>
+      <div class="cmd"><div class="n">2</div><div class="t">관심 분야가 아니어도 <b>10초 이상 정독했으면 스크랩</b>.</div></div>
+      <div class="cmd"><div class="n">3</div><div class="t">폴더 분류가 아니라 <b>#해시태그 분류</b>로 사고하라.</div></div>
+      <div class="cmd"><div class="n">4</div><div class="t">노트는 <b>갯수보다 밀도</b> — AI 2,400개 &lt; 내가 쓴 24개.</div></div>
+      <div class="cmd"><div class="n">5</div><div class="t">엘리베이터에서 <b>10초 안에 설명</b>할 수 있을 만큼 내 말로.</div></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 57 · 10 commandments 6-10 ===== -->
+<section class="slide bg-stage mode-texture" data-slide="57">
+  <div class="bg-full img4"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad">
+    <div class="kicker">기록은 실천입니다 · 6–10</div>
+    <div class="cmd-grid" style="margin-top:22px;">
+      <div class="cmd"><div class="n">6</div><div class="t"><b>‘나중에’는 없다</b> — 지금 당장 메모하고 마크다운으로 옮겨라.</div></div>
+      <div class="cmd"><div class="n">7</div><div class="t">기록은 <b>습관</b>이다 — 운동처럼, 매일 단 3줄이라도.</div></div>
+      <div class="cmd"><div class="n">8</div><div class="t">남에게 <b>설명·공유·가르쳐라</b> — 그래야 ‘안다’는 확신이 생긴다.</div></div>
+      <div class="cmd"><div class="n">9</div><div class="t"><b>AI와 나의 분업</b> — 수집·가공은 AI, 읽기·검수·분석은 나.</div></div>
+      <div class="cmd"><div class="n">10</div><div class="t">노트테이킹은 <b>노트메이킹을 위한 과정</b> — 생각이 날 때까지 읽어라.</div></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ===== 58 · CLOSE ===== -->
+<section class="slide bg-stage mode-tone" data-slide="58">
+  <div class="bg-full img1"></div><div class="bg-treatment"></div>
+  <div class="slide-ui"><div class="shell-pad between">
+    <div class="kicker">한림대학교 미디어스쿨 콜로퀴움 · 2026.06.10</div>
+    <div>
+      <div class="cover-title">독서토론이 곧<br><span class="hi">뉴스레터</span>다</div>
+      <div class="cover-sub" style="margin-top:30px;"><span class="tag">글쓰기가 곧 미디어가 되는 — 기록은, 실천입니다.</span></div>
+    </div>
+    <div class="foot"><b>발표: 안창현 (Achmage) · 감사합니다</b></div>
+  </div></div>
+</section>
+
+<!-- @@INSERT@@ -->
+</div><!--/viewport-->
+
+<div id="controller" aria-hidden="true">
+  <button id="prev" aria-label="이전">‹</button>
+  <span class="pg" id="pg">1 / 56</span>
+  <button id="next" aria-label="다음">›</button>
+</div>
+<div class="touch-zone left"></div>
+<div class="touch-zone right"></div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let current=0;
+function fit(){const s=Math.min(window.innerWidth/1920,window.innerHeight/1080);document.documentElement.style.setProperty('--deck-scale',s);}
+window.addEventListener('resize',fit);fit();
+let navTimer;
+function showController(){const c=document.getElementById('controller');if(!c)return;c.classList.add('is-visible');const pg=document.getElementById('pg');if(pg)pg.textContent=(current+1)+' / '+slides.length;clearTimeout(navTimer);navTimer=setTimeout(()=>c.classList.remove('is-visible'),1000);}
+function go(n){n=Math.max(0,Math.min(slides.length-1,n));if(n===current)return showController();slides[current].classList.remove('active');current=n;slides[current].classList.add('active');showController();}
+window.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ')      {e.preventDefault();go(current+1);}
+  else if(e.key==='ArrowLeft'||e.key==='PageUp')                 {e.preventDefault();go(current-1);}
+  else if(e.key==='Home'){go(0);} else if(e.key==='End'){go(slides.length-1);}
+});
+let sx=0;
+window.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;},{passive:true});
+window.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50){dx<0?go(current+1):go(current-1);}},{passive:true});
+document.querySelector('.touch-zone.left').addEventListener('click',()=>go(current-1));
+document.querySelector('.touch-zone.right').addEventListener('click',()=>go(current+1));
+document.getElementById('prev').addEventListener('click',()=>go(current-1));
+document.getElementById('next').addEventListener('click',()=>go(current+1));
+// initial controller flash so users discover nav
+showController();
+</script>
+</body>
+</html>
