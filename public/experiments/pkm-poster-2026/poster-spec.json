@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "title": "AI 시대의 연구 워크플로우\n리캘리브레이션",
   "eyebrow": "Hallym CMDS PKM Conference 2026",
-  "description": "Hallym CMDS PKM Conference 2026. 본문과 상하단 테마가 함께 순환하는 1초 디스플레이와 독립 A2 PDF의 과거 행사 리디자인입니다.",
+  "description": "행사 소개·4개 강연·전체 일정·참가 조건을 한 장에 담은 PKM 2026 포스터. 종료 행사 리디자인 시험본.",
   "frame": {
     "title": "Hallym CMDS PKM 2026",
     "date": "2026.09.21 · 13–18시",
@@ -15,10 +15,9 @@
   "content": [
     {
       "id": "overview",
-      "title": "연구의 다음 장을\n연결하다",
+      "title": "AI 시대의 연구 워크플로우\n리캘리브레이션",
       "kicker": "HALLYM CMDS PKM CONFERENCE 2026",
-      "body": "AI 시대의 연구 워크플로우\n리캘리브레이션",
-      "note": "지식 구조에서 평가, 문서, 재활용까지.",
+      "body": "지식 구조에서 평가, 문서, 재활용까지.",
       "style": "hero"
     },
     {
@@ -55,7 +54,7 @@
     },
     {
       "id": "timetable",
-      "title": "하루의 흐름",
+      "title": "전체 일정",
       "style": "timetable",
       "items": [
         [
@@ -110,7 +109,7 @@
     },
     {
       "id": "attendance",
-      "title": "함께한 자리",
+      "title": "참가 안내",
       "items": [
         [
           "일반 온라인",
@@ -126,59 +125,26 @@
         ]
       ],
       "url": "https://hallym.cmdspace.work/pkm-conference-2026",
-      "linkLabel": "행사 원문 보기"
+      "linkLabel": "행사 원문 보기",
+      "style": "attendance"
     }
   ],
   "scenes": [
     {
-      "id": "overview",
-      "label": "AI 시대, 연구의 다음 장",
+      "id": "complete-poster",
+      "label": "컨퍼런스 프로그램과 참가 안내",
+      "focus": "연구 워크플로우의 전체 강연·일정·참여 조건",
       "refs": [
-        "overview"
-      ],
-      "theme": "light",
-      "seconds": 1,
-      "layout": "hero-layout"
-    },
-    {
-      "id": "program-am",
-      "label": "01 · 지식 구조와 AI 평가",
-      "refs": [
+        "overview",
         "gu",
-        "kim"
-      ],
-      "theme": "dark",
-      "seconds": 1
-    },
-    {
-      "id": "program-pm",
-      "label": "02 · 문서와 지식의 재활용",
-      "refs": [
+        "kim",
         "ahn",
-        "jo"
-      ],
-      "theme": "dark",
-      "seconds": 1
-    },
-    {
-      "id": "timetable",
-      "label": "03 · 전체 프로그램",
-      "refs": [
-        "timetable"
-      ],
-      "theme": "light",
-      "seconds": 1,
-      "layout": "hero-layout"
-    },
-    {
-      "id": "attendance",
-      "label": "04 · 장소와 참가 안내",
-      "refs": [
+        "jo",
+        "timetable",
         "attendance"
       ],
       "theme": "light",
-      "seconds": 1,
-      "layout": "hero-layout"
+      "seconds": 1
     }
   ],
   "print": {
@@ -228,6 +194,15 @@
     "research:rr-440429d8a490ea4b0998cfcd268c3552:743051f81df283c302337f9c87c80443eeffec8c39b998fe6defa04d9de9df82",
     "research:rr-a8e54620b2bfe6102499c8fc0c54b03f:2bcab6c7786c3400c5417b42a8360e3f3c0edb9b5e0134c9ce5ef2bbb409d5a7",
     "research:rr-c9823a2bf65aba8c19330cf312bb8ace:6ea7dea77489e3013c70d0e37e09e1cb48c3ca76a7f9eb4969ed82c20a945c18",
-    "research:rr-744924c66378a0f77d6ad2911d151090:960efe4a8eeaf3e111aaedba134ec952882e6bb66765b5dbcbfb373b50d667a9"
-  ]
+    "research:rr-744924c66378a0f77d6ad2911d151090:960efe4a8eeaf3e111aaedba134ec952882e6bb66765b5dbcbfb373b50d667a9",
+    "research:rr-90a590f9604e62d3dd8029544b7da83e:acf1d4132c846b5cd3bf95c3ee811cefd30f6bbcdb58aecb998263888cc57dc9"
+  ],
+  "composition": {
+    "mode": "complete-posters",
+    "sharedRefs": [
+      "overview",
+      "attendance"
+    ],
+    "splitReason": ""
+  }
 }
