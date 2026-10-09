@@ -1,20 +1,20 @@
 {
-  "policyVersion": "2.2.1",
+  "policyVersion": "2.2.2",
   "status": "passed",
-  "reviewedAt": "2026-10-09T06:37:31.694Z",
-  "environment": "Windows Edge via cua; actual viewport at 110% browser zoom measured",
-  "digest": "d673fa4c146367c5627bab9133e01f99b2c6bbb24cc486e5d299bb43c0e5bd9b",
+  "reviewedAt": "2026-10-09T07:14:09.447Z",
+  "environment": "Windows Edge via cua; measured viewport at110%zoom",
+  "digest": "ee16d159ee9d3808ae61c73acb414dccef9d47b0f0a69f0591d199a9e8786d69",
   "sourceFiles": {
     ".gitattributes": "c97a1babe2375389eb162859d30d0cf63ef8c2e97c0b641d404fee9f674e32d7",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
     "AGENTS.md": "9e7240b93a9f99ce9d826e1f18ca7f3b2f5523d2a4c239aeebff17967f4e0816",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
-    "content/experiments.json": "8e209ddb1e53a53c6cee56ac4096db82a1e4af1101588d0b568e19eabeaac156",
+    "content/experiments.json": "7dbc0025f3c71265f89c5127a27b9bb520e3e670fd7c2c54cc9c21442129d12c",
     "content/legacy.json": "0f30406f186315bd9e97e3c1cad2e690cefeac89730260239f63e3f973b8624e",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
     "content/resources.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/site-policy.json": "5ba2e70f05b963bf695e994a70a731c4a9e038cd21d8cb098faef0bbc8f2e2b4",
+    "content/site-policy.json": "2c5e312abe50cca51ab951329d49ea8161974c397ca402bc74993fb7a77ad531",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "content/works.json": "0550ac134ba9a315429392586fa4a6ca293189545f9d85de3ef9157264c55413",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
@@ -25,11 +25,12 @@
     "docs/POSTER-COMPLETE-V2-VALIDATION.md": "ab7455068ae50ae321552c81a29226ee4b56407664f3e9134bdb39c598980754",
     "docs/POSTER-MASTERPLAN.md": "c9894d200915eb5638e77308da420d04b7a9310031b9e144727b6f97a8e13a42",
     "docs/POSTER-PS07-VALIDATION.md": "d8d5a9aee11fa2cc4ac6a8f0d2bd18d03bc4421c61d62ab18fbcc9f46bcf6630",
+    "docs/POSTER-PS08-VALIDATION.md": "462193ecfb81e73c493edbc1c8de7588562bb8815f2729bdd8889c67f3082afc",
     "docs/POSTER-SERIES-RC2-VALIDATION.md": "393e3a8c0746a2135656147dd9e9efb8be059d8dbb90d22e198fc6ae3fb0e9be",
     "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
     "docs/POSTER-SERIES.md": "a1ff674fca6c5afd5487facdc2e22ce3e10d691d6f21d12a63c55ce6875e94dd",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
-    "docs/SITE-CONTRACT.md": "1f858c52704f4be3074b88561ceb2250833cc4727287300cfcf1dc85969d79e9",
+    "docs/SITE-CONTRACT.md": "3986195fb46ddbb3626911a549670088c808039112bacbbcdfc35a315056473a",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
     "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
@@ -63,12 +64,12 @@
     "public/experiments/pkm-speaker-posters-2026/cmds-reconstructed.svg": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
     "public/experiments/pkm-speaker-posters-2026/hallym-dark.svg": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf",
     "public/experiments/pkm-speaker-posters-2026/hallym-emblem.svg": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
-    "public/experiments/pkm-speaker-posters-2026/index.html": "01ccf4d2b07f8438408ae8332c60217b3d6f1cf653825cf6cfa2086d461343e3",
-    "public/experiments/pkm-speaker-posters-2026/offline.zip": "0bb035bf6300c95b39f1d914cc386130ad41a134a11408d7c10d1bbaa9c1782d",
+    "public/experiments/pkm-speaker-posters-2026/index.html": "8857ec317f45c823db0b892035fa56e340225fd963987ea36fdf5bb0d16b9264",
+    "public/experiments/pkm-speaker-posters-2026/offline.zip": "703d139578b7d46540a4735d9033113af43a8c72a59efb2b0521a2045b40b068",
     "public/experiments/pkm-speaker-posters-2026/poster-preview-02.png": "4c8108f04e37030f9cb0e6260011f3963196c580988dc99707ae89227f6e763e",
     "public/experiments/pkm-speaker-posters-2026/poster-preview.png": "df9cecb69547b7a1d3f0771f0369fb8600e4b72d1771d37275c6b958f8bac5ac",
-    "public/experiments/pkm-speaker-posters-2026/poster-spec.json": "8860302742114dd91ccdda63ce10b0e2c3a11afb8a61d1e3df21f070bc884e97",
-    "public/experiments/pkm-speaker-posters-2026/poster.pdf": "d815a08f4a8f63653f795899ea6578808caee833af7a0891c2a0f71945a9f670",
+    "public/experiments/pkm-speaker-posters-2026/poster-spec.json": "ea5692ceab3e5679bff174155105b31de70b7cd86c0888c1e301ad8dcfdb39f5",
+    "public/experiments/pkm-speaker-posters-2026/poster.pdf": "60cb35e4437bca688297447ec92e533a7e4000302c5783066a1a6d8e63c1e610",
     "public/experiments/pkm-speaker-posters-2026/print-audit.json": "3e4c5c927d5d513ec580fe444fbfe130f0d169da0a017b0bb59a7ebc6f01bebd",
     "public/fonts/Pretendard-OFL.txt": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
     "public/fonts/PretendardVariable.woff2": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
@@ -86,10 +87,10 @@
     "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
     "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
-    "scripts/experiments.ts": "19b648746b1ed4e52d554f567e2eaec21548d2edfb0f65c238ef3ed30847012b",
+    "scripts/experiments.ts": "d1a9e96944845c53a792bc210cbf37bffe2b8210ed523e017b6728564e3ed623",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/prepare.ts": "b8f6b479c24af0d06864f0cc6e15f55cd666b14e1211d18fd26af440f006648b",
-    "scripts/release-gate.ts": "058a9582329bbe6fecba5d06451b09e9ea1b4f178bb549eb39d834663acf854e",
+    "scripts/release-gate.ts": "4d2ca15d1fefda7015334d2253b665971530f74b78e943b3840956ab56df3954",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/verify-build.ts": "73287b19811faea76fbd4829d9a6445713d4e6221cea2204a8d87800d9da839a",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
@@ -132,7 +133,7 @@
     "tests/as-regression.test.ts": "e8a27f05a5f79aa69aff136c3b89ebc7c8d92d2929f0d471e1a30754a859537e",
     "tests/content.test.ts": "b017f6b6b96448e16ac84587ad9e0e1898360586deae55c9e51b84ea31cc30de",
     "tests/experiments.test.ts": "36a32723e4d5b056a34a5560427265473a5c6b19bae83957ee2aa7046287fdf3",
-    "tests/governance.test.ts": "14552cbe92dadcec7b1d53c668cf6e2020fa6c1339301a812f7247c513048fa9",
+    "tests/governance.test.ts": "960c72894d7a7661ef70929b9162c9d7e3d7f5d5772ca171efcb510ce5398b65",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "341321f2a2313c54d4647e2cb08992dca7284539bfe69ba2d02d9ab76c216639"
   },
@@ -810,6 +811,104 @@
       "brokenImages": []
     }
   ],
+  "posterGeometry": [
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "pages": [
+        "reading-reuse",
+        "structure-evaluation"
+      ],
+      "sameScale": true,
+      "sameLogicalWidth": true,
+      "clipped": 0,
+      "boxMaxDelta": 0,
+      "headingMaxDelta": 0,
+      "factsMaxDelta": 0
+    }
+  ],
   "functional": {
     "search": true,
     "posterFixture": true,
@@ -817,11 +916,11 @@
     "posterSeries": true
   },
   "evidence": {
-    "observed": "84 route/theme views + 32 real two-poster stress views. docs/POSTER-PS07-VALIDATION.md",
-    "search": "Korean search 1 result, URL reload restored, nonexistent query 0; offscreen lazy image loaded after scroll",
-    "keyboard": "Manual next pauses; reading opens with 18px body and closes to tools-toggle focus",
-    "posterFixture": "Old PKM single-page assets and legacy pins preserved. A2 2 pages text/fonts/boxes/links checked and rendered.",
-    "posterSeries": "Each of 2 pages has 5 blocks/10 rows and all shared essentials. 1s alternating themes observed at 1.010–1.236s. 32 views no clipping.",
-    "limitations": "Complete fit text small: 8.29px at390x843;2.93px at720x360. 18px reading mode. Real iOS/Android/ICC unverified."
+    "observed": "84 required views+30common views+40poster stress views; docs/POSTER-PS08-VALIDATION.md",
+    "posterSeries": "4s observed4193/3977/4074ms; all geometry deltas0px; same logical width/scale; no clipping",
+    "keyboard": "manual next pauses;18px reading7blocks5links;close focus returns to tools-toggle",
+    "search": "Korean 읽기 query1result",
+    "posterFixture": "Old one-page registry and files unchanged;independent A2two-page text/images unchanged",
+    "limitations": "Post-fix realiOS/Android not verified;previousiPhone screenshots are baseline only. Small fit text requires reading view. RGBproof."
   }
 }

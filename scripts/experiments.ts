@@ -31,7 +31,7 @@ export async function verifyExperiments(root=process.cwd(),stage='public',manife
   if(audit.pages!==expectedPages||audit.trimMm.join(',')!=='420,594'||audit.mediaMm.join(',')!=='424,598'||audit.missingFields.length||!audit.regions.every((x:any)=>x.withinSafeArea))throw Error('A2 proof failed');
   if(!audit.logoStrip?.length||audit.logoStrip.some((x:any,i:number)=>x.heightMm!==13||(i>0&&Math.abs(x.xMm-audit.logoStrip[i-1].xMm-audit.logoStrip[i-1].widthMm-12)>.01)))throw Error('Co-organizer logo strip spacing failed');
   if(spec.logos.some((l:any)=>l.file||l.fileDark||!l.source||!l.sha256)||/C:[/\\\\]|file:\/\//i.test(JSON.stringify(spec)))throw Error('Private path in public spec');
-  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
+  if(['1.1.0-rc.2','1.2.0-rc.1','1.2.0-rc.2','1.2.0-rc.3'].includes(item.viewerVersion) && spec.logos.some((l:any)=>!l.darkProvenance||!/^[a-f0-9]{64}$/.test(l.darkSha256)||!Object.values(item.files).includes(l.darkSha256)))throw Error('Dual logo asset missing');
   if(item.contract==='series-v2'){
    if(spec.schemaVersion!==2||spec.composition?.mode!=='complete-posters'||spec.composition.sharedRefs.length<2)throw Error('Complete-poster contract missing');
    const shared=spec.composition.sharedRefs;

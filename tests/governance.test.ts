@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { workSchema,resourceSchema,validateResources } from '../src/lib/schema';
 import { validatePolicy } from '../src/lib/policy';
 import { makeSearchEntries,runSearch,defaultFilters,readFilters,writeFilters } from '../src/lib/search';
-import { validateReview,canonicalJson } from '../scripts/release-gate';
+import { validateReview,canonicalJson,validatePosterGeometry } from '../scripts/release-gate';
 test('deployment config formatting is stable while semantic changes invalidate review',()=>{
  assert.equal(canonicalJson({headers:[{value:'nosniff',key:'X'}],buildCommand:'verify'}),canonicalJson({buildCommand:'verify',headers:[{key:'X',value:'nosniff'}]}));
  assert.notEqual(canonicalJson({buildCommand:'verify'}),canonicalJson({buildCommand:'build'}));
@@ -46,4 +46,14 @@ test('poster text gives one project search result and URL restored',()=>{
 test('release rejects stale or incomplete review',()=>{
  assert.throws(()=>validateReview({policyVersion:'2.0.0',digest:'old',status:'passed'},'new'));
  assert.throws(()=>validateReview({policyVersion:'2.0.0',digest:'same',status:'passed',views:[]},'same'));
+});
+
+test('circulating posters require measured stable geometry for every size and theme',()=>{
+ const route='/experiments/test/';
+ const rows=[375,768,1440].flatMap(width=>['light','dark'].map(theme=>({route,width,actualWidth:width,theme,pages:['a','b'],sameScale:true,sameLogicalWidth:true,clipped:0,boxMaxDelta:0,headingMaxDelta:0,factsMaxDelta:0})));
+ validatePosterGeometry(rows,route);
+ assert.throws(()=>validatePosterGeometry(rows.slice(1),route));
+ for(const change of [{boxMaxDelta:49},{headingMaxDelta:1},{factsMaxDelta:NaN},{sameScale:false},{sameLogicalWidth:false},{clipped:1},{pages:['a','a']}]){
+  assert.throws(()=>validatePosterGeometry([{...rows[0],...change},...rows.slice(1)],route));
+ }
 });
