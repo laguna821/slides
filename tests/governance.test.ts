@@ -3,7 +3,11 @@ import assert from 'node:assert/strict';
 import { workSchema,resourceSchema,validateResources } from '../src/lib/schema';
 import { validatePolicy } from '../src/lib/policy';
 import { makeSearchEntries,runSearch,defaultFilters,readFilters,writeFilters } from '../src/lib/search';
-import { validateReview } from '../scripts/release-gate';
+import { validateReview,canonicalJson } from '../scripts/release-gate';
+test('deployment config formatting is stable while semantic changes invalidate review',()=>{
+ assert.equal(canonicalJson({headers:[{value:'nosniff',key:'X'}],buildCommand:'verify'}),canonicalJson({buildCommand:'verify',headers:[{key:'X',value:'nosniff'}]}));
+ assert.notEqual(canonicalJson({buildCommand:'verify'}),canonicalJson({buildCommand:'build'}));
+});
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';

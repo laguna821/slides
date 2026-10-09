@@ -1,8 +1,8 @@
 {
   "policyVersion": "2.0.0",
-  "digest": "b9a6da5dd3db5fdb7983a3d980617f14d9f289f773e75890d3254ec884b61299",
+  "digest": "235ae7f95d752da5d17b08c2dee0dfcc44a52f65b74fb0a0b5a58c2687cf2680",
   "status": "passed",
-  "reviewedAt": "2026-10-09T03:45:35.534Z",
+  "reviewedAt": "2026-10-09T03:47:30.990Z",
   "reviewer": "Codex with independent source review",
   "environment": "Edge desktop; actual widths recorded; 1px viewport rounding; physical mobile not tested",
   "views": [
@@ -649,7 +649,7 @@
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/prepare.ts": "5e863be7d801bcbfaee311c0a62e903c516d5cd71b4e6486d098728c1eeefaad",
-    "scripts/release-gate.ts": "14b83ce1417f8f2130616c7e3ea5367d9278a430a4f903827235f2e4c949e591",
+    "scripts/release-gate.ts": "8a35940c45af9affc01b65e7506e149ec88f0a36ed3263e297102640541d764e",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/verify-build.ts": "b4fe30b367a0c6d402547a8251603e5b60280e6a3f5617dc00a96df5d37be5e5",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
@@ -691,8 +691,8 @@
     "src/vendor/types.ts": "5b203a6d5b57a8a4cb9998141b6afd8beec01c4f718124980180aa9695b00c74",
     "tests/as-regression.test.ts": "e8a27f05a5f79aa69aff136c3b89ebc7c8d92d2929f0d471e1a30754a859537e",
     "tests/content.test.ts": "b017f6b6b96448e16ac84587ad9e0e1898360586deae55c9e51b84ea31cc30de",
-    "tests/governance.test.ts": "acf9352ea139812f5c22fb8576cd9947833d25a845e1b5087092d89b313c369d",
+    "tests/governance.test.ts": "14552cbe92dadcec7b1d53c668cf6e2020fa6c1339301a812f7247c513048fa9",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
-    "vercel.json": "8bcc65b2a91f743dadbedb2083e09a406209dd5925d1fd8b0ebd3f75c744a5a7"
+    "vercel.json": "86f7a84faec0d68811e9b4528937514bae4faa29bc6d49809774814a632cc869"
   }
 }

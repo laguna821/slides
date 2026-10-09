@@ -5,6 +5,11 @@ import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import { workHref } from '../src/lib/schema';
 export const reviewRoutes=[...new Set(['/', '/archive/', '/posters/', ...works.filter(w=>w.visibility!=='draft').map(w=>workHref(w as any))])];
+export function canonicalJson(value:any):string {
+  if(Array.isArray(value))return '['+value.map(canonicalJson).join(',')+']';
+  if(value && typeof value==='object')return '{'+Object.keys(value).sort().map(key=>JSON.stringify(key)+':'+canonicalJson(value[key])).join(',')+'}';
+  return JSON.stringify(value);
+}
 export async function releaseManifest(root=process.cwd()) {
   const files=['package.json','package-lock.json','astro.config.mjs','tsconfig.json','vercel.json','AGENTS.md'];
   const works=JSON.parse(await fs.readFile(path.join(root,'content/works.json'),'utf8'));
@@ -19,7 +24,7 @@ export async function releaseManifest(root=process.cwd()) {
     if((await fs.stat(path.join(root,rel))).isFile())files.push(rel);
   }
   const result:Record<string,string>={};
-  for(const file of [...new Set(files)].sort()){const bytes=await fs.readFile(path.join(root,file));result[file]=createHash('sha256').update(/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes).digest('hex');}
+  for(const file of [...new Set(files)].sort()){const bytes=await fs.readFile(path.join(root,file));const content=file==='vercel.json'?canonicalJson(JSON.parse(bytes.toString('utf8'))):/\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(file)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes;result[file]=createHash('sha256').update(content).digest('hex');}
   return result;
 }
 export async function releaseDigest(root=process.cwd()){return createHash('sha256').update(JSON.stringify(await releaseManifest(root))).digest('hex');}
