@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "title": "2026 여름 교수 워크샵",
+  "eyebrow": "한림대학교 미디어스쿨",
+  "description": "2026년 7월 6일 (월) - 7월 7일 (화) · 원주 오크밸리 리조트",
+  "frame": {
+    "title": "한림대학교 미디어스쿨",
+    "date": "2026년 7월 6일 (월) - 7월 7일 (화)",
+    "place": "원주 오크밸리 리조트"
+  },
+  "statusLabel": "종료 행사 · 원문 보존 리메이크",
+  "autoplay": true,
+  "defaultTheme": "alternating",
+  "publishUrl": "https://achmage-slides.vercel.app/posters/media-school-workshop-20260706/v1/",
+  "content": [
+    {
+      "id": "overview",
+      "title": "2026 여름 교수 워크샵",
+      "body": "2026년 7월 6일 (월) - 7월 7일 (화)",
+      "subtitle": "원주 오크밸리 리조트",
+      "style": "hero",
+      "kicker": "한림대학교 미디어스쿨"
+    },
+    {
+      "id": "seminar",
+      "title": "교과과정 개선 세미나",
+      "body": "",
+      "items": [],
+      "style": "timetable"
+    },
+    {
+      "id": "talk1",
+      "title": "김경희 교수님",
+      "kicker": "14:30 ~ 15:20",
+      "body": "캡스톤디자인수업과 포토폴리오",
+      "style": "text"
+    },
+    {
+      "id": "talk2",
+      "title": "이재길 교수님",
+      "kicker": "15:30 ~ 16:20",
+      "body": "바이브 코딩 기반 인터랙티브 미디어 교과의 확대",
+      "style": "text"
+    },
+    {
+      "id": "talk3",
+      "title": "안창현 교수님",
+      "kicker": "16:30 ~ 17:20",
+      "body": "Educational Harness Engineering: AI 시대, 학생들의 꼼수에 강한 수업·평가를 설계하는 법",
+      "style": "text"
+    },
+    {
+      "id": "talk4",
+      "title": "17:30 ~ 18:00",
+      "kicker": "",
+      "body": "자유 토론",
+      "style": "text"
+    },
+    {
+      "id": "lunch",
+      "title": "점심식사 장소 및 시간",
+      "body": "7월 6일 12시 30분, 황금들밥 오크밸리월송점",
+      "note": "강원 원주시 지정면 정골길 10",
+      "style": "attendance"
+    },
+    {
+      "id": "culture",
+      "title": "문화 탐방",
+      "body": "뮤지엄산",
+      "note": "강원특별자치도 원주시 지정면 오크밸리2길 260 뮤지엄산",
+      "style": "attendance"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "workshop",
+      "label": "2026 여름 교수 워크샵",
+      "focus": "전체 행사 안내",
+      "refs": [
+        "overview",
+        "seminar",
+        "talk1",
+        "talk2",
+        "talk3",
+        "talk4",
+        "lunch",
+        "culture"
+      ],
+      "theme": "light",
+      "seconds": 4
+    }
+  ],
+  "composition": {
+    "mode": "complete-posters",
+    "sharedRefs": [
+      "overview",
+      "seminar"
+    ]
+  },
+  "print": {
+    "layout": "academic-one-sheet",
+    "margin": "A",
+    "bodySizePt": 36,
+    "rows": [
+      [
+        "overview"
+      ],
+      [
+        "seminar"
+      ],
+      [
+        "talk1"
+      ],
+      [
+        "talk2"
+      ],
+      [
+        "talk3"
+      ],
+      [
+        "talk4"
+      ],
+      [
+        "lunch",
+        "culture"
+      ]
+    ],
+    "iccSha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+    "outputProfile": {
+      "name": "Japan Color 2001 Coated",
+      "sha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+      "assumption": "Printer/stock must confirm this output condition; not PDF/X certification"
+    }
+  },
+  "logos": [],
+  "researchRefs": [
+    "research:rr-9988c127b605008f351e7673a428d124:d463c85e493a8ef18a89a48de709aec2d818fbc813e2920ee6c0cebcf2f15e0b"
+  ]
+}

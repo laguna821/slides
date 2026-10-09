@@ -1,0 +1,99 @@
+{
+  "pages": 1,
+  "trimMm": [
+    420,
+    594
+  ],
+  "mediaMm": [
+    424,
+    598
+  ],
+  "bleedMm": 2,
+  "marginPreset": "A",
+  "fields": 23,
+  "missingFields": [],
+  "regions": [
+    {
+      "id": "overview",
+      "x": 32.0,
+      "y": 118.79799999999997,
+      "width": 360.0,
+      "height": 34.28055555555556,
+      "withinSafeArea": true
+    },
+    {
+      "id": "seminar",
+      "x": 32.0,
+      "y": 160.42855555555553,
+      "width": 360.0,
+      "height": 20.127111111111113,
+      "withinSafeArea": true
+    },
+    {
+      "id": "talk1",
+      "x": 32.0,
+      "y": 187.90566666666663,
+      "width": 360.0,
+      "height": 48.43399999999994,
+      "withinSafeArea": true
+    },
+    {
+      "id": "talk2",
+      "x": 32.0,
+      "y": 243.68966666666662,
+      "width": 360.0,
+      "height": 48.43399999999994,
+      "withinSafeArea": true
+    },
+    {
+      "id": "talk3",
+      "x": 32.0,
+      "y": 299.47366666666665,
+      "width": 360.0,
+      "height": 65.95999999999997,
+      "withinSafeArea": true
+    },
+    {
+      "id": "talk4",
+      "x": 32.0,
+      "y": 372.7836666666666,
+      "width": 360.0,
+      "height": 40.12255555555552,
+      "withinSafeArea": true
+    },
+    {
+      "id": "lunch",
+      "x": 32.0,
+      "y": 420.2562222222221,
+      "width": 175.5,
+      "height": 65.96000000000004,
+      "withinSafeArea": true
+    },
+    {
+      "id": "culture",
+      "x": 216.5,
+      "y": 420.2562222222221,
+      "width": 175.5,
+      "height": 48.434000000000026,
+      "withinSafeArea": true
+    }
+  ],
+  "logoStrip": [],
+  "printStatus": "prepared-cmyk",
+  "colorSpace": "ICC-managed CMYK",
+  "outputProfile": {
+    "name": "Japan Color 2001 Coated",
+    "sha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+    "assumption": "Printer/stock must confirm this output condition; not PDF/X certification"
+  },
+  "vectorLogos": true,
+  "preflight": {
+    "embeddedFonts": [
+      "/AAAAAA+Pretendard-Bold",
+      "/AAAAAA+Pretendard-ExtraBold",
+      "/AAAAAA+Pretendard-Regular"
+    ],
+    "rgbOperators": 0,
+    "cmykOperators": 34
+  }
+}

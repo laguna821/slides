@@ -1,0 +1,175 @@
+{
+  "researchRefs": [
+    "research:rr-9988c127b605008f351e7673a428d124:10c1e45732b875f86548d4946ef27406107032c6b83ac02490b82435cddf0c9a"
+  ],
+  "event": {
+    "date": "2026-07-06",
+    "time": "16:30–17:20",
+    "venue": "원주 오크밸리 리조트",
+    "name": "2026 여름 교수 워크샵 · 교과과정 개선 세미나",
+    "speaker": "안창현 교수님"
+  },
+  "source": {
+    "markdownSha256": "5395ac7bf7058bd632337d33df47bedde7c6db8525b45ead4f873331a59c0e9f",
+    "bodyContract": "Verbatim words, numbers, quotations and typos. Excludes YAML and Key Trigger authoring wrapper; title/date retained on cover.",
+    "bodyUnits": 332,
+    "images": [
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1782893105968-f66ddc2e-4646-4f92-a33c-2f63cba51ea0.png",
+        "alt": "연세대 비대면 시험 AI 부정행위 관련 기사 원문 화면",
+        "file": "assets/source-01.png",
+        "id": "source-01",
+        "sha256": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50",
+        "bytes": 1141206,
+        "width": 1365,
+        "height": 1089,
+        "aspect": 1.2534435261707988
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1782893875168-19ed2a48-204e-4bca-a4e8-f5b9aa51da1c.jpg",
+        "alt": "국내 대학 시험 부정행위 사례 인포그래픽 원문",
+        "file": "assets/source-02.jpg",
+        "id": "source-02",
+        "sha256": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811",
+        "bytes": 105657,
+        "width": 658,
+        "height": 954,
+        "aspect": 0.689727463312369
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1782895089930-e0e51b3d-0969-499d-9cc9-324f8aab30ad.png",
+        "alt": "OpenAI AI 텍스트 분류기 공개 당시 안내 화면",
+        "file": "assets/source-03.png",
+        "id": "source-03",
+        "sha256": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479",
+        "bytes": 612672,
+        "width": 1466,
+        "height": 619,
+        "aspect": 2.368336025848142
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1782901730247-8263ef91-684c-4f40-b443-81047d2d480a.png",
+        "alt": "Prompt·Context·Harness Engineering 관계도 원문",
+        "file": "assets/source-04.png",
+        "id": "source-04",
+        "sha256": "29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1",
+        "bytes": 2105581,
+        "width": 1672,
+        "height": 941,
+        "aspect": 1.7768331562167907
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1782902336012-ad57a3fd-7bcd-4343-a12d-83cde20e221d.png",
+        "alt": "Educational Harness Engineering 평가 설계 관계도 원문",
+        "file": "assets/source-05.png",
+        "id": "source-05",
+        "sha256": "e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7",
+        "bytes": 1815710,
+        "width": 1672,
+        "height": 941,
+        "aspect": 1.7768331562167907
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247556914-4ab6fc11-ed62-4f79-9ea0-a1b4100a6a06.png",
+        "alt": "학생 개인 메타인지 리포트의 분석 영역 원문",
+        "file": "assets/source-06.png",
+        "id": "source-06",
+        "sha256": "cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb",
+        "bytes": 142246,
+        "width": 665,
+        "height": 805,
+        "aspect": 0.8260869565217391
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247569423-9a563191-69b1-4c5e-acb3-7baca5aaa261.png",
+        "alt": "학생 리포트의 사고·글쓰기 프로파일 원문",
+        "file": "assets/source-07.png",
+        "id": "source-07",
+        "sha256": "a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52",
+        "bytes": 173837,
+        "width": 663,
+        "height": 829,
+        "aspect": 0.7997587454764777
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247608002-bca1e2ca-07e2-4b49-9ff9-08cf3b37febd.png",
+        "alt": "학생 메타인지 리포트의 분석 본문 원문",
+        "file": "assets/source-08.png",
+        "id": "source-08",
+        "sha256": "f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51",
+        "bytes": 213537,
+        "width": 659,
+        "height": 919,
+        "aspect": 0.7170837867247007
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247628923-9f4d677c-f44b-48e6-9eae-e3f7177dd113.png",
+        "alt": "학생 분석 리포트의 인용·참고 구간 원문",
+        "file": "assets/source-09.png",
+        "id": "source-09",
+        "sha256": "67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5",
+        "bytes": 253072,
+        "width": 649,
+        "height": 923,
+        "aspect": 0.7031419284940412
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247882128-428d2af3-496b-4d55-b27e-362b6df9a1f8.png",
+        "alt": "AI-DGD 학생 창업 제안 발표 첫 화면 원문",
+        "file": "assets/source-10.png",
+        "id": "source-10",
+        "sha256": "09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd",
+        "bytes": 89109,
+        "width": 1917,
+        "height": 908,
+        "aspect": 2.1112334801762116
+      },
+      {
+        "source": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1783247893887-c276049d-6a15-4e1d-861a-ca9e3bdcb436.png",
+        "alt": "AI-DGD 학생 창업 제안의 자료·예산 화면 원문",
+        "file": "assets/source-11.png",
+        "id": "source-11",
+        "sha256": "35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81",
+        "bytes": 94830,
+        "width": 1916,
+        "height": 914,
+        "aspect": 2.096280087527352
+      }
+    ]
+  },
+  "remake": {
+    "date": "2026-10-09",
+    "slides": 102,
+    "designTheme": "typographic-poster",
+    "workflow": "presentation-defaults-v3",
+    "deckId": "deck-d321b37641464b5eb3eaf9a9986e7165",
+    "packageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
+    "rendererSha256": "b49f126b9ca421134469cea4191ee033ba84b6fddefd05ac8a73b5966e8f9fe7",
+    "htmlSha256": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453",
+    "darkHtmlSha256": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7",
+    "pdfSha256": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be",
+    "notes": "No speaker-note content generated",
+    "pdfTextComparison": "All original paragraph/list/headline units matched on their respective PDF pages, ignoring whitespace and CSS uppercase only.",
+    "registeredAt": "2026-10-10"
+  },
+  "poster": {
+    "original": "User-provided Seminar.pdf",
+    "screenScenes": 1,
+    "printPages": 1,
+    "trimMm": [
+      420,
+      594
+    ],
+    "bleedMm": 2,
+    "marginPreset": "A",
+    "viewerVersion": "1.2.0-rc.5",
+    "engineVersion": "1.2.0-rc.4",
+    "packageSha256": "a6fc16736fb4fcd8d804e1e5e5716561ccfb7ff8bed8075df5df99a02b3f28dc",
+    "pdfSha256": "1e67aec465f22336cb8b40de20346051a1915e148070d21286e1393b28e85bf6",
+    "status": "prepared-cmyk",
+    "iccProfile": "Japan Color 2001 Coated",
+    "originalSha256": "8c429c83d3b0db59f8893ffc805c1975005c48ae17608f05ffcf54af173d8cb8"
+  },
+  "approval": "User requested portfolio registration and deployment; source content must remain verbatim.",
+  "verification": "docs/educational-harness-verification.json"
+}
