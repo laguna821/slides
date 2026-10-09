@@ -30,3 +30,6 @@ research:rr-c9823a2bf65aba8c19330cf312bb8ace:db672f0792c60a586f6a86ca3ead6a003c1
 
 듀얼 로고 필수: 공개 spec의 sha256/darkSha256 및 실제 SVG 파일을 모두 등록한다. PDF 라이트 로고는 유지하고 흰 배경판/CSS filter 반전 대신 검증한 별도 벡터를 사용한다.
 research:rr-c9823a2bf65aba8c19330cf312bb8ace:6ea7dea77489e3013c70d0e37e09e1cb48c3ca76a7f9eb4969ed82c20a945c18
+
+## 2.2.0 / series-v2 · 완결 포스터 우선
+신규 순환 포스터는 한 장 전체 조판부터 검토한다. 행사 제목·핵심·일시·장소·참여 조건을 각 장에 반복하고 충분한 장별 상세 내용을 편집한다. 잔여 문단 자동 넘기기/기기별 장수 증가 금지. PKM 시험본은 전체7블록을 한 장으로 재편집했다. 구버전 renderer 핀은 기존 자료용으로 보존한다. 검증은 sharedRefs·focus·페이지별 콘텐츠·분량 균형·실측 contain·PDF를 포함한다. 인쇄 색 교정/실기기 검증은 별도.
