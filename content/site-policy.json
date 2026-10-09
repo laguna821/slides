@@ -1,5 +1,5 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.2",
   "contentVersion": 2,
   "minimumPosterViewer": "1.0.0-rc.6",
   "cardActions": 3,
@@ -37,7 +37,8 @@
     "1.1.0-rc.1",
     "1.1.0-rc.2",
     "1.2.0-rc.1",
-    "1.2.0-rc.2"
+    "1.2.0-rc.2",
+    "1.2.0-rc.3"
   ],
   "experimentalPosterContract": "series-v2"
 }

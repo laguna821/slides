@@ -161,7 +161,7 @@
         "context"
       ],
       "theme": "light",
-      "seconds": 1
+      "seconds": 4
     },
     {
       "id": "reading-reuse",
@@ -175,7 +175,7 @@
         "context"
       ],
       "theme": "dark",
-      "seconds": 1
+      "seconds": 4
     }
   ],
   "print": {
@@ -246,7 +246,8 @@
     "research:rr-c9823a2bf65aba8c19330cf312bb8ace:6ea7dea77489e3013c70d0e37e09e1cb48c3ca76a7f9eb4969ed82c20a945c18",
     "research:rr-744924c66378a0f77d6ad2911d151090:960efe4a8eeaf3e111aaedba134ec952882e6bb66765b5dbcbfb373b50d667a9",
     "research:rr-90a590f9604e62d3dd8029544b7da83e:acf1d4132c846b5cd3bf95c3ee811cefd30f6bbcdb58aecb998263888cc57dc9",
-    "research:rr-ebcdf3fe5e952f1797668a6df93ec1ac:f14f43cf7ce1e0333249792298c5fd12acdc1dcd6919e8d661a6fc4f5b5b5b55"
+    "research:rr-ebcdf3fe5e952f1797668a6df93ec1ac:f14f43cf7ce1e0333249792298c5fd12acdc1dcd6919e8d661a6fc4f5b5b5b55",
+    "research:rr-2c7054a29684f4702e0a44e488ebc7a2:ce7544724ab972c990145aa5b6de833b960fdf02c76e54f168f5fd68767dcac7"
   ],
   "composition": {
     "mode": "complete-posters",
