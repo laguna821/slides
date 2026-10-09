@@ -1,4 +1,4 @@
-# 사이트 규약 2.0.0
+# 사이트 규약 2.1.1
 
 프로젝트는 한 번 등록한다. 슬라이드·읽기·PDF·포스터·영상·실습 자료는 해당 프로젝트의 산출물이다. 포스터 갤러리는 별도 작품을 복제하지 않고 프로젝트를 가리킨다. 상단은 대표작·전체 자료·Motion·소개, 포스터와 영상은 전체 자료 아래에서 찾는다.
 
@@ -6,7 +6,7 @@
 
 공개 자료에는 제목, 요약, 날짜, 등록일, 유형, 주제, 공개 범위, 미리보기와 대체 텍스트를 작성한다. 발표·강의는 대상과 얻을 내용, 모션은 제작 의도와 실제 영상이 필요하다. 대표작은 선정 이유를 남긴다. 카드에는 실제로 있는 산출물만 최대 3개와 더 보기를 제공한다.
 
-포스터는 content/resources.json에 id/kind:poster/workId/title/summary/body/preview/previewAlt/currentVersion/versions를 등록한다. versions에는 id/html 및 필요한 pdf/image, engineVersion/viewerVersion/packageSha256/files(URL→SHA256)를 적는다. 현재 호환 뷰어는 1.0.0-rc.6으로 고정한다. 미리보기는 로컬 공개 이미지다. HTML/PDF는 검토된 공개 주소 또는 저장소 자산을 사용한다. 외부 주소는 HTTP와 해시를 별도 확인해 영수증에 기록한다. 링크 전용은 목록·검색·사이트맵 제외, 초안 자산은 public에 놓지 않는다.
+포스터는 content/resources.json에 id/kind:poster/workId/title/summary/body/preview/previewAlt/currentVersion/versions를 등록한다. versions에는 id/html 및 필요한 pdf/image, engineVersion/viewerVersion/packageSha256/files(URL→SHA256)를 적는다. 호환 뷰어는 content/site-policy.json의 명시 목록을 따른다. 단일 포스터 rc6와 순환 포스터 rc1/rc2 계약을 구분한다. 미리보기는 로컬 공개 이미지다. HTML/PDF는 검토된 공개 주소 또는 저장소 자산을 사용한다. 외부 주소는 HTTP와 해시를 별도 확인해 영수증에 기록한다. 링크 전용은 목록·검색·사이트맵 제외, 초안 자산은 public에 놓지 않는다.
 
 포스터 본문 검색은 프로젝트 1건으로 합쳐지고 해당 포스터 위치로 이동한다. 독립 포스터도 kind:poster 프로젝트를 만든다. 다른 사람의 포스터는 권한·소유를 확인하기 전 개인 작품으로 등록하지 않는다.
 
