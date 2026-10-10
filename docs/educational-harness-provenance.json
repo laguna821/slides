@@ -1,6 +1,6 @@
 {
   "researchRefs": [
-    "research:rr-9988c127b605008f351e7673a428d124:10c1e45732b875f86548d4946ef27406107032c6b83ac02490b82435cddf0c9a"
+    "research:rr-9988c127b605008f351e7673a428d124:97b9972942c8a772d8a10833533e91caecaab46db2892c59fcfb798a48f0b635"
   ],
   "event": {
     "date": "2026-07-06",
@@ -138,19 +138,25 @@
     ]
   },
   "remake": {
-    "date": "2026-10-09",
-    "slides": 102,
-    "designTheme": "typographic-poster",
+    "date": "2026-10-10",
+    "slides": 38,
+    "designTheme": "datadriven",
     "workflow": "presentation-defaults-v3",
     "deckId": "deck-d321b37641464b5eb3eaf9a9986e7165",
     "packageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
     "rendererSha256": "b49f126b9ca421134469cea4191ee033ba84b6fddefd05ac8a73b5966e8f9fe7",
-    "htmlSha256": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453",
-    "darkHtmlSha256": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7",
-    "pdfSha256": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be",
+    "htmlSha256": "37e64f18e100e8a5e758cd67f5cd533a927d1d6d5740afee32dfafb00f564973",
+    "darkHtmlSha256": "c2711e0368c3b39111c9662cdbd64b7ab317767d7833888a461e015790a00711",
+    "pdfSha256": "23c0c1a2368566f9a21101d97bdbf5b82079eb6aa535262bcaceb8612a799171",
     "notes": "No speaker-note content generated",
     "pdfTextComparison": "All original paragraph/list/headline units matched on their respective PDF pages, ignoring whitespace and CSS uppercase only.",
-    "registeredAt": "2026-10-10"
+    "registeredAt": "2026-10-10",
+    "layoutContract": "Verbatim source text; intentional message groups, native two/three-column cards and full tables;1920x1080 fixed present stage, responsive read/fit; not paragraph-per-slide.",
+    "pdfProjection": {
+      "reason": "WeasyPrint percentage table sizing omits two images. Only slide21 image wrapper differs in native PDF authoring; same38slides and text.",
+      "spec": "/decks/educational-harness-workshop-2026-07-06/v2/deck-print.json",
+      "html": "/decks/educational-harness-workshop-2026-07-06/v2/print.html"
+    }
   },
   "poster": {
     "original": "User-provided Seminar.pdf",
@@ -171,5 +177,25 @@
     "originalSha256": "8c429c83d3b0db59f8893ffc805c1975005c48ae17608f05ffcf54af173d8cb8"
   },
   "approval": "User requested portfolio registration and deployment; source content must remain verbatim.",
-  "verification": "docs/educational-harness-verification.json"
+  "verification": "docs/educational-harness-verification.json",
+  "history": [
+    {
+      "date": "2026-10-09",
+      "slides": 102,
+      "designTheme": "typographic-poster",
+      "workflow": "presentation-defaults-v3",
+      "deckId": "deck-d321b37641464b5eb3eaf9a9986e7165",
+      "packageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
+      "rendererSha256": "b49f126b9ca421134469cea4191ee033ba84b6fddefd05ac8a73b5966e8f9fe7",
+      "htmlSha256": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453",
+      "darkHtmlSha256": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7",
+      "pdfSha256": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be",
+      "notes": "No speaker-note content generated",
+      "pdfTextComparison": "All original paragraph/list/headline units matched on their respective PDF pages, ignoring whitespace and CSS uppercase only.",
+      "registeredAt": "2026-10-10",
+      "productStatus": "rejected-by-user",
+      "reason": "원문 텍스트 보존을 원본 분절 보존으로 오해;102장·단문 장·판면 불균형",
+      "url": "/decks/educational-harness-workshop-2026-07-06/v1/index.html"
+    }
+  ]
 }
