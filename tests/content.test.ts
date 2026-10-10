@@ -39,6 +39,7 @@ const base = {
 } as const;
 const publicWork = {
   ...workSchema.parse(base),
+  reader: undefined,
   body: base.body + ' 성찰과 평가 루브릭을 사용한다.',
   href: '/talks/one/',
   segments: [

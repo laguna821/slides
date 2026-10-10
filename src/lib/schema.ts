@@ -44,6 +44,7 @@ export const workSchema = z
     body: z.string().default(''),
     htmlSource: z.string().optional(),
     markdownSource: z.string().optional(),
+    reader: z.object({version:z.literal('1.0.0'),source:z.string(),sourceVersion:z.string(),manifest:z.string()}).strict().optional(),
     course: z
       .object({
         id: slug,
@@ -139,11 +140,13 @@ export type Segment = {
 };
 export type PublicWork = Omit<
   Work,
-  'htmlSource' | 'markdownSource' | 'provenance'
+  'htmlSource' | 'markdownSource' | 'provenance' | 'reader'
 > & {
   href: string;
   segments: Segment[];
   readingHtml: string;
+  reader?: import('./reader').ReaderDocument;
+  relations?: import('./reader').ReaderRelation[];
   videoCount: number;
 };
 export function workHref(w: Pick<Work, 'kind' | 'slug'>) {
