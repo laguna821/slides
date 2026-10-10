@@ -28,3 +28,7 @@ AS018 기존 발표: research:rr-9988c127b605008f351e7673a428d124:5bd1946338a677
 CMDS Share 게시물 관찰: https://laguna821.github.io/obsidian-shared-notes/notes/zcjhojhx.html (2026-10-10)
 
 도해 SVG에 글꼴을 내장할 때는 표시되는 글자만 subset한다. 한 SVG의 내장 font 데이터 합계는 128KiB 이하여야 한다. scripts/subset-reader-svg-font.py로 새 파일을 만들고 원본 URL은 유지한다. manifest의 fontSubsetOf에 보존된 원본 SVG를 연결하면 빌드에서 font-face 이외 벡터·텍스트 전체를 대조한다. 일반 비트맵 원본 바이트는 그대로 유지한다.
+
+## 읽기용 PDF (사이트 정책 3.1.0)
+
+[HanMark 읽기용 PDF 계약](PRINT-CONTRACT.md)을 적용한다. 모든 공개 읽기에 첫 쪽 제목·본문 통합 A4 2단 PDF가 필수다. `npm run print:generate`로 생성하고 원문·자산·조판 입력 해시와 실제 PDF 검증을 통과해야 게시할 수 있다. 변경 시 기존 읽기 전체에 소급 적용하며 발표 PDF·A2 포스터는 별도로 보존한다.

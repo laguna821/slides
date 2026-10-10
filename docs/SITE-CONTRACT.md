@@ -68,3 +68,7 @@ print.iccProfile은 명시적 CMYK 출력 ICC 경로다. sRGB 입력색을 Littl
 생성→시각 검수→게시→공개 HTML·이미지·폰트 HTTP200/형식/크기/해시 및 canonical 확인을 필수로 한다. 일반 UA와 카카오 UA 응답을 비교하되 실제 카카오 수집 성공과 구분한다. 카카오 metadata debugger 로그인/캐시 확인 또는 실기기 카드 확인 전에는 kakao-preview-verified로 표시하지 않는다. 이미지 변경 시 URL도 해시로 바뀐다. 저장된 미리보기 갱신은 공식 도구 https://developers.kakao.com/tool/debugger/sharing 를 사용하며 메시지는 사용자 요청 없이 발송하지 않는다.
 공유 공개 HTML의 수정이 화면 4초·교차 테마·공통 기하·넓은 모바일 폭·독립 A2 한 장을 바꾸면 안 된다. 종이 엔진은 PS09핀을 유지한다. 기존 legacy 출력은 승인 버전을 유지한다.
 근거: research:rr-5107dcb3a351649bf07c26c031c27256:f34567b4510382c329f5d35224e482d86836b8f685ffb18bd469c51a8ce0c8f5
+
+## 읽기용 PDF (사이트 정책 3.1.0)
+
+[HanMark 읽기용 PDF 계약](PRINT-CONTRACT.md)을 적용한다. 모든 공개 읽기에 첫 쪽 제목·본문 통합 A4 2단 PDF가 필수다. `npm run print:generate`로 생성하고 원문·자산·조판 입력 해시와 실제 PDF 검증을 통과해야 게시할 수 있다. 변경 시 기존 읽기 전체에 소급 적용하며 발표 PDF·A2 포스터는 별도로 보존한다.

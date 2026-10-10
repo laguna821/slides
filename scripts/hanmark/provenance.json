@@ -1,0 +1,21 @@
+{
+  "name": "HanMark",
+  "version": "2.7.0",
+  "revision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+  "license": "MIT",
+  "sourceFiles": {
+    "src/io/editorialPdfFlow.ts": "fb356df1ac09d1154478ec05f000204fe0b6ca2710dc0fcc30000def8533998b",
+    "src/io/editorialPdfLayout.ts": "0e4b04719c2e5510dfceb7c4a99bc01df0fd56f7ad30d03e8da28b6ca5151d28",
+    "src/io/editorialPdfMeasure.ts": "da9908c26a2761d7bee9f1b1284170130d30b752fcd1501e0fe1f093091f61a2",
+    "src/io/editorialPdfTablePolicy.ts": "fde41a4d5be4d5e24b2cf36da4a4f8290d21b06bc3e2ab5f8b3b035a6593ff15",
+    "src/io/editorialPdfTables.ts": "0257dea6e310fc1e783de1f5f02bf3edb858987744f8a550dfdd30141ae73fba"
+  },
+  "changes": [
+    "First-page measured title inset; remaining pages keep original full body height.",
+    "Site-only diagnostic i18n bridge; host APIs not imported.",
+    "Captioned standalone figures measured at column width; tall image centers without narrowing caption.",
+    "Removed unused measurement constructor property; behavior unchanged.",
+    "Wide tables cannot precede earlier text or let later text jump ahead; preserve visual heading order.",
+    "Compact full-width table bands resume two columns on the same sheet; every band preserves visual text order."
+  ]
+}

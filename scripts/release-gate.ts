@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import experiments from '../content/experiments.json';
+import printManifest from '../content/print-manifest.json';
 import { workHref } from '../src/lib/schema';
 export const reviewRoutes = [
   ...new Set([
@@ -242,6 +243,30 @@ export function validateReview(
       ].every((k) => result[k] === true)
     )
       throw Error('읽기 기능 검토 누락: ' + route);
+  }
+  for (const [workId, proof] of Object.entries(printManifest.works)) {
+    const rows = review.prints?.filter((p: any) => p.workId === workId) || [];
+    const r = rows[0];
+    if (
+      rows.length !== 1 ||
+      r.sha256 !== proof.sha256 ||
+      r.url !== proof.url ||
+      r.pages !== proof.pages ||
+      JSON.stringify(r.reviewedPages) !==
+        JSON.stringify(Array.from({ length: proof.pages }, (_, i) => i + 1)) ||
+      !['firstPageBody', 'sourceText', 'imagesLegible', 'pdfDownload'].every(
+        (k) => r[k] === true,
+      ) ||
+      !(
+        r.pdfOpen === true ||
+        (r.pdfOpen === 'browser-blocked' &&
+          r.pdfResponse200 === true &&
+          r.pdfBytesVerified === true &&
+          typeof r.browserLimitation === 'string' &&
+          r.browserLimitation.length > 20)
+      )
+    )
+      throw Error('읽기 PDF 검토 누락: ' + workId);
   }
 }
 if (process.argv[1]?.replaceAll('\\', '/').endsWith('/release-gate.ts')) {

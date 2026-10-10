@@ -1,7 +1,7 @@
 {
-  "policyVersion": "3.0.0",
+  "policyVersion": "3.1.0",
   "status": "passed",
-  "environment": "Windows Edge CUA; static Astro preview4322; measured CSS375/768/1440; browser zoom110% compensated by viewport override; 35 routes /210 observations. Eight motion embeds are authored dark-only.",
+  "environment": "Windows Edge CUA; Astro preview4322; 35 routes / 210 measured views at CSS375/768/1440 and light/dark. PDF rendering: pinned local headless Chromium; actual PDF verification: PyMuPDF. Native PDF viewer automation blocked by Edge extension UI.",
   "views": [
     {
       "route": "/",
@@ -1630,7 +1630,6 @@
       "actualHeight": 812,
       "actualTheme": "light",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1641,7 +1640,6 @@
       "actualHeight": 812,
       "actualTheme": "dark",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1652,7 +1650,6 @@
       "actualHeight": 1023,
       "actualTheme": "light",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1663,7 +1660,6 @@
       "actualHeight": 1023,
       "actualTheme": "dark",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1674,7 +1670,6 @@
       "actualHeight": 900,
       "actualTheme": "light",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -1685,7 +1680,6 @@
       "actualHeight": 900,
       "actualTheme": "dark",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -1756,7 +1750,6 @@
       "actualHeight": 812,
       "actualTheme": "light",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1767,7 +1760,6 @@
       "actualHeight": 812,
       "actualTheme": "dark",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1778,7 +1770,6 @@
       "actualHeight": 1023,
       "actualTheme": "light",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1789,7 +1780,6 @@
       "actualHeight": 1023,
       "actualTheme": "dark",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1800,7 +1790,6 @@
       "actualHeight": 900,
       "actualTheme": "light",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -1811,7 +1800,6 @@
       "actualHeight": 900,
       "actualTheme": "dark",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -1882,7 +1870,6 @@
       "actualHeight": 812,
       "actualTheme": "light",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1893,7 +1880,6 @@
       "actualHeight": 812,
       "actualTheme": "dark",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -1904,7 +1890,6 @@
       "actualHeight": 1023,
       "actualTheme": "light",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1915,7 +1900,6 @@
       "actualHeight": 1023,
       "actualTheme": "dark",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -1926,7 +1910,6 @@
       "actualHeight": 900,
       "actualTheme": "light",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -1937,7 +1920,6 @@
       "actualHeight": 900,
       "actualTheme": "dark",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -2008,7 +1990,6 @@
       "actualHeight": 812,
       "actualTheme": "light",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -2019,7 +2000,6 @@
       "actualHeight": 812,
       "actualTheme": "dark",
       "actualWidth": 374,
-      "bodyWidth": 328.6174011230469,
       "brokenImages": [],
       "overflow": false
     },
@@ -2030,7 +2010,6 @@
       "actualHeight": 1023,
       "actualTheme": "light",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -2041,7 +2020,6 @@
       "actualHeight": 1023,
       "actualTheme": "dark",
       "actualWidth": 767,
-      "bodyWidth": 689.3370971679688,
       "brokenImages": [],
       "overflow": false
     },
@@ -2052,7 +2030,6 @@
       "actualHeight": 900,
       "actualTheme": "light",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -2063,7 +2040,6 @@
       "actualHeight": 900,
       "actualTheme": "dark",
       "actualWidth": 1440,
-      "bodyWidth": 759.9999389648438,
       "brokenImages": [],
       "overflow": false
     },
@@ -2251,16 +2227,18 @@
     "Poster geometry retained from prior actual browser review of byte-identical assets; git diff against da94e30 confirms experiments/resources/posted assets unchanged. Site views and functional checks are fresh.",
     "PDF native authoring projection changes only21image wrapper;38pages/11actualimages/text matched"
   ],
-  "digest": "14c3745a58b4c7ad333e95f5981d4d6c3261ffff347646ab296f5983403724f8",
+  "digest": "151a9a16816f0874ddffab2078f5dbc54676cf7aaca59ea88141cf1d72d5fc50",
   "sourceFiles": {
-    ".gitattributes": "a0c475210e8453e7d0502eccf87f6d43fa33e827b30184fb8dba0ebe75c8a440",
+    ".gitattributes": "cd231e6cf22100921c764fe8edda8e48b1f0ed9e6ded70d090304a237eb9818b",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
-    "AGENTS.md": "0a695090ba1f79e5704822a088aaff857b483183e7ba92881917839826fa370e",
+    "AGENTS.md": "0b9c017b362d3b3c8d5d477e7c89d5a979d6eb0a733fe4cb78a44ff760baa69b",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
     "content/legacy.json": "d9317c659cc601b29422283af06ce0f75de36cef8bd0d589364159f9396405c1",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
+    "content/print-manifest.json": "fc11bd1387be33a6a969a18948a006cbb1b1f5ba3f79e170465e8949b78cef7a",
+    "content/print.json": "83627a87744f9b1e2ef1273602f86bd33ddd72bb9172a9d2db187310dc15b838",
     "content/reading/ai-reading-pilot.md": "11f75a0b2a24026ac2bf073d960b12c43896597d1ef89e4a584deb3b92c199b7",
     "content/reading/educational-harness-workshop-2026-07-06.md": "98883f750f4d37ebaf319f6f0a55c4fbb55338b9a2cd60e83d4c12edba93c138",
     "content/reading/educational-harness-workshop-2026-07-06.previous.md": "8a436523630e2d57232f1b4055895cf130ea010595451290e3ed1f64dbba4769",
@@ -2270,16 +2248,17 @@
     "content/reading/media-colloquium-2026-06-10.md": "1558c045f1756352f9f7ac269d66e24fa4853c07922d7aa6bbc508419e0ff5de",
     "content/reading/media-colloquium-2026-06-10.previous.md": "e90aed8961a7744293fe26d8099abc343e96a4d142c485f5a96ce234cbb504a0",
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
-    "content/site-policy.json": "0931389777092daced836a3ed0e320b4ee2574fc240c26985da8c76cc89d99e1",
+    "content/site-policy.json": "025a8792732d3180079d6fdf6d850a8628ced62c1c896ae5b864377a77957341",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "content/works.json": "45eb99bfeea5b4b1f04afb671a025431a92ebb4163ab82568a9c0d9346720738",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
+    "docs/AS020-PRINT-VALIDATION.md": "42d8abdd0f09453699ca74892d80014137deaa0621be8cd4fe160ee566c2f87b",
     "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
     "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
     "docs/EDUCATIONAL-HARNESS-REGISTRATION.md": "04c0190ab0b0ea59a7b2ae24ce734e96c3c0cfe8ee30fe668433d9743591450b",
     "docs/MEDIA-COLLOQUIUM-REGISTRATION.md": "23e76e10587b94532f9ce9eef52500a1ff9f8b92eb477e990e5d53ba24e615a3",
-    "docs/OPERATIONS.md": "4aa660a8324667db64bcdb703809509c11adf4388a5caf248fd5855fa2c97f84",
+    "docs/OPERATIONS.md": "a9be77c0617cc3a393c413c7b019346aaafbb5f46d73f02c582bd3ee12c8fd64",
     "docs/PKM-REGISTRATION.md": "07aca0b08911c8470e81c0065b406dee0c24516bbc6aa16096308d04735e5a41",
     "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
     "docs/POSTER-COMPLETE-V2-VALIDATION.md": "ab7455068ae50ae321552c81a29226ee4b56407664f3e9134bdb39c598980754",
@@ -2291,9 +2270,10 @@
     "docs/POSTER-SERIES-RC2-VALIDATION.md": "393e3a8c0746a2135656147dd9e9efb8be059d8dbb90d22e198fc6ae3fb0e9be",
     "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
     "docs/POSTER-SERIES.md": "a1ff674fca6c5afd5487facdc2e22ce3e10d691d6f21d12a63c55ce6875e94dd",
-    "docs/READER-CONTRACT.md": "f1b633d33b57912d68cb1c1bab62ccbacb7e33b50e61dc9bd1db815dd3d28c33",
+    "docs/PRINT-CONTRACT.md": "2a6e83c6132387c9d549526ce53dd9b02925662b5454a43fbba24dd3b96d5761",
+    "docs/READER-CONTRACT.md": "a86ec75870edd4692fbb3661342f308cb12f465803db072aeb87165922461b1f",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
-    "docs/SITE-CONTRACT.md": "f5d3d2238de23d5b6b89cde7d10dc65802fe0851dae3e577636b9765656aefc2",
+    "docs/SITE-CONTRACT.md": "680c1aca715fe474199ab33923f0f3d32c00fc1ada7ea909b32cb74b3685c885",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
     "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
@@ -2303,8 +2283,8 @@
     "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
     "docs/media-colloquium-provenance.json": "6aafa2bed65d26118aeb728a19d9ccfb1709e8101bc2771a57202bdf7fdbfe15",
     "docs/pkm-artifact-provenance.json": "c54b7b06f726a7554e0050364807e9eebd9902e741830bdb83ce9d896d030496",
-    "package-lock.json": "e97a82f7eef877a790caf84c8b6ce3a0129a554e8cd148ddbee4a2d4edd8be3d",
-    "package.json": "028410fb44ea0518b55673d4c3a28d789a0285273eeab4a902dae0f6cf23f1b8",
+    "package-lock.json": "33a26ea5b45bdd257e58e390555fb7c4fe5bd14c74af6630acab2d49d1c098ac",
+    "package.json": "765fb542b98da80624ccfbfdb5e961af9f0d6c8c76626d1e6f52cb4c47e25d29",
     "public/brand/ach-frame-mono.svg": "d167133514a827c35ec861c96e91df6d01f9cca1d57785df636c504329ce0738",
     "public/brand/ach-frame-reversed.svg": "b0d081887955986c0a3e7a7fadb5f678d202274391c1ce7c77803d9fe6039bb5",
     "public/brand/ach-frame.svg": "f62509fca977620091d2cd953eb54d8bd3ba116809dd8c4ce0d2fbedfc67a1af",
@@ -2483,19 +2463,37 @@
     "public/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg": "e26c852e1273d80a8935392437dc59171c4a72cfeeeb86a6d3ddf02045a5c928",
     "public/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
     "public/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
+    "public/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf": "1339007e9b9e613f7cc123012a8499ec1d6aeff6b62a7ec32db1968ed0604be9",
+    "public/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf": "cda05063fe5a05fcbc809d0097aded1d2507572369feb91802e4594e32bab522",
+    "public/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf": "5efbad580004410ca1917cbc5b8036608ce4aaef136a657da298a0af563ac620",
+    "public/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf": "c36f81c55f964c0b17beb5fb584c43b2991d9ddb9d7f08f966e4369d6d614f9e",
     "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
     "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
     "scripts/experiments.ts": "4994fe881c1dc92b92896d1819cdd003431f3ede26d04ef67bec68f0cd95d5d2",
+    "scripts/generate-reader-pdfs.ts": "20046d40938b63ffc60ec1a6b3f4ddc16bf84337d81ef339648cc0a88b338123",
+    "scripts/hanmark/LICENSE": "f19a76e7904e71b96de3ed03e36184489c58eb6437c8e2ea8d8beb7ea16ee627",
+    "scripts/hanmark/README.md": "09b744756916b361f1ec86878d94e57e44cc43d702c52a42b6a6945b2906d470",
+    "scripts/hanmark/i18n.ts": "2e5d51e77b0626b420538d034dc06c65adab004fced5960f0c213315dfd6937a",
+    "scripts/hanmark/io/editorialPdfFlow.ts": "b6b18a281077b6fef21c0dd3524b02ea0ea706bbdf9622229819655104c22a0e",
+    "scripts/hanmark/io/editorialPdfLayout.ts": "9f83b3770d0a242f48715704db3e6402d576588792782f221ce9f930fd97e842",
+    "scripts/hanmark/io/editorialPdfMeasure.ts": "80180f9bd85fdcf2deb79543d16f0179624c7f49db28e11377fad098dedbfda3",
+    "scripts/hanmark/io/editorialPdfTablePolicy.ts": "2922e86b5a664d23385999bc91b215513f13f8141b8665d5dcb84ea165172452",
+    "scripts/hanmark/io/editorialPdfTables.ts": "dc10f213083ee5beb379e1489dfc1f8cae42f20232d817433bbc700f8c4821c1",
+    "scripts/hanmark/provenance.json": "96598186f47dec5d94333fa749d6eaca44d090c100d0c6743e5ef0a1257165ab",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/migrate-readers.ts": "edd069a7c77c58ef62aedf0cbe8d79007ddf534db6be884fd781d3871756a73c",
-    "scripts/prepare.ts": "4e2cd765f51c908262a86e9b2d9562d33bcef44995d1ecb6cbf8bb377901aef6",
-    "scripts/release-gate.ts": "e9220b58d296ec718b3b90e54fc7d5a26651d9e050e67602e3890775332997d0",
+    "scripts/prepare.ts": "ed178399ff082ecad89a14f0415ceee50c8029da740a8446a8e2a64ab0d9f116",
+    "scripts/print-browser.ts": "a92f0c53f5a987d699dccbf3ba6aa190b8bf4954cd8b605e270e47e8986f4a6d",
+    "scripts/print-contract.ts": "46a1c57bed53125eb1dfb828b53158d45320481dc553d4d449a4dfd19ea1db07",
+    "scripts/print-profile.css": "2f1b2e5290d4d909cbe5256041c86bd77c93a10f296eaa08b8b63ab1ffc1fc11",
+    "scripts/release-gate.ts": "e927521322a42b138ef76838fc0c16402df8c9d1bc5a4ac504d5a09e4b83fc81",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/subset-reader-svg-font.py": "0840f9c080192497a4000bdee0a2dca06d0763cee8d205e24768e82afe35bee8",
     "scripts/vendor.d.ts": "e16d6233e10d55ed14326eb30be9534e36ad5ec2d58993fbcd78e13660ae7675",
     "scripts/verify-build.ts": "4807c5018675141050cfeee7c8c208ca60110775c5e6588535e99b9c674c50e8",
-    "scripts/verify-readers.ts": "51419b50da37e79eed24073af6f4a330cca668dddf2332ae67b5bf069cbf5c29",
+    "scripts/verify-print-pdf.py": "b97149a5629e318cf3d3395f58e0af61dba48be6b6fc1d9029d72807841b005b",
+    "scripts/verify-readers.ts": "eca351e89b1cb1a7aeb7b22fd123addfd81d953e5eb11bb4e53a97d529d4baac",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
     "src/components/Logo.astro": "033a48ccab2f90602cd9089c2045cb01752f31c1bfb9326c65da6590422622d1",
     "src/components/ProjectResources.astro": "d7fd271bb53b98ccdd1a09b24a7998a95340bae53c96894892a3eb4b9b148123",
@@ -2511,7 +2509,7 @@
     "src/lib/media-links.ts": "3a4aa49fa2e0f4d229214aef2279a6c9f1cf4218a573cef9bc71832800e4668a",
     "src/lib/policy.ts": "cb7aaba9ded9ee8648c5f0fd3add9f9d47d16ff99bfd81946b829210e8c18a0e",
     "src/lib/reader.ts": "637cb96d8b61e094cc9ee234b5dfc78dc0829012090d3827642e71c86ec737d3",
-    "src/lib/schema.ts": "140e92e68806a1b8bd27f9142c087918bd629778a5fa99aeb0bcce21d6cb90eb",
+    "src/lib/schema.ts": "d0a8443ead6d21552d02a647a50cf3e41e0d4eb595db7e01bfcb422ebbe055f3",
     "src/lib/search.ts": "eb717cb64a9d8929f3ed72d2b733f2df6e67ec2800ca31a2641eacd760910021",
     "src/pages/404.astro": "b29e3b4591c9ddf81a1db3ce39e61d79b27f97c613020e68d20997df9f168cf3",
     "src/pages/about.astro": "949deaf8cbef198fc6c798e620f1557d660459f8d545ee15ad63ca94b8ad9e69",
@@ -2526,13 +2524,13 @@
     "src/pages/posters/index.astro": "ca370817c09c1ebf52bb88afa43803388f3e8a5bbdebddf32d1ceef4590b16a8",
     "src/pages/sitemap.xml.ts": "8616da4029a1d7fc1619b0c4ed398978a1f92cd68c33b9c4566f1da19f3bc5f7",
     "src/pages/talks/[slug]/index.astro": "ae4be63e75b4d0a2fa6314927e8465c5a2bb5798a2ab4fafc5fd119efe0f2f39",
-    "src/pages/talks/[slug]/read.astro": "2acd48fc1a6fc83674b4efb69bd4c15a1863fc43ca216091760caab20c708440",
+    "src/pages/talks/[slug]/read.astro": "03baf5ed683e712ad42d46a2192a7935dc99105a25d4af0c7c2dca0bc085dccd",
     "src/pages/talks/[slug]/read.md.ts": "a2c4bf8680611caf8aec26da06bb8f2f32ead7a2c2036f37300e648cc94a3e62",
     "src/pages/talks/[slug]/read.txt.ts": "f8407c5a941a2b6039a126c779d69143a305a4614694604385f0dce73893fec1",
     "src/pages/videos.astro": "02f8dcbaa37599160eda841b22035dde8d09f4f15ab7c89931294fe958fd7aa7",
     "src/scripts/archive.ts": "e79aee65c3647f576f69211245dde026009ebdc07ec1e0d7a8a1eac0c614ad5c",
     "src/scripts/film.ts": "d1b1486976cd1538de7dc84cd094343ecc2e4258e06587843a067c587bcee1ad",
-    "src/scripts/reader.ts": "415625678634eed84d864300a59759ec7e7d069fd4df3d469f6c15c30f751ab7",
+    "src/scripts/reader.ts": "c17523454c9bbb9eb91f02a91f0b5e329edf406354e728e1ad5f2a027f010057",
     "src/scripts/site.ts": "5cd2be0d94b8e3947a65d88ecdd6ac17740c3f8df2110c9a4d04e29522919473",
     "src/styles/global.css": "f4d4ed842ae95a77a5e9e009bd7978876049451576882bd598c7f5e4c12c851b",
     "src/styles/reader.css": "6482c5882d04d69f92978357220fcba14b95f8f9d074a8cbe76c41e3062acf97",
@@ -2542,13 +2540,14 @@
     "tests/content.test.ts": "8dda2d9ad96047bb97a3e4cab9ab32fa93244fbbaf48e2e88e674b08b4c5f36d",
     "tests/experiments.test.ts": "64d97044e9385a18cdfe4d96f7863b8c78316b13d5c87445e2e2251775c542ad",
     "tests/governance.test.ts": "3b3af0f8971824e8b2527912e1285eb46c5a246e5fa9dbf39bb9f2d5eaf130f4",
-    "tests/reader-gate.test.ts": "a0d275a72840cc883233b1e0abdf33b43afd78c77c17ad0d40fe7ea8037783cb",
+    "tests/print.test.ts": "943852c9eb07378aab2a4b78fe3d14459a48267e787c0f5d96d69e690c2b0182",
+    "tests/reader-gate.test.ts": "7e6e2d78f23705e16bb515dc203ed47b709f53f7fbda1d17959d45e6e68f0e7b",
     "tests/reader.test.ts": "e94f04ea052f4ab22da4bb2839c08fc96f4d38c27c9ba888a388e26665612c83",
     "tests/sharing.test.ts": "f30c029ff2d25f985b2d50256b70919ba9e4059fc27f9a9adcd95b21973bd5b6",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
-    "vercel.json": "f6ef795350ba028661c8bdbdedf1be170661d0b5160d95cff994ea1952ec46fa"
+    "vercel.json": "f572c14d13868332d7d2f1094608b830d5de9180412a5e65f418c1e0ab52762e"
   },
-  "reviewedAt": "2026-10-10T03:48:14.787Z",
+  "reviewedAt": "2026-10-10T05:58:37.342Z",
   "readers": [
     {
       "route": "/talks/ai-reading-pilot/read/",
@@ -2560,10 +2559,7 @@
       "toc": true,
       "anchors": true,
       "imageZoom": true,
-      "print": true,
-      "printEngine": "WeasyPrint 70 / production CSS",
-      "printPages": 16,
-      "imageZoomApplicable": false
+      "print": true
     },
     {
       "route": "/talks/human-reading-writing-2026/read/",
@@ -2575,10 +2571,7 @@
       "toc": true,
       "anchors": true,
       "imageZoom": true,
-      "print": true,
-      "printEngine": "WeasyPrint 70 / production CSS",
-      "printPages": 13,
-      "imageZoomApplicable": true
+      "print": true
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/read/",
@@ -2590,10 +2583,7 @@
       "toc": true,
       "anchors": true,
       "imageZoom": true,
-      "print": true,
-      "printEngine": "WeasyPrint 70 / production CSS",
-      "printPages": 41,
-      "imageZoomApplicable": true
+      "print": true
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
@@ -2605,10 +2595,7 @@
       "toc": true,
       "anchors": true,
       "imageZoom": true,
-      "print": true,
-      "printEngine": "WeasyPrint 70 / production CSS",
-      "printPages": 25,
-      "imageZoomApplicable": true
+      "print": true
     }
   ],
   "readerExtra": {
@@ -2746,5 +2733,122 @@
       "vectorAndTextUnchanged": true,
       "allOriginalTextGlyphsPresent": true
     }
-  ]
+  ],
+  "prints": [
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf",
+      "sha256": "cda05063fe5a05fcbc809d0097aded1d2507572369feb91802e4594e32bab522",
+      "pages": 13,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "firstPageBody": true,
+      "sourceText": true,
+      "imagesLegible": true,
+      "pdfDownload": true,
+      "pdfResponse200": true,
+      "pdfBytesVerified": true,
+      "pdfOpen": true,
+      "pdfViewerUI": "unverified",
+      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "url": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf",
+      "sha256": "1339007e9b9e613f7cc123012a8499ec1d6aeff6b62a7ec32db1968ed0604be9",
+      "pages": 7,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "firstPageBody": true,
+      "sourceText": true,
+      "imagesLegible": true,
+      "pdfDownload": true,
+      "pdfResponse200": true,
+      "pdfBytesVerified": true,
+      "pdfOpen": "browser-blocked",
+      "pdfViewerUI": "unverified",
+      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "url": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf",
+      "sha256": "5efbad580004410ca1917cbc5b8036608ce4aaef136a657da298a0af563ac620",
+      "pages": 4,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "firstPageBody": true,
+      "sourceText": true,
+      "imagesLegible": true,
+      "pdfDownload": true,
+      "pdfResponse200": true,
+      "pdfBytesVerified": true,
+      "pdfOpen": "browser-blocked",
+      "pdfViewerUI": "unverified",
+      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "url": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf",
+      "sha256": "c36f81c55f964c0b17beb5fb584c43b2991d9ddb9d7f08f966e4369d6d614f9e",
+      "pages": 14,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "firstPageBody": true,
+      "sourceText": true,
+      "imagesLegible": true,
+      "pdfDownload": true,
+      "pdfResponse200": true,
+      "pdfBytesVerified": true,
+      "pdfOpen": "browser-blocked",
+      "pdfViewerUI": "unverified",
+      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+    }
+  ],
+  "printValidation": {
+    "pages": 38,
+    "images": 51,
+    "stressPages": 6,
+    "sourceOrder": true,
+    "physicalPrinter": "unverified",
+    "pdfUa": "not-certified"
+  },
+  "reusedEvidence": "Poster geometry and unchanged search/poster/keyboard behavior from AS019; unchanged assets. Views, reader interactions, PDF downloads and rendered-page review freshly checked for AS020."
 }

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "profile": "achmage-hanmark-a4-b-inline-title-v1",
+  "works": {
+    "ai-reading-pilot": {"author":"안창현", "shortTitle":"3주 AI 활용 읽기 파일럿"},
+    "human-reading-writing-2026": {"author":"안창현", "shortTitle":"인간 중심 읽기와 쓰기"},
+    "media-colloquium-2026-06-10": {"author":"안창현", "shortTitle":"독서토론이 곧 뉴스레터다"},
+    "educational-harness-workshop-2026-07-06": {"author":"안창현", "shortTitle":"Educational Harness Engineering"}
+  }
+}

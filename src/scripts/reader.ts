@@ -37,9 +37,7 @@ document
       }
     }),
   );
-document
-  .querySelector('[data-reader-print]')
-  ?.addEventListener('click', () => window.print());
+
 const backdrop = document.querySelector<HTMLElement>('.reader-backdrop')!;
 let opener: HTMLElement | null = null,
   activePanel: HTMLElement | null = null;

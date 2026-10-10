@@ -1,4 +1,5 @@
 import {verifyExperiments} from './experiments';
+import { verifyPrintArtifact } from './print-contract';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -30,6 +31,9 @@ validateRelations(works, media, usages);
 validateResources(works, resources);
 validatePolicy(works, media, resources);
 const checkOnly=process.argv.includes('--check');
+for(const w of works.filter(w=>w.visibility==='draft'&&w.reader)) {
+  if(await fs.stat(path.join(root,'public/reading/pdf',w.slug)).then(()=>true,()=>false))throw Error('Draft reading PDF must not ship: '+w.id);
+}
 const baseline = await read('content/legacy.json');
 if(!checkOnly) await fs.mkdir('public', { recursive: true });
 for (const item of baseline) {
@@ -126,7 +130,7 @@ for (const w of works.filter(isPublished)) {
     href: workHref(w),
     segments,
     readingHtml,
-    ...(reader?{reader}:{}),
+    ...(reader?{reader,readingPdf:await verifyPrintArtifact(w)}:{}),
     videoCount: new Set(related.map((m: any) => m.id)).size,
   });
 }

@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "profile": "achmage-hanmark-a4-b-inline-title-v1",
+  "works": {
+    "educational-harness-workshop-2026-07-06": {
+      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf",
+      "sha256": "cda05063fe5a05fcbc809d0097aded1d2507572369feb91802e4594e32bab522",
+      "inputDigest": "4d82ed232852f055bc8971d30ae958c35556f8d6fb1a78e0130ba83220227fd9",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 13,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 3,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 11,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "ai-reading-pilot": {
+      "url": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf",
+      "sha256": "1339007e9b9e613f7cc123012a8499ec1d6aeff6b62a7ec32db1968ed0604be9",
+      "inputDigest": "9e04e09577b0b4893a30ab4cc73f5593b57e020f20ad9427c2d723c3a5e43013",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 7,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 31,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 0,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "human-reading-writing-2026": {
+      "url": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf",
+      "sha256": "5efbad580004410ca1917cbc5b8036608ce4aaef136a657da298a0af563ac620",
+      "inputDigest": "af95cbda208e7d079bf5e78dcae1a315d6aa7ba820c1e5e7bd0a7dc33f579399",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 4,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 18,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 15,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "media-colloquium-2026-06-10": {
+      "url": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf",
+      "sha256": "c36f81c55f964c0b17beb5fb584c43b2991d9ddb9d7f08f966e4369d6d614f9e",
+      "inputDigest": "772b18abf53d9c21ee31b81a66214e502dfc89135080ea038d173fa527697219",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 14,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 58,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 25,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    }
+  }
+}

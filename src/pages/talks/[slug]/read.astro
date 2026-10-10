@@ -65,6 +65,7 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
         <div class="reader-source-links">
           {source && <a href={source.url}>발표 열기 ↗</a>}
           {pdf && <a href={pdf.url}>발표 PDF ↗</a>}
+          {work.readingPdf && <a data-reading-pdf href={work.readingPdf.url} target="_blank" rel="noopener">읽기용 PDF ↗</a>}
           <a href={md} download={work.slug + '.md'}>
             Markdown 저장 ↓
           </a>
@@ -124,7 +125,11 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
         <a href={md} download={work.slug + '.md'}>
           Markdown 저장 ↓
         </a>
-        <button data-reader-print>읽기 화면 인쇄</button>
+        {work.readingPdf && <>
+          <a data-reader-print href={work.readingPdf.url} target="_blank" rel="noopener">읽기용 PDF ↗</a>
+          <a data-download-pdf href={work.readingPdf.url} download={work.slug+'-reading.pdf'}>PDF 저장 ↓</a>
+          <small>A4 · 2단 편집 · {work.readingPdf.pages}쪽</small>
+        </>}
       </div>
       <details class="reader-connections" open>
         <summary>
