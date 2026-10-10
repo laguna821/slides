@@ -6,6 +6,18 @@ import { createHash } from 'node:crypto';
 import { workHref, type Work } from './schema';
 
 export const READER_VERSION = '1.0.0';
+/** Embedded fonts must be subset to the figure; never duplicate a whole deck font. */
+export function validateReaderSvgFont(svg: string, original?: string) {
+  const fonts = [...svg.matchAll(/data:font\/[^;,]+;base64,([^\s)'\"]+)/g)];
+  if (
+    fonts.reduce((n, m) => n + Buffer.from(m[1], 'base64').length, 0) >
+    128 * 1024
+  )
+    throw Error('Reader SVG embedded font exceeds 128 KiB; subset its glyphs');
+  const withoutFonts = (s: string) => s.replace(/@font-face\s*\{[^}]+\}/g, '');
+  if (original !== undefined && withoutFonts(svg) !== withoutFonts(original))
+    throw Error('SVG subset changed original vector or text');
+}
 export const sha = (s: string | Buffer) =>
   createHash('sha256').update(s).digest('hex');
 export const plainKey = (s: string) => s.normalize('NFC').replace(/\s+/g, '');

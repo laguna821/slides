@@ -18,7 +18,7 @@ import { extractHtml, renderMarkdown } from '../src/lib/extract';
 import { parseVtt } from '../src/lib/captions';
 import { clipHref } from '../src/lib/media-links';
 import { makeSearchEntries } from '../src/lib/search';
-import { renderReader, readerRelations, sha, validateReaderCoverage } from '../src/lib/reader';
+import { renderReader, readerRelations, sha, validateReaderCoverage, validateReaderSvgFont } from '../src/lib/reader';
 const root = process.cwd();
 const read = async (p: string) =>
   JSON.parse(await fs.readFile(path.join(root, p), 'utf8'));
@@ -81,7 +81,7 @@ for (const w of works.filter(isPublished)) {
     validateReaderCoverage(original.toString('utf8'),manifest.source.endsWith('.md')?'markdown':'html',reader);
     if(reader.sourceHash!==manifest.markdownSha256||manifest.missing!==0||!manifest.leafCount)throw Error('Reader needs renewed source coverage: '+w.id);
     if(reader.images.length!==manifest.images.length)throw Error('Reader image coverage mismatch: '+w.id);
-    for(const img of manifest.images){if(!reader.images.includes(img.url))throw Error('Reader image missing');if(img.url.startsWith('/')&&sha(await fs.readFile(safeFile('public'+img.url)))!==img.sha256)throw Error('Reader image bytes changed');}
+    for(const img of manifest.images){if(!reader.images.includes(img.url))throw Error('Reader image missing');if(img.url.startsWith('/')){const bytes=await fs.readFile(safeFile('public'+img.url));if(sha(bytes)!==img.sha256)throw Error('Reader image bytes changed');if(img.url.endsWith('.svg'))validateReaderSvgFont(bytes.toString('utf8'),img.fontSubsetOf?await fs.readFile(safeFile('public'+img.fontSubsetOf),'utf8'):undefined);}}
     readingHtml=reader.html;
     body=w.body+' '+reader.text;
     const $= (await import('cheerio')).load(reader.html);

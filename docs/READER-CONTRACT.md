@@ -26,3 +26,5 @@ reader UI·파서·메뉴·스키마가 바뀌면 기존 읽기 전체를 다시
 AS019: research:rr-76045fcb82128e0d679449e53bfcf771:a2b4c33da3889d75e2ecae81ae59c03bf6567189f4c1229016bbf2c1910b6dd9
 AS018 기존 발표: research:rr-9988c127b605008f351e7673a428d124:5bd1946338a67708233fcdba912ab8a6e6971d3cf1b45c43d5899e48e7b72f1c
 CMDS Share 게시물 관찰: https://laguna821.github.io/obsidian-shared-notes/notes/zcjhojhx.html (2026-10-10)
+
+도해 SVG에 글꼴을 내장할 때는 표시되는 글자만 subset한다. 한 SVG의 내장 font 데이터 합계는 128KiB 이하여야 한다. scripts/subset-reader-svg-font.py로 새 파일을 만들고 원본 URL은 유지한다. manifest의 fontSubsetOf에 보존된 원본 SVG를 연결하면 빌드에서 font-face 이외 벡터·텍스트 전체를 대조한다. 일반 비트맵 원본 바이트는 그대로 유지한다.

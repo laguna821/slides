@@ -5,7 +5,20 @@ import {
   renderReader,
   readerRelations,
   validateReaderCoverage,
+  validateReaderSvgFont,
 } from '../src/lib/reader';
+
+test('reader SVG font budget preserves all non-font vector and text data', () => {
+  const svg =
+    '<svg><style>@font-face{src:url(data:font/woff2;base64,YQ==)}</style><text>원문 도해</text></svg>';
+  validateReaderSvgFont(svg.replace('YQ==', 'Yg=='), svg);
+  assert.throws(() => validateReaderSvgFont(svg.replace('원문', '수정'), svg));
+  assert.throws(() =>
+    validateReaderSvgFont(
+      svg.replace('YQ==', Buffer.alloc(129 * 1024).toString('base64')),
+    ),
+  );
+});
 test('reader preserves media, callout, heading depth, task state and footnote round trip', () => {
   const r = renderReader(
     '## 한글\n\n> [!NOTE]\n> 본문\n\n#### 세부\n\n![원본](/img.png)\n\n- [x] 완료\n- [ ] 대기\n\n| A | B |\n| - | - |\n| 1 | 2 |\n\n문장[^a]\n\n[^a]: 출처\n',

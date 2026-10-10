@@ -30,7 +30,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![3장 원문 도해](/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg)
+![3장 원문 도해](/reading/human-reading-writing-2026/assets/72cf867b02681779012f.svg)
 
 학생 · 이 근거, · 믿어도 될까? · 교원 · 모은 자료, · 다시 쓸 수 있을까? · 직원 · 내 일의 기준, · 함께 쓸 수 있을까? · 자료 · 맥락 · 판단 기준
 
@@ -62,7 +62,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![6장 원문 도해](/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg)
+![6장 원문 도해](/reading/human-reading-writing-2026/assets/297b671fde404a35b1c7.svg)
 
 대학원 연구방법론 첫 수업 · 읽은 논문: The End of Software Engineering · 1 · 15분 읽기 실습 · 2 · 의도적으로 짚은 질문 · 3 · 교실의 반응 · 논문 + NotebookLM · 15분 동안 읽기 · 원문 2~3쪽을 짚고 · “이 부분에서 · 뭐라고 하던가요?” · 문단을 설명하는 · 답이 나오지 · 않았다. · 요약을 얻는 것과 · 이해한 것은 다른가? · 교수가 확인하려던 것 · AI가 읽어 준 결과와, 내가 이해한 것을 구분하기
 
@@ -74,7 +74,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![7장 원문 도해](/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg)
+![7장 원문 도해](/reading/human-reading-writing-2026/assets/7c224d4b44630307ff2f.svg)
 
 독서노트의 수집 목적 · 요약 · 미디어 리터러시 × AaaS 논문의 · 이론적 배경에 참고하려고 · 수집했다. · 왜 읽었나 · 무엇을 생각했나 · 다음 확인은?
 
@@ -86,7 +86,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![8장 원문 도해](/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg)
+![8장 원문 도해](/reading/human-reading-writing-2026/assets/c8493cdced96c92571fa.svg)
 
 수업 후 학생의 소감 · “요약된 것만 · 모아 썼는데…” · 학생 소감 발췌 · 수업 1:23:47 · 논문 → AI 요약 → 저장 · 내 해석은 어디에? · 교수가 보여 준 읽기 · 읽는 목적: 내 논문의 이론적 배경에 참고 · 원문 PDF · 문단을 읽고 · 다시 대조 · NotebookLM · “세 가설을 · 예시로 설명해줘” · 내 독서노트 · 내 연구 맥락으로 · 직접 적기 · 읽고 → 묻고 → 원문 확인 → 내 말로 적기
 
@@ -98,7 +98,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![9장 원문 도해](/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg)
+![9장 원문 도해](/reading/human-reading-writing-2026/assets/876565d18e5e569c7cb2.svg)
 
 교수·팀장의 회의 상황을 재구성한 예시 · 1 · 자료가 있다 · 2 · 보면서 판단을 말한다 · 3 · 회의가 끝나면 · 한글 · 보고서 · 규정 · 매뉴얼 · “다 적어 놨다” · “이 조건이면 보류하죠.” · “우리 기준은 이겁니다.” · 자료는 보관 · 판단의 이유? · 예외의 조건? · 내 머릿속에 · 자료를 보며 떠오른 ‘그 판단’을 직접 남겨 보셨습니까?
 
@@ -110,7 +110,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![10장 원문 도해](/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg)
+![10장 원문 도해](/reading/human-reading-writing-2026/assets/d2a6c03568ec91d6a7c8.svg)
 
 선병택 팀장 · 법인 재단본부 | 응답을 바탕으로 구성한 사전 설문 Q6 · “한 조직 안에서 AI 활용 수준이 · 사람마다 크게 차이 날 때, · 전체를 끌어올리려면 무엇이 필요할까요? · 교육일까요, 공유 프롬프트나 템플릿일까요, · 아니면 규칙일까요?” · 이 질문에 대한 저의 답 · “굳이 이렇게까지?”에서 멈추면, · 팀은 매번 각자의 머릿속에서 다시 시작합니다.
 
@@ -122,7 +122,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![11장 원문 도해](/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg)
+![11장 원문 도해](/reading/human-reading-writing-2026/assets/bd5d2f4ec0560c94675c.svg)
 
 같은 프롬프트 · 서로 다른 자료와 기준 · 서로 다른 자료와 기준 · 판단의 과정부터 함께 기록하기
 
@@ -134,7 +134,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![12장 원문 도해](/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg)
+![12장 원문 도해](/reading/human-reading-writing-2026/assets/c1957de2b34091c18aad.svg)
 
 1 · 내 말을 남긴다 · 실시간 메모 또는 · 음성 녹음·전사 · 2 · 내가 확인한다 · 원음과 대조하며 · 뜻·뉘앙스를 수정 · 3 · 기준을 적는다 · 근거 → 판단 · 조건 → 예외 · 채택 / 보류 · 어떤 조건에서 · 왜 채택·보류했나 · 4 · 함께 다시 쓴다 · 동료·팀·AI가 · 같은 맥락을 참조 · “회의록 정리해 주세요”로 끝낼 일이 아닙니다. · 내 판단의 뜻은, 내가 확인해서 공유해야 합니다. · 내가 검토한 Markdown 기록 → 동료·팀·AI가 다시 쓸 맥락
 
@@ -146,7 +146,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![13장 원문 도해](/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg)
+![13장 원문 도해](/reading/human-reading-writing-2026/assets/b839cab819a26592fd0b.svg)
 
 내가 검토한 원고 · 한글 · PDF · 웹 · 슬라이드
 
@@ -172,7 +172,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![15장 원문 도해](/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg)
+![15장 원문 도해](/reading/human-reading-writing-2026/assets/1150a3912fbff40f2ce0.svg)
 
 1 · 쓰다가 질문이 생긴다 · 2 · 근거·반증을 찾는다 · 3 · 지쳐서 미룬다 · 작성 중인 질문 · 예시 · AI를 많이 쓰면, · 생각을 덜 하게 될까? · 내 생각만으로는 · 단정할 수 없다. · 출처와 반례를 찾으며 · 검색어를 계속 바꾼다. · “내일 찾자.” · 다음 날 · “뭘 찾으려 했지?” · “왜 이걸 썼더라?” · 필요한 것은 검색 결과만이 아니라, 쓰던 생각으로 돌아오는 길 · 찾다 지치면, 생각을 다시 시작하는 비용이 듭니다.
 
@@ -184,7 +184,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![16장 원문 도해](/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg)
+![16장 원문 도해](/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg)
 
 ‘대학생의 사고 외주화’ 원고를 쓴다고 가정한 대화·판단의 예시 · 1 · 찾고 직접 읽기 · 2 · 내 관점으로 논의 · 3 · 일부만 채택 · 4 · 내 문장 쓰기 · “사용량보다 · 판단을 넘기는 순간이 · 중요하지 않을까?” · 채택 · 판단을 넘기는 순간 · 보류 · 사용량만으로 단정 · 뉴스·논문을 찾아 · 원문을 직접 확인 · 내 생각을 던지고 · 반박을 요청 · 논거를 검토해 · 채택·보류·수정 · 답변 전체 복붙 없이 · 내 말로 직접 작성 · 필요하면 다시 묻고, 찾고, 확인 · AI의 답을 모으는 것에서, 내가 판단하고 쓰는 것으로.
 
@@ -196,7 +196,7 @@ HALLYM CMDS PKM CONFERENCE 2026
 
 * * *
 
-![17장 원문 도해](/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg)
+![17장 원문 도해](/reading/human-reading-writing-2026/assets/aa7fdfa1859b3bf30c08.svg)
 
 나의 기록 · 문서 · 발표 · 기준 · 절차 · 예외 · Skills · 워크플로우 · 내 기록대로 실행 ↔ 검토
 
