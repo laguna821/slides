@@ -3,9 +3,14 @@ import path from 'node:path';
 import { sha } from '../src/lib/reader';
 import type { Work } from '../src/lib/schema';
 
+export function hashPrintInputs(files:Record<string,string>, metadata:unknown, engines:unknown) {
+  const ordered=Object.fromEntries(Object.entries(files).sort(([a],[b])=>a<b?-1:a>b?1:0));
+  return sha(JSON.stringify({files:ordered,metadata,engines}));
+}
+
 export async function printInputDigest(work: Work, root=process.cwd()) {
   const files: Record<string,string>={};
-  const add=async (f:string)=>{const bytes=await fs.readFile(path.join(root,f));files[f]=sha(/\.(ts|css|json|py|md)$/.test(f)?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes);};
+  const add=async (f:string)=>{const bytes=await fs.readFile(path.join(root,f));files[f]=sha(/\.(ts|css|json|py|md)$/.test(f)||f.endsWith('/LICENSE')?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes);};
   for(const f of ['package-lock.json','src/lib/reader.ts','content/print.json','scripts/print-browser.ts','scripts/print-profile.css','scripts/generate-reader-pdfs.ts','scripts/print-contract.ts','scripts/verify-print-pdf.py','public/fonts/PretendardVariable.woff2',work.reader!.source,work.reader!.manifest])await add(f);
   for(const f of await fs.readdir(path.join(root,'scripts/hanmark'),{recursive:true})){
     const rel='scripts/hanmark/'+f.replaceAll('\\','/');if((await fs.stat(path.join(root,rel))).isFile())await add(rel);
@@ -15,7 +20,7 @@ export async function printInputDigest(work: Work, root=process.cwd()) {
   const pkg=JSON.parse(await fs.readFile(path.join(root,'package-lock.json'),'utf8'));
   const engines={playwright:pkg.packages['node_modules/playwright'].version,esbuild:pkg.packages['node_modules/esbuild'].version};
   const metadata={id:work.id,title:work.title,date:work.date,event:work.event,visibility:work.visibility,seo:work.seo};
-  return {digest:sha(JSON.stringify({files,metadata,engines})),files,engines};
+  return {digest:hashPrintInputs(files,metadata,engines),files,engines};
 }
 
 export async function verifyPrintArtifact(work:Work, root=process.cwd()) {

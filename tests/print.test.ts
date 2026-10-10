@@ -2,9 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { workSchema } from '../src/lib/schema';
-import { printInputDigest, verifyPrintArtifact } from '../scripts/print-contract';
+import { hashPrintInputs, printInputDigest, verifyPrintArtifact } from '../scripts/print-contract';
 import { choosePdfTableWidth } from '../scripts/hanmark/io/editorialPdfTablePolicy';
 const works=workSchema.array().parse(JSON.parse(await fs.readFile('content/works.json','utf8'))).filter(w=>w.reader);
+test('print fingerprint is independent of filesystem enumeration order',()=>{
+  const metadata={title:'한글 원고'}, engines={playwright:'pinned'};
+  assert.equal(hashPrintInputs({'Z':'1','a':'2','io/file':'3'},metadata,engines),hashPrintInputs({'io/file':'3','a':'2','Z':'1'},metadata,engines));
+});
 test('every existing reader has a current verified PDF companion',async()=>{
   for(const w of works){const pdf=await verifyPrintArtifact(w);assert(pdf.pages>0);assert(pdf.url.endsWith('.pdf'));}
 });

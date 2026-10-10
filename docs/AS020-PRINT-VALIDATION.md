@@ -21,8 +21,10 @@ Harness PDF 버튼은 실제 새 탭을 열었다. 이어 Edge의 PDF 확장 UI�
 
 이번에 변경하지 않은 포스터의 장간 기하 및 검색·포스터·키보드 기능 증거는 AS019 검토에서 재사용한다. 새 화면 측정과 reader/PDF 증거는 이번 실행에서 갱신했다. GitHub main 보호 설정은 사용자 지시에 따라 보류한다.
 
-배포 전 `npm run release:verify`로 빌드·타입·45개 회귀 검사·현재 소스 digest와 검토 영수증을 확인한다. 운영 배포 후 실제 reader와 PDF 응답·헤더·해시를 다시 확인하며, 최종 배포 ID와 결과는 AS020 연구 revision에 추가한다.
+배포 전 `npm run release:verify`로 빌드·타입·46개 회귀 검사·현재 소스 digest와 검토 영수증을 확인한다. 운영 배포 후 실제 reader와 PDF 응답·헤더·해시를 다시 확인하며, 최종 배포 ID와 결과는 AS020 연구 revision에 추가한다.
 
 복구 기준: 이전 main 557472403fc0a853c03c1b39e1d21f5a20c3b227, Vercel 7MWggLVtqPukoJyyfKAKw4ULKvJS. 필요 시 해당 정상 배포를 승격하거나 이번 변경을 revert한다. 발표 HTML·기존 PDF·A2 포스터 파일은 수정하지 않았다.
 
 실험 근거: `research:rr-bb0e997d844c1e4aab921944b1b3bf65:cb2fd3f3063b3f8a81d83c5ea8f8630bd4387af606497c641305e4252ba4d31c`.
+
+첫 Ubuntu 배포 검사는 파일 목록 순서와 LICENSE 줄바꿈 차이로 입력 digest를 거부했다. 파일 키를 정렬하고 텍스트 줄바꿈을 정규화하도록 검증 함수를 수정했다. 조판·원고·이미지·폰트 입력이 직전 commit과 같음을 대조하고, 동일 PDF 바이트를 다시 열어 검사한 뒤 입력 증거만 갱신했다. PDF URL·다운로드 검증 대상은 그대로 유지된다. 파일 나열 순서를 뒤집어도 같은 fingerprint가 나오는 회귀 검사를 추가했다.
