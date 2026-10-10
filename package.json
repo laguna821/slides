@@ -16,13 +16,17 @@
     "content:import": "tsx scripts/import-html.ts",
     "brand:build": "tsx scripts/brand-assets.ts",
     "format": "prettier --write src scripts tests docs content *.json *.mjs README.md",
-    "release:verify": "npm run build && npm run check && npm test && tsx scripts/release-gate.ts"
+    "release:verify": "npm run build && npm run check && npm test && tsx scripts/release-gate.ts",
+    "print:generate": "tsx scripts/generate-reader-pdfs.ts",
+    "print:test": "tsx scripts/generate-reader-pdfs.ts --fixture"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "@types/node": "26.6.4",
     "@types/sanitize-html": "2.16.2",
     "@types/turndown": "5.0.6",
+    "esbuild": "0.28.1",
+    "playwright": "1.62.1",
     "prettier": "3.9.9",
     "prettier-plugin-astro": "1.1.0",
     "sharp": "0.35.5",

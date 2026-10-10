@@ -146,6 +146,7 @@ export type PublicWork = Omit<
   segments: Segment[];
   readingHtml: string;
   reader?: import('./reader').ReaderDocument;
+  readingPdf?: {url:string;pages:number;version:string};
   relations?: import('./reader').ReaderRelation[];
   videoCount: number;
 };

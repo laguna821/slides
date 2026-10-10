@@ -1,6 +1,7 @@
 * text=auto eol=lf
 AI_reading_3week_pilot_20261008.html -text
 *.woff2 -text
+scripts/hanmark/LICENSE -text
 *.webp -text
 public/experiments/** -text
 
