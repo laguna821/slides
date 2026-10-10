@@ -92,6 +92,12 @@ document.addEventListener('keydown', (e) => {
   }
 });
 const headings = body?.querySelectorAll<HTMLElement>('h1,h2,h3,h4,h5,h6') || [];
+document.querySelector('[data-copy-section]')?.addEventListener('click',()=>{
+  let current=headings[0]?.id;
+  for(const h of headings){if(h.getBoundingClientRect().top<=190)current=h.id;else break;}
+  const url=new URL(location.href);if(current)url.hash=current;
+  copy(url.href);
+});
 const toc = [
   ...document.querySelectorAll<HTMLAnchorElement>('.reader-toc nav a'),
 ];
@@ -110,7 +116,7 @@ headings.forEach((h) => {
   const a = document.createElement('a');
   a.href = '#' + h.id;
   a.className = 'heading-permalink';
-  a.textContent = '#';
+  a.textContent = '↗';
   a.setAttribute('aria-label', '문단 링크 복사');
   a.addEventListener('click', (e) => {
     e.preventDefault();

@@ -61,6 +61,7 @@ test('reader gate rejects a missing or incomplete per-page receipt', () => {
       toc: true,
       copyText: true,
       copyMarkdown: true,
+      copySection: true,
       download: true,
       imageZoom: true,
       graph: true,
@@ -68,7 +69,10 @@ test('reader gate rejects a missing or incomplete per-page receipt', () => {
       print: true,
     },
   ];
+  r.editorialViews=[320,1920].flatMap(width=>['light','dark'].map(theme=>({route,width,actualWidth:width,theme,overflow:false,columnWidth:width===1920?720:284})));
   validateReview(r, 'fixture', [route]);
+  assert.throws(()=>validateReview({...r,editorialViews:r.editorialViews.map((x:any)=>({...x,columnWidth:250}))},'fixture',[route]),/본문 폭/);
+  assert.throws(()=>validateReview({...r,readers:r.readers.map((x:any)=>({...x,copySection:false}))},'fixture',[route]),/문단 링크/);
   assert.throws(
     () => validateReview({ ...r, prints: [] }, 'fixture', [route]),
     /PDF 검토/,

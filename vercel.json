@@ -6,6 +6,14 @@
   "outputDirectory": "dist",
   "headers": [
     {
+      "source": "/talks/:slug/source.md",
+      "headers": [
+        {"key":"X-Robots-Tag","value":"noindex"},
+        {"key":"Content-Type","value":"text/plain; charset=utf-8"},
+        {"key":"Content-Disposition","value":"attachment"}
+      ]
+    },
+    {
       "source": "/reading/pdf/(.*)",
       "headers": [
         {

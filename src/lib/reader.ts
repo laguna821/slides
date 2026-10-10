@@ -5,7 +5,7 @@ import sanitizeHtml from 'sanitize-html';
 import { createHash } from 'node:crypto';
 import { workHref, type Work } from './schema';
 
-export const READER_VERSION = '1.0.0';
+export const READER_VERSION = '2.0.0';
 /** Embedded fonts must be subset to the figure; never duplicate a whole deck font. */
 export function validateReaderSvgFont(svg: string, original?: string) {
   const fonts = [...svg.matchAll(/data:font\/[^;,]+;base64,([^\s)'\"]+)/g)];
@@ -83,6 +83,7 @@ export function renderReader(
   aliases: Record<string, string[]> = {},
   wiki: Record<string, string> = {},
   sizes: Record<string, { width: number; height: number }> = {},
+  headingPrefix = '',
 ): ReaderDocument {
   const clean = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\s*\r?\n/, '');
   const $ = load(parser.parse(clean, { async: false }) as string, null, false);
@@ -123,6 +124,7 @@ export function renderReader(
       } else if (n.children) visit([...n.children]);
     });
   visit($.root().contents().toArray());
+  $('p').each((_,el)=>{if($(el).text().startsWith('출처 · '))$(el).addClass('editorial-source');});
   $('blockquote').each((_, el) => {
     const first = $(el).children('p').first();
     const m = first.html()?.match(/^\[!([\w-]+)\]([+-])?\s*/);
@@ -139,7 +141,7 @@ export function renderReader(
   $('h1,h2,h3,h4,h5,h6').each((_, el) => {
     const h = $(el),
       title = h.text().trim(),
-      base = 'h-' + sha(title).slice(0, 12),
+      base = headingPrefix + 'h-' + sha(title).slice(0, 12),
       n = (counts.get(base) || 0) + 1;
     counts.set(base, n);
     const key = n === 1 ? base : base + '-' + n,
@@ -192,6 +194,7 @@ export function renderReader(
       ],
       img: ['src', 'alt', 'title', 'loading', 'decoding', 'width', 'height'],
       span: ['class'],
+      p: ['class'],
       blockquote: ['class', 'data-callout'],
       section: ['class', 'data-footnotes'],
       code: ['class'],
@@ -201,6 +204,7 @@ export function renderReader(
     },
     allowedClasses: {
       span: ['reader-anchor', 'callout-label'],
+      p: ['editorial-source'],
       blockquote: ['reader-callout'],
       section: ['footnotes'],
       code: [/^language-/],
@@ -248,7 +252,7 @@ export function renderReader(
   return {
     version: READER_VERSION,
     html,
-    text: out.text(),
+    text: out.root().children().map((_,el)=>out(el).text().trim()).get().filter(Boolean).join('\n\n'),
     markdown: portable,
     headings,
     images: out('img')

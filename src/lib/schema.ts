@@ -44,7 +44,7 @@ export const workSchema = z
     body: z.string().default(''),
     htmlSource: z.string().optional(),
     markdownSource: z.string().optional(),
-    reader: z.object({version:z.literal('1.0.0'),source:z.string(),sourceVersion:z.string(),manifest:z.string()}).strict().optional(),
+    reader: z.object({version:z.literal('2.0.0'),source:z.string(),sourceVersion:z.string(),manifest:z.string(),editorialSource:z.string(),editorialManifest:z.string()}).strict().optional(),
     course: z
       .object({
         id: slug,

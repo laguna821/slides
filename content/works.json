@@ -44,10 +44,12 @@
     "featuredReason": "교수자의 질문을 실제 수업 운영안으로 연결한 발표.",
     "resourceIds": [],
     "reader": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "source": "content/reading/ai-reading-pilot.md",
       "sourceVersion": "2026-10-08",
-      "manifest": "content/reading/manifest.json"
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/ai-reading-pilot.md",
+      "editorialManifest": "content/editorial/ai-reading-pilot.json"
     }
   },
   {
@@ -422,10 +424,12 @@
     ],
     "provenance": "Local final v5 matched to author-owned Padlet PDF; AS016. Original HTML and PDF SHA256 pinned in content/legacy.json.",
     "reader": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "source": "content/reading/human-reading-writing-2026.md",
       "sourceVersion": "v5 · 2026-09-21",
-      "manifest": "content/reading/manifest.json"
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/human-reading-writing-2026.md",
+      "editorialManifest": "content/editorial/human-reading-writing-2026.json"
     }
   },
   {
@@ -482,10 +486,12 @@
     "resourceIds": [],
     "provenance": "Public author-owned deck matched to Human Vault and event notice; AS017. Original HTML and 30 image dependencies pinned in content/legacy.json; no engine migration.",
     "reader": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "source": "content/reading/media-colloquium-2026-06-10.md",
       "sourceVersion": "2026-06-10 · Dark Brutalist",
-      "manifest": "content/reading/manifest.json"
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/media-colloquium-2026-06-10.md",
+      "editorialManifest": "content/editorial/media-colloquium-2026-06-10.json"
     }
   },
   {
@@ -557,10 +563,12 @@
     ],
     "provenance": "docs/educational-harness-provenance.json",
     "reader": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "source": "content/reading/educational-harness-workshop-2026-07-06.md",
       "sourceVersion": "remake-v2 · 2026-10-10",
-      "manifest": "content/reading/manifest.json"
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/educational-harness-workshop-2026-07-06.md",
+      "editorialManifest": "content/editorial/educational-harness-workshop-2026-07-06.json"
     }
   }
 ]

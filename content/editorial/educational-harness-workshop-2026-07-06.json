@@ -1,0 +1,228 @@
+{
+  "version": "2.0.0",
+  "workId": "educational-harness-workshop-2026-07-06",
+  "status": "reviewed",
+  "sourceSha256": "98883f750f4d37ebaf319f6f0a55c4fbb55338b9a2cd60e83d4c12edba93c138",
+  "editorialSha256": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6",
+  "review": {
+    "reviewer": "Codex editorial review",
+    "date": "2026-10-10",
+    "claims": "원문 단위 대조: 주장·수치·인용·한계 유지. AI 1–4단위와 PKM 도해는 문장 편집, 나머지는 위계·중복·장식 정비.",
+    "images": "기존 이미지 전부 유지; PKM의 긴 alt 2건은 본문으로 이동",
+    "links": "내부 파일·fragment 검사 및 외부 HTTP 응답 별도 영수증"
+  },
+  "units": [
+    {
+      "id": "unit-1",
+      "sourceSha256": "f2bbe2e1bb78e015d52bef2b2dfc711a32f0414e1d69e872ca578bda5a7e5ea7",
+      "legacyIds": [
+        "h-5668ed5bd271",
+        "section-1"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "1425f8bb8ef8d02a56c7a7ef98d126ac88dbd6061183f17d6e7865df9ef2f391"
+    },
+    {
+      "id": "unit-2",
+      "sourceSha256": "63c203000540a80f742ca08be78505131d8cffb2a4942136dd3f9e53a612dc33",
+      "legacyIds": [
+        "h-eb47baf84601",
+        "section-2",
+        "h-515e5f8c9c38",
+        "section-3",
+        "h-401fefbae488",
+        "section-4",
+        "h-7d7499de1d78",
+        "section-5"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "f0262874690a832ab84af747e665aebd43ef3a24079f3cf82ee18ae6b999b383"
+    },
+    {
+      "id": "unit-3",
+      "sourceSha256": "f24e0082c58cd5df56ca8df7c972373871ab86a2a13d77fb1122f4b019912a49",
+      "legacyIds": [
+        "h-44e45770f32d",
+        "section-6"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "5f09fe49be3641a57c8ae7c1dd65231880dda691771db0c9c847ab864361aee2"
+    },
+    {
+      "id": "unit-4",
+      "sourceSha256": "8d2c23645e373c7a64b57bb4a6b673c304a48e5daba483848a4cfc536fc7a8ad",
+      "legacyIds": [
+        "h-6091b20426e9",
+        "section-7",
+        "h-4112688068ab",
+        "section-8",
+        "h-b73ab7699b38",
+        "section-9",
+        "h-f52b3e2661f5",
+        "section-10"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "225acdafcb6a0fd9aa515c8a6e305b2220c8a951cfe5744d8215d0796f387697"
+    },
+    {
+      "id": "unit-5",
+      "sourceSha256": "60019e1225c6c256685e2c8cff7822cd13e801d7df3707ed148c35d95adee0e6",
+      "legacyIds": [
+        "h-01405803e730",
+        "section-11",
+        "h-1b63ef1127ab",
+        "section-12",
+        "h-30a67dcadebc",
+        "section-13",
+        "h-c1faa60bda1e",
+        "section-14"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "b61e35e11f19b600c85f0fba8a0035a91fbd9acc7fd622ff4e80933237cfa59c"
+    },
+    {
+      "id": "unit-6",
+      "sourceSha256": "da820384ffee42b3e0fc157da6a33943dce81a264a6bd520254fac1f043740bc",
+      "legacyIds": [
+        "h-f6ad90ad71b4",
+        "section-15"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "64792af3e1ed2487cf048ecf86da81bca966a933f2f84d1b8b2759fa1c8ba8dc"
+    },
+    {
+      "id": "unit-7",
+      "sourceSha256": "f8089ed0e2e91df2fdfca0bcbcffa5e301310b7191cab1004a7b1122b4f531ad",
+      "legacyIds": [
+        "h-803dac477f6f",
+        "section-16"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "19e8a73aae1f9c07f717d385d4effe558edf3005f07a4e57d0e0c2f1e6eebb96"
+    },
+    {
+      "id": "unit-8",
+      "sourceSha256": "f5a029bb849627d1159c61510b49b65d49a22e1169abc092293eb8e70c9ddb8b",
+      "legacyIds": [
+        "h-721d37f2cb4f",
+        "section-17"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "9320ba994f84b8878ffab90d3f66f36833f08751cb2f71457b300923963536ea"
+    },
+    {
+      "id": "unit-9",
+      "sourceSha256": "43c3b541a0d075fc9cd3ffe4af12c9c0da36efddc11d477b5592518f20de9bb9",
+      "legacyIds": [
+        "h-a41a386c2119",
+        "section-18"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "2d175474ec474c9a1297a2c25f02bd113af7dd7f9052892a1469152827beb5db"
+    },
+    {
+      "id": "unit-10",
+      "sourceSha256": "415064490c5a919f2287c8aa18bd04844194c8f3a8cbe16daf0b563a5afea9a8",
+      "legacyIds": [
+        "h-2972eed94f51",
+        "section-19"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "78289f02cf1e904b8cb3e24bcf019210d6407da52d729947079eeb8457d4dc11"
+    },
+    {
+      "id": "unit-11",
+      "sourceSha256": "f435c011768024ca56abd0f2f314236e165b61b4e1e1de08d2b089b98ff45c28",
+      "legacyIds": [
+        "h-aae9e978499f",
+        "section-20",
+        "h-5a79d260d5cf",
+        "section-21",
+        "h-05fc1617773d",
+        "section-22",
+        "h-7f7aefeb199e",
+        "section-23",
+        "h-6645b99dd3be",
+        "section-24",
+        "h-98fbcfa89983",
+        "section-25",
+        "h-c10a520bb705",
+        "section-26",
+        "h-6e484ad4c2c5",
+        "section-27",
+        "h-1323a8933541",
+        "section-28"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "5bb71611e1f63e68e3effa22c3fc670bb0cfe00fd96c972756610959a856a061"
+    },
+    {
+      "id": "unit-12",
+      "sourceSha256": "ded598d2e4ec8c137e00e19f8ac061accbf848034226192598c2980d3fb8b6db",
+      "legacyIds": [
+        "h-5c8b0015908e",
+        "section-29",
+        "h-ca6cb85237d5",
+        "section-30",
+        "h-895e06133e0d",
+        "section-31",
+        "h-0d402db5399a",
+        "section-32",
+        "h-862ff086d326",
+        "section-33",
+        "h-9516e7666901",
+        "section-34",
+        "h-ff80fe9b40b4",
+        "h-0e4b88d24e4a",
+        "h-a33dc7fd7d5e"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "23e44a35d438b772f4cbc21bbf678083d81ed0fc933539debe3183f1bc8831b8"
+    },
+    {
+      "id": "unit-13",
+      "sourceSha256": "afdeeb850c63314b8e3271161cb4321cb280cf98c38a523803d8b4fef8298ee6",
+      "legacyIds": [
+        "h-a87174e4a1b4",
+        "section-35"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "58e12baa8842fe5498dc7d77db336703f3435cb511e601df069b9b13034efdcb"
+    },
+    {
+      "id": "unit-14",
+      "sourceSha256": "ffd003d54dbaf7c82fbe18dc803e5fba106326549e24b7bc909365fa9d0dc214",
+      "legacyIds": [
+        "h-6280b9dbf499",
+        "section-36"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "739f9985fa37ddceafae6071fe9ca4db5e8aff679713ad49a2f654179e118554"
+    },
+    {
+      "id": "unit-15",
+      "sourceSha256": "b30b05848c0e00449527c8f142fa51562c87daa5d0f875565082796613f60609",
+      "legacyIds": [
+        "h-b671543a1bff",
+        "section-37"
+      ],
+      "disposition": "edit",
+      "reason": "슬라이드 번호·반복 푸터를 제거하고 논지별 절 아래 재배치. 본문 주장·수치·인용·이미지는 보존.",
+      "editedSha256": "30794f8de634091436ac415d0e8637d97fdef9b11c688534af8475dbbaf2c012"
+    }
+  ]
+}

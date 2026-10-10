@@ -10,12 +10,14 @@ export function hashPrintInputs(files:Record<string,string>, metadata:unknown, e
 
 export async function printInputDigest(work: Work, root=process.cwd()) {
   const files: Record<string,string>={};
+  // The reviewed edition, not the archived slide transcript, drives every output.
   const add=async (f:string)=>{const bytes=await fs.readFile(path.join(root,f));files[f]=sha(/\.(ts|css|json|py|md)$/.test(f)||f.endsWith('/LICENSE')?bytes.toString('utf8').replaceAll('\r\n','\n'):bytes);};
   for(const f of ['package-lock.json','src/lib/reader.ts','content/print.json','scripts/print-browser.ts','scripts/print-profile.css','scripts/generate-reader-pdfs.ts','scripts/print-contract.ts','scripts/verify-print-pdf.py','public/fonts/PretendardVariable.woff2',work.reader!.source,work.reader!.manifest])await add(f);
   for(const f of await fs.readdir(path.join(root,'scripts/hanmark'),{recursive:true})){
     const rel='scripts/hanmark/'+f.replaceAll('\\','/');if((await fs.stat(path.join(root,rel))).isFile())await add(rel);
   }
   const manifest=JSON.parse(await fs.readFile(path.join(root,work.reader!.manifest),'utf8')).works[work.id];
+  for(const f of ['scripts/editorial.ts',work.reader!.editorialSource,work.reader!.editorialManifest])await add(f);
   for(const img of manifest.images)await add('public'+img.url);
   const pkg=JSON.parse(await fs.readFile(path.join(root,'package-lock.json'),'utf8'));
   const engines={playwright:pkg.packages['node_modules/playwright'].version,esbuild:pkg.packages['node_modules/esbuild'].version};

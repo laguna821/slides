@@ -1,4 +1,5 @@
 import {verifyExperiments} from './experiments';
+import { loadEditorial } from './editorial';
 import { verifyPrintArtifact } from './print-contract';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -86,6 +87,7 @@ for (const w of works.filter(isPublished)) {
     if(reader.sourceHash!==manifest.markdownSha256||manifest.missing!==0||!manifest.leafCount)throw Error('Reader needs renewed source coverage: '+w.id);
     if(reader.images.length!==manifest.images.length)throw Error('Reader image coverage mismatch: '+w.id);
     for(const img of manifest.images){if(!reader.images.includes(img.url))throw Error('Reader image missing');if(img.url.startsWith('/')){const bytes=await fs.readFile(safeFile('public'+img.url));if(sha(bytes)!==img.sha256)throw Error('Reader image bytes changed');if(img.url.endsWith('.svg'))validateReaderSvgFont(bytes.toString('utf8'),img.fontSubsetOf?await fs.readFile(safeFile('public'+img.fontSubsetOf),'utf8'):undefined);}}
+    reader=await loadEditorial(w);
     readingHtml=reader.html;
     body=w.body+' '+reader.text;
     const $= (await import('cheerio')).load(reader.html);
