@@ -12,6 +12,28 @@ test('reader gate rejects a missing or incomplete per-page receipt', () => {
   r.policyVersion = policy.version;
   r.digest = 'fixture';
   r.status = 'passed';
+  r.readerNavigation = [375, 768, 1440].flatMap((width) =>
+    ['light', 'dark'].map((theme) => ({
+      route,
+      width,
+      actualWidth: width,
+      theme,
+      themeSwitch: true,
+      themeSync: true,
+      themePersisted: true,
+      tocReachable: true,
+      keyboard: true,
+      scrollShift: 0,
+      positions: ['start', 'middle', 'end'].map((position) => ({
+        position,
+        controlsVisible: true,
+        sameRow: true,
+        noOverlap: true,
+        minTarget: 44,
+        toolbarTop: 0,
+      })),
+    })),
+  );
   r.prints = Object.entries(printManifest.works).map(([workId, p]) => ({
     workId,
     ...p,

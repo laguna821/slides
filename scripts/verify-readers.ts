@@ -11,10 +11,25 @@ export async function verifyReaders(root = 'dist') {
       html = await fs.readFile(root + w.href + 'read/index.html', 'utf8'),
       $ = load(html);
     assert.equal($('.reader-layout').attr('data-reader-version'), r.version);
-    assert(w.readingPdf,'Reading PDF required');
-    assert.equal($('[data-reader-print]').attr('href'),w.readingPdf.url);
-    assert.equal($('[data-download-pdf]').attr('href'),w.readingPdf.url);
-    assert((await fs.readFile(root+w.readingPdf.url)).subarray(0,5).equals(Buffer.from('%PDF-')));
+    assert.equal(
+      $('.reader-toolbar .theme-toggle').length,
+      1,
+      'Sticky reader theme control required',
+    );
+    assert.equal(
+      $('.reader-toc .theme-toggle').length,
+      1,
+      'TOC theme control required',
+    );
+    assert.equal($('.reader-toolbar [data-open-panel="reader-toc"]').length, 1);
+    assert(w.readingPdf, 'Reading PDF required');
+    assert.equal($('[data-reader-print]').attr('href'), w.readingPdf.url);
+    assert.equal($('[data-download-pdf]').attr('href'), w.readingPdf.url);
+    assert(
+      (await fs.readFile(root + w.readingPdf.url))
+        .subarray(0, 5)
+        .equals(Buffer.from('%PDF-')),
+    );
     assert.equal(
       $('#reader-body img').length,
       r.images.length,

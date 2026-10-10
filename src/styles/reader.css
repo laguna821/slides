@@ -12,6 +12,7 @@
 }
 .reader-toolbar > div {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 .reader-toolbar button {
@@ -22,6 +23,12 @@
   min-width: 44px;
   color: var(--ink);
   padding: 0 16px;
+}
+.reader-toolbar .theme-toggle {
+  padding: 0;
+}
+.reader-toolbar > a {
+  white-space: nowrap;
 }
 #reader-progress {
   appearance: none;
@@ -277,8 +284,24 @@
   color: var(--muted);
   font-size: 13px;
 }
-.reader-panel-title button {
+.reader-panel-title [data-close-panel] {
   display: none;
+}
+.reader-panel-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.reader-toc .reader-panel-title {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+  padding-bottom: 12px;
+  margin-bottom: 6px;
+}
+.reader-toc.panel-open .reader-panel-title {
+  background: var(--surface);
 }
 .reader-toc ol {
   list-style: none;
@@ -417,7 +440,7 @@
   overflow: auto;
   box-shadow: 0 16px 64px #0003;
 }
-.panel-open .reader-panel-title button {
+.panel-open .reader-panel-title [data-close-panel] {
   display: block;
   border: 0;
   background: var(--soft);

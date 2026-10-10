@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ThemeToggle from '../../../components/ThemeToggle.astro';
 import { works, formatDate } from '../../../lib/content';
 import '../../../styles/reader.css';
 export function getStaticPaths() {
@@ -24,7 +25,7 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
   noindex={work.seo === 'noindex' || work.visibility !== 'listed'}
   active="archive"
 >
-  <div class="reader-toolbar">
+  <div class="reader-toolbar" role="region" aria-label="읽기 탐색과 화면 설정">
     <a href={work.href}>← 발표 소개</a>
     <div>
       <button
@@ -34,6 +35,7 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
       >
         목차
       </button>
+      <ThemeToggle />
       <button
         data-open-panel="reader-tools"
         aria-controls="reader-tools"
@@ -65,7 +67,16 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
         <div class="reader-source-links">
           {source && <a href={source.url}>발표 열기 ↗</a>}
           {pdf && <a href={pdf.url}>발표 PDF ↗</a>}
-          {work.readingPdf && <a data-reading-pdf href={work.readingPdf.url} target="_blank" rel="noopener">읽기용 PDF ↗</a>}
+          {work.readingPdf && (
+            <a
+              data-reading-pdf
+              href={work.readingPdf.url}
+              target="_blank"
+              rel="noopener"
+            >
+              읽기용 PDF ↗
+            </a>
+          )}
           <a href={md} download={work.slug + '.md'}>
             Markdown 저장 ↓
           </a>
@@ -89,9 +100,12 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
     >
       <div class="reader-panel-title">
         <strong>이 글의 흐름</strong>
-        <button data-close-panel aria-label="목차 닫기">
-          ×
-        </button>
+        <div class="reader-panel-controls">
+          <ThemeToggle />
+          <button data-close-panel aria-label="목차 닫기">
+            ×
+          </button>
+        </div>
       </div>
       <nav aria-label="본문 목차">
         <ol>
@@ -125,11 +139,26 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
         <a href={md} download={work.slug + '.md'}>
           Markdown 저장 ↓
         </a>
-        {work.readingPdf && <>
-          <a data-reader-print href={work.readingPdf.url} target="_blank" rel="noopener">읽기용 PDF ↗</a>
-          <a data-download-pdf href={work.readingPdf.url} download={work.slug+'-reading.pdf'}>PDF 저장 ↓</a>
-          <small>A4 · 2단 편집 · {work.readingPdf.pages}쪽</small>
-        </>}
+        {work.readingPdf && (
+          <>
+            <a
+              data-reader-print
+              href={work.readingPdf.url}
+              target="_blank"
+              rel="noopener"
+            >
+              읽기용 PDF ↗
+            </a>
+            <a
+              data-download-pdf
+              href={work.readingPdf.url}
+              download={work.slug + '-reading.pdf'}
+            >
+              PDF 저장 ↓
+            </a>
+            <small>A4 · 2단 편집 · {work.readingPdf.pages}쪽</small>
+          </>
+        )}
       </div>
       <details class="reader-connections" open>
         <summary>

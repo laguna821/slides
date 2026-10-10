@@ -1,7 +1,7 @@
 {
-  "policyVersion": "3.1.0",
+  "policyVersion": "3.2.0",
   "status": "passed",
-  "environment": "Windows Edge CUA; Astro preview4322; 35 routes / 210 measured views at CSS375/768/1440 and light/dark. PDF rendering: pinned local headless Chromium; actual PDF verification: PyMuPDF. Native PDF viewer automation blocked by Edge extension UI.",
+  "environment": "Windows Edge CUA, Astro preview4322. Reader event timing on local4323 adds read-only measurement only. 35 routes / 210 fresh viewport views; 4 readers /24 navigation cases /72 scroll samples. Additional320px, short landscape, CSS zoom2 fixture; no native zoom certification.",
   "views": [
     {
       "route": "/",
@@ -9,7 +9,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -19,47 +19,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -69,7 +29,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -79,47 +39,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -129,7 +49,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -139,47 +59,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/about/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/about/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/about/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/about/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -189,7 +69,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -199,47 +79,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -249,7 +89,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -259,47 +99,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/brand/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/brand/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/brand/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/brand/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -309,7 +109,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -319,47 +119,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/courses/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/courses/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/courses/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/courses/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -368,8 +128,8 @@
       "width": 375,
       "theme": "light",
       "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 374,
+      "actualTheme": "dark",
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -379,47 +139,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -428,8 +148,8 @@
       "width": 375,
       "theme": "light",
       "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 374,
+      "actualTheme": "dark",
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -439,47 +159,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -489,7 +169,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -499,47 +179,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -549,7 +189,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -559,47 +199,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -609,7 +209,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -619,47 +219,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/book/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -669,7 +229,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -679,47 +239,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -729,7 +249,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -739,47 +259,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/city/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -789,7 +269,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -799,47 +279,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -849,7 +289,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -859,47 +299,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/flight/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -909,7 +309,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -919,47 +319,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -969,7 +329,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -979,47 +339,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1029,7 +349,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1039,47 +359,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1089,7 +369,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1099,47 +379,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/meal/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1149,7 +389,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1159,47 +399,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1209,7 +409,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1219,47 +419,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/pedal/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1269,7 +429,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1279,47 +439,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1329,7 +449,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1339,47 +459,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/racing/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1389,7 +469,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1399,47 +479,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1449,7 +489,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1459,47 +499,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/motion/water/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1509,7 +509,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1519,47 +519,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/posters/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/posters/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/posters/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/posters/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1569,7 +529,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1579,47 +539,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1629,7 +549,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1639,47 +559,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1689,7 +569,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1699,47 +579,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1749,7 +589,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1759,47 +599,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1809,7 +609,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1819,47 +619,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1869,7 +629,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1879,47 +639,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1929,7 +649,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1939,47 +659,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1989,7 +669,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -1999,47 +679,7 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 767,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -2049,7 +689,7 @@
       "theme": "light",
       "actualHeight": 812,
       "actualTheme": "light",
-      "actualWidth": 374,
+      "actualWidth": 376,
       "brokenImages": [],
       "overflow": false
     },
@@ -2059,7 +699,687 @@
       "theme": "dark",
       "actualHeight": 812,
       "actualTheme": "dark",
-      "actualWidth": 374,
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/brand/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/brand/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/courses/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/courses/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/posters/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
       "brokenImages": [],
       "overflow": false
     },
@@ -2069,7 +1389,7 @@
       "theme": "light",
       "actualHeight": 1023,
       "actualTheme": "light",
-      "actualWidth": 767,
+      "actualWidth": 768,
       "brokenImages": [],
       "overflow": false
     },
@@ -2079,7 +1399,687 @@
       "theme": "dark",
       "actualHeight": 1023,
       "actualTheme": "dark",
-      "actualWidth": 767,
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/brand/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/brand/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/courses/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/courses/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/book/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/city/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/flight/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/grandeur/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/meal/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/pedal/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/racing/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/motion/water/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/posters/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
       "brokenImages": [],
       "overflow": false
     },
@@ -2227,11 +2227,11 @@
     "Poster geometry retained from prior actual browser review of byte-identical assets; git diff against da94e30 confirms experiments/resources/posted assets unchanged. Site views and functional checks are fresh.",
     "PDF native authoring projection changes only21image wrapper;38pages/11actualimages/text matched"
   ],
-  "digest": "64feee3cea5b0c19ee54abf1eb7dedcf02dd14230ba081ba0c0ab25bef373846",
+  "digest": "dfc9965a1b3b91480623f23a4d9310f1483591d4e6a4048c080490255df54be8",
   "sourceFiles": {
     ".gitattributes": "cd231e6cf22100921c764fe8edda8e48b1f0ed9e6ded70d090304a237eb9818b",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
-    "AGENTS.md": "0b9c017b362d3b3c8d5d477e7c89d5a979d6eb0a733fe4cb78a44ff760baa69b",
+    "AGENTS.md": "7614b9e0bc8d5c013e219949b87125d3d337a0e7710d0bf583e576bb297bfa7f",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
@@ -2248,17 +2248,18 @@
     "content/reading/media-colloquium-2026-06-10.md": "1558c045f1756352f9f7ac269d66e24fa4853c07922d7aa6bbc508419e0ff5de",
     "content/reading/media-colloquium-2026-06-10.previous.md": "e90aed8961a7744293fe26d8099abc343e96a4d142c485f5a96ce234cbb504a0",
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
-    "content/site-policy.json": "025a8792732d3180079d6fdf6d850a8628ced62c1c896ae5b864377a77957341",
+    "content/site-policy.json": "ee17f7a25ecf6c7938e2b1943134555548b2e7dcd4efacf313540085adc90147",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "content/works.json": "45eb99bfeea5b4b1f04afb671a025431a92ebb4163ab82568a9c0d9346720738",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
+    "docs/AS021-READER-NAVIGATION.md": "cd5ef298363346ac560dcd6352f8a09a123753ccf0ed6c58922180e90bdb1c49",
     "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
     "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
     "docs/EDUCATIONAL-HARNESS-REGISTRATION.md": "04c0190ab0b0ea59a7b2ae24ce734e96c3c0cfe8ee30fe668433d9743591450b",
     "docs/MEDIA-COLLOQUIUM-REGISTRATION.md": "23e76e10587b94532f9ce9eef52500a1ff9f8b92eb477e990e5d53ba24e615a3",
-    "docs/OPERATIONS.md": "a9be77c0617cc3a393c413c7b019346aaafbb5f46d73f02c582bd3ee12c8fd64",
+    "docs/OPERATIONS.md": "400a111e99e928058855d435f74d414a44c098eb37399698cb168da4972ea196",
     "docs/PKM-REGISTRATION.md": "07aca0b08911c8470e81c0065b406dee0c24516bbc6aa16096308d04735e5a41",
     "docs/POLICY2-VALIDATION.md": "989078a8019af1975d58a3d74ae285d00cd88e81925ed889c014e4efc7460990",
     "docs/POSTER-COMPLETE-V2-VALIDATION.md": "ab7455068ae50ae321552c81a29226ee4b56407664f3e9134bdb39c598980754",
@@ -2271,9 +2272,9 @@
     "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
     "docs/POSTER-SERIES.md": "a1ff674fca6c5afd5487facdc2e22ce3e10d691d6f21d12a63c55ce6875e94dd",
     "docs/PRINT-CONTRACT.md": "2a6e83c6132387c9d549526ce53dd9b02925662b5454a43fbba24dd3b96d5761",
-    "docs/READER-CONTRACT.md": "a86ec75870edd4692fbb3661342f308cb12f465803db072aeb87165922461b1f",
+    "docs/READER-CONTRACT.md": "7520c0ecd076b7ba8221de66a96ab03190e52e0d989686c605d249355befd4fb",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
-    "docs/SITE-CONTRACT.md": "680c1aca715fe474199ab33923f0f3d32c00fc1ada7ea909b32cb74b3685c885",
+    "docs/SITE-CONTRACT.md": "6061a603ba0324a6ff632005974eca1e6d5968346f8e17757db3fc0b9854fd12",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
     "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
@@ -2487,19 +2488,20 @@
     "scripts/print-browser.ts": "a92f0c53f5a987d699dccbf3ba6aa190b8bf4954cd8b605e270e47e8986f4a6d",
     "scripts/print-contract.ts": "b736db0e184d3ebe75c13133d474a64512d457ab65cbc15b586714e021c08437",
     "scripts/print-profile.css": "2f1b2e5290d4d909cbe5256041c86bd77c93a10f296eaa08b8b63ab1ffc1fc11",
-    "scripts/release-gate.ts": "e927521322a42b138ef76838fc0c16402df8c9d1bc5a4ac504d5a09e4b83fc81",
+    "scripts/release-gate.ts": "b49499a2501786243828a30a9e3537b47c0834ac239fb936ce2273ce0e2366ce",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/subset-reader-svg-font.py": "0840f9c080192497a4000bdee0a2dca06d0763cee8d205e24768e82afe35bee8",
     "scripts/vendor.d.ts": "e16d6233e10d55ed14326eb30be9534e36ad5ec2d58993fbcd78e13660ae7675",
     "scripts/verify-build.ts": "4807c5018675141050cfeee7c8c208ca60110775c5e6588535e99b9c674c50e8",
     "scripts/verify-print-pdf.py": "b97149a5629e318cf3d3395f58e0af61dba48be6b6fc1d9029d72807841b005b",
-    "scripts/verify-readers.ts": "eca351e89b1cb1a7aeb7b22fd123addfd81d953e5eb11bb4e53a97d529d4baac",
+    "scripts/verify-readers.ts": "08f8a40022957f7c0b879381c5935924b5e790be773edfb62306118220debf41",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
     "src/components/Logo.astro": "033a48ccab2f90602cd9089c2045cb01752f31c1bfb9326c65da6590422622d1",
     "src/components/ProjectResources.astro": "d7fd271bb53b98ccdd1a09b24a7998a95340bae53c96894892a3eb4b9b148123",
+    "src/components/ThemeToggle.astro": "d709321e908a320ceb8acadce07dd4df1cd12939b706dd71718ca092669195a4",
     "src/components/WorkActions.astro": "eb418907c7e8512289479b8586ef7fb3e41c35baae9c4ec4d673a8d5a52151ca",
     "src/components/WorkCard.astro": "9b455c879de72a15782fe86db7c1a6980fd33ae6a21a9b2889c160a887e6145f",
-    "src/layouts/Base.astro": "97f44cece7856e04f2375fb0ef06a59bba53f17e9e8c45a7e3091bbc8d1d5887",
+    "src/layouts/Base.astro": "833a940edf6b8d4e74c254f92d4ab7df506483196a4986a36e0906822db5ca6f",
     "src/lib/brand-wordmark.json": "b620e2c21fb1a7c9e08770955f07505b4581653af20de9bc4233e7e413de0f68",
     "src/lib/brand.ts": "cbbc9bc114f730fb711ae27f227b19402fa6ddd5a2123590f0c358c2660c96c6",
     "src/lib/captions.ts": "9e2d5346f44ba52547d28907abb417548e506ff8532cffb362dadf6217fb9a7a",
@@ -2524,16 +2526,16 @@
     "src/pages/posters/index.astro": "ca370817c09c1ebf52bb88afa43803388f3e8a5bbdebddf32d1ceef4590b16a8",
     "src/pages/sitemap.xml.ts": "8616da4029a1d7fc1619b0c4ed398978a1f92cd68c33b9c4566f1da19f3bc5f7",
     "src/pages/talks/[slug]/index.astro": "ae4be63e75b4d0a2fa6314927e8465c5a2bb5798a2ab4fafc5fd119efe0f2f39",
-    "src/pages/talks/[slug]/read.astro": "03baf5ed683e712ad42d46a2192a7935dc99105a25d4af0c7c2dca0bc085dccd",
+    "src/pages/talks/[slug]/read.astro": "182895c1421ccb27000d8414892e3465a379dd2824dd95f5ec954216a3d6314f",
     "src/pages/talks/[slug]/read.md.ts": "a2c4bf8680611caf8aec26da06bb8f2f32ead7a2c2036f37300e648cc94a3e62",
     "src/pages/talks/[slug]/read.txt.ts": "f8407c5a941a2b6039a126c779d69143a305a4614694604385f0dce73893fec1",
     "src/pages/videos.astro": "02f8dcbaa37599160eda841b22035dde8d09f4f15ab7c89931294fe958fd7aa7",
     "src/scripts/archive.ts": "e79aee65c3647f576f69211245dde026009ebdc07ec1e0d7a8a1eac0c614ad5c",
     "src/scripts/film.ts": "d1b1486976cd1538de7dc84cd094343ecc2e4258e06587843a067c587bcee1ad",
     "src/scripts/reader.ts": "c17523454c9bbb9eb91f02a91f0b5e329edf406354e728e1ad5f2a027f010057",
-    "src/scripts/site.ts": "5cd2be0d94b8e3947a65d88ecdd6ac17740c3f8df2110c9a4d04e29522919473",
+    "src/scripts/site.ts": "f725b6a8716756676810b7c1200a74e6902baaf8a38a3feba90d65cbdd86ec1e",
     "src/styles/global.css": "f4d4ed842ae95a77a5e9e009bd7978876049451576882bd598c7f5e4c12c851b",
-    "src/styles/reader.css": "6482c5882d04d69f92978357220fcba14b95f8f9d074a8cbe76c41e3062acf97",
+    "src/styles/reader.css": "f846174e04b0fb3bf484430ed27d2a4831342a4c20668cc4775f85ff01bc9d8b",
     "src/vendor/home-search.ts": "400cebce8e60936460aee9cc5d6841a2665bf625f5fc82c223388a06c3439425",
     "src/vendor/types.ts": "5b203a6d5b57a8a4cb9998141b6afd8beec01c4f718124980180aa9695b00c74",
     "tests/as-regression.test.ts": "39806f7e41ca3c795c83144596def7f95996c54c1cf00fe6c122830d8e98ed09",
@@ -2541,13 +2543,14 @@
     "tests/experiments.test.ts": "64d97044e9385a18cdfe4d96f7863b8c78316b13d5c87445e2e2251775c542ad",
     "tests/governance.test.ts": "3b3af0f8971824e8b2527912e1285eb46c5a246e5fa9dbf39bb9f2d5eaf130f4",
     "tests/print.test.ts": "311ae0f9a872477dc7f4a72e021a4f91a0fdb5f7f34c7af18fcfd89e906ab6e1",
-    "tests/reader-gate.test.ts": "7e6e2d78f23705e16bb515dc203ed47b709f53f7fbda1d17959d45e6e68f0e7b",
+    "tests/reader-gate.test.ts": "e046a83dafc6ab48df87430f24bd0599c05a6f08d03152f1cfb01f1755edb9ef",
+    "tests/reader-navigation.test.ts": "66357c58a0f7928ad2807d36483cbe822d6829d9fef583e1f00e8131624c86e2",
     "tests/reader.test.ts": "e94f04ea052f4ab22da4bb2839c08fc96f4d38c27c9ba888a388e26665612c83",
     "tests/sharing.test.ts": "f30c029ff2d25f985b2d50256b70919ba9e4059fc27f9a9adcd95b21973bd5b6",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "f572c14d13868332d7d2f1094608b830d5de9180412a5e65f418c1e0ab52762e"
   },
-  "reviewedAt": "2026-10-10T06:03:17.188Z",
+  "reviewedAt": "2026-10-10T10:03:09.374Z",
   "readers": [
     {
       "route": "/talks/ai-reading-pilot/read/",
@@ -2556,10 +2559,13 @@
       "copyMarkdown": true,
       "download": true,
       "graph": true,
+      "imageZoom": true,
+      "imageCount": 0,
       "toc": true,
       "anchors": true,
-      "imageZoom": true,
-      "print": true
+      "print": true,
+      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
+      "printLink": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf"
     },
     {
       "route": "/talks/human-reading-writing-2026/read/",
@@ -2568,10 +2574,13 @@
       "copyMarkdown": true,
       "download": true,
       "graph": true,
+      "imageZoom": true,
+      "imageCount": 15,
       "toc": true,
       "anchors": true,
-      "imageZoom": true,
-      "print": true
+      "print": true,
+      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
+      "printLink": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf"
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/read/",
@@ -2580,10 +2589,13 @@
       "copyMarkdown": true,
       "download": true,
       "graph": true,
+      "imageZoom": true,
+      "imageCount": 25,
       "toc": true,
       "anchors": true,
-      "imageZoom": true,
-      "print": true
+      "print": true,
+      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
+      "printLink": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf"
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
@@ -2592,10 +2604,13 @@
       "copyMarkdown": true,
       "download": true,
       "graph": true,
+      "imageZoom": true,
+      "imageCount": 11,
       "toc": true,
       "anchors": true,
-      "imageZoom": true,
-      "print": true
+      "print": true,
+      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
+      "printLink": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf"
     }
   ],
   "readerExtra": {
@@ -2850,5 +2865,1278 @@
     "physicalPrinter": "unverified",
     "pdfUa": "not-certified"
   },
-  "reusedEvidence": "Poster geometry and unchanged search/poster/keyboard behavior from AS019; unchanged assets. Views, reader interactions, PDF downloads and rendered-page review freshly checked for AS020."
+  "reusedEvidence": "AS020 exact unchanged PDFs, print inputs, source assets, PDF downloads and rendered-page review; AS019 unchanged poster geometry/search/poster behavior and copy-failure fallback. AS021 freshly checked all210views, all4reader navigation/copy/MD download/graph/image interactions. Native PDF viewer limitations in print receipts remain unchanged.",
+  "readerNavigation": [
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 9053.9384765625,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 17767.271484375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 9053.9384765625,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 17767.271484375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 8567.8779296875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 16774.544921875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 8567.8779296875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 16774.544921875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 8571.5146484375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 16921.81640625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 8571.5146484375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 16921.81640625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 5287.87841796875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11190.908203125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 5287.87841796875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11190.908203125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 5890.302734375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 12192.1201171875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 5890.302734375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 12192.1201171875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6115.1513671875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 12646.0595703125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6115.1513671875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 12646.0595703125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 19350.302734375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 37167.26953125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 19350.302734375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 37167.26953125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 22029.08984375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 41661.81640625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 22029.08984375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 41661.81640625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 22467.271484375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 42616.96875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 22467.271484375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 42616.96875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 12792.1201171875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 34879.390625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 12792.1201171875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 34879.390625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 10358.181640625,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 27296.96875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 10358.181640625,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 27296.96875,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 10183.6357421875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 26910.908203125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440,
+      "actualWidth": 1440,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter toggles",
+        "Shift+Tab scrolls TOC",
+        "Escape restores focus"
+      ],
+      "scrollShift": 0,
+      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 10183.6357421875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 26910.908203125,
+          "toolbarTop": 0
+        }
+      ]
+    }
+  ],
+  "readerNavigationExtra": [
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 320,
+      "height": 640,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 9531.5146484375,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 320,
+      "height": 640,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 5382.423828125,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 320,
+      "height": 640,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 19739.392578125,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 320,
+      "height": 640,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 14696.3623046875,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "height": 375,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 8567.8779296875,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "height": 375,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 5890.302734375,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "height": 375,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 22029.08984375,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "height": 375,
+      "controlsVisible": true,
+      "minTarget": 44,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 10358.181640625,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "method": "CSS zoom 2, not native browser zoom",
+      "controlsVisible": true,
+      "minTarget": 88,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 4680.60595703125,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "method": "CSS zoom 2, not native browser zoom",
+      "controlsVisible": true,
+      "minTarget": 88,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 3136.363525390625,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "method": "CSS zoom 2, not native browser zoom",
+      "controlsVisible": true,
+      "minTarget": 88,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 3876.969482421875,
+      "toolbarTop": 0
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "method": "CSS zoom 2, not native browser zoom",
+      "controlsVisible": true,
+      "minTarget": 88,
+      "noOverlap": true,
+      "position": "middle",
+      "sameRow": true,
+      "scrollY": 3449.0908203125,
+      "toolbarTop": 0
+    }
+  ],
+  "researchRef": "research:rr-944b523b5679c6a1f847574b6e5d7534:f68646dbcd1c116d0e8e063a96fa78428d0df84b3bf327b126c5b5a2d1f9730f"
 }
