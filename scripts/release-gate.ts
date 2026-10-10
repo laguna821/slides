@@ -243,6 +243,7 @@ export function validateReview(
       ].every((k) => result[k] === true)
     )
       throw Error('읽기 기능 검토 누락: ' + route);
+    validateReaderNavigation(review.readerNavigation, route);
   }
   for (const [workId, proof] of Object.entries(printManifest.works)) {
     const rows = review.prints?.filter((p: any) => p.workId === workId) || [];
@@ -268,6 +269,52 @@ export function validateReview(
     )
       throw Error('읽기 PDF 검토 누락: ' + workId);
   }
+}
+export function validateReaderNavigation(rows: any, route: string) {
+  for (const width of [375, 768, 1440])
+    for (const theme of ['light', 'dark']) {
+      const matches =
+        rows?.filter(
+          (r: any) =>
+            r.route === route && r.width === width && r.theme === theme,
+        ) || [];
+      const r = matches[0];
+      if (
+        matches.length !== 1 ||
+        !Number.isFinite(r.actualWidth) ||
+        Math.abs(r.actualWidth - width) > 1 ||
+        ![
+          'themeSwitch',
+          'themeSync',
+          'themePersisted',
+          'tocReachable',
+          'keyboard',
+        ].every((k) => r[k] === true) ||
+        !Number.isFinite(r.scrollShift) ||
+        Math.abs(r.scrollShift) > 1
+      )
+        throw Error(
+          '읽기 고정 탐색 검토 누락: ' + route + '/' + width + '/' + theme,
+        );
+      for (const position of ['start', 'middle', 'end']) {
+        const samples =
+          r.positions?.filter((p: any) => p.position === position) || [];
+        const p = samples[0];
+        if (
+          samples.length !== 1 ||
+          p.controlsVisible !== true ||
+          p.sameRow !== true ||
+          p.noOverlap !== true ||
+          p.minTarget < 44 ||
+          !Number.isFinite(p.minTarget) ||
+          !Number.isFinite(p.toolbarTop) ||
+          (position !== 'start' && Math.abs(p.toolbarTop) > 1)
+        )
+          throw Error(
+            '읽기 스크롤 도구줄 검토 실패: ' + route + '/' + position,
+          );
+      }
+    }
 }
 if (process.argv[1]?.replaceAll('\\', '/').endsWith('/release-gate.ts')) {
   const digest = await releaseDigest();

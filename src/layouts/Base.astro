@@ -1,6 +1,7 @@
 ---
 import { policy } from '../lib/policy';
 import Logo from '../components/Logo.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
 import '../styles/global.css';
 interface Props {
   title?: string;
@@ -62,26 +63,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     </a>
     <header class="site-header">
       <Logo />
-      <nav aria-label="주 메뉴">{policy.navigation.map(item=><a href={item.href} aria-current={active===item.active?'page':undefined}>{item.label}</a>)}</nav>
-      <button
-        class="theme-toggle"
-        type="button"
-        aria-label="어두운 화면으로 전환"
-        title="화면 테마 전환"
-      >
-        <svg
-          viewBox="0 0 24 24"
-          width="20"
-          height="20"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          aria-hidden="true"
-        >
-          <circle cx="12" cy="12" r="7" />
-          <path d="M12 5v14" stroke-width="7" />
-        </svg>
-      </button>
+      <nav aria-label="주 메뉴">
+        {policy.navigation.map((item) => (
+          <a
+            href={item.href}
+            aria-current={active === item.active ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
+      <ThemeToggle />
     </header>
     <main id="main">
       <slot />
