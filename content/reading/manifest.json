@@ -207,7 +207,7 @@
     "human-reading-writing-2026": {
       "source": "public/decks/human-reading-writing-2026/index.html",
       "sourceSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1",
-      "markdownSha256": "3b047a02a8538b91696f8167599bbb1b749ed4ed44e1d76f6c8f01387b3d461a",
+      "markdownSha256": "1e6ef6fa2ae156a80fd45725cb0e471429e52788a717fb501b3425e0875f2535",
       "units": [
         {
           "id": "slide-1",
@@ -330,10 +330,11 @@
         },
         {
           "source": "slide-3-svg",
-          "url": "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg",
-          "sha256": "20d3244abe06299ff6c27a651e00aa89e80e96401012fa4ce19e31e1924d9538",
+          "url": "/reading/human-reading-writing-2026/assets/72cf867b02681779012f.svg",
+          "sha256": "72cf867b02681779012f6ba9d37e54138a07d8d6b73f9a97218fcc4cf475d97d",
           "width": 1700,
-          "height": 620
+          "height": 620,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg"
         },
         {
           "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAIAAABnsVYUAAAQAElEQVR4nOzdBXhT59vH8dOWursLLa",
@@ -351,80 +352,91 @@
         },
         {
           "source": "slide-6-svg",
-          "url": "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg",
-          "sha256": "2ea109ae3280705cbac98969f3d6308c29e0211d7931f1b3b58db1bf88dd100d",
+          "url": "/reading/human-reading-writing-2026/assets/297b671fde404a35b1c7.svg",
+          "sha256": "297b671fde404a35b1c73255389e1929e8c99dc8376743bdd31d90e1931829a3",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg"
         },
         {
           "source": "slide-7-svg",
-          "url": "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg",
-          "sha256": "54e076ea411817f9c47b6f11b7fedf1b151437180458505fa7892781a9e22077",
+          "url": "/reading/human-reading-writing-2026/assets/7c224d4b44630307ff2f.svg",
+          "sha256": "7c224d4b44630307ff2f0fdef0f7b1a935b7581c16fa4e20584285326e576782",
           "width": 1700,
-          "height": 620
+          "height": 620,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg"
         },
         {
           "source": "slide-8-svg",
-          "url": "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg",
-          "sha256": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
+          "url": "/reading/human-reading-writing-2026/assets/c8493cdced96c92571fa.svg",
+          "sha256": "c8493cdced96c92571fa93f5741e4a7250cff607158c5e72a42c6afa61fa9d39",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg"
         },
         {
           "source": "slide-9-svg",
-          "url": "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg",
-          "sha256": "65af30903b49634abf0b7aed7782809cbb38a063ac21cbc766ff1cd42fd4acf7",
+          "url": "/reading/human-reading-writing-2026/assets/876565d18e5e569c7cb2.svg",
+          "sha256": "876565d18e5e569c7cb22be4a49a46b2a0ce8c9fbcf7945db8ab329be3604702",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg"
         },
         {
           "source": "slide-10-svg",
-          "url": "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg",
-          "sha256": "7806bea460c8551c2cd26607d2cc999d80d8a09d9655d0057b943ec85856e459",
+          "url": "/reading/human-reading-writing-2026/assets/d2a6c03568ec91d6a7c8.svg",
+          "sha256": "d2a6c03568ec91d6a7c8cde3a833925cda015aa83f61e3c79d9b52a0110d9c98",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg"
         },
         {
           "source": "slide-11-svg",
-          "url": "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg",
-          "sha256": "5cb2c73ce9ec91f420dc16a8153c3fda69d598c3ea70af8beac5dd7276e8559f",
+          "url": "/reading/human-reading-writing-2026/assets/bd5d2f4ec0560c94675c.svg",
+          "sha256": "bd5d2f4ec0560c94675cffd07a25b35f6be6b06e786e79d28f701021474b771b",
           "width": 1700,
-          "height": 620
+          "height": 620,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg"
         },
         {
           "source": "slide-12-svg",
-          "url": "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg",
-          "sha256": "2b3fb2e8bade2dd8a1600005ec81173ec0106bc66188901ebcb8f1eef1514223",
+          "url": "/reading/human-reading-writing-2026/assets/c1957de2b34091c18aad.svg",
+          "sha256": "c1957de2b34091c18aad036dad827cb505049d71521ccb180bb9864fb5d4a751",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg"
         },
         {
           "source": "slide-13-svg",
-          "url": "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg",
-          "sha256": "d2fdd9dd7eb7ac3e27622081bd78c31ddb5616ed3d68ca13eef7c0f4269f8aae",
+          "url": "/reading/human-reading-writing-2026/assets/b839cab819a26592fd0b.svg",
+          "sha256": "b839cab819a26592fd0b05dc095bf16ce1cb2bc293f124cbcf31d85afa10a897",
           "width": 1700,
-          "height": 620
+          "height": 620,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg"
         },
         {
           "source": "slide-15-svg",
-          "url": "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg",
-          "sha256": "df62ceb3cd8a2cb6850de0fa0770fdd8e794d9f82fea5f4090c94ea5dd41e93a",
+          "url": "/reading/human-reading-writing-2026/assets/1150a3912fbff40f2ce0.svg",
+          "sha256": "1150a3912fbff40f2ce081f009e1890054923b72dbda06ac4ce248d222c48b09",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg"
         },
         {
           "source": "slide-16-svg",
-          "url": "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg",
-          "sha256": "98f4f370299a61fb3762a3fbe32c27dd712eac9437f7741ae6eee0108b274784",
+          "url": "/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg",
+          "sha256": "e26c852e1273d80a8935392437dc59171c4a72cfeeeb86a6d3ddf02045a5c928",
           "width": 1700,
-          "height": 700
+          "height": 700,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg"
         },
         {
           "source": "slide-17-svg",
-          "url": "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg",
-          "sha256": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
+          "url": "/reading/human-reading-writing-2026/assets/aa7fdfa1859b3bf30c08.svg",
+          "sha256": "aa7fdfa1859b3bf30c08e1fa48209a71e218f4f03d18ef8d7902b6707cae53ec",
           "width": 1700,
-          "height": 620
+          "height": 620,
+          "fontSubsetOf": "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg"
         }
       ],
       "aliases": {
