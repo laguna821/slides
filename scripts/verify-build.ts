@@ -1,4 +1,5 @@
 import {verifyExperiments} from './experiments';
+import {verifyReaders} from './verify-readers';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
@@ -92,3 +93,4 @@ console.log(
 );
 
 await verifyExperiments(process.cwd(),'dist');
+await verifyReaders();

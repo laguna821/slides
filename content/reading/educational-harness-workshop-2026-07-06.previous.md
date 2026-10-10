@@ -1,3 +1,7 @@
+이 글은 **2026년 7월 6일 원고의 본문**입니다. 문구·숫자·인용·오탈자는 당시 원문을 보존했습니다. 화면 구성은 2026년 10월에 다시 편집했습니다.
+
+[스크린샷과 함께 전체 원문 펼쳐 읽기](/decks/educational-harness-workshop-2026-07-06/v1/index.html?viewMode=read) · [슬라이드 PDF 보기](/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf)
+
 
 ## 📝 Key Trigger (1–3 lines)
 > [!NOTE]
@@ -12,7 +16,7 @@
 	- 가장 많은 활용은 텍스트 생성 (56%), 요약해줘 (38%), 문장을 고쳐줘 (37%), 번역해줘 (31%), 이미지 그려줘 (22%)의 다섯 가지.
 ### 1.2 AI 컨닝 및 꼼수는 학생들의 Default다
 
-![연세대 비대면 시험 AI 부정행위 관련 기사 원문 화면](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png)
+![{2EB602C5-98DF-4022-8FE5-7D68559A3732}.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png)
 
 - 연세대학교 비대면 시험 대규모 컨닝 (2025. 10. 15)
 	- 온라인 사이트에 접속해 객관식 문제를 푸는 방식 
@@ -23,7 +27,7 @@
 	- 1400명 가량이 수강중인 '고령사회에 대한 다학제적 이해 (비대면, 교양 수업)' 중간고사
 	-  **시험 도중 학생들이 카카오톡 오픈채팅방을 통해 문제와 정답을 공유** (중간고사 결과 전면 무효화 조치)
 
-![국내 대학 시험 부정행위 사례 인포그래픽 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg)
+![aicunning.jpg](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg)
 
 ### 1.3 국내 대학생들의 '사고의 외주화' 실태
 - **AI 편리하지만… “습관적으로 의존해 사고의 필요성 잃어 (한국대학신문 `2026 신년기획/AI&미래고등교육③` , 2026. 1. 31)”**
@@ -35,7 +39,7 @@
 
 ##  2. 탐지와 금지는 답이 아니다
 ## 2.1 Open AI's Text Classifier : 2023년 중단 (업데이트 없음)
-![OpenAI AI 텍스트 분류기 공개 당시 안내 화면](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png)
+![{4EEF233E-21B4-4C49-A215-E4D8E7DD9A01}.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png)
 > [!quote] OPENAI - "낮은 정확도로 중단" (2023. 7. 20)
 > As of July 20, 2023, the **AI classifier is no longer available due to its low rate of accuracy.** We are working to incorporate feedback and are currently researching more effective provenance techniques for text, and have made a commitment to develop and deploy mechanisms that enable users to understand if audio or visual content is AI-generated.
 
@@ -100,7 +104,7 @@
 - 그런데 잘 생각해보면, "한국기자협회 사이트에서만 대조해줘"라는 말은 사실 "이 사이트 이외에는 네 멋대로 참조하지 마"라고 **제약 조건을 더 쎄게 명시하는 것과 같습니다.**
 	- 무언가 더 구체적으로 명시하는 것은 **사실 '하지 마'라는 금지 시리즈/제약 조건을 더 쎄게 명시하는 것**과 같습니다. 이것이 바로 **Harness Engineering** 입니다.
 
-![Prompt·Context·Harness Engineering 관계도 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png)
+![harness1.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png)
 
 ### 3.2 사고방식의 전환: "공격자처럼 생각하라"
 
@@ -118,7 +122,7 @@
 		- **b) 학생들이 아무리 치팅/꼼수를 쓰더라도 AI만 의존하는 식으로는 반드시 실패할 수 밖에 없도록 하는 설계 혹은,**
 		- **c) 학생들이 본인 스스로 생각/기획/검토/비판을 안하면 logical error를 단번에 반드시 잡아낼 수 있도록 "사고 과정"을 평가 방식으로 설계하려면 어떻게 해야할까?**
 
-![Educational Harness Engineering 평가 설계 관계도 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png)
+![harness2.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png)
 
 ## 마인드를 바꾸셔야 합니다.
 ## 학생들이 꼼수를 쓴다면, 
@@ -190,9 +194,9 @@
 
 ### 4.5 AI활용조사방법론 - AI 메타인지 분석 리포트 (예시화면)
 
-![학생 개인 메타인지 리포트의 분석 영역 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png)![학생 리포트의 사고·글쓰기 프로파일 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png)
+![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png)![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png)
 
-![학생 메타인지 리포트의 분석 본문 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png)![학생 분석 리포트의 인용·참고 구간 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png)
+![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png)![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png)
 ### 4.6 AI활용조사방법론 (2026-1) 기말고사 (대면시험 - 서술형/당일공개)
 
 - **AI가 읽은 나, 내가 다시 읽은 나:**
@@ -323,8 +327,8 @@
 
 ### 5.3 AI-DGD 기말고사 (실제 예시)
 
-![AI-DGD 학생 창업 제안 발표 첫 화면 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png)
-![AI-DGD 학생 창업 제안의 자료·예산 화면 원문](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png)
+![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png)
+![image.png](/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png)
 
 ### 5.4 AI-DGD 기말고사 (교수자 평가 예시)
 - **앱 UX/UI 부재:** 관광 "앱"인데 왜 앱 시안이 하나도 없어요?

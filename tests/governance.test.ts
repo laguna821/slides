@@ -38,7 +38,7 @@ test('published work requires context and current poster viewer',()=>{
  assert.throws(()=>validatePolicy([work],[],[{...resource,versions:[{...resource.versions[0],viewerVersion:'1.0.0-rc.5'}]}]));
 });
 test('poster text gives one project search result and URL restored',()=>{
- const entries=makeSearchEntries([{...work,href:'/talks/event/',readingHtml:'',body:'발표자 홍길동',videoCount:0,segments:[{id:'poster-event-poster',title:'포스터',text:'발표자 홍길동',href:'/talks/event/#poster-event-poster',kind:'poster'}]}]);
+ const entries=makeSearchEntries([{...work,reader:undefined,href:'/talks/event/',readingHtml:'',body:'발표자 홍길동',videoCount:0,segments:[{id:'poster-event-poster',title:'포스터',text:'발표자 홍길동',href:'/talks/event/#poster-event-poster',kind:'poster'}]}]);
  const filters={...defaultFilters,q:'홍길동',resource:'poster'};
  const result=runSearch(entries,filters);assert.equal(result.length,1);assert.equal(result[0].href,'/talks/event/#poster-event-poster');
  assert.deepEqual(readFilters(new URLSearchParams(writeFilters(filters))),filters);

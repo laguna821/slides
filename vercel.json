@@ -6,6 +6,13 @@
   "outputDirectory": "dist",
   "headers": [
     {
+      "source": "/talks/:slug/read.:ext(md|txt)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" },
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {

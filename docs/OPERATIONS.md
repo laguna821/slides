@@ -8,7 +8,7 @@
 
 `course.id`는 한 과목·한 학기를 식별합니다(예: ai-design-2026-1). 같은 ID로 서로 다른 과목명이나 학기를 등록하면 빌드가 실패합니다. 주차는 `course.week`에 넣습니다. 강의가 등록되면 과목 페이지가 자동 생성됩니다.
 
-`artifacts`에는 실제 제공하는 HTML/Markdown/PDF/link만 넣고, `modes`에 present/read/download를 선언합니다. PDF가 없으면 PDF 버튼을 만들지 않습니다. 기존 독립 HTML은 직접 연결하며 자동 개조하지 않습니다. 생성 읽기 화면은 원본 발표 캔버스와 별개로 본문을 정리한 화면입니다.
+`artifacts`에는 실제 제공하는 HTML/Markdown/PDF/link만 넣고, `modes`에 present/read/download를 선언합니다. PDF가 없으면 PDF 버튼을 만들지 않습니다. 기존 독립 HTML은 직접 연결하며 자동 개조하지 않습니다. 생성 읽기 화면은 원본 발표 캔버스와 별개로 전체 원문을 읽는 화면입니다. 요약으로 대체하지 않습니다. 신규 등록과 기존 이관은 docs/READER-CONTRACT.md의 reader 원고·출처·대응표·검사 절차를 적용합니다. 아래의 이전 htmlSource/markdownSource 직접 읽기 등록은 신규 자료에 사용하지 않습니다.
 
 ## 공개 정책
 

@@ -1,0 +1,1343 @@
+{
+  "version": "1.0.0",
+  "works": {
+    "ai-reading-pilot": {
+      "source": "AI_reading_3week_pilot_20261008.html",
+      "sourceSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
+      "markdownSha256": "11f75a0b2a24026ac2bf073d960b12c43896597d1ef89e4a584deb3b92c199b7",
+      "units": [
+        {
+          "id": "slide-1",
+          "sha256": "41e69ccf172b419bed879176ddecf329ee6a46160a89804721ee4957e7e61c03",
+          "characters": 190,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-2",
+          "sha256": "e528e6ee7b9d3b4a5eb77b83934998d53b1914f9186328244104adf7a68dd2f1",
+          "characters": 196,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-3",
+          "sha256": "cf4e3247e3f4ae4f40885c3c02e89e766902fef424bb4c6f63ab493763df3fe8",
+          "characters": 326,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-4",
+          "sha256": "bff31673c80214605ec04c51cd9d45d4ea2bff29ce50a82778850b203bf628e4",
+          "characters": 215,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-5",
+          "sha256": "0df024ef28903152a385a36a78f3377757ae2b91376b95e00fdee7682aeccf2c",
+          "characters": 262,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-6",
+          "sha256": "6ce2c7b389a1cac7edf409f6d3a0bad8919617134ec697dfe85fd4c045c384ed",
+          "characters": 194,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-7",
+          "sha256": "8b0d9b8d9558a46d725e1483b8381612f09f88f28f7431c5ddb16dcbb9dcd373",
+          "characters": 269,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-8",
+          "sha256": "16cb8b8538eadb056a99d2272554d8a6dea69ef21229f5b66ba8cf497ff148d4",
+          "characters": 216,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-9",
+          "sha256": "d00671159022ae17014e6f2182ae117d89043b02427a7219fdf5f6c87c4b368c",
+          "characters": 290,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-10",
+          "sha256": "1d0595e464e47b33584697aaa234023b98e9bd8cd78dbf5b0cb2e597d772e870",
+          "characters": 312,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-11",
+          "sha256": "98b595553cd17708859e136e28ca54bc6647f4d36a40293488a47855cb5094d2",
+          "characters": 239,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-12",
+          "sha256": "5739e334015102d0672930047cd9d3e157681a9d811ebe6f7bd25127c1aea80f",
+          "characters": 248,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-13",
+          "sha256": "b1865dc40566ff58321f9f02aeb99f6c5ae3ca331e6274539b7092f1102917ff",
+          "characters": 281,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-14",
+          "sha256": "2a84eb9fcfe370a73793b9ffdb1c8cdfe7ee5182ed87c563171d41d07c893077",
+          "characters": 239,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-15",
+          "sha256": "03c5e1b29bb7178d3f5a236b816f959f48469e8dec68589ce53ec81a5dc530e5",
+          "characters": 250,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-16",
+          "sha256": "938be3324f05e21c85949ced68aaaea4ec955265ded7bb0b3ff6249cbb729da7",
+          "characters": 306,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-17",
+          "sha256": "df2c0451c242a008343b6e477e6c60d78803e6ca5255fb2cdf22f0e520cb5c07",
+          "characters": 268,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-18",
+          "sha256": "6d12bcbdeb87453b2bcef25a0d97de0e504d291fdb77f074106ea561e29345cd",
+          "characters": 280,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-19",
+          "sha256": "1ba5ba5026e497d72838e9913fc9ee18c0f297ac757843e8a9b4329b04e33476",
+          "characters": 310,
+          "contiguousOrderPreserved": true
+        }
+      ],
+      "leafCount": 420,
+      "missing": 0,
+      "images": [],
+      "aliases": {
+        "h-6737fdea124d": [
+          "s01",
+          "h-b21227183f3d"
+        ],
+        "h-d362f8f7d477": [
+          "s02",
+          "h-12a20545b11a"
+        ],
+        "h-7531fb4fb11c": [
+          "s03",
+          "h-5889d0ab4c36"
+        ],
+        "h-ac9a62969a87": [
+          "s04",
+          "h-16ed4b5b047b"
+        ],
+        "h-ee785623b7c8": [
+          "s05",
+          "h-1f0481c11f05",
+          "h-365c16d44c91"
+        ],
+        "h-2e492151d3c9": [
+          "s06",
+          "h-5b0e30730f4d"
+        ],
+        "h-cbc9a22bf663": [
+          "s07",
+          "h-c3a60496e90b"
+        ],
+        "h-db46a6d58a2a": [
+          "s08",
+          "h-86289a6072d2"
+        ],
+        "h-62cd8313a428": [
+          "s09",
+          "h-57fe381c49e5"
+        ],
+        "h-c91c156cd0dd": [
+          "s10",
+          "h-996f823f8450"
+        ],
+        "h-7adc5c32fe77": [
+          "s11",
+          "h-d7dc9bd03e96"
+        ],
+        "h-8c310532b580": [
+          "s12",
+          "h-2f56f47fd00f"
+        ],
+        "h-560b177f9dee": [
+          "s13",
+          "h-f1d2995024aa"
+        ],
+        "h-c217bb385f2e": [
+          "s14",
+          "h-0a3063aa4baf"
+        ],
+        "h-a14a375c9669": [
+          "s15",
+          "h-2fd11cb40373"
+        ],
+        "h-738667dea4c5": [
+          "s16",
+          "h-b2c211df5e33"
+        ],
+        "h-431252464533": [
+          "s17",
+          "h-1429db5e48a3"
+        ],
+        "h-c1c3739e6815": [
+          "s18",
+          "h-03cfc021e8c3"
+        ],
+        "h-89658d2a2963": [
+          "s19",
+          "h-690da9e4c72e"
+        ]
+      }
+    },
+    "human-reading-writing-2026": {
+      "source": "public/decks/human-reading-writing-2026/index.html",
+      "sourceSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1",
+      "markdownSha256": "3b047a02a8538b91696f8167599bbb1b749ed4ed44e1d76f6c8f01387b3d461a",
+      "units": [
+        {
+          "id": "slide-1",
+          "sha256": "519b9513cb44ef91ed66f45a992a731e566ecd266d1d39ed7dc06adac78a11c9",
+          "characters": 141,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-2",
+          "sha256": "fe7872e260b3904d50f191d868d0f6bdb38847ff6562d98d1e25e227f0d2d6c1",
+          "characters": 20,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-3",
+          "sha256": "cc20876d0c2e765f94165686eb883f87698d07de9338a3daf497ea080f37bb6e",
+          "characters": 157,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-4",
+          "sha256": "abf3d5378d732d39bdc3ca7372741fcdb5c027f915ca32cfa3299f41ee5db023",
+          "characters": 12,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-5",
+          "sha256": "46e4bf89dc7ddb36975f800ca6d6566d44e867c718bec5027ae7e9a4f2a5283e",
+          "characters": 24,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-6",
+          "sha256": "0760ee9aa58cfb064e3d65732a8acfbc79543b5b69e8c83a02c7706045ffce23",
+          "characters": 305,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-7",
+          "sha256": "32f638010bd1292343f796def7a33c050c0d11c526dc0037b06013ed23b05079",
+          "characters": 161,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-8",
+          "sha256": "48860f1b0b3ef9f3931fe6e5e8c304f57f7b2fe9c78a51a59f327ff87a7b840a",
+          "characters": 275,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-9",
+          "sha256": "d54b994bb545827f8e4ff3f93440712c916401b52c3205fe06dcb2f47d3e5314",
+          "characters": 248,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-10",
+          "sha256": "d3060b9a218fecead2770edd75ce6703833f192f36990095a3e0ac76b004ae0b",
+          "characters": 269,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-11",
+          "sha256": "078952d624e50ca40566ef65286f3f9263392f65aa8e4c6d362151d6e12c136f",
+          "characters": 142,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-12",
+          "sha256": "7b7477c0971f393f0df6eacb1cd7d02f03f0a4ea55ae67b3e98bb2405ed4a88a",
+          "characters": 308,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-13",
+          "sha256": "16a2a6db1e9578f002159da6a7da5c1d44e1ba04a45a72a5ef434352c5f50d4b",
+          "characters": 105,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-14",
+          "sha256": "f5e3c6eee503a8b4572054afc59c01497d68c7dd070c6c75e0d814f271661d23",
+          "characters": 45,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-15",
+          "sha256": "b9f2fad4e9734920707f9f84a62ac15d004a8eb2e7bd144517c53ede9409733e",
+          "characters": 292,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-16",
+          "sha256": "b05be221d4c9a7d00a916970c052c00785f72610f4a9dc22bd7b33b097f2b431",
+          "characters": 327,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-17",
+          "sha256": "d7d6336c89957d1ce128aecd8b0d36924a4cfa3df08a7153647c7e6549bcecae",
+          "characters": 139,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-18",
+          "sha256": "41be9ab7a66a304a984a124133c2bd3ab7e004f1b324a8fbab9770b7c902ad64",
+          "characters": 116,
+          "contiguousOrderPreserved": true
+        }
+      ],
+      "leafCount": 196,
+      "missing": 0,
+      "images": [
+        {
+          "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB1oAAAPKCAYAAAA9HVhfAAAMTmlDQ1BJQ0MgUHJvZmlsZQAASImVVw",
+          "url": "/reading/human-reading-writing-2026/assets/76c90dd5fff0e9476726.png",
+          "sha256": "76c90dd5fff0e9476726999953380557b77b9f6f4639deb947a9c6032b21a86a",
+          "width": 1882,
+          "height": 970
+        },
+        {
+          "source": "slide-3-svg",
+          "url": "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg",
+          "sha256": "20d3244abe06299ff6c27a651e00aa89e80e96401012fa4ce19e31e1924d9538",
+          "width": 1700,
+          "height": 620
+        },
+        {
+          "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAIAAABnsVYUAAAQAElEQVR4nOzdBXhT59vH8dOWursLLa",
+          "url": "/reading/human-reading-writing-2026/assets/18589dc5f2bd3d5ebefc.png",
+          "sha256": "18589dc5f2bd3d5ebefc656630352337b4b32d70def70d26b9c749c8a8389a48",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAIAAABnsVYUAAAQAElEQVR4nOzdBXgT5x8H8KPu7u6Ot8",
+          "url": "/reading/human-reading-writing-2026/assets/9f99e0d9604800f135e8.png",
+          "sha256": "9f99e0d9604800f135e852cd5f380d09f5e56616b4567e7e7226b91d42637476",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "source": "slide-6-svg",
+          "url": "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg",
+          "sha256": "2ea109ae3280705cbac98969f3d6308c29e0211d7931f1b3b58db1bf88dd100d",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-7-svg",
+          "url": "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg",
+          "sha256": "54e076ea411817f9c47b6f11b7fedf1b151437180458505fa7892781a9e22077",
+          "width": 1700,
+          "height": 620
+        },
+        {
+          "source": "slide-8-svg",
+          "url": "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg",
+          "sha256": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-9-svg",
+          "url": "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg",
+          "sha256": "65af30903b49634abf0b7aed7782809cbb38a063ac21cbc766ff1cd42fd4acf7",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-10-svg",
+          "url": "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg",
+          "sha256": "7806bea460c8551c2cd26607d2cc999d80d8a09d9655d0057b943ec85856e459",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-11-svg",
+          "url": "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg",
+          "sha256": "5cb2c73ce9ec91f420dc16a8153c3fda69d598c3ea70af8beac5dd7276e8559f",
+          "width": 1700,
+          "height": 620
+        },
+        {
+          "source": "slide-12-svg",
+          "url": "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg",
+          "sha256": "2b3fb2e8bade2dd8a1600005ec81173ec0106bc66188901ebcb8f1eef1514223",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-13-svg",
+          "url": "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg",
+          "sha256": "d2fdd9dd7eb7ac3e27622081bd78c31ddb5616ed3d68ca13eef7c0f4269f8aae",
+          "width": 1700,
+          "height": 620
+        },
+        {
+          "source": "slide-15-svg",
+          "url": "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg",
+          "sha256": "df62ceb3cd8a2cb6850de0fa0770fdd8e794d9f82fea5f4090c94ea5dd41e93a",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-16-svg",
+          "url": "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg",
+          "sha256": "98f4f370299a61fb3762a3fbe32c27dd712eac9437f7741ae6eee0108b274784",
+          "width": 1700,
+          "height": 700
+        },
+        {
+          "source": "slide-17-svg",
+          "url": "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg",
+          "sha256": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
+          "width": 1700,
+          "height": 620
+        }
+      ],
+      "aliases": {
+        "h-acaf50a31dea": [
+          "section-1"
+        ],
+        "h-806e7c2703e2": [
+          "section-2"
+        ],
+        "h-8764a900984b": [
+          "section-3",
+          "h-7f1d9778e0f9"
+        ],
+        "h-b94fcdc6a335": [
+          "section-4"
+        ],
+        "h-371448874020": [
+          "section-5"
+        ],
+        "h-56588667cf1f": [
+          "section-6",
+          "h-9314d2c7add3"
+        ],
+        "h-6a86d6b9d89f": [
+          "section-7",
+          "h-db0e56b24de8"
+        ],
+        "h-36c5476ad2ab": [
+          "section-8",
+          "h-37ea44f50bf6"
+        ],
+        "h-e93a68606afe": [
+          "section-9",
+          "h-fe722c0c228c"
+        ],
+        "h-9779842b931b": [
+          "section-10",
+          "h-d792b20e3665"
+        ],
+        "h-bc0d2a58369b": [
+          "section-11",
+          "h-0ce73796886c"
+        ],
+        "h-276eb625691d": [
+          "section-12",
+          "h-8c85b6bb1879"
+        ],
+        "h-fa20f7a5f880": [
+          "section-13",
+          "h-ab2c9ba96753"
+        ],
+        "h-10e7fd972681": [
+          "section-14"
+        ],
+        "h-1f2fc76d3a15": [
+          "section-15",
+          "h-4aa990d0afcd"
+        ],
+        "h-c7eaae4ee4c6": [
+          "section-16",
+          "h-e9a8390ab6f3"
+        ],
+        "h-ae601bd642ca": [
+          "section-17",
+          "h-065578d069c3"
+        ],
+        "h-66984ee9ef9c": [
+          "section-18"
+        ]
+      }
+    },
+    "media-colloquium-2026-06-10": {
+      "source": "public/decks/media-colloquium-2026-06-10/index.html",
+      "sourceSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0",
+      "markdownSha256": "1558c045f1756352f9f7ac269d66e24fa4853c07922d7aa6bbc508419e0ff5de",
+      "units": [
+        {
+          "id": "slide-1",
+          "sha256": "8dce2b6e0a7f745b54fe892f620eb528b25c639a5677952877ad3cba5f1446fb",
+          "characters": 135,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-2",
+          "sha256": "8843023644f7dac42c09bca2d71ee29be59ca4b4ed1ffd1e030e87585494b916",
+          "characters": 92,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-3",
+          "sha256": "df3fd7404107b3fd5f353182eee0eebcf9c542413f7999afdffa18f59264c86f",
+          "characters": 99,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-4",
+          "sha256": "828ab140072e86718ba4d2d125b06922d5916afc2488ff1bd434388240869efb",
+          "characters": 139,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-5",
+          "sha256": "b6188c23aa4a9ef5ce1802fff68c087f05cac2b71915344846cc4f0d896356da",
+          "characters": 396,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-6",
+          "sha256": "11e56662a7c4610c290113220e80e11dc6dac6f387c392a68aabe5edcb521928",
+          "characters": 306,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-7",
+          "sha256": "8a2446bf01d30af4968817d3f01dc6ca488dff747cd0170562ddda608801193e",
+          "characters": 189,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-8",
+          "sha256": "f62aa57eccab4b9cf8d72ff826cc241129ce384e2e4be54d1f7b267152ccdf39",
+          "characters": 65,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-9",
+          "sha256": "1bf01b7d60176b7091ae01e2fd63f4589a75b929de9801ffb37d9d1afbf1bf9a",
+          "characters": 277,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "slide-10",
+          "sha256": "4680fa0316c6c92fb20d258368ab67718d9062cf50c6f08d6cf928b521cb0d7a",
+          "characters": 96,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-11",
+          "sha256": "6aea1eddd9db62a2917874c50d4791a3ada1fc00e7cb26d7435841328104859e",
+          "characters": 351,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-12",
+          "sha256": "107b032f76a7571bd1f9357126fb8898ff39f196904f20e0f57f83682a4e2974",
+          "characters": 267,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-13",
+          "sha256": "6f4876787861f1d992764bec98ac8f5189391f8eca5fcc9b6ba21381bc8d2a4e",
+          "characters": 255,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-14",
+          "sha256": "081b317e8710a740bade79e93268ddc10026b130c9a38b70f863965d13a20a69",
+          "characters": 203,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-15",
+          "sha256": "d42ddcd099cdc61ca244d1a1e03e23c1e0c032b6fa00bd743acc8a2282ddf5ed",
+          "characters": 305,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-16",
+          "sha256": "09e394852e80ebd8d5fb10855f3e66a43b1bc729efeccfaf2be5b60b91c531fb",
+          "characters": 233,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-17",
+          "sha256": "875bc386d7115597966030c70215568e134ce4b61227ef03ab737a40d829a71a",
+          "characters": 117,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-18",
+          "sha256": "d086421788b248502e5f7cdbcb501b04f419bdbcde87cfda66b198857d23029a",
+          "characters": 67,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-19",
+          "sha256": "b9a6f4eed2d47944f151c8b3c8c988c4edd35d0f80ef55557efa767cab8a6159",
+          "characters": 255,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-20",
+          "sha256": "c41e4e48d2fbd6d0aaae83940fca11dcdae2d289a78c483fece4196042ee0892",
+          "characters": 285,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-21",
+          "sha256": "12974c7ef3b28376d816d89c1173698c93b304bcdef9100bb80a12a897c54b3a",
+          "characters": 50,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-22",
+          "sha256": "995999749fb9ec9eb9291f2d0fb017026b856320b79535d0ebd02e3debe1aea0",
+          "characters": 107,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-23",
+          "sha256": "5a9d6e29c39397130c68e1d6b735d2bff7e8f38bdcbd321592e680182c3c84b9",
+          "characters": 110,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-24",
+          "sha256": "8ddf3312d15252948122bc06a093dd43477f66eb3d50bf06a2a128e14069bd5b",
+          "characters": 226,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-25",
+          "sha256": "e2bc4e41d442663fef9d787c8e8ad5056e838da59b484184024db16c5feeb354",
+          "characters": 54,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-26",
+          "sha256": "236f90a936211821a17c23a8a1f0f33e13206960e5eeb2c6b594c29ca375b678",
+          "characters": 220,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-27",
+          "sha256": "71a3a9ec970b2116476a2bdc40b76c9d97458b378b47908bd026b7f0de9ba9f9",
+          "characters": 100,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-28",
+          "sha256": "a51099e0136e04c613bb1e5fe344cd93e4d1c2954bdede55027d16cb652974ff",
+          "characters": 242,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-29",
+          "sha256": "60efb251628b0e7f258c41f5c4494792aafd53d9cc5915b97535432b11230302",
+          "characters": 305,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-30",
+          "sha256": "cf8187a0d6ec20e4f352f35c206685d8eef58d5978e1daefdd45d9977ede34d4",
+          "characters": 201,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-31",
+          "sha256": "c0740edc42b47966d380f458e1cf6f53dec6ec6523721a34f65afdd67df919bf",
+          "characters": 297,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-32",
+          "sha256": "471938f3530b627953031510b62ddf9952f59f7b8be693376a0098c98c2e26b4",
+          "characters": 322,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-33",
+          "sha256": "0b6c80d73052fa94e5625ec42d99f1694bbb2f3fd8433527287d24c378aa2db9",
+          "characters": 119,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-34",
+          "sha256": "c83f0a51abf81946c451a214508014e46f17e75845e8ce4f6979530c78111753",
+          "characters": 266,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-35",
+          "sha256": "fc376df17bd580863a6ec1499475183a2ad9f84fcae7677d201a3a8bb06d3cd8",
+          "characters": 325,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-36",
+          "sha256": "0a2d4a0da6ac2fcac1cefa9c395acc1ba739f92371fe0ee727d924f098ee553c",
+          "characters": 110,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-37",
+          "sha256": "03d533a3c2d48afa365d094a9e6fd755f90ec21a77539814a7a4e6809bacf18b",
+          "characters": 141,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-38",
+          "sha256": "cf015c87b1db26d4b03484a69a2e565deccdc1bb19a32f1c7401680dd819252f",
+          "characters": 115,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-39",
+          "sha256": "527addf5485e84b32258be4720d2feb240fc0e169a19754108568f8d2bf6834e",
+          "characters": 82,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-40",
+          "sha256": "cbb4183953784c9191d4aa6937922214003ed1fcb96e42b91cd8dcb0ac9fe47e",
+          "characters": 223,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-41",
+          "sha256": "7a2e2e20d9b7350bbbd8dd0f8a208d2257a3fcb037e161e0fa00be1ca0464a9d",
+          "characters": 179,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-42",
+          "sha256": "af9cdbda9f0e400714b18852085de3d237ca9d42866d72bb519eab6aba6393ac",
+          "characters": 258,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-43",
+          "sha256": "5da34ffd8e456af0e2a424de508c4088c6ad1c8453c91b3622a2210b750c3bfd",
+          "characters": 158,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-44",
+          "sha256": "65f3e240aa0c9157b4b3c50d40fd11a2870cbb8693bd7d3e5c236547839a0fc2",
+          "characters": 278,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-45",
+          "sha256": "4001e32cd6211691e72edcb339a89b4e572eda3ae30d84e334b05a445dd71fbf",
+          "characters": 87,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-46",
+          "sha256": "554bd31eaf3fcd2e0b039a93dcc9df8f6a914b9a8f67bf96c400e448567e7c8b",
+          "characters": 243,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-47",
+          "sha256": "50725935cb75eada9c447303c82843aa1fd185eac695c38e9bce86ac6d85cffd",
+          "characters": 64,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-48",
+          "sha256": "790551cd3833e9cccffaec481842e7a823b6d5b101ff81d5835ad5333523c4ae",
+          "characters": 99,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-49",
+          "sha256": "035f73cf21c07d7a74a8114939a0afb1807bd3408f5efc5333d75fe3465060e1",
+          "characters": 105,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-50",
+          "sha256": "3c492dca8776a8794e55cd80d74551aa81bf289228e27baf75e4053e6a969ae1",
+          "characters": 259,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-51",
+          "sha256": "de2750f9c7939dc37f4d8afc52ec2ab630cf594035453dc4f6bcc7c18106c349",
+          "characters": 198,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-52",
+          "sha256": "7d758ff5813c1af67f142d26368d6ce5067e5aef4b20ab1435d56b84477f0642",
+          "characters": 107,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-53",
+          "sha256": "9de4f54291ac61048e8b6eaa4c12a5cf99e6753565ecc441762abe346c4d5fc6",
+          "characters": 233,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-54",
+          "sha256": "4a35b294ba995d1d409cd956c4cd3911e8e54f927bcea462cf2955759f5a1997",
+          "characters": 57,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-55",
+          "sha256": "fada0b5049862bd0fff967761a308af52cebb9f180cd729f58d16d3fcb29f062",
+          "characters": 93,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-56",
+          "sha256": "025bde39b6f8f00cfecf50ad2f9434cbcc2f3b1964a67634f5e05040822a2528",
+          "characters": 245,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-57",
+          "sha256": "360fdbf236d4ea1728a4d97a68779700d5f2b389bda0fe6f55515d108652c8a3",
+          "characters": 250,
+          "contiguousOrderPreserved": true
+        },
+        {
+          "id": "slide-58",
+          "sha256": "a8a1cc676dde0d8ea3509c3d15cfb00dea5907d6ba7ea452f85976812e8459d4",
+          "characters": 138,
+          "contiguousOrderPreserved": true
+        }
+      ],
+      "leafCount": 586,
+      "missing": 0,
+      "images": [
+        {
+          "source": "assets/evidence/1_1693_952px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+          "sha256": "9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c",
+          "width": 1693,
+          "height": 952
+        },
+        {
+          "source": "assets/evidence/2_1691_949px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+          "sha256": "12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb",
+          "width": 1691,
+          "height": 949
+        },
+        {
+          "source": "assets/evidence/3_1693_948px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+          "sha256": "1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308",
+          "width": 1693,
+          "height": 948
+        },
+        {
+          "source": "assets/evidence/4_1697_940px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+          "sha256": "e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e",
+          "width": 1697,
+          "height": 940
+        },
+        {
+          "source": "assets/evidence/5_1695_949px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+          "sha256": "4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4",
+          "width": 1695,
+          "height": 949
+        },
+        {
+          "source": "assets/evidence/6_1698_947px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+          "sha256": "f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719",
+          "width": 1698,
+          "height": 947
+        },
+        {
+          "source": "assets/evidence/7_1684_952px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+          "sha256": "418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264",
+          "width": 1684,
+          "height": 952
+        },
+        {
+          "source": "assets/evidence/8_1696_949px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+          "sha256": "b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f",
+          "width": 1696,
+          "height": 949
+        },
+        {
+          "source": "assets/evidence/13_1005_916px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+          "sha256": "d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed",
+          "width": 1005,
+          "height": 916
+        },
+        {
+          "source": "assets/evidence/9_751_680px.webp",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+          "sha256": "6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5",
+          "width": 751,
+          "height": 680
+        },
+        {
+          "source": "assets/evidence/10_1029_431px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+          "sha256": "b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2",
+          "width": 1029,
+          "height": 431
+        },
+        {
+          "source": "assets/evidence/11_1004_474px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+          "sha256": "c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc",
+          "width": 1004,
+          "height": 474
+        },
+        {
+          "source": "assets/evidence/12_1011_968px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+          "sha256": "af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649",
+          "width": 1011,
+          "height": 968
+        },
+        {
+          "source": "assets/evidence/14_751_730px.webp",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+          "sha256": "e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c",
+          "width": 751,
+          "height": 730
+        },
+        {
+          "source": "assets/evidence/15_1432_648px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+          "sha256": "75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80",
+          "width": 1432,
+          "height": 648
+        },
+        {
+          "source": "assets/evidence/17_2752_1536px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+          "sha256": "7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa",
+          "width": 2752,
+          "height": 1536
+        },
+        {
+          "source": "assets/evidence/16_2752_1536px.jpeg",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+          "sha256": "07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887",
+          "width": 2752,
+          "height": 1536
+        },
+        {
+          "source": "assets/evidence/18_1272_862px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+          "sha256": "012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53",
+          "width": 1272,
+          "height": 862
+        },
+        {
+          "source": "assets/evidence/19_828_842px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+          "sha256": "4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085",
+          "width": 828,
+          "height": 842
+        },
+        {
+          "source": "assets/evidence/20_1105_831px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+          "sha256": "9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5",
+          "width": 1105,
+          "height": 831
+        },
+        {
+          "source": "assets/evidence/22_1672_941px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+          "sha256": "6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "assets/evidence/21_1672_941px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+          "sha256": "cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "assets/evidence/23_1672_941px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+          "sha256": "af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "assets/evidence/24_1672_941px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+          "sha256": "31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "assets/evidence/25_1672_941px.png",
+          "url": "/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+          "sha256": "8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "aliases": {
+        "h-77ff6bf946c9": [
+          "section-1"
+        ],
+        "h-eedd761760b5": [
+          "section-2"
+        ],
+        "h-984c38cac613": [
+          "h-d4520c5515cf"
+        ],
+        "h-e5300b1b1207": [
+          "h-80b1ac1d3d86"
+        ],
+        "h-41e0b8a37300": [
+          "h-967affd9785b"
+        ],
+        "h-1f9540325ac0": [
+          "h-3612c4e64fc7"
+        ],
+        "h-87963648b698": [
+          "section-3"
+        ],
+        "h-0fadf764b112": [
+          "h-06e5937630ef"
+        ],
+        "h-42c22c32168d": [
+          "h-8a9e6340148c"
+        ],
+        "h-ff9932fc8800": [
+          "h-040381398440"
+        ],
+        "h-6aa199adf122": [
+          "h-d85a4dbbccbb"
+        ],
+        "h-7c9334302960": [
+          "h-8e44936685bc"
+        ],
+        "h-2dc01d9141d5": [
+          "h-52f33f7b759e",
+          "h-318b0c77be29"
+        ],
+        "h-ec0eb807f382": [
+          "h-2c28418887ca"
+        ],
+        "h-f07414b93518": [
+          "section-4"
+        ],
+        "h-74d1d9a13e0f": [
+          "h-1a25cb3024b0"
+        ],
+        "h-e9db7a25db54": [
+          "h-1f327e354b72"
+        ],
+        "h-b7faa67467fb": [
+          "h-69b5cf5c0a18"
+        ],
+        "h-40c6e62dc2f0": [
+          "h-a0b0f4c1c919"
+        ],
+        "h-6a13fa4d3877": [
+          "section-5"
+        ],
+        "h-4fff637cc649": [
+          "h-041c5c5b57a5"
+        ],
+        "h-ff3967e4fade": [
+          "h-c881f503016c"
+        ],
+        "h-71d50180b240": [
+          "h-1d9e9e1a499d"
+        ],
+        "h-9aa47f8a826d": [
+          "h-f8cd8993755e"
+        ],
+        "h-d0f0d00761fb": [
+          "h-a811bd09d98b"
+        ],
+        "h-838ff7a47fbf": [
+          "h-154b216bf6b0"
+        ],
+        "h-157ee7adb2d2": [
+          "section-6"
+        ],
+        "h-25867a856df4": [
+          "h-cf8ebf427c8c"
+        ],
+        "h-19c761f127f5": [
+          "h-a366d4613828"
+        ],
+        "h-6450a13102db": [
+          "h-40636466cb29"
+        ],
+        "h-521b5cc6de7a": [
+          "h-dd727106cd87"
+        ],
+        "h-95638bb84a72": [
+          "section-7"
+        ],
+        "h-8171ceb9e75d": [
+          "section-8"
+        ]
+      }
+    },
+    "educational-harness-workshop-2026-07-06": {
+      "source": "public/decks/educational-harness-workshop-2026-07-06/v1/source.md",
+      "sourceSha256": "1ed1421502cc652e35aa0773cb02941391a7b3577f8984550a0ce6c3a9f14033",
+      "markdownSha256": "98883f750f4d37ebaf319f6f0a55c4fbb55338b9a2cd60e83d4c12edba93c138",
+      "units": [
+        {
+          "id": "original-manuscript",
+          "sha256": "91b5bdcaec70380ab45f582b78b8d02ceb055b62ae8d94b5f45e35e45046ea05",
+          "characters": 17253,
+          "preserved": true
+        }
+      ],
+      "leafCount": 1,
+      "missing": 0,
+      "images": [
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png",
+          "sha256": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50",
+          "width": 1365,
+          "height": 1089
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg",
+          "sha256": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811",
+          "width": 658,
+          "height": 954
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png",
+          "sha256": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479",
+          "width": 1466,
+          "height": 619
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png",
+          "sha256": "29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png",
+          "sha256": "e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png",
+          "sha256": "cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb",
+          "width": 665,
+          "height": 805
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png",
+          "sha256": "a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52",
+          "width": 663,
+          "height": 829
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png",
+          "sha256": "f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51",
+          "width": 659,
+          "height": 919
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png",
+          "sha256": "67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5",
+          "width": 649,
+          "height": 923
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png",
+          "sha256": "09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd",
+          "width": 1917,
+          "height": 908
+        },
+        {
+          "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png",
+          "url": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png",
+          "sha256": "35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81",
+          "width": 1916,
+          "height": 914
+        }
+      ],
+      "aliases": {
+        "h-5668ed5bd271": [
+          "section-1"
+        ],
+        "h-eb47baf84601": [
+          "section-2"
+        ],
+        "h-515e5f8c9c38": [
+          "section-3"
+        ],
+        "h-401fefbae488": [
+          "section-4"
+        ],
+        "h-7d7499de1d78": [
+          "section-5"
+        ],
+        "h-44e45770f32d": [
+          "section-6"
+        ],
+        "h-6091b20426e9": [
+          "section-7"
+        ],
+        "h-4112688068ab": [
+          "section-8"
+        ],
+        "h-b73ab7699b38": [
+          "section-9"
+        ],
+        "h-f52b3e2661f5": [
+          "section-10"
+        ],
+        "h-01405803e730": [
+          "section-11"
+        ],
+        "h-1b63ef1127ab": [
+          "section-12"
+        ],
+        "h-30a67dcadebc": [
+          "section-13"
+        ],
+        "h-c1faa60bda1e": [
+          "section-14"
+        ],
+        "h-f6ad90ad71b4": [
+          "section-15"
+        ],
+        "h-803dac477f6f": [
+          "section-16"
+        ],
+        "h-721d37f2cb4f": [
+          "section-17"
+        ],
+        "h-a41a386c2119": [
+          "section-18"
+        ],
+        "h-2972eed94f51": [
+          "section-19"
+        ],
+        "h-aae9e978499f": [
+          "section-20"
+        ],
+        "h-5a79d260d5cf": [
+          "section-21"
+        ],
+        "h-05fc1617773d": [
+          "section-22"
+        ],
+        "h-7f7aefeb199e": [
+          "section-23"
+        ],
+        "h-6645b99dd3be": [
+          "section-24"
+        ],
+        "h-98fbcfa89983": [
+          "section-25"
+        ],
+        "h-c10a520bb705": [
+          "section-26"
+        ],
+        "h-6e484ad4c2c5": [
+          "section-27"
+        ],
+        "h-1323a8933541": [
+          "section-28"
+        ],
+        "h-5c8b0015908e": [
+          "section-29"
+        ],
+        "h-ca6cb85237d5": [
+          "section-30"
+        ],
+        "h-895e06133e0d": [
+          "section-31"
+        ],
+        "h-0d402db5399a": [
+          "section-32"
+        ],
+        "h-862ff086d326": [
+          "section-33"
+        ],
+        "h-9516e7666901": [
+          "section-34"
+        ],
+        "h-a87174e4a1b4": [
+          "section-35"
+        ],
+        "h-6280b9dbf499": [
+          "section-36"
+        ],
+        "h-b671543a1bff": [
+          "section-37"
+        ]
+      }
+    }
+  }
+}

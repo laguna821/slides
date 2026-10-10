@@ -6,6 +6,7 @@ export function validatePolicy(works: Work[], media: Media[], resources: Resourc
     for(const [key,value] of Object.entries({title:w.title,summary:w.summary,posterAlt:w.posterAlt,registeredAt:w.registeredAt}))
       if(!value?.trim()) throw Error(`${w.id}: required ${key}`);
     if(['talk','lecture'].includes(w.kind) && (!w.audience?.trim() || !w.takeaways.length)) throw Error(w.id+': audience and takeaways required');
+    if(['talk','lecture','note'].includes(w.kind)&&!w.reader)throw Error(w.id+': full reader contract required');
     if(w.kind==='motion' && (!w.productionNote?.trim() || !media.some(m=>m.workId===w.id))) throw Error(w.id+': motion description/media required');
     if(w.kind!=='motion' && !w.artifacts.length && !resources.some(r=>r.workId===w.id) && !w.resourceIds.length && !w.markdownSource) throw Error(w.id+': no usable output');
     if(w.featuredOrder && !w.featuredReason?.trim()) throw Error(w.id+': featured reason required');

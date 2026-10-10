@@ -34,6 +34,7 @@ const owner: PublicWork = {
     posterAlt: '장면',
   }),
   href: '/motion/film/',
+  reader: undefined,
   segments: [],
   readingHtml: '',
   videoCount: 1,
