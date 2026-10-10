@@ -1,0 +1,58 @@
+/* Major Second (1.125); headings skip steps to make the hierarchy readable. */
+:root {
+  --editorial-body: clamp(1.0625rem, 1rem + .2vw, 1.125rem);
+  --editorial-h1: 2.0273em;
+  --editorial-h2: 1.6018em;
+  --editorial-h3: 1.2656em;
+  --editorial-h4: 1.125em;
+}
+body :is(.reader-prose,.prose,.editorial) {
+  font-size: var(--editorial-body);
+  line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+body :is(.reader-prose,.prose,.editorial) :is(h1,h2,h3,h4,h5,h6) {
+  line-height: 1.4;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+  scroll-margin-top: 100px;
+}
+body :is(.reader-prose,.prose,.editorial) h1 {font-size:var(--editorial-h1);font-weight:750;}
+body :is(.reader-prose,.prose,.editorial) h2 {
+  font-size:var(--editorial-h2);font-weight:700;
+  margin:2.8em 0 1em;padding-bottom:.55em;
+  border-bottom:1px solid var(--blue);
+  background:linear-gradient(var(--accent-text),var(--accent-text)) left bottom / 2.25rem 3px no-repeat;
+}
+body :is(.reader-prose,.prose,.editorial) h3 {font-size:var(--editorial-h3);font-weight:700;margin:2em 0 .8em;}
+body :is(.reader-prose,.prose,.editorial) :is(h4,h5,h6) {font-size:var(--editorial-h4);font-weight:650;margin:1.6em 0 .65em;}
+body :is(.reader-prose,.prose,.editorial) p {margin:.85em 0 1.15em;}
+body :is(.reader-prose,.prose,.editorial) :is(ul,ol) {padding-left:1.4em;margin:1em 0 1.4em;}
+body :is(.reader-prose,.prose,.editorial) li {margin:.4em 0;}
+body :is(.reader-prose,.prose,.editorial) li :is(ul,ol) {margin:.3em 0 .7em;}
+body :is(.reader-prose,.prose,.editorial) a {color:var(--blue);text-decoration:underline;text-underline-offset:.2em;text-decoration-thickness:1px;}
+body :is(.reader-prose,.prose,.editorial) blockquote {
+  margin:1.7em 0;padding:1em 1.25em;border:1px solid var(--line);
+  border-radius:4px;background:var(--surface);color:var(--ink);font-size:.95em;
+}
+body :is(.reader-prose,.prose,.editorial) blockquote p:last-child {margin-bottom:0;}
+body :is(.reader-prose,.prose,.editorial) dl {margin:1.2em 0;}
+body :is(.reader-prose,.prose,.editorial) dt {font-weight:700;margin-top:1em;}
+body :is(.reader-prose,.prose,.editorial) dd {margin:.25em 0 0;}
+body :is(.reader-prose,.prose,.editorial) table {font-size:.875em;line-height:1.65;margin:1.5em 0;border-collapse:collapse;max-width:100%;display:block;overflow-x:auto;}
+body :is(.reader-prose,.prose,.editorial) th {font-weight:700;background:var(--surface);}
+body :is(.reader-prose,.prose,.editorial) :is(th,td) {padding:.7em .85em;border:1px solid var(--line);vertical-align:top;}
+body :is(.reader-prose,.prose,.editorial) :is(figcaption,small,.editorial-source) {font-size:.78em;line-height:1.65;color:var(--muted);}
+.editorial-source {margin-top:.7em!important;margin-bottom:2.4em!important;}
+body .reader-heading h1 {font-size:calc(var(--editorial-body) * 2.0273);font-weight:750;line-height:1.35;}
+.reader-layout {grid-template-columns:minmax(0,720px) 250px;}
+.reader-toolbar button,.reader-toolbar .theme-toggle {min-width:45px;min-height:45px;}
+#reader-body > h2:first-of-type {margin-top:1.4em;}
+.reader-prose .heading-permalink {opacity:0;display:inline-flex;align-items:center;justify-content:center;width:1.5em;height:1.5em;font-size:.65em;text-decoration:none;vertical-align:middle;}
+.reader-prose :is(h1,h2,h3,h4,h5,h6):hover .heading-permalink,.reader-prose .heading-permalink:focus-visible {opacity:1;}
+.reader-prose .callout-label {font-size:.75em;letter-spacing:.06em;color:var(--muted);}
+@media(min-width:1500px){.reader-layout{grid-template-columns:230px minmax(0,720px) 230px;max-width:1396px;}}
+@media(max-width:1000px){.reader-layout{grid-template-columns:minmax(0,1fr);max-width:800px;}}
+@media(max-width:600px){.reader-layout{padding-inline:18px;}.reader-prose .heading-permalink{display:none;}.reader-prose :is(th,td){padding:.6em;}}

@@ -6,6 +6,7 @@ import { build } from 'esbuild';
 import { chromium } from 'playwright';
 import { load } from 'cheerio';
 import { renderReader, sha, escape } from '../src/lib/reader';
+import { loadEditorial } from './editorial';
 import { workSchema } from '../src/lib/schema';
 import { printInputDigest } from './print-contract';
 
@@ -42,7 +43,7 @@ try{
   const meta=fixture?{author:'합성 검증 원고',shortTitle:'인쇄 경계 사례'}:config.works[work.id];if(!meta?.author||!meta.shortTitle)throw Error('Print metadata missing: '+work.id);
   const source=fixture?{aliases:{},images:[{url:'/print-fixture.svg'}]}:JSON.parse(await fs.readFile(work.reader!.manifest,'utf8')).works[work.id];
   const stress='## 첫 절\n\n한글과 **강조**, [긴 링크](https://example.com/'+('long-path-'.repeat(25))+')를 보존합니다.\n\n- 첫 목록\n  - 두 번째 목록과 원문을 보존합니다.\n\n<figure><img src="/print-fixture.svg" alt="매우 긴 세로형 도해"><figcaption>세로형 이미지의 전체 구간과 이 캡션이 함께 유지되어야 합니다.</figcaption></figure>\n\n## 긴 표\n\n|행|내용|값|\n|---|---|---|\n'+Array.from({length:65},(_,i)=>`|${i+1}|반복 머리행과 본문 순서를 검증하는 내용 ${i+1}|${i*3}|`).join('\n')+'\n\n## 긴 코드\n\n```text\n'+Array.from({length:100},(_,i)=>`LINE-${i} `+'long-code-value '.repeat(8)).join('\n')+'\n```\n\n## 마지막\n\n끝까지 보존되어야 합니다.\n';
-  const reader=renderReader(fixture?stress:await fs.readFile(work.reader!.source,'utf8'),source.aliases,source.wiki||{});
+  const reader=fixture?renderReader(stress,source.aliases,source.wiki||{}):await loadEditorial(work);
   const $=load(reader.html,null,false);
   $('a[href^="/"]').each((_,el)=>{$(el).attr('href','https://achmage-slides.vercel.app'+$(el).attr('href'));});
   // Plain source leaves are independent of pagination and synthetic header text.

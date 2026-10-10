@@ -244,6 +244,11 @@ export function validateReview(
     )
       throw Error('읽기 기능 검토 누락: ' + route);
     validateReaderNavigation(review.readerNavigation, route);
+    if(result.copySection!==true)throw Error('현재 문단 링크 복사 검토 누락: '+route);
+    for(const width of [320,1920])for(const theme of ['light','dark']){
+      const row=review.editorialViews?.find((x:any)=>x.route===route&&x.width===width&&x.theme===theme);
+      if(!row||row.overflow!==false||Math.abs(row.actualWidth-width)>1||(width===1920&&(row.columnWidth<640||row.columnWidth>721)))throw Error('편집 본문 폭 검토 누락: '+route+'/'+width+'/'+theme);
+    }
   }
   for (const [workId, proof] of Object.entries(printManifest.works)) {
     const rows = review.prints?.filter((p: any) => p.workId === workId) || [];

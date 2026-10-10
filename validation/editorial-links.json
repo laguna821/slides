@@ -1,0 +1,721 @@
+{
+  "version": "2.0.0",
+  "checkedAt": "2026-10-10T11:20:51.198Z",
+  "sources": {
+    "ai-reading-pilot": "ba539cefa084ba5c6ca4cbede9d91b65d7bb9f039c505ab8e66d8b77e7e94644",
+    "human-reading-writing-2026": "0f38d27efea7047a793a985b977f9b183a91b11ebcb33d39d369fb3e133be45d",
+    "media-colloquium-2026-06-10": "7547aedfcfec75919d918c929b2d5f45b3445ca3ce51470fd8161d450fc58e6e",
+    "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6"
+  },
+  "links": [
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s01",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s02",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "https://learning.northeastern.edu/ai-gallery-post-ai-generated-summaries-are-they-any-good/",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://learning.northeastern.edu/ai-gallery-post-ai-generated-summaries-are-they-any-good/"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "https://www.monash.edu/learning-teaching/teachhq/be-inspired/2026/using-notebooklm-as-a-reading-tutor-for-academic-literature",
+      "status": "uncertain",
+      "httpStatus": 403,
+      "finalUrl": "https://www.monash.edu/learning-teaching/teachhq/be-inspired/2026/using-notebooklm-as-a-reading-tutor-for-academic-literature",
+      "review": "공식 Monash 원문 URL 유지. 403은 자동 접근 제한으로 분류하며 만료로 단정하지 않음."
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "https://humtech.ucla.edu/instructional-support/ai-toolkit-for-the-humanities-classroom/reading-reflections-prompted-with-gen-ai/",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://humtech.ucla.edu/instructional-support/ai-toolkit-for-the-humanities-classroom/reading-reflections-prompted-with-gen-ai/"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s03",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s04",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s05",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s06",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s07",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s08",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s09",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s10",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s11",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s12",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s13",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s14",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s15",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s16",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s17",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s18",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "ai-reading-pilot",
+      "href": "/AI_reading_3week_pilot_20261008.html#s19",
+      "status": "reachable",
+      "method": "dom-id",
+      "targetSha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#1",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#2",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#3",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#4",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#5",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#6",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#7",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#8",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#9",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#10",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#11",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#12",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#13",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#14",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#15",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#16",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#17",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "href": "/decks/human-reading-writing-2026/index.html#18",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#1",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#2",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#3",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#4",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#5",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#6",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#7",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#8",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#9",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#10",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#11",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#12",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#13",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#14",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#15",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#16",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#17",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#18",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#19",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#20",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#21",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#22",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#23",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#24",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#25",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#26",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#27",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#28",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#29",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#30",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#31",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#32",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#33",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#34",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#35",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#36",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#37",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#38",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#39",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#40",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#41",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#42",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#43",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#44",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#45",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#46",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#47",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#48",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#49",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#50",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#51",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#52",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#53",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#54",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#55",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#56",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#57",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "href": "/decks/media-colloquium-2026-06-10/index.html#58",
+      "status": "reachable",
+      "method": "registered-numeric-slide",
+      "targetSha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "href": "https://doi.org/10.1016/j.patter.2023.100779",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://linkinghub.elsevier.com/retrieve/pii/S2666389923001307"
+    },
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "href": "https://link.springer.com/article/10.1007/s40979-026-00213-1",
+      "status": "uncertain",
+      "httpStatus": 200,
+      "finalUrl": "https://idp.springer.com/transit",
+      "review": "출판사 인증 경유 응답. DOI/논문 원문 주소 유지, 본문 접근 성공으로 간주하지 않음."
+    },
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "href": "http://www.journalist.or.kr",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "http://www.journalist.or.kr/"
+    }
+  ]
+}

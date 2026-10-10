@@ -20,3 +20,6 @@
 연구: AS020. 기반 AS019 정확한 revision: `research:rr-76045fcb82128e0d679449e53bfcf771:6d31a2476c4c844d17110c2129918686f06e06e2360ad4e51cba724cb6aa79a0`.
 
 AS020 조판 실험 확정 근거: `research:rr-bb0e997d844c1e4aab921944b1b3bf65:cb2fd3f3063b3f8a81d83c5ea8f8630bd4387af606497c641305e4252ba4d31c`. 결과와 한계는 [검증 기록](AS020-PRINT-VALIDATION.md)에 남긴다.
+# 편집 원고 연동 (정책 4.0.0)
+
+인쇄 엔진·A4 2단 규격은 유지한다. 원고 입력은 reader.editorialSource와 editorialManifest의 검토된 편집본으로 변경한다. 웹·본문 복사·Markdown·검색과 같은 내용을 사용하며 두 파일과 편집 로더를 PDF 입력 해시에 포함한다. 기존 PDF 주소는 보관하고 새 내용은 새 해시 URL로 발행한다.

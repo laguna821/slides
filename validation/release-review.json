@@ -1,7 +1,7 @@
 {
-  "policyVersion": "3.2.0",
+  "policyVersion": "4.0.0",
   "status": "passed",
-  "environment": "Windows Edge CUA, Astro preview4322. Reader event timing on local4323 adds read-only measurement only. 35 routes / 210 fresh viewport views; 4 readers /24 navigation cases /72 scroll samples. Additional320px, short landscape, CSS zoom2 fixture; no native zoom certification.",
+  "environment": "Windows Edge CUA; Astro preview4322. 35 routes ×3 widths ×2 themes; 24 reader navigation cases/72 scroll positions. Additional320/1920 and CSS zoom2 fixture. Native PDF viewer cannot be inspected by CUA; actual downloads and PyMuPDF verification are recorded separately.",
   "views": [
     {
       "route": "/",
@@ -544,26 +544,6 @@
       "overflow": false
     },
     {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 375,
-      "theme": "light",
-      "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualHeight": 812,
-      "actualTheme": "dark",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
       "width": 375,
       "theme": "light",
@@ -575,26 +555,6 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "dark",
-      "actualHeight": 812,
-      "actualTheme": "dark",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "theme": "light",
-      "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 375,
       "theme": "dark",
       "actualHeight": 812,
@@ -624,26 +584,6 @@
       "overflow": false
     },
     {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "theme": "light",
-      "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualHeight": 812,
-      "actualTheme": "dark",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
       "route": "/talks/media-colloquium-2026-06-10/",
       "width": 375,
       "theme": "light",
@@ -655,26 +595,6 @@
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 375,
-      "theme": "dark",
-      "actualHeight": 812,
-      "actualTheme": "dark",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 375,
-      "theme": "light",
-      "actualHeight": 812,
-      "actualTheme": "light",
-      "actualWidth": 376,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
       "width": 375,
       "theme": "dark",
       "actualHeight": 812,
@@ -1244,26 +1164,6 @@
       "overflow": false
     },
     {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
       "width": 768,
       "theme": "light",
@@ -1275,26 +1175,6 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 768,
       "theme": "dark",
       "actualHeight": 1023,
@@ -1324,26 +1204,6 @@
       "overflow": false
     },
     {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
       "route": "/talks/media-colloquium-2026-06-10/",
       "width": 768,
       "theme": "light",
@@ -1355,26 +1215,6 @@
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 768,
-      "theme": "dark",
-      "actualHeight": 1023,
-      "actualTheme": "dark",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "theme": "light",
-      "actualHeight": 1023,
-      "actualTheme": "light",
-      "actualWidth": 768,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
       "width": 768,
       "theme": "dark",
       "actualHeight": 1023,
@@ -1944,26 +1784,6 @@
       "overflow": false
     },
     {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/ai-reading-pilot/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
       "width": 1440,
       "theme": "light",
@@ -1975,26 +1795,6 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "dark",
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "actualWidth": 1440,
-      "brokenImages": [],
-      "overflow": false
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 1440,
       "theme": "dark",
       "actualHeight": 900,
@@ -2024,7 +1824,7 @@
       "overflow": false
     },
     {
-      "route": "/talks/human-reading-writing-2026/read/",
+      "route": "/talks/media-colloquium-2026-06-10/",
       "width": 1440,
       "theme": "light",
       "actualHeight": 900,
@@ -2034,7 +1834,7 @@
       "overflow": false
     },
     {
-      "route": "/talks/human-reading-writing-2026/read/",
+      "route": "/talks/media-colloquium-2026-06-10/",
       "width": 1440,
       "theme": "dark",
       "actualHeight": 900,
@@ -2044,7 +1844,7 @@
       "overflow": false
     },
     {
-      "route": "/talks/media-colloquium-2026-06-10/",
+      "route": "/videos/",
       "width": 1440,
       "theme": "light",
       "actualHeight": 900,
@@ -2054,7 +1854,207 @@
       "overflow": false
     },
     {
-      "route": "/talks/media-colloquium-2026-06-10/",
+      "route": "/videos/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 375,
+      "theme": "light",
+      "actualHeight": 812,
+      "actualTheme": "light",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualHeight": 812,
+      "actualTheme": "dark",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "theme": "light",
+      "actualHeight": 812,
+      "actualTheme": "light",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualHeight": 812,
+      "actualTheme": "dark",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "theme": "light",
+      "actualHeight": 812,
+      "actualTheme": "light",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualHeight": 812,
+      "actualTheme": "dark",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "theme": "light",
+      "actualHeight": 812,
+      "actualTheme": "light",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualHeight": 812,
+      "actualTheme": "dark",
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "theme": "light",
+      "actualHeight": 1023,
+      "actualTheme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualHeight": 1023,
+      "actualTheme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualHeight": 900,
+      "actualTheme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualHeight": 900,
+      "actualTheme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
       "width": 1440,
       "theme": "dark",
       "actualHeight": 900,
@@ -2084,7 +2084,7 @@
       "overflow": false
     },
     {
-      "route": "/videos/",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 1440,
       "theme": "light",
       "actualHeight": 900,
@@ -2094,7 +2094,7 @@
       "overflow": false
     },
     {
-      "route": "/videos/",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 1440,
       "theme": "dark",
       "actualHeight": 900,
@@ -2227,17 +2227,25 @@
     "Poster geometry retained from prior actual browser review of byte-identical assets; git diff against da94e30 confirms experiments/resources/posted assets unchanged. Site views and functional checks are fresh.",
     "PDF native authoring projection changes only21image wrapper;38pages/11actualimages/text matched"
   ],
-  "digest": "dfc9965a1b3b91480623f23a4d9310f1483591d4e6a4048c080490255df54be8",
+  "digest": "abf7f867ab0ce52ac13e5d9226c261cd614678e01b10d9f8a2fbef3cb793546b",
   "sourceFiles": {
     ".gitattributes": "cd231e6cf22100921c764fe8edda8e48b1f0ed9e6ded70d090304a237eb9818b",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
-    "AGENTS.md": "7614b9e0bc8d5c013e219949b87125d3d337a0e7710d0bf583e576bb297bfa7f",
+    "AGENTS.md": "e40079c53c7cd37adcbfd2a52aedee6a4bc1e6bd65aa2fe95a63b44106e88f74",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
+    "content/editorial/ai-reading-pilot.json": "dc48be91651a7a2cd54be84b04ba0f38ad95eacf452a169f7042f9ace0049109",
+    "content/editorial/ai-reading-pilot.md": "ba539cefa084ba5c6ca4cbede9d91b65d7bb9f039c505ab8e66d8b77e7e94644",
+    "content/editorial/educational-harness-workshop-2026-07-06.json": "76e878203e13a13a401d22bc9b459ccbb6f28ed6abc74d14b8c2fd130fda063b",
+    "content/editorial/educational-harness-workshop-2026-07-06.md": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6",
+    "content/editorial/human-reading-writing-2026.json": "abb766814156aa482f88918b5fa63ea8478e19142669dec0df3c6d123a88587f",
+    "content/editorial/human-reading-writing-2026.md": "0f38d27efea7047a793a985b977f9b183a91b11ebcb33d39d369fb3e133be45d",
+    "content/editorial/media-colloquium-2026-06-10.json": "178a2b41868dad7236ddab9abbc8968710c3126e45c4b370478b175c56ac113f",
+    "content/editorial/media-colloquium-2026-06-10.md": "7547aedfcfec75919d918c929b2d5f45b3445ca3ce51470fd8161d450fc58e6e",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
     "content/legacy.json": "d9317c659cc601b29422283af06ce0f75de36cef8bd0d589364159f9396405c1",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
-    "content/print-manifest.json": "2dbb435d691f8002e2a6a189d9210bd4070fd569db4ae44c155fd96f12d932bc",
+    "content/print-manifest.json": "b3bff6235ff24cb7c170a71a2b328fa3bc8e880aa2ee513ca17dead8009dfa52",
     "content/print.json": "83627a87744f9b1e2ef1273602f86bd33ddd72bb9172a9d2db187310dc15b838",
     "content/reading/ai-reading-pilot.md": "11f75a0b2a24026ac2bf073d960b12c43896597d1ef89e4a584deb3b92c199b7",
     "content/reading/educational-harness-workshop-2026-07-06.md": "98883f750f4d37ebaf319f6f0a55c4fbb55338b9a2cd60e83d4c12edba93c138",
@@ -2248,15 +2256,17 @@
     "content/reading/media-colloquium-2026-06-10.md": "1558c045f1756352f9f7ac269d66e24fa4853c07922d7aa6bbc508419e0ff5de",
     "content/reading/media-colloquium-2026-06-10.previous.md": "e90aed8961a7744293fe26d8099abc343e96a4d142c485f5a96ce234cbb504a0",
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
-    "content/site-policy.json": "ee17f7a25ecf6c7938e2b1943134555548b2e7dcd4efacf313540085adc90147",
+    "content/site-policy.json": "31f46f93d120caa1a0495c7859d86117709d0d443448a689b7ed1275bd7cd7eb",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/works.json": "45eb99bfeea5b4b1f04afb671a025431a92ebb4163ab82568a9c0d9346720738",
+    "content/works.json": "4c97e63adc095a465012d74934cc86c2197a6fad5a41e7b961121f5b63e9e9ba",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
     "docs/AS021-READER-NAVIGATION.md": "cd5ef298363346ac560dcd6352f8a09a123753ccf0ed6c58922180e90bdb1c49",
+    "docs/AS022-EDITORIAL-VALIDATION.md": "17c61a103f773e3ddc3318646cb05ef6c02a8d8e985c43c68a97794239bf619e",
     "docs/DEPLOYMENT.md": "c9deac473c6d2910340022d39044a1293dca208adbc7ff1c273cf01442a2c284",
     "docs/DESIGN.md": "59312c0f78bfefb2feaacf8b766ca42910ec058ec8f5d07752dc1bd45906798a",
+    "docs/EDITORIAL-CONTRACT.md": "46d2cdcda5072c03323a747c03b2f7d903cedda134457c048314b43980b7306d",
     "docs/EDUCATIONAL-HARNESS-REGISTRATION.md": "04c0190ab0b0ea59a7b2ae24ce734e96c3c0cfe8ee30fe668433d9743591450b",
     "docs/MEDIA-COLLOQUIUM-REGISTRATION.md": "23e76e10587b94532f9ce9eef52500a1ff9f8b92eb477e990e5d53ba24e615a3",
     "docs/OPERATIONS.md": "400a111e99e928058855d435f74d414a44c098eb37399698cb168da4972ea196",
@@ -2271,10 +2281,10 @@
     "docs/POSTER-SERIES-RC2-VALIDATION.md": "393e3a8c0746a2135656147dd9e9efb8be059d8dbb90d22e198fc6ae3fb0e9be",
     "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
     "docs/POSTER-SERIES.md": "a1ff674fca6c5afd5487facdc2e22ce3e10d691d6f21d12a63c55ce6875e94dd",
-    "docs/PRINT-CONTRACT.md": "2a6e83c6132387c9d549526ce53dd9b02925662b5454a43fbba24dd3b96d5761",
-    "docs/READER-CONTRACT.md": "7520c0ecd076b7ba8221de66a96ab03190e52e0d989686c605d249355befd4fb",
+    "docs/PRINT-CONTRACT.md": "2608aeedb45d084a926a260dbfc4108efec818a34eb5acecfead4201331b46df",
+    "docs/READER-CONTRACT.md": "d4b4083a4112a52c71948828c1d0b6b811a1ab81a9fbdfa46903ea867f6ae6b4",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
-    "docs/SITE-CONTRACT.md": "6061a603ba0324a6ff632005974eca1e6d5968346f8e17757db3fc0b9854fd12",
+    "docs/SITE-CONTRACT.md": "31519415497968b036b57283754c40d3c88e7f08d3ef2e1c8dabe87024aede5b",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
     "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
@@ -2465,14 +2475,20 @@
     "public/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
     "public/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
     "public/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf": "1339007e9b9e613f7cc123012a8499ec1d6aeff6b62a7ec32db1968ed0604be9",
+    "public/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf": "94e8366cbe0fd41c6fd55ec5df54da9201e2b7211e63c9401badc51961e4647f",
     "public/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf": "cda05063fe5a05fcbc809d0097aded1d2507572369feb91802e4594e32bab522",
+    "public/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf": "d3909af9a4c8041fb0b30e3f91067a0f237831394298a100b2d2a2de0c5c2757",
     "public/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf": "5efbad580004410ca1917cbc5b8036608ce4aaef136a657da298a0af563ac620",
+    "public/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf": "8788d40690d2db90adfc7b338e52cde408c9c944e4b40ba814572d92b7cdaecc",
+    "public/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf": "5924d942d6e708c162f42cb9be5a02b09ed11e14689eb0ddfa1245e8fb835d24",
     "public/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf": "c36f81c55f964c0b17beb5fb584c43b2991d9ddb9d7f08f966e4369d6d614f9e",
     "public/robots.txt": "a0a715504eab5d6b652edc6d431564f6e32cf4ee05a074a16d8fe7c2a4ac2342",
     "scripts/audit-dom.js": "3c9a609c72986a193ae874595990f82f030655c70fc49ba5bf9451de9bdd6684",
+    "scripts/audit-editorial-links.ts": "cc308cd7c7d1c93a2d4f1d578a4697edea94f1732b1bcb25dd601dba469edd72",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
+    "scripts/editorial.ts": "8cc4e09904b5af7d14e3e7765c37b14415f74fc9b0ebd9b77dd79f975b2fc3d6",
     "scripts/experiments.ts": "4994fe881c1dc92b92896d1819cdd003431f3ede26d04ef67bec68f0cd95d5d2",
-    "scripts/generate-reader-pdfs.ts": "20046d40938b63ffc60ec1a6b3f4ddc16bf84337d81ef339648cc0a88b338123",
+    "scripts/generate-reader-pdfs.ts": "5ce7521d66c4b6dd5308353259b0233a8a1ee68c3540a9dc4018400bc92e8bf5",
     "scripts/hanmark/LICENSE": "92c9f69e1fb230918f75f3674a0b7bce1b343caaa2335c2f3f7710acf73674b6",
     "scripts/hanmark/README.md": "09b744756916b361f1ec86878d94e57e44cc43d702c52a42b6a6945b2906d470",
     "scripts/hanmark/i18n.ts": "2e5d51e77b0626b420538d034dc06c65adab004fced5960f0c213315dfd6937a",
@@ -2484,24 +2500,24 @@
     "scripts/hanmark/provenance.json": "96598186f47dec5d94333fa749d6eaca44d090c100d0c6743e5ef0a1257165ab",
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/migrate-readers.ts": "edd069a7c77c58ef62aedf0cbe8d79007ddf534db6be884fd781d3871756a73c",
-    "scripts/prepare.ts": "ed178399ff082ecad89a14f0415ceee50c8029da740a8446a8e2a64ab0d9f116",
+    "scripts/prepare.ts": "926e5bd3c54e069a83cce8a497d01bee606388ea26321dc3e1e82a5e773201ec",
     "scripts/print-browser.ts": "a92f0c53f5a987d699dccbf3ba6aa190b8bf4954cd8b605e270e47e8986f4a6d",
-    "scripts/print-contract.ts": "b736db0e184d3ebe75c13133d474a64512d457ab65cbc15b586714e021c08437",
+    "scripts/print-contract.ts": "7f4bc6fd4cd2745d2591d4333b318717e7df38f6130f379a4e00fe0a9e280eb6",
     "scripts/print-profile.css": "2f1b2e5290d4d909cbe5256041c86bd77c93a10f296eaa08b8b63ab1ffc1fc11",
-    "scripts/release-gate.ts": "b49499a2501786243828a30a9e3537b47c0834ac239fb936ce2273ce0e2366ce",
+    "scripts/release-gate.ts": "a1f898dbc3b9918e7e4544c21babded9c39680a747bb8bc7c0d382de4ae1be33",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/subset-reader-svg-font.py": "0840f9c080192497a4000bdee0a2dca06d0763cee8d205e24768e82afe35bee8",
     "scripts/vendor.d.ts": "e16d6233e10d55ed14326eb30be9534e36ad5ec2d58993fbcd78e13660ae7675",
     "scripts/verify-build.ts": "4807c5018675141050cfeee7c8c208ca60110775c5e6588535e99b9c674c50e8",
     "scripts/verify-print-pdf.py": "b97149a5629e318cf3d3395f58e0af61dba48be6b6fc1d9029d72807841b005b",
-    "scripts/verify-readers.ts": "08f8a40022957f7c0b879381c5935924b5e790be773edfb62306118220debf41",
+    "scripts/verify-readers.ts": "fcbb9ffef5585d80efbd57e88820edce776f167726553ad3a0ca06708a2cc6ad",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
     "src/components/Logo.astro": "033a48ccab2f90602cd9089c2045cb01752f31c1bfb9326c65da6590422622d1",
     "src/components/ProjectResources.astro": "d7fd271bb53b98ccdd1a09b24a7998a95340bae53c96894892a3eb4b9b148123",
     "src/components/ThemeToggle.astro": "d709321e908a320ceb8acadce07dd4df1cd12939b706dd71718ca092669195a4",
     "src/components/WorkActions.astro": "eb418907c7e8512289479b8586ef7fb3e41c35baae9c4ec4d673a8d5a52151ca",
     "src/components/WorkCard.astro": "9b455c879de72a15782fe86db7c1a6980fd33ae6a21a9b2889c160a887e6145f",
-    "src/layouts/Base.astro": "833a940edf6b8d4e74c254f92d4ab7df506483196a4986a36e0906822db5ca6f",
+    "src/layouts/Base.astro": "167a7f940146cf9e0e46a15f9e9219f9229466918e3613b2ff8ef2a36694bc16",
     "src/lib/brand-wordmark.json": "b620e2c21fb1a7c9e08770955f07505b4581653af20de9bc4233e7e413de0f68",
     "src/lib/brand.ts": "cbbc9bc114f730fb711ae27f227b19402fa6ddd5a2123590f0c358c2660c96c6",
     "src/lib/captions.ts": "9e2d5346f44ba52547d28907abb417548e506ff8532cffb362dadf6217fb9a7a",
@@ -2510,11 +2526,11 @@
     "src/lib/extract.ts": "f115999b6bb0d6da9821314d3e570d088e232865ed6f66e31552fc088c185df9",
     "src/lib/media-links.ts": "3a4aa49fa2e0f4d229214aef2279a6c9f1cf4218a573cef9bc71832800e4668a",
     "src/lib/policy.ts": "cb7aaba9ded9ee8648c5f0fd3add9f9d47d16ff99bfd81946b829210e8c18a0e",
-    "src/lib/reader.ts": "637cb96d8b61e094cc9ee234b5dfc78dc0829012090d3827642e71c86ec737d3",
-    "src/lib/schema.ts": "d0a8443ead6d21552d02a647a50cf3e41e0d4eb595db7e01bfcb422ebbe055f3",
+    "src/lib/reader.ts": "bf6265c554d0850947843da3b2c2a80ceb2dd8e9fb92518331a36faf37bea2fb",
+    "src/lib/schema.ts": "b6168dee5e5b7e1c86d6912c792965a36ebadae54dcb2aaf702d260f33a1f016",
     "src/lib/search.ts": "eb717cb64a9d8929f3ed72d2b733f2df6e67ec2800ca31a2641eacd760910021",
     "src/pages/404.astro": "b29e3b4591c9ddf81a1db3ce39e61d79b27f97c613020e68d20997df9f168cf3",
-    "src/pages/about.astro": "949deaf8cbef198fc6c798e620f1557d660459f8d545ee15ad63ca94b8ad9e69",
+    "src/pages/about.astro": "d35a0af01d5e6ed92b8e7bf36433fb2f09f4ac823d99dcb1783ce07e3faf76de",
     "src/pages/archive.astro": "c38988fa68abb0ea210fa1233d5856abd477755e85cabf192657bb1111f2b883",
     "src/pages/brand.astro": "57186744b94bff106a8170a00ad20a6343dc6f7ca127b301b8cfe79e712e31e6",
     "src/pages/courses/[slug].astro": "a19fb0075b118e5b0ce44425a527bf0e8dbb80aa96f484ed8bf42c56beb89fa2",
@@ -2526,91 +2542,94 @@
     "src/pages/posters/index.astro": "ca370817c09c1ebf52bb88afa43803388f3e8a5bbdebddf32d1ceef4590b16a8",
     "src/pages/sitemap.xml.ts": "8616da4029a1d7fc1619b0c4ed398978a1f92cd68c33b9c4566f1da19f3bc5f7",
     "src/pages/talks/[slug]/index.astro": "ae4be63e75b4d0a2fa6314927e8465c5a2bb5798a2ab4fafc5fd119efe0f2f39",
-    "src/pages/talks/[slug]/read.astro": "182895c1421ccb27000d8414892e3465a379dd2824dd95f5ec954216a3d6314f",
+    "src/pages/talks/[slug]/read.astro": "ced77aadb7f88f34567b4b926871ecb3d42f4d393f859c08c2b935214a031ea3",
     "src/pages/talks/[slug]/read.md.ts": "a2c4bf8680611caf8aec26da06bb8f2f32ead7a2c2036f37300e648cc94a3e62",
     "src/pages/talks/[slug]/read.txt.ts": "f8407c5a941a2b6039a126c779d69143a305a4614694604385f0dce73893fec1",
+    "src/pages/talks/[slug]/source.md.ts": "8c7da659050d8ff674208a0987d9a89bcd7ace6a0e2f9df10d9b52e213b8be6f",
     "src/pages/videos.astro": "02f8dcbaa37599160eda841b22035dde8d09f4f15ab7c89931294fe958fd7aa7",
     "src/scripts/archive.ts": "e79aee65c3647f576f69211245dde026009ebdc07ec1e0d7a8a1eac0c614ad5c",
     "src/scripts/film.ts": "d1b1486976cd1538de7dc84cd094343ecc2e4258e06587843a067c587bcee1ad",
-    "src/scripts/reader.ts": "c17523454c9bbb9eb91f02a91f0b5e329edf406354e728e1ad5f2a027f010057",
+    "src/scripts/reader.ts": "3586821a1dd4cdc1db2676e507484720b98fe37fd328d387f9935e2a9bdb072f",
     "src/scripts/site.ts": "f725b6a8716756676810b7c1200a74e6902baaf8a38a3feba90d65cbdd86ec1e",
+    "src/styles/editorial.css": "2e5312a0aecacaa049b6b5f1ccabe2489deacaa0862d87ca04bf7eafb6a78433",
     "src/styles/global.css": "f4d4ed842ae95a77a5e9e009bd7978876049451576882bd598c7f5e4c12c851b",
     "src/styles/reader.css": "f846174e04b0fb3bf484430ed27d2a4831342a4c20668cc4775f85ff01bc9d8b",
     "src/vendor/home-search.ts": "400cebce8e60936460aee9cc5d6841a2665bf625f5fc82c223388a06c3439425",
     "src/vendor/types.ts": "5b203a6d5b57a8a4cb9998141b6afd8beec01c4f718124980180aa9695b00c74",
     "tests/as-regression.test.ts": "39806f7e41ca3c795c83144596def7f95996c54c1cf00fe6c122830d8e98ed09",
     "tests/content.test.ts": "8dda2d9ad96047bb97a3e4cab9ab32fa93244fbbaf48e2e88e674b08b4c5f36d",
+    "tests/editorial.test.ts": "d8e26246a9331209feed91c3176ca05bb7e559bb82287056b7708ce3f345cc83",
     "tests/experiments.test.ts": "64d97044e9385a18cdfe4d96f7863b8c78316b13d5c87445e2e2251775c542ad",
     "tests/governance.test.ts": "3b3af0f8971824e8b2527912e1285eb46c5a246e5fa9dbf39bb9f2d5eaf130f4",
     "tests/print.test.ts": "311ae0f9a872477dc7f4a72e021a4f91a0fdb5f7f34c7af18fcfd89e906ab6e1",
-    "tests/reader-gate.test.ts": "e046a83dafc6ab48df87430f24bd0599c05a6f08d03152f1cfb01f1755edb9ef",
+    "tests/reader-gate.test.ts": "3e5ed79bfe116300016880be4a5f8f165bff44036b686db45b1aba9721be059c",
     "tests/reader-navigation.test.ts": "66357c58a0f7928ad2807d36483cbe822d6829d9fef583e1f00e8131624c86e2",
     "tests/reader.test.ts": "e94f04ea052f4ab22da4bb2839c08fc96f4d38c27c9ba888a388e26665612c83",
     "tests/sharing.test.ts": "f30c029ff2d25f985b2d50256b70919ba9e4059fc27f9a9adcd95b21973bd5b6",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
-    "vercel.json": "f572c14d13868332d7d2f1094608b830d5de9180412a5e65f418c1e0ab52762e"
+    "vercel.json": "ed3861434ce18d7e5c89c1783726662637c1a65af01ad27ddac4f47599ad7fbe"
   },
-  "reviewedAt": "2026-10-10T10:03:09.374Z",
+  "reviewedAt": "2026-10-10T11:42:04.891Z",
   "readers": [
     {
       "route": "/talks/ai-reading-pilot/read/",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "copyText": true,
       "copyMarkdown": true,
       "download": true,
+      "copySection": true,
       "graph": true,
       "imageZoom": true,
       "imageCount": 0,
       "toc": true,
       "anchors": true,
-      "print": true,
-      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
-      "printLink": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf"
+      "printLink": "/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf",
+      "print": true
     },
     {
       "route": "/talks/human-reading-writing-2026/read/",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "copyText": true,
       "copyMarkdown": true,
       "download": true,
+      "copySection": true,
       "graph": true,
       "imageZoom": true,
       "imageCount": 15,
       "toc": true,
       "anchors": true,
-      "print": true,
-      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
-      "printLink": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf"
+      "printLink": "/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf",
+      "print": true
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/read/",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "copyText": true,
       "copyMarkdown": true,
       "download": true,
+      "copySection": true,
       "graph": true,
       "imageZoom": true,
       "imageCount": 25,
       "toc": true,
       "anchors": true,
-      "print": true,
-      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
-      "printLink": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf"
+      "printLink": "/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf",
+      "print": true
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "copyText": true,
       "copyMarkdown": true,
       "download": true,
+      "copySection": true,
       "graph": true,
       "imageZoom": true,
       "imageCount": 11,
       "toc": true,
       "anchors": true,
-      "print": true,
-      "printEvidence": "Unchanged PDF bytes and prior AS020 viewer/download receipt; live link inspected",
-      "printLink": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf"
+      "printLink": "/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
+      "print": true
     }
   ],
   "readerExtra": {
@@ -2752,8 +2771,8 @@
   "prints": [
     {
       "workId": "educational-harness-workshop-2026-07-06",
-      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf",
-      "sha256": "cda05063fe5a05fcbc809d0097aded1d2507572369feb91802e4594e32bab522",
+      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
+      "sha256": "d3909af9a4c8041fb0b30e3f91067a0f237831394298a100b2d2a2de0c5c2757",
       "pages": 13,
       "reviewedPages": [
         1,
@@ -2776,23 +2795,21 @@
       "pdfDownload": true,
       "pdfResponse200": true,
       "pdfBytesVerified": true,
-      "pdfOpen": true,
+      "pdfOpen": "browser-blocked",
       "pdfViewerUI": "unverified",
-      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+      "browserLimitation": "CUA reached the AI reader PDF URL, but native Edge PDF navigation timed out and screenshot was blank. The PDF viewer UI remains unverified. All four actual browser downloads match their hashes, and PyMuPDF renders and verifies every page."
     },
     {
       "workId": "ai-reading-pilot",
-      "url": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf",
-      "sha256": "1339007e9b9e613f7cc123012a8499ec1d6aeff6b62a7ec32db1968ed0604be9",
-      "pages": 7,
+      "url": "/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf",
+      "sha256": "94e8366cbe0fd41c6fd55ec5df54da9201e2b7211e63c9401badc51961e4647f",
+      "pages": 5,
       "reviewedPages": [
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7
+        5
       ],
       "firstPageBody": true,
       "sourceText": true,
@@ -2802,18 +2819,19 @@
       "pdfBytesVerified": true,
       "pdfOpen": "browser-blocked",
       "pdfViewerUI": "unverified",
-      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+      "browserLimitation": "CUA reached the AI reader PDF URL, but native Edge PDF navigation timed out and screenshot was blank. The PDF viewer UI remains unverified. All four actual browser downloads match their hashes, and PyMuPDF renders and verifies every page."
     },
     {
       "workId": "human-reading-writing-2026",
-      "url": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf",
-      "sha256": "5efbad580004410ca1917cbc5b8036608ce4aaef136a657da298a0af563ac620",
-      "pages": 4,
+      "url": "/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf",
+      "sha256": "8788d40690d2db90adfc7b338e52cde408c9c944e4b40ba814572d92b7cdaecc",
+      "pages": 5,
       "reviewedPages": [
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "firstPageBody": true,
       "sourceText": true,
@@ -2823,13 +2841,13 @@
       "pdfBytesVerified": true,
       "pdfOpen": "browser-blocked",
       "pdfViewerUI": "unverified",
-      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+      "browserLimitation": "CUA reached the AI reader PDF URL, but native Edge PDF navigation timed out and screenshot was blank. The PDF viewer UI remains unverified. All four actual browser downloads match their hashes, and PyMuPDF renders and verifies every page."
     },
     {
       "workId": "media-colloquium-2026-06-10",
-      "url": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf",
-      "sha256": "c36f81c55f964c0b17beb5fb584c43b2991d9ddb9d7f08f966e4369d6d614f9e",
-      "pages": 14,
+      "url": "/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf",
+      "sha256": "5924d942d6e708c162f42cb9be5a02b09ed11e14689eb0ddfa1245e8fb835d24",
+      "pages": 12,
       "reviewedPages": [
         1,
         2,
@@ -2842,9 +2860,7 @@
         9,
         10,
         11,
-        12,
-        13,
-        14
+        12
       ],
       "firstPageBody": true,
       "sourceText": true,
@@ -2854,7 +2870,7 @@
       "pdfBytesVerified": true,
       "pdfOpen": "browser-blocked",
       "pdfViewerUI": "unverified",
-      "browserLimitation": "Edge PDF extension UI blocked automation after the Harness PDF link opened a new tab. Other PDF new-tab opens and native viewer controls remain unverified. All four actual browser downloads and HTTP bytes match the manifest."
+      "browserLimitation": "CUA reached the AI reader PDF URL, but native Edge PDF navigation timed out and screenshot was blank. The PDF viewer UI remains unverified. All four actual browser downloads match their hashes, and PyMuPDF renders and verifies every page."
     }
   ],
   "printValidation": {
@@ -2878,16 +2894,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -2896,20 +2911,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 9053.9384765625,
+          "scrollY": 7069.09033203125,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 17767.271484375,
+          "scrollY": 13255.7568359375,
           "toolbarTop": 0
         }
       ]
@@ -2925,16 +2940,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -2943,20 +2957,296 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 9053.9384765625,
+          "scrollY": 7069.09033203125,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 17767.271484375,
+          "scrollY": 13255.7568359375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6280.60546875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11481.8173828125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6280.60546875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11481.8173828125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 19276.96875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 33085.453125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 19276.96875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 33085.453125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 12536.96875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 32593.33203125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
+      "actualWidth": 376,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 12536.96875,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 32593.33203125,
           "toolbarTop": 0
         }
       ]
@@ -2972,16 +3262,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -2990,20 +3279,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 8567.8779296875,
+          "scrollY": 6139.3935546875,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 16774.544921875,
+          "scrollY": 11893.3330078125,
           "toolbarTop": 0
         }
       ]
@@ -3019,16 +3308,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3037,20 +3325,296 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 8567.8779296875,
+          "scrollY": 6139.3935546875,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 16774.544921875,
+          "scrollY": 11893.3330078125,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6289.09033203125,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11849.6962890625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 6289.09033203125,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 11849.6962890625,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 21015.755859375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 36263.02734375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 21015.755859375,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 36263.02734375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "light",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 9729.0908203125,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 25229.08984375,
+          "toolbarTop": 0
+        }
+      ]
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "actualWidth": 768,
+      "theme": "dark",
+      "themeSwitch": true,
+      "themeSync": true,
+      "themePersisted": true,
+      "tocReachable": true,
+      "keyboard": true,
+      "keyboardChecks": [
+        "Enter",
+        "Shift+Tab",
+        "Escape"
+      ],
+      "scrollShift": 0,
+      "positions": [
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "start",
+          "sameRow": true,
+          "scrollY": 0,
+          "toolbarTop": 87.99241638183594
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "middle",
+          "sameRow": true,
+          "scrollY": 9729.0908203125,
+          "toolbarTop": 0
+        },
+        {
+          "controlsVisible": true,
+          "minTarget": 44.999996185302734,
+          "noOverlap": true,
+          "position": "end",
+          "sameRow": true,
+          "scrollY": 25229.08984375,
           "toolbarTop": 0
         }
       ]
@@ -3066,16 +3630,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3084,20 +3647,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 8571.5146484375,
+          "scrollY": 6276.96923828125,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 16921.81640625,
+          "scrollY": 12183.029296875,
           "toolbarTop": 0
         }
       ]
@@ -3113,16 +3676,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3131,208 +3693,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 8571.5146484375,
+          "scrollY": 6276.96923828125,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 16921.81640625,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 5287.87841796875,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 11190.908203125,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 5287.87841796875,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 11190.908203125,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 5890.302734375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 12192.1201171875,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 5890.302734375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 12192.1201171875,
+          "scrollY": 12183.029296875,
           "toolbarTop": 0
         }
       ]
@@ -3348,16 +3722,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3366,20 +3739,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 6115.1513671875,
+          "scrollY": 6489.69677734375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 12646.0595703125,
+          "scrollY": 12341.8173828125,
           "toolbarTop": 0
         }
       ]
@@ -3395,16 +3768,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3413,208 +3785,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 6115.1513671875,
+          "scrollY": 6489.69677734375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 12646.0595703125,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 19350.302734375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 37167.26953125,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 19350.302734375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 37167.26953125,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 22029.08984375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 41661.81640625,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 22029.08984375,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 41661.81640625,
+          "scrollY": 12341.8173828125,
           "toolbarTop": 0
         }
       ]
@@ -3630,16 +3814,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3648,20 +3831,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 22467.271484375,
+          "scrollY": 21666.05859375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 42616.96875,
+          "scrollY": 37468.484375,
           "toolbarTop": 0
         }
       ]
@@ -3677,16 +3860,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3695,208 +3877,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 22467.271484375,
+          "scrollY": 21666.05859375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 42616.96875,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 12792.1201171875,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 34879.390625,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "actualWidth": 376,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 12792.1201171875,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 34879.390625,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "light",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 10358.181640625,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 27296.96875,
-          "toolbarTop": 0
-        }
-      ]
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "actualWidth": 768,
-      "theme": "dark",
-      "themeSwitch": true,
-      "themeSync": true,
-      "themePersisted": true,
-      "tocReachable": true,
-      "keyboard": true,
-      "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
-      ],
-      "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
-      "positions": [
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "start",
-          "sameRow": true,
-          "scrollY": 0,
-          "toolbarTop": 87.99241638183594
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "middle",
-          "sameRow": true,
-          "scrollY": 10358.181640625,
-          "toolbarTop": 0
-        },
-        {
-          "controlsVisible": true,
-          "minTarget": 44,
-          "noOverlap": true,
-          "position": "end",
-          "sameRow": true,
-          "scrollY": 27296.96875,
+          "scrollY": 37468.484375,
           "toolbarTop": 0
         }
       ]
@@ -3912,16 +3906,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3930,20 +3923,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 10183.6357421875,
+          "scrollY": 9991.5146484375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 26910.908203125,
+          "scrollY": 25781.81640625,
           "toolbarTop": 0
         }
       ]
@@ -3959,16 +3952,15 @@
       "tocReachable": true,
       "keyboard": true,
       "keyboardChecks": [
-        "Enter toggles",
-        "Shift+Tab scrolls TOC",
-        "Escape restores focus"
+        "Enter",
+        "Shift+Tab",
+        "Escape"
       ],
       "scrollShift": 0,
-      "scrollMeasurement": "capture click through two painted frames; excludes locator auto-centering before event",
       "positions": [
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "start",
           "sameRow": true,
@@ -3977,20 +3969,20 @@
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "middle",
           "sameRow": true,
-          "scrollY": 10183.6357421875,
+          "scrollY": 9991.5146484375,
           "toolbarTop": 0
         },
         {
           "controlsVisible": true,
-          "minTarget": 44,
+          "minTarget": 44.999996185302734,
           "noOverlap": true,
           "position": "end",
           "sameRow": true,
-          "scrollY": 26910.908203125,
+          "scrollY": 25781.81640625,
           "toolbarTop": 0
         }
       ]
@@ -4138,5 +4130,209 @@
       "toolbarTop": 0
     }
   ],
-  "researchRef": "research:rr-944b523b5679c6a1f847574b6e5d7534:f68646dbcd1c116d0e8e063a96fa78428d0df84b3bf327b126c5b5a2d1f9730f"
+  "researchRef": "research:rr-944b523b5679c6a1f847574b6e5d7534:f68646dbcd1c116d0e8e063a96fa78428d0df84b3bf327b126c5b5a2d1f9730f",
+  "editorialViews": [
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 320,
+      "theme": "light",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 320,
+      "theme": "dark",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 320,
+      "theme": "light",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 320,
+      "theme": "dark",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 320,
+      "theme": "light",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 320,
+      "theme": "dark",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 320,
+      "theme": "light",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 320,
+      "theme": "dark",
+      "actualWidth": 320,
+      "bodySize": "17px",
+      "columnWidth": 270.07574462890625,
+      "h2Border": "0.606061px",
+      "h2Size": "27.2306px",
+      "hashVisible": false,
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1920,
+      "theme": "light",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1920,
+      "theme": "dark",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1920,
+      "theme": "light",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1920,
+      "theme": "dark",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1920,
+      "theme": "light",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1920,
+      "theme": "dark",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1920,
+      "theme": "light",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1920,
+      "theme": "dark",
+      "actualWidth": 1920,
+      "bodySize": "18px",
+      "columnWidth": 719.9999389648438,
+      "h2Size": "28.8324px",
+      "overflow": false
+    }
+  ],
+  "editorialZoom": [
+    {
+      "overflow": false,
+      "route": "/talks/ai-reading-pilot/read/",
+      "width": 1440,
+      "zoom": "2"
+    },
+    {
+      "overflow": false,
+      "route": "/talks/human-reading-writing-2026/read/",
+      "width": 1440,
+      "zoom": "2"
+    },
+    {
+      "overflow": false,
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 1440,
+      "zoom": "2"
+    },
+    {
+      "overflow": false,
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440,
+      "zoom": "2"
+    }
+  ]
 }

@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { load } from 'cheerio';
 import type { PublicWork } from '../src/lib/schema';
+import specs from '../content/works.json';
 export async function verifyReaders(root = 'dist') {
   const data = JSON.parse(
     await fs.readFile('src/generated/content.json', 'utf8'),
@@ -37,7 +38,7 @@ export async function verifyReaders(root = 'dist') {
     );
     for (const h of r.headings) {
       assert.equal($('#' + h.id).length, 1);
-      assert.equal($(`.reader-toc a[href="#${h.id}"]`).length, 1);
+      assert.equal($(`.reader-toc a[href="#${h.id}"]`).length, h.depth <= 3 ? 1 : 0);
     }
     assert.equal(
       await fs.readFile(root + w.href + 'read.md', 'utf8'),
@@ -49,6 +50,7 @@ export async function verifyReaders(root = 'dist') {
       r.text,
       'Copy parity',
     );
+    assert.equal(await fs.readFile(root+w.href+'source.md','utf8'),await fs.readFile(specs.find(x=>x.id===w.id)!.reader!.source,'utf8'),'Original source archive parity');
     const ids = new Set(
       $('[id]')
         .map((_, e) => $(e).attr('id')!)
