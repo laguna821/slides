@@ -1,13 +1,13 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **needs-validation**
+상태: **awaiting-user-confirmation**
 
-- 정책: 5.2.0
+- 정책: 5.2.1
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 23개
-- 배포 입력 해시: `b087e6b8ca9451dd2b267c137336137428f7e427c776f1e21caf0f7621ec5837`
-- 검토: 미완료: 현재 빌드/검증이 완료되지 않았습니다: failure
+- 변경 파일: 32개
+- 배포 입력 해시: `aafb327164a861e3126f69734a030b4f5caaf5291b649f5f0f84682ae699af0e`
+- 검토: 통과
 - 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
@@ -16,11 +16,14 @@
 - `content/editorial/survey-scale-intro-2026-10-13.md`
 - `content/i18n/en.json`
 - `content/i18n/print-manifest.json`
+- `content/presenter-notes.json`
 - `content/print-manifest.json`
 - `content/print.json`
 - `content/reading/manifest.json`
 - `content/reading/survey-scale-intro-2026-10-13.md`
+- `content/site-policy.json`
 - `content/works.json`
+- `docs/SITE-CONTRACT.md`
 - `docs/survey-scale-intro-coverage.json`
 - `docs/survey-scale-intro-provenance.json`
 - `docs/survey-scale-intro-publication.md`
@@ -34,6 +37,12 @@
 - `public/reading/pdf/human-reading-writing-2026/43d90940b44fb6a4.pdf`
 - `public/reading/pdf/media-colloquium-2026-06-10/7851ad2c862179e5.pdf`
 - `public/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf`
+- `scripts/build-english.ts`
+- `src/pages/talks/[slug]/index.astro`
+- `src/pages/talks/[slug]/read.astro`
+- `src/scripts/reader.ts`
+- `tests/english-gate.test.ts`
+- `tests/reader-inline-exports.test.ts`
 - `tests/survey-scale-intro.test.ts`
 
 ## 확인할 결과

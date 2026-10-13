@@ -1,20 +1,23 @@
 {
   "version": 1,
-  "status": "needs-validation",
-  "policyVersion": "5.2.0",
-  "digest": "b087e6b8ca9451dd2b267c137336137428f7e427c776f1e21caf0f7621ec5837",
-  "reviewHash": "ab590e26a8026693142c4466cd50d6a038f1dd044b771b4db01ce6a85b1e3b72",
+  "status": "awaiting-user-confirmation",
+  "policyVersion": "5.2.1",
+  "digest": "aafb327164a861e3126f69734a030b4f5caaf5291b649f5f0f84682ae699af0e",
+  "reviewHash": "7e680c1e6e2d5a406088af6a045c2ca9599a143d98cec5d058473ce1ed800d6c",
   "baselineCommit": "c59ed21956fdfcd991c1d6de5e01fbaaa378c47b",
   "changedFiles": [
     "content/editorial/survey-scale-intro-2026-10-13.json",
     "content/editorial/survey-scale-intro-2026-10-13.md",
     "content/i18n/en.json",
     "content/i18n/print-manifest.json",
+    "content/presenter-notes.json",
     "content/print-manifest.json",
     "content/print.json",
     "content/reading/manifest.json",
     "content/reading/survey-scale-intro-2026-10-13.md",
+    "content/site-policy.json",
     "content/works.json",
+    "docs/SITE-CONTRACT.md",
     "docs/survey-scale-intro-coverage.json",
     "docs/survey-scale-intro-provenance.json",
     "docs/survey-scale-intro-publication.md",
@@ -28,6 +31,12 @@
     "public/reading/pdf/human-reading-writing-2026/43d90940b44fb6a4.pdf",
     "public/reading/pdf/media-colloquium-2026-06-10/7851ad2c862179e5.pdf",
     "public/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf",
+    "scripts/build-english.ts",
+    "src/pages/talks/[slug]/index.astro",
+    "src/pages/talks/[slug]/read.astro",
+    "src/scripts/reader.ts",
+    "tests/english-gate.test.ts",
+    "tests/reader-inline-exports.test.ts",
     "tests/survey-scale-intro.test.ts"
   ],
   "requiredFont": {
@@ -45,8 +54,8 @@
     "ko",
     "en"
   ],
-  "reviewed": false,
-  "reason": "현재 빌드/검증이 완료되지 않았습니다: failure",
+  "reviewed": true,
+  "reason": "",
   "works": [
     {
       "id": "survey-scale-intro-2026-10-13",

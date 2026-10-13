@@ -48,6 +48,16 @@
       "notesState": "empty",
       "enginePackageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
       "provenance": "docs/educational-harness-provenance.json"
+    },
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "url": "/decks/survey-scale-intro-2026-10-13/v1.3.0/index.html",
+      "source": "/decks/survey-scale-intro-2026-10-13/v1.3.0/source.html",
+      "sourceSha256": "667626ed56b9b56b71d4b6a7d54fa3058cf92d02ec04c0c76950deb499cbcbaf",
+      "sha256": "efe1d23bdd8efd52568a5e58058447150b261494f00c2bb08f022db780d7af63",
+      "notesState": "empty",
+      "enginePackageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
+      "provenance": "docs/survey-scale-intro-provenance.json"
     }
   ],
   "verification": {
@@ -74,6 +84,17 @@
       "environment": "Edge CUA 2026-10-13; actual N popup and keyboard submit",
       "popupBlockedAutomatic": "not-tested",
       "inlinePanelLocked": true
+    },
+    "efe1d23bdd8efd52568a5e58058447150b261494f00c2bb08f022db780d7af63": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "Edge CUA 2026-10-13: N opened actual popup. Popup click timed out; same-file normal notes tab verified wrong/configured credential, relock and reload.",
+      "popupBlockedAutomatic": "not-tested"
     }
   }
 }

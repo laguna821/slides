@@ -11,5 +11,6 @@
     "rendererSha256": "b49f126b9ca421134469cea4191ee033ba84b6fddefd05ac8a73b5966e8f9fe7"
   },
   "adaptation": "Only deck-provenance machine paths and internal work/research identifiers removed. Teaching content, engine and interaction code unchanged. Source remains private and unmodified.",
-  "notesStatus": "Pending existing private credential profile; index.html currently matches sanitized source."
+  "notesStatus": "Encrypted empty notes embedded in index.html with configured project credential; source unchanged. Browser lock verification in presenter-notes manifest.",
+  "notesHtmlSha256": "efe1d23bdd8efd52568a5e58058447150b261494f00c2bb08f022db780d7af63"
 }
