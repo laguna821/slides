@@ -5,25 +5,14 @@
 - 정책: 5.1.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 12개
+- 변경 파일: 0개
 - 배포 입력 해시: `934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-- `.github/workflows/validate.yml`
-- `AGENTS.md`
-- `content/site-policy.json`
-- `docs/BILINGUAL-CONTRACT.md`
-- `docs/SITE-CONTRACT.md`
-- `docs/UPLOAD-CONTRACT.md`
-- `package.json`
-- `scripts/prepare-upload.ts`
-- `scripts/publication-approval.ts`
-- `scripts/upload-request.ts`
-- `scripts/verify-web-contract.ts`
-- `tests/publication-approval.test.ts`
+
 
 ## 확인할 결과
 

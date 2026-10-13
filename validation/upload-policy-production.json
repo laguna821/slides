@@ -1,0 +1,192 @@
+{
+  "at": "2026-10-13T02:13:34.939Z",
+  "base": "https://achmage-slides.vercel.app",
+  "rows": [
+    {
+      "url": "https://achmage-slides.vercel.app/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/about/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/archive/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/talks/achmage-sametone/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/motion/water/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/talks/ai-reading-pilot/read/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/talks/human-reading-writing-2026/read/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/talks/media-colloquium-2026-06-10/read/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/talks/educational-harness-workshop-2026-07-06/read/",
+      "status": 200,
+      "language": "ko"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/about/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/archive/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/talks/achmage-sametone/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/motion/water/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/talks/ai-reading-pilot/read/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/talks/human-reading-writing-2026/read/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/talks/media-colloquium-2026-06-10/read/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "status": 200,
+      "language": "en"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/fonts/AchmageSameTone-1.000.woff2",
+      "status": 200,
+      "bytes": 2140332,
+      "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
+      "status": 200,
+      "bytes": 8649665,
+      "sha256": "d3909af9a4c8041fb0b30e3f91067a0f237831394298a100b2d2a2de0c5c2757"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf",
+      "status": 200,
+      "bytes": 1041177,
+      "sha256": "94e8366cbe0fd41c6fd55ec5df54da9201e2b7211e63c9401badc51961e4647f"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf",
+      "status": 200,
+      "bytes": 1696773,
+      "sha256": "8788d40690d2db90adfc7b338e52cde408c9c944e4b40ba814572d92b7cdaecc"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf",
+      "status": 200,
+      "bytes": 29257080,
+      "sha256": "5924d942d6e708c162f42cb9be5a02b09ed11e14689eb0ddfa1245e8fb835d24"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/en/pdf/ai-reading-pilot/6c8777234a520fc6.pdf",
+      "status": 200,
+      "bytes": 430078,
+      "sha256": "6c8777234a520fc6fb5041c8e11ab76efcc06fe328a1e9c95dd9957775970405"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/en/pdf/human-reading-writing-2026/cb7d01e4c4e2e86c.pdf",
+      "status": 200,
+      "bytes": 1965099,
+      "sha256": "cb7d01e4c4e2e86ce71f78194971fd03d12fca5b57d64b6ddd97bc7db1300b3c"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/en/pdf/media-colloquium-2026-06-10/0454a26af372b8ac.pdf",
+      "status": 200,
+      "bytes": 28464385,
+      "sha256": "0454a26af372b8ac8e106beed81e286bfce344fedadefe879b064270c4cf72ad"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/reading/en/pdf/educational-harness-workshop-2026-07-06/65a2090a607fbfbd.pdf",
+      "status": 200,
+      "bytes": 7522064,
+      "sha256": "65a2090a607fbfbd199bba05c7d896d37af9f44397e3b7f28bf320cecb5e8d9a"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/AI_reading_3week_pilot_20261008.html",
+      "status": 200,
+      "bytes": 108435,
+      "sha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/human-reading-writing-2026/index.html",
+      "status": 200,
+      "bytes": 15429033,
+      "sha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/media-colloquium-2026-06-10/index.html",
+      "status": 200,
+      "bytes": 71626,
+      "sha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/educational-harness-workshop-2026-07-06/v1/index.html",
+      "status": 200,
+      "bytes": 26473199,
+      "sha256": "1a48bb2284832406c37fdc73be79afc9d7f7f86d078b9227f17e6589cea62453"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/educational-harness-workshop-2026-07-06/v1/dark.html",
+      "status": 200,
+      "bytes": 26473196,
+      "sha256": "e97fb55e35d01400ad626160d5ebb70e7f48ab6c2a18ed5190e512a691ddfed7"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/educational-harness-workshop-2026-07-06/v2/index.html",
+      "status": 200,
+      "bytes": 25918951,
+      "sha256": "37e64f18e100e8a5e758cd67f5cd533a927d1d6d5740afee32dfafb00f564973"
+    },
+    {
+      "url": "https://achmage-slides.vercel.app/decks/educational-harness-workshop-2026-07-06/v2/dark.html",
+      "status": 200,
+      "bytes": 25918948,
+      "sha256": "c2711e0368c3b39111c9662cdbd64b7ab317767d7833888a461e015790a00711"
+    }
+  ]
+}

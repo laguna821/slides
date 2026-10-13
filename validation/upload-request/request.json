@@ -4,21 +4,8 @@
   "policyVersion": "5.1.0",
   "digest": "934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9",
   "reviewHash": "e42513945146c173684313cceee9e09452fd30f5f80b543b54edbf7f93e03e02",
-  "baselineCommit": "b34a59591556f8d22381287dfe946f4ae1e9feae",
-  "changedFiles": [
-    ".github/workflows/validate.yml",
-    "AGENTS.md",
-    "content/site-policy.json",
-    "docs/BILINGUAL-CONTRACT.md",
-    "docs/SITE-CONTRACT.md",
-    "docs/UPLOAD-CONTRACT.md",
-    "package.json",
-    "scripts/prepare-upload.ts",
-    "scripts/publication-approval.ts",
-    "scripts/upload-request.ts",
-    "scripts/verify-web-contract.ts",
-    "tests/publication-approval.test.ts"
-  ],
+  "baselineCommit": "b37485803894b6c68b2debd00a6d65f8e1d382de",
+  "changedFiles": [],
   "requiredFont": {
     "family": "Achmage SameTone",
     "version": "1.000",
