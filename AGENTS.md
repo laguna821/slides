@@ -19,3 +19,7 @@
 ## 읽기용 PDF (사이트 정책 3.1.0)
 
 [HanMark 읽기용 PDF 계약](docs/PRINT-CONTRACT.md)을 적용한다. 모든 공개 읽기에 첫 쪽 제목·본문 통합 A4 2단 PDF가 필수다. `npm run print:generate`로 생성하고 원문·자산·조판 입력 해시와 실제 PDF 검증을 통과해야 게시할 수 있다. 변경 시 기존 읽기 전체에 소급 적용하며 발표 PDF·A2 포스터는 별도로 보존한다.
+
+## 정책 5.0.0 · SameTone 및 영문판
+
+[한·영 운영 계약](docs/BILINGUAL-CONTRACT.md)의 전체 번역·웹폰트·언어별 산출물 검증을 적용한다.

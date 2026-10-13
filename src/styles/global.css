@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Pretendard;
-  src: url('/fonts/PretendardVariable.woff2') format('woff2');
+  font-family: 'Achmage SameTone';
+  src: url('/fonts/AchmageSameTone-1.000.woff2') format('woff2');
   font-weight: 100 900;
   font-display: swap;
 }
@@ -47,7 +47,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family:
-    Pretendard,
+    'Achmage SameTone',
     -apple-system,
     BlinkMacSystemFont,
     'Malgun Gothic',
@@ -2122,3 +2122,8 @@ a[target='_blank'] {
 .poster-resource { display:grid;grid-template-columns:minmax(120px,240px) 1fr;gap:24px;margin:32px 0;scroll-margin-top:110px; }
 .poster-resource .actions { flex-wrap:wrap; }
 @media(max-width:650px){.poster-resource{grid-template-columns:1fr}.poster-preview{max-height:500px}.card-actions{flex-wrap:wrap}.month-heading{font-size:18px}}
+
+html[lang='en'] body {word-break:normal;}
+.language-switch {display:inline-flex;align-items:center;min-height:44px;min-width:44px;justify-content:center;font-size:14px;font-weight:650;}
+.site-header{flex-wrap:wrap;}
+.font-credit{font-size:14px;}

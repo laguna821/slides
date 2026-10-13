@@ -1,8 +1,9 @@
+import {ui} from '../lib/locale-client';
 const toggles = document.querySelectorAll<HTMLButtonElement>('.theme-toggle');
 function label() {
   const dark = document.documentElement.dataset.theme === 'dark';
   toggles.forEach((toggle) => {
-    const next = dark ? '밝은 화면으로 전환' : '어두운 화면으로 전환';
+    const next = dark ? ui('밝은 화면으로 전환') : ui('어두운 화면으로 전환');
     toggle.setAttribute('aria-label', next);
     toggle.setAttribute('title', next);
     toggle.setAttribute('aria-pressed', String(dark));
@@ -35,3 +36,5 @@ document.addEventListener('visibilitychange', () => {
       .querySelectorAll<HTMLMediaElement>('video,audio')
       .forEach((v) => v.pause());
 });
+
+document.querySelector<HTMLAnchorElement>('[data-language-switch]')?.addEventListener('click',event=>{const a=event.currentTarget as HTMLAnchorElement;const url=new URL(a.href);const params=new URLSearchParams(location.search);params.delete('topic');url.search=params.toString();url.hash=location.hash;a.href=url.href;});

@@ -33,7 +33,7 @@ export const workSchema = z
     takeaways: z.array(z.string()).default([]),
     productionNote: z.string().optional(),
     featuredReason: z.string().optional(),
-    kind: z.enum(['talk', 'lecture', 'motion', 'note', 'poster']),
+    kind: z.enum(['talk', 'lecture', 'motion', 'note', 'poster', 'typeface']),
     topics: z.array(z.string()).min(1),
     visibility: z.enum(['listed', 'unlisted', 'draft']),
     seo: z.enum(['index', 'noindex']),

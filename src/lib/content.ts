@@ -9,6 +9,7 @@ export const featured = listed
   .filter((w) => w.featuredOrder)
   .sort((a, b) => a.featuredOrder! - b.featuredOrder!);
 export const kindLabel: Record<string, string> = {
+  typeface: '서체',
   talk: '발표',
   lecture: '강의',
   motion: '모션',

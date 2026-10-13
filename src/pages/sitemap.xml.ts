@@ -12,7 +12,7 @@ export const GET: APIRoute = () => {
       .filter((w) => w.visibility === 'listed' && w.seo === 'index')
       .flatMap((w) => [
         w.href,
-        ...(w.kind !== 'motion' && w.readingHtml ? [w.href + 'read/'] : []),
+        ...(w.reader ? [w.href + 'read/'] : []),
       ]),
   ];
   return new Response(

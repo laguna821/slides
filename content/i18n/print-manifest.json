@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "profile": "achmage-hanmark-a4-b-inline-title-v1",
+  "works": {
+    "ai-reading-pilot": {
+      "url": "/reading/en/pdf/ai-reading-pilot/6c8777234a520fc6.pdf",
+      "sha256": "6c8777234a520fc6fb5041c8e11ab76efcc06fe328a1e9c95dd9957775970405",
+      "sourceHash": "a4fd08d5ed59d75076e0ed15029eb4113824c6caee933a362f86f0aec76eb345",
+      "inputDigest": "2667ce43e533648b26f53e5ffa1a90d993d70282704050f73f10750447906b54",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.28.2"
+      },
+      "pages": 7,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 29,
+      "pdfVerifier": "PyMuPDF 1.28.2",
+      "images": 0,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "human-reading-writing-2026": {
+      "url": "/reading/en/pdf/human-reading-writing-2026/cb7d01e4c4e2e86c.pdf",
+      "sha256": "cb7d01e4c4e2e86ce71f78194971fd03d12fca5b57d64b6ddd97bc7db1300b3c",
+      "sourceHash": "6870385fb0d7d88478d383966b70616793f092b036937c94b7d74989c0691dd3",
+      "inputDigest": "30c46dfdca027de063c2919c48aa648aaa0f2a426445cf4a185ff0b1d3393247",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.28.2"
+      },
+      "pages": 5,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 18,
+      "pdfVerifier": "PyMuPDF 1.28.2",
+      "images": 15,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "media-colloquium-2026-06-10": {
+      "url": "/reading/en/pdf/media-colloquium-2026-06-10/0454a26af372b8ac.pdf",
+      "sha256": "0454a26af372b8ac8e106beed81e286bfce344fedadefe879b064270c4cf72ad",
+      "sourceHash": "732d036c272e32c5978fa22235cf201fb8045a90a71b4f70883252b00bfb1801",
+      "inputDigest": "23ae13da9560ef0a456cee4dc4988894380f242c0e1becc3b69a7999b756d900",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.28.2"
+      },
+      "pages": 13,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 58,
+      "pdfVerifier": "PyMuPDF 1.28.2",
+      "images": 25,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "educational-harness-workshop-2026-07-06": {
+      "url": "/reading/en/pdf/educational-harness-workshop-2026-07-06/65a2090a607fbfbd.pdf",
+      "sha256": "65a2090a607fbfbd199bba05c7d896d37af9f44397e3b7f28bf320cecb5e8d9a",
+      "sourceHash": "2e6e13b20958fd21139e2da05881eadbec77e785ca35148c58d13539fa25b7d1",
+      "inputDigest": "8c1aabbdcc3ed53708d3b4dd0524d06ac8af850cf467d194ec849ef32a351912",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.28.2"
+      },
+      "pages": 15,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 3,
+      "pdfVerifier": "PyMuPDF 1.28.2",
+      "images": 11,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    }
+  }
+}

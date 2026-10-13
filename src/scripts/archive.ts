@@ -1,3 +1,4 @@
+import {ui,isEnglish} from '../lib/locale-client';
 import {
   readFilters,
   writeFilters,
@@ -84,7 +85,7 @@ if (root) {
           link.textContent =
             ' — ' +
             hit.segmentTitle +
-            (hit.entry.segmentKind === 'caption' ? ' 구간 보기' : hit.entry.segmentKind === 'poster' ? ' 포스터 보기' : ' 읽기');
+            (hit.entry.segmentKind === 'caption' ? ui(' 구간 보기') : hit.entry.segmentKind === 'poster' ? ui(' 포스터 보기') : ui(' 읽기'));
           line.append(link);
         }
       }
@@ -96,7 +97,7 @@ if (root) {
       const month=(hit.entry.date||'').slice(0,7);
       if(byMonth && month!==previousMonth){
         const h=document.createElement('h2');h.className='month-heading';
-        h.textContent=month.replace('-', '년 ')+'월 · '+result.filter(x=>(x.entry.date||'').startsWith(month)).length;
+        h.textContent=(isEnglish()?month+' · ':month.replace('-', '년 ')+'월 · ')+result.filter(x=>(x.entry.date||'').startsWith(month)).length;
         grid.append(h);previousMonth=month;
       }
       const card = cards.find((c) => c.dataset.workId === hit.entry.workId);
@@ -106,9 +107,9 @@ if (root) {
     count.textContent =
       (state.q ? '“' + state.q + '” · ' : '') +
       result.length +
-      '개 자료 / 전체 ' +
+      (isEnglish()?' resources / ':'개 자료 / 전체 ') +
       cards.length +
-      '개';
+      (isEnglish()?' total':'개');
     if (push) {
       const query = writeFilters(state);
       const next = location.pathname + (query ? '?' + query : '');
@@ -119,7 +120,7 @@ if (root) {
   if (state.year || state.topic || state.course || state.sort)
     root.querySelector<HTMLDetailsElement>('.advanced-filters')!.open = true;
   sync();
-  fetch('/search-index.json')
+  fetch(isEnglish()?'/en/search-index.json':'/search-index.json')
     .then((r) => {
       if (!r.ok) throw Error('index');
       return r.json();
@@ -131,7 +132,7 @@ if (root) {
     })
     .catch(() => {
       count.textContent =
-        '검색 데이터를 불러오지 못했습니다. 전체 자료를 둘러보거나 새로고침해 주세요.';
+        ui('검색 데이터를 불러오지 못했습니다. 전체 자료를 둘러보거나 새로고침해 주세요.');
       form
         .querySelectorAll<HTMLInputElement>('input,select,button')
         .forEach((e) => (e.disabled = true));

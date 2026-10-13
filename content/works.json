@@ -570,5 +570,41 @@
       "editorialSource": "content/editorial/educational-harness-workshop-2026-07-06.md",
       "editorialManifest": "content/editorial/educational-harness-workshop-2026-07-06.json"
     }
+  },
+  {
+    "id": "achmage-sametone",
+    "slug": "achmage-sametone",
+    "title": "Achmage SameTone",
+    "summary": "한글과 영문을 같은 리듬으로. 이 사이트에서 사용하는 9단계 가변 서체입니다.",
+    "date": "2026-10-13",
+    "registeredAt": "2026-10-13",
+    "kind": "typeface",
+    "topics": [
+      "서체",
+      "디자인",
+      "오픈소스"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "featuredOrder": 3,
+    "featuredReason": "직접 만든 서체를 실제 웹사이트의 읽기 경험으로 연결합니다.",
+    "poster": "/images/sametone-specimen.svg",
+    "posterAlt": "Achmage SameTone 1.000 · 한글과 영문, 아홉 가지 굵기",
+    "body": "Achmage SameTone 1.000은 Display 디자인을 바탕으로 만든 한글·영문 가변 서체입니다. 완성판은 현대 한글 11,172자를, Lite는 KS X1001 한글 2,350자를 제공합니다. 두 버전 모두 100–900 굵기를 지원합니다.\n\n한자를 제외하고 문자 범위를 정리하여 용량을 줄였습니다. 완성판 WOFF2는 2,140,332바이트, Lite WOFF2는 705,280바이트입니다. 한자와 일부 문자·기호는 다른 글꼴이 보완해야 합니다.\n\n이 포트폴리오는 완성판 웹폰트를 사용합니다. 배포 사이트에서 직접 입력하고 굵기를 비교하거나, 사용 범위·라이선스·다운로드를 확인할 수 있습니다.",
+    "artifacts": [
+      {
+        "id": "sametone-distribution",
+        "type": "link",
+        "role": "reference",
+        "url": "https://achmage-sametone.achmage2.chatgpt.site/",
+        "label": "서체 체험·다운로드",
+        "version": "1.000",
+        "modes": []
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [],
+    "takeaways": []
   }
 ]

@@ -56,3 +56,5 @@ body .reader-heading h1 {font-size:calc(var(--editorial-body) * 2.0273);font-wei
 @media(min-width:1500px){.reader-layout{grid-template-columns:230px minmax(0,720px) 230px;max-width:1396px;}}
 @media(max-width:1000px){.reader-layout{grid-template-columns:minmax(0,1fr);max-width:800px;}}
 @media(max-width:600px){.reader-layout{padding-inline:18px;}.reader-prose .heading-permalink{display:none;}.reader-prose :is(th,td){padding:.6em;}}
+
+html[lang='en'] body :is(.reader-prose,.prose,.editorial){word-break:normal;}

@@ -5,6 +5,7 @@ import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import experiments from '../content/experiments.json';
 import printManifest from '../content/print-manifest.json';
+import englishPrintManifest from '../content/i18n/print-manifest.json';
 import { workHref } from '../src/lib/schema';
 export const reviewRoutes = [
   ...new Set([
@@ -250,8 +251,9 @@ export function validateReview(
       if(!row||row.overflow!==false||Math.abs(row.actualWidth-width)>1||(width===1920&&(row.columnWidth<640||row.columnWidth>721)))throw Error('편집 본문 폭 검토 누락: '+route+'/'+width+'/'+theme);
     }
   }
-  for (const [workId, proof] of Object.entries(printManifest.works)) {
-    const rows = review.prints?.filter((p: any) => p.workId === workId) || [];
+  const printSets = [{manifest:printManifest,receipts:review.prints},...(routes.some(r=>r.startsWith('/en/')&&r.endsWith('/read/'))?[{manifest:englishPrintManifest,receipts:review.englishPrints}]:[])];
+  for (const set of printSets) for (const [workId, proof] of Object.entries(set.manifest.works)) {
+    const rows = set.receipts?.filter((p: any) => p.workId === workId) || [];
     const r = rows[0];
     if (
       rows.length !== 1 ||

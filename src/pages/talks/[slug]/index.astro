@@ -52,7 +52,7 @@ const outline=work.segments.filter(s=>s.kind!=='poster');
           발표 시작 ↗
         </a>
       )}
-      {work.readingHtml && (
+      {work.reader && (
         <a class="button secondary" href={work.href + 'read/'}>
           편하게 읽기
         </a>
@@ -74,6 +74,7 @@ const outline=work.segments.filter(s=>s.kind!=='poster');
           width="1440"
           height="810"
         />
+        {work.kind === 'typeface' && <div class="prose"><h2>서체 소개</h2><div set:html={work.readingHtml}/><p style="font-size:clamp(24px,4vw,48px);line-height:1.4;font-weight:650">한글과 영문, 같은 리듬.<br/>The same rhythm.</p><a class="button" href="https://achmage-sametone.achmage2.chatgpt.site/">서체 체험·다운로드 ↗</a></div>}
         {work.takeaways.length > 0 && (
           <div class="prose">
             <h2>이 자료에서 볼 내용</h2>

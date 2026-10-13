@@ -27,3 +27,7 @@ Pretendard와 Major Second 1.125 배율을 사용한다. 본문 17–18px, 행�
 기존 4편을 포함한 전체 읽기와 설명 영역에 소급 적용한다. original coverage, editorial map, image coverage, link receipts, PDF input digest를 모두 검사한다. 375/768/1440px 양 테마와 320px 좁은 화면·1920px 큰 화면, 긴 표·제목·링크·이미지 확대·키보드·고정 탐색을 검수한다. 기존 release:verify를 우회하지 않는다.
 
 연구 근거: AS022 — research:rr-63dd1455bf5e891ef29830b7ecd1e737:28647c835acb50a807cdf6d441f65149042ce679c2848071e41a2549b2215117
+
+## 정책 5.0.0 · SameTone 및 영문판
+
+[한·영 운영 계약](BILINGUAL-CONTRACT.md)의 전체 번역·웹폰트·언어별 산출물 검증을 적용한다.

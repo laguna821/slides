@@ -654,3 +654,5 @@ dialog::backdrop {
   width: 100%;
   background: #fff;
 }
+
+.reader-toolbar button{white-space:nowrap;flex-shrink:0;}

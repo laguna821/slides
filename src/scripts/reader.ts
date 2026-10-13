@@ -1,3 +1,4 @@
+import {ui} from '../lib/locale-client';
 const body = document.querySelector<HTMLElement>('#reader-body');
 const status = document.querySelector<HTMLElement>('.reader-status');
 let noticeTimer: ReturnType<typeof setTimeout>;
@@ -14,7 +15,7 @@ const fallback = document.querySelector<HTMLDialogElement>(
 async function copy(text: string) {
   try {
     await navigator.clipboard.writeText(text);
-    notice('복사했습니다.');
+    notice(ui('복사했습니다.'));
   } catch {
     fallback.querySelector('textarea')!.value = text;
     fallback.showModal();
@@ -33,7 +34,7 @@ document
         if (!r.ok) throw Error();
         await copy(await r.text());
       } catch {
-        notice('본문을 불러오지 못했습니다. Markdown 저장을 이용해 주세요.');
+        notice(ui('본문을 불러오지 못했습니다. Markdown 저장을 이용해 주세요.'));
       }
     }),
   );
@@ -117,7 +118,7 @@ headings.forEach((h) => {
   a.href = '#' + h.id;
   a.className = 'heading-permalink';
   a.textContent = '↗';
-  a.setAttribute('aria-label', '문단 링크 복사');
+  a.setAttribute('aria-label', ui('문단 링크 복사'));
   a.addEventListener('click', (e) => {
     e.preventDefault();
     history.pushState(null, '', a.hash);
@@ -128,7 +129,7 @@ headings.forEach((h) => {
 body?.querySelectorAll('pre').forEach((pre) => {
   const b = document.createElement('button');
   b.className = 'code-copy';
-  b.textContent = '코드 복사';
+  b.textContent = ui('코드 복사');
   b.addEventListener('click', () =>
     copy(pre.querySelector('code')?.textContent || ''),
   );
@@ -138,7 +139,7 @@ const imageDialog = document.querySelector<HTMLDialogElement>('#reader-image')!;
 body?.querySelectorAll<HTMLImageElement>('img').forEach((img) => {
   const b = document.createElement('button');
   b.className = 'reader-image-button';
-  b.setAttribute('aria-label', img.alt + ' 확대');
+  b.setAttribute('aria-label', img.alt + ui(' 확대'));
   img.replaceWith(b);
   b.append(img);
   b.addEventListener('click', () => {

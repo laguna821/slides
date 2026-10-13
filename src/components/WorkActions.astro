@@ -15,7 +15,7 @@ const originalActions =
     ? [{ url: work.href + '#watch', label: '영상 감상' }]
     : [
         ...(present ? [{ url: present.url, label: '슬라이드 보기' }] : []),
-        ...(work.readingHtml
+        ...(work.reader
           ? [{ url: work.href + 'read/', label: '읽기' }]
           : []),
         ...(pdf ? [{ url: pdf.url, label: 'PDF 보기' }] : []),

@@ -1,0 +1,746 @@
+{
+  "measuredAt": "2026-10-13T00:34:07.234Z",
+  "environment": "Windows Chromium151; local HTTP; cold browser cache; mobile1.6Mbps down/750Kbps up/150ms latency; native unthrottled1440; same bilingual pages and assets, CSS font/preload substitution only; no CPU throttling. Sequential alternating five runs per cell. Font ready means document.fonts.ready plus two frames; LCP is observed at that point, not a completed interaction/session.",
+  "rows": [
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 1,
+      "variant": "Pretendard",
+      "fontReadyMs": 13057.29999999702,
+      "fcpMs": 1212,
+      "lcp": 1212,
+      "cls": 0.03570222309670782,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12777.39999999106,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 1,
+      "variant": "SameTone",
+      "fontReadyMs": 13466.59999999404,
+      "fcpMs": 1204,
+      "lcp": 1204,
+      "cls": 0.02849827556584362,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13184.10000000894,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 2,
+      "variant": "SameTone",
+      "fontReadyMs": 13434.20000000298,
+      "fcpMs": 1240,
+      "lcp": 1240,
+      "cls": 0.02849827556584362,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13171.5,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 2,
+      "variant": "Pretendard",
+      "fontReadyMs": 13020.5,
+      "fcpMs": 1224,
+      "lcp": 1224,
+      "cls": 0.03570222309670782,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12751.70000000298,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 3,
+      "variant": "Pretendard",
+      "fontReadyMs": 13084.29999999702,
+      "fcpMs": 1252,
+      "lcp": 1252,
+      "cls": 0.03570222309670782,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12812.20000000298,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 3,
+      "variant": "SameTone",
+      "fontReadyMs": 13469,
+      "fcpMs": 1240,
+      "lcp": 1240,
+      "cls": 0.02849827556584362,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13185.20000000298,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 4,
+      "variant": "SameTone",
+      "fontReadyMs": 13487.09999999404,
+      "fcpMs": 1196,
+      "lcp": 1196,
+      "cls": 0.02849827556584362,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13201.90000000596,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 4,
+      "variant": "Pretendard",
+      "fontReadyMs": 13052.90000000596,
+      "fcpMs": 1192,
+      "lcp": 1192,
+      "cls": 0.03570222309670782,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12787.60000000894,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 5,
+      "variant": "Pretendard",
+      "fontReadyMs": 13051.79999999702,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.03570222309670782,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12784,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "ko",
+      "run": 5,
+      "variant": "SameTone",
+      "fontReadyMs": 13484.70000000298,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.02849827556584362,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13203.10000000894,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 1,
+      "variant": "Pretendard",
+      "fontReadyMs": 13017.79999999702,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.035536167901234574,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12762.20000000298,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 1,
+      "variant": "SameTone",
+      "fontReadyMs": 13419.29999999702,
+      "fcpMs": 1204,
+      "lcp": 1204,
+      "cls": 0.03224443703703704,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13164.60000000894,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 2,
+      "variant": "SameTone",
+      "fontReadyMs": 13453.5,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.03224443703703704,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13184.70000000298,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 2,
+      "variant": "Pretendard",
+      "fontReadyMs": 13017.70000000298,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.035536167901234574,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12765.20000000298,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 3,
+      "variant": "Pretendard",
+      "fontReadyMs": 13051.5,
+      "fcpMs": 1204,
+      "lcp": 1204,
+      "cls": 0.035536167901234574,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12795.29999999702,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 3,
+      "variant": "SameTone",
+      "fontReadyMs": 13436,
+      "fcpMs": 1192,
+      "lcp": 1192,
+      "cls": 0.03224443703703704,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13168.29999999702,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 4,
+      "variant": "SameTone",
+      "fontReadyMs": 13471,
+      "fcpMs": 1224,
+      "lcp": 1224,
+      "cls": 0.03224443703703704,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13192.09999999404,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 4,
+      "variant": "Pretendard",
+      "fontReadyMs": 13035.09999999404,
+      "fcpMs": 1188,
+      "lcp": 1188,
+      "cls": 0.035536167901234574,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12782.300000011921,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 5,
+      "variant": "Pretendard",
+      "fontReadyMs": 13037.09999999404,
+      "fcpMs": 1208,
+      "lcp": 1208,
+      "cls": 0.035536167901234574,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 12769.79999999702,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "mobile",
+      "language": "en",
+      "run": 5,
+      "variant": "SameTone",
+      "fontReadyMs": 13430.59999999404,
+      "fcpMs": 1204,
+      "lcp": 1204,
+      "cls": 0.03224443703703704,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 13169.70000000298,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 1,
+      "variant": "Pretendard",
+      "fontReadyMs": 103.29999999701977,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.4000000059604645,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 1,
+      "variant": "SameTone",
+      "fontReadyMs": 102.6000000089407,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 4,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 2,
+      "variant": "SameTone",
+      "fontReadyMs": 105.09999999403954,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 4.399999991059303,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 2,
+      "variant": "Pretendard",
+      "fontReadyMs": 86.40000000596046,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.299999997019768,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 3,
+      "variant": "Pretendard",
+      "fontReadyMs": 88.09999999403954,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.200000002980232,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 3,
+      "variant": "SameTone",
+      "fontReadyMs": 104.3999999910593,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.800000011920929,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 4,
+      "variant": "SameTone",
+      "fontReadyMs": 105,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.7000000029802322,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 4,
+      "variant": "Pretendard",
+      "fontReadyMs": 101,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.0999999940395355,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 5,
+      "variant": "Pretendard",
+      "fontReadyMs": 88.20000000298023,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.299999997019768,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "ko",
+      "run": 5,
+      "variant": "SameTone",
+      "fontReadyMs": 103,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.1000000089406967,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 1,
+      "variant": "Pretendard",
+      "fontReadyMs": 87.80000001192093,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.4000000059604645,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 1,
+      "variant": "SameTone",
+      "fontReadyMs": 88,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.5999999940395355,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 2,
+      "variant": "SameTone",
+      "fontReadyMs": 88.8999999910593,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.4000000059604645,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 2,
+      "variant": "Pretendard",
+      "fontReadyMs": 87.6000000089407,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.200000002980232,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 3,
+      "variant": "Pretendard",
+      "fontReadyMs": 86.09999999403954,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.100000008940697,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 3,
+      "variant": "SameTone",
+      "fontReadyMs": 88.40000000596046,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.2999999970197678,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 4,
+      "variant": "SameTone",
+      "fontReadyMs": 86.8999999910593,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.5,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 4,
+      "variant": "Pretendard",
+      "fontReadyMs": 88,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.200000002980232,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 5,
+      "variant": "Pretendard",
+      "fontReadyMs": 84.3999999910593,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "Pretendard, -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "PretendardVariable.woff2",
+          "duration": 4.700000002980232,
+          "encodedBodySize": 2057688,
+          "transferSize": 2057988
+        }
+      ]
+    },
+    {
+      "profile": "native",
+      "language": "en",
+      "run": 5,
+      "variant": "SameTone",
+      "fontReadyMs": 87.90000000596046,
+      "lcp": 0,
+      "cls": 0,
+      "fontFamily": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
+      "fonts": [
+        {
+          "name": "AchmageSameTone-1.000.woff2",
+          "duration": 3.800000011920929,
+          "encodedBodySize": 2140332,
+          "transferSize": 2140632
+        }
+      ]
+    }
+  ]
+}

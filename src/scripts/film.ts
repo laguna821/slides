@@ -1,3 +1,4 @@
+import {ui,isEnglish} from '../lib/locale-client';
 import { embedCode } from '../lib/media-links';
 import type { Media } from '../lib/schema';
 import { validateClip } from '../lib/clip';
@@ -65,7 +66,7 @@ if (root) {
           video.currentTime = range.start;
         } catch {
           range = null;
-          say('이 영상 길이에 맞게 구간을 다시 지정해 주세요.');
+          say(ui('이 영상 길이에 맞게 구간을 다시 지정해 주세요.'));
         }
       }
     }
@@ -85,7 +86,7 @@ if (root) {
   });
   video.addEventListener('error', () => {
     root.querySelector<HTMLElement>('[data-film-error]')!.hidden = false;
-    say('영상을 불러오지 못했습니다. 원본 영상 링크를 이용해 주세요.');
+    say(ui('영상을 불러오지 못했습니다. 원본 영상 링크를 이용해 주세요.'));
   });
   async function play(full: boolean) {
     try {
@@ -97,7 +98,7 @@ if (root) {
           });
           video.addEventListener(
             'error',
-            () => reject(Error('영상을 불러오지 못했습니다.')),
+            () => reject(Error(ui('영상을 불러오지 못했습니다.'))),
             { once: true },
           );
           video.load();
@@ -110,11 +111,11 @@ if (root) {
       await video.play();
       say(
         range
-          ? range.start + '초부터 ' + range.end + '초까지 재생합니다.'
-          : '전체 영상을 재생합니다.',
+          ? (isEnglish()?`Playing from ${range.start} to ${range.end} seconds.`:range.start + '초부터 ' + range.end + '초까지 재생합니다.')
+          : ui('전체 영상을 재생합니다.'),
       );
     } catch (e) {
-      say(e instanceof Error ? e.message : '재생을 시작하지 못했습니다.');
+      say(e instanceof Error ? e.message : ui('재생을 시작하지 못했습니다.'));
     }
   }
   root
@@ -130,7 +131,7 @@ if (root) {
         if (video.requestFullscreen) await video.requestFullscreen();
         else (video as any).webkitEnterFullscreen?.();
       } catch {
-        say('플레이어의 전체화면 버튼을 사용해 주세요.');
+        say(ui('플레이어의 전체화면 버튼을 사용해 주세요.'));
       }
     });
   root.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach((button) =>
@@ -152,7 +153,7 @@ if (root) {
           base.pathname += 'embed/';
           value = embedCode(
             base.href,
-            video.getAttribute('aria-label') || '영상',
+            video.getAttribute('aria-label') || ui('영상'),
           );
         }
         if (button.dataset.copy === 'json')
@@ -171,7 +172,7 @@ if (root) {
           );
         try {
           await navigator.clipboard.writeText(value);
-          say('복사했습니다.');
+          say(ui('복사했습니다.'));
         } catch {
           const box =
             root.querySelector<HTMLTextAreaElement>('.copy-fallback')!;
@@ -179,10 +180,10 @@ if (root) {
           box.value = value;
           box.focus();
           box.select();
-          say('아래 내용을 선택해 복사해 주세요.');
+          say(ui('아래 내용을 선택해 복사해 주세요.'));
         }
       } catch (e) {
-        say(e instanceof Error ? e.message : '구간을 확인해 주세요.');
+        say(e instanceof Error ? e.message : ui('구간을 확인해 주세요.'));
       }
     }),
   );
