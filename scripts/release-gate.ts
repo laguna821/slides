@@ -97,6 +97,7 @@ export async function releaseManifest(root = process.cwd()) {
     })) {
       const rel = dir + '/' + file.replaceAll('\\', '/');
       if (
+        rel.split('/').includes('__pycache__') ||
         rel.startsWith('src/generated/') ||
         [
           'public/search-index.json',

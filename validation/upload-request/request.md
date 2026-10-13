@@ -1,18 +1,31 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **approved**
+상태: **awaiting-user-confirmation**
 
-- 정책: 5.1.0
+- 정책: 5.2.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 0개
-- 배포 입력 해시: `934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9`
+- 변경 파일: 14개
+- 배포 입력 해시: `9f3c1bd611b94cc084775d99d32ad7c988a903bd8e064d2ba929243318383057`
 - 검토: 통과
-- 사용자 확인: 현재 해시와 일치
+- 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
-
+- `AGENTS.md`
+- `content/presenter-notes.json`
+- `content/site-policy.json`
+- `content/works.json`
+- `docs/PRESENTER-NOTES-CONTRACT.md`
+- `docs/PRESENTER-NOTES-VERIFICATION.md`
+- `public/decks/educational-harness-workshop-2026-07-06/v2-notes/dark.html`
+- `public/decks/educational-harness-workshop-2026-07-06/v2-notes/index.html`
+- `scripts/notes-contract.ts`
+- `scripts/package-notes.py`
+- `scripts/prepare.ts`
+- `scripts/release-gate.ts`
+- `tests/notes-contract.test.ts`
+- `tests/test_notes_packager.py`
 
 ## 확인할 결과
 
