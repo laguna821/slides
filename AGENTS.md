@@ -14,7 +14,7 @@
 - GitHub Actions와 Vercel buildCommand의 release:verify를 제거하거나 우회하지 않는다. 검토와 배포 버전이 같아야 한다.
 - 포스터는 승인된 스킬/뷰어 버전과 packageSha256, 공개 파일별 해시를 기록한다. 이전 출력 버전을 보존한다.
 - 기존 HTML/PDF의 본문·주소를 보존한다. 발표자 노트 평문·비밀번호·로컬 경로를 공개 데이터에 넣지 않는다.
-- 검증 완료 변경의 GitHub/Vercel 배포는 사용자에게 이미 승인된 운영 범위다. 연구 기록에 정확한 revision, 배포/복구 정보를 남긴다.
+- 게시 요청에는 [자동 감지·사용자 확인 규약](docs/UPLOAD-CONTRACT.md)을 자동 적용한다. SameTone 1.000과 한영 동시 준비·검토 후 현재 변경 내용을 사용자에게 보여주고 명시적 확인을 받는다. 과거 포괄 승인을 재사용하지 않는다. 확인 후 동일 digest/reviewHash만 자동 배포하고 원격 결과·복구 정보를 남긴다.
 
 ## 읽기용 PDF (사이트 정책 3.1.0)
 
@@ -23,3 +23,5 @@
 ## 정책 5.0.0 · SameTone 및 영문판
 
 [한·영 운영 계약](docs/BILINGUAL-CONTRACT.md)의 전체 번역·웹폰트·언어별 산출물 검증을 적용한다.
+
+정책 5.1.0부터 모든 업로드·수정 요청은 `npm run upload:prepare`와 [게시 확인 규약](docs/UPLOAD-CONTRACT.md)을 사용한다. 승인 전 준비·검사는 진행하되 main 반영/운영 배포는 하지 않는다. 사용자 실제 확인 원문·세션과 현재 해시를 기록한 후 `npm run approval:check`를 통과한다.

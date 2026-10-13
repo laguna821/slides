@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "tsx scripts/prepare.ts && astro build && tsx scripts/build-english.ts && tsx scripts/verify-build.ts && tsx scripts/verify-english.ts",
+    "build": "tsx scripts/prepare.ts && astro build && tsx scripts/build-english.ts && tsx scripts/verify-build.ts && tsx scripts/verify-english.ts && tsx scripts/verify-web-contract.ts",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check && tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
@@ -16,10 +16,13 @@
     "content:import": "tsx scripts/import-html.ts",
     "brand:build": "tsx scripts/brand-assets.ts",
     "format": "prettier --write src scripts tests docs content *.json *.mjs README.md",
-    "release:verify": "npm run build && npm run check && npm test && tsx scripts/release-gate.ts",
+    "release:verify": "npm run build && npm run check && npm test && tsx scripts/release-gate.ts && tsx scripts/publication-approval.ts",
     "print:generate": "tsx scripts/generate-reader-pdfs.ts",
     "print:test": "tsx scripts/generate-reader-pdfs.ts --fixture",
-    "print:english": "tsx scripts/build-english.ts --prepare && tsx scripts/generate-english-pdfs.ts"
+    "print:english": "tsx scripts/build-english.ts --prepare && tsx scripts/generate-english-pdfs.ts",
+    "upload:prepare": "tsx scripts/prepare-upload.ts",
+    "upload:request": "tsx scripts/upload-request.ts",
+    "approval:check": "tsx scripts/publication-approval.ts --required"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

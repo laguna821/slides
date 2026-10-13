@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.1.0",
   "contentVersion": 2,
   "minimumPosterViewer": "1.0.0-rc.6",
   "cardActions": 3,
@@ -44,5 +44,24 @@
   ],
   "experimentalPosterContract": "series-v2",
   "readerVersion": "2.0.0",
-  "printVersion": "1.0.0"
+  "printVersion": "1.0.0",
+  "webFont": {
+    "family": "Achmage SameTone",
+    "version": "1.000",
+    "edition": "Full",
+    "url": "/fonts/AchmageSameTone-1.000.woff2",
+    "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16",
+    "weights": [
+      100,
+      900
+    ]
+  },
+  "publication": {
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "confirmation": "per-release-digest-and-review",
+    "requireUserConfirmation": true
+  }
 }

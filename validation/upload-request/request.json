@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "status": "awaiting-user-confirmation",
+  "policyVersion": "5.1.0",
+  "digest": "934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9",
+  "reviewHash": "e42513945146c173684313cceee9e09452fd30f5f80b543b54edbf7f93e03e02",
+  "baselineCommit": "b34a59591556f8d22381287dfe946f4ae1e9feae",
+  "changedFiles": [
+    ".github/workflows/validate.yml",
+    "AGENTS.md",
+    "content/site-policy.json",
+    "docs/BILINGUAL-CONTRACT.md",
+    "docs/SITE-CONTRACT.md",
+    "docs/UPLOAD-CONTRACT.md",
+    "package.json",
+    "scripts/prepare-upload.ts",
+    "scripts/publication-approval.ts",
+    "scripts/upload-request.ts",
+    "scripts/verify-web-contract.ts",
+    "tests/publication-approval.test.ts"
+  ],
+  "requiredFont": {
+    "family": "Achmage SameTone",
+    "version": "1.000",
+    "edition": "Full",
+    "url": "/fonts/AchmageSameTone-1.000.woff2",
+    "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16",
+    "weights": [
+      100,
+      900
+    ]
+  },
+  "requiredLanguages": [
+    "ko",
+    "en"
+  ],
+  "reviewed": true,
+  "reason": "",
+  "works": [
+    {
+      "id": "ai-reading-pilot",
+      "title": "3주 AI 활용 읽기 파일럿",
+      "ko": "/talks/ai-reading-pilot/",
+      "en": "/en/talks/ai-reading-pilot/",
+      "reader": true
+    },
+    {
+      "id": "meal",
+      "title": "생각이 맛이 되다",
+      "ko": "/motion/meal/",
+      "en": "/en/motion/meal/",
+      "reader": false
+    },
+    {
+      "id": "racing",
+      "title": "RACING LAB · 속도를 지배하는 순간",
+      "ko": "/motion/racing/",
+      "en": "/en/motion/racing/",
+      "reader": false
+    },
+    {
+      "id": "pedal",
+      "title": "페달 · 리듬이 속도가 되는 순간",
+      "ko": "/motion/pedal/",
+      "en": "/en/motion/pedal/",
+      "reader": false
+    },
+    {
+      "id": "city",
+      "title": "도시의 맥박",
+      "ko": "/motion/city/",
+      "en": "/en/motion/city/",
+      "reader": false
+    },
+    {
+      "id": "grandeur",
+      "title": "자동차 · 움직임의 끝까지",
+      "ko": "/motion/grandeur/",
+      "en": "/en/motion/grandeur/",
+      "reader": false
+    },
+    {
+      "id": "book",
+      "title": "책 한 권이 태어나는 시간",
+      "ko": "/motion/book/",
+      "en": "/en/motion/book/",
+      "reader": false
+    },
+    {
+      "id": "flight",
+      "title": "안내표에서 비행까지",
+      "ko": "/motion/flight/",
+      "en": "/en/motion/flight/",
+      "reader": false
+    },
+    {
+      "id": "water",
+      "title": "체를 통과하는 물",
+      "ko": "/motion/water/",
+      "en": "/en/motion/water/",
+      "reader": false
+    },
+    {
+      "id": "human-reading-writing-2026",
+      "title": "인간 중심 읽기와 쓰기",
+      "ko": "/talks/human-reading-writing-2026/",
+      "en": "/en/talks/human-reading-writing-2026/",
+      "reader": true
+    },
+    {
+      "id": "media-colloquium-2026-06-10",
+      "title": "독서토론이 곧 뉴스레터다",
+      "ko": "/talks/media-colloquium-2026-06-10/",
+      "en": "/en/talks/media-colloquium-2026-06-10/",
+      "reader": true
+    },
+    {
+      "id": "educational-harness-workshop-2026-07-06",
+      "title": "Educational Harness Engineering",
+      "ko": "/talks/educational-harness-workshop-2026-07-06/",
+      "en": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "reader": true
+    },
+    {
+      "id": "achmage-sametone",
+      "title": "Achmage SameTone",
+      "ko": "/talks/achmage-sametone/",
+      "en": "/en/talks/achmage-sametone/",
+      "reader": false
+    }
+  ],
+  "confirmation": "사용자가 변경 요약과 한·영 검토 결과를 확인한 뒤 현재 요청에 대해 명시적으로 게시를 승인해야 합니다. 규약의 과거 포괄 승인을 재사용하지 않습니다."
+}
