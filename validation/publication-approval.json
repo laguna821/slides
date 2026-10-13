@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "status": "approved",
+  "scope": "portfolio-production",
+  "policyVersion": "5.1.0",
+  "digest": "934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9",
+  "reviewHash": "e42513945146c173684313cceee9e09452fd30f5f80b543b54edbf7f93e03e02",
+  "decision": {
+    "by": "user",
+    "quote": "운영에 적용",
+    "sessionId": "01a13010-784c-7001-b385-7f63c355f9c9",
+    "at": "2026-10-13T02:11:03Z"
+  },
+  "approvedSourceCommit": "07f7a8428d381e33941c41da22e291ff1186bba6"
+}
