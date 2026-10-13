@@ -49,3 +49,6 @@
 
 기계 검증·관측 기록: `validation/survey-scale-intro-preparation.json`. 승인·배포 검사를 우회하지 않았습니다.
 
+## 연구 기록
+
+R-005 정확한 개정: `research:rr-51c1bde809420262d3b3ef2603f1f5f9:5794da807b2b0f3c759ea97076a472052d01bf30e2637570746cde25c39abf95`. 게시 준비 결과와 남은 조건을 연결하며, 승인 기록으로 사용하지 않습니다.
