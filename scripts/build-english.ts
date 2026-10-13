@@ -34,7 +34,9 @@ const englishWorks=data.works.map((w:any)=>{
   $('img[src]').each((_,e)=>{const v=$(e).attr('src')!;if(figures[v])$(e).attr('src',figures[v]);});
   en.readingHtml=$.html();en.body=$.text();
   if(w.reader){
-    en.reader={...w.reader,html:en.readingHtml,text:$.text(),markdown:td.turndown(en.readingHtml),headings:w.reader.headings.map((h:any)=>({...h,title:t(h.title)})),images:w.reader.images.map((s:string)=>figures[s]||s),links:$('a[href]').map((_,e)=>$(e).attr('href')).get(),sourceHash:hash(w.reader.sourceHash+en.readingHtml+en.title+en.event)};
+    const portable=load(en.readingHtml,null,false);
+    portable('a[href^="/"],img[src^="/"]').each((_,e)=>{if(portable(e).closest('code,pre').length)return;for(const attr of ['href','src']){const value=portable(e).attr(attr);if(value?.startsWith('/')&&!value.startsWith('//'))portable(e).attr(attr,'https://achmage-slides.vercel.app'+value);}});
+    en.reader={...w.reader,html:en.readingHtml,text:$.text(),markdown:td.turndown(portable.html()),headings:w.reader.headings.map((h:any)=>({...h,title:t(h.title)})),images:w.reader.images.map((s:string)=>figures[s]||s),links:$('a[href]').map((_,e)=>$(e).attr('href')).get(),sourceHash:hash(w.reader.sourceHash+en.readingHtml+en.title+en.event)};
     en.segments=en.reader.headings.map((h:any)=>({id:h.id,title:h.title,text:h.title+' '+$('#'+h.id).nextUntil('h1,h2,h3,h4,h5,h6').text(),href:en.href+'read/#'+h.id}));
   }else en.segments=[];
   return en;

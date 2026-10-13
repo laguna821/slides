@@ -5915,7 +5915,7 @@
     "Poster geometry retained from prior actual browser review of byte-identical assets; git diff against da94e30 confirms experiments/resources/posted assets unchanged. Site views and functional checks are fresh.",
     "PDF native authoring projection changes only21image wrapper;38pages/11actualimages/text matched"
   ],
-  "digest": "c923b0426e8d0efe06a2b0efef7cbfdb07b24f27c07d55c31481e950d5286a1b",
+  "digest": "77a7a63c9fc653aeb9c81595961b86cd94ebd8dfab5a2d12cc95b06483fbc818",
   "sourceFiles": {
     ".gitattributes": "cd231e6cf22100921c764fe8edda8e48b1f0ed9e6ded70d090304a237eb9818b",
     ".github/workflows/validate.yml": "6c4560868ddbe355c2d151ad3996399346096225e0da9cd15111057afd904e4d",
@@ -6202,7 +6202,7 @@
     "scripts/audit-editorial-links.ts": "cc308cd7c7d1c93a2d4f1d578a4697edea94f1732b1bcb25dd601dba469edd72",
     "scripts/benchmark-portfolio.ts": "1f3416c4ee312b192e5c38dbd3a661c48ab9b3b3874189547d26a6d5939fa3b3",
     "scripts/brand-assets.ts": "ab5ea5985c546a15597aef613282a3b37f4b5f6c8452183b402080fe10aa776c",
-    "scripts/build-english.ts": "7efe30a772836560e0bdbbe77c14ec9ca820a010cf5bb40d7647cbcd887a3c18",
+    "scripts/build-english.ts": "dcf652353f2b2ff367b553d099fbbe9bacd0e5653a11b28f2876128c65e421f3",
     "scripts/collect-translations.ts": "50424bff1fe22f8f0a5b53c274f76acc8cdc56e757392ba1213dd1ffdf4c0c19",
     "scripts/editorial.ts": "8cc4e09904b5af7d14e3e7765c37b14415f74fc9b0ebd9b77dd79f975b2fc3d6",
     "scripts/english-print-contract.ts": "a3545dbeb4efeee7b198bb53fb6c37531936093428c80ba49776cfc833a24a3c",
@@ -6236,7 +6236,7 @@
     "scripts/vendor.d.ts": "e16d6233e10d55ed14326eb30be9534e36ad5ec2d58993fbcd78e13660ae7675",
     "scripts/verify-bilingual-deployment.ts": "6f6c8fcd7c4df05ce0f6a45873a4763a5e1e6c73bbf5ab4e2dc892bb4d66c9d1",
     "scripts/verify-build.ts": "4807c5018675141050cfeee7c8c208ca60110775c5e6588535e99b9c674c50e8",
-    "scripts/verify-english.ts": "a84b4b01acb802eb0c6f682bf0b858aaf0ea9df55ee13a560cf7684846e3f155",
+    "scripts/verify-english.ts": "0f05c27b72e345ef8b7a5efd38821e706b7e2db11a7ad8a1cf2d7d29f255c3d4",
     "scripts/verify-print-pdf.py": "b97149a5629e318cf3d3395f58e0af61dba48be6b6fc1d9029d72807841b005b",
     "scripts/verify-readers.ts": "fcbb9ffef5585d80efbd57e88820edce776f167726553ad3a0ca06708a2cc6ad",
     "src/components/FilmPlayer.astro": "f52950774ca25ae6c7ee82163e270e21f8749c4c33649de26b8386f78e1604f1",
@@ -6300,7 +6300,7 @@
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "004aee90855f61aea51ba48b2d73ff1c55f6d761523cb010a05e391937a1d5e2"
   },
-  "reviewedAt": "2026-10-13T00:34:48.184Z",
+  "reviewedAt": "2026-10-13T00:38:35.567Z",
   "readers": [
     {
       "route": "/en/talks/ai-reading-pilot/read/",

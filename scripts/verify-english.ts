@@ -17,6 +17,7 @@ for(const w of en){
  assert.equal(r('#reader-body').text(),w.reader.text);
  assert.equal(await fs.readFile('dist'+w.href+'read.txt','utf8'),w.reader.text);
  assert.equal(await fs.readFile('dist'+w.href+'read.md','utf8'),w.reader.markdown);
+ for(const url of w.reader.images)assert(w.reader.markdown.includes('https://achmage-slides.vercel.app'+url),'Markdown image must remain portable: '+url);
  assert.deepEqual(w.reader.headings.map((h:any)=>h.id),original.reader.headings.map((h:any)=>h.id));
  assert.equal(r('#reader-body img').length,original.reader.images.length);
  assert.equal(r('[data-reader-print]').attr('href'),proof.works[w.id].url);
