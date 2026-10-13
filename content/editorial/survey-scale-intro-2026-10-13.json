@@ -1,0 +1,454 @@
+{
+  "version": "2.0.0",
+  "workId": "survey-scale-intro-2026-10-13",
+  "status": "reviewed",
+  "sourceSha256": "96193468b0a073d8dcd807d095ece4d464c79734b6ac5001e6c6af03605ef868",
+  "editorialSha256": "339dd7702126028edb3b344acd6b9cfb0d635874b1c817e8c1fbb10427de09d7",
+  "review": {
+    "reviewer": "Codex / source-and-branch comparison",
+    "date": "2026-10-13",
+    "claims": "Preserved 43 slides, all branch feedback and hints; separated practice/no-answer from selection answers. Fictional distributions verified against SCENARIOS in the original runtime.",
+    "images": "The original HTML embeds no external content images. Dynamic response tools remain live in the original; their choices and labels are transcribed. Fixed respondent distributions are preserved as a numeric table.",
+    "links": "Source appendix references retained; exact link receipts are tracked in validation/editorial-links.json. The private ChatGPT conversation is described as provenance, not a public reading link."
+  },
+  "units": [
+    {
+      "id": "unit-1",
+      "sourceSha256": "bda60df06d63ef0664d70ea40f3e5bf2e2b0cc81d0d8f7fd6d9ca56695f0f961",
+      "legacyIds": [],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "7609b18e6e629419d1afe9f5fa168270e9e1a7dcf59825eba51406918a739f7d"
+    },
+    {
+      "id": "unit-2",
+      "sourceSha256": "b96054599511c23c8c7adff28778ff44c0bd995dabac5a4c126e1f98d9c54453",
+      "legacyIds": [
+        "s01"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "931e938c49ef32f57ce411a93d4234f7cfe4f9326cdadcab0dd5b2dbb85eefc4"
+    },
+    {
+      "id": "unit-3",
+      "sourceSha256": "d02ac12e9604392b09d320c72b3f02ed743b04981018da35b61fb0cf6d3783c5",
+      "legacyIds": [
+        "s02"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "b53e5cf2d0ccf3a8d17ff57217b6b26d390229ed9dd884f1da551e2e905151df"
+    },
+    {
+      "id": "unit-4",
+      "sourceSha256": "7427b9f38492eae9d7d6875d729da37522a27c9ea9d126a89e541bc9f6a04ede",
+      "legacyIds": [
+        "s03"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "1bd246cbcdaeadee1cdec7ab6c063ad10536bfd8b397c8fb58086d4517f9d597"
+    },
+    {
+      "id": "unit-5",
+      "sourceSha256": "71e6eacd75ebf7e100c2e394f2af194df695c8fd92ff0065237ef548a754d221",
+      "legacyIds": [
+        "s04"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "d613d6c1a9b02c9bfc46d14470066dad3e3bf55dbee9ad67cc4c1e490859d7f3"
+    },
+    {
+      "id": "unit-6",
+      "sourceSha256": "869bf9ab4e764e3e1c844a19a25e752a838cf95d9a9b23c2237869d8d5eba2a9",
+      "legacyIds": [
+        "s05"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "1d502e92b6fcf099cb9037887634709e350f0d7d2d5cbdcd7bf3ab2357739438"
+    },
+    {
+      "id": "unit-7",
+      "sourceSha256": "7edd547a03f10770d72d4a44dc8143e75c699de7d53a4c47ec724c1def1151c4",
+      "legacyIds": [
+        "s06"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "0d48ab19a013b38749cd57ffbcf859a7ed38da81ee1d00741db55140cf243ebc"
+    },
+    {
+      "id": "unit-8",
+      "sourceSha256": "f16913a29a8625172d9c902133dc6c1934fc7d39ce0835c71eac93b0dac7c66b",
+      "legacyIds": [
+        "l01"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "59268732bb0fc0c6b78740819d021184756352e91340d0dffea41b08f02c78f9"
+    },
+    {
+      "id": "unit-9",
+      "sourceSha256": "9654661bb5dba88075024996d295d0f35954315107b6e500c4ae75416269ee1a",
+      "legacyIds": [
+        "l02"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "0090e8216ccb54ce271a00734cac8e007fec8d10f48dfea60d6edc89c35f88ae"
+    },
+    {
+      "id": "unit-10",
+      "sourceSha256": "380cf57e6303ba4b22106b653602a5756d923752e78b3d0df98d0a5a5f30f85f",
+      "legacyIds": [
+        "l03"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "c4254fc7c75511368a28a06ac5fa9d83820ccfddd1cd1eeac9cce060b10b412b"
+    },
+    {
+      "id": "unit-11",
+      "sourceSha256": "1d355b5158db70519fcc16b97c94b853fca6669ff1c087c790ad13db4d368b23",
+      "legacyIds": [
+        "l04"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "5b05c239b501d806d1b30e4dd34f1cf0668c7449ddcfac057b3ab42fa08100b1"
+    },
+    {
+      "id": "unit-12",
+      "sourceSha256": "a9fba42c65dba6c9f703b2024de4648798447db99aa7d08c3e80a4af8651c967",
+      "legacyIds": [
+        "l05"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "3a9d0b5753c3e7236ec45264c778f22f54e68f1801ce62e0603035562f75dbbd"
+    },
+    {
+      "id": "unit-13",
+      "sourceSha256": "a6d8d5e58a6d3bd988766a19583ac3b2e1b377b234f32c9c1fcc2143aa6dee4e",
+      "legacyIds": [
+        "l06"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "ca86435e862649522625823e0c3872fc1b4c3e18a77419fb85a872d0e2a09209"
+    },
+    {
+      "id": "unit-14",
+      "sourceSha256": "497b15bf223938a67f07f0da13af7825f0867d86e282110804a47be6f8e2a9dd",
+      "legacyIds": [
+        "l07"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "04216557e2415210af6c8ddeab646464d9f9d44ac5568b9b8290a73807e1b1a2"
+    },
+    {
+      "id": "unit-15",
+      "sourceSha256": "a879b5228dcd4a021a370a7f2cab430e905d41ab42b73713dd557dfec8e836f2",
+      "legacyIds": [
+        "l08"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "5caad484ea44f7cd9c1d958b38ad390ced884bc0f111f90381779fbe39163210"
+    },
+    {
+      "id": "unit-16",
+      "sourceSha256": "6111643d306ab7bd539f5043dffaedb689af30599ac7166755ac465821942580",
+      "legacyIds": [
+        "s07"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "17ea3464f46309d889a38f78b90a7bd49091b4ca9ef2ea378d4ae9f31b4f7fa5"
+    },
+    {
+      "id": "unit-17",
+      "sourceSha256": "a2cf4b54f5af130f3f9cc848cce78a2064a11379071fd7238845f90743713354",
+      "legacyIds": [
+        "s08"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "d23d73917bfeeeb99612001713ceb230566d46e4f5608ba524eb9cd5914432c4"
+    },
+    {
+      "id": "unit-18",
+      "sourceSha256": "1c1ab28676b10f0e499ad9103ed16488f0d3955ee34de0552c2dda07c49d2aeb",
+      "legacyIds": [
+        "s09"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "c6203139e8a229657bd32d53fa4a4f11c4849ed2ad9d8f4a0ff156777bbcc7d1"
+    },
+    {
+      "id": "unit-19",
+      "sourceSha256": "7f1d1983c21a0d2c29bf971171d0dd1d611fece7a95251b9ca7d82c84cd28da9",
+      "legacyIds": [
+        "s10"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "df56bc63eeace1ee7fd6fcd5f913a2246da0ac8ebc9c12736f4f70f9aa8c5293"
+    },
+    {
+      "id": "unit-20",
+      "sourceSha256": "b7b1e7ee255135411969463f7e7d82cc252919674c868264e6728a9cad519655",
+      "legacyIds": [
+        "l09"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "e4d6772b0e5f21820b91e36b23d9bba044b50bcf52a48e75a37e81a2a20d7df8"
+    },
+    {
+      "id": "unit-21",
+      "sourceSha256": "262baf8bee9b8b039c77cdd21ebf6b585a70dad6cd15688121c7b656c2432df8",
+      "legacyIds": [
+        "l10"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "2c6fdb0c4280bcecb1c6f888f1b308d698245bd99be69c875b23e9934e035ed6"
+    },
+    {
+      "id": "unit-22",
+      "sourceSha256": "8942fa5b910e4d2bdc0b10072e7652b03809d3d7340eecd49957ff7c8db304b7",
+      "legacyIds": [
+        "l11"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "d9dd97e943d4eda6653edcd8dff924eba312ddb0471e344b3fd3526b282b84fb"
+    },
+    {
+      "id": "unit-23",
+      "sourceSha256": "f108972a619d211dcf01f15b697fa102fc5d7ac314097b077070fdaac14c2b31",
+      "legacyIds": [
+        "l12"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "1836a68aa5f3201aae78415518c1dbf426543333b497324dcc5fe27be71e6498"
+    },
+    {
+      "id": "unit-24",
+      "sourceSha256": "12c778b971ae760685aa1fd61f030ab8670f026e5d030c655498d514cc76e920",
+      "legacyIds": [
+        "l13"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "89f15223db235c37d075d39f119858f2f524c1dd69584ead4628ecf11141e6fc"
+    },
+    {
+      "id": "unit-25",
+      "sourceSha256": "b97a5bcd2fd76d3e2ec898563b0466a1df2fc9d72f3840518d6f84fa036b45d0",
+      "legacyIds": [
+        "l14"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "90238371aee27bd6d40ba464f305ef6dfa97409acd4a3f08a80d27caeacec72b"
+    },
+    {
+      "id": "unit-26",
+      "sourceSha256": "fc925c93acc3f952c9d9d41b7796b4101fa0c4d4267d301ce268ab3bc49e9d23",
+      "legacyIds": [
+        "l15"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "7e76d7032c806fae39eb911d9869cbd1f56f6802cf0f86be2611991e32ef5ba8"
+    },
+    {
+      "id": "unit-27",
+      "sourceSha256": "6b99e52235511c6651f25c30259c17cbac04f79c195783de5da534c1402c47e8",
+      "legacyIds": [
+        "l16"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "7e2385146548ce03773c01fde72959c56afe6f887390d3b24541b17c2379c1fc"
+    },
+    {
+      "id": "unit-28",
+      "sourceSha256": "f580cb02baad3a6447bb17478c0678700b79031dcfb0d300cbec3dd1383a2117",
+      "legacyIds": [
+        "l17"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "4153070bee07a64794cefa32b6f5d41372755f1e3c2849451b1f06c22c91b02d"
+    },
+    {
+      "id": "unit-29",
+      "sourceSha256": "907220b27febfe0abc8c4944e76acefcac36797cd0c0fd3ace2c02c22a9ed17d",
+      "legacyIds": [
+        "l18"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "15dd6d0a69c1704f6a00ab7656688cf94b9ec3861cc7818bfb5e815b46eb651c"
+    },
+    {
+      "id": "unit-30",
+      "sourceSha256": "198966e8eab6ff10219ada699d31de855a4e0b4364ad64fba209ab2f9aab5d36",
+      "legacyIds": [
+        "l19"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "1f4b59e32ab2a8cefd4cdd829b2a1b9728bffc2bd65d675740f51f76aa53cea2"
+    },
+    {
+      "id": "unit-31",
+      "sourceSha256": "dd9c1162ac55e53a22f0dd21cd1ecd28848a1d1f2941a0af65374233f4d50572",
+      "legacyIds": [
+        "l20"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "2b5718d2d59883be9a254c06e2afbe46068db03313043065583af2a034b93603"
+    },
+    {
+      "id": "unit-32",
+      "sourceSha256": "560d1c94312ab43be4d463efb143ffbda34766985f6232f08cb77aca17c13faa",
+      "legacyIds": [
+        "s11"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "cecc1fdc167464f892cdecae4932c89e1fca97470d6b290c37c26887e693abfa"
+    },
+    {
+      "id": "unit-33",
+      "sourceSha256": "47f37b8310844b1bc0bbb14a9b8e0cee79ca4b5e059337f36337a171bda1ae47",
+      "legacyIds": [
+        "s12"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "0b556e48a9b5e19eefa1abc5b17bfebbefd61a4feb92e0e8ca288c4271c337ac"
+    },
+    {
+      "id": "unit-34",
+      "sourceSha256": "15d8f49cced0ef004e64dac44e911f86e2f05be0ed5bfd6da4d074a2dee189a1",
+      "legacyIds": [
+        "s13"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "86986e113e33c24eaf170ba72c9fc04da5cc8c616ca111e503d04139feb95de1"
+    },
+    {
+      "id": "unit-35",
+      "sourceSha256": "38fbf5a292e93567dc04401263009bcc1fb72462f9c3fd3a2e983960086ed23c",
+      "legacyIds": [
+        "s14"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "ccb334093444bf7424463b0ace97d6c4dd743d8c6b12b778c7e4a4033bc6cd6a"
+    },
+    {
+      "id": "unit-36",
+      "sourceSha256": "b5ad5b0cf69ed1614dd7b3db7eb4e2e7486dc10882bff0ff1e8ac6c05893918d",
+      "legacyIds": [
+        "s15"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "1bcda7657ffe4f4cf2531c15343eda6519216b79f8482970308ceb21d3f1c5a8"
+    },
+    {
+      "id": "unit-37",
+      "sourceSha256": "f908d3d53f5a9280f606083c02be8acf51ac6b368a6f40f71f5c7cd7e9f49926",
+      "legacyIds": [
+        "s16"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "ddbd454f2efc47dbc158249d52236d0ad8264323697797d6bc66c1d5b1246c20"
+    },
+    {
+      "id": "unit-38",
+      "sourceSha256": "e0304a9cc5d448b96cdcf55767905bf56bcc87c8eaac8ce8b3b62c4d0d78fe88",
+      "legacyIds": [
+        "s17"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "f3d20fed61d6c40bed0d9906ce67b52ca0c7f0ef53da69d8e3827fd500ca5f94"
+    },
+    {
+      "id": "unit-39",
+      "sourceSha256": "15d86b60459f95b847e74ae447fd0444d3664907905783534f7fa88f5737f20a",
+      "legacyIds": [
+        "s18"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "e465230daeec2df79dc546d972b1415d1d2a374d8236b518e8174ac2c64d04be"
+    },
+    {
+      "id": "unit-40",
+      "sourceSha256": "554efb15ac73a02711ae876ac486508c0705683a7298fb2c6265748676258c3b",
+      "legacyIds": [
+        "s19"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "4080401f791d763b7b9daedfa9eda31687b80e6e0f8a09a2a203cad7d2f831ad"
+    },
+    {
+      "id": "unit-41",
+      "sourceSha256": "4c626b9d6374f14f4cae95ad6aa3bf8ad7c3b03f2b3edd31d6510ae0dd9fe198",
+      "legacyIds": [
+        "s20"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "c1fc4e9fc504b17ea2a15abb51d723ff4a7f7811f840eac45d4efce8095939c4"
+    },
+    {
+      "id": "unit-42",
+      "sourceSha256": "bfc35c4610e8608e76b9e491fbee469de1dd491587e931cf9506ac94b8fb434b",
+      "legacyIds": [
+        "a01"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "440297f329509ba867ac328d13bf15fc4d940141ad5fc6fb423f5535448bf2ef"
+    },
+    {
+      "id": "unit-43",
+      "sourceSha256": "cfffecafad29a9940bacb48a4ec76496789d9bdb579840202ce4e65b92353ef7",
+      "legacyIds": [
+        "a02"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "d87d19e96ee3a4bf74cdd59f8abbf60969f07644446fb8768996228b7e393872"
+    },
+    {
+      "id": "unit-44",
+      "sourceSha256": "d94542b670fb8f5e34b4cddf9156838649cd151294435401913f3e98b45166f1",
+      "legacyIds": [
+        "a03"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve instructional text and hidden-choice explanations; remove repeated page furniture and UI-only navigation labels for continuous reading.",
+      "editedSha256": "f363b075d2d5d12d9a445f760283ff924a5f80d5f53d5b101e7825ac85ffd4a6"
+    }
+  ]
+}
