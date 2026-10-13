@@ -1,86 +1,8 @@
 {
-  "policyVersion": "5.1.0",
+  "policyVersion": "5.2.0",
   "status": "passed",
   "environment": "Windows Chromium151.0.7922.34 via Playwright; static HTTP4330. 70 routes ×3 widths ×2 themes=420 views; 8 bilingual readers,48 navigation cases/144 positions,32 extra width/theme cases,8 actual PDF downloads. Theme activation preserves scroll; automation focus scroll is separately recorded. Original pinned posters and Korean PDFs retain prior visual receipts after hash equality checks; English40 PDF pages visually reviewed from PyMuPDF renders.",
   "views": [
-    {
-      "route": "/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-375-dark.png"
-    },
-    {
-      "route": "/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-375-light.png"
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-768-light.png"
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-1440-light.png"
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-768-dark.png"
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_-1440-dark.png"
-    },
     {
       "route": "/404.html",
       "width": 375,
@@ -238,58 +160,6 @@
       "screenshot": ".local/i18n/review/_about_-1440-light.png"
     },
     {
-      "route": "/archive/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-375-light.png"
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-768-light.png"
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-768-dark.png"
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-1440-light.png"
-    },
-    {
       "route": "/brand/",
       "width": 375,
       "theme": "light",
@@ -301,19 +171,6 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_brand_-375-light.png"
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-1440-dark.png"
     },
     {
       "route": "/brand/",
@@ -420,19 +277,6 @@
       "screenshot": ".local/i18n/review/_courses_-768-light.png"
     },
     {
-      "route": "/archive/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_archive_-375-dark.png"
-    },
-    {
       "route": "/courses/",
       "width": 768,
       "theme": "dark",
@@ -470,84 +314,6 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_courses_-1440-dark.png"
-    },
-    {
-      "route": "/en/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-375-light.png"
-    },
-    {
-      "route": "/en/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-375-dark.png"
-    },
-    {
-      "route": "/en/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-768-light.png"
-    },
-    {
-      "route": "/en/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-768-dark.png"
-    },
-    {
-      "route": "/en/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-1440-dark.png"
-    },
-    {
-      "route": "/en/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_-1440-light.png"
     },
     {
       "route": "/en/404.html",
@@ -706,58 +472,6 @@
       "screenshot": ".local/i18n/review/_en_about_-1440-light.png"
     },
     {
-      "route": "/en/archive/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-375-light.png"
-    },
-    {
-      "route": "/en/archive/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-768-light.png"
-    },
-    {
-      "route": "/en/archive/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-375-dark.png"
-    },
-    {
-      "route": "/en/archive/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-768-dark.png"
-    },
-    {
       "route": "/en/brand/",
       "width": 375,
       "theme": "light",
@@ -769,19 +483,6 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_en_brand_-375-light.png"
-    },
-    {
-      "route": "/en/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-1440-light.png"
     },
     {
       "route": "/en/brand/",
@@ -808,19 +509,6 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_en_brand_-768-light.png"
-    },
-    {
-      "route": "/en/archive/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_archive_-1440-dark.png"
     },
     {
       "route": "/en/brand/",
@@ -2660,218 +2348,6 @@
       "screenshot": ".local/i18n/review/_en_talks_ai_reading_pilot_read_-1440-light.png"
     },
     {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-375-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-768-dark.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-768-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-375-dark.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-1440-dark.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_-1440-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [
-        {
-          "tag": "THEAD",
-          "class": "",
-          "text": "\n\n Week \n Category \n Question 1 · Type A \n Question 2 · Type B \n\n"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week \n Category \n Question 1 · Type A \n Question 2 · Type B \n"
-        },
-        {
-          "tag": "TH",
-          "class": "",
-          "text": " Question 2 · Type B "
-        },
-        {
-          "tag": "TBODY",
-          "class": "",
-          "text": "\n Week 2 (3/16) \n Self-awareness and self-narrative \n What kind of person do I t"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week 2 (3/16) \n Self-awareness and self-narrative \n What kind of person do I t"
-        },
-        {
-          "tag": "TD",
-          "class": "",
-          "text": " Have I ever felt that how others see me differs from how I see myself? If so, w"
-        },
-        {
-          "tag": "STRONG",
-          "class": "",
-          "text": " Have I ever felt that how others see me differs from how I see myself? If so, w"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week 3 (3/23) \n The gap between words and actions \n What do I often say is imp"
-        }
-      ],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-375-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-768-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [
-        {
-          "tag": "THEAD",
-          "class": "",
-          "text": "\n\n Week \n Category \n Question 1 · Type A \n Question 2 · Type B \n\n"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week \n Category \n Question 1 · Type A \n Question 2 · Type B \n"
-        },
-        {
-          "tag": "TH",
-          "class": "",
-          "text": " Question 2 · Type B "
-        },
-        {
-          "tag": "TBODY",
-          "class": "",
-          "text": "\n Week 2 (3/16) \n Self-awareness and self-narrative \n What kind of person do I t"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week 2 (3/16) \n Self-awareness and self-narrative \n What kind of person do I t"
-        },
-        {
-          "tag": "TD",
-          "class": "",
-          "text": " Have I ever felt that how others see me differs from how I see myself? If so, w"
-        },
-        {
-          "tag": "STRONG",
-          "class": "",
-          "text": " Have I ever felt that how others see me differs from how I see myself? If so, w"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n Week 3 (3/23) \n The gap between words and actions \n What do I often say is imp"
-        }
-      ],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-375-dark.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-768-dark.png"
-    },
-    {
       "route": "/en/talks/human-reading-writing-2026/",
       "width": 375,
       "theme": "light",
@@ -2883,32 +2359,6 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_en_talks_human_reading_writing_2026_-375-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-1440-light.png"
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_en_talks_educational_harness_workshop_2026_07_06_read_-1440-dark.png"
     },
     {
       "route": "/en/talks/human-reading-writing-2026/",
@@ -5164,244 +4614,6 @@
       "screenshot": ".local/i18n/review/_talks_ai_reading_pilot_read_-1440-light.png"
     },
     {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-375-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-375-dark.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-768-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-768-dark.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-1440-dark.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_-1440-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [
-        {
-          "tag": "THEAD",
-          "class": "",
-          "text": "\n\n주차\n종류\n질문1 - A type\n질문2 - B type\n\n"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n주차\n종류\n질문1 - A type\n질문2 - B type\n"
-        },
-        {
-          "tag": "TH",
-          "class": "",
-          "text": "질문2 - B type"
-        },
-        {
-          "tag": "TBODY",
-          "class": "",
-          "text": "\n2주차 (3/16)\n자기 인식과 자기 서사\n나는 나를 어떤 사람이라고 생각하는데, 최근 그 생각이 흔들린 순간은 언제였는가?\n나는 남들이 보는"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n2주차 (3/16)\n자기 인식과 자기 서사\n나는 나를 어떤 사람이라고 생각하는데, 최근 그 생각이 흔들린 순간은 언제였는가?\n나는 남들이 보는"
-        },
-        {
-          "tag": "TD",
-          "class": "",
-          "text": "나는 남들이 보는 나와 내가 생각하는 내가 다르다고 느낀 적이 있는가? 있다면 무엇이 달랐는가?"
-        },
-        {
-          "tag": "STRONG",
-          "class": "",
-          "text": "나는 남들이 보는 나와 내가 생각하는 내가 다르다고 느낀 적이 있는가? 있다면 무엇이 달랐는가?"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n3주차 (3/23)\n말과 행동의 틈\n나는 중요하다고 자주 말하지만, 실제로 꾸준히 지키지 못하는 것은 무엇인가?\n나는 싫다고 말하면서도 반복해"
-        }
-      ],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-375-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [
-        {
-          "tag": "THEAD",
-          "class": "",
-          "text": "\n\n주차\n종류\n질문1 - A type\n질문2 - B type\n\n"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n주차\n종류\n질문1 - A type\n질문2 - B type\n"
-        },
-        {
-          "tag": "TH",
-          "class": "",
-          "text": "질문2 - B type"
-        },
-        {
-          "tag": "TBODY",
-          "class": "",
-          "text": "\n2주차 (3/16)\n자기 인식과 자기 서사\n나는 나를 어떤 사람이라고 생각하는데, 최근 그 생각이 흔들린 순간은 언제였는가?\n나는 남들이 보는"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n2주차 (3/16)\n자기 인식과 자기 서사\n나는 나를 어떤 사람이라고 생각하는데, 최근 그 생각이 흔들린 순간은 언제였는가?\n나는 남들이 보는"
-        },
-        {
-          "tag": "TD",
-          "class": "",
-          "text": "나는 남들이 보는 나와 내가 생각하는 내가 다르다고 느낀 적이 있는가? 있다면 무엇이 달랐는가?"
-        },
-        {
-          "tag": "STRONG",
-          "class": "",
-          "text": "나는 남들이 보는 나와 내가 생각하는 내가 다르다고 느낀 적이 있는가? 있다면 무엇이 달랐는가?"
-        },
-        {
-          "tag": "TR",
-          "class": "",
-          "text": "\n3주차 (3/23)\n말과 행동의 틈\n나는 중요하다고 자주 말하지만, 실제로 꾸준히 지키지 못하는 것은 무엇인가?\n나는 싫다고 말하면서도 반복해"
-        }
-      ],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-375-dark.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-768-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-768-dark.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-1440-light.png"
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualHeight": 900,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": [],
-      "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
-      "overflowElements": [],
-      "screenshot": ".local/i18n/review/_talks_educational_harness_workshop_2026_07_06_read_-1440-dark.png"
-    },
-    {
       "route": "/talks/human-reading-writing-2026/",
       "width": 375,
       "theme": "light",
@@ -5790,6 +5002,390 @@
       "font": "\"Achmage SameTone\", -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", sans-serif",
       "overflowElements": [],
       "screenshot": ".local/i18n/review/_videos_-1440-dark.png"
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/archive/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/archive/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/archive/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/archive/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375
+    },
+    {
+      "actualWidth": 376,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/archive/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/archive/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/archive/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/archive/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768
+    },
+    {
+      "actualWidth": 768,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/archive/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/archive/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/archive/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/archive/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "light",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440
+    },
+    {
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 1440
     }
   ],
   "posterGeometry": [
@@ -5915,11 +5511,11 @@
     "Poster geometry retained from prior actual browser review of byte-identical assets; git diff against da94e30 confirms experiments/resources/posted assets unchanged. Site views and functional checks are fresh.",
     "PDF native authoring projection changes only21image wrapper;38pages/11actualimages/text matched"
   ],
-  "digest": "934471ced6b2af25601ebc4b0f5541195f0079a4d9d54e3c75b703c5956890f9",
+  "digest": "9f3c1bd611b94cc084775d99d32ad7c988a903bd8e064d2ba929243318383057",
   "sourceFiles": {
     ".gitattributes": "cd231e6cf22100921c764fe8edda8e48b1f0ed9e6ded70d090304a237eb9818b",
     ".github/workflows/validate.yml": "a97826944b0d67f373cc73db6eb498d050fca2f3ec991b5ec41d84a7f098855e",
-    "AGENTS.md": "fe09e93ea6fad008eb2316bcf3cfa78eda270931c43d2d9cdddb8fb24aeb00b7",
+    "AGENTS.md": "fa5b140672130c015d443b2d81cbe50934675ed8efab1ddbe59ad3933e6b67ad",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
     "content/editorial/ai-reading-pilot.json": "dc48be91651a7a2cd54be84b04ba0f38ad95eacf452a169f7042f9ace0049109",
@@ -5938,6 +5534,7 @@
     "content/i18n/print-manifest.json": "82bf10fa68e99fda1ea6a434fe6e7d13cc72256a1afd351231a2aa5d6684fbf2",
     "content/legacy.json": "d9317c659cc601b29422283af06ce0f75de36cef8bd0d589364159f9396405c1",
     "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
+    "content/presenter-notes.json": "d7cc59d513023ab096a4dc49f14f72d075168b4a3dce05fa498c41e56c394763",
     "content/print-manifest.json": "b3bff6235ff24cb7c170a71a2b328fa3bc8e880aa2ee513ca17dead8009dfa52",
     "content/print.json": "83627a87744f9b1e2ef1273602f86bd33ddd72bb9172a9d2db187310dc15b838",
     "content/reading/ai-reading-pilot.md": "11f75a0b2a24026ac2bf073d960b12c43896597d1ef89e4a584deb3b92c199b7",
@@ -5949,9 +5546,9 @@
     "content/reading/media-colloquium-2026-06-10.md": "1558c045f1756352f9f7ac269d66e24fa4853c07922d7aa6bbc508419e0ff5de",
     "content/reading/media-colloquium-2026-06-10.previous.md": "e90aed8961a7744293fe26d8099abc343e96a4d142c485f5a96ce234cbb504a0",
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
-    "content/site-policy.json": "7148d1ef59964b0f63400b1c4694f50db2e5799bc43d7b332f1704cac1e60fa7",
+    "content/site-policy.json": "6a5a75a3e33445cb30b49d46ec808dc6a8731d4e0f1229f794bf1b2db8d65958",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/works.json": "a6e87373a92adf252f9004a9a51ca276bc5be1fe6c632027ea9c5680ecd5ad97",
+    "content/works.json": "c86aed3cbfb8bb94cb03efd9683cb2219fc75f285ee0286282fc9413a9f85e3a",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
@@ -5976,6 +5573,8 @@
     "docs/POSTER-SERIES-RC2-VALIDATION.md": "393e3a8c0746a2135656147dd9e9efb8be059d8dbb90d22e198fc6ae3fb0e9be",
     "docs/POSTER-SERIES-VALIDATION.md": "753c3b6a39e0f9e6181e9bc0e3a577be3db2df0f01cbb9032ee1aaa1add59cbb",
     "docs/POSTER-SERIES.md": "a1ff674fca6c5afd5487facdc2e22ce3e10d691d6f21d12a63c55ce6875e94dd",
+    "docs/PRESENTER-NOTES-CONTRACT.md": "fb7d2d3927e69ae566e8b0834d39656581aa92c047d9909d595170cda3587860",
+    "docs/PRESENTER-NOTES-VERIFICATION.md": "8e8432f6f65db976cc24527591df396a30c3580c8c962f2b6a037057ca194c03",
     "docs/PRINT-CONTRACT.md": "2608aeedb45d084a926a260dbfc4108efec818a34eb5acecfead4201331b46df",
     "docs/READER-CONTRACT.md": "d4b4083a4112a52c71948828c1d0b6b811a1ab81a9fbdfa46903ea867f6ae6b4",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
@@ -6020,6 +5619,8 @@
     "public/decks/educational-harness-workshop-2026-07-06/v1/index.html": "c2a3de53d2f743c508d321927bf0220ecf86c7310b69956e29a625ac09138814",
     "public/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf": "fb3554fd756187b17e03a20ed9323eb2c9d74b15093a5fc47baf158ecd36f4be",
     "public/decks/educational-harness-workshop-2026-07-06/v1/source.md": "82f3bada5bdb4d95ef47f8e595df056927d1e6f26c19403f779140052d4e19e7",
+    "public/decks/educational-harness-workshop-2026-07-06/v2-notes/dark.html": "8a3882b0a8fa5002c8844a851704083136972ebbf3dace2b7cc4d056367a1bc8",
+    "public/decks/educational-harness-workshop-2026-07-06/v2-notes/index.html": "f1bc387bb19f16cd0355a07cbfbb3d319d7f200642e68a360cc2291ffe71a744",
     "public/decks/educational-harness-workshop-2026-07-06/v2/assets/source-01.png": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50",
     "public/decks/educational-harness-workshop-2026-07-06/v2/assets/source-02.jpg": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811",
     "public/decks/educational-harness-workshop-2026-07-06/v2/assets/source-03.png": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479",
@@ -6223,13 +5824,15 @@
     "scripts/import-html.ts": "2572888e48a90581551aee5ccc7a0fe079b2299fb64454238ea7c22bf7944820",
     "scripts/localization.ts": "4e9040a5545845467826595b7002c0a56a7f8d1d9a7cf2a1805a5dc7a85108ea",
     "scripts/migrate-readers.ts": "edd069a7c77c58ef62aedf0cbe8d79007ddf534db6be884fd781d3871756a73c",
+    "scripts/notes-contract.ts": "b24fb8a2722f64b49e2f1967f4afe347a243f9813f9884c3e7d9fbe21c7be2f9",
+    "scripts/package-notes.py": "64b7b38af03a5b8790954dc823dde68e939f5d9732bf252c51fdb2b9c1c74c38",
     "scripts/prepare-upload.ts": "1333c50ee9cc2c0d35b845fbe55c23a5793a971f5cc7be3dbff7c66b0b070457",
-    "scripts/prepare.ts": "926e5bd3c54e069a83cce8a497d01bee606388ea26321dc3e1e82a5e773201ec",
+    "scripts/prepare.ts": "38133b1793814ae4baeeac084eb2801d794e564a0fb7e357bb9d005f2fa3444c",
     "scripts/print-browser.ts": "a92f0c53f5a987d699dccbf3ba6aa190b8bf4954cd8b605e270e47e8986f4a6d",
     "scripts/print-contract.ts": "7f4bc6fd4cd2745d2591d4333b318717e7df38f6130f379a4e00fe0a9e280eb6",
     "scripts/print-profile.css": "2f1b2e5290d4d909cbe5256041c86bd77c93a10f296eaa08b8b63ab1ffc1fc11",
     "scripts/publication-approval.ts": "0c0162f9caa09a05a1cb725a89dccf7c978b9514e5aede3ba947506873d2b578",
-    "scripts/release-gate.ts": "1baa4b79c42470ee3b73cd64a5ee48bebc36ba6473ee89791707e8c120b903a4",
+    "scripts/release-gate.ts": "ab77b4682e8b4cc009f5258078adf7ef535e6f2afb7cb011ba4cf19bcd9966eb",
     "scripts/resource-files.ts": "6aa08bc1f88b4c1a3149a3206d1f551c92cdbaaaaa3c0a28c688a5c720b88b31",
     "scripts/review-bilingual.ts": "8efd877f2281733faf06712080d42d0e0472bf44196c114d6ac5d2f0c410cb7d",
     "scripts/review-reader-features.ts": "9442057575604ca6c774e1eda74ba4139fe6bc8f5ed4359b3602e3a99ae49bca",
@@ -6297,16 +5900,18 @@
     "tests/experiments.test.ts": "64d97044e9385a18cdfe4d96f7863b8c78316b13d5c87445e2e2251775c542ad",
     "tests/governance.test.ts": "3b3af0f8971824e8b2527912e1285eb46c5a246e5fa9dbf39bb9f2d5eaf130f4",
     "tests/localization.test.ts": "070403d2adc8458245e59e1d80b924a0bd3885b6dfc7ded0654a28560f915c7a",
+    "tests/notes-contract.test.ts": "f84ed1675724eb7361b3e95295a716e5a4633211816b927054ef92fac929d42f",
     "tests/print.test.ts": "311ae0f9a872477dc7f4a72e021a4f91a0fdb5f7f34c7af18fcfd89e906ab6e1",
     "tests/publication-approval.test.ts": "2ed26de815701a685cacff6113e1fb5044a5d0bea74e194ff1f9561ae2fd435a",
     "tests/reader-gate.test.ts": "3e5ed79bfe116300016880be4a5f8f165bff44036b686db45b1aba9721be059c",
     "tests/reader-navigation.test.ts": "66357c58a0f7928ad2807d36483cbe822d6829d9fef583e1f00e8131624c86e2",
     "tests/reader.test.ts": "e94f04ea052f4ab22da4bb2839c08fc96f4d38c27c9ba888a388e26665612c83",
     "tests/sharing.test.ts": "f30c029ff2d25f985b2d50256b70919ba9e4059fc27f9a9adcd95b21973bd5b6",
+    "tests/test_notes_packager.py": "a6e5fba62c92fe3cf2c1caa2c4ee1e093f439a8944950b67006a414388e9f5dd",
     "tsconfig.json": "a6278579610ae1568a2a6af7f9ec2070c671daef98eb8a69d96a8ff1b300f32a",
     "vercel.json": "004aee90855f61aea51ba48b2d73ff1c55f6d761523cb010a05e391937a1d5e2"
   },
-  "reviewedAt": "2026-10-13T00:38:35.567Z",
+  "reviewedAt": "2026-10-13T08:11:58.863Z",
   "readers": [
     {
       "route": "/en/talks/ai-reading-pilot/read/",
@@ -8707,7 +8312,7 @@
       "toolbarTop": 0
     }
   ],
-  "researchRef": "research:rr-e2bb36868eb49f6f5030e99718feddd2:d40d5519a1ad198f041212ef643baf3667b9c320bca2ffc3f882a58fdab37cf6",
+  "researchRef": "research:rr-8537729c601ccb1584da25b7cf630c34:7f78add171e6998512d72d523ff21b6cf0e7509d9a4e116620f103c6c48270ce",
   "editorialViews": [
     {
       "route": "/en/talks/ai-reading-pilot/read/",
@@ -9131,5 +8736,21 @@
     ],
     "reason": "Only governance and validation changed. All outputs match prior review except two license text files with proven CRLF-to-LF normalization. Retain existing 420 views and reader/PDF evidence without claiming a new browser run.",
     "researchRef": "research:rr-bfb05b4e559a5277c324ac2ce8d47fb7:8395f37e8604dd088cee55abd75dd8a3cc509570802028687bf82ca28f84b0bd"
+  },
+  "presenterNotes": {
+    "manifest": "content/presenter-notes.json",
+    "checks": [
+      "N",
+      "wrong",
+      "configured-password",
+      "relock",
+      "reload"
+    ],
+    "notesState": "empty",
+    "fallbackAutomatic": "not-tested"
+  },
+  "reusedNotesChangeEvidence": {
+    "baseline": "cab4ef6",
+    "reason": "Only encrypted payload and target HTML href changed; unchanged deck runtime, styles, manuscript, PDF, poster and site scripts retain earlier scoped evidence."
   }
 }

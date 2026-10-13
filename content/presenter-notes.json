@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "credentialProfile": "studio-presenter-default-v1",
+  "producer": {
+    "name": "studio-notes-envelope",
+    "version": "1.0.0",
+    "path": "scripts/package-notes.py",
+    "sha256": "64b7b38af03a5b8790954dc823dde68e939f5d9732bf252c51fdb2b9c1c74c38",
+    "derivedFrom": "Achmage Presentation engine369538c1 encrypt_notes; project PIN exception"
+  },
+  "legacy": [
+    {
+      "workId": "ai-reading-pilot",
+      "url": "/AI_reading_3week_pilot_20261008.html",
+      "sha256": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
+      "reason": "Original archival engine; outside recent Achmage Presentation scope"
+    },
+    {
+      "workId": "human-reading-writing-2026",
+      "url": "/decks/human-reading-writing-2026/index.html",
+      "sha256": "97ae1b25d7b3756a1384ca42561e330ef758215364d7a01f779b7fff5c26c7d1",
+      "reason": "Original archival engine; outside recent Achmage Presentation scope"
+    },
+    {
+      "workId": "media-colloquium-2026-06-10",
+      "url": "/decks/media-colloquium-2026-06-10/index.html",
+      "sha256": "0814c89c48d1ca6adb9aa63329b9bd6376eec3b6603a80c134a5d751b8957fb0",
+      "reason": "Original archival engine; outside recent Achmage Presentation scope"
+    }
+  ],
+  "decks": [
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "url": "/decks/educational-harness-workshop-2026-07-06/v2-notes/index.html",
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/index.html",
+      "sourceSha256": "37e64f18e100e8a5e758cd67f5cd533a927d1d6d5740afee32dfafb00f564973",
+      "sha256": "940dc7b44caeeaf3b82336d7697203e3305049f000ee589d05327164f6fe81c3",
+      "notesState": "empty",
+      "enginePackageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
+      "provenance": "docs/educational-harness-provenance.json"
+    },
+    {
+      "workId": "educational-harness-workshop-2026-07-06",
+      "url": "/decks/educational-harness-workshop-2026-07-06/v2-notes/dark.html",
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/dark.html",
+      "sourceSha256": "c2711e0368c3b39111c9662cdbd64b7ab317767d7833888a461e015790a00711",
+      "sha256": "14f4afaec4364a877eb41b59f0fefeeee511516a140db3b348af3f4940bd427f",
+      "notesState": "empty",
+      "enginePackageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
+      "provenance": "docs/educational-harness-provenance.json"
+    }
+  ],
+  "verification": {
+    "940dc7b44caeeaf3b82336d7697203e3305049f000ee589d05327164f6fe81c3": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "Edge CUA 2026-10-13; actual N popup and keyboard submit",
+      "popupBlockedAutomatic": "not-tested",
+      "inlinePanelLocked": true
+    },
+    "14f4afaec4364a877eb41b59f0fefeeee511516a140db3b348af3f4940bd427f": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "Edge CUA 2026-10-13; actual N popup and keyboard submit",
+      "popupBlockedAutomatic": "not-tested",
+      "inlinePanelLocked": true
+    }
+  }
+}

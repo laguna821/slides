@@ -1,4 +1,5 @@
 import {verifyExperiments} from './experiments';
+import {verifyNotes} from './notes-contract';
 import { loadEditorial } from './editorial';
 import { verifyPrintArtifact } from './print-contract';
 import fs from 'node:fs/promises';
@@ -44,6 +45,7 @@ for (const item of baseline) {
   if(!checkOnly) await fs.writeFile(path.join('public', item.url.replace(/^\//, '')), data);
 }
 const output: PublicWork[] = [];
+await verifyNotes(works);
 const mediaCandidates = [];
 for (const w of works.filter(isPublished)) {
   const { htmlSource, markdownSource, provenance, reader: readerSpec, ...pub } = w;

@@ -1,5 +1,7 @@
 # Achmage Studio 운영 규약
 
+정책5.2부터 [발표자 노트 계약](docs/PRESENTER-NOTES-CONTRACT.md)을 적용한다. 최근 Achmage Presentation HTML은 사이트의 비공개 기본 암호 프로필로 N 잠금을 검증한다. 노트 미작성과 잠금 설정은 구분하며, 공개 산출물에 비밀번호를 넣지 않는다.
+
 정책 4.0.0부터 [웹 편집본 계약](docs/EDITORIAL-CONTRACT.md)을 우선 적용한다. 원문은 보관하고 웹·복사·Markdown·검색·HanMark PDF는 검토된 편집본으로 통일한다. 편집 대응표와 링크 영수증이 없거나 오래되면 게시를 차단한다.
 
 새 자료·메뉴·화면 변경에는 [사이트 규약](docs/SITE-CONTRACT.md)을 적용한다. 사용자 지시가 우선한다.
