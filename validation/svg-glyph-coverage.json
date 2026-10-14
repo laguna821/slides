@@ -1,0 +1,198 @@
+{
+  "checked": 37,
+  "missing": [],
+  "sourceSymbolFallback": {
+    "font": "Times New Roman",
+    "character": "U+2014",
+    "fontSha256": "43a890795ad133d73568d169a35924f40416be8a6950a1a03263052ec8e95b8a"
+  },
+  "rows": [
+    {
+      "sourceHash": "1150a3912fbff40f2ce081f009e1890054923b72dbda06ac4ce248d222c48b09",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "20d3244abe06299ff6c27a651e00aa89e80e96401012fa4ce19e31e1924d9538",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "23c31c40de5a86034e89f8e62dbb877364321eb90177fcb196edb378618b6d76",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "297b671fde404a35b1c73255389e1929e8c99dc8376743bdd31d90e1931829a3",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "2b3fb2e8bade2dd8a1600005ec81173ec0106bc66188901ebcb8f1eef1514223",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "2ea109ae3280705cbac98969f3d6308c29e0211d7931f1b3b58db1bf88dd100d",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "54e076ea411817f9c47b6f11b7fedf1b151437180458505fa7892781a9e22077",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "5cb2c73ce9ec91f420dc16a8153c3fda69d598c3ea70af8beac5dd7276e8559f",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "60526498527e290229c68ead9f61f810df07024de27476034d44cee2e756ce4d",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "65af30903b49634abf0b7aed7782809cbb38a063ac21cbc766ff1cd42fd4acf7",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "72cf867b02681779012f6ba9d37e54138a07d8d6b73f9a97218fcc4cf475d97d",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "730bba713c43f84d99df8379da7221f3c7639ddb1e8ee388b6d5a0a5a4b064a9",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "736e62fe70f8c2bb5c9f79b1f0d2ab93cac8367ad46dff79c91657f0c43c1754",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "7806bea460c8551c2cd26607d2cc999d80d8a09d9655d0057b943ec85856e459",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "7c224d4b44630307ff2f0fdef0f7b1a935b7581c16fa4e20584285326e576782",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "83d5878d02f0179f93c7cbed6202f729da130fa5ee4fd25e273fbcb2757bd021",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "876565d18e5e569c7cb22be4a49a46b2a0ce8c9fbcf7945db8ab329be3604702",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "921fd4fd598442faed068baa7777de5ddf543a1cd5e2bb4948be8e22809b95d2",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "92fd5583d2b3364071cb87cf74c9943a2516f3e1de6e668b53656cd32324d233",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "97a39d48cc53cdd6117a0d082f822524866ab3764e8a5ea77e8fdd78be91f6f0",
+      "sourceMissing": [
+        "\u2014"
+      ],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "98f4f370299a61fb3762a3fbe32c27dd712eac9437f7741ae6eee0108b274784",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "a5151211a8cabdf7e7b0bc166074929bd2d55c6eb3d809264c0965667dcba438",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "aa7fdfa1859b3bf30c08e1fa48209a71e218f4f03d18ef8d7902b6707cae53ec",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "b839cab819a26592fd0b05dc095bf16ce1cb2bc293f124cbcf31d85afa10a897",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "bd5d2f4ec0560c94675cffd07a25b35f6be6b06e786e79d28f701021474b771b",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "bf9483c2d6d40e12ab5b3a138ee7d881dccb6bee74518c7fe53077061e0537f9",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "c1957de2b34091c18aad036dad827cb505049d71521ccb180bb9864fb5d4a751",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "c8493cdced96c92571fa93f5741e4a7250cff607158c5e72a42c6afa61fa9d39",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "d2a6c03568ec91d6a7c8cde3a833925cda015aa83f61e3c79d9b52a0110d9c98",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "d2fdd9dd7eb7ac3e27622081bd78c31ddb5616ed3d68ca13eef7c0f4269f8aae",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "d5f79a7f3db15148c88dee80d96253fdc8e8dc5ef9770630348ce272c102a601",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "d775d453c0ec9c9c01e15a822c0c2f9eb6ded0d53f80103992b60d03216fdd99",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "dd461f5604f568687f497ef0ad4a4dc2f6ea4d15c4296ca75e72bdf3db8feda3",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "df62ceb3cd8a2cb6850de0fa0770fdd8e794d9f82fea5f4090c94ea5dd41e93a",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "e26c852e1273d80a8935392437dc59171c4a72cfeeeb86a6d3ddf02045a5c928",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
+      "sourceMissing": [],
+      "outputMissing": []
+    },
+    {
+      "sourceHash": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
+      "sourceMissing": [],
+      "outputMissing": []
+    }
+  ]
+}

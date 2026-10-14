@@ -18,7 +18,10 @@ const {
   image = '/images/ai-reading-slide.webp',
   active = '',
 } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const canonical = new URL(
+  Astro.url.pathname === '/404/' ? '/404.html' : Astro.url.pathname,
+  Astro.site,
+);
 ---
 
 <!doctype html>
@@ -74,7 +77,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           </a>
         ))}
       </nav>
-      <a class="language-switch" data-language-switch href={'/en' + Astro.url.pathname} lang="en" hreflang="en" aria-label="English version">EN</a>
+      <a
+        class="language-switch"
+        data-language-switch
+        href={'/en' + Astro.url.pathname}
+        lang="en"
+        hreflang="en"
+        aria-label="English version"
+      >
+        EN
+      </a>
       <ThemeToggle />
     </header>
     <main id="main">
@@ -99,7 +111,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         >
           GitHub ↗
         </a>
-        <a class="font-credit" href="https://achmage-sametone.achmage2.chatgpt.site/">이 사이트의 서체 · Achmage SameTone ↗</a>
+        <a
+          class="font-credit"
+          href="https://achmage-sametone.achmage2.chatgpt.site/"
+        >
+          이 사이트의 서체 · Achmage SameTone ↗
+        </a>
         <span>© {new Date().getFullYear()} Achmage · 안창현</span>
       </div>
     </footer>

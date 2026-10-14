@@ -403,6 +403,11 @@
       "permanent": false
     },
     {
+      "source": "/decks/survey-scale-intro-2026-10-13/v1.3.0/all-explanations.pdf",
+      "destination": "/talks/survey-scale-intro-2026-10-13/read/",
+      "permanent": false
+    },
+    {
       "source": "/experiments/pkm-poster-2026/cmds-dark.svg",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
       "permanent": false
@@ -554,7 +559,7 @@
     },
     {
       "source": "/images/sametone-specimen.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893673279-0ecb71b3-1944-4f45-863c-327167dc3971.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947817522-ddcd262c-5ad7-4e60-b55b-3fbd18d2ad0b.png",
       "permanent": false
     },
     {
@@ -565,6 +570,11 @@
     {
       "source": "/images/studio-paper.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893680829-19417398-9f00-4ff3-b125-9a55a371377a.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/survey-scale-intro-2026-10-13.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791945477323-05f4c093-88f5-44a0-9816-3a745604cf5f.webp",
       "permanent": false
     },
     {
@@ -659,62 +669,62 @@
     },
     {
       "source": "/reading/en/figures/1150a3912fbff40f2ce0.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893694488-b3153101-31f8-4cad-85c0-a47fa2e51421.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949289252-609a8b59-ff05-4db3-8d50-5aa448804422.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/297b671fde404a35b1c7.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893697780-f60512e9-13a7-4a5b-99c1-ada72b8cc018.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949292999-41dbe062-5e13-4ccf-bf28-7adfbdaecbfd.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/72cf867b02681779012f.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893700912-fb47c92b-3ada-4caa-8f23-800009f1c3a0.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949296051-daefb0a2-bd05-4c92-9700-ad11e850e7da.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/7c224d4b44630307ff2f.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893703892-a694144a-8e0c-4e5b-809c-1fc679b6c331.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949300056-f54c305a-2ae0-4069-884b-771f1009e9a3.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/876565d18e5e569c7cb2.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893707082-9703b75e-b07f-4d11-a1f5-b6b2eb5d7385.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949303047-75ce74a5-cebb-42e8-b071-6eb752e3cfb9.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/aa7fdfa1859b3bf30c08.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893710938-d3b0e2f6-14ad-48ca-a98e-8e64fac5e9e4.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949306310-6230db97-d1cd-4bcb-bd4b-f7ea0333151c.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/b839cab819a26592fd0b.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893713758-09cb9a81-4adb-40d8-8653-17bc45cb00bb.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949309539-8ee4b94b-c6cb-40c8-8061-99433c4cf228.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/bd5d2f4ec0560c94675c.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893716688-c2560d0a-330f-4576-8163-6a2b419ac1bb.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949312417-f8c2bafa-8a38-4d60-b553-f418403c7a19.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/c1957de2b34091c18aad.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893720170-f8fa16ed-361b-47c8-bffb-8737515d07d9.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949315376-ba494cad-e980-4779-b507-a58207213341.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/c8493cdced96c92571fa.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893723823-d003bc6e-3e8b-41ff-a2cf-1c91c56fddbc.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949318597-ef82106d-7b8c-4068-ad31-3ae0e6c234ab.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/d2a6c03568ec91d6a7c8.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893727239-2fa777df-8b86-41e8-b27d-4ec66bf7422f.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949321634-d5b1b854-899f-465d-a480-0fcd7ae313d3.png",
       "permanent": false
     },
     {
       "source": "/reading/en/figures/e26c852e1273d80a8935.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893731927-62bbc746-b999-4be5-883d-4c43356c0df4.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791949325383-92740a1b-2327-48a9-8c42-df6d06bad36e.png",
       "permanent": false
     },
     {
@@ -738,8 +748,13 @@
       "permanent": false
     },
     {
+      "source": "/reading/en/pdf/survey-scale-intro-2026-10-13/27d62be2e5a375b0.pdf",
+      "destination": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "permanent": false
+    },
+    {
       "source": "/reading/human-reading-writing-2026/assets/1150a3912fbff40f2ce0.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947424868-2c79cc62-b53a-450f-92c1-59efe7f64261.png",
       "permanent": false
     },
     {
@@ -749,42 +764,42 @@
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947510076-79910945-5a61-466d-a3d1-82883f8e133b.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/297b671fde404a35b1c7.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947515260-4ae2880e-e713-436c-923c-1691a8760b88.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947518544-01e6e765-e42f-4480-bf0b-6d57690cff4b.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947515260-4ae2880e-e713-436c-923c-1691a8760b88.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947536184-b74d659b-9529-4801-81a7-156c501be3b0.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947539320-9e2e52b4-8db5-4b15-a739-ef45208fbe70.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947542755-d7ec9b60-b5c9-4d5c-8fa0-e1d961fed3b7.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/72cf867b02681779012f.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947510076-79910945-5a61-466d-a3d1-82883f8e133b.png",
       "permanent": false
     },
     {
@@ -794,22 +809,22 @@
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947547653-c6ee352f-a10e-42ac-b5f0-ad386342b88d.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/7c224d4b44630307ff2f.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947536184-b74d659b-9529-4801-81a7-156c501be3b0.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/876565d18e5e569c7cb2.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947542755-d7ec9b60-b5c9-4d5c-8fa0-e1d961fed3b7.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947553982-1a236428-20bd-4f18-b801-c6ec66525140.png",
       "permanent": false
     },
     {
@@ -819,57 +834,62 @@
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/aa7fdfa1859b3bf30c08.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947557283-2d72f3e4-d358-4192-bb9f-1024924d5f6f.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/b839cab819a26592fd0b.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947560315-569ef518-0d40-4b3c-bc18-dec2c50e33ec.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/bd5d2f4ec0560c94675c.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947539320-9e2e52b4-8db5-4b15-a739-ef45208fbe70.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/c1957de2b34091c18aad.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947518544-01e6e765-e42f-4480-bf0b-6d57690cff4b.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/c8493cdced96c92571fa.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947567337-a8921d5d-c312-4869-80d2-696e07663c30.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/d2a6c03568ec91d6a7c8.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947547653-c6ee352f-a10e-42ac-b5f0-ad386342b88d.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947560315-569ef518-0d40-4b3c-bc18-dec2c50e33ec.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947424868-2c79cc62-b53a-450f-92c1-59efe7f64261.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947553982-1a236428-20bd-4f18-b801-c6ec66525140.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947557283-2d72f3e4-d358-4192-bb9f-1024924d5f6f.png",
       "permanent": false
     },
     {
       "source": "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg",
-      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947567337-a8921d5d-c312-4869-80d2-696e07663c30.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/ai-reading-pilot/0e14fff3609b1257.pdf",
+      "destination": "/talks/ai-reading-pilot/read/",
       "permanent": false
     },
     {
@@ -883,6 +903,11 @@
       "permanent": false
     },
     {
+      "source": "/reading/pdf/educational-harness-workshop-2026-07-06/22995cac6f23b620.pdf",
+      "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
       "source": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf",
       "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
       "permanent": false
@@ -890,6 +915,11 @@
     {
       "source": "/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
       "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/human-reading-writing-2026/43d90940b44fb6a4.pdf",
+      "destination": "/talks/human-reading-writing-2026/read/",
       "permanent": false
     },
     {
@@ -908,9 +938,25 @@
       "permanent": false
     },
     {
+      "source": "/reading/pdf/media-colloquium-2026-06-10/7851ad2c862179e5.pdf",
+      "destination": "/talks/media-colloquium-2026-06-10/read/",
+      "permanent": false
+    },
+    {
       "source": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf",
       "destination": "/talks/media-colloquium-2026-06-10/read/",
       "permanent": false
+    },
+    {
+      "source": "/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf",
+      "destination": "/talks/survey-scale-intro-2026-10-13/read/",
+      "permanent": false
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "**": false,
+      "main": true
+    }
+  }
 }

@@ -24,6 +24,18 @@ CI/Vercel의 `npm run build`는 자산 업로드를 하지 않는다. 미등록�
 
 ## Vercel 과거 배포
 
-새 배포 경량화는 과거 배포 저장 공간을 즉시 회수하지 않는다. Vercel 인증 확보 후 slides 프로젝트의 Production/Preview7일 보관 가능 여부를 확인하여 적용한다. 현재 운영 대상·최근 정상 Production3개·사용 중 별칭 대상은 보호하고 다른 프로젝트는 변경하지 않는다. 인증 전에는 정리 완료를 주장하지 않는다. 삭제 및 집계 지연을 반영해 동일 기간 Usage를 비교한다.
+새 배포 경량화는 과거 배포 저장 공간을 즉시 회수하지 않는다. 2026-10-14 Edge에서 과거/미리보기 60개 삭제를 확인했고 현재 운영본 1개를 보존했다. 모든 보관 기간은 1일이다. 자동 보관 정책의 예외와 수동 정리는 구분한다. 교체 시 기존 운영본은 새 운영 검증이 끝날 때까지 유지하고, 성공 후 이전 운영본과 검토 미리보기를 정리한다. 다른 프로젝트는 변경하지 않는다. 삭제 및 집계 지연을 반영해 동일 기간 Usage를 비교한다.
 
-근거: 사용자 승인 계획 및 R-006 research:rr-34960557942b56ef5bc205fefd4b3eec:65b7df1117d5bef782f2e3dde891885b2dfb6b03bb18e9ec3c27014d45f22de0.
+근거: 사용자 승인 계획 및 R-006 research:rr-34960557942b56ef5bc205fefd4b3eec:0a7dbe3d64206dd6aba6d4558acf4f0bbe8389757f17aba7143ad9149cbbdb68.
+
+로컬 이미지 예외는 brand의 favicon, achmage-wordmark, achmage-symbol, ach-frame 및 mono/reversed SVG 10개로 제한한다. 외부 로고 예외는 기존 CMDS 로고 https://labs.cmdspace.work/assets/cmds-logo-round.png 하나다. 사진·도표·슬라이드 이미지는 예외가 아니다. SVG 변환은 내장 글꼴의 실제 family 이름을 연결하고 사용 굵기의 정적 인스턴스를 만든 뒤 2배로 렌더링한다. 변환 버전을 등록해 이전 변환의 캐시를 무조건 재사용하지 않는다.
+
+## 배포 실행
+
+모든 push/PR에서 CI 검증은 유지한다. git.deploymentEnabled는 **:false, main:true로 일반 브랜치 자동 배포를 차단한다. Vercel 프로젝트의 Ignored Build Step도 Only build production으로 설정한다. 필요한 미리보기만 대시보드에서 검토 커밋으로 수동 생성하고, 무시된 빌드 단계는 해당 수동 실행에서만 건너뛴다. 검토 결과와 일치하는 현재 사용자 승인 이후에만 main에 통합한다.
+
+PR #19 설문척도 강의는 경량화와 함께 통합한다. 기존 원본과 설명·실험실·퀴즈·노트 잠금은 보존하며 강의 PDF도 배포에서 제외한다. R2 URL 검증은 공개 요청에 한정하고 키는 로컬 CMDS 설정에만 둔다.
+
+SVG 글꼴 검증: 변수 글꼴의 750 등 비표준 굵기는 정확한 정적 인스턴스와 전용 family로 렌더링한다. 영문 그림의 `font-family:...!important`도 해당 인스턴스를 가리키도록 인라인 우선순위를 보존한다. SameTone 표본의 U+2014(—) 한 글자는 원본 글꼴에 없어 브라우저가 사용하던 Times New Roman 기호 대체를 동일하게 유지한다. 이 처리는 원본 SHA256 `97a39d48cc53cdd6117a0d082f822524866ab3764e8a5ea77e8fdd78be91f6f0`에만 적용하며 본문 글꼴은 교체하지 않는다. glyph coverage와 원본/파생본 화면을 함께 확인한다.
+
+최종 통합 검증 근거: R-006 `research:rr-34960557942b56ef5bc205fefd4b3eec:103a136dd5141458b95d11ed65825d7e691a15f117f7c88c9f93af9fbf39d822`.
