@@ -1,3 +1,5 @@
+> 정책 6.0.0 우선: [웹 배포 용량 규약](STORAGE-CONTRACT.md)을 적용한다. PDF·ZIP은 보관용이며 웹 게시 필수 조건이 아니다. 웹 파생본은 R2 자산 링크를 사용하고 web-dist만 배포한다. 아래 기존 PDF·바이트 보존 규칙은 원본 보관·선택적 인쇄 작업에 한정한다.
+
 # 배포와 복구
 
 기존 Vercel `laguna821s-projects/slides` 프로젝트와 GitHub `laguna821/slides`를 사용합니다. 새 프로젝트나 유료 서비스를 만들지 않습니다.
@@ -7,7 +9,7 @@
 - Framework: Astro
 - Install: `npm ci`
 - Build: `npm run release:verify`
-- Output: `dist`
+- Output: `web-dist`
 - Production branch: `main`
 - Root directory: 저장소 루트
 - 필요한 환경변수: 없음

@@ -23,14 +23,7 @@ export async function verifyReaders(root = 'dist') {
       'TOC theme control required',
     );
     assert.equal($('.reader-toolbar [data-open-panel="reader-toc"]').length, 1);
-    assert(w.readingPdf, 'Reading PDF required');
-    assert.equal($('[data-reader-print]').attr('href'), w.readingPdf.url);
-    assert.equal($('[data-download-pdf]').attr('href'), w.readingPdf.url);
-    assert(
-      (await fs.readFile(root + w.readingPdf.url))
-        .subarray(0, 5)
-        .equals(Buffer.from('%PDF-')),
-    );
+    assert.equal($('[data-reader-print],[data-download-pdf]').length, 0, 'PDF downloads are not published');
     assert.equal(
       $('#reader-body img').length,
       r.images.length,

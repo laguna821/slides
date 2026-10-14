@@ -1,7 +1,7 @@
 import {verifyExperiments} from './experiments';
 import {verifyNotes} from './notes-contract';
+import {cleanJson,isRemoved} from './web-assets';
 import { loadEditorial } from './editorial';
-import { verifyPrintArtifact } from './print-contract';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -130,11 +130,12 @@ for (const w of works.filter(isPublished)) {
   await fs.access(path.join(root, 'public', w.poster));
   output.push({
     ...pub,
+    artifacts:pub.artifacts.filter(a=>a.type!=='pdf'&&!isRemoved(a.url)),
     body,
     href: workHref(w),
     segments,
     readingHtml,
-    ...(reader?{reader,readingPdf:await verifyPrintArtifact(w)}:{}),
+    ...(reader?{reader}:{}),
     videoCount: new Set(related.map((m: any) => m.id)).size,
   });
 }
@@ -157,7 +158,7 @@ for(const r of resources){
     if(file) { const bytes=await fs.readFile(file); if(createHash('sha256').update(bytes).digest('hex')!==sha) throw Error('Resource bytes changed: '+url); }
   }
 }
-const publicResources=resources.filter(r=>publishedIds.has(r.workId));
+const publicResources=resources.filter(r=>publishedIds.has(r.workId)).map(r=>cleanJson(r));
 if(checkOnly){console.log('Read-only content validation passed');process.exit(0);}
 const list = output.filter((w) => w.visibility === 'listed');
 await fs.mkdir('src/generated', { recursive: true });
@@ -188,7 +189,7 @@ console.log(
     output.length +
     ' published works, ' +
     publicMedia.length +
-    ' videos. Legacy bytes preserved.',
+    ' videos. Archival source bytes preserved.',
 );
 
 await verifyExperiments();

@@ -4,8 +4,6 @@ import { createHash } from 'node:crypto';
 import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import experiments from '../content/experiments.json';
-import printManifest from '../content/print-manifest.json';
-import englishPrintManifest from '../content/i18n/print-manifest.json';
 import { workHref } from '../src/lib/schema';
 export const reviewRoutes = [
   ...new Set([
@@ -241,7 +239,6 @@ export function validateReview(
         'imageZoom',
         'graph',
         'anchors',
-        'print',
       ].every((k) => result[k] === true)
     )
       throw Error('읽기 기능 검토 누락: ' + route);
@@ -252,31 +249,7 @@ export function validateReview(
       if(!row||row.overflow!==false||Math.abs(row.actualWidth-width)>1||(width===1920&&(row.columnWidth<640||row.columnWidth>721)))throw Error('편집 본문 폭 검토 누락: '+route+'/'+width+'/'+theme);
     }
   }
-  const printSets = [{manifest:printManifest,receipts:review.prints},...(routes.some(r=>r.startsWith('/en/')&&r.endsWith('/read/'))?[{manifest:englishPrintManifest,receipts:review.englishPrints}]:[])];
-  for (const set of printSets) for (const [workId, proof] of Object.entries(set.manifest.works)) {
-    const rows = set.receipts?.filter((p: any) => p.workId === workId) || [];
-    const r = rows[0];
-    if (
-      rows.length !== 1 ||
-      r.sha256 !== proof.sha256 ||
-      r.url !== proof.url ||
-      r.pages !== proof.pages ||
-      JSON.stringify(r.reviewedPages) !==
-        JSON.stringify(Array.from({ length: proof.pages }, (_, i) => i + 1)) ||
-      !['firstPageBody', 'sourceText', 'imagesLegible', 'pdfDownload'].every(
-        (k) => r[k] === true,
-      ) ||
-      !(
-        r.pdfOpen === true ||
-        (r.pdfOpen === 'browser-blocked' &&
-          r.pdfResponse200 === true &&
-          r.pdfBytesVerified === true &&
-          typeof r.browserLimitation === 'string' &&
-          r.browserLimitation.length > 20)
-      )
-    )
-      throw Error('읽기 PDF 검토 누락: ' + workId);
-  }
+
 }
 export function validateReaderNavigation(rows: any, route: string) {
   for (const width of [375, 768, 1440])
@@ -342,6 +315,8 @@ if (process.argv[1]?.replaceAll('\\', '/').endsWith('/release-gate.ts')) {
       );
     }
     validateReview(review, digest, await builtReviewRoutes());
+    if(review.outputDirectory!==policy.storage.outputDirectory||review.webAssets?.status!=='passed')
+      throw Error('실제 web-dist 자산/화면 검토가 필요합니다. 원본 dist 검토로 대신할 수 없습니다.');
     console.log('Release review matches policy and content digest');
   }
 }

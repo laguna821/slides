@@ -3,7 +3,7 @@
   "framework": "astro",
   "installCommand": "npm ci",
   "buildCommand": "npm run release:verify",
-  "outputDirectory": "dist",
+  "outputDirectory": "web-dist",
   "headers": [
     {
       "source": "/fonts/AchmageSameTone-1.000.woff2",
@@ -124,6 +124,793 @@
           "value": "noindex, nofollow"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893005051-0c91cc7e-bb85-4015-a47c-0d3f9854840c.jpeg",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893009594-33179a93-4c26-463f-b301-3ce36e64da73.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893021091-02a1d937-6d00-466d-9440-7510aa442b58.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893041212-e8d92e02-39fd-4768-9826-1c2865051c4e.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893060162-6f48c07c-6a2c-432e-92e9-5295dd77ab9f.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893063968-968c416b-717f-4686-8ebb-30122918e097.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893069130-7daeffe9-6ab2-41e1-aee4-d5b1650ec651.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893073969-b80c617a-87b9-4c53-a52b-4d241dd87baf.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893078236-60ec786a-4000-467b-aa5c-cdd600e5fe9b.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893082020-c52f6f8e-5038-44e5-8e97-3210b9493bc1.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v1/slides.pdf",
+      "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-01.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-02.jpg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893005051-0c91cc7e-bb85-4015-a47c-0d3f9854840c.jpeg",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-03.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893009594-33179a93-4c26-463f-b301-3ce36e64da73.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-04.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893021091-02a1d937-6d00-466d-9440-7510aa442b58.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-05.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893041212-e8d92e02-39fd-4768-9826-1c2865051c4e.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-06.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893060162-6f48c07c-6a2c-432e-92e9-5295dd77ab9f.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-07.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893063968-968c416b-717f-4686-8ebb-30122918e097.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-08.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893069130-7daeffe9-6ab2-41e1-aee4-d5b1650ec651.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-09.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893073969-b80c617a-87b9-4c53-a52b-4d241dd87baf.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-10.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893078236-60ec786a-4000-467b-aa5c-cdd600e5fe9b.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-11.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893082020-c52f6f8e-5038-44e5-8e97-3210b9493bc1.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/educational-harness-workshop-2026-07-06/v2/slides.pdf",
+      "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/decks/human-reading-writing-2026/slides.pdf",
+      "destination": "/talks/human-reading-writing-2026/read/",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893345102-ac96d290-a355-4366-9032-c55e956b1fc9.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893258219-04685540-8af3-403a-8aef-53cdd17fb1ae.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893261988-1d2fda8a-90d8-40de-8b6e-58a8789c0f08.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893266952-5c4f2987-e031-469b-b87e-1fc2d4987e35.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893270891-4fa19493-2500-4b47-9489-371d4048fd5d.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893274846-c55afc04-a603-4d79-a388-69e7c71e0f05.webp",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893277775-f95b81e1-506b-4433-99ed-ed75c0c21c27.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893280753-8035f578-ccc4-401f-b6df-426c9d0dcb2d.jpeg",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893288713-dc1fdda6-dfab-4f74-86fd-7ef7fec3e499.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893338766-ec7befad-aed4-46fd-a79f-39a2b1ccc26a.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893341720-2b8b6130-85f1-41a9-92c6-644ab1d617bc.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893407267-5c29c757-4833-4223-80a0-b3f37129e034.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893351555-cd29f4c5-9947-4884-aa6d-a4ffe8ed99c8.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893357139-a598c8d3-4170-4e2e-8524-a71611d457ab.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893367854-28961d37-131b-450d-b742-fb8b2cd831f4.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893376562-aa8a70de-f3b1-43c3-af27-a7bf5e3b13e0.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893388076-f7c4cef7-8025-4555-bf4e-38523113f188.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893397892-096bdf01-e3d0-40b8-8b97-7e213c68a6fe.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893418508-4de1a89d-1a4a-4749-bd15-1d495f819619.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893427568-939a2f67-020e-424a-b277-9f4181bd523f.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893437188-0dcc3de6-ccd1-4cc4-9d78-48a2ae71f5a4.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893444370-8f4a7905-180e-415b-abf3-53a510fbcea7.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893450338-9d881dcb-b114-4785-9db6-1cfd37a30697.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893460510-16382d1c-4082-43d7-b141-cac51f93e0d3.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893469603-8c78e296-80c9-41ad-880d-64da676323bc.webp",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/img1.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893473520-3b769323-9318-47ed-ae85-9ba98efa94de.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/img2.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893482601-caf1dfbd-ba94-4195-ab60-195c48c11f0a.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/img3.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893490575-b8ddf5c6-ba50-426f-aa12-00441bbbae4f.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/img4.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893500113-2e9aee4a-cf00-4055-ab05-bba1b7cfcc68.png",
+      "permanent": false
+    },
+    {
+      "source": "/decks/media-colloquium-2026-06-10/assets/img5.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893506915-8cbae7ff-67d7-4be9-bc46-d26f2811c064.png",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/cmds-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/cmds-reconstructed.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/hallym-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/hallym-emblem.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/offline.zip",
+      "destination": "/experiments/pkm-poster-2026/",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/poster-preview.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893524049-608c3506-150d-469f-92d8-f8586d6ff8f3.png",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-poster-2026/poster.pdf",
+      "destination": "/experiments/pkm-poster-2026/",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/cmds-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/cmds-reconstructed.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/hallym-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/hallym-emblem.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/offline.zip",
+      "destination": "/experiments/pkm-speaker-posters-2026/",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/og-fd44dd375022.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893528092-1eb2140b-3886-4229-8b6a-12cdf0b3e99d.png",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/poster-preview.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893531149-0dabd2ff-4bec-4746-a421-6fc3462bab9b.png",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/poster.pdf",
+      "destination": "/experiments/pkm-speaker-posters-2026/",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/pretendard-400.woff2",
+      "destination": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/pretendard-700.woff2",
+      "destination": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/experiments/pkm-speaker-posters-2026/pretendard-800.woff2",
+      "destination": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/fonts/PretendardVariable.woff2",
+      "destination": "/fonts/shared/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/images/ai-reading-slide.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893535700-85bfb092-c458-4287-aa40-9bd70a0c323d.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/book.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893538663-358c58c9-1a20-4ba1-a8d9-3c3334aa3f57.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/city.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893541192-ffc72a29-a552-4bc8-8019-777e40e6804e.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/educational-harness-workshop-2026-07-06.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893545131-b4915c14-7631-4896-b6ac-421a486d683d.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/flight.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893547866-69c6a10d-08ea-46a8-abf2-6f67bb09402d.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/grandeur.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893550696-012a0b52-cadc-43a0-bcf1-823e157499ea.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/human-reading-writing.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893553403-44494cf9-51e3-4cf4-bf12-46278d8e0571.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/meal.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893557432-42b863d8-f63d-49b1-92d5-c173fb0939ee.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/media-colloquium-2026-06-10.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893561244-9ac0b348-6da6-4857-aac0-4156812d4bf3.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pedal.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893564976-23aec526-9a2a-4948-bda6-fd53b80c708f.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/racing.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893568439-2e02ebbf-8b98-4e7d-87cf-09220d8687e8.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/sametone-specimen.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893673279-0ecb71b3-1944-4f45-863c-327167dc3971.png",
+      "permanent": false
+    },
+    {
+      "source": "/images/studio-frame.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893676782-9c7bdf5f-4307-46f6-aae0-f97fb77a5494.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/studio-paper.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893680829-19417398-9f00-4ff3-b125-9a55a371377a.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/water.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893684252-95416a04-c2a9-403d-8302-ecd622eaf670.webp",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/cmds-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/cmds-reconstructed.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/hallym-dark.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/hallym-emblem.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/offline.zip",
+      "destination": "/posters/hallym-pkm-2026/v1/index.html",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/og-fd44dd375022.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893528092-1eb2140b-3886-4229-8b6a-12cdf0b3e99d.png",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/poster-preview.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893531149-0dabd2ff-4bec-4746-a421-6fc3462bab9b.png",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/poster.pdf",
+      "destination": "/posters/hallym-pkm-2026/v1/index.html",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/pretendard-400.woff2",
+      "destination": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/pretendard-700.woff2",
+      "destination": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/posters/hallym-pkm-2026/v1/pretendard-800.woff2",
+      "destination": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/og-29d2621be6c8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893686969-da3bdb62-4cd7-43a5-97b3-db5c4e28506b.png",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/poster-preview.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893690326-32c0b205-1289-44ae-a0a4-1f66409dcb7a.png",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/poster.pdf",
+      "destination": "/posters/media-school-workshop-20260706/v1/index.html",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/pretendard-400.woff2",
+      "destination": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/pretendard-700.woff2",
+      "destination": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/pretendard-800.woff2",
+      "destination": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/1150a3912fbff40f2ce0.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893694488-b3153101-31f8-4cad-85c0-a47fa2e51421.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/297b671fde404a35b1c7.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893697780-f60512e9-13a7-4a5b-99c1-ada72b8cc018.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/72cf867b02681779012f.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893700912-fb47c92b-3ada-4caa-8f23-800009f1c3a0.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/7c224d4b44630307ff2f.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893703892-a694144a-8e0c-4e5b-809c-1fc679b6c331.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/876565d18e5e569c7cb2.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893707082-9703b75e-b07f-4d11-a1f5-b6b2eb5d7385.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/aa7fdfa1859b3bf30c08.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893710938-d3b0e2f6-14ad-48ca-a98e-8e64fac5e9e4.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/b839cab819a26592fd0b.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893713758-09cb9a81-4adb-40d8-8653-17bc45cb00bb.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/bd5d2f4ec0560c94675c.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893716688-c2560d0a-330f-4576-8163-6a2b419ac1bb.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/c1957de2b34091c18aad.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893720170-f8fa16ed-361b-47c8-bffb-8737515d07d9.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/c8493cdced96c92571fa.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893723823-d003bc6e-3e8b-41ff-a2cf-1c91c56fddbc.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/d2a6c03568ec91d6a7c8.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893727239-2fa777df-8b86-41e8-b27d-4ec66bf7422f.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/figures/e26c852e1273d80a8935.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893731927-62bbc746-b999-4be5-883d-4c43356c0df4.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/pdf/ai-reading-pilot/6c8777234a520fc6.pdf",
+      "destination": "/en/talks/ai-reading-pilot/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/pdf/educational-harness-workshop-2026-07-06/65a2090a607fbfbd.pdf",
+      "destination": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/pdf/human-reading-writing-2026/cb7d01e4c4e2e86c.pdf",
+      "destination": "/en/talks/human-reading-writing-2026/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/en/pdf/media-colloquium-2026-06-10/0454a26af372b8ac.pdf",
+      "destination": "/en/talks/media-colloquium-2026-06-10/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/1150a3912fbff40f2ce0.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/18589dc5f2bd3d5ebefc.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893248756-d68559fd-81a1-4239-9f39-c243a5038727.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/297b671fde404a35b1c7.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/72cf867b02681779012f.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/76c90dd5fff0e9476726.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893243842-b2fd6f8c-cd72-4093-806e-3e77c4568301.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/7c224d4b44630307ff2f.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/876565d18e5e569c7cb2.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/9f99e0d9604800f135e8.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893254223-9678561d-9d76-4f77-bf46-d54fd234d239.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/aa7fdfa1859b3bf30c08.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/b839cab819a26592fd0b.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/bd5d2f4ec0560c94675c.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/c1957de2b34091c18aad.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/c8493cdced96c92571fa.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/d2a6c03568ec91d6a7c8.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/ai-reading-pilot/1339007e9b9e613f.pdf",
+      "destination": "/talks/ai-reading-pilot/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf",
+      "destination": "/talks/ai-reading-pilot/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/educational-harness-workshop-2026-07-06/cda05063fe5a05fc.pdf",
+      "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
+      "destination": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/human-reading-writing-2026/5efbad580004410c.pdf",
+      "destination": "/talks/human-reading-writing-2026/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf",
+      "destination": "/talks/human-reading-writing-2026/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf",
+      "destination": "/talks/media-colloquium-2026-06-10/read/",
+      "permanent": false
+    },
+    {
+      "source": "/reading/pdf/media-colloquium-2026-06-10/c36f81c55f964c0b.pdf",
+      "destination": "/talks/media-colloquium-2026-06-10/read/",
+      "permanent": false
     }
   ]
 }

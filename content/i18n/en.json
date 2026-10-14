@@ -1719,5 +1719,6 @@
   "한자를 제외하고 문자 범위를 정리하여 용량을 줄였습니다. 완성판 WOFF2는 2,140,332바이트, Lite WOFF2는 705,280바이트입니다. 한자와 일부 문자·기호는 다른 글꼴이 보완해야 합니다.": "Removing Hanja and refining character coverage reduced the file size. Full WOFF2 is 2,140,332 bytes; Lite WOFF2 is 705,280 bytes. Hanja and some other characters and symbols require fallback fonts.",
   "이 포트폴리오는 완성판 웹폰트를 사용합니다. 배포 사이트에서 직접 입력하고 굵기를 비교하거나, 사용 범위·라이선스·다운로드를 확인할 수 있습니다.": "This portfolio uses the Full webfont. Visit the distribution site to type your own samples, compare weights, and check coverage, licensing, and downloads.",
   "서체 소개": "About the typeface",
-  "한글과 영문, 같은 리듬.": "Korean and English, one rhythm."
+  "한글과 영문, 같은 리듬.": "Korean and English, one rhythm.",
+  "행사와 프로젝트를 한 장에 담은 자료입니다. 웹에서 전체 내용을 볼 수 있습니다.": "These posters bring events and projects together on one page. Read the complete content on the web."
 }

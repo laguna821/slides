@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 import {builtReviewRoutes} from './release-gate';
-const base=process.env.REVIEW_BASE||'http://127.0.0.1:4330';
+const base=process.env.REVIEW_BASE||'http://127.0.0.1:4331';
 const out='.local/i18n/review';
 const browser=await chromium.launch();
 const context=await browser.newContext({permissions:['clipboard-read','clipboard-write'],acceptDownloads:true});
@@ -23,7 +23,7 @@ try {
   await page.locator('[data-copy-section]').click();await page.waitForTimeout(80);assert((await page.evaluate(()=>navigator.clipboard.readText())).startsWith(base+route+'#'));row.copySection=true;
   const md=page.locator('#reader-tools a[download]').filter({hasText:/Markdown/}).first();const mdWait=page.waitForEvent('download');await md.click();const mdDownload=await mdWait;assert(!(await mdDownload.failure()));row.download=true;
   row.graph=await page.locator('.reader-graph').count()>0;
-  const pdf=page.locator('[data-download-pdf]').first();const pdfUrl=await pdf.getAttribute('href');const wait=page.waitForEvent('download');await pdf.click();const d=await wait;const bytes=await fs.readFile((await d.path())!);const sha256=createHash('sha256').update(bytes).digest('hex');const res=await context.request.get(base+pdfUrl);assert.equal(res.status(),200);assert.equal(createHash('sha256').update(await res.body()).digest('hex'),sha256);downloads.push({route,url:pdfUrl,sha256,pdfDownload:true,pdfResponse200:true,pdfBytesVerified:true});
+  assert.equal(await page.locator('[data-download-pdf],[data-reader-print]').count(),0);
   await page.keyboard.press('Escape');
   const images=page.locator('.reader-image-button');row.imageCount=await images.count();
   if(row.imageCount){await images.first().click();assert(await page.locator('#reader-image[open]').isVisible());await page.locator('[data-close-image]').click();}row.imageZoom=true;row.imageZoomApplicable=row.imageCount>0;

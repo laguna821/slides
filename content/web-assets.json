@@ -1,0 +1,1312 @@
+{
+  "version": 1,
+  "assets": {
+    "image/png:68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50": {
+      "sourceHash": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50",
+      "sha256": "68f95d6659dc62d4b2ceb0c65f3971954f9cc1802aaa237949078eef67398a50",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
+      "bytes": 1141206,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:03:24.918Z"
+    },
+    "image/jpeg:233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811": {
+      "sourceHash": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811",
+      "sha256": "233dbb2b20fcd0ca8d42fbdaaac9774fe3b4f34a88f465af7c71851e4e69a811",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893005051-0c91cc7e-bb85-4015-a47c-0d3f9854840c.jpeg",
+      "bytes": 105657,
+      "mime": "image/jpeg",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:03:29.720Z"
+    },
+    "image/png:75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479": {
+      "sourceHash": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479",
+      "sha256": "75b61a96d19e2e3687c050486af24de0bc42e5ff9278136b6881de9329b81479",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893009594-33179a93-4c26-463f-b301-3ce36e64da73.png",
+      "bytes": 612672,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:03:40.379Z"
+    },
+    "image/png:29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1": {
+      "sourceHash": "29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1",
+      "sha256": "29dbdc10aff951b76aad9b13c6a628d5ee340d260de287b944f06fb5eacfc6b1",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893021091-02a1d937-6d00-466d-9440-7510aa442b58.png",
+      "bytes": 2105581,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:00.768Z"
+    },
+    "image/png:e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7": {
+      "sourceHash": "e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7",
+      "sha256": "e7cf030fe7d69a259546524a1c902cb877584f021cb796a165cb9f54f8da02f7",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893041212-e8d92e02-39fd-4768-9826-1c2865051c4e.png",
+      "bytes": 1815710,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:20.033Z"
+    },
+    "image/png:cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb": {
+      "sourceHash": "cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb",
+      "sha256": "cd02b70a20231d0e6f31399f54a05ec9bed4744f9c4cce5021105056ee63f1fb",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893060162-6f48c07c-6a2c-432e-92e9-5295dd77ab9f.png",
+      "bytes": 142246,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:24.452Z"
+    },
+    "image/png:a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52": {
+      "sourceHash": "a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52",
+      "sha256": "a23e4b2b67a0903fc1adbe46eef4d3d25cd6354ff2db7341adb589c6845b8c52",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893063968-968c416b-717f-4686-8ebb-30122918e097.png",
+      "bytes": 173837,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:29.648Z"
+    },
+    "image/png:f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51": {
+      "sourceHash": "f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51",
+      "sha256": "f99ebaddd30ba1e7cb1e81ed42dfcb915c8dd57e8cb0ae46a83e6f415fa9cb51",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893069130-7daeffe9-6ab2-41e1-aee4-d5b1650ec651.png",
+      "bytes": 213537,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:34.515Z"
+    },
+    "image/png:67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5": {
+      "sourceHash": "67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5",
+      "sha256": "67214cb31db00d13813cffde634c51f4b78febe064f563c2e212d3625610acf5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893073969-b80c617a-87b9-4c53-a52b-4d241dd87baf.png",
+      "bytes": 253072,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:38.902Z"
+    },
+    "image/png:09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd": {
+      "sourceHash": "09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd",
+      "sha256": "09b152f0dab965ca74c057076f6063fd167bc986b4a538651f5c252bb40a8abd",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893078236-60ec786a-4000-467b-aa5c-cdd600e5fe9b.png",
+      "bytes": 89109,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:42.686Z"
+    },
+    "image/png:35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81": {
+      "sourceHash": "35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81",
+      "sha256": "35cc098e382b9d71c777c397959ef6d775beb74b886c9d4f97e97cecb50afa81",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893082020-c52f6f8e-5038-44e5-8e97-3210b9493bc1.png",
+      "bytes": 94830,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:04:49.962Z"
+    },
+    "font/woff2:fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63": {
+      "sourceHash": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+      "url": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "bytes": 765892,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.981Z"
+    },
+    "font/woff2:d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c": {
+      "sourceHash": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "url": "/fonts/shared/d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c.woff2",
+      "bytes": 778432,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.984Z"
+    },
+    "font/woff2:c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0": {
+      "sourceHash": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "url": "/fonts/shared/c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0.woff2",
+      "bytes": 785856,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.988Z"
+    },
+    "font/woff2:4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362": {
+      "sourceHash": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "url": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "bytes": 791156,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.991Z"
+    },
+    "font/woff2:dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3": {
+      "sourceHash": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "url": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "bytes": 793540,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.994Z"
+    },
+    "font/woff2:a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2": {
+      "sourceHash": "a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2",
+      "sha256": "a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2",
+      "url": "/fonts/shared/a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2.woff2",
+      "bytes": 92164,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:04:49.995Z"
+    },
+    "image/png:b59cd5bf4f3d14c89eaaf56b88061a5d8493fea9f1a10c60fda900f580475afa": {
+      "sourceHash": "b59cd5bf4f3d14c89eaaf56b88061a5d8493fea9f1a10c60fda900f580475afa",
+      "sha256": "b59cd5bf4f3d14c89eaaf56b88061a5d8493fea9f1a10c60fda900f580475afa",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893090542-9378ffcc-598f-4352-a5d6-050d196237e8.png",
+      "bytes": 897527,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:00.316Z"
+    },
+    "image/png:429fc8f746e87160ed56df003b495e95785be5a301dbd02a4c76ecb053b2ca58": {
+      "sourceHash": "429fc8f746e87160ed56df003b495e95785be5a301dbd02a4c76ecb053b2ca58",
+      "sha256": "429fc8f746e87160ed56df003b495e95785be5a301dbd02a4c76ecb053b2ca58",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893100844-3eb8522b-12d7-452b-8b18-5ced22170bb8.png",
+      "bytes": 996148,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:09.478Z"
+    },
+    "image/png:be3e6598af0dff4014fdcc48041b0ca0e19e6928dc333ddaec0275d89db951f8": {
+      "sourceHash": "be3e6598af0dff4014fdcc48041b0ca0e19e6928dc333ddaec0275d89db951f8",
+      "sha256": "be3e6598af0dff4014fdcc48041b0ca0e19e6928dc333ddaec0275d89db951f8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893109786-8c265794-fcf4-48cb-a874-240e22c425f1.png",
+      "bytes": 408928,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:16.018Z"
+    },
+    "image/png:63e9247a120e87b12d2539d3bb46576c9ac96d79c2eab08dba419d24a1dba4c5": {
+      "sourceHash": "63e9247a120e87b12d2539d3bb46576c9ac96d79c2eab08dba419d24a1dba4c5",
+      "sha256": "63e9247a120e87b12d2539d3bb46576c9ac96d79c2eab08dba419d24a1dba4c5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893115753-d88a70a7-7606-4568-b540-b0e366627ac1.png",
+      "bytes": 1175814,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:23.783Z"
+    },
+    "image/png:f85a6b66e5df5dae5063df34b9bd710eda3d935c90ae0c1b739fcdebb0bc68fd": {
+      "sourceHash": "f85a6b66e5df5dae5063df34b9bd710eda3d935c90ae0c1b739fcdebb0bc68fd",
+      "sha256": "f85a6b66e5df5dae5063df34b9bd710eda3d935c90ae0c1b739fcdebb0bc68fd",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893123995-d3d23220-8416-47c9-a710-64682f54ad19.png",
+      "bytes": 1034650,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:31.752Z"
+    },
+    "image/png:313f3890476ba2ba6adec15f7faa67170c0d5037a04c90c86d27a340151a2fa4": {
+      "sourceHash": "313f3890476ba2ba6adec15f7faa67170c0d5037a04c90c86d27a340151a2fa4",
+      "sha256": "313f3890476ba2ba6adec15f7faa67170c0d5037a04c90c86d27a340151a2fa4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893131910-cd67c285-e245-461a-8fd6-f883ba938408.png",
+      "bytes": 636358,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:38.538Z"
+    },
+    "image/png:39c7e20172b04cc85eeb3d8e2e43a78a58e279b9462d3d9098a868fff7e048fc": {
+      "sourceHash": "39c7e20172b04cc85eeb3d8e2e43a78a58e279b9462d3d9098a868fff7e048fc",
+      "sha256": "39c7e20172b04cc85eeb3d8e2e43a78a58e279b9462d3d9098a868fff7e048fc",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893138869-7649bb30-c7a1-4f41-b399-50b1dd194e2f.png",
+      "bytes": 810240,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:46.271Z"
+    },
+    "image/png:937991c9882fd7b5778c20642bdb17080fc704736d80134fabcb84e2c8a860ba": {
+      "sourceHash": "937991c9882fd7b5778c20642bdb17080fc704736d80134fabcb84e2c8a860ba",
+      "sha256": "937991c9882fd7b5778c20642bdb17080fc704736d80134fabcb84e2c8a860ba",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893146676-ea018389-ee4e-4575-86c0-280e908f4313.png",
+      "bytes": 1017051,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:05:54.150Z"
+    },
+    "image/png:d35a9ccce2a3c50e3997a88e54cb64cd0eb91afbe36cf3ddc2f550b20207171a": {
+      "sourceHash": "d35a9ccce2a3c50e3997a88e54cb64cd0eb91afbe36cf3ddc2f550b20207171a",
+      "sha256": "d35a9ccce2a3c50e3997a88e54cb64cd0eb91afbe36cf3ddc2f550b20207171a",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893154371-791e6211-6e2c-4f0d-af1b-60db8f722612.png",
+      "bytes": 1262422,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:03.907Z"
+    },
+    "image/png:27b69618b674b415ffc32d9bd27d053c6fb4681a41e8ef37d0f3ffba00416c09": {
+      "sourceHash": "27b69618b674b415ffc32d9bd27d053c6fb4681a41e8ef37d0f3ffba00416c09",
+      "sha256": "27b69618b674b415ffc32d9bd27d053c6fb4681a41e8ef37d0f3ffba00416c09",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893163569-e55f9e76-9fad-4d26-832d-beb771287c13.png",
+      "bytes": 65020,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:07.185Z"
+    },
+    "image/png:ca26b1b83b39a3aa199b9d1443df5505e5d462c21d3139b4cb4425bd3c472e3e": {
+      "sourceHash": "ca26b1b83b39a3aa199b9d1443df5505e5d462c21d3139b4cb4425bd3c472e3e",
+      "sha256": "ca26b1b83b39a3aa199b9d1443df5505e5d462c21d3139b4cb4425bd3c472e3e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893166536-6d863793-36a3-4766-85e0-9ad30624d83b.png",
+      "bytes": 69123,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:10.024Z"
+    },
+    "font/woff2:9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4": {
+      "sourceHash": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "url": "/fonts/shared/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+      "bytes": 2057688,
+      "mime": "font/woff2",
+      "kind": "font",
+      "verifiedAt": "2026-10-13T12:06:10.394Z"
+    },
+    "image/png:48bb3456f34715ed454a12644e28dbd9bb0c52e08288bf096e97d383f1ea079c": {
+      "sourceHash": "48bb3456f34715ed454a12644e28dbd9bb0c52e08288bf096e97d383f1ea079c",
+      "sha256": "48bb3456f34715ed454a12644e28dbd9bb0c52e08288bf096e97d383f1ea079c",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893170427-c7a57c3a-ec5e-4c70-bbad-c34a15e37d91.png",
+      "bytes": 1700234,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:20.724Z"
+    },
+    "image/png:b948bdb6690053c05ade6c9047d39ede7818fa26153424e70b0aff128cd6a911": {
+      "sourceHash": "b948bdb6690053c05ade6c9047d39ede7818fa26153424e70b0aff128cd6a911",
+      "sha256": "b948bdb6690053c05ade6c9047d39ede7818fa26153424e70b0aff128cd6a911",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893181013-a1ee5e3e-a500-4e22-8d7e-94481b808cbb.png",
+      "bytes": 1603016,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:31.994Z"
+    },
+    "image/png:ffab4d57128db73beb196a666ffc4838d9e72e1d50408473a624acb9341b23b9": {
+      "sourceHash": "ffab4d57128db73beb196a666ffc4838d9e72e1d50408473a624acb9341b23b9",
+      "sha256": "ffab4d57128db73beb196a666ffc4838d9e72e1d50408473a624acb9341b23b9",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893192591-a97cfae8-ea0b-4f5f-8a9a-f1e49bd0a8b8.png",
+      "bytes": 2200154,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:06:42.843Z"
+    },
+    "image/png:f428f400802ec2f3615cfe65663867d2abd7ddad5ec1337d2140a908c2da9326": {
+      "sourceHash": "f428f400802ec2f3615cfe65663867d2abd7ddad5ec1337d2140a908c2da9326",
+      "sha256": "f428f400802ec2f3615cfe65663867d2abd7ddad5ec1337d2140a908c2da9326",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893203510-9dfd6afd-2161-488e-be26-5767a6c157ae.png",
+      "bytes": 1528297,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:04.143Z"
+    },
+    "image/png:29f4c1e57405880699f0e28965752186d213699024b59bf46fbaba22f2edd9cb": {
+      "sourceHash": "29f4c1e57405880699f0e28965752186d213699024b59bf46fbaba22f2edd9cb",
+      "sha256": "29f4c1e57405880699f0e28965752186d213699024b59bf46fbaba22f2edd9cb",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893224270-9cfe788e-6228-42f3-bdfb-7634dd98c197.png",
+      "bytes": 643455,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:12.910Z"
+    },
+    "image/png:f8c756ee050f256eaca204245ceed36bceea3244988f72f3f5e3c161ad30c3ec": {
+      "sourceHash": "f8c756ee050f256eaca204245ceed36bceea3244988f72f3f5e3c161ad30c3ec",
+      "sha256": "f8c756ee050f256eaca204245ceed36bceea3244988f72f3f5e3c161ad30c3ec",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893233462-d6bf3521-c355-4fb0-ae82-0197964e042b.png",
+      "bytes": 975318,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:24.007Z"
+    },
+    "image/png:76c90dd5fff0e9476726999953380557b77b9f6f4639deb947a9c6032b21a86a": {
+      "sourceHash": "76c90dd5fff0e9476726999953380557b77b9f6f4639deb947a9c6032b21a86a",
+      "sha256": "76c90dd5fff0e9476726999953380557b77b9f6f4639deb947a9c6032b21a86a",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893243842-b2fd6f8c-cd72-4093-806e-3e77c4568301.png",
+      "bytes": 195788,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:29.259Z"
+    },
+    "image/png:18589dc5f2bd3d5ebefc656630352337b4b32d70def70d26b9c749c8a8389a48": {
+      "sourceHash": "18589dc5f2bd3d5ebefc656630352337b4b32d70def70d26b9c749c8a8389a48",
+      "sha256": "18589dc5f2bd3d5ebefc656630352337b4b32d70def70d26b9c749c8a8389a48",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893248756-d68559fd-81a1-4239-9f39-c243a5038727.png",
+      "bytes": 247533,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:34.820Z"
+    },
+    "image/png:9f99e0d9604800f135e852cd5f380d09f5e56616b4567e7e7226b91d42637476": {
+      "sourceHash": "9f99e0d9604800f135e852cd5f380d09f5e56616b4567e7e7226b91d42637476",
+      "sha256": "9f99e0d9604800f135e852cd5f380d09f5e56616b4567e7e7226b91d42637476",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893254223-9678561d-9d76-4f77-bf46-d54fd234d239.png",
+      "bytes": 283806,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:38.849Z"
+    },
+    "image/png:b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2": {
+      "sourceHash": "b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2",
+      "sha256": "b3abeca21f01ebc1e40da08aabbebd3504a2599593d65bae28e2efd8f31ea5c2",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893258219-04685540-8af3-403a-8aef-53cdd17fb1ae.png",
+      "bytes": 166778,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:42.608Z"
+    },
+    "image/png:c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc": {
+      "sourceHash": "c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc",
+      "sha256": "c647feaf392625770fc02a5dc35f9ee54e534df317b6c2859351857a9f0d49dc",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893261988-1d2fda8a-90d8-40de-8b6e-58a8789c0f08.png",
+      "bytes": 176359,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:47.558Z"
+    },
+    "image/png:af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649": {
+      "sourceHash": "af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649",
+      "sha256": "af4dc9865e51f3d96592fc628066eb505d295a95dab6e84b3e4d603bb7933649",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893266952-5c4f2987-e031-469b-b87e-1fc2d4987e35.png",
+      "bytes": 282307,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:51.502Z"
+    },
+    "image/png:d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed": {
+      "sourceHash": "d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed",
+      "sha256": "d5bffdb01697626f3e96a9b97ac39a699b09dc479771c1567e953aa3b4c232ed",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893270891-4fa19493-2500-4b47-9489-371d4048fd5d.png",
+      "bytes": 241416,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:55.499Z"
+    },
+    "image/webp:e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c": {
+      "sourceHash": "e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c",
+      "sha256": "e49baad69f481a5746e589a3cfd6bc4dbfadec81cbb740ae7a4ca0f41660e76c",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893274846-c55afc04-a603-4d79-a388-69e7c71e0f05.webp",
+      "bytes": 86274,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:07:58.443Z"
+    },
+    "image/png:75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80": {
+      "sourceHash": "75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80",
+      "sha256": "75c00671c47d57a855155e46f4cd2dfd41af89947b8a49165579b4a80f550f80",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893277775-f95b81e1-506b-4433-99ed-ed75c0c21c27.png",
+      "bytes": 32002,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:08:01.259Z"
+    },
+    "image/jpeg:07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887": {
+      "sourceHash": "07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887",
+      "sha256": "07d8fccfb1ffdd41e1d5ff2f18914ba90635ab6075758c9cc061176dcef1c887",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893280753-8035f578-ccc4-401f-b6df-426c9d0dcb2d.jpeg",
+      "bytes": 517379,
+      "mime": "image/jpeg",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:08:07.848Z"
+    },
+    "image/png:7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa": {
+      "sourceHash": "7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa",
+      "sha256": "7b80819949f7158db8a5eab433f032633bff8c235c1b6dbba0bea8e1ac0d98fa",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893288713-dc1fdda6-dfab-4f74-86fd-7ef7fec3e499.png",
+      "bytes": 8205415,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:08:59.151Z"
+    },
+    "image/png:012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53": {
+      "sourceHash": "012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53",
+      "sha256": "012a2f05dad0a4ee701c02444fae7e097485d93ffe3fcdec5bfb0af98e2b5c53",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893338766-ec7befad-aed4-46fd-a79f-39a2b1ccc26a.png",
+      "bytes": 99836,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:02.386Z"
+    },
+    "image/png:4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085": {
+      "sourceHash": "4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085",
+      "sha256": "4083f7b9f5f7c78a3ea410532edce2125c931e0828e2c7de9347d8283bc4f085",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893341720-2b8b6130-85f1-41a9-92c6-644ab1d617bc.png",
+      "bytes": 89951,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:05.434Z"
+    },
+    "image/png:9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c": {
+      "sourceHash": "9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c",
+      "sha256": "9a5343a2a155b2437e4714dd9cdbb35b98cb5ebf23a154d6f4dd7eea5a4c9f1c",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893345102-ac96d290-a355-4366-9032-c55e956b1fc9.png",
+      "bytes": 728943,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:11.914Z"
+    },
+    "image/png:9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5": {
+      "sourceHash": "9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5",
+      "sha256": "9988fe7d3e16384c51ea7184b65cd16f72709565cd6666b9a0aabb339a8bdbe5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893351555-cd29f4c5-9947-4884-aa6d-a4ffe8ed99c8.png",
+      "bytes": 80455,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:17.338Z"
+    },
+    "image/png:cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d": {
+      "sourceHash": "cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d",
+      "sha256": "cef4ecbdc2a3acb8ec8847c136a036650fd09858eab2235c4cfcec8446cfcb1d",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893357139-a598c8d3-4170-4e2e-8524-a71611d457ab.png",
+      "bytes": 1379728,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:27.427Z"
+    },
+    "image/png:6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab": {
+      "sourceHash": "6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab",
+      "sha256": "6c482a23253034f30cb9a4b9128a59a90ca9e4f377849b3eb56a63e6994674ab",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893367854-28961d37-131b-450d-b742-fb8b2cd831f4.png",
+      "bytes": 1151472,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:36.234Z"
+    },
+    "image/png:af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a": {
+      "sourceHash": "af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a",
+      "sha256": "af2724a64bf89178149c9c62c7b08b6acadbba4a4b9c9c88d331ade5dcf8df4a",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893376562-aa8a70de-f3b1-43c3-af27-a7bf5e3b13e0.png",
+      "bytes": 1242858,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:47.436Z"
+    },
+    "image/png:31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0": {
+      "sourceHash": "31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0",
+      "sha256": "31e661b27e166061c2917ebc7678b3b1223811e61fe7ab3c99924184974fa7d0",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893388076-f7c4cef7-8025-4555-bf4e-38523113f188.png",
+      "bytes": 1178990,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:09:57.576Z"
+    },
+    "image/png:8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4": {
+      "sourceHash": "8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4",
+      "sha256": "8ffed1d2536d297d2a85cf3f2974f8eb4ce33bb16dcade3abd7a7ed1ae6be8a4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893397892-096bdf01-e3d0-40b8-8b97-7e213c68a6fe.png",
+      "bytes": 1352603,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:06.854Z"
+    },
+    "image/png:12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb": {
+      "sourceHash": "12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb",
+      "sha256": "12d814c12e0698ee4d831857d41e77f0a3fb9a0f5b866976e91143d56b221beb",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893407267-5c29c757-4833-4223-80a0-b3f37129e034.png",
+      "bytes": 1418172,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:17.966Z"
+    },
+    "image/png:1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308": {
+      "sourceHash": "1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308",
+      "sha256": "1391693adae3b98ffc6ff5a7a10f12a3cd3c6b0420aea2d0a9b01522bd134308",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893418508-4de1a89d-1a4a-4749-bd15-1d495f819619.png",
+      "bytes": 867380,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:27.293Z"
+    },
+    "image/png:e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e": {
+      "sourceHash": "e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e",
+      "sha256": "e38c728b0b8644e6c9971cce63c9c2f3f5bf9670032707f6e00a9089e675548e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893427568-939a2f67-020e-424a-b277-9f4181bd523f.png",
+      "bytes": 1424729,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:37.027Z"
+    },
+    "image/png:4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4": {
+      "sourceHash": "4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4",
+      "sha256": "4f14ebd2cc97a61bb9bded312a5240d783351cc90c5bc8bce050c0af3ff27dd4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893437188-0dcc3de6-ccd1-4cc4-9d78-48a2ae71f5a4.png",
+      "bytes": 926039,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:44.219Z"
+    },
+    "image/png:f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719": {
+      "sourceHash": "f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719",
+      "sha256": "f0c9b0acc0517496b0e35767c856db6be68e3be414aa3656a035006fa09fa719",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893444370-8f4a7905-180e-415b-abf3-53a510fbcea7.png",
+      "bytes": 826413,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:10:50.730Z"
+    },
+    "image/png:418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264": {
+      "sourceHash": "418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264",
+      "sha256": "418a04f644cc283f4cd3fc13945d847fcbe7f40464f4b6b4ea3a33e2e6236264",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893450338-9d881dcb-b114-4785-9db6-1cfd37a30697.png",
+      "bytes": 1679390,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:00.297Z"
+    },
+    "image/png:b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f": {
+      "sourceHash": "b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f",
+      "sha256": "b3d1fb1f68349ee9a77c7e7d6713ad14332cc9392409753efab1ac4c8452ea6f",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893460510-16382d1c-4082-43d7-b141-cac51f93e0d3.png",
+      "bytes": 1202483,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:09.698Z"
+    },
+    "image/webp:6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5": {
+      "sourceHash": "6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5",
+      "sha256": "6ffff935db70ff3103a7dee4f6e39ab30dae1624842857a2bc6aaacaca680db5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893469603-8c78e296-80c9-41ad-880d-64da676323bc.webp",
+      "bytes": 74478,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:13.373Z"
+    },
+    "image/png:ef4993613946fde3c1f3ce596cac359eb32f3f476350a58cb114506c4efe9d52": {
+      "sourceHash": "ef4993613946fde3c1f3ce596cac359eb32f3f476350a58cb114506c4efe9d52",
+      "sha256": "ef4993613946fde3c1f3ce596cac359eb32f3f476350a58cb114506c4efe9d52",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893473520-3b769323-9318-47ed-ae85-9ba98efa94de.png",
+      "bytes": 1197068,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:22.287Z"
+    },
+    "image/png:c479f3ff8405156d12dd128f426c6f289f249ab34364138f582f784b5847417b": {
+      "sourceHash": "c479f3ff8405156d12dd128f426c6f289f249ab34364138f582f784b5847417b",
+      "sha256": "c479f3ff8405156d12dd128f426c6f289f249ab34364138f582f784b5847417b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893482601-caf1dfbd-ba94-4195-ab60-195c48c11f0a.png",
+      "bytes": 1278055,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:29.871Z"
+    },
+    "image/png:29ce74d823931067cde5b049241117d259b74c2a3164f8d814cdcf20772c071b": {
+      "sourceHash": "29ce74d823931067cde5b049241117d259b74c2a3164f8d814cdcf20772c071b",
+      "sha256": "29ce74d823931067cde5b049241117d259b74c2a3164f8d814cdcf20772c071b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893490575-b8ddf5c6-ba50-426f-aa12-00441bbbae4f.png",
+      "bytes": 1649303,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:39.758Z"
+    },
+    "image/png:a93e9afdba1d1e0a889aa5f181291596c83aabfd44de43bfe44bceace531ac6e": {
+      "sourceHash": "a93e9afdba1d1e0a889aa5f181291596c83aabfd44de43bfe44bceace531ac6e",
+      "sha256": "a93e9afdba1d1e0a889aa5f181291596c83aabfd44de43bfe44bceace531ac6e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893500113-2e9aee4a-cf00-4055-ab05-bba1b7cfcc68.png",
+      "bytes": 1266575,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:46.662Z"
+    },
+    "image/png:92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352": {
+      "sourceHash": "92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352",
+      "sha256": "92f567c37d2874d58ffbc855de05e7857f9e0516449d42e1b3d6be2e25039352",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893506915-8cbae7ff-67d7-4be9-bc46-d26f2811c064.png",
+      "bytes": 1245230,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:53.292Z"
+    },
+    "image/svg+xml:53926ed4b4f7be5dc0230b64e828fb0f2fdca43d19e2a2921ee04ea6a7f0872f": {
+      "sourceHash": "53926ed4b4f7be5dc0230b64e828fb0f2fdca43d19e2a2921ee04ea6a7f0872f",
+      "sha256": "53926ed4b4f7be5dc0230b64e828fb0f2fdca43d19e2a2921ee04ea6a7f0872f",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+      "bytes": 38485,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:56.295Z"
+    },
+    "image/svg+xml:3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b": {
+      "sourceHash": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
+      "sha256": "3d7be1ced5a26df97bcd459151bdf3930f91dc8c1ec03d507e8d708c6b87ec7b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+      "bytes": 38479,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:11:58.841Z"
+    },
+    "image/svg+xml:ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf": {
+      "sourceHash": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf",
+      "sha256": "ce16c4ad2836ab3967155ccbc7d45a4d503e575911515cc7abfb5a4e79a1d4cf",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+      "bytes": 11220,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:01.789Z"
+    },
+    "image/svg+xml:1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d": {
+      "sourceHash": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
+      "sha256": "1b7609c3635cc03809ab19bdb8e7a5e52428c202180859e6e2d44571a9e96d9d",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+      "bytes": 11220,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:04.382Z"
+    },
+    "image/png:55952b6920643d2ec4f4d477b04c1ab71498bdfb0b5272245a463fe448ccbdb8": {
+      "sourceHash": "55952b6920643d2ec4f4d477b04c1ab71498bdfb0b5272245a463fe448ccbdb8",
+      "sha256": "55952b6920643d2ec4f4d477b04c1ab71498bdfb0b5272245a463fe448ccbdb8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893524049-608c3506-150d-469f-92d8-f8586d6ff8f3.png",
+      "bytes": 263649,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:08.744Z"
+    },
+    "image/png:fd44dd37502259b1338373b7cdf317ce3ef16356b2a75a57cf37e6910598edf4": {
+      "sourceHash": "fd44dd37502259b1338373b7cdf317ce3ef16356b2a75a57cf37e6910598edf4",
+      "sha256": "fd44dd37502259b1338373b7cdf317ce3ef16356b2a75a57cf37e6910598edf4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893528092-1eb2140b-3886-4229-8b6a-12cdf0b3e99d.png",
+      "bytes": 38239,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:11.498Z"
+    },
+    "image/png:a93aedc4945d401d32de2b6a1aba84402eb939ccce6edf65c9f253b524a7f1db": {
+      "sourceHash": "a93aedc4945d401d32de2b6a1aba84402eb939ccce6edf65c9f253b524a7f1db",
+      "sha256": "a93aedc4945d401d32de2b6a1aba84402eb939ccce6edf65c9f253b524a7f1db",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893531149-0dabd2ff-4bec-4746-a421-6fc3462bab9b.png",
+      "bytes": 524096,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:16.355Z"
+    },
+    "image/webp:cd9d4ef8c3bcb14e064db7942800ae36a01b8c34918646e879c41961bb2d598b": {
+      "sourceHash": "cd9d4ef8c3bcb14e064db7942800ae36a01b8c34918646e879c41961bb2d598b",
+      "sha256": "cd9d4ef8c3bcb14e064db7942800ae36a01b8c34918646e879c41961bb2d598b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893535700-85bfb092-c458-4287-aa40-9bd70a0c323d.webp",
+      "bytes": 34344,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:19.338Z"
+    },
+    "image/webp:bdeb6c9584c76d11247c8639799c99ae7e5d5577c8396fea9b89c7d855342858": {
+      "sourceHash": "bdeb6c9584c76d11247c8639799c99ae7e5d5577c8396fea9b89c7d855342858",
+      "sha256": "bdeb6c9584c76d11247c8639799c99ae7e5d5577c8396fea9b89c7d855342858",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893538663-358c58c9-1a20-4ba1-a8d9-3c3334aa3f57.webp",
+      "bytes": 14158,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:21.865Z"
+    },
+    "image/webp:3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20": {
+      "sourceHash": "3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20",
+      "sha256": "3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893541192-ffc72a29-a552-4bc8-8019-777e40e6804e.webp",
+      "bytes": 25114,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:25.805Z"
+    },
+    "image/webp:30d79c91136247219e3443239bde8ca7b26fab369b308e6b60cdd3960e2ba188": {
+      "sourceHash": "30d79c91136247219e3443239bde8ca7b26fab369b308e6b60cdd3960e2ba188",
+      "sha256": "30d79c91136247219e3443239bde8ca7b26fab369b308e6b60cdd3960e2ba188",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893545131-b4915c14-7631-4896-b6ac-421a486d683d.webp",
+      "bytes": 24624,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:28.521Z"
+    },
+    "image/webp:ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b": {
+      "sourceHash": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
+      "sha256": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893547866-69c6a10d-08ea-46a8-abf2-6f67bb09402d.webp",
+      "bytes": 116164,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:31.380Z"
+    },
+    "image/webp:5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc": {
+      "sourceHash": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
+      "sha256": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893550696-012a0b52-cadc-43a0-bcf1-823e157499ea.webp",
+      "bytes": 16692,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:34.084Z"
+    },
+    "image/webp:4f6acaf6be084d82fdb76b471ebeff88da719d087c4eda9b218abc489b71759b": {
+      "sourceHash": "4f6acaf6be084d82fdb76b471ebeff88da719d087c4eda9b218abc489b71759b",
+      "sha256": "4f6acaf6be084d82fdb76b471ebeff88da719d087c4eda9b218abc489b71759b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893553403-44494cf9-51e3-4cf4-bf12-46278d8e0571.webp",
+      "bytes": 36528,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:38.115Z"
+    },
+    "image/webp:2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8": {
+      "sourceHash": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
+      "sha256": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893557432-42b863d8-f63d-49b1-92d5-c173fb0939ee.webp",
+      "bytes": 24332,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:41.923Z"
+    },
+    "image/webp:f4326965fa23ad99e83c64ed3ab804d3af0d58f42e60aee07dbed7c5ffbea4d4": {
+      "sourceHash": "f4326965fa23ad99e83c64ed3ab804d3af0d58f42e60aee07dbed7c5ffbea4d4",
+      "sha256": "f4326965fa23ad99e83c64ed3ab804d3af0d58f42e60aee07dbed7c5ffbea4d4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893561244-9ac0b348-6da6-4857-aac0-4156812d4bf3.webp",
+      "bytes": 34488,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:45.647Z"
+    },
+    "image/webp:db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509": {
+      "sourceHash": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
+      "sha256": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893564976-23aec526-9a2a-4948-bda6-fd53b80c708f.webp",
+      "bytes": 34204,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:49.072Z"
+    },
+    "image/webp:269d6f39925fa5abee6c8efc9921d245f006b0931507471ecddc3144a3840cb0": {
+      "sourceHash": "269d6f39925fa5abee6c8efc9921d245f006b0931507471ecddc3144a3840cb0",
+      "sha256": "269d6f39925fa5abee6c8efc9921d245f006b0931507471ecddc3144a3840cb0",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893568439-2e02ebbf-8b98-4e7d-87cf-09220d8687e8.webp",
+      "bytes": 215164,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:12:58.752Z"
+    },
+    "image/svg+xml:4a0428fc3c286054f11a8ad3d6e29f9287d2a4ba1801d5626f1a4274fe794d32": {
+      "sourceHash": "4a0428fc3c286054f11a8ad3d6e29f9287d2a4ba1801d5626f1a4274fe794d32",
+      "sha256": "4a0428fc3c286054f11a8ad3d6e29f9287d2a4ba1801d5626f1a4274fe794d32",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893666102-5d190204-b809-4bf8-9d78-3e19a6f2cbd1.svg",
+      "bytes": 138,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:30.204Z"
+    },
+    "image/svg+xml:d051def0e59de3abe8ffd41b4e19d8326f1377e563963b36adbe7c10a5b8411b": {
+      "sourceHash": "d051def0e59de3abe8ffd41b4e19d8326f1377e563963b36adbe7c10a5b8411b",
+      "sha256": "d051def0e59de3abe8ffd41b4e19d8326f1377e563963b36adbe7c10a5b8411b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893669506-34e49156-c5fb-4f41-b6ce-9e5b5b885f08.svg",
+      "bytes": 138,
+      "mime": "image/svg+xml",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:32.888Z"
+    },
+    "image/svg+xml:97a39d48cc53cdd6117a0d082f822524866ab3764e8a5ea77e8fdd78be91f6f0": {
+      "sourceHash": "97a39d48cc53cdd6117a0d082f822524866ab3764e8a5ea77e8fdd78be91f6f0",
+      "sha256": "9fe533b4558aef1574aade791b52625a1f00de0e95659d71580d319c2d3df5f7",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893673279-0ecb71b3-1944-4f45-863c-327167dc3971.png",
+      "bytes": 82742,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:37.328Z"
+    },
+    "image/webp:e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374": {
+      "sourceHash": "e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374",
+      "sha256": "e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893676782-9c7bdf5f-4307-46f6-aae0-f97fb77a5494.webp",
+      "bytes": 138064,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:41.375Z"
+    },
+    "image/webp:b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e": {
+      "sourceHash": "b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e",
+      "sha256": "b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893680829-19417398-9f00-4ff3-b125-9a55a371377a.webp",
+      "bytes": 193136,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:44.935Z"
+    },
+    "image/webp:269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333": {
+      "sourceHash": "269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333",
+      "sha256": "269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893684252-95416a04-c2a9-403d-8302-ecd622eaf670.webp",
+      "bytes": 24456,
+      "mime": "image/webp",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:47.632Z"
+    },
+    "image/png:29d2621be6c846f4449519b939145f7d0a4be1336053cba4515510fdf24543b0": {
+      "sourceHash": "29d2621be6c846f4449519b939145f7d0a4be1336053cba4515510fdf24543b0",
+      "sha256": "29d2621be6c846f4449519b939145f7d0a4be1336053cba4515510fdf24543b0",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893686969-da3bdb62-4cd7-43a5-97b3-db5c4e28506b.png",
+      "bytes": 31593,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:50.952Z"
+    },
+    "image/png:793ccbc4bc369825e137dc0297d236e9e8c6ba34d8d695b7b94170a972e160ad": {
+      "sourceHash": "793ccbc4bc369825e137dc0297d236e9e8c6ba34d8d695b7b94170a972e160ad",
+      "sha256": "793ccbc4bc369825e137dc0297d236e9e8c6ba34d8d695b7b94170a972e160ad",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893690326-32c0b205-1289-44ae-a0a4-1f66409dcb7a.png",
+      "bytes": 220981,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:54.574Z"
+    },
+    "image/svg+xml:d5f79a7f3db15148c88dee80d96253fdc8e8dc5ef9770630348ce272c102a601": {
+      "sourceHash": "d5f79a7f3db15148c88dee80d96253fdc8e8dc5ef9770630348ce272c102a601",
+      "sha256": "31f8d6c82842e0a2ed5a98f27ce6d70be13486f0aaed72d21f85adb15ce279d1",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893694488-b3153101-31f8-4cad-85c0-a47fa2e51421.png",
+      "bytes": 346306,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:14:57.991Z"
+    },
+    "image/svg+xml:bf9483c2d6d40e12ab5b3a138ee7d881dccb6bee74518c7fe53077061e0537f9": {
+      "sourceHash": "bf9483c2d6d40e12ab5b3a138ee7d881dccb6bee74518c7fe53077061e0537f9",
+      "sha256": "d5100b0fda5b5b43419f7d60beda63611738e59752b4f665d1c4c31654a17524",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893697780-f60512e9-13a7-4a5b-99c1-ada72b8cc018.png",
+      "bytes": 328925,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:01.253Z"
+    },
+    "image/svg+xml:92fd5583d2b3364071cb87cf74c9943a2516f3e1de6e668b53656cd32324d233": {
+      "sourceHash": "92fd5583d2b3364071cb87cf74c9943a2516f3e1de6e668b53656cd32324d233",
+      "sha256": "1b5230f34de1263f2aeefaea4d21b236d63e7c1a94e858c34df2ce6195fa9fb4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893700912-fb47c92b-3ada-4caa-8f23-800009f1c3a0.png",
+      "bytes": 161114,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:04.215Z"
+    },
+    "image/svg+xml:921fd4fd598442faed068baa7777de5ddf543a1cd5e2bb4948be8e22809b95d2": {
+      "sourceHash": "921fd4fd598442faed068baa7777de5ddf543a1cd5e2bb4948be8e22809b95d2",
+      "sha256": "db1f3ac14485390fa1d4e3b99518be2ee62a752cbd1e9fb153cce74978d17465",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893703892-a694144a-8e0c-4e5b-809c-1fc679b6c331.png",
+      "bytes": 162022,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:07.333Z"
+    },
+    "image/svg+xml:a5151211a8cabdf7e7b0bc166074929bd2d55c6eb3d809264c0965667dcba438": {
+      "sourceHash": "a5151211a8cabdf7e7b0bc166074929bd2d55c6eb3d809264c0965667dcba438",
+      "sha256": "6098a495d5274aa207099c8a56e6681dfc2d4fcab77ed8e5f28e27559af06f18",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893707082-9703b75e-b07f-4d11-a1f5-b6b2eb5d7385.png",
+      "bytes": 292834,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:11.290Z"
+    },
+    "image/svg+xml:83d5878d02f0179f93c7cbed6202f729da130fa5ee4fd25e273fbcb2757bd021": {
+      "sourceHash": "83d5878d02f0179f93c7cbed6202f729da130fa5ee4fd25e273fbcb2757bd021",
+      "sha256": "0d21d76a40b07b6ccc5632aa1775c5099b1379e0f7a22e669d7450d9be7019a5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893710938-d3b0e2f6-14ad-48ca-a98e-8e64fac5e9e4.png",
+      "bytes": 139830,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:14.136Z"
+    },
+    "image/svg+xml:736e62fe70f8c2bb5c9f79b1f0d2ab93cac8367ad46dff79c91657f0c43c1754": {
+      "sourceHash": "736e62fe70f8c2bb5c9f79b1f0d2ab93cac8367ad46dff79c91657f0c43c1754",
+      "sha256": "8e867b1fe1ff9cb96f0789dd3287a0294145c21c85ebff43bd8431d272de9323",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893713758-09cb9a81-4adb-40d8-8653-17bc45cb00bb.png",
+      "bytes": 97789,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:17.045Z"
+    },
+    "image/svg+xml:d775d453c0ec9c9c01e15a822c0c2f9eb6ded0d53f80103992b60d03216fdd99": {
+      "sourceHash": "d775d453c0ec9c9c01e15a822c0c2f9eb6ded0d53f80103992b60d03216fdd99",
+      "sha256": "cb8028c474126b4b4524bc815e6a355cd40de5fb47c55be5a80b98c4cde85b6e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893716688-c2560d0a-330f-4576-8163-6a2b419ac1bb.png",
+      "bytes": 110682,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:20.210Z"
+    },
+    "image/svg+xml:60526498527e290229c68ead9f61f810df07024de27476034d44cee2e756ce4d": {
+      "sourceHash": "60526498527e290229c68ead9f61f810df07024de27476034d44cee2e756ce4d",
+      "sha256": "a606d5d9a57a80c1457f5a6711f5aaa00f8e983b9de16d82680c7f07bb8b0d7f",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893720170-f8fa16ed-361b-47c8-bffb-8737515d07d9.png",
+      "bytes": 326185,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:24.060Z"
+    },
+    "image/svg+xml:dd461f5604f568687f497ef0ad4a4dc2f6ea4d15c4296ca75e72bdf3db8feda3": {
+      "sourceHash": "dd461f5604f568687f497ef0ad4a4dc2f6ea4d15c4296ca75e72bdf3db8feda3",
+      "sha256": "a097ce6bc8f1c7fc7943d175834acdb628e380e62aa877d7858fafe710577e72",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893723823-d003bc6e-3e8b-41ff-a2cf-1c91c56fddbc.png",
+      "bytes": 299833,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:27.496Z"
+    },
+    "image/svg+xml:730bba713c43f84d99df8379da7221f3c7639ddb1e8ee388b6d5a0a5a4b064a9": {
+      "sourceHash": "730bba713c43f84d99df8379da7221f3c7639ddb1e8ee388b6d5a0a5a4b064a9",
+      "sha256": "d7b37449e0504e4c11ede87e98d0a3a4bbf6acec9f8a4bfbc420404ca1359365",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893727239-2fa777df-8b86-41e8-b27d-4ec66bf7422f.png",
+      "bytes": 303881,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:32.117Z"
+    },
+    "image/svg+xml:23c31c40de5a86034e89f8e62dbb877364321eb90177fcb196edb378618b6d76": {
+      "sourceHash": "23c31c40de5a86034e89f8e62dbb877364321eb90177fcb196edb378618b6d76",
+      "sha256": "a8078ef94b4db977a21462b87bd2d90dd9fa7158cacffa0a904ec9236c2ea726",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893731927-62bbc746-b999-4be5-883d-4c43356c0df4.png",
+      "bytes": 344193,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:35.793Z"
+    },
+    "image/svg+xml:1150a3912fbff40f2ce081f009e1890054923b72dbda06ac4ce248d222c48b09": {
+      "sourceHash": "1150a3912fbff40f2ce081f009e1890054923b72dbda06ac4ce248d222c48b09",
+      "sha256": "f62852cda5af35cc83d42aaaf689b4bd12971e950404864a1026f510c34ae14c",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "bytes": 213642,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:39.307Z"
+    },
+    "image/svg+xml:20d3244abe06299ff6c27a651e00aa89e80e96401012fa4ce19e31e1924d9538": {
+      "sourceHash": "20d3244abe06299ff6c27a651e00aa89e80e96401012fa4ce19e31e1924d9538",
+      "sha256": "954801dc6bd4d8bc81cedc1719a16531278e1896b6cc407649b0685a1a454f25",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "bytes": 92197,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:48.232Z"
+    },
+    "image/svg+xml:297b671fde404a35b1c73255389e1929e8c99dc8376743bdd31d90e1931829a3": {
+      "sourceHash": "297b671fde404a35b1c73255389e1929e8c99dc8376743bdd31d90e1931829a3",
+      "sha256": "8107a807074a1163a70a7a8688c18f11b7687d810bb6afd48ab353343b75f17b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "bytes": 212450,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:15:53.601Z"
+    },
+    "image/svg+xml:2b3fb2e8bade2dd8a1600005ec81173ec0106bc66188901ebcb8f1eef1514223": {
+      "sourceHash": "2b3fb2e8bade2dd8a1600005ec81173ec0106bc66188901ebcb8f1eef1514223",
+      "sha256": "525d65b53fd11a3893757ae67cb84eb181b12c74140a7f1b6236802856ec37ea",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "bytes": 210589,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:02.921Z"
+    },
+    "image/svg+xml:2ea109ae3280705cbac98969f3d6308c29e0211d7931f1b3b58db1bf88dd100d": {
+      "sourceHash": "2ea109ae3280705cbac98969f3d6308c29e0211d7931f1b3b58db1bf88dd100d",
+      "sha256": "8107a807074a1163a70a7a8688c18f11b7687d810bb6afd48ab353343b75f17b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+      "bytes": 212450,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:12.506Z"
+    },
+    "image/svg+xml:54e076ea411817f9c47b6f11b7fedf1b151437180458505fa7892781a9e22077": {
+      "sourceHash": "54e076ea411817f9c47b6f11b7fedf1b151437180458505fa7892781a9e22077",
+      "sha256": "500b1638b9d691c2f082a2936a8506c59a837c50a3e8b9e5b652ffb86aa10133",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "bytes": 113419,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:27.144Z"
+    },
+    "image/svg+xml:5cb2c73ce9ec91f420dc16a8153c3fda69d598c3ea70af8beac5dd7276e8559f": {
+      "sourceHash": "5cb2c73ce9ec91f420dc16a8153c3fda69d598c3ea70af8beac5dd7276e8559f",
+      "sha256": "a605a827393f0dea2099848b8fb7eb24d2f42d1791912655fc77d66fc1e4bb83",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "bytes": 66968,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:35.292Z"
+    },
+    "image/svg+xml:65af30903b49634abf0b7aed7782809cbb38a063ac21cbc766ff1cd42fd4acf7": {
+      "sourceHash": "65af30903b49634abf0b7aed7782809cbb38a063ac21cbc766ff1cd42fd4acf7",
+      "sha256": "f1900ae7438e407dfc46358b121f62d7c5cd557b06e5e7faf1c33f0a4ea8bbf4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "bytes": 177142,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:45.580Z"
+    },
+    "image/svg+xml:72cf867b02681779012f6ba9d37e54138a07d8d6b73f9a97218fcc4cf475d97d": {
+      "sourceHash": "72cf867b02681779012f6ba9d37e54138a07d8d6b73f9a97218fcc4cf475d97d",
+      "sha256": "954801dc6bd4d8bc81cedc1719a16531278e1896b6cc407649b0685a1a454f25",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+      "bytes": 92197,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:47.712Z"
+    },
+    "image/svg+xml:7806bea460c8551c2cd26607d2cc999d80d8a09d9655d0057b943ec85856e459": {
+      "sourceHash": "7806bea460c8551c2cd26607d2cc999d80d8a09d9655d0057b943ec85856e459",
+      "sha256": "3b1ae4dc311fdd281f78983af878144134636a0b5e28c874530b4620456ccfbf",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "bytes": 233796,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:57.374Z"
+    },
+    "image/svg+xml:7c224d4b44630307ff2f0fdef0f7b1a935b7581c16fa4e20584285326e576782": {
+      "sourceHash": "7c224d4b44630307ff2f0fdef0f7b1a935b7581c16fa4e20584285326e576782",
+      "sha256": "500b1638b9d691c2f082a2936a8506c59a837c50a3e8b9e5b652ffb86aa10133",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+      "bytes": 113419,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:16:59.357Z"
+    },
+    "image/svg+xml:876565d18e5e569c7cb22be4a49a46b2a0ce8c9fbcf7945db8ab329be3604702": {
+      "sourceHash": "876565d18e5e569c7cb22be4a49a46b2a0ce8c9fbcf7945db8ab329be3604702",
+      "sha256": "f1900ae7438e407dfc46358b121f62d7c5cd557b06e5e7faf1c33f0a4ea8bbf4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+      "bytes": 177142,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:01.999Z"
+    },
+    "image/svg+xml:98f4f370299a61fb3762a3fbe32c27dd712eac9437f7741ae6eee0108b274784": {
+      "sourceHash": "98f4f370299a61fb3762a3fbe32c27dd712eac9437f7741ae6eee0108b274784",
+      "sha256": "2511b62699b8a15fb03ee9d522ab87b3c4fb5f1b17a4f00a97bfde2e31dce554",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "bytes": 214979,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:13.383Z"
+    },
+    "image/svg+xml:aa7fdfa1859b3bf30c08e1fa48209a71e218f4f03d18ef8d7902b6707cae53ec": {
+      "sourceHash": "aa7fdfa1859b3bf30c08e1fa48209a71e218f4f03d18ef8d7902b6707cae53ec",
+      "sha256": "2f7cc6e7c3a15b8a5d2761f7fe20eadec0b529b754bb069781de00229cef0fc9",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "bytes": 77995,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:17.269Z"
+    },
+    "image/svg+xml:b839cab819a26592fd0b05dc095bf16ce1cb2bc293f124cbcf31d85afa10a897": {
+      "sourceHash": "b839cab819a26592fd0b05dc095bf16ce1cb2bc293f124cbcf31d85afa10a897",
+      "sha256": "7cfa030cd6fd82942b0443e48f091d39a46045c9d47f21418693da36481d60d6",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "bytes": 65135,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:20.214Z"
+    },
+    "image/svg+xml:bd5d2f4ec0560c94675cffd07a25b35f6be6b06e786e79d28f701021474b771b": {
+      "sourceHash": "bd5d2f4ec0560c94675cffd07a25b35f6be6b06e786e79d28f701021474b771b",
+      "sha256": "a605a827393f0dea2099848b8fb7eb24d2f42d1791912655fc77d66fc1e4bb83",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+      "bytes": 66968,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:22.321Z"
+    },
+    "image/svg+xml:c1957de2b34091c18aad036dad827cb505049d71521ccb180bb9864fb5d4a751": {
+      "sourceHash": "c1957de2b34091c18aad036dad827cb505049d71521ccb180bb9864fb5d4a751",
+      "sha256": "525d65b53fd11a3893757ae67cb84eb181b12c74140a7f1b6236802856ec37ea",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+      "bytes": 210589,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:25.921Z"
+    },
+    "image/svg+xml:c8493cdced96c92571fa93f5741e4a7250cff607158c5e72a42c6afa61fa9d39": {
+      "sourceHash": "c8493cdced96c92571fa93f5741e4a7250cff607158c5e72a42c6afa61fa9d39",
+      "sha256": "513f3492d55b7583d31eed2be67f53cd3ebc17f6f3709678a568a7ddc536a53e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "bytes": 184377,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:31.588Z"
+    },
+    "image/svg+xml:d2a6c03568ec91d6a7c8cde3a833925cda015aa83f61e3c79d9b52a0110d9c98": {
+      "sourceHash": "d2a6c03568ec91d6a7c8cde3a833925cda015aa83f61e3c79d9b52a0110d9c98",
+      "sha256": "3b1ae4dc311fdd281f78983af878144134636a0b5e28c874530b4620456ccfbf",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+      "bytes": 233796,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:34.791Z"
+    },
+    "image/svg+xml:d2fdd9dd7eb7ac3e27622081bd78c31ddb5616ed3d68ca13eef7c0f4269f8aae": {
+      "sourceHash": "d2fdd9dd7eb7ac3e27622081bd78c31ddb5616ed3d68ca13eef7c0f4269f8aae",
+      "sha256": "7cfa030cd6fd82942b0443e48f091d39a46045c9d47f21418693da36481d60d6",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+      "bytes": 65135,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:40.754Z"
+    },
+    "image/svg+xml:df62ceb3cd8a2cb6850de0fa0770fdd8e794d9f82fea5f4090c94ea5dd41e93a": {
+      "sourceHash": "df62ceb3cd8a2cb6850de0fa0770fdd8e794d9f82fea5f4090c94ea5dd41e93a",
+      "sha256": "f62852cda5af35cc83d42aaaf689b4bd12971e950404864a1026f510c34ae14c",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+      "bytes": 213642,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:50.531Z"
+    },
+    "image/svg+xml:e26c852e1273d80a8935392437dc59171c4a72cfeeeb86a6d3ddf02045a5c928": {
+      "sourceHash": "e26c852e1273d80a8935392437dc59171c4a72cfeeeb86a6d3ddf02045a5c928",
+      "sha256": "2511b62699b8a15fb03ee9d522ab87b3c4fb5f1b17a4f00a97bfde2e31dce554",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+      "bytes": 214979,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:17:55.211Z"
+    },
+    "image/svg+xml:e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38": {
+      "sourceHash": "e609e42ba9f4cd2b33a71334402250493457365de5fc228dce543257180dfd38",
+      "sha256": "2f7cc6e7c3a15b8a5d2761f7fe20eadec0b529b754bb069781de00229cef0fc9",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+      "bytes": 77995,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:18:01.235Z"
+    },
+    "image/svg+xml:fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc": {
+      "sourceHash": "fdaa124528196a4a2da60c4f2e2f41558e897ce8fe2cc3fbab92c1d0d7e6fadc",
+      "sha256": "513f3492d55b7583d31eed2be67f53cd3ebc17f6f3709678a568a7ddc536a53e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+      "bytes": 184377,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-13T12:18:09.923Z"
+    }
+  },
+  "paths": {
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-01.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-02.jpg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893005051-0c91cc7e-bb85-4015-a47c-0d3f9854840c.jpeg",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-03.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893009594-33179a93-4c26-463f-b301-3ce36e64da73.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-04.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893021091-02a1d937-6d00-466d-9440-7510aa442b58.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-05.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893041212-e8d92e02-39fd-4768-9826-1c2865051c4e.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-06.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893060162-6f48c07c-6a2c-432e-92e9-5295dd77ab9f.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-07.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893063968-968c416b-717f-4686-8ebb-30122918e097.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-08.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893069130-7daeffe9-6ab2-41e1-aee4-d5b1650ec651.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-09.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893073969-b80c617a-87b9-4c53-a52b-4d241dd87baf.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-10.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893078236-60ec786a-4000-467b-aa5c-cdd600e5fe9b.png",
+    "/decks/educational-harness-workshop-2026-07-06/v1/assets/source-11.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893082020-c52f6f8e-5038-44e5-8e97-3210b9493bc1.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-01.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-02.jpg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893005051-0c91cc7e-bb85-4015-a47c-0d3f9854840c.jpeg",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-03.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893009594-33179a93-4c26-463f-b301-3ce36e64da73.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-04.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893021091-02a1d937-6d00-466d-9440-7510aa442b58.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-05.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893041212-e8d92e02-39fd-4768-9826-1c2865051c4e.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-06.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893060162-6f48c07c-6a2c-432e-92e9-5295dd77ab9f.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-07.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893063968-968c416b-717f-4686-8ebb-30122918e097.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-08.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893069130-7daeffe9-6ab2-41e1-aee4-d5b1650ec651.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-09.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893073969-b80c617a-87b9-4c53-a52b-4d241dd87baf.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-10.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893078236-60ec786a-4000-467b-aa5c-cdd600e5fe9b.png",
+    "/decks/educational-harness-workshop-2026-07-06/v2/assets/source-11.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893082020-c52f6f8e-5038-44e5-8e97-3210b9493bc1.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/10_1029_431px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893258219-04685540-8af3-403a-8aef-53cdd17fb1ae.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/11_1004_474px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893261988-1d2fda8a-90d8-40de-8b6e-58a8789c0f08.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/12_1011_968px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893266952-5c4f2987-e031-469b-b87e-1fc2d4987e35.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/13_1005_916px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893270891-4fa19493-2500-4b47-9489-371d4048fd5d.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/14_751_730px.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893274846-c55afc04-a603-4d79-a388-69e7c71e0f05.webp",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/15_1432_648px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893277775-f95b81e1-506b-4433-99ed-ed75c0c21c27.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/16_2752_1536px.jpeg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893280753-8035f578-ccc4-401f-b6df-426c9d0dcb2d.jpeg",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/17_2752_1536px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893288713-dc1fdda6-dfab-4f74-86fd-7ef7fec3e499.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/18_1272_862px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893338766-ec7befad-aed4-46fd-a79f-39a2b1ccc26a.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/19_828_842px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893341720-2b8b6130-85f1-41a9-92c6-644ab1d617bc.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/1_1693_952px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893345102-ac96d290-a355-4366-9032-c55e956b1fc9.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/20_1105_831px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893351555-cd29f4c5-9947-4884-aa6d-a4ffe8ed99c8.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/21_1672_941px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893357139-a598c8d3-4170-4e2e-8524-a71611d457ab.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/22_1672_941px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893367854-28961d37-131b-450d-b742-fb8b2cd831f4.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/23_1672_941px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893376562-aa8a70de-f3b1-43c3-af27-a7bf5e3b13e0.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/24_1672_941px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893388076-f7c4cef7-8025-4555-bf4e-38523113f188.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/25_1672_941px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893397892-096bdf01-e3d0-40b8-8b97-7e213c68a6fe.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/2_1691_949px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893407267-5c29c757-4833-4223-80a0-b3f37129e034.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/3_1693_948px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893418508-4de1a89d-1a4a-4749-bd15-1d495f819619.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/4_1697_940px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893427568-939a2f67-020e-424a-b277-9f4181bd523f.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/5_1695_949px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893437188-0dcc3de6-ccd1-4cc4-9d78-48a2ae71f5a4.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/6_1698_947px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893444370-8f4a7905-180e-415b-abf3-53a510fbcea7.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/7_1684_952px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893450338-9d881dcb-b114-4785-9db6-1cfd37a30697.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/8_1696_949px.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893460510-16382d1c-4082-43d7-b141-cac51f93e0d3.png",
+    "/decks/media-colloquium-2026-06-10/assets/evidence/9_751_680px.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893469603-8c78e296-80c9-41ad-880d-64da676323bc.webp",
+    "/decks/media-colloquium-2026-06-10/assets/img1.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893473520-3b769323-9318-47ed-ae85-9ba98efa94de.png",
+    "/decks/media-colloquium-2026-06-10/assets/img2.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893482601-caf1dfbd-ba94-4195-ab60-195c48c11f0a.png",
+    "/decks/media-colloquium-2026-06-10/assets/img3.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893490575-b8ddf5c6-ba50-426f-aa12-00441bbbae4f.png",
+    "/decks/media-colloquium-2026-06-10/assets/img4.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893500113-2e9aee4a-cf00-4055-ab05-bba1b7cfcc68.png",
+    "/decks/media-colloquium-2026-06-10/assets/img5.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893506915-8cbae7ff-67d7-4be9-bc46-d26f2811c064.png",
+    "/experiments/pkm-poster-2026/cmds-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+    "/experiments/pkm-poster-2026/cmds-reconstructed.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+    "/experiments/pkm-poster-2026/hallym-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+    "/experiments/pkm-poster-2026/hallym-emblem.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+    "/experiments/pkm-poster-2026/poster-preview.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893524049-608c3506-150d-469f-92d8-f8586d6ff8f3.png",
+    "/experiments/pkm-speaker-posters-2026/cmds-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+    "/experiments/pkm-speaker-posters-2026/cmds-reconstructed.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+    "/experiments/pkm-speaker-posters-2026/hallym-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+    "/experiments/pkm-speaker-posters-2026/hallym-emblem.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+    "/experiments/pkm-speaker-posters-2026/og-fd44dd375022.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893528092-1eb2140b-3886-4229-8b6a-12cdf0b3e99d.png",
+    "/experiments/pkm-speaker-posters-2026/poster-preview.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893531149-0dabd2ff-4bec-4746-a421-6fc3462bab9b.png",
+    "/images/ai-reading-slide.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893535700-85bfb092-c458-4287-aa40-9bd70a0c323d.webp",
+    "/images/book.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893538663-358c58c9-1a20-4ba1-a8d9-3c3334aa3f57.webp",
+    "/images/city.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893541192-ffc72a29-a552-4bc8-8019-777e40e6804e.webp",
+    "/images/educational-harness-workshop-2026-07-06.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893545131-b4915c14-7631-4896-b6ac-421a486d683d.webp",
+    "/images/flight.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893547866-69c6a10d-08ea-46a8-abf2-6f67bb09402d.webp",
+    "/images/grandeur.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893550696-012a0b52-cadc-43a0-bcf1-823e157499ea.webp",
+    "/images/human-reading-writing.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893553403-44494cf9-51e3-4cf4-bf12-46278d8e0571.webp",
+    "/images/meal.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893557432-42b863d8-f63d-49b1-92d5-c173fb0939ee.webp",
+    "/images/media-colloquium-2026-06-10.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893561244-9ac0b348-6da6-4857-aac0-4156812d4bf3.webp",
+    "/images/pedal.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893564976-23aec526-9a2a-4948-bda6-fd53b80c708f.webp",
+    "/images/racing.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893568439-2e02ebbf-8b98-4e7d-87cf-09220d8687e8.webp",
+    "/experiments/pkm-speaker-posters-2026/pretendard-400.woff2": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+    "/experiments/pkm-speaker-posters-2026/pretendard-700.woff2": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+    "/experiments/pkm-speaker-posters-2026/pretendard-800.woff2": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+    "/fonts/PretendardVariable.woff2": "/fonts/shared/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+    "/images/sametone-specimen.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893673279-0ecb71b3-1944-4f45-863c-327167dc3971.png",
+    "/images/studio-frame.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893676782-9c7bdf5f-4307-46f6-aae0-f97fb77a5494.webp",
+    "/images/studio-paper.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893680829-19417398-9f00-4ff3-b125-9a55a371377a.webp",
+    "/images/water.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893684252-95416a04-c2a9-403d-8302-ecd622eaf670.webp",
+    "/posters/hallym-pkm-2026/v1/cmds-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893512931-3152be74-24b1-462d-b1c9-abcd7e87338f.svg",
+    "/posters/hallym-pkm-2026/v1/cmds-reconstructed.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893515635-73c3ba73-d1fb-4344-8ec2-b0f47daaab3b.svg",
+    "/posters/hallym-pkm-2026/v1/hallym-dark.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893518161-30b5e198-4112-40c8-94ee-9d400f1553cc.svg",
+    "/posters/hallym-pkm-2026/v1/hallym-emblem.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893521109-58007935-dc0b-4b27-8a4f-1b0e1f29f59d.svg",
+    "/posters/hallym-pkm-2026/v1/og-fd44dd375022.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893528092-1eb2140b-3886-4229-8b6a-12cdf0b3e99d.png",
+    "/posters/hallym-pkm-2026/v1/poster-preview.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893531149-0dabd2ff-4bec-4746-a421-6fc3462bab9b.png",
+    "/posters/hallym-pkm-2026/v1/pretendard-400.woff2": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+    "/posters/hallym-pkm-2026/v1/pretendard-700.woff2": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+    "/posters/hallym-pkm-2026/v1/pretendard-800.woff2": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+    "/posters/media-school-workshop-20260706/v1/og-29d2621be6c8.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893686969-da3bdb62-4cd7-43a5-97b3-db5c4e28506b.png",
+    "/posters/media-school-workshop-20260706/v1/poster-preview.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893690326-32c0b205-1289-44ae-a0a4-1f66409dcb7a.png",
+    "/posters/media-school-workshop-20260706/v1/pretendard-400.woff2": "/fonts/shared/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+    "/posters/media-school-workshop-20260706/v1/pretendard-700.woff2": "/fonts/shared/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+    "/posters/media-school-workshop-20260706/v1/pretendard-800.woff2": "/fonts/shared/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+    "/reading/en/figures/1150a3912fbff40f2ce0.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893694488-b3153101-31f8-4cad-85c0-a47fa2e51421.png",
+    "/reading/en/figures/297b671fde404a35b1c7.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893697780-f60512e9-13a7-4a5b-99c1-ada72b8cc018.png",
+    "/reading/en/figures/72cf867b02681779012f.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893700912-fb47c92b-3ada-4caa-8f23-800009f1c3a0.png",
+    "/reading/en/figures/7c224d4b44630307ff2f.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893703892-a694144a-8e0c-4e5b-809c-1fc679b6c331.png",
+    "/reading/en/figures/876565d18e5e569c7cb2.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893707082-9703b75e-b07f-4d11-a1f5-b6b2eb5d7385.png",
+    "/reading/en/figures/aa7fdfa1859b3bf30c08.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893710938-d3b0e2f6-14ad-48ca-a98e-8e64fac5e9e4.png",
+    "/reading/en/figures/b839cab819a26592fd0b.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893713758-09cb9a81-4adb-40d8-8653-17bc45cb00bb.png",
+    "/reading/en/figures/bd5d2f4ec0560c94675c.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893716688-c2560d0a-330f-4576-8163-6a2b419ac1bb.png",
+    "/reading/en/figures/c1957de2b34091c18aad.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893720170-f8fa16ed-361b-47c8-bffb-8737515d07d9.png",
+    "/reading/en/figures/c8493cdced96c92571fa.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893723823-d003bc6e-3e8b-41ff-a2cf-1c91c56fddbc.png",
+    "/reading/en/figures/d2a6c03568ec91d6a7c8.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893727239-2fa777df-8b86-41e8-b27d-4ec66bf7422f.png",
+    "/reading/en/figures/e26c852e1273d80a8935.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893731927-62bbc746-b999-4be5-883d-4c43356c0df4.png",
+    "/reading/human-reading-writing-2026/assets/1150a3912fbff40f2ce0.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+    "/reading/human-reading-writing-2026/assets/18589dc5f2bd3d5ebefc.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893248756-d68559fd-81a1-4239-9f39-c243a5038727.png",
+    "/reading/human-reading-writing-2026/assets/20d3244abe06299ff6c2.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+    "/reading/human-reading-writing-2026/assets/297b671fde404a35b1c7.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+    "/reading/human-reading-writing-2026/assets/2b3fb2e8bade2dd8a160.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+    "/reading/human-reading-writing-2026/assets/2ea109ae3280705cbac9.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893747970-d9712e49-c08e-48e2-b991-f9ccfbc7b4b4.png",
+    "/reading/human-reading-writing-2026/assets/54e076ea411817f9c47b.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+    "/reading/human-reading-writing-2026/assets/5cb2c73ce9ec91f420dc.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+    "/reading/human-reading-writing-2026/assets/65af30903b49634abf0b.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+    "/reading/human-reading-writing-2026/assets/72cf867b02681779012f.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893743308-44717bb8-b850-450b-8b4e-a7446dfeef47.png",
+    "/reading/human-reading-writing-2026/assets/76c90dd5fff0e9476726.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893243842-b2fd6f8c-cd72-4093-806e-3e77c4568301.png",
+    "/reading/human-reading-writing-2026/assets/7806bea460c8551c2cd2.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+    "/reading/human-reading-writing-2026/assets/7c224d4b44630307ff2f.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893776545-17f382a2-03a1-4930-b76c-7940142ae174.png",
+    "/reading/human-reading-writing-2026/assets/876565d18e5e569c7cb2.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893799360-2bc01880-b37d-4ff1-9fef-fb25a35f019e.png",
+    "/reading/human-reading-writing-2026/assets/98f4f370299a61fb3762.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+    "/reading/human-reading-writing-2026/assets/9f99e0d9604800f135e8.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893254223-9678561d-9d76-4f77-bf46-d54fd234d239.png",
+    "/reading/human-reading-writing-2026/assets/aa7fdfa1859b3bf30c08.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+    "/reading/human-reading-writing-2026/assets/b839cab819a26592fd0b.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+    "/reading/human-reading-writing-2026/assets/bd5d2f4ec0560c94675c.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893791102-837189cc-3fb8-4de9-be27-3ad6c561c966.png",
+    "/reading/human-reading-writing-2026/assets/c1957de2b34091c18aad.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893757516-f9849a8a-3df4-4df0-a949-7a4b957c282d.png",
+    "/reading/human-reading-writing-2026/assets/c8493cdced96c92571fa.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png",
+    "/reading/human-reading-writing-2026/assets/d2a6c03568ec91d6a7c8.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893812002-99e7ca54-5c60-4de7-b13d-60b7b78a6b76.png",
+    "/reading/human-reading-writing-2026/assets/d2fdd9dd7eb7ac3e2762.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893836964-2615513c-efa4-45e8-9007-8551f13078f5.png",
+    "/reading/human-reading-writing-2026/assets/df62ceb3cd8a2cb6850d.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893735546-249f6094-764a-4d0b-a7a8-e9ee73ef6c8f.png",
+    "/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893826635-42a4ce84-aa6c-4a0d-8ce7-12124dec53fb.png",
+    "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893833283-35562507-0c41-4952-bff5-37fc77d5eda8.png",
+    "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893846100-2995a4ce-f2cb-444f-a59f-9d366e988ef8.png"
+  }
+}
