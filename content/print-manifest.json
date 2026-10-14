@@ -3,9 +3,9 @@
   "profile": "achmage-hanmark-a4-b-inline-title-v1",
   "works": {
     "educational-harness-workshop-2026-07-06": {
-      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/d3909af9a4c8041f.pdf",
-      "sha256": "d3909af9a4c8041fb0b30e3f91067a0f237831394298a100b2d2a2de0c5c2757",
-      "inputDigest": "2e8c02fd8a4bbfbf8b5943a1faa093a87c36c91b495a11073dbc73b253a4a837",
+      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/22995cac6f23b620.pdf",
+      "sha256": "22995cac6f23b620c2491a22754724367f5414b0f23857031ecccd3b66115e56",
+      "inputDigest": "9b944dfe5b104481bcf67ab96f082c50047db9e3c3b848732a164b03ce066b87",
       "profile": "achmage-hanmark-a4-b-inline-title-v1",
       "hanmarkVersion": "2.7.0",
       "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
@@ -27,9 +27,9 @@
       "imageMissing": 0
     },
     "ai-reading-pilot": {
-      "url": "/reading/pdf/ai-reading-pilot/94e8366cbe0fd41c.pdf",
-      "sha256": "94e8366cbe0fd41c6fd55ec5df54da9201e2b7211e63c9401badc51961e4647f",
-      "inputDigest": "be0b322ba7e066d00985a0d1c12a54fbd0490c2200f1815d43e970694e1caa00",
+      "url": "/reading/pdf/ai-reading-pilot/0e14fff3609b1257.pdf",
+      "sha256": "0e14fff3609b1257892a51dc0be6ebb3148edb45df80045cc22b2d6ca9709ad6",
+      "inputDigest": "fb55beed75d69cf8325fd1713da3a73bdf11a19028ef0b39b6d2f1e15ed3bce9",
       "profile": "achmage-hanmark-a4-b-inline-title-v1",
       "hanmarkVersion": "2.7.0",
       "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
@@ -51,9 +51,9 @@
       "imageMissing": 0
     },
     "human-reading-writing-2026": {
-      "url": "/reading/pdf/human-reading-writing-2026/8788d40690d2db90.pdf",
-      "sha256": "8788d40690d2db90adfc7b338e52cde408c9c944e4b40ba814572d92b7cdaecc",
-      "inputDigest": "97a89c7a955251f447da286eb48ba4b45428128d96b5bae1b45fbb7f9b69067c",
+      "url": "/reading/pdf/human-reading-writing-2026/43d90940b44fb6a4.pdf",
+      "sha256": "43d90940b44fb6a4a701a33a952a6463cde1df1d0292f770ea58c0c0118ad329",
+      "inputDigest": "78127685ef4223893035576d641c05ffaef7158163a37f970650c09f04d367bf",
       "profile": "achmage-hanmark-a4-b-inline-title-v1",
       "hanmarkVersion": "2.7.0",
       "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
@@ -75,9 +75,9 @@
       "imageMissing": 0
     },
     "media-colloquium-2026-06-10": {
-      "url": "/reading/pdf/media-colloquium-2026-06-10/5924d942d6e708c1.pdf",
-      "sha256": "5924d942d6e708c162f42cb9be5a02b09ed11e14689eb0ddfa1245e8fb835d24",
-      "inputDigest": "34e1481e1c627da186e9b01249d1ef5dd5885f0ed7fafb6c3de7b5683134533e",
+      "url": "/reading/pdf/media-colloquium-2026-06-10/7851ad2c862179e5.pdf",
+      "sha256": "7851ad2c862179e51b1c6390b9811282a70cc7c1da20492d0000422e92ce929b",
+      "inputDigest": "a9020915acf3d17bd63f5b808059fe0332dcd8a6de9fc232cb6f4b9ecfb2ee8a",
       "profile": "achmage-hanmark-a4-b-inline-title-v1",
       "hanmarkVersion": "2.7.0",
       "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
@@ -93,6 +93,30 @@
       "pdfLinks": 58,
       "pdfVerifier": "PyMuPDF 1.27.2.3",
       "images": 25,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0
+    },
+    "survey-scale-intro-2026-10-13": {
+      "url": "/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf",
+      "sha256": "1802f478670b9212356a39f949ed91e4e5a312c9dbd275b68bae8a76581008ff",
+      "inputDigest": "079bfb364ca7c8bd5acd28aacd7b5a8b8a034431cf580b9a7229ba2089bad46d",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 20,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 6,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 0,
       "sourceOrder": true,
       "firstPageInsetPx": 161.96875,
       "geometryErrors": 0,

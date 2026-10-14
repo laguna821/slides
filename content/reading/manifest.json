@@ -1350,6 +1350,276 @@
           "section-37"
         ]
       }
+    },
+    "survey-scale-intro-2026-10-13": {
+      "source": "public/decks/survey-scale-intro-2026-10-13/v1.3.0/source.html",
+      "sourceSha256": "667626ed56b9b56b71d4b6a7d54fa3058cf92d02ec04c0c76950deb499cbcbaf",
+      "markdownSha256": "96193468b0a073d8dcd807d095ece4d464c79734b6ac5001e6c6af03605ef868",
+      "units": [
+        {
+          "id": "s01",
+          "sha256": "ebeec0354e1580f7fa3fece74696fc29b932aae0ecbdf62c019bec7bd040fd4a",
+          "characters": 196,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s02",
+          "sha256": "c955459fdc245e52b7d23b5215ba362f2ac96646a1fd6afe99db25a1d771e1cc",
+          "characters": 1038,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s03",
+          "sha256": "68b3664a1630302daf83aff17f04200c3e5566c097a0d61d8a6c0d77659ca61c",
+          "characters": 914,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s04",
+          "sha256": "82e7de1a37c36e970da89f3e6358d4b1374270a61d6af026ad8de534d3c0e566",
+          "characters": 916,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s05",
+          "sha256": "e5b25e72b4fa0b40664edd71f6ced4d998749a565e96daa1ec2890f23e6320b6",
+          "characters": 1014,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s06",
+          "sha256": "1d3ccd886c6efb6912a16f8fa8f7e888a85e763f8fdcac672eee97f114b21afc",
+          "characters": 258,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l01",
+          "sha256": "66fba77cd1ed1f591effd8476804c689c69e7e76e936a891b645de30e052d4f2",
+          "characters": 229,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l02",
+          "sha256": "b92c2c3957552a912cda70853e0e0e3d4a0d7238a027f6d435b4d5326b4b2afe",
+          "characters": 238,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l03",
+          "sha256": "1f3c4e126f8e711803eb70f90698077e896c9b0c424461fa3ec5d5dcd05c50a2",
+          "characters": 239,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l04",
+          "sha256": "888c08b53540ad6e6d760b05049f1856444fa22fa7ba2b44e82f22dc939bfdac",
+          "characters": 223,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l05",
+          "sha256": "ec004715aa7f7cf210759c94fdd4e62f0d2a215592dd49e7f8f7f8ed6c765eb4",
+          "characters": 219,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l06",
+          "sha256": "be74aee2bd04ce3a713a972607a220e75e54b9e49859676e05c04e90042e9ec0",
+          "characters": 236,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l07",
+          "sha256": "90d82ad736e78cf6e65cb7ef79ba0f16d46efc02169aedd8694a8d390d5b950d",
+          "characters": 229,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l08",
+          "sha256": "1bc09ef241cccbf2acff36846c57c26ac0ba7df670dbe2bb6ff1ec3e507f45c3",
+          "characters": 234,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s07",
+          "sha256": "cb353a8086f6d1b8e5f6d193b2a180570f767486f86d210dd26379c506a2abea",
+          "characters": 1024,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s08",
+          "sha256": "03760387b5ffb04a22f55a9d73051789e86d45c5b3c50099b535be4cf99e8bd5",
+          "characters": 4578,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s09",
+          "sha256": "7a6fc505305b62c95207f50678295af0645853c2ff54495ac8485133ccb7dc09",
+          "characters": 407,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s10",
+          "sha256": "330c1abcda98954244b39b04293d09a0e38f07333ea821ffa3b03bc5507379a2",
+          "characters": 969,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l09",
+          "sha256": "b75c1f77c42d02ba7142441fb977e9b8c2b961c4707d9b023071128664da3393",
+          "characters": 237,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l10",
+          "sha256": "29fb75441576f53349f0fa8891d3c359874afbb5b53e9d5235b9255c5d0b9154",
+          "characters": 236,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l11",
+          "sha256": "97941c690041fb7dc5a38252f9a0529f6768457ec68b10104998699eb99a4364",
+          "characters": 241,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l12",
+          "sha256": "31736f014e092f7a77d8fabfa1ce39f77028902b868d748634f677b240a7e74b",
+          "characters": 226,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l13",
+          "sha256": "123346587fb742922e9a07787ce10704e0ad6a2766bbd430c1891ec8b7492743",
+          "characters": 233,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l14",
+          "sha256": "bb72ea7295224b98422320420c074e00b81a3ead7462c7f3a83a45a300d831c7",
+          "characters": 227,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l15",
+          "sha256": "4d8744d5091193ddd52e095ab132893924d7a656bb6a50845f0a3096c9aefbcd",
+          "characters": 245,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l16",
+          "sha256": "0f49cba299576ecd2b90d1ab9cc4bb12a97abc0d1f982b6072f613d9203fce14",
+          "characters": 235,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l17",
+          "sha256": "03002b300997ceced0b6b19a45ff8e0f11a42438311f4b6dfa7eb4e5a8f1e2cf",
+          "characters": 235,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l18",
+          "sha256": "84750d6b746054a22ee5612a92021350de7e019ef1f8cc34300f75906e7225c5",
+          "characters": 217,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l19",
+          "sha256": "e4a273a458f2f2cdc730c5898d4ffabe0ad2c1d2fcbc1a01ade2f4fc3a346b6d",
+          "characters": 221,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "l20",
+          "sha256": "300327adcd9e28dd0e5de695093d026093895f7bc190acbd0c1039243e84c5ee",
+          "characters": 226,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s11",
+          "sha256": "908e851fa0e386567a953d444002ac991006510346f72f4ecf31318cf4853a26",
+          "characters": 989,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s12",
+          "sha256": "db6996420cad9fd76c0104e6894f556588e92fdfcc8af12d207cc8ee99386fd4",
+          "characters": 1076,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s13",
+          "sha256": "536b75f7ece97a7de034e06f1cf40f59cff7f642cbda3dc0aa818bdbea45e9d2",
+          "characters": 1085,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s14",
+          "sha256": "2d8fba4483f335e563416778bdc31c7dce31724a0365dfb2576bea4bc26e18c1",
+          "characters": 1034,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s15",
+          "sha256": "1b191acfe87835ee59c3e542f8f23711fb67a242a2c213855aef67a835b4e85d",
+          "characters": 1175,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s16",
+          "sha256": "ebf4942af26bfae2ff62d83a2d823b9c7141f235d33529e323e906752535f8cb",
+          "characters": 686,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s17",
+          "sha256": "c5f9cb834fab38a953680a3df4a868005482f31e509fded280cbe7ef393e00d0",
+          "characters": 964,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s18",
+          "sha256": "57cf54a5c4f2751fce43e0fba36bacb26a6ca36dbcfcbc941b30d8467c0ace17",
+          "characters": 2114,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s19",
+          "sha256": "408051f34098f4e9870961fa90b72ff829f49a145f6f9215a8ae59db21509913",
+          "characters": 251,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "s20",
+          "sha256": "5df0393eb0614ff4d666a5fc7b4126c4da828e4b5b97c2d1d4cff073d5a754f8",
+          "characters": 214,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "a01",
+          "sha256": "665617f3f273366ab681a71ba0826b71e084bf75401ea7ec97cef9c0caea9454",
+          "characters": 265,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "a02",
+          "sha256": "b5f208411e5416f49a2b1d7566e84f57d669a6a3b1d0a73fc04f937794909906",
+          "characters": 454,
+          "contiguousOrderPreserved": false
+        },
+        {
+          "id": "a03",
+          "sha256": "ae914e5d3e717d6b6474f2eca289e9f6fb83090306c65ace52846b427c0a5122",
+          "characters": 465,
+          "contiguousOrderPreserved": false
+        }
+      ],
+      "images": [],
+      "aliases": {},
+      "leafCount": 524,
+      "missing": 0,
+      "dynamicCoverage": "docs/survey-scale-intro-coverage.json"
     }
   }
 }

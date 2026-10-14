@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "status": "release-reviewed-awaiting-publication-confirmation",
+  "checkedAt": "2026-10-13T11:50:08.264Z",
+  "baselineCommit": "2b4069ae50a725e50e1ffc103c3c1c86c46dca82",
+  "workId": "survey-scale-intro-2026-10-13",
+  "sourceCoverage": {
+    "slides": 43,
+    "mainSlides": 40,
+    "appendixSlides": 3,
+    "originalDomLeaves": 524,
+    "instructionalTextFields": 883,
+    "labExamples": 20,
+    "labBranches": 60,
+    "labHints": 60,
+    "quizOptions": 45,
+    "selectionCandidates": 6,
+    "selectedCandidates": [
+      1,
+      3,
+      5
+    ]
+  },
+  "independentReview": "Content review checked metadata privacy, preserved engine lineage, empty notes status, complete branches and fixed graph counts. Findings were addressed in the sanitized source and reading edition.",
+  "pdfs": [
+    {
+      "language": "ko",
+      "url": "/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf",
+      "sha256": "1802f478670b9212356a39f949ed91e4e5a312c9dbd275b68bae8a76581008ff",
+      "inputDigest": "079bfb364ca7c8bd5acd28aacd7b5a8b8a034431cf580b9a7229ba2089bad46d",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "playwright": "1.62.1",
+        "esbuild": "0.28.1"
+      },
+      "pages": 20,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 6,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 0,
+      "sourceOrder": true,
+      "firstPageInsetPx": 161.96875,
+      "geometryErrors": 0,
+      "imageMissing": 0,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "visualEvidence": "All20 pages viewed as rendered contact sheets; no cropped text or columns; title and body together on page1."
+    },
+    {
+      "language": "en",
+      "url": "/reading/en/pdf/survey-scale-intro-2026-10-13/27d62be2e5a375b0.pdf",
+      "sha256": "27d62be2e5a375b0b590259fa99a2d966613e25b249d2fb250e63f3a393f6ced",
+      "sourceHash": "694c8666b15f5ef3b64eff11727ed6a0bf69be082889d0fe796e149201addc37",
+      "inputDigest": "31a84a984cb8161e7a63480ea95370aaa24d304f619e398d1e8a3defbb30d529",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.27.2.3"
+      },
+      "pages": 24,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 6,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 0,
+      "sourceOrder": true,
+      "firstPageInsetPx": 200.625,
+      "geometryErrors": 0,
+      "imageMissing": 0,
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "visualEvidence": "All24 pages viewed as rendered contact sheets. Initial page3 overflow fixed by faithful shorter translation; unchanged exporter now reports zero geometry errors."
+    }
+  ],
+  "localHttp": [
+    {
+      "url": "/reading/pdf/educational-harness-workshop-2026-07-06/22995cac6f23b620.pdf",
+      "status": 200,
+      "sha256": "22995cac6f23b620c2491a22754724367f5414b0f23857031ecccd3b66115e56",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/pdf/ai-reading-pilot/0e14fff3609b1257.pdf",
+      "status": 200,
+      "sha256": "0e14fff3609b1257892a51dc0be6ebb3148edb45df80045cc22b2d6ca9709ad6",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/pdf/human-reading-writing-2026/43d90940b44fb6a4.pdf",
+      "status": 200,
+      "sha256": "43d90940b44fb6a4a701a33a952a6463cde1df1d0292f770ea58c0c0118ad329",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/pdf/media-colloquium-2026-06-10/7851ad2c862179e5.pdf",
+      "status": 200,
+      "sha256": "7851ad2c862179e51b1c6390b9811282a70cc7c1da20492d0000422e92ce929b",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/pdf/survey-scale-intro-2026-10-13/1802f478670b9212.pdf",
+      "status": 200,
+      "sha256": "1802f478670b9212356a39f949ed91e4e5a312c9dbd275b68bae8a76581008ff",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/en/pdf/ai-reading-pilot/6c8777234a520fc6.pdf",
+      "status": 200,
+      "sha256": "6c8777234a520fc6fb5041c8e11ab76efcc06fe328a1e9c95dd9957775970405",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/en/pdf/human-reading-writing-2026/cb7d01e4c4e2e86c.pdf",
+      "status": 200,
+      "sha256": "cb7d01e4c4e2e86ce71f78194971fd03d12fca5b57d64b6ddd97bc7db1300b3c",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/en/pdf/media-colloquium-2026-06-10/0454a26af372b8ac.pdf",
+      "status": 200,
+      "sha256": "0454a26af372b8ac8e106beed81e286bfce344fedadefe879b064270c4cf72ad",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/en/pdf/educational-harness-workshop-2026-07-06/65a2090a607fbfbd.pdf",
+      "status": 200,
+      "sha256": "65a2090a607fbfbd199bba05c7d896d37af9f44397e3b7f28bf320cecb5e8d9a",
+      "bytesMatch": true
+    },
+    {
+      "url": "/reading/en/pdf/survey-scale-intro-2026-10-13/27d62be2e5a375b0.pdf",
+      "status": 200,
+      "sha256": "27d62be2e5a375b0b590259fa99a2d966613e25b249d2fb250e63f3a393f6ced",
+      "bytesMatch": true
+    },
+    {
+      "url": "/decks/survey-scale-intro-2026-10-13/v1.3.0/index.html",
+      "status": 200,
+      "sha256": "efe1d23bdd8efd52568a5e58058447150b261494f00c2bb08f022db780d7af63",
+      "bytesMatch": true
+    },
+    {
+      "url": "/decks/survey-scale-intro-2026-10-13/v1.3.0/all-explanations.pdf",
+      "status": 200,
+      "sha256": "afa5476b45dc4f3d16df32d8e650b095baad83641872f3ae42252eb332e8be14",
+      "bytesMatch": true
+    }
+  ],
+  "browser": {
+    "environment": "Windows Edge CUA for deck/notes lock; Codex in-app browser CUA for site feature and responsive checks.",
+    "sourceHtmlSha256": "667626ed56b9b56b71d4b6a7d54fa3058cf92d02ec04c0c76950deb499cbcbaf",
+    "observed": [
+      "Dark slide36: six candidates present; select1,3,5 and submit shows correct feedback without changing the slide.",
+      "Native Right key changes36 to37.",
+      "Metadata sanitation preserved interactive behavior.",
+      "N opens notes prompt; wrong password rejected; configured password decrypts; relock and reload return to locked state.",
+      "456 responsive route views,60 reader navigation rows/180 positions,40 extra width views measured.",
+      "All10 bilingual readers: actual text/Markdown/section copy and Markdown/PDF downloads match exported bytes.",
+      "KO/EN search finds lecture. Detailed179-link outline opens with Enter and closes with Space."
+    ],
+    "pdfOpen": "not-confirmed",
+    "pdfBrowserLimitation": "Edge PDF navigation timed out and then showed a blank about:srcdoc viewer. PDF bytes and HTTP200 independently verified; rasterized pages inspected.",
+    "notesHtmlSha256": "efe1d23bdd8efd52568a5e58058447150b261494f00c2bb08f022db780d7af63"
+  },
+  "tests": {
+    "focused": "4/4 passed: original3 content tests plus bilingual inline export regression",
+    "fullSuite": "62/62 passed; npm run upload:prepare succeeded; release review matches current digest.",
+    "astroCheck": "99 files; zero errors, warnings or hints."
+  },
+  "blockers": [
+    "Current-version user publication confirmation after completed preview, per UPLOAD-CONTRACT."
+  ],
+  "gatesBypassed": false,
+  "productionChanged": false,
+  "priorPdfReview": {
+    "pixelIdenticalWorks": 3,
+    "educationalHarness": {
+      "pagesViewed": 13,
+      "observation": "All rendered pages viewed; no clipping or overlap observed. Existing public PDFs preserved."
+    }
+  }
+}

@@ -87,18 +87,17 @@ const outline=work.segments.filter(s=>s.kind!=='poster');
         )}
         {outline.length > 0 && <div class="prose">
           <h2>발표의 흐름</h2>
-          {work.segments.length > 0 ? (
-            <ol>
-              {outline.map((s) => (
-                <li>
-                  <a href={work.href + 'read/#' + encodeURIComponent(s.id)}>
-                    {s.title}
-                  </a>
-                </li>
-              ))}
-            </ol>
+          {outline.length > 30 ? (
+            <details>
+              <summary>전체 목차 펼치기</summary>
+              <ol>{outline.map((s) => (
+                <li><a href={work.href + 'read/#' + encodeURIComponent(s.id)}>{s.title}</a></li>
+              ))}</ol>
+            </details>
           ) : (
-            <p>{work.summary}</p>
+            <ol>{outline.map((s) => (
+              <li><a href={work.href + 'read/#' + encodeURIComponent(s.id)}>{s.title}</a></li>
+            ))}</ol>
           )}
         </div>}
         {related.length > 0 && (

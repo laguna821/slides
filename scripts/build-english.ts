@@ -55,6 +55,7 @@ for(const [route,file]of pages){
   const w=englishWorks.find((w:any)=>route===w.href.replace(/^\/en/,'')+'read/');
   if(w){
     $('#reader-body').html(w.reader.html);
+    $('#reader-exports').text(JSON.stringify({text:w.reader.text,markdown:w.reader.markdown}).replace(/</g,'\\u003c'));
     $('[data-reading-pdf],[data-reader-print],[data-download-pdf]').remove();
     for(const ext of ['md','txt']){const target='dist'+w.href+'read.'+ext;await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,ext==='md'?w.reader.markdown:w.reader.text);}
   }

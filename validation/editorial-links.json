@@ -1,13 +1,49 @@
 {
   "version": "2.0.0",
-  "checkedAt": "2026-10-10T11:20:51.198Z",
+  "checkedAt": "2026-10-13T09:22:25.936Z",
   "sources": {
+    "survey-scale-intro-2026-10-13": "339dd7702126028edb3b344acd6b9cfb0d635874b1c817e8c1fbb10427de09d7",
     "ai-reading-pilot": "ba539cefa084ba5c6ca4cbede9d91b65d7bb9f039c505ab8e66d8b77e7e94644",
     "human-reading-writing-2026": "0f38d27efea7047a793a985b977f9b183a91b11ebcb33d39d369fb3e133be45d",
     "media-colloquium-2026-06-10": "7547aedfcfec75919d918c929b2d5f45b3445ca3ce51470fd8161d450fc58e6e",
     "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6"
   },
   "links": [
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "href": "https://www.pewresearch.org/writing-survey-questions/",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://www.pewresearch.org/writing-survey-questions/"
+    },
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "href": "https://bpb-us-e1.wpmucdn.com/websites.uta.edu/dist/1/4994/files/2021/07/Guide-for-Constructing-Self-Efficacy-Scales-Bandura2006.pdf",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://bpb-us-e1.wpmucdn.com/websites.uta.edu/dist/1/4994/files/2021/07/Guide-for-Constructing-Self-Efficacy-Scales-Bandura2006.pdf"
+    },
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "href": "https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/question-types-overview/",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/question-types-overview/"
+    },
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "href": "https://help.surveymonkey.com/en/surveymonkey/create/question-types/",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://help.surveymonkey.com/en/surveymonkey/create/question-types/"
+    },
+    {
+      "workId": "survey-scale-intro-2026-10-13",
+      "href": "https://www.abs.gov.au/statistics/standards/standard-sex-gender-variations-sex-characteristics-and-sexual-orientation-variables/latest-release",
+      "status": "reachable",
+      "httpStatus": 200,
+      "finalUrl": "https://www.abs.gov.au/statistics/standards/standard-sex-gender-variations-sex-characteristics-and-sexual-orientation-variables/latest-release"
+    },
     {
       "workId": "ai-reading-pilot",
       "href": "/AI_reading_3week_pilot_20261008.html#s01",
@@ -705,10 +741,9 @@
     {
       "workId": "educational-harness-workshop-2026-07-06",
       "href": "https://link.springer.com/article/10.1007/s40979-026-00213-1",
-      "status": "uncertain",
+      "status": "reachable",
       "httpStatus": 200,
-      "finalUrl": "https://idp.springer.com/transit",
-      "review": "출판사 인증 경유 응답. DOI/논문 원문 주소 유지, 본문 접근 성공으로 간주하지 않음."
+      "finalUrl": "https://idp.springer.com/transit?redirect_uri=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs40979-026-00213-1&code=3564c9ff-785e-4765-a156-77a3dc5e2cea"
     },
     {
       "workId": "educational-harness-workshop-2026-07-06",
