@@ -1,0 +1,351 @@
+{
+  "sourceSha256": "667626ed56b9b56b71d4b6a7d54fa3058cf92d02ec04c0c76950deb499cbcbaf",
+  "originalSha256": "62def83ce51c7526c41f360dcae97b391bf9ba09f74018969fc895e565732137",
+  "method": "Independent original DOM leaf extraction plus complete embedded lesson-data branches, hints, candidates, questions and explicit fixed-population distribution table.",
+  "slides": [
+    {
+      "id": "s01",
+      "index": 1,
+      "staticLeaves": 10,
+      "extraStaticLeaves": 5,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s02",
+      "index": 2,
+      "staticLeaves": 18,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s03",
+      "index": 3,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s04",
+      "index": 4,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s05",
+      "index": 5,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s06",
+      "index": 6,
+      "staticLeaves": 16,
+      "extraStaticLeaves": 5,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "l01",
+      "index": 7,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l02",
+      "index": 8,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l03",
+      "index": 9,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l04",
+      "index": 10,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l05",
+      "index": 11,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l06",
+      "index": 12,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l07",
+      "index": 13,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l08",
+      "index": 14,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "s07",
+      "index": 15,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s08",
+      "index": 16,
+      "staticLeaves": 10,
+      "extraStaticLeaves": 7,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s09",
+      "index": 17,
+      "staticLeaves": 24,
+      "extraStaticLeaves": 12,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s10",
+      "index": 18,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "l09",
+      "index": 19,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l10",
+      "index": 20,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l11",
+      "index": 21,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l12",
+      "index": 22,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l13",
+      "index": 23,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l14",
+      "index": 24,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l15",
+      "index": 25,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l16",
+      "index": 26,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l17",
+      "index": 27,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l18",
+      "index": 28,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l19",
+      "index": 29,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "l20",
+      "index": 30,
+      "staticLeaves": 8,
+      "extraStaticLeaves": 5,
+      "branches": 3,
+      "hints": 3
+    },
+    {
+      "id": "s11",
+      "index": 31,
+      "staticLeaves": 15,
+      "extraStaticLeaves": 6,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s12",
+      "index": 32,
+      "staticLeaves": 18,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s13",
+      "index": 33,
+      "staticLeaves": 20,
+      "extraStaticLeaves": 11,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s14",
+      "index": 34,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 8,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s15",
+      "index": 35,
+      "staticLeaves": 19,
+      "extraStaticLeaves": 9,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s16",
+      "index": 36,
+      "staticLeaves": 9,
+      "extraStaticLeaves": 5,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s17",
+      "index": 37,
+      "staticLeaves": 15,
+      "extraStaticLeaves": 6,
+      "branches": 3,
+      "hints": 0
+    },
+    {
+      "id": "s18",
+      "index": 38,
+      "staticLeaves": 6,
+      "extraStaticLeaves": 5,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s19",
+      "index": 39,
+      "staticLeaves": 16,
+      "extraStaticLeaves": 8,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "s20",
+      "index": 40,
+      "staticLeaves": 16,
+      "extraStaticLeaves": 8,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "a01",
+      "index": 41,
+      "staticLeaves": 16,
+      "extraStaticLeaves": 8,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "a02",
+      "index": 42,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 6,
+      "branches": 0,
+      "hints": 0
+    },
+    {
+      "id": "a03",
+      "index": 43,
+      "staticLeaves": 17,
+      "extraStaticLeaves": 6,
+      "branches": 0,
+      "hints": 0
+    }
+  ]
+}

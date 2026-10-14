@@ -251,6 +251,7 @@ const pdf = work.artifacts.find((a) => a.type === 'pdf' && a.role === 'slides');
       Markdown 저장 ↓
     </a>
   </dialog>
+  <script type="application/json" id="reader-exports" set:html={JSON.stringify({text:reader.text,markdown:reader.markdown}).replace(/</g, '\\u003c')} />
   <script>
     import '../../../scripts/reader';
   </script>

@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import {chromium} from 'playwright';
 import {builtReviewRoutes} from './release-gate';
 const root='.local/i18n/review';await fs.mkdir(root,{recursive:true});
-const base=process.env.REVIEW_BASE||'http://127.0.0.1:4330';
+const base=process.env.REVIEW_BASE||'http://127.0.0.1:4331';
 const browser=await chromium.launch({headless:true});
 const routes=await builtReviewRoutes();const views:any[]=[];const errors:any[]=[];
 const jobs=routes.flatMap(route=>[375,768,1440].flatMap(width=>['light','dark'].map(theme=>({route,width,theme}))));

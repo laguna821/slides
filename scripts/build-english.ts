@@ -5,7 +5,6 @@ import TurndownService from 'turndown';
 import {gfm} from 'turndown-plugin-gfm';
 import {dictionary,normalize,hasKorean,translateHtml,hash} from './localization';
 import {makeSearchEntries} from '../src/lib/search';
-import {englishPrintDigest} from './english-print-contract';
 const strings=await dictionary();
 const t=(s:string)=>{if(!hasKorean(s))return s;const v=strings[normalize(s)];if(!v)throw Error('Missing metadata translation: '+s);return v;};
 const data=JSON.parse(await fs.readFile('src/generated/content.json','utf8'));
@@ -44,12 +43,6 @@ const englishWorks=data.works.map((w:any)=>{
 await fs.mkdir('src/generated',{recursive:true});
 await fs.writeFile('src/generated/english.json',JSON.stringify({works:englishWorks},null,2));
 if(process.argv.includes('--prepare')){console.log('English source prepared: '+englishWorks.length+' works');process.exit(0);}
-const print=JSON.parse(await fs.readFile('content/i18n/print-manifest.json','utf8'));
-for(const w of englishWorks.filter((w:any)=>w.reader)){
-  const p=print.works[w.id];if(!p||p.sourceHash!==w.reader.sourceHash||p.inputDigest!==await englishPrintDigest(w)||p.textMissing!==0||!p.fontsEmbedded||!p.a4||p.geometryErrors!==0)throw Error('English PDF needs regeneration: '+w.id);
-  if(hash(await fs.readFile('public'+p.url))!==p.sha256)throw Error('English PDF bytes changed');
-  w.readingPdf={url:p.url,pages:p.pages,version:'1.0.0'};
-}
 for(const [route,file]of pages){
   const ko=await fs.readFile('dist/'+file,'utf8');
   const $=load(translateHtml(ko,strings));rewriteLinks($);
@@ -62,8 +55,8 @@ for(const [route,file]of pages){
   const w=englishWorks.find((w:any)=>route===w.href.replace(/^\/en/,'')+'read/');
   if(w){
     $('#reader-body').html(w.reader.html);
-    $('[data-reading-pdf],[data-reader-print],[data-download-pdf]').attr('href',w.readingPdf.url);
-    $('.reader-actions small').text('A4 · Two columns · '+w.readingPdf.pages+' pages');
+    $('#reader-exports').text(JSON.stringify({text:w.reader.text,markdown:w.reader.markdown}).replace(/</g,'\\u003c'));
+    $('[data-reading-pdf],[data-reader-print],[data-download-pdf]').remove();
     for(const ext of ['md','txt']){const target='dist'+w.href+'read.'+ext;await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,ext==='md'?w.reader.markdown:w.reader.text);}
   }
   $('link[hreflang]').remove();

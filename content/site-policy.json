@@ -1,5 +1,5 @@
 {
-  "version": "5.2.0",
+  "version": "6.0.0",
   "contentVersion": 2,
   "minimumPosterViewer": "1.0.0-rc.6",
   "cardActions": 3,
@@ -69,5 +69,14 @@
     "manifest": "content/presenter-notes.json",
     "credentialProfile": "studio-presenter-default-v1",
     "requireEncryptedEnvelope": true
+  },
+  "storage": {
+    "outputDirectory": "web-dist",
+    "maxBytes": 52428800,
+    "maxHtmlBytes": 2097152,
+    "embeddedAssets": false,
+    "publishPdf": false,
+    "publishZip": false,
+    "assetManifest": "content/web-assets.json"
   }
 }

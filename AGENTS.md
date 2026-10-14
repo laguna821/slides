@@ -1,3 +1,5 @@
+> 정책 6.0.0 우선: [웹 배포 용량 규약](docs/STORAGE-CONTRACT.md)을 적용한다. PDF·ZIP은 보관용이며 웹 게시 필수 조건이 아니다. 웹 파생본은 R2 자산 링크를 사용하고 web-dist만 배포한다. 아래 기존 PDF·바이트 보존 규칙은 원본 보관·선택적 인쇄 작업에 한정한다.
+
 # Achmage Studio 운영 규약
 
 정책5.2부터 [발표자 노트 계약](docs/PRESENTER-NOTES-CONTRACT.md)을 적용한다. 최근 Achmage Presentation HTML은 사이트의 비공개 기본 암호 프로필로 N 잠금을 검증한다. 노트 미작성과 잠금 설정은 구분하며, 공개 산출물에 비밀번호를 넣지 않는다.

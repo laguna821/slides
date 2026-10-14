@@ -9,8 +9,10 @@ test('print fingerprint is independent of filesystem enumeration order',()=>{
   const metadata={title:'한글 원고'}, engines={playwright:'pinned'};
   assert.equal(hashPrintInputs({'Z':'1','a':'2','io/file':'3'},metadata,engines),hashPrintInputs({'io/file':'3','a':'2','Z':'1'},metadata,engines));
 });
-test('every existing reader has a current verified PDF companion',async()=>{
-  for(const w of works){const pdf=await verifyPrintArtifact(w);assert(pdf.pages>0);assert(pdf.url.endsWith('.pdf'));}
+test('archived PDF originals retain their recorded bytes without a web publication requirement',async()=>{
+  const {createHash}=await import('node:crypto');
+  const m=JSON.parse(await fs.readFile('content/print-manifest.json','utf8'));
+  for(const p of Object.values<any>(m.works)){const bytes=await fs.readFile('public'+p.url);assert.equal(createHash('sha256').update(bytes).digest('hex'),p.sha256);}
 });
 test('title/event/visibility edits invalidate PDF evidence before publication',async()=>{
   const w=works[0];

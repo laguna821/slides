@@ -101,6 +101,31 @@
       "firstPageInsetPx": 161.96875,
       "geometryErrors": 0,
       "imageMissing": 0
+    },
+    "survey-scale-intro-2026-10-13": {
+      "url": "/reading/en/pdf/survey-scale-intro-2026-10-13/27d62be2e5a375b0.pdf",
+      "sha256": "27d62be2e5a375b0b590259fa99a2d966613e25b249d2fb250e63f3a393f6ced",
+      "sourceHash": "694c8666b15f5ef3b64eff11727ed6a0bf69be082889d0fe796e149201addc37",
+      "inputDigest": "31a84a984cb8161e7a63480ea95370aaa24d304f619e398d1e8a3defbb30d529",
+      "profile": "achmage-hanmark-a4-b-inline-title-v1",
+      "hanmarkVersion": "2.7.0",
+      "hanmarkRevision": "3db078d75851ae8d94dcc96eff45a6fad1102d63",
+      "chromium": "151.0.7922.34",
+      "engines": {
+        "chromium": "151.0.7922.34",
+        "pdfVerifier": "PyMuPDF 1.27.2.3"
+      },
+      "pages": 24,
+      "textMissing": 0,
+      "fontsEmbedded": true,
+      "a4": true,
+      "pdfLinks": 6,
+      "pdfVerifier": "PyMuPDF 1.27.2.3",
+      "images": 0,
+      "sourceOrder": true,
+      "firstPageInsetPx": 200.625,
+      "geometryErrors": 0,
+      "imageMissing": 0
     }
   }
 }

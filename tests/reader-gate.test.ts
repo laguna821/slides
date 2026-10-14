@@ -73,50 +73,7 @@ test('reader gate rejects a missing or incomplete per-page receipt', () => {
   validateReview(r, 'fixture', [route]);
   assert.throws(()=>validateReview({...r,editorialViews:r.editorialViews.map((x:any)=>({...x,columnWidth:250}))},'fixture',[route]),/본문 폭/);
   assert.throws(()=>validateReview({...r,readers:r.readers.map((x:any)=>({...x,copySection:false}))},'fixture',[route]),/문단 링크/);
-  assert.throws(
-    () => validateReview({ ...r, prints: [] }, 'fixture', [route]),
-    /PDF 검토/,
-  );
-  assert.throws(
-    () =>
-      validateReview(
-        { ...r, prints: r.prints.map((p: any) => ({ ...p, sha256: 'stale' })) },
-        'fixture',
-        [route],
-      ),
-    /PDF 검토/,
-  );
-  const blocked = r.prints.map((p: any) => ({
-    ...p,
-    pdfOpen: 'browser-blocked',
-    pdfResponse200: true,
-    pdfBytesVerified: true,
-    browserLimitation:
-      'Edge extension UI blocks browser automation after opening a PDF tab.',
-  }));
-  validateReview({ ...r, prints: blocked }, 'fixture', [route]);
-  for (const key of ['pdfResponse200', 'pdfBytesVerified', 'pdfDownload'])
-    assert.throws(
-      () =>
-        validateReview(
-          { ...r, prints: blocked.map((p: any) => ({ ...p, [key]: false })) },
-          'fixture',
-          [route],
-        ),
-      /PDF 검토/,
-    );
-  assert.throws(
-    () =>
-      validateReview(
-        {
-          ...r,
-          prints: blocked.map((p: any) => ({ ...p, browserLimitation: '' })),
-        },
-        'fixture',
-        [route],
-      ),
-    /PDF 검토/,
-  );
+  validateReview({ ...r, prints: [], englishPrints: [] }, 'fixture', [route]);
   for (const key of [
     'toc',
     'copyText',
@@ -125,7 +82,6 @@ test('reader gate rejects a missing or incomplete per-page receipt', () => {
     'imageZoom',
     'graph',
     'anchors',
-    'print',
   ])
     assert.throws(() =>
       validateReview(

@@ -30,9 +30,10 @@ document
   .forEach((b) =>
     b.addEventListener('click', async () => {
       try {
-        const r = await fetch(b.dataset.url!);
-        if (!r.ok) throw Error();
-        await copy(await r.text());
+        const exports = JSON.parse(document.querySelector('#reader-exports')?.textContent || '{}');
+        const value = exports[b.dataset.copyReader!];
+        if (typeof value !== 'string') throw Error('Missing reading export');
+        await copy(value);
       } catch {
         notice(ui('본문을 불러오지 못했습니다. Markdown 저장을 이용해 주세요.'));
       }
