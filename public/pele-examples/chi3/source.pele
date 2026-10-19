@@ -1,0 +1,5 @@
+flowchart LR
+ P["Party identification"] --- V["Expected vote"]
+ P --> C["Observed × expected counts"]
+ V --> C
+ C --> R["Residuals + Cramer V"]

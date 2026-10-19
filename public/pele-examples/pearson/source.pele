@@ -1,0 +1,5 @@
+flowchart LR
+ A["Age"] --- N["TV news"]
+ E["Education"] --- N
+ U["Urban scale"] --- N
+ N --> R["Association + uncertainty"]

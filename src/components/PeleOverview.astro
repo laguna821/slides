@@ -1,0 +1,52 @@
+---
+import cases from '../../content/pele-examples.json';
+const families = [
+  ...new Map(
+    cases.map((c) => [c.familyId, { name: c.family, id: c.familyId }]),
+  ).values(),
+];
+---
+
+<div class="pele-overview">
+  <div class="prose">
+    <h2>결과에서 코드까지, 한 장씩.</h2>
+    <p>
+      Pele는 Mermaid 문법을 테마 가능한 SVG로 렌더링하는 경량 오픈소스
+      라이브러리입니다. 이 데모는 관계 설명에 Pele를, 통계 그래프에 별도 SVG를
+      사용했습니다.
+    </p>
+    <p>
+      <a href="https://pele.run/">Pele 공식 소개·문법 ↗</a>
+    </p>
+  </div>
+  <div class="family-strip">
+    {families.map((f) => (
+      <a href={'/talks/pele-social-science/code/#' + f.id}>{f.name}</a>
+    ))}
+  </div>
+  <a class="button" href="/talks/pele-social-science/code/">
+    장표별 제작 코드
+  </a>
+</div>
+<style>
+  .pele-overview {
+    padding-top: 32px;
+  }
+  .family-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 24px 0;
+  }
+  .family-strip a {
+    border: 1px solid var(--line);
+    padding: 8px 12px;
+    border-radius: 6px;
+    min-height: 44px;
+    font-size: 14px;
+  }
+  .family-strip a:hover {
+    border-color: var(--accent-text);
+    color: var(--accent-text);
+  }
+</style>

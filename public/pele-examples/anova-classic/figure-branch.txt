@@ -1,0 +1,58 @@
+if (v.kind === "anova") {
+  a.push(
+    T(0, 35, "A  Actual0–7 times distributions", 30, C.ink, 700),
+    T(900, 35, "B  Familywise mean contrasts", 30, C.ink, 700),
+  );
+  const cols = [C.blue, C.teal, C.slate];
+  v.groups.forEach((g, i) => {
+    let yy = 105 + i * 155;
+    a.push(
+      T(0, yy, g.label, 28, C.ink, 650),
+      T(0, yy + 37, "n " + g.n + " · mean " + fmt(g.mean, 2), 25, C.muted),
+    );
+    for (let d = 0; d < 8; d++) {
+      let n = g.hist.find((a) => a[0] === d)?.[1] || 0,
+        h = (n / g.n) * 155;
+      a.push(
+        G(
+          [
+            R(370 + d * 56, yy + 85 - h, 40, h, cols[i]),
+            T(390 + d * 56, yy + 118, String(d), 22, C.muted, 400, "middle"),
+          ],
+          g.key,
+        ),
+      );
+    }
+  });
+  a.push(
+    ...forest(v.contrasts, {
+      x: 900,
+      y: 50,
+      w: 700,
+      labelW: 130,
+      rowH: 115,
+      title: "",
+      unit: "Times/week · corrected95% CI",
+    }),
+    T(
+      905,
+      560,
+      "F(" + v.df.map((x) => fmt(x, 1)).join(", ") + ") = " + fmt(v.F, 3),
+      27,
+      C.ink,
+      650,
+    ),
+    T(
+      905,
+      605,
+      pv(v.p) + " · descriptive η² " + fmt(v.eta2Descriptive, 4),
+      26,
+      C.muted,
+    ),
+  );
+  note =
+    "Groups: 1 = high school or less; 2 = some college; 3 = degree+. Bars show within-group frequencies; contrasts use the selected correction.";
+  source =
+    'flowchart LR\n E["Education3groups"] --> Y["TV-news distribution"]\n Y --> F["Overall F"]\n Y --> P["Corrected pair contrasts"]\n P --> C["Uncertainty retained"]';
+  map = { E: v.groups[0].key, Y: v.groups[1].key, F: v.key, P: v.key, C: v.key };
+}

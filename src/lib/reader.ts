@@ -1,6 +1,7 @@
 import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { load } from 'cheerio';
+import { inspectionHtml } from './inspection';
 import sanitizeHtml from 'sanitize-html';
 import { createHash } from 'node:crypto';
 import { workHref, type Work } from './schema';
@@ -55,7 +56,7 @@ export function validateReaderCoverage(
   const leaves: string[] = [];
   if (kind === 'markdown') leaves.push(renderReader(source).text);
   else {
-    const $ = load(source);
+    const $ = load(inspectionHtml(source));
     $(
       'script,style,template,noscript,.speaker-notes,.presenter-notes,[data-private],[data-speaker-notes],[data-notes],aside.notes,#speaker-notes,#notes,.toolbar,.controls,[role=toolbar],dialog,.modal,.chrome-tl,.chrome-tr,.chrome-bl,.chrome-br,[hidden]',
     ).remove();

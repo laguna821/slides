@@ -1,0 +1,63 @@
+if (v.kind === "two-way") {
+  a.push(
+    T(0, 35, "A  Full-interaction cell means ·95% CI", 30, C.ink, 700),
+    T(1010, 35, "B  " + v.label + " tests", 30, C.ink, 700),
+  );
+  const ps = ["Democrat", "Independent", "Republican"],
+    bs = ["18–34", "35–54", "55+"],
+    cols = [C.blue, C.teal, C.slate];
+  let pp = plotFrame({
+    x: 80,
+    y: 110,
+    w: 750,
+    h: 360,
+    xRange: [-0.2, 2.2],
+    yRange: [0, 8],
+    xTicks: [],
+    yTicks: [0, 2, 4, 6, 8],
+    xLabel: "Age band",
+    yLabel: "TV news (times/week)",
+  });
+  a.push(...pp.a);
+  bs.forEach((b, i) => a.push(T(pp.X(i), 510, b, 26, C.muted, 400, "middle")));
+  ps.forEach((p, i) => {
+    const cells = v.cells.filter((c) => c.party === p),
+      xx = (j) => pp.X(j) + (i - 1) * 12;
+    a.push(
+      D(
+        cells.map((c, j) => (j ? "L" : "M") + xx(j) + " " + pp.Y(c.mean)).join(" "),
+        cols[i],
+        3,
+      ),
+    );
+    cells.forEach((c, j) =>
+      a.push(
+        G(
+          [
+            L(xx(j), pp.Y(c.lo), xx(j), pp.Y(c.hi), cols[i], 3),
+            Q(xx(j), pp.Y(c.mean), 7, cols[i]),
+          ],
+          c.key,
+        ),
+      ),
+    );
+    a.push(
+      R(40 + i * 300, 585, 16, 16, cols[i]),
+      T(68 + i * 300, 604, p, 25),
+      T(68 + i * 300, 640, "n: " + cells.map((c) => c.n).join(" / "), 22, C.muted),
+    );
+  });
+  v.terms.forEach((t, i) => {
+    let yy = 125 + i * 135;
+    a.push(
+      T(1015, yy, ["Party group", "Age band", "Party × age"][i], 29, C.ink, 650),
+      T(1015, yy + 43, "F(" + t.df + ", " + v.dfResidual + ") = " + fmt(t.F, 3), 28),
+      T(1015, yy + 83, pv(t.p), 26, C.muted),
+    );
+  });
+  note =
+    "Unbalanced 3×3 design, sum contrasts. Cell n and pointwise intervals remain visible. Joint interaction test is not inferred from line crossings.";
+  source =
+    'flowchart LR\n P["Party group"] --> Y["TV news"]\n A["Age band"] --> Y\n I["Party × age"] --> Y\n Y --> C["Cell means + joint tests"]';
+  map = { P: v.cells[0].key, A: v.cells[1].key, I: v.key, Y: v.key, C: v.key };
+}

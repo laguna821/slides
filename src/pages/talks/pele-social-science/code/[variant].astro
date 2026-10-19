@@ -1,0 +1,336 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import SourceCode from '../../../../components/SourceCode.astro';
+import cases from '../../../../../content/pele-examples.json';
+export function getStaticPaths() {
+  return cases.map((c, i) => ({
+    params: { variant: c.id },
+    props: { c, previous: cases[i - 1], next: cases[i + 1] },
+  }));
+}
+const { c, previous, next } = Astro.props;
+const link =
+  '/decks/pele-social-science/v1.0.0/index.html?mode=stage&viewMode=fit#' +
+  c.number;
+---
+
+<Base
+  title={c.title + ' · Pele ' + c.condition}
+  description={c.method}
+  image={c.sourceBase + '/slide.png'}
+  active="archive"
+>
+  <section class="page-intro page-gutter" data-slide-exempt>
+    <div class="crumb">
+      <a href="/talks/pele-social-science/">상세 소개</a>
+      <span>/</span>
+      <a href="/talks/pele-social-science/code/">장표별 제작 코드</a>
+    </div>
+    <span class="eyebrow">
+      {String(c.number).padStart(2, '0')} / 18 · {c.family}
+    </span>
+    <h1>{c.title}</h1>
+    <p class="intro-text">{c.method}</p>
+    <p class="condition">
+      {c.condition} · {c.sample}
+    </p>
+    <div class="actions">
+      <a class="button" href={link}>
+        장표 원본 보기 ↗
+      </a>
+      <a class="button secondary" href="/talks/pele-social-science/code/">
+        모든 예제로 돌아가기
+      </a>
+    </div>
+  </section>
+  <div class="page-gutter recipe-body" data-variant={c.id}>
+    <section class="recipe-section">
+      <div class="section-label">
+        <h2>01 · 실제 발표 장표</h2>
+        <span>CMDS · SVG</span>
+      </div>
+      <figure class="slide-preview">
+        <a href={link}>
+          <img
+            src={c.sourceBase + '/slide.png'}
+            alt={c.title}
+            width="1920"
+            height="1080"
+          />
+        </a>
+        <figcaption>
+          이 미리보기는 기존 16:9 장표입니다. 아래 Pele 관계도가 이 통계 그래프
+          전체를 생성한 것은 아닙니다.
+        </figcaption>
+      </figure>
+    </section>
+    <section class="recipe-section">
+      <div class="section-label">
+        <h2>02 · Pele 관계도와 원문</h2>
+        <span>Pele 1.6.0 · Mermaid flowchart</span>
+      </div>
+      <p class="section-intro">
+        이 관계도는 분석의 변수·설계·검정 관계를 설명하는 보조 도식입니다. 단독
+        HTML 발표 장표의 통계 그림과 구분합니다.
+      </p>
+      <div class="relationship-grid">
+        <figure class="relationship">
+          <img
+            src={c.sourceBase + '/' + c.id + '-native.svg'}
+            alt="분석 관계도"
+            width="1000"
+            height="500"
+          />
+          <figcaption>{c.note}</figcaption>
+        </figure>
+        <SourceCode title="Pele 관계도 원문" lang="pele" source={c.pele} />
+      </div>
+    </section>
+    <section class="recipe-section">
+      <div class="section-label">
+        <h2>03 · 정밀 SVG 제작 코드</h2>
+        <span>JavaScript → SVG</span>
+      </div>
+      <p class="section-intro">
+        공개된 추정치를 받아 축·선·구간·라벨을 직접 배치하는 실제 제작
+        분기입니다. 생략한 공용 함수와 전체 파일도 확인할 수 있습니다.
+      </p>
+      <SourceCode
+        title="SVG 제작 분기 · JavaScript"
+        source={c.figureCode}
+        compact
+      />
+
+      <div class="source-links">
+        <a href="/talks/pele-social-science/code/helpers/">
+          공용 SVG 함수 보기
+        </a>
+        <a href={c.sourceBase + '/' + c.id + '.svg'}>SVG 결과 보기 ↗</a>
+        <a href="/pele-examples/figures.mjs.txt">전체 제작 소스 보기 ↗</a>
+        <a href={c.sourceBase + '/data.json'}>분석 데이터 보기 ↗</a>
+      </div>
+      <p class="source-note">
+        이 소스는 실행 가능한 편집기가 아니라 원문을 보존한 참고 코드입니다.
+      </p>
+    </section>
+    <section class="recipe-section">
+      <div class="section-label">
+        <h2>04 · 재사용할 때 바꿀 것</h2>
+        <span>DATA · DESIGN · INFERENCE</span>
+      </div>
+      <dl class="reuse-grid">
+        <div>
+          <dt>데이터</dt>
+          <dd>
+            해당 조건의 데이터 파일을 먼저 확인하고, 표본·단위·계수·신뢰구간을
+            함께 교체합니다. 표본이나 측정 수준이 다른 분석을 같은 척도로 합치지
+            않습니다.
+          </dd>
+        </div>
+        <div>
+          <dt>그림</dt>
+          <dd>
+            축 범위·라벨 폭·서체·색상은 실제 삽입 영역에 맞춥니다. 신뢰구간이
+            0을 포함하는지에 따라 의미를 보존하고, 화면을 줄인 뒤 다시 읽어
+            봅니다.
+          </dd>
+        </div>
+        <div>
+          <dt>해석</dt>
+          <dd>
+            관계도의 화살표와 통계 모형의 경로는 인과의 증거가 아닙니다. 평균
+            반응의 구간과 개별 예측구간, 점별 구간과 동시 구간을 구분합니다.
+          </dd>
+        </div>
+      </dl>
+    </section>
+    <nav class="recipe-pagination" aria-label="장표별 제작 코드">
+      {previous ? (
+        <a href={'/talks/pele-social-science/code/' + previous.id + '/'}>
+          <small>이전 예제</small>
+          <span>
+            {String(previous.number).padStart(2, '0')} · {previous.condition}
+          </span>
+        </a>
+      ) : (
+        <span />
+      )}
+      {next && (
+        <a href={'/talks/pele-social-science/code/' + next.id + '/'}>
+          <small>다음 예제 ↗</small>
+          <span>
+            {String(next.number).padStart(2, '0')} · {next.condition}
+          </span>
+        </a>
+      )}
+    </nav>
+  </div>
+</Base>
+<style>
+  .condition {
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .recipe-body {
+    padding-bottom: 80px;
+  }
+  .recipe-section {
+    padding: 40px 0 56px;
+    border-top: 1px solid var(--line);
+    min-width: 0;
+  }
+  .section-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .section-label h2 {
+    margin: 0;
+    font-size: clamp(23px, 2.6vw, 35px);
+    font-weight: 650;
+  }
+  .section-label > span {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .section-intro {
+    max-width: 75ch;
+    margin: 0 0 28px;
+    color: var(--muted);
+  }
+  figure {
+    margin: 0;
+  }
+  .slide-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fff;
+  }
+  .slide-preview figcaption,
+  .relationship figcaption {
+    font-size: 14px;
+    color: var(--muted);
+    padding-top: 16px;
+    max-width: 90ch;
+  }
+  .relationship-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+  .relationship {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 24px;
+  }
+  .relationship img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 220px;
+    max-height: 380px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 4px;
+  }
+  .helpers {
+    margin-top: 20px;
+  }
+  .helpers summary {
+    cursor: pointer;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    color: var(--blue);
+    margin-bottom: 12px;
+  }
+  .source-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .source-links a {
+    color: var(--blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .source-note {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .reuse-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+  }
+  .reuse-grid dt {
+    color: var(--accent-text);
+    font-size: 22px;
+    font-weight: 650;
+    margin-bottom: 16px;
+  }
+  .reuse-grid dd {
+    margin: 0;
+    line-height: 1.8;
+  }
+  .recipe-pagination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    border-top: 1px solid var(--line);
+    padding-top: 28px;
+  }
+  .recipe-pagination a {
+    display: grid;
+    gap: 8px;
+    min-height: 60px;
+  }
+  .recipe-pagination small {
+    color: var(--muted);
+  }
+  .recipe-pagination span {
+    font-size: 18px;
+    font-weight: 650;
+  }
+  @media (min-width: 1500px) {
+    .slide-preview {
+      max-width: 1400px;
+    }
+  }
+  @media (max-width: 800px) {
+    .relationship-grid {
+      grid-template-columns: 1fr;
+    }
+    .reuse-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .section-label {
+      display: block;
+    }
+    .section-label > span {
+      display: block;
+      margin-top: 12px;
+    }
+    .relationship {
+      padding: 16px;
+    }
+    .recipe-pagination {
+      gap: 20px;
+    }
+    .recipe-pagination span {
+      font-size: 15px;
+    }
+  }
+</style>

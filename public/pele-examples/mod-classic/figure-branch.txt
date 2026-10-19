@@ -1,0 +1,117 @@
+if (v.kind === "moderation") {
+  a.push(
+    T(0, 35, "A  Conditional mean response", 30, C.ink, 700),
+    T(840, 35, "B  Conditional age slope ·95% CI", 30, C.ink, 700),
+  );
+  let p1 = plotFrame({
+      x: 60,
+      y: 100,
+      w: 620,
+      h: 300,
+      xRange: [15, 95],
+      yRange: [
+        Math.min(2, ...v.curves.flat().map((p) => p.lo)),
+        Math.max(7, ...v.curves.flat().map((p) => p.hi)),
+      ],
+      xTicks: [20, 40, 60, 80],
+      yTicks: [2, 3, 4, 5, 6, 7],
+      xLabel: "Age (years)",
+      yLabel: "TV news (times/week)",
+    }),
+    p2 = plotFrame({
+      x: 900,
+      y: 100,
+      w: 630,
+      h: 300,
+      xRange: [Math.min(...v.jn.map((x) => x.x)), Math.max(...v.jn.map((x) => x.x))],
+      yRange: [
+        Math.min(-0.1, ...v.jn.map((x) => x.lo)),
+        Math.max(0.7, ...v.jn.map((x) => x.hi)),
+      ],
+      xTicks: [0, 4, 8],
+      yTicks: [0, 0.2, 0.4, 0.6],
+      xLabel: "Urban log(population in1000s+.1)",
+      yLabel: "Times/week per10years",
+    });
+  a.push(...p1.a, ...p2.a);
+  v.curves.forEach((c, i) =>
+    a.push(
+      G(
+        curve(c, p1.X, p1.Y, [C.blue, C.teal, C.slate][i], true).slice(0, 1),
+        v.slopes[i].key,
+      ),
+    ),
+  );
+  v.curves.forEach((c, i) => {
+    let col = [C.blue, C.teal, C.slate][i];
+    for (const edge of ["lo", "hi"])
+      a.push(
+        G(
+          [
+            D(
+              c
+                .map((p, j) => (j ? "L" : "M") + p1.X(p.x) + " " + p1.Y(p[edge]))
+                .join(" "),
+              col,
+              1.5,
+              "none",
+              { "stroke-dasharray": "5 5" },
+            ),
+          ],
+          v.slopes[i].key,
+        ),
+      );
+    a.push(G(curve(c, p1.X, p1.Y, col, false), v.slopes[i].key));
+  });
+  a.push(
+    G(curve(v.jn, p2.X, p2.Y), v.key),
+    L(900, p2.Y(0), 1530, p2.Y(0), C.slate, 2, "5 5"),
+  );
+  v.slopes.forEach((s, i) => {
+    let xx = 30 + i * 530;
+    a.push(
+      G(
+        [
+          T(xx, 535, "Urban " + s.label, 28, [C.blue, C.teal, C.slate][i], 700),
+          T(
+            xx,
+            580,
+            signed(s.b, 3) + " [" + fmt(s.lo, 3) + ", " + fmt(s.hi, 3) + "]",
+            28,
+          ),
+        ],
+        s.key,
+      ),
+    );
+  });
+  a.push(
+    G(
+      [
+        T(
+          15,
+          625,
+          "Interaction B " +
+            signed(v.interaction.value, 3) +
+            " · 95% CI [" +
+            v.interaction.ci.map((x) => fmt(x, 3)).join(", ") +
+            "] · " +
+            pv(v.interaction.p),
+          26,
+          C.muted,
+        ),
+      ],
+      v.key,
+    ),
+  );
+  note =
+    "Observed moderator range; P10/P50/P90 lines; dashed bounds show each mean CI. Intervals retain full covariance and are pointwise,not simultaneous.";
+  source =
+    'flowchart LR\n A["Age"] --> N["TV news"]\n U["Urban scale"] --> N\n I["Age × urban"] --> N\n N --> S["Conditional slopes + CI"]';
+  map = {
+    A: v.slopes[0].key,
+    U: v.slopes[2].key,
+    I: v.key,
+    N: v.key,
+    S: v.slopes[1].key,
+  };
+}

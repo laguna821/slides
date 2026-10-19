@@ -1,0 +1,5 @@
+flowchart LR
+ A["Age"] --> N["TV news"]
+ U["Urban scale"] --> N
+ I["Age × urban"] --> N
+ N --> S["Conditional slopes + CI"]

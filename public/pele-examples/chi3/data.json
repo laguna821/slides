@@ -1,0 +1,92 @@
+{
+  "id": "chi3",
+  "label": "3개 정당군",
+  "kind": "chi",
+  "n": 944,
+  "stat": 623.8415776052154,
+  "df": 2,
+  "p": 3.42391229982457e-136,
+  "effect": 0.8129262751437453,
+  "effectCI": [
+    0.7756855707590186,
+    0.848673207296194
+  ],
+  "rows": [
+    "Democrat",
+    "Independent",
+    "Republican"
+  ],
+  "cols": [
+    "Clinton",
+    "Dole"
+  ],
+  "cells": [
+    {
+      "row": "Democrat",
+      "col": "Clinton",
+      "i": 0,
+      "j": 0,
+      "obs": 467,
+      "expected": 284.83898305084745,
+      "residual": 24.06850009322853,
+      "pct": 95.69672131147541,
+      "key": "chi3-cell-0-0"
+    },
+    {
+      "row": "Democrat",
+      "col": "Dole",
+      "i": 0,
+      "j": 1,
+      "obs": 21,
+      "expected": 203.16101694915255,
+      "residual": -24.068500093228526,
+      "pct": 4.30327868852459,
+      "key": "chi3-cell-0-1"
+    },
+    {
+      "row": "Independent",
+      "col": "Clinton",
+      "i": 1,
+      "j": 0,
+      "obs": 26,
+      "expected": 21.596398305084747,
+      "residual": 1.498267784450606,
+      "pct": 70.27027027027027,
+      "key": "chi3-cell-1-0"
+    },
+    {
+      "row": "Independent",
+      "col": "Dole",
+      "i": 1,
+      "j": 1,
+      "obs": 11,
+      "expected": 15.403601694915254,
+      "residual": -1.4982677844506067,
+      "pct": 29.72972972972973,
+      "key": "chi3-cell-1-1"
+    },
+    {
+      "row": "Republican",
+      "col": "Clinton",
+      "i": 2,
+      "j": 0,
+      "obs": 58,
+      "expected": 244.5646186440678,
+      "residual": -24.792969056488786,
+      "pct": 13.842482100238664,
+      "key": "chi3-cell-2-0"
+    },
+    {
+      "row": "Republican",
+      "col": "Dole",
+      "i": 2,
+      "j": 1,
+      "obs": 361,
+      "expected": 174.4353813559322,
+      "residual": 24.792969056488786,
+      "pct": 86.15751789976133,
+      "key": "chi3-cell-2-1"
+    }
+  ],
+  "key": "chi3-V"
+}

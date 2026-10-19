@@ -11,7 +11,7 @@
     "build": "npm run build:source && tsx scripts/build-web.ts",
     "preview": "tsx scripts/preview-web.ts",
     "check": "astro check && tsc --noEmit",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
     "content:check": "tsx scripts/prepare.ts --check",
     "content:import": "tsx scripts/import-html.ts",
     "brand:build": "tsx scripts/brand-assets.ts",
@@ -26,7 +26,8 @@
     "build:source": "tsx scripts/prepare.ts && astro build && tsx scripts/build-english.ts && tsx scripts/verify-build.ts && tsx scripts/verify-english.ts && tsx scripts/verify-web-contract.ts",
     "assets:sync": "tsx scripts/assets-sync.ts",
     "web:prepare": "tsx scripts/build-web.ts --write-redirects",
-    "storage:check": "tsx scripts/verify-web-output.ts"
+    "storage:check": "tsx scripts/verify-web-output.ts",
+    "preview:prepared": "astro build && tsx scripts/build-english.ts && tsx scripts/verify-english.ts && tsx scripts/verify-web-contract.ts && tsx scripts/build-web.ts --write-redirects"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

@@ -1,0 +1,5 @@
+flowchart LR
+ R["Same respondent"] --> A["Clinton impression"]
+ R --> B["Dole impression"]
+ A --> D["Within-person difference"]
+ B --> D

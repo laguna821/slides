@@ -1,0 +1,4 @@
+flowchart LR
+ A["Clinton expected"] --> D["Mean-age difference"]
+ B["Dole expected"] --> D
+ D --> W["Welch CI"]

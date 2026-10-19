@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "skillVersion": "0.7.0-review-draft",
+  "rendering": {
+    "Pele": "1.6.0 · relationship maps",
+    "statistics": "Python analyses, cached verified estimates",
+    "charts": "authored scientific SVG",
+    "slides": "pinned CMDS renderer"
+  },
+  "research": [
+    "research:rr-a747e211b8d922d22fd20a2ebe1c5a6c:10c1c05e27ca0bdaa75627fb1ca5a1546fe970c966eac15d4c74452feb6b1478",
+    "research:rr-2b8aa3a2fc0ad613d677ee9bf8d06f1a:e0cc8d533af7007cc9939e2d74f08d373a1867617bec21f2ff7ee0cdedbb06da"
+  ],
+  "originals": {
+    "/decks/pele-social-science/v1.0.0/index.html": "d007d0e623fb9d4df8b5e3b2d05cace74bf40c09040f7db183f0e7b380dd2e3d",
+    "/decks/pele-social-science/v1.0.0/dark.html": "ae7c1b4b929545ffb16c1801213461c0632e7b52a713d4c77aeb4367244f48e2"
+  },
+  "notesState": "absent; original encrypted envelope is null; original HTML preserved",
+  "sources": [
+    {
+      "title": "Pele official introduction and syntax",
+      "url": "https://pele.run/"
+    },
+    {
+      "title": "statsmodels ANES96 dataset",
+      "url": "https://www.statsmodels.org/stable/datasets/generated/anes96.html"
+    },
+    {
+      "title": "semopy Political Democracy example",
+      "url": "https://semopy.com/tutorial.html"
+    }
+  ],
+  "validationScope": "Prior experiment: 33 independent numeric checks, 36 browser mark/node paths, 144 responsive states. These are not a new portfolio release receipt."
+}

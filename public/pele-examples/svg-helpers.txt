@@ -1,0 +1,259 @@
+const C = {
+  ink: "#102B46",
+  muted: "#4D6379",
+  blue: "#1259A7",
+  teal: "#08777B",
+  slate: "#6C8197",
+  line: "#CCD8E4",
+  wash: "#F0F5F9",
+  paper: "#FFFFFF",
+};
+const esc = (x) =>
+  String(x).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll('"', "&quot;");
+const node = (type, geometry = {}, children = [], key) => {
+  if (type === "ellipse") {
+    let { cx, cy, rx, ry, ...g } = geometry;
+    type = "path";
+    geometry = {
+      ...g,
+      d:
+        "M" +
+        (cx - rx) +
+        " " +
+        cy +
+        " a" +
+        rx +
+        " " +
+        ry +
+        " 0 1 0 " +
+        2 * rx +
+        " 0 a" +
+        rx +
+        " " +
+        ry +
+        " 0 1 0 " +
+        -2 * rx +
+        " 0",
+    };
+  }
+  if ("fill-opacity" in geometry) {
+    geometry = {
+      ...geometry,
+      fill:
+        geometry.fill === C.teal
+          ? "#E1EEEE"
+          : geometry.fill === C.slate
+            ? "#E8EDF1"
+            : "#E0EAF4",
+    };
+    delete geometry["fill-opacity"];
+  }
+  return {
+    type,
+    roles: [],
+    geometry: Object.fromEntries(
+      Object.entries(geometry).map(([k, v]) => [k.toLowerCase(), String(v)]),
+    ),
+    children,
+    ...(key ? { key } : {}),
+  };
+};
+const T = (x, y, s, size = 26, color = C.ink, weight = 400, anchor = "start") =>
+  node(
+    "text",
+    {
+      x,
+      y,
+      "font-size": size,
+      "font-family": "Pretendard Variable",
+      "font-weight": weight,
+      fill: color,
+      "text-anchor": anchor,
+    },
+    [s],
+  );
+const R = (x, y, w, h, fill = C.wash, stroke = "none") =>
+  node("rect", { x, y, width: w, height: h, fill, stroke, "stroke-width": 1 });
+const L = (x, y, xx, yy, color = C.line, width = 1, dash) =>
+  node("line", {
+    x1: x,
+    y1: y,
+    x2: xx,
+    y2: yy,
+    stroke: color,
+    "stroke-width": width,
+    ...(dash ? { "stroke-dasharray": dash } : {}),
+  });
+const G = (children, key) => node("g", {}, children, key);
+const D = (d, color = C.blue, width = 3, fill = "none", extra = {}) =>
+  node("path", { d, stroke: color, "stroke-width": width, fill, ...extra });
+const AH = (x, y, angle, color = C.blue) => {
+  let z = 12,
+    a = (angle * Math.PI) / 180;
+  return D(
+    "M" +
+      (x - z * Math.cos(a - 0.5)) +
+      " " +
+      (y - z * Math.sin(a - 0.5)) +
+      " L" +
+      x +
+      " " +
+      y +
+      " L" +
+      (x - z * Math.cos(a + 0.5)) +
+      " " +
+      (y - z * Math.sin(a + 0.5)),
+    color,
+    2,
+  );
+};
+const Q = (x, y, r = 8, fill = C.blue, stroke = fill) =>
+  node("circle", { cx: x, cy: y, r, fill, stroke, "stroke-width": 2 });
+const fmt = (x, d = 2) =>
+  x !== 0 && Math.abs(x) < 10 ** -d
+    ? Number(x).toExponential(2)
+    : Number(x)
+        .toFixed(d)
+        .replace(/(\.\d*?)0+$/, "$1")
+        .replace(/\.$/, "");
+const signed = (x, d = 2) => (x > 0 ? "+" : "") + fmt(x, d);
+const pv = (x) => (x < 0.001 ? "p < .001" : "p = " + fmt(x, 3));
+const xml = (n) =>
+  typeof n === "string"
+    ? esc(n)
+    : "<" +
+      n.type +
+      " " +
+      Object.entries(n.geometry || {})
+        .map(([k, v]) => (k === "viewbox" ? "viewBox" : k) + '="' + esc(v) + '"')
+        .join(" ") +
+      (n.type === "svg"
+        ? ' xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scientific analysis figure"'
+        : "") +
+      (n.key
+        ? ' data-evidence="' +
+          esc(n.key) +
+          '" aria-label="' +
+          esc(A.details[n.key]?.label || n.key) +
+          '"'
+        : "") +
+      ">" +
+      n.children.map(xml).join("") +
+      "</" +
+      n.type +
+      ">";
+const SVG = (children) =>
+  node("svg", { viewBox: "0 0 1600 650", width: 1600, height: 650 }, [
+    R(0, 0, 1600, 650, C.paper),
+    ...children,
+  ]);
+const extent = (rows) => {
+  let lo = Math.min(0, ...rows.map((r) => r.lo)),
+    hi = Math.max(0, ...rows.map((r) => r.hi));
+  let p = (hi - lo) * 0.08 || 0.1;
+  return [lo - p, hi + p];
+};
+function forest(
+  rows,
+  {
+    x = 0,
+    y = 0,
+    w = 1000,
+    title = "",
+    unit = "",
+    labelW = 300,
+    rowH = 86,
+    range,
+    color = C.blue,
+    sign = true,
+  } = {},
+) {
+  let a = [T(x, y + 33, title, 30, C.ink, 700)],
+    r = range || extent(rows),
+    left = x + labelW,
+    right = x + w - 225,
+    X = (v) => left + ((v - r[0]) / (r[1] - r[0])) * (right - left),
+    top = y + 95,
+    bt = top + (rows.length - 1) * rowH;
+  for (let k = 0; k < 5; k++) {
+    let t = r[0] + ((r[1] - r[0]) * k) / 4;
+    a.push(
+      L(X(t), top - 28, X(t), bt + 28),
+      T(X(t), bt + 74, fmt(t), 24, C.muted, 400, "middle"),
+    );
+  }
+  if (r[0] <= 0 && r[1] >= 0)
+    a.push(L(X(0), top - 28, X(0), bt + 28, C.slate, 2, "5 5"));
+  rows.forEach((z, i) => {
+    let yy = top + i * rowH,
+      cross = z.lo <= 0 && z.hi >= 0,
+      col = cross ? C.slate : color;
+    a.push(
+      G(
+        [
+          T(x + 8, yy + 7, z.label, 26),
+          L(X(z.lo), yy, X(z.hi), yy, col, 4),
+          L(X(z.lo), yy - 9, X(z.lo), yy + 9, col, 2),
+          L(X(z.hi), yy - 9, X(z.hi), yy + 9, col, 2),
+          Q(X(z.b), yy, 8, cross ? C.paper : col, col),
+          T(x + w - 10, yy, sign ? signed(z.b) : fmt(z.b), 32, col, 700, "end"),
+          T(
+            x + w - 10,
+            yy + 34,
+            "[" + fmt(z.lo) + ", " + fmt(z.hi) + "]",
+            23,
+            C.muted,
+            400,
+            "end",
+          ),
+        ],
+        z.key,
+      ),
+    );
+  });
+  a.push(T((left + right) / 2, bt + 115, unit, 24, C.muted, 400, "middle"));
+  return a;
+}
+function plotFrame({ x, y, w, h, xRange, yRange, xTicks, yTicks, xLabel, yLabel }) {
+  let a = [],
+    X = (v) => x + ((v - xRange[0]) / (xRange[1] - xRange[0])) * w,
+    Y = (v) => y + h - ((v - yRange[0]) / (yRange[1] - yRange[0])) * h;
+  for (const t of yTicks)
+    a.push(
+      L(x, Y(t), x + w, Y(t)),
+      T(x - 14, Y(t) + 8, fmt(t), 24, C.muted, 400, "end"),
+    );
+  for (const t of xTicks)
+    a.push(T(X(t), y + h + 40, fmt(t), 24, C.muted, 400, "middle"));
+  a.push(
+    T(x + w / 2, y + h + 78, xLabel, 24, C.muted, 400, "middle"),
+    T(x, y - 20, yLabel, 24, C.muted),
+  );
+  return { a, X, Y };
+}
+function curve(points, X, Y, color = C.blue, band = true) {
+  const line = points.map((p, i) => (i ? "L" : "M") + X(p.x) + " " + Y(p.y)).join(" "),
+    a = [];
+  if (band) {
+    const poly = points
+      .map((p) => X(p.x) + " " + Y(p.lo))
+      .concat([...points].reverse().map((p) => X(p.x) + " " + Y(p.hi)))
+      .join(" L");
+    a.push(D("M" + poly + " Z", "none", 0, color, { "fill-opacity": 0.11 }));
+  }
+  a.push(D(line, color, 4));
+  return a;
+}
+const short = {
+  Democrat: "Democrat",
+  Independent: "Independent",
+  Republican: "Republican",
+  "High school or less": "High school or less",
+  "Some college": "Some college",
+  "Degree or more": "Degree or more",
+  age10: "Age (+10 yr)",
+  educ: "Education code",
+  logpopul: "Urban log(pop)",
+  "C(party3)[T.Independent]": "Independent vs Dem.",
+  "C(party3)[T.Republican]": "Republican vs Dem.",
+};

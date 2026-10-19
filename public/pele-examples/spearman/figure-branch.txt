@@ -1,0 +1,102 @@
+if (v.kind === "correlation") {
+  a.push(
+    T(0, 35, "A  Observed age × TV-news frequency", 30, C.ink, 700),
+    T(1000, 35, "B  " + v.label + " correlation", 30, C.ink, 700),
+    T(1000, 62, (v.id === "pearson" ? "r" : "ρ") + " [95% CI]", 20, C.muted),
+  );
+  let pp = plotFrame({
+    x: 80,
+    y: 100,
+    w: 760,
+    h: 395,
+    xRange: [15, 95],
+    yRange: [0, 7],
+    xTicks: [20, 40, 60, 80],
+    yTicks: [0, 2, 4, 6],
+    xLabel: "Age (years)",
+    yLabel: "TV news (times/week)",
+  });
+  a.push(...pp.a);
+  for (const b of v.bubbles)
+    a.push(
+      G(
+        [
+          node("circle", {
+            cx: pp.X(b.x),
+            cy: pp.Y(b.y),
+            r: Math.sqrt(b.count) * 3.6,
+            fill: C.blue,
+            "fill-opacity": 0.38,
+            stroke: C.blue,
+            "stroke-width": 0.6,
+          }),
+        ],
+        b.key,
+      ),
+    );
+  let labs = ["Age", "News", "Educ.", "Urban"];
+  for (let i = 0; i < 4; i++) {
+    a.push(
+      T(1000 + i * 150 + 65, 90, labs[i], 25, C.ink, 650, "middle"),
+      T(970, 153 + i * 100, labs[i], 23, C.muted, 400, "end"),
+    );
+    for (let j = 0; j < 4; j++) {
+      let r =
+        i === j
+          ? 1
+          : v.pairs.find((p) => p.i === Math.min(i, j) && p.j === Math.max(i, j));
+      let val = i === j ? 1 : r.r;
+      a.push(
+        G(
+          [
+            R(
+              995 + j * 150,
+              110 + i * 100,
+              140,
+              90,
+              i === j ? C.wash : val > 0 ? "#DCE9F3" : "#EAF2F1",
+            ),
+            T(1065 + j * 150, 153 + i * 100, fmt(val, 2), 32, C.ink, 650, "middle"),
+            ...(i === j
+              ? []
+              : [
+                  T(
+                    1065 + j * 150,
+                    184 + i * 100,
+                    "[" + r.ci.map((x) => fmt(x, 2)).join(", ") + "]",
+                    21,
+                    C.muted,
+                    400,
+                    "middle",
+                  ),
+                ]),
+          ],
+          i === j ? undefined : r.key,
+        ),
+      );
+    }
+  }
+  a.push(
+    T(995, 557, "All pairs n = 944 · point area = observed count", 25, C.muted),
+    T(
+      10,
+      622,
+      "No jitter or fabricated observations. Correlation does not identify a causal relation.",
+      26,
+      C.muted,
+    ),
+  );
+  note =
+    v.id === "spearman"
+      ? "Ordinal sensitivity:rank-pair percentile bootstrap, 2000 draws. Matrix intervals are pointwise,not simultaneous."
+      : "Pearson intervals use Fisher-z. Numeric-coded education is not an equal-interval measurement.";
+  source =
+    'flowchart LR\n A["Age"] --- N["TV news"]\n E["Education"] --- N\n U["Urban scale"] --- N\n N --> R["Association + uncertainty"]';
+  map = {
+    A: v.key,
+    N: v.key,
+    E: v.pairs.find((x) => x.i === 1 && x.j === 2)?.key,
+    U: v.pairs.find((x) => x.i === 1 && x.j === 3)?.key,
+    R: v.key,
+  };
+}
