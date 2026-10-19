@@ -1,0 +1,138 @@
+{
+  "views": [
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "emptyCells": 0,
+      "overflow": false,
+      "tables": 15
+    }
+  ],
+  "search": [
+    {
+      "language": "ko",
+      "sameTone": true,
+      "empty": true,
+      "reset": true
+    },
+    {
+      "language": "en",
+      "sameTone": true,
+      "empty": true,
+      "reset": true
+    }
+  ]
+}

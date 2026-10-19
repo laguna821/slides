@@ -12,6 +12,9 @@ import {
   siteOrigin,
 } from './web-assets';
 import { verifyWebOutput } from './verify-web-output';
+import {shareWebRuntime} from './share-web-runtime';
+import {dedupeWebHtml} from './dedupe-web-html';
+import {validateSourceOnly} from './source-only';
 const manifest = await readManifest();
 if (!Object.keys(manifest.assets).length)
   throw Error('Run assets:sync before the first web build');
@@ -27,6 +30,9 @@ const works = JSON.parse(await fs.readFile('content/works.json', 'utf8'));
 const resources = JSON.parse(
   await fs.readFile('content/resources.json', 'utf8'),
 );
+const sourceOnlyConfig=JSON.parse(await fs.readFile('content/web-source-only.json','utf8'));
+const sourceOnly=validateSourceOnly(sourceOnlyConfig.files,JSON.parse(await fs.readFile('content/presenter-notes.json','utf8')),works,resources);
+let sourceOnlyBytes=0;
 for (const w of works)
   for (const a of w.artifacts)
     if (isRemoved(a.url))
@@ -47,10 +53,11 @@ for (const f of inputs.filter(isRemoved)) {
     : '/' + path.posix.dirname(f) + '/';
 }
 let before = 0;
-const proofs: Record<string, { sourceHash: string; outputHash: string }> = {};
+const proofs: Record<string, { sourceHash: string; outputHash: string; outputAlias?:string }> = {};
 for (const file of inputs) {
   const bytes = await fs.readFile('dist/' + file);
   before += bytes.length;
+  if(sourceOnly.has(file)){sourceOnlyBytes+=bytes.length;continue;}
   if (isRemoved(file)) continue;
   if (
     file.startsWith('fonts/shared/') &&
@@ -98,6 +105,11 @@ for (const asset of Object.values(manifest.assets))
     await fs.mkdir(path.dirname(target), { recursive: true });
     await fs.writeFile(target, bytes);
   }
+const runtimeSharing=await shareWebRuntime(output);
+for(const file of Object.keys(proofs))proofs[file].outputHash=sha(await fs.readFile(path.join(output,file)));
+const htmlSharing=await dedupeWebHtml(output);
+Object.assign(redirects,htmlSharing.aliases);
+for(const [source,target] of Object.entries(htmlSharing.aliases))proofs[source.slice(1)].outputAlias=target;
 // A checked-in Vercel configuration must match the deterministic redirect plan.
 const expected = Object.entries({ ...manifest.paths, ...redirects })
   .map(([source, destination]) => ({ source, destination, permanent: false }))
@@ -139,6 +151,9 @@ await fs.writeFile(
       savedBytes: before - report.bytes,
       redirects: expected.length,
       assetManifestHash: sha(await fs.readFile('content/web-assets.json')),
+      runtimeSharing,
+      htmlSharing,
+      archivalOnly:{files:[...sourceOnly],sourceBytes:sourceOnlyBytes},
     },
     null,
     2,

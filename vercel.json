@@ -403,6 +403,11 @@
       "permanent": false
     },
     {
+      "source": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source-web.html",
+      "destination": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html",
+      "permanent": false
+    },
+    {
       "source": "/decks/survey-scale-intro-2026-10-13/v1.3.0/all-explanations.pdf",
       "destination": "/talks/survey-scale-intro-2026-10-13/read/",
       "permanent": false
@@ -563,6 +568,11 @@
       "permanent": false
     },
     {
+      "source": "/images/still-working-on-my-topic-2026-10-20.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397990416-a470bb85-0478-4eb7-8991-3888ae8bcade.png",
+      "permanent": false
+    },
+    {
       "source": "/images/studio-frame.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893676782-9c7bdf5f-4307-46f6-aae0-f97fb77a5494.webp",
       "permanent": false
@@ -645,6 +655,11 @@
     {
       "source": "/posters/media-school-workshop-20260706/v1/poster-preview.png",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893690326-32c0b205-1289-44ae-a0a4-1f66409dcb7a.png",
+      "permanent": false
+    },
+    {
+      "source": "/posters/media-school-workshop-20260706/v1/poster.html",
+      "destination": "/posters/media-school-workshop-20260706/v1/index.html",
       "permanent": false
     },
     {
@@ -956,7 +971,8 @@
   "git": {
     "deploymentEnabled": {
       "**": false,
-      "main": true
+      "main": true,
+      "codex/topic-lecture-62-web": true
     }
   }
 }

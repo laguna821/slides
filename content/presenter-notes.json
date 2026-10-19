@@ -58,6 +58,16 @@
       "notesState": "empty",
       "enginePackageSha256": "369538c1eb3372a7138bc67ed171c326a0c76236c11f3ec9f8198d35a314012e",
       "provenance": "docs/survey-scale-intro-provenance.json"
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "url": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html",
+      "source": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source.html",
+      "sourceSha256": "11ec30894b0b7a7f0572dd4aa428d911de9a78da669d37d92e295d932acbd9d7",
+      "sha256": "a9a5a46527a35e4816cdda675dd1e022998e6589fe3c0c9eb91007edb385f1b8",
+      "notesState": "authored",
+      "enginePackageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+      "provenance": "docs/topic-lecture-provenance.json"
     }
   ],
   "verification": {
@@ -95,6 +105,40 @@
       "nOpensPrompt": true,
       "environment": "Edge CUA 2026-10-13: N opened actual popup. Popup click timed out; same-file normal notes tab verified wrong/configured credential, relock and reload.",
       "popupBlockedAutomatic": "not-tested"
+    },
+    "c35dc8b71ea870b57d983dde6df7519eb6f0c5b114cd77558224ad8b01c9bdfc": {
+      "wrongPassword": true,
+      "popupBlockedAutomatic": "not-tested",
+      "reloadLocked": true,
+      "environment": "Codex CUA 2026-10-19: actual N key opened notes; same web projection notes view rejected wrong credential, unlocked with configured credential, relocked and stayed locked after reload.",
+      "notesState": "authored",
+      "correctPassword": true,
+      "credentialProfile": "studio-presenter-default-v1",
+      "nOpensPrompt": true,
+      "relock": true
+    },
+    "5c0bac89de909656271328f331c8ab105732251160e5ea97a0d5cffdbaa6eed6": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "authored",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "Codex CUA 2026-10-19: actual N key opened the notes window. Same-file web-projection notes view rejected a wrong credential, decrypted the revised notes with the configured credential, relocked, and remained locked after reload.",
+      "popupBlockedAutomatic": "not-tested"
+    },
+    "a9a5a46527a35e4816cdda675dd1e022998e6589fe3c0c9eb91007edb385f1b8": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "authored",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "Edge CUA 2026-10-19. Latest web projection: button opened the notes window; wrong credential rejected and configured credential unlocked authored slide-2 notes through keyboard form submission. Relock and reload returned the locked prompt. Native N on a fresh presentation tab opened a new locked notes window. Popup mouse click timed out; keyboard submission succeeded.",
+      "popupBlockedAutomatic": "not-tested",
+      "webProjectionSha256": "2df0bee3b5d6b3db346454ae7f38d0443f0a3db87ed3e1997b97e040a0fb2e7f"
     }
   }
 }

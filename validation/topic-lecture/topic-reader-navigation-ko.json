@@ -1,0 +1,248 @@
+[
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 375,
+    "theme": "light",
+    "actualWidth": 375,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 26583.029296875,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 51430.90625,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 375,
+    "theme": "dark",
+    "actualWidth": 375,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 26583.029296875,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 51430.90625,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 768,
+    "theme": "light",
+    "actualWidth": 768,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 21502.423828125,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 40562.421875,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 768,
+    "theme": "dark",
+    "actualWidth": 768,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 21502.423828125,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 40562.421875,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1440,
+    "theme": "light",
+    "actualWidth": 1440,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 22059.392578125,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 41606.6640625,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1440,
+    "theme": "dark",
+    "actualWidth": 1440,
+    "positions": [
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "start",
+        "sameRow": true,
+        "scrollY": 0,
+        "toolbarTop": 87.99241638183594
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "middle",
+        "sameRow": true,
+        "scrollY": 22058.787109375,
+        "toolbarTop": 0
+      },
+      {
+        "controlsVisible": true,
+        "minTarget": 44.999996185302734,
+        "noOverlap": true,
+        "position": "end",
+        "sameRow": true,
+        "scrollY": 41606.05859375,
+        "toolbarTop": 0
+      }
+    ],
+    "themeSwitch": true,
+    "themeSync": true,
+    "scrollShift": 0,
+    "tocReachable": true,
+    "keyboard": true,
+    "themePersisted": true
+  }
+]

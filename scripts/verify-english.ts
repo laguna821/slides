@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {load} from 'cheerio';
 import {hash} from './localization';
+import {portableReaderImageUrl} from './reader-image-url';
+const registeredAssets=JSON.parse(await fs.readFile('content/web-assets.json','utf8')).assets;
 const ko=JSON.parse(await fs.readFile('src/generated/content.json','utf8')).works;
 const en=JSON.parse(await fs.readFile('src/generated/english.json','utf8')).works;
 const index=JSON.parse(await fs.readFile('dist/en/search-index.json','utf8')).entries;
@@ -16,7 +18,7 @@ for(const w of en){
  assert.equal(r('#reader-body').text(),w.reader.text);
  assert.equal(await fs.readFile('dist'+w.href+'read.txt','utf8'),w.reader.text);
  assert.equal(await fs.readFile('dist'+w.href+'read.md','utf8'),w.reader.markdown);
- for(const url of w.reader.images)assert(w.reader.markdown.includes('https://achmage-slides.vercel.app'+url),'Markdown image must remain portable: '+url);
+ for(const url of w.reader.images)assert(w.reader.markdown.includes(portableReaderImageUrl(url,registeredAssets)),'Markdown image must remain portable: '+url);
  assert.deepEqual(w.reader.headings.map((h:any)=>h.id),original.reader.headings.map((h:any)=>h.id));
  assert.equal(r('#reader-body img').length,original.reader.images.length);
  assert.equal(r('[data-reader-print],[data-download-pdf]').length,0);

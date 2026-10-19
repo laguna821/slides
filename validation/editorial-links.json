@@ -6,7 +6,8 @@
     "ai-reading-pilot": "ba539cefa084ba5c6ca4cbede9d91b65d7bb9f039c505ab8e66d8b77e7e94644",
     "human-reading-writing-2026": "0f38d27efea7047a793a985b977f9b183a91b11ebcb33d39d369fb3e133be45d",
     "media-colloquium-2026-06-10": "7547aedfcfec75919d918c929b2d5f45b3445ca3ce51470fd8161d450fc58e6e",
-    "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6"
+    "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6",
+    "still-working-on-my-topic-2026-10-20": "03a8d7d79547340b2b8c8d8c238c4b32355a00d329f57e823374c06d422baccc"
   },
   "links": [
     {
@@ -751,6 +752,42 @@
       "status": "reachable",
       "httpStatus": 200,
       "finalUrl": "http://www.journalist.or.kr/"
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "href": "https://doi.org/10.1093/pnasnexus/pgae403",
+      "status": "uncertain",
+      "http": 403,
+      "checkedAt": "2026-10-19T09:40:24.830Z",
+      "review": "Stable published source or release address; automated fetch was unavailable. Do not label HTTP verification as passed."
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "href": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-10-19T09:40:25.975Z"
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "href": "https://gradschool.cornell.edu/academic-progress/opportunities-resources-support/advising-guide-for-research-students-2025/",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-10-19T09:40:27.880Z"
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "href": "https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socratic-Advisor-0.1.0-skill.zip",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-10-19T09:40:28.498Z"
+    },
+    {
+      "workId": "still-working-on-my-topic-2026-10-20",
+      "href": "https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socrates-student-vault-0.1.0.zip",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-10-19T09:40:28.984Z"
     }
   ]
 }
