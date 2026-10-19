@@ -1324,6 +1324,258 @@
       "mime": "image/png",
       "kind": "image",
       "verifiedAt": "2026-10-14T02:49:37.010Z"
+    },
+    "image/png:47e06a565f00393b3e0d2997766879081a293471ab1d39b912ab1ead21c05a06": {
+      "sourceHash": "47e06a565f00393b3e0d2997766879081a293471ab1d39b912ab1ead21c05a06",
+      "sha256": "47e06a565f00393b3e0d2997766879081a293471ab1d39b912ab1ead21c05a06",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397990416-a470bb85-0478-4eb7-8991-3888ae8bcade.png",
+      "bytes": 2058239,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:19:52.071Z"
+    },
+    "image/png:d25447c0da241e466777f1d7fe20d748ad1dc00cf298326c327046b3acc99293": {
+      "sourceHash": "d25447c0da241e466777f1d7fe20d748ad1dc00cf298326c327046b3acc99293",
+      "sha256": "d25447c0da241e466777f1d7fe20d748ad1dc00cf298326c327046b3acc99293",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397994300-337c2d7c-6acd-49d5-835d-fe1d2e7625eb.png",
+      "bytes": 2180723,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:19:55.470Z"
+    },
+    "image/png:c45071fcd4ac1f28132cd7dc1b0d53095b4937042bbb747d260ac9351a2d487d": {
+      "sourceHash": "c45071fcd4ac1f28132cd7dc1b0d53095b4937042bbb747d260ac9351a2d487d",
+      "sha256": "c45071fcd4ac1f28132cd7dc1b0d53095b4937042bbb747d260ac9351a2d487d",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397997107-de61630e-ef19-4acc-8c3a-14ed58955626.png",
+      "bytes": 2289853,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:19:58.239Z"
+    },
+    "image/png:be2635b0099ce0b55828976de036f10dc2def9d74363cb1f1190399686df0e8b": {
+      "sourceHash": "be2635b0099ce0b55828976de036f10dc2def9d74363cb1f1190399686df0e8b",
+      "sha256": "be2635b0099ce0b55828976de036f10dc2def9d74363cb1f1190399686df0e8b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397999545-67da9be7-b50e-40b6-85d9-30e57de553ec.png",
+      "bytes": 2311067,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:00.672Z"
+    },
+    "image/png:c9f2f44de81958058df6b69fdaffbe4905253f1aee12efbcb4ccaf48899892a2": {
+      "sourceHash": "c9f2f44de81958058df6b69fdaffbe4905253f1aee12efbcb4ccaf48899892a2",
+      "sha256": "c9f2f44de81958058df6b69fdaffbe4905253f1aee12efbcb4ccaf48899892a2",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398002039-fb76723b-76ed-445a-a675-507a8c5ca420.png",
+      "bytes": 2264088,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:03.069Z"
+    },
+    "image/png:76f8ba22f15489e677e96193852aafa238fd015080dfc83076de3fe1484b5b26": {
+      "sourceHash": "76f8ba22f15489e677e96193852aafa238fd015080dfc83076de3fe1484b5b26",
+      "sha256": "76f8ba22f15489e677e96193852aafa238fd015080dfc83076de3fe1484b5b26",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398004337-e280ccdc-1142-4187-ac51-61277c04b7ab.png",
+      "bytes": 2168855,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:05.516Z"
+    },
+    "image/png:34653956caa2a6747031ee9acf6e018d1e625804d03a0e6b13e9696a39754148": {
+      "sourceHash": "34653956caa2a6747031ee9acf6e018d1e625804d03a0e6b13e9696a39754148",
+      "sha256": "34653956caa2a6747031ee9acf6e018d1e625804d03a0e6b13e9696a39754148",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398006711-f8c6b5fe-ed6a-4862-9d05-898325a0413c.png",
+      "bytes": 2262851,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:07.945Z"
+    },
+    "image/png:61b15bf1dcfc437f0e0296bd2d4c8df2321886081dde638012cadd4e0a277c4e": {
+      "sourceHash": "61b15bf1dcfc437f0e0296bd2d4c8df2321886081dde638012cadd4e0a277c4e",
+      "sha256": "61b15bf1dcfc437f0e0296bd2d4c8df2321886081dde638012cadd4e0a277c4e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398009303-94c5f779-4171-4d5a-a914-30e037d6f3f2.png",
+      "bytes": 2341849,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:10.471Z"
+    },
+    "image/png:85ad19c740708d65cd8278654ba9b0acd3798504ae8370d447e99805fba667a1": {
+      "sourceHash": "85ad19c740708d65cd8278654ba9b0acd3798504ae8370d447e99805fba667a1",
+      "sha256": "85ad19c740708d65cd8278654ba9b0acd3798504ae8370d447e99805fba667a1",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398011727-cb1d2ea7-171a-4ff4-b11c-c27f15e6d288.png",
+      "bytes": 3048354,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:12.850Z"
+    },
+    "image/png:09d0b2c29dbb2543131367603526f54c7080261012abbf2d1f4ef36668895e93": {
+      "sourceHash": "09d0b2c29dbb2543131367603526f54c7080261012abbf2d1f4ef36668895e93",
+      "sha256": "09d0b2c29dbb2543131367603526f54c7080261012abbf2d1f4ef36668895e93",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398014143-c4df4a3b-b74c-4d08-888f-5d07b1524169.png",
+      "bytes": 2130962,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:15.222Z"
+    },
+    "image/png:4b95ee179e06f03d1721598c51a3658f0bd4b3158db19fd0225cc57105451de5": {
+      "sourceHash": "4b95ee179e06f03d1721598c51a3658f0bd4b3158db19fd0225cc57105451de5",
+      "sha256": "4b95ee179e06f03d1721598c51a3658f0bd4b3158db19fd0225cc57105451de5",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398016401-c41ab91f-cf68-4d5c-8df4-9bdbcb18e8b2.png",
+      "bytes": 2387065,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:17.465Z"
+    },
+    "image/png:99043d6ca3e2c0ba90c8927adc79ba887dea646304cf5329ccc159c7c1303a43": {
+      "sourceHash": "99043d6ca3e2c0ba90c8927adc79ba887dea646304cf5329ccc159c7c1303a43",
+      "sha256": "99043d6ca3e2c0ba90c8927adc79ba887dea646304cf5329ccc159c7c1303a43",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398019331-a6b8ad6c-e7db-4c52-94f6-ca345e6cbc4b.png",
+      "bytes": 2464529,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:20.369Z"
+    },
+    "image/png:a6f3bcad7544c19d5d2ede6ddc1b3960691ca29750f5432002a6e669a1c60b1a": {
+      "sourceHash": "a6f3bcad7544c19d5d2ede6ddc1b3960691ca29750f5432002a6e669a1c60b1a",
+      "sha256": "a6f3bcad7544c19d5d2ede6ddc1b3960691ca29750f5432002a6e669a1c60b1a",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398021533-f5d89604-15c8-40ee-90e2-d1234274baff.png",
+      "bytes": 2403327,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:22.699Z"
+    },
+    "image/png:4bacf55e952b895cf294638a77864e5fe165c58f7eddea5d2edceb05e36ac902": {
+      "sourceHash": "4bacf55e952b895cf294638a77864e5fe165c58f7eddea5d2edceb05e36ac902",
+      "sha256": "4bacf55e952b895cf294638a77864e5fe165c58f7eddea5d2edceb05e36ac902",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398023877-81f2b959-bc38-4168-a6bc-cd175fb08c20.png",
+      "bytes": 2315058,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:25.097Z"
+    },
+    "image/png:e786350cd4ad88a9ad14791df929bdf90ff29c5142e4c7084148dbeafdd7c655": {
+      "sourceHash": "e786350cd4ad88a9ad14791df929bdf90ff29c5142e4c7084148dbeafdd7c655",
+      "sha256": "e786350cd4ad88a9ad14791df929bdf90ff29c5142e4c7084148dbeafdd7c655",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398026227-18c97d4c-7f0f-498d-a3f0-9341db30470a.png",
+      "bytes": 1101768,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:27.358Z"
+    },
+    "image/png:ee4ec13c7093f9be8a4195b3bdf50284f009609f512da72a4c0dc02b063d0b40": {
+      "sourceHash": "ee4ec13c7093f9be8a4195b3bdf50284f009609f512da72a4c0dc02b063d0b40",
+      "sha256": "ee4ec13c7093f9be8a4195b3bdf50284f009609f512da72a4c0dc02b063d0b40",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398028414-c6135560-f0b9-4e87-9468-a2d59a5fac71.png",
+      "bytes": 1209010,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:29.810Z"
+    },
+    "image/png:04ddd79d031b386f4ac8b1fa77e2620baed4ed936cf399e1de1299606f99b1f8": {
+      "sourceHash": "04ddd79d031b386f4ac8b1fa77e2620baed4ed936cf399e1de1299606f99b1f8",
+      "sha256": "04ddd79d031b386f4ac8b1fa77e2620baed4ed936cf399e1de1299606f99b1f8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398030862-6e4154a2-da54-4768-9e27-c4ca746f214c.png",
+      "bytes": 1252709,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:31.906Z"
+    },
+    "image/png:523f6e07f04a31e9f3ec4bcb23ace796f974a2b65c5cb5e52fc58a378433ea45": {
+      "sourceHash": "523f6e07f04a31e9f3ec4bcb23ace796f974a2b65c5cb5e52fc58a378433ea45",
+      "sha256": "523f6e07f04a31e9f3ec4bcb23ace796f974a2b65c5cb5e52fc58a378433ea45",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398033008-620eaf62-6f3a-4d02-bd21-7d7e6a5e646b.png",
+      "bytes": 1346369,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:34.270Z"
+    },
+    "image/png:8ae5174faf87403a94be64b25c175ed1613cdcf00a41d43e9896de8923ae8010": {
+      "sourceHash": "8ae5174faf87403a94be64b25c175ed1613cdcf00a41d43e9896de8923ae8010",
+      "sha256": "8ae5174faf87403a94be64b25c175ed1613cdcf00a41d43e9896de8923ae8010",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398035541-23b617f7-3a10-4a06-86fd-80b73c1330c8.png",
+      "bytes": 1163798,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:36.912Z"
+    },
+    "image/png:4848b5ac33614fa5436ae59e386f74238e25f92f61cc53e509d73e97d3bce106": {
+      "sourceHash": "4848b5ac33614fa5436ae59e386f74238e25f92f61cc53e509d73e97d3bce106",
+      "sha256": "4848b5ac33614fa5436ae59e386f74238e25f92f61cc53e509d73e97d3bce106",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398038050-25a93eed-d95b-45aa-a90e-867f4624c84e.png",
+      "bytes": 1237783,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:39.227Z"
+    },
+    "image/png:6594e7795490f36f97d79c76587f2baf3980f6e52ead2a90fc127b870e95c223": {
+      "sourceHash": "6594e7795490f36f97d79c76587f2baf3980f6e52ead2a90fc127b870e95c223",
+      "sha256": "6594e7795490f36f97d79c76587f2baf3980f6e52ead2a90fc127b870e95c223",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398040880-4e29efeb-8cc2-4ac0-86f0-e2691d8df775.png",
+      "bytes": 1236214,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:42.030Z"
+    },
+    "image/png:8c6df4b8290b02c115dc07912e3e42efda5a7743d5d5e7105e31f0bf77e6880e": {
+      "sourceHash": "8c6df4b8290b02c115dc07912e3e42efda5a7743d5d5e7105e31f0bf77e6880e",
+      "sha256": "8c6df4b8290b02c115dc07912e3e42efda5a7743d5d5e7105e31f0bf77e6880e",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398043126-1b2d2fea-5afb-40da-997a-7a0c3999773b.png",
+      "bytes": 1298369,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:49.499Z"
+    },
+    "image/png:0f218008442408ee401d96bddd7d8c06d6acfb9a3cb8472fc4050b0df6ea73c4": {
+      "sourceHash": "0f218008442408ee401d96bddd7d8c06d6acfb9a3cb8472fc4050b0df6ea73c4",
+      "sha256": "0f218008442408ee401d96bddd7d8c06d6acfb9a3cb8472fc4050b0df6ea73c4",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398051450-8a99c1f5-7ad7-4410-8f6f-be8e9ca6e709.png",
+      "bytes": 1653580,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:53.174Z"
+    },
+    "image/png:a3c0b1ffa66b655c5dbe12a5bbac7f01ddeccb6a99d8308626b4dabb8611f52b": {
+      "sourceHash": "a3c0b1ffa66b655c5dbe12a5bbac7f01ddeccb6a99d8308626b4dabb8611f52b",
+      "sha256": "a3c0b1ffa66b655c5dbe12a5bbac7f01ddeccb6a99d8308626b4dabb8611f52b",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398054441-b969285a-5b2a-444b-9794-41e2af0bfee7.png",
+      "bytes": 1178668,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:55.520Z"
+    },
+    "image/png:4ecc9cd5cd1ca5871aec721400ceffffe823de465cf4b1c5be2b03505d8cc5d6": {
+      "sourceHash": "4ecc9cd5cd1ca5871aec721400ceffffe823de465cf4b1c5be2b03505d8cc5d6",
+      "sha256": "4ecc9cd5cd1ca5871aec721400ceffffe823de465cf4b1c5be2b03505d8cc5d6",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398056724-3975bc19-6fc9-4f5c-bc7e-f439f007f6d5.png",
+      "bytes": 1285386,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:57.761Z"
+    },
+    "image/png:80b173ae6eb21525ceaf44ab56ad944ff6a5316f64bde4d568bb2cd0e69a38fe": {
+      "sourceHash": "80b173ae6eb21525ceaf44ab56ad944ff6a5316f64bde4d568bb2cd0e69a38fe",
+      "sha256": "80b173ae6eb21525ceaf44ab56ad944ff6a5316f64bde4d568bb2cd0e69a38fe",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398058845-9b9ecb27-8c95-46bb-b2e6-0daa510cb1b1.png",
+      "bytes": 1251756,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:20:59.994Z"
+    },
+    "image/png:63978e4d394dc5ee25aa8b76553cf877e9a15ea44ea4dea794ac0fa7c5341c75": {
+      "sourceHash": "63978e4d394dc5ee25aa8b76553cf877e9a15ea44ea4dea794ac0fa7c5341c75",
+      "sha256": "63978e4d394dc5ee25aa8b76553cf877e9a15ea44ea4dea794ac0fa7c5341c75",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398061583-396dabd4-76a9-4b8b-af91-cec47accbd00.png",
+      "bytes": 1346486,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:21:02.870Z"
+    },
+    "image/png:0f7776c3d36e8cc2b8e862d23b12dd00c95fc3b7f4b2308ebdf667cb590fd2c6": {
+      "sourceHash": "0f7776c3d36e8cc2b8e862d23b12dd00c95fc3b7f4b2308ebdf667cb590fd2c6",
+      "sha256": "0f7776c3d36e8cc2b8e862d23b12dd00c95fc3b7f4b2308ebdf667cb590fd2c6",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792398064206-eb9b6c66-92d8-41fa-80a9-ce23ca35ccf8.png",
+      "bytes": 1313120,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-19T08:21:05.240Z"
     }
   },
   "paths": {
@@ -1462,6 +1714,7 @@
     "/reading/human-reading-writing-2026/assets/e26c852e1273d80a8935.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947553982-1a236428-20bd-4f18-b801-c6ec66525140.png",
     "/reading/human-reading-writing-2026/assets/e609e42ba9f4cd2b33a7.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947557283-2d72f3e4-d358-4192-bb9f-1024924d5f6f.png",
     "/reading/human-reading-writing-2026/assets/fdaa124528196a4a2da6.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791947567337-a8921d5d-c312-4869-80d2-696e07663c30.png",
-    "/images/survey-scale-intro-2026-10-13.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791945477323-05f4c093-88f5-44a0-9816-3a745604cf5f.webp"
+    "/images/survey-scale-intro-2026-10-13.webp": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791945477323-05f4c093-88f5-44a0-9816-3a745604cf5f.webp",
+    "/images/still-working-on-my-topic-2026-10-20.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792397990416-a470bb85-0478-4eb7-8991-3888ae8bcade.png"
   }
 }

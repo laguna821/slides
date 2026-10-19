@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "original": {
+    "filename": "교수님-저-주제를-아직-잡고-있어요.md",
+    "sha256": "e861fbbf34a91eded510692d8f6a43d6b4defea5546e0b82cd6dc6d8d0892490"
+  },
+  "remake": {
+    "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+    "htmlSha256": "11ec30894b0b7a7f0572dd4aa428d911de9a78da669d37d92e295d932acbd9d7",
+    "webProjectionSha256": "2df0bee3b5d6b3db346454ae7f38d0443f0a3db87ed3e1997b97e040a0fb2e7f",
+    "version": "1.0.0",
+    "slides": 62,
+    "illustrations": 11
+  },
+  "adaptation": "The original fifteen manuscript sections were recomposed into sixty lecture slides and two follow-up slides using the pinned native semantic layout. Complete reader text and all eleven figures are preserved. Private notes and local paths are excluded.",
+  "research": "research:rr-d1654188fea2d2797bab6bbdff2de715:e616984e8728e6c54d3577ff16e10b7acda73cb162c4bac09454b3c2a081ef85"
+}

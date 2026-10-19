@@ -1,5 +1,87 @@
 [
   {
+    "id": "still-working-on-my-topic-2026-10-20",
+    "slug": "still-working-on-my-topic-2026-10-20",
+    "title": "교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까?",
+    "summary": "AI로 쓴 15페이지를 왜 설명하지 못할까요? 가상 대학원생 민서의 사례로 주제 좁히기·논문 읽기·이론·가설·방법·지도교수 면담을 연결하는 62장 강의입니다.",
+    "date": "2026-10-20",
+    "registeredAt": "2026-10-19",
+    "kind": "lecture",
+    "topics": [
+      "연구방법론",
+      "대학원 연구",
+      "논문 읽기",
+      "AI와 학습"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "poster": "/images/still-working-on-my-topic-2026-10-20.png",
+    "posterAlt": "주제를 아직 잡고 있는 가상 대학원생 민서와 흘러가는 달력",
+    "audience": "AI로 초안을 만들지만 자신의 연구 질문과 방법을 설명하기 어려운 대학원생",
+    "takeaways": [
+      "넓은 관심을 실제로 비교할 연구 질문으로 좁힙니다.",
+      "논문에서 확인한 내용과 아직 모르는 것을 구분합니다.",
+      "이론·가설·측정·설계를 연결해 지도받을 질문을 만듭니다."
+    ],
+    "event": "한림대학교 미디어스쿨 대학원 · 커뮤니케이션조사방법론 II · 2026년 10월 20일",
+    "body": "“아직 주제를 잡고 있어요”라는 말을 몇 개월째 반복하고 있다면, 원고의 분량보다 질문이 어떻게 달라졌는지부터 살펴봅니다. 가상 대학원생 민서가 AI로 만든 15페이지 앞에서 막히고, 실제 논문을 읽으며 질문을 바꾸는 과정을 따라갑니다.\n\n한림대학교 미디어스쿨 대학원 「커뮤니케이션조사방법론 II」 8주차를 위해 제작한 강의입니다. 지난주 설문척도 수업에서 이어져, 관심 분야를 비교할 장면으로 좁히고 개념·이론·가설·측정·설계를 연결합니다.\n\n본편 60장과 후속 안내 2장으로 구성했습니다. 11개의 가상 사례 삽화, 비교표와 단계별 설명으로 슬라이드만 보며 논지를 따라갈 수 있게 만들었습니다. 마지막 두 장에서는 Socratic Advisor와 빈 Obsidian 볼트로 각자 공부를 이어갑니다.\n\n한국어 슬라이드와 전체 읽기, 영어 소개·읽기를 제공합니다. 관찰·가상 예시·실제 논문 근거를 구분하며, 스킬이 학생 대신 프로포절을 완성하거나 이해도를 자동 채점한다고 소개하지 않습니다.",
+    "course": {
+      "id": "communication-research-methods-ii-2026-2",
+      "title": "커뮤니케이션조사방법론 II",
+      "term": "2026학년도 2학기",
+      "week": 8
+    },
+    "artifacts": [
+      {
+        "id": "topic-lecture-html",
+        "type": "html",
+        "role": "slides",
+        "url": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html",
+        "label": "강의 슬라이드 · 한국어 62장",
+        "version": "1.0.0",
+        "modes": [
+          "present",
+          "read"
+        ]
+      },
+      {
+        "id": "socratic-advisor-skill",
+        "type": "link",
+        "role": "kit",
+        "url": "https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socratic-Advisor-0.1.0-skill.zip",
+        "label": "Socratic Advisor 스킬 ZIP",
+        "version": "0.1.0",
+        "modes": [
+          "download"
+        ]
+      },
+      {
+        "id": "socratic-advisor-vault",
+        "type": "link",
+        "role": "kit",
+        "url": "https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socrates-student-vault-0.1.0.zip",
+        "label": "학생용 빈 Obsidian 볼트",
+        "version": "0.1.0",
+        "modes": [
+          "download"
+        ]
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [],
+    "htmlSource": "public/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source-web.html",
+    "reader": {
+      "version": "2.0.0",
+      "source": "content/reading/still-working-on-my-topic-2026-10-20.md",
+      "sourceVersion": "1.0.0 · 2026-10-20",
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/still-working-on-my-topic-2026-10-20.md",
+      "editorialManifest": "content/editorial/still-working-on-my-topic-2026-10-20.json"
+    },
+    "provenance": "docs/topic-lecture-provenance.json"
+  },
+  {
     "id": "survey-scale-intro-2026-10-13",
     "slug": "survey-scale-intro-2026-10-13",
     "title": "설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠?",

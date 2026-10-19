@@ -1,0 +1,386 @@
+[
+  {
+    "route": "/talks/ai-reading-pilot/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/ai-reading-pilot/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/ai-reading-pilot/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/ai-reading-pilot/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/ai-reading-pilot/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/ai-reading-pilot/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/ai-reading-pilot/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/ai-reading-pilot/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/human-reading-writing-2026/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/human-reading-writing-2026/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/human-reading-writing-2026/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/human-reading-writing-2026/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/human-reading-writing-2026/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/human-reading-writing-2026/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/human-reading-writing-2026/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/human-reading-writing-2026/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/media-colloquium-2026-06-10/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/media-colloquium-2026-06-10/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/media-colloquium-2026-06-10/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/media-colloquium-2026-06-10/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/media-colloquium-2026-06-10/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/media-colloquium-2026-06-10/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/media-colloquium-2026-06-10/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/media-colloquium-2026-06-10/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 320,
+    "theme": "light",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 320,
+    "theme": "dark",
+    "actualWidth": 320,
+    "columnWidth": 270.07574462890625,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 1920,
+    "theme": "light",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  },
+  {
+    "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+    "width": 1920,
+    "theme": "dark",
+    "actualWidth": 1920,
+    "columnWidth": 719.9999389648438,
+    "overflow": false
+  }
+]

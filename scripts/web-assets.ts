@@ -15,7 +15,12 @@ export const isBrandAsset = (p: string) =>
   /^brand\/(?:favicon|achmage-(?:wordmark|symbol)(?:-reversed|-mono)?|ach-frame(?:-reversed|-mono)?)\.svg$/.test(
     p,
   );
-export const isRemoved = (p: string) => /\.(?:pdf|zip)(?:[?#].*)?$/i.test(p);
+// Only these two explicit student kits may link outside the deployment.
+export const externalStudentKits = new Set([
+  'https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socratic-Advisor-0.1.0-skill.zip',
+  'https://github.com/laguna821/slides/releases/download/socratic-advisor-0.1.0/Achmage-Socrates-student-vault-0.1.0.zip',
+]);
+export const isRemoved = (p: string) => !externalStudentKits.has(p) && /\.(?:pdf|zip)(?:[?#].*)?$/i.test(p);
 export const isText = (p: string) =>
   /\.(?:html|css|js|mjs|svg|json|md|txt|xml)$/i.test(p);
 export type Asset = {

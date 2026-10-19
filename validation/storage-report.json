@@ -1,14 +1,33 @@
 {
   "version": 1,
-  "bytes": 19558416,
-  "htmlCount": 91,
-  "maxHtmlBytes": 965743,
+  "bytes": 20130809,
+  "htmlCount": 95,
+  "maxHtmlBytes": 791692,
   "pdfFiles": 0,
   "zipFiles": 0,
   "embeddedAssets": 0,
   "localContentImages": 0,
-  "sourceBuildBytes": 519082453,
-  "savedBytes": 499524037,
-  "redirects": 165,
-  "assetManifestHash": "5a37b7b12d8b845291816db3a98bf90fdd049ca38cdf5cfa6e56f2f8f1ffee2f"
+  "sourceBuildBytes": 636484329,
+  "savedBytes": 616353520,
+  "redirects": 168,
+  "assetManifestHash": "660184a21b0ef50c445e45d8e47f73ae686470dcd35ef33a9d2d323c20645fe1",
+  "runtimeSharing": {
+    "assets": 12,
+    "removedBytes": 2416993,
+    "insertedBytes": 779145,
+    "rawSavingBytes": 1637848
+  },
+  "htmlSharing": {
+    "aliases": {
+      "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source-web.html": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html",
+      "/posters/media-school-workshop-20260706/v1/poster.html": "/posters/media-school-workshop-20260706/v1/index.html"
+    },
+    "savedBytes": 509281
+  },
+  "archivalOnly": {
+    "files": [
+      "decks/still-working-on-my-topic-2026-10-20/v1.0.0/source.html"
+    ],
+    "sourceBytes": 56615811
+  }
 }

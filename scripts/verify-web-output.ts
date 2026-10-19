@@ -2,17 +2,20 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { load } from 'cheerio';
+import {policy} from '../src/lib/policy';
 import {
   isBrandAsset,
   isMedia,
   isRemoved,
   isText,
   readManifest,
+  replaceData,
   regularFiles,
   siteOrigin,
 } from './web-assets';
 export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
   const manifest = await readManifest();
+  const redirects=JSON.parse(await fs.readFile('vercel.json','utf8')).redirects||[];
   const list = await regularFiles(root);
   let bytes = 0,
     maxHtmlBytes = 0,
@@ -65,10 +68,13 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
     if (!file.endsWith('.html')) continue;
     htmlCount++;
     maxHtmlBytes = Math.max(maxHtmlBytes, b.length);
-    assert(b.length <= 2 * 1024 * 1024, 'HTML exceeds 2 MiB: ' + file);
+    assert(b.length <= policy.storage.maxHtmlBytes, 'HTML exceeds '+(policy.storage.maxHtmlBytes/1048576)+' MiB: ' + file);
     const $ = load(text);
     const source = await fs.readFile(path.join(sourceRoot, file), 'utf8');
-    const original = load(source);
+    // Embedded binary image/font payloads are not DOM text or anchors. Resolve
+    // them through the verified manifest before parsing the archival source.
+    // Raw source hashes remain independently preserved by build-web proofs.
+    const original = load(replaceData(source, manifest));
     if (original('#lesson-data').length)
       assert.deepEqual(
         JSON.parse($('#lesson-data').text()),
@@ -151,8 +157,10 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
           throw Error('Invalid asset URL in ' + file);
         }
         if (u.origin !== siteOrigin) continue;
-        const rel = decodeURIComponent(u.pathname);
+        let rel = decodeURIComponent(u.pathname);
         if (manifest.paths[rel]) continue;
+        const alias=redirects.find((r:any)=>r.source===rel);
+        if(alias){const destination=new URL(alias.destination,siteOrigin);if(destination.origin!==siteOrigin)continue;rel=decodeURIComponent(destination.pathname);}
         const target = path.resolve(
           root,
           '.' + rel + (rel.endsWith('/') ? 'index.html' : ''),
@@ -166,7 +174,7 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
         });
       }
   }
-  assert(bytes <= 50 * 1024 * 1024, 'Deployment exceeds 50 MiB');
+  assert(bytes <= policy.storage.maxBytes, 'Deployment exceeds '+(policy.storage.maxBytes/1048576)+' MiB');
   return {
     version: 1,
     bytes,

@@ -1,0 +1,644 @@
+{
+  "version": "2.0.0",
+  "workId": "still-working-on-my-topic-2026-10-20",
+  "status": "reviewed",
+  "sourceSha256": "81dec6702f0bc07d8174c06fe49493c7fb26738e759b5e3d6268cc212ecfcdaf",
+  "editorialSha256": "03a8d7d79547340b2b8c8d8c238c4b32355a00d329f57e823374c06d422baccc",
+  "review": {
+    "reviewer": "Codex; source content independently reviewed by recomposed_review",
+    "date": "2026-10-19",
+    "claims": "The final 62-slide content was compared against every PDF text unit. Independent source review found and corrected clipping and methodological ambiguity. The reading projection preserves the same wording and relationships, including limitations.",
+    "images": "All eleven fictional AI-generated illustrations from the reviewed slides are preserved using the registered R2 URLs. These are classroom scenarios, not empirical evidence.",
+    "links": "Research links and versioned student package links retain their exact destinations; HTTP observations are recorded separately."
+  },
+  "units": [
+    {
+      "id": "unit-1",
+      "sourceSha256": "0c8dffc50bf51f4990531dfeed4ba34b8453c2cfe93b0a1b519990bcb1fb094e",
+      "legacyIds": [],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9642b7789908b646a1163dc13ad988f7f3b69c2169f4495df23c7ca6c3d13425"
+    },
+    {
+      "id": "unit-2",
+      "sourceSha256": "b80ed10877f201dc8dfdc72f5cd0b4f5dc5e9f4a287ad65c4b89dd9689f774a3",
+      "legacyIds": [
+        "r001"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "b707734a23025367bf48682f12992986f1c13427e05fea1ab1fbb8d2de0a35cf"
+    },
+    {
+      "id": "unit-3",
+      "sourceSha256": "d5fae8514afd2a10719f6614745ea65163db126db536357fbdc1abe0b3c06c6c",
+      "legacyIds": [
+        "r002"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "0cf52ff63c4ae4149f99aa359255a4275270c4839b8d3bf8623eb5655a4a069c"
+    },
+    {
+      "id": "unit-4",
+      "sourceSha256": "0fdbdf3c1256b70f81f8a249edc600eeb65254f1ba8cecaf5ff6410fd9e88960",
+      "legacyIds": [
+        "r003"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "0667be979818a89ac1a4af522b4643e7c44edd362d07d2b9e25ac5abae533909"
+    },
+    {
+      "id": "unit-5",
+      "sourceSha256": "3af018306b81021552e40ae00573267bd6cf6cf2fa2ff4653bab8fec0711ed01",
+      "legacyIds": [
+        "r004"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "e8d2653aaf44903c75204c17dc7dbf6a85d0ee13d856104e3ee7c4e9d54ac6da"
+    },
+    {
+      "id": "unit-6",
+      "sourceSha256": "1fd7f0d680bee5fcb22e7e143c0fa97a933072128f15af49ed421a7465273fbe",
+      "legacyIds": [
+        "r005"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "51a427476250f4a88ef64345ffec388f366ed855008d15d8da376aa1c046f713"
+    },
+    {
+      "id": "unit-7",
+      "sourceSha256": "90b052fe617b06bd16fd4d056b55a6dbdf20993d816f48b186f9a2ef4aa8b991",
+      "legacyIds": [
+        "r006"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "a1f7dc28f62d7779d6b01df22862d1575f2e8e6c2dc798811c1c9d7fcc79698a"
+    },
+    {
+      "id": "unit-8",
+      "sourceSha256": "5c71268707088d95f6aca631b9a09df5056707b4dba2a19f3ab2e979b696ec58",
+      "legacyIds": [
+        "r007"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "aa4c29eace448aaaa0504e145a84da4af2654003b25d483674b5f467cd5e1329"
+    },
+    {
+      "id": "unit-9",
+      "sourceSha256": "60e169bcc83f308d0eb37a4052920b8734deb0ae49f6ad063170cfa658722b70",
+      "legacyIds": [
+        "r008"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "fa06b5c54603790e5cc475cdbc13a9ea5de754238c3a8472b795ddef2efadc7e"
+    },
+    {
+      "id": "unit-10",
+      "sourceSha256": "a74a5eb6706990bcd8d5a188d8d688fb28399b83ce4a0ce8eb183577659c0f80",
+      "legacyIds": [
+        "r009"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "cda243a0c0d5b6aab53f4139cb7f16d1bfd33ac08250fa5c6ba76fa6e49e761e"
+    },
+    {
+      "id": "unit-11",
+      "sourceSha256": "87dafbac472889c0b4a95c3a0fc8695c212566360bb8b08ab0b6c4b5da980ee0",
+      "legacyIds": [
+        "r010"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "23a336450730e29bbf4a1f536a790934075f1cc3ca694da68c9a7df74270a86d"
+    },
+    {
+      "id": "unit-12",
+      "sourceSha256": "40059a916c20f0d00d5130c3ca1c597f238aee26465636e555efd6c94392d6c1",
+      "legacyIds": [
+        "r011"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "bcc40cd7fd8af3d57ee1cd1d8c6e25f226025b1a9183044027bef86f4ea1f8b6"
+    },
+    {
+      "id": "unit-13",
+      "sourceSha256": "dc4bb3bddd08ab92c1bcd80b7f78248dd333526277f8f59020d253c90420c6ba",
+      "legacyIds": [
+        "r012"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9f599111163902cea8b6964ab7acc56a25afb1ace0da290f3bcf5f6dd911a18b"
+    },
+    {
+      "id": "unit-14",
+      "sourceSha256": "5ba70087c2151484f14c6acfd53f67952df7cdefd60e5717f24a2078ab6cbccf",
+      "legacyIds": [
+        "r013"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "b654d8306542a7942b6bcb268d81c7cf6089eda013707aabdefbcce5c8383213"
+    },
+    {
+      "id": "unit-15",
+      "sourceSha256": "1452e7c18de9cd428e1998cd0a7b47a2bb1358a6f570cd8b34c402706df22384",
+      "legacyIds": [
+        "r014"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8953af3c842e310368cc1661788e420a3e915f451db8cdcb160549f97410e984"
+    },
+    {
+      "id": "unit-16",
+      "sourceSha256": "925660f71c2088778b9377d41eb31dcc29ad0f4deae177acdcfebd8ac3806608",
+      "legacyIds": [
+        "r015"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "1cab22c6d5dfe7776a417c320aabca81d13f0feefabd531d647a6101b91c704c"
+    },
+    {
+      "id": "unit-17",
+      "sourceSha256": "902e0aec0a572e23dd63040be2a8732ed237878f787620d7ac5d0121413d923d",
+      "legacyIds": [
+        "r016"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "980a53ddc81dfff6b803adba77e5f7009fbf858157ef38b04fe6b9e2d3607082"
+    },
+    {
+      "id": "unit-18",
+      "sourceSha256": "68db4f91db408659f4a571d5fa7e4d2cb448633bc1f97be115c3f4a12b25e19c",
+      "legacyIds": [
+        "r017"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "e75d4c7cfd440fe94cbfb50e839c3a2fe27e3fe6afb8051490c3e550e1b5068a"
+    },
+    {
+      "id": "unit-19",
+      "sourceSha256": "a468f04b587338bacb66860a22397e5199481a062387c1a8d5ad9f0a0878ec69",
+      "legacyIds": [
+        "r018"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "0a31271e2567707b3221dfd942ee512ec7a0cb67ad9b3ffe16f0d3121439ccc9"
+    },
+    {
+      "id": "unit-20",
+      "sourceSha256": "81376ae12c2f1f565c3141261ee50dc40466267b0695a347d013e52d5d88d70f",
+      "legacyIds": [
+        "r019"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "1891502b04a41a96941e2a4f81b09c61f72ea81d168673b6847d2144931826c7"
+    },
+    {
+      "id": "unit-21",
+      "sourceSha256": "2abc3dd196a7377cfb7a0a4addaf4ff464d799e0f9bc30301eef31892b819e92",
+      "legacyIds": [
+        "r020"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "91c69fbc1dc6a17cb8f4a2fb1a84c2fb5eed1180b83c2aa3f779d088d2d324de"
+    },
+    {
+      "id": "unit-22",
+      "sourceSha256": "67dca0e1241eec5ed1ae22f360909dc934aa25355c27f8d6ea5c4af0f63822f5",
+      "legacyIds": [
+        "r021"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9dc1f0477b321e8c19a8d75aaf0f362df99bad638c4397615e6512364098c280"
+    },
+    {
+      "id": "unit-23",
+      "sourceSha256": "be61a11d56dfafb24b6d5ee0485c09fcaa93f5113cd72ffe53adef897749fa2b",
+      "legacyIds": [
+        "r022"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "6dfd5b3aed81845849b23f876c3bbbab4225f54aa12e5b9ef782d4a00c2619eb"
+    },
+    {
+      "id": "unit-24",
+      "sourceSha256": "ceb4e2e2d048b80336a4da43cf3889acf8112434ce3f4ba33e1fb48e9bb718cc",
+      "legacyIds": [
+        "r023"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8e70bc6b59d0ba0174dc5a2952d9e136e2d2971cf165d73de76913dc3e3a9ddc"
+    },
+    {
+      "id": "unit-25",
+      "sourceSha256": "dac0b49e0ec376686ef66b91de6aa507f19dce09fa2dc44fec6da60fec930e2f",
+      "legacyIds": [
+        "r024"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9d004611caddce7c97591be5d987bdd31dadc61fe35d1272b542d622f5f5dd72"
+    },
+    {
+      "id": "unit-26",
+      "sourceSha256": "307a33694f8af8996fefb4ead36dddf469a34a7815e4ccd286a30b66dcb995a0",
+      "legacyIds": [
+        "r025"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "b693e07b795af7c44763885f98c620be5500006a585c8bf3f749da7e6d40fe4c"
+    },
+    {
+      "id": "unit-27",
+      "sourceSha256": "576cd54086839711f4b995cce20c8495a2343e82fa008d39b6e3fe342fbf5bde",
+      "legacyIds": [
+        "r026"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "7716f966076077917ddb80b3dd07deeda0627404559f112bdcf98ff0d17c1904"
+    },
+    {
+      "id": "unit-28",
+      "sourceSha256": "a65bd9c23c2b5b324d9ab184f7ce43cda811e3ce95b60c7c16f5359ab2faaa7a",
+      "legacyIds": [
+        "r027"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "6c1e3cbca4a2d2e3b08eb4d0004d42af47ec4c322d5086bdbaa35d212efce56d"
+    },
+    {
+      "id": "unit-29",
+      "sourceSha256": "bdf8b7941eaf7f37231a08644a43f989084ae616e290361b347d8fe05ee613aa",
+      "legacyIds": [
+        "r028"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "df6383d8211778e5fc97a828e2ea9e95fced1e302c7d03046e95f462067b85f5"
+    },
+    {
+      "id": "unit-30",
+      "sourceSha256": "b26d9c554f65376432f52972578352acf982e4840c2e1aa57ac0a37fba9c4755",
+      "legacyIds": [
+        "r029"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "4b24f7f87642430cbc669f8b3292b7f6cc0f70a21e3ed32bc9ea4c1bb79de600"
+    },
+    {
+      "id": "unit-31",
+      "sourceSha256": "13a055c9d708c3624b491ada99385b3e32a9c57f4a65aae52139e7d52162f4f5",
+      "legacyIds": [
+        "r030"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "daf17785339df3d0f887f55272a45940e78588321e668cba23cafe7f07e859cb"
+    },
+    {
+      "id": "unit-32",
+      "sourceSha256": "3a670271802550b9aa3cd4317107bb786c5a70071129b71872974d2fe911b8bb",
+      "legacyIds": [
+        "r031"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9cde637e0b23b5f7351e5305d65f79d449dfcd6a1f8375d97e7a8ac630b26b1a"
+    },
+    {
+      "id": "unit-33",
+      "sourceSha256": "2e76819fc295189654cdceedababa0292b0cce77ca45a6e6de7dcbb6c1a17283",
+      "legacyIds": [
+        "r032"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "0a9307b53a8fe01c8908d754dbbfdc4d78d30279f7f3a0dc9237b8037bc5fae0"
+    },
+    {
+      "id": "unit-34",
+      "sourceSha256": "785f6027dcd4f808b7e7cc013e3db12162724103e3f6138f12b4fc8ba0b49880",
+      "legacyIds": [
+        "r033"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "e1e3273e5d0a21d23d48fdb1cf36147d047dfc387f135f5961a89365eefc1ccb"
+    },
+    {
+      "id": "unit-35",
+      "sourceSha256": "1d05101e38e4f5405fae165fc0e774fe8029986fbb9653e1d45a5fbf71e52398",
+      "legacyIds": [
+        "r034"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "e4cb05a9f41bd995ca376eb731ec65dd2e8d47b5173f5ac2a0012c9e03dc285b"
+    },
+    {
+      "id": "unit-36",
+      "sourceSha256": "024fea44b5b2760f490aa488c01c0e224ea3eea7376906848d7e7a302726c131",
+      "legacyIds": [
+        "r035"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "6627d3b3d7a1f93cdecf7a0f17c2cc924e8726f2381c9e9fdda09a5518702d7c"
+    },
+    {
+      "id": "unit-37",
+      "sourceSha256": "456dbbf4f134510382a6ca2181079d5363e49e615701eb499528c213140e3f3d",
+      "legacyIds": [
+        "r036"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "20f0fdeab1d923f74d931f9f6fb740616835e5e103240f6aa684f98a8ac1b859"
+    },
+    {
+      "id": "unit-38",
+      "sourceSha256": "5ae6bf787116caee41671139da97948c3adcc7b3c775b7ffbb66c700aee5d758",
+      "legacyIds": [
+        "r037"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "4e59ce468584342e3516bac1b6c56c85dee84a070d871cedd868bbb660b5f795"
+    },
+    {
+      "id": "unit-39",
+      "sourceSha256": "85cbf003a5290fdacde3f5cb97e7bd1c303a2a33b9384d229d1ced2e57bacd9f",
+      "legacyIds": [
+        "r038"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "4aa47ef6a3696b2732a3f0e1c715b00bf42f0e724e00f3320f8e70ddb39eff55"
+    },
+    {
+      "id": "unit-40",
+      "sourceSha256": "0fa9005743eda3e804d0ada7f932b1aea71f4c4d9479aed6b108d6094856b42b",
+      "legacyIds": [
+        "r039"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "bf195c4bd2f393aaa8da01dcc4e61c32387543cfb3abeabb15476022189a9c76"
+    },
+    {
+      "id": "unit-41",
+      "sourceSha256": "9fa719e0d4e9c93030aef0d89de228e8f91f6f95e900f763be7d8506375a9498",
+      "legacyIds": [
+        "r040"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8d96ea171f57d62327bf5bb58397c8daed0ee4be7e3c661302f2e3ac50cc0e75"
+    },
+    {
+      "id": "unit-42",
+      "sourceSha256": "cbeaabace45fd480dd1e303599276ca2a944e8fa70852b9977e852ac9f8abfde",
+      "legacyIds": [
+        "r041"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "163462cca6de0e4c07cd5e67c8b4d67fd17ecd1ee56717bbc89d6b5147deaf97"
+    },
+    {
+      "id": "unit-43",
+      "sourceSha256": "483f076c98afee98a7944661bfabf178ffb8091f8daca2dfdfd0c2b67e982146",
+      "legacyIds": [
+        "r042"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "86ac0338fa0b314e28b66f333fba9fbda8adf94dcc091159f4a223170fe973bb"
+    },
+    {
+      "id": "unit-44",
+      "sourceSha256": "4e7901baaf36575b020904e02d7d9d88daa8986808311aaa10cea3bab913dc5a",
+      "legacyIds": [
+        "r043"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "5ccae5d06a0b00b883c9d1f4f50dae398e4cbbea45e673b9ae890305af8899c2"
+    },
+    {
+      "id": "unit-45",
+      "sourceSha256": "9a1cbf3acaa9ee29baec8926d4f0e9994ace4ffd9743b14adc30ad3d550465a8",
+      "legacyIds": [
+        "r044"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "472395a632373e8778ef28d77c0849fc3d5aa920e6c3e1d278001db5513c2123"
+    },
+    {
+      "id": "unit-46",
+      "sourceSha256": "b9aa9af150fa05e8848023933cee5a891b7876752281e44fed0a456ef6254806",
+      "legacyIds": [
+        "r045"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "4375c7293e1cde4529f6fc3480c40604bc00e2603015b393ed6085fd5be214d7"
+    },
+    {
+      "id": "unit-47",
+      "sourceSha256": "c6e99534b1147202b4ab84ab5855aa42720291b9bdcbf9b6637129abb0dddcd0",
+      "legacyIds": [
+        "r046"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "9fc45ec6835bb97b2ae04feb3b83ca6fab165cc76fe58ed1655ed1a624f6ca15"
+    },
+    {
+      "id": "unit-48",
+      "sourceSha256": "e5b666dffe54c122ac4de1db72eafc21a777b4dcdafc683b47b8a15a1fb569cc",
+      "legacyIds": [
+        "r047"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "a739288c496b37f06056d229a9f4593cc5510aad1375a3079167a308d14c64f9"
+    },
+    {
+      "id": "unit-49",
+      "sourceSha256": "f04a047eb09a112f8a7cd6d87d419d9452176eddd77cd0f4368be264493920ea",
+      "legacyIds": [
+        "r048"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "c29b5c7f1e81e12b84a511bae0fbf334fcc4e64a2c6f72920bb46f20c3d8bf07"
+    },
+    {
+      "id": "unit-50",
+      "sourceSha256": "41370b4003b6cc30b5afe5aa549f5e9e5cf632799b2b9f45006f7d993d8643ae",
+      "legacyIds": [
+        "r049"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "364733eb94aa7d838cc5791731ed65901c52662153df1989d516470340c923eb"
+    },
+    {
+      "id": "unit-51",
+      "sourceSha256": "b845cf1ace38b9612c110633be3920a39a3ebfb2b1b49fc4e5ffdc4e3ff070ac",
+      "legacyIds": [
+        "r050"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "4fb1039fe10bd581aef2cebc6a0008c021b9fcb76644fe8373f17ee5411a5193"
+    },
+    {
+      "id": "unit-52",
+      "sourceSha256": "5f5fd97aaafc491d0ba3a446935a55fef3278b05563cf5fdd31ab626cd9e5864",
+      "legacyIds": [
+        "r051"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "00c44fd0c4e9ed47941d2b5593d21b2b8d1c5679aa7be1a539dab61a6d6da84f"
+    },
+    {
+      "id": "unit-53",
+      "sourceSha256": "6cdb5ff5b76bc8fbd29b4f86184f0ee156207265faf1ccba349fed6a20fc8303",
+      "legacyIds": [
+        "r052"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "59578b267b68b6942040f2228bc87ecc63c595d5736ec29dbe0224d6cb9d1a30"
+    },
+    {
+      "id": "unit-54",
+      "sourceSha256": "34db86275d972d41f8e3fb546f254121ce94ba05ae63a6b5e48504b408721769",
+      "legacyIds": [
+        "r053"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "284e32ae887c40de77678731feb1ccda296b460fe8520f4272cbbeeb65704593"
+    },
+    {
+      "id": "unit-55",
+      "sourceSha256": "9b577a7374c0d0f08e1db8417c6bb5b28c488cea1e79516dbab87bfb03555bee",
+      "legacyIds": [
+        "r054"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "01f113fef622e5103d51f06d4617b43a02180b7e2073add400d2c9282d77e036"
+    },
+    {
+      "id": "unit-56",
+      "sourceSha256": "c247ad1c2a9e539fe6ccc35a5ea5dcff0dd5d0262f7e9a4d16af96ebf018798a",
+      "legacyIds": [
+        "r055"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "64d697cda770002fb1501e34456dccc42a04da502988241713e2bf3392c4799c"
+    },
+    {
+      "id": "unit-57",
+      "sourceSha256": "c18032a47723123441a931dae7241da69505bd73547047c9cf7c5473622d9626",
+      "legacyIds": [
+        "r056"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "fd19e7b5d53d405f705aa24fecb691e55bdfabaa4cdfd9ba0defe71671ee28e8"
+    },
+    {
+      "id": "unit-58",
+      "sourceSha256": "b3f0c706e227102b42c202cb77dd4f0c2c163c10e11bb31e6b8494608843e53b",
+      "legacyIds": [
+        "r057"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "b4bf1fdc56d590819d5e81a823c7e309b1e1538d7ef309f6f6878622dda747ed"
+    },
+    {
+      "id": "unit-59",
+      "sourceSha256": "6c0d2f01ace6ca00a6a05004504444e6c30fb26e6032e90e0d5aae1737b86877",
+      "legacyIds": [
+        "r058"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "c0691cddaa86c8f6ded2a8a9c7475666159b3020284872fdbd67de7dd3109ed3"
+    },
+    {
+      "id": "unit-60",
+      "sourceSha256": "44ee935abd3acb145492a13462cad3e603e442a391b86e3858e4f117450efa93",
+      "legacyIds": [
+        "r059"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8e977b7e3a494f544ab09003e82c23a1c6a40fc72f3cca267a381c6dda1287ed"
+    },
+    {
+      "id": "unit-61",
+      "sourceSha256": "230539a825b987a17b0acd4c846d3ac4b5d59d0be78764ce7092819ae7ae3dcd",
+      "legacyIds": [
+        "r060"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8b920a5bea5299b5cf723e74b4875c5e039501ec50059687e2cdb3394af12ed8"
+    },
+    {
+      "id": "unit-62",
+      "sourceSha256": "3a068ecbe142c24d05cb1558c551882d533c8177f4bb97e18250f3ce7d2e6275",
+      "legacyIds": [
+        "r061"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "8cddc23f4c72489dbc0f42fd5d3d2d8bc56132e64e95f0eebb5a33a293f3727e"
+    },
+    {
+      "id": "unit-63",
+      "sourceSha256": "e5ab4e3a6a781eb008c65a4609fdc40750900a4c8f1bab1a49d6da378e6ab84c",
+      "legacyIds": [
+        "r062"
+      ],
+      "disposition": "edit",
+      "reason": "Preserve the reviewed slide text, tables and images; remove repeated presentation furniture from continuous reading.",
+      "editedSha256": "fa5d09b42e40c2532d4c2ef30c261a1724bded5bcb55bdc5de8e7afdfe9800d4"
+    }
+  ]
+}

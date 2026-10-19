@@ -18,7 +18,14 @@ export async function printInputDigest(work: Work, root=process.cwd()) {
   }
   const manifest=JSON.parse(await fs.readFile(path.join(root,work.reader!.manifest),'utf8')).works[work.id];
   for(const f of ['scripts/editorial.ts',work.reader!.editorialSource,work.reader!.editorialManifest])await add(f);
-  for(const img of manifest.images)await add('public'+img.url);
+  for(const img of manifest.images){
+    if(/^https:\/\//.test(img.url)){
+      const assets=JSON.parse(await fs.readFile(path.join(root,'content/web-assets.json'),'utf8')).assets;
+      const asset=Object.values<any>(assets).find(a=>a.url===img.url&&a.kind==='image'&&a.sha256===img.sha256&&a.verifiedAt);
+      if(!asset)throw Error('Unregistered print image: '+img.url);
+      files['remote-image:'+img.url]=asset.sha256;
+    }else await add('public'+img.url);
+  }
   const pkg=JSON.parse(await fs.readFile(path.join(root,'package-lock.json'),'utf8'));
   const engines={playwright:pkg.packages['node_modules/playwright'].version,esbuild:pkg.packages['node_modules/esbuild'].version};
   const metadata={id:work.id,title:work.title,date:work.date,event:work.event,visibility:work.visibility,seo:work.seo};
