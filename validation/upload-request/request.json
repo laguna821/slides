@@ -2,10 +2,11 @@
   "version": 1,
   "status": "awaiting-user-confirmation",
   "policyVersion": "6.2.0",
-  "digest": "ab78828a6cdd6e3e6bcc0109551df769559e1c4322d601690e08851c14882d5e",
-  "reviewHash": "86740adac9a685ec62ec9429f8de464ba96af5768648113a3d4dfbb23d6fc178",
+  "digest": "86d79cd8461333bc7a55a3337d8a3c74e945e9f3c91749bbc8ca43ee638d2e65",
+  "reviewHash": "375a88289b3fbe9c89824d4adad7e55ccecb7b710421f1f506e0299c76edadd0",
   "baselineCommit": "9549c0e0d57fc33d95fb46c16db84c0dda487df8",
   "changedFiles": [
+    ".gitattributes",
     ".github/workflows/pele-source-preview.yml",
     "content/i18n/en.json",
     "content/pele-examples.json",
@@ -138,6 +139,7 @@
     "public/pele-examples/welch/welch.svg",
     "scripts/build-web.ts",
     "scripts/notes-contract.ts",
+    "scripts/release-gate.ts",
     "scripts/share-code-tokens.ts",
     "scripts/verify-build.ts",
     "src/components/PeleOverview.astro",
@@ -155,6 +157,7 @@
     "tests/code-token-sharing.test.ts",
     "tests/inspection.test.ts",
     "tests/pele-demo.test.ts",
+    "tests/pele-fingerprint.test.ts",
     "vercel.json"
   ],
   "requiredFont": {

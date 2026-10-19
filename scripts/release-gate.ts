@@ -113,7 +113,7 @@ export async function releaseManifest(root = process.cwd()) {
       file === 'vercel.json'
         ? canonicalJson(JSON.parse(bytes.toString('utf8')))
         : file === '.gitattributes' ||
-            /\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|yaml|yml)$/.test(
+            /\.(?:ts|js|mjs|astro|css|json|md|html|svg|vtt|txt|pele|yaml|yml)$/.test(
               file,
             )
           ? bytes.toString('utf8').replaceAll('\r\n', '\n')

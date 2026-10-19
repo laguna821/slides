@@ -5,13 +5,14 @@
 - 정책: 6.2.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 150개
-- 배포 입력 해시: `ab78828a6cdd6e3e6bcc0109551df769559e1c4322d601690e08851c14882d5e`
+- 변경 파일: 153개
+- 배포 입력 해시: `86d79cd8461333bc7a55a3337d8a3c74e945e9f3c91749bbc8ca43ee638d2e65`
 - 검토: 통과
 - 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
+- `.gitattributes`
 - `.github/workflows/pele-source-preview.yml`
 - `content/i18n/en.json`
 - `content/pele-examples.json`
@@ -144,6 +145,7 @@
 - `public/pele-examples/welch/welch.svg`
 - `scripts/build-web.ts`
 - `scripts/notes-contract.ts`
+- `scripts/release-gate.ts`
 - `scripts/share-code-tokens.ts`
 - `scripts/verify-build.ts`
 - `src/components/PeleOverview.astro`
@@ -161,6 +163,7 @@
 - `tests/code-token-sharing.test.ts`
 - `tests/inspection.test.ts`
 - `tests/pele-demo.test.ts`
+- `tests/pele-fingerprint.test.ts`
 - `vercel.json`
 
 ## 확인할 결과
