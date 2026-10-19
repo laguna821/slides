@@ -1,0 +1,5 @@
+flowchart LR
+ P["Party group"] --> Y["TV news"]
+ A["Age band"] --> Y
+ I["Party × age"] --> Y
+ Y --> C["Cell means + joint tests"]

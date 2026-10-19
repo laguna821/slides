@@ -10,6 +10,7 @@ export const featured = listed
   .sort((a, b) => a.featuredOrder! - b.featuredOrder!);
 export const kindLabel: Record<string, string> = {
   typeface: '서체',
+  demo: '데모',
   talk: '발표',
   lecture: '강의',
   motion: '모션',

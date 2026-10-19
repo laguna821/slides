@@ -140,5 +140,19 @@
       "popupBlockedAutomatic": "not-tested",
       "webProjectionSha256": "2df0bee3b5d6b3db346454ae7f38d0443f0a3db87ed3e1997b97e040a0fb2e7f"
     }
-  }
+  },
+  "preservedDemos": [
+    {
+      "workId": "pele-social-science",
+      "url": "/decks/pele-social-science/v1.0.0/index.html",
+      "sha256": "d007d0e623fb9d4df8b5e3b2d05cace74bf40c09040f7db183f0e7b380dd2e3d",
+      "notesState": "absent"
+    },
+    {
+      "workId": "pele-social-science",
+      "url": "/decks/pele-social-science/v1.0.0/dark.html",
+      "sha256": "ae7c1b4b929545ffb16c1801213461c0632e7b52a713d4c77aeb4367244f48e2",
+      "notesState": "absent"
+    }
+  ]
 }

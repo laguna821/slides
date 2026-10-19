@@ -1,0 +1,111 @@
+{
+  "id": "two-classic",
+  "label": "Type III F",
+  "kind": "two-way",
+  "n": 944,
+  "terms": [
+    {
+      "term": "C(party3, Sum)",
+      "F": 1.3286336338326477,
+      "p": 0.26533841847715695,
+      "df": 2
+    },
+    {
+      "term": "C(age_band, Sum)",
+      "F": 17.673292761507316,
+      "p": 2.9248981700661028e-08,
+      "df": 2
+    },
+    {
+      "term": "C(party3, Sum):C(age_band, Sum)",
+      "F": 1.0754357858859294,
+      "p": 0.36736812252728307,
+      "df": 4
+    }
+  ],
+  "dfResidual": 935,
+  "cells": [
+    {
+      "party": "Democrat",
+      "band": "18–34",
+      "mean": 2.5877862595419847,
+      "lo": 2.1612007849519124,
+      "hi": 3.014371734132057,
+      "n": 131,
+      "key": "two-classic-Democrat-18–34"
+    },
+    {
+      "party": "Democrat",
+      "band": "35–54",
+      "mean": 3.6000000000000054,
+      "lo": 3.263075910102452,
+      "hi": 3.936924089897559,
+      "n": 210,
+      "key": "two-classic-Democrat-35–54"
+    },
+    {
+      "party": "Democrat",
+      "band": "55+",
+      "mean": 5.224489795918372,
+      "lo": 4.821788484498862,
+      "hi": 5.627191107337882,
+      "n": 147,
+      "key": "two-classic-Democrat-55+"
+    },
+    {
+      "party": "Independent",
+      "band": "18–34",
+      "mean": 3.999999999999985,
+      "lo": 2.0067302033178303,
+      "hi": 5.9932697966821395,
+      "n": 6,
+      "key": "two-classic-Independent-18–34"
+    },
+    {
+      "party": "Independent",
+      "band": "35–54",
+      "mean": 2.681818181818187,
+      "lo": 1.640866980137024,
+      "hi": 3.72276938349935,
+      "n": 22,
+      "key": "two-classic-Independent-35–54"
+    },
+    {
+      "party": "Independent",
+      "band": "55+",
+      "mean": 5.333333333333338,
+      "lo": 3.7058353594758517,
+      "hi": 6.9608313071908245,
+      "n": 9,
+      "key": "two-classic-Independent-55+"
+    },
+    {
+      "party": "Republican",
+      "band": "18–34",
+      "mean": 2.3499999999999996,
+      "lo": 1.8617506078427584,
+      "hi": 2.838249392157241,
+      "n": 100,
+      "key": "two-classic-Republican-18–34"
+    },
+    {
+      "party": "Republican",
+      "band": "35–54",
+      "mean": 3.353591160220997,
+      "lo": 2.9906782451217726,
+      "hi": 3.7165040753202216,
+      "n": 181,
+      "key": "two-classic-Republican-35–54"
+    },
+    {
+      "party": "Republican",
+      "band": "55+",
+      "mean": 4.949275362318842,
+      "lo": 4.533649878605994,
+      "hi": 5.36490084603169,
+      "n": 138,
+      "key": "two-classic-Republican-55+"
+    }
+  ],
+  "key": "two-classic-Democrat-18–34"
+}

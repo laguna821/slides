@@ -1,0 +1,70 @@
+if (v.kind === "t") {
+  const rows = v.groups.map((g) => ({
+    label: g.label,
+    b: g.mean,
+    lo: g.ci[0],
+    hi: g.ci[1],
+    key: g.key,
+  }));
+  a.push(
+    ...forest(rows, {
+      x: 0,
+      y: 8,
+      w: 1000,
+      title: "A  Group means · pointwise 95% CI",
+      unit: v.unit,
+      rowH: 155,
+      labelW: 260,
+      sign: false,
+      range:
+        v.id === "paired"
+          ? [1, 7]
+          : [
+              Math.min(...rows.map((r) => r.lo)) - 1,
+              Math.max(...rows.map((r) => r.hi)) + 1,
+            ],
+    }),
+    T(1100, 47, "B  Difference", 32, C.ink, 700),
+    G(
+      [
+        T(1100, 145, signed(v.difference), 66, C.blue, 750),
+        T(1100, 190, v.unit, 28, C.muted),
+        T(1100, 258, "95% CI", 26, C.muted),
+        T(1100, 305, "[" + v.ci.map((x) => fmt(x, 3)).join(", ") + "]", 36, C.ink, 650),
+        T(1100, 377, "t(" + fmt(v.df, 1) + ") = " + fmt(v.stat, 2), 27),
+        T(1100, 423, pv(v.p), 27),
+        T(1100, 491, v.effectName + " = " + fmt(v.effect, 3), 30, C.teal, 700),
+        T(
+          1100,
+          533,
+          "effect CI [" + v.effectCI.map((x) => fmt(x, 3)).join(", ") + "]",
+          24,
+          C.muted,
+        ),
+      ],
+      v.key,
+    ),
+    T(
+      15,
+      580,
+      "Group n: " +
+        v.groups.map((g) => g.n).join(" / ") +
+        " · " +
+        (v.id === "paired" ? "same 944 respondents" : "independent groups"),
+      27,
+      C.muted,
+    ),
+    ...(v.id === "paired"
+      ? [T(15, 625, "Scale: 1 very liberal → 7 very conservative", 26, C.muted)]
+      : []),
+  );
+  note =
+    v.id === "paired"
+      ? "DoleLR−ClinLR on the same 1–7 numeric-coded scale. Not a causal candidate effect."
+      : "Mean age differs by expected vote; Welch df reflects unequal variances. Nonrandom groups.";
+  source =
+    v.id === "paired"
+      ? 'flowchart LR\n R["Same respondent"] --> A["Clinton impression"]\n R --> B["Dole impression"]\n A --> D["Within-person difference"]\n B --> D'
+      : 'flowchart LR\n A["Clinton expected"] --> D["Mean-age difference"]\n B["Dole expected"] --> D\n D --> W["Welch CI"]';
+  map = { R: v.key, A: v.groups[0].key, B: v.groups[1].key, D: v.key, W: v.key };
+}

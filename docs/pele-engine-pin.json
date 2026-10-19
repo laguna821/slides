@@ -1,0 +1,12 @@
+{
+  "activeGeneration": 5,
+  "authority": "delegated-scope-system-validated-host-attested-review",
+  "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+  "pinForRunningWork": true,
+  "releaseId": "engine-234d5032fb53adb9268cbfee-2f6653dd",
+  "rendererSha256": "d537e96a8b597c4b7552b7a66bea883b9ae2c2782da111a920e5eabaefa78066",
+  "reviewPolicySha256": "16e6cfa592fffb425bb30d81cf653732d34c8eda4759a46836fea24781fa4199",
+  "workflowId": "presentation-defaults-v3",
+  "deckId": "pele-social-science-suite-20261019",
+  "pinnedAt": "2026-10-19T11:50:40+00:00"
+}

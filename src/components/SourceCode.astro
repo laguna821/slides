@@ -1,0 +1,128 @@
+---
+import { Code } from 'astro:components';
+interface Props {
+  source: string;
+  title: string;
+  lang?: string;
+  compact?: boolean;
+}
+const { source, title, lang = 'javascript', compact = false } = Astro.props;
+---
+
+<section class:list={['source-code', { compact }]} data-source-code>
+  <div class="code-heading">
+    <span>{title}</span>
+    <button type="button" data-copy-code>
+      복사
+    </button>
+  </div>
+  <div class="code-scroll" tabindex="0" aria-label={title}>
+    <Code
+      code={source}
+      lang={lang === 'pele' ? 'mermaid' : lang}
+      themes={{ light: 'github-light', dark: 'github-dark' }}
+    />
+  </div>
+  <span
+    class="sr-only"
+    role="status"
+    aria-label="코드 복사 상태"
+    data-copy-status
+  ></span>
+</section>
+<script>
+  for (const block of document.querySelectorAll<HTMLElement>(
+    '[data-source-code]',
+  )) {
+    const button = block.querySelector<HTMLButtonElement>('[data-copy-code]')!;
+    button.addEventListener('click', async () => {
+      const code = block.querySelector('pre code')!;
+      const en = document.documentElement.lang === 'en';
+      const status = block.querySelector<HTMLElement>('[data-copy-status]')!;
+      try {
+        await navigator.clipboard.writeText(code.textContent || '');
+        button.textContent = en ? 'Copied' : '복사됨';
+        status.textContent = en ? 'Copied' : '복사됨';
+      } catch {
+        const selection = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(code);
+        selection?.removeAllRanges();
+        selection?.addRange(range);
+        status.textContent = en
+          ? 'Code selected for manual copying.'
+          : '복사할 코드를 선택했습니다.';
+      }
+    });
+  }
+</script>
+<style>
+  .source-code {
+    min-width: 0;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .code-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 12px 10px 20px;
+    background: var(--soft);
+    font-size: 14px;
+    font-weight: 650;
+    border-bottom: 1px solid var(--line);
+  }
+  button {
+    min-width: 64px;
+    min-height: 44px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: var(--accent-text);
+    color: var(--accent-text);
+  }
+  button:focus-visible,
+  .code-scroll:focus-visible {
+    outline: 3px solid var(--blue);
+    outline-offset: -3px;
+  }
+  .code-scroll {
+    overflow: auto;
+    max-height: 600px;
+    min-width: 0;
+  }
+  .compact .code-scroll {
+    max-height: 420px;
+  }
+  .code-scroll :global(pre) {
+    margin: 0;
+    padding: 24px;
+    font-size: 13px;
+    line-height: 1.75;
+    tab-size: 2;
+    background: var(--surface) !important;
+    min-width: 100%;
+    width: max-content;
+  }
+  :global(:root[data-theme='dark']) .code-scroll :global(pre),
+  :global(:root[data-theme='dark']) .code-scroll :global(pre span) {
+    color: var(--shiki-dark) !important;
+    background-color: var(--surface) !important;
+  }
+  @media (max-width: 600px) {
+    .code-heading {
+      padding-left: 14px;
+    }
+    .code-scroll :global(pre) {
+      padding: 16px;
+      font-size: 12px;
+    }
+  }
+</style>

@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import peleCases from '../../content/pele-examples.json';
 import { works } from '../lib/content';
 export const GET: APIRoute = () => {
   const paths = [
@@ -8,6 +9,8 @@ export const GET: APIRoute = () => {
     '/videos/',
     '/posters/',
     '/about/',
+    '/talks/pele-social-science/code/',
+    ...peleCases.map(c=>'/talks/pele-social-science/code/'+c.id+'/'),
     ...works
       .filter((w) => w.visibility === 'listed' && w.seo === 'index')
       .flatMap((w) => [

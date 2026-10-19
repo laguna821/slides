@@ -1,0 +1,5 @@
+flowchart LR
+ E["Education3groups"] --> Y["TV-news distribution"]
+ Y --> F["Overall F"]
+ Y --> P["Corrected pair contrasts"]
+ P --> C["Uncertainty retained"]

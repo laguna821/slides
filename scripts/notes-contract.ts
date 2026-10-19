@@ -35,6 +35,13 @@ export async function verifyNotes(works:any[],root=process.cwd()) {
   };
   for(const w of works.filter(w=>w.visibility!=='draft'))for(const a of w.artifacts.filter((a:any)=>a.type==='html'&&a.role==='slides')){
     const b=await read(a.url);
+    const demo=manifest.preservedDemos?.find((e:any)=>e.url===a.url&&e.workId===w.id);
+    if(demo){
+      const approved=JSON.parse(await fs.readFile(path.join(root,'docs/pele-social-science-provenance.json'),'utf8'));
+      const notes=b.toString('utf8').match(/<script[^>]*id="speaker-notes-enc"[^>]*>([\s\S]*?)<\/script>/);
+      if(w.kind!=='demo'||w.id!=='pele-social-science'||sha(b)!==demo.sha256||approved.originals[a.url]!==demo.sha256||!notes||JSON.parse(notes[1])!==null)throw Error('Preserved Pele demo changed or contains authored notes');
+      continue;
+    }
     const legacy=manifest.legacy.find((e:any)=>e.url===a.url&&e.workId===w.id);
     if(legacy){if(sha(b)!==legacy.sha256)throw Error('Legacy notes exception changed');continue;}
     if(!manifest.decks.some((e:any)=>e.url===a.url&&e.workId===w.id))throw Error('Missing presenter notes contract: '+w.id);

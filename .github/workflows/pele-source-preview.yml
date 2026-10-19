@@ -1,0 +1,38 @@
+name: Prepare Pele source preview
+on:
+  push:
+    branches: [pele-statistics-source-guide]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build:source
+      - run: npm run check
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pele-source-preview
+          retention-days: 1
+          path: |
+            dist/
+            !dist/**/*.pdf
+            !dist/**/*.zip
+            !dist/**/*.png
+            !dist/**/*.webp
+            !dist/**/*.svg
+            !dist/**/*.woff2
+            !dist/**/*.jpg
+            !dist/**/*.jpeg
+            !dist/**/*.mp4
+            !dist/**/*.mov
+            src/generated/
+          include-hidden-files: false

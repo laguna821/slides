@@ -1,0 +1,6 @@
+flowchart LR
+ A["Age"] --> Y["TV news"]
+ E["Education code"] --> Y
+ U["Urban scale"] --> Y
+ P["Party group"] --> Y
+ Y --> R["Conditional association"]

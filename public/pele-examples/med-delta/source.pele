@@ -1,0 +1,4 @@
+flowchart LR
+ I["Industrialization1960"] -->|"a 1.483"| M["Democracy1960"]
+ M -->|"b 0.837"| Y["Democracy1965"]
+ I -->|"c direct 0.572"| Y

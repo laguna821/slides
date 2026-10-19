@@ -1,5 +1,72 @@
 [
   {
+    "id": "pele-social-science",
+    "slug": "pele-social-science",
+    "title": "Pele를 활용한 고밀도 사회과학 통계 시각화",
+    "summary": "9개 분석군·18장 발표 데모. Pele 관계도와 정밀 SVG 통계 그래프를 결합하고, 장표마다 실제 제작 코드를 나란히 공개합니다.",
+    "date": "2026-10-20",
+    "dateKind": "registered",
+    "registeredAt": "2026-10-20",
+    "kind": "demo",
+    "topics": [
+      "통계 시각화",
+      "사회과학",
+      "Pele",
+      "SVG"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "study",
+    "poster": "/images/pele-social-science.png",
+    "posterAlt": "구조·측정·잔차를 함께 보여주는 사회과학 통계 시각화 데모",
+    "audience": "연구 결과를 발표하고 시각화 코드를 재사용하려는 연구자·교육자·개발자",
+    "takeaways": [
+      "한 장에서 추정치·신뢰구간·모형 조건을 함께 읽습니다.",
+      "Pele 관계도와 별도 SVG 그래프의 제작 역할을 구분합니다.",
+      "18장 각각의 원문과 제작 코드를 참고하고 복사합니다."
+    ],
+    "body": "카이제곱·t 검정·상관·회귀·분산분석·이원분산분석·조절·매개·구조방정식의 결과를 18장에 담았습니다. 실제 공개 자료의 추정치와 불확실성을 보존한 제작 실험입니다.",
+    "artifacts": [
+      {
+        "id": "pele-conference",
+        "type": "html",
+        "role": "slides",
+        "url": "/decks/pele-social-science/v1.0.0/index.html",
+        "label": "슬라이드 보기 · 원본 18장",
+        "version": "1.0.0",
+        "modes": [
+          "present",
+          "read"
+        ]
+      },
+      {
+        "id": "pele-code-guide",
+        "type": "link",
+        "role": "reference",
+        "url": "/talks/pele-social-science/code/",
+        "label": "장표별 제작 코드",
+        "version": "1.0.0",
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "pele-dark",
+        "type": "html",
+        "role": "slides",
+        "url": "/decks/pele-social-science/v1.0.0/dark.html",
+        "label": "다크 슬라이드 보기",
+        "version": "1.0.0",
+        "modes": [
+          "present"
+        ]
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [],
+    "provenance": "docs/pele-social-science-provenance.json"
+  },
+  {
     "id": "still-working-on-my-topic-2026-10-20",
     "slug": "still-working-on-my-topic-2026-10-20",
     "title": "교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까?",

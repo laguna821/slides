@@ -1,0 +1,49 @@
+if (v.kind === "regression") {
+  let rows = v.coef
+    .filter((x) => x.term !== "Intercept")
+    .map((x) => ({ ...x, label: short[x.term] || x.term }));
+  a.push(
+    ...forest(rows, {
+      x: 0,
+      y: 0,
+      w: 980,
+      labelW: 300,
+      rowH: 86,
+      title: "A  Unstandardized B ·95% CI",
+      unit: "Times/week per term unit",
+    }),
+  );
+  a.push(T(1080, 33, "B  Adjusted mean response", 30, C.ink, 700));
+  let pp = plotFrame({
+    x: 1120,
+    y: 100,
+    w: 440,
+    h: 340,
+    xRange: [15, 95],
+    yRange: [
+      Math.min(2, ...v.predictions.map((p) => p.lo)),
+      Math.max(7, ...v.predictions.map((p) => p.hi)),
+    ],
+    xTicks: [20, 40, 60, 80],
+    yTicks: [2, 3, 4, 5, 6, 7],
+    xLabel: "Age (years)",
+    yLabel: "TV news (times/week)",
+  });
+  a.push(
+    ...pp.a,
+    G(curve(v.predictions, pp.X, pp.Y), v.key),
+    T(1095, 575, "R² = " + fmt(v.r2, 3) + " · N =944", 28, C.teal, 700),
+  );
+  note =
+    "Age: 10 years; education: 1–7 code. Urban:log(population in1000s+.1). Other covariates averaged over this sample; band is a mean CI.";
+  source =
+    'flowchart LR\n A["Age"] --> Y["TV news"]\n E["Education code"] --> Y\n U["Urban scale"] --> Y\n P["Party group"] --> Y\n Y --> R["Conditional association"]';
+  map = {
+    A: v.key,
+    E: rows.find((x) => x.term === "educ")?.key,
+    U: rows.find((x) => x.term === "logpopul")?.key,
+    P: rows.find((x) => x.term.includes("Independent"))?.key,
+    Y: v.key,
+    R: v.key,
+  };
+}
