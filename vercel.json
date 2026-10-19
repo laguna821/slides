@@ -1247,6 +1247,7 @@
     "deploymentEnabled": {
       "**": false,
       "main": true,
+      "pele-statistics-source-guide": true,
       "codex/topic-lecture-62-web": true
     }
   }

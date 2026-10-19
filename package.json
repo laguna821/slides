@@ -11,7 +11,7 @@
     "build": "npm run build:source && tsx scripts/build-web.ts",
     "preview": "tsx scripts/preview-web.ts",
     "check": "astro check && tsc --noEmit",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
     "content:check": "tsx scripts/prepare.ts --check",
     "content:import": "tsx scripts/import-html.ts",
     "brand:build": "tsx scripts/brand-assets.ts",

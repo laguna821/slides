@@ -1,62 +1,171 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **approved**
+상태: **awaiting-user-confirmation**
 
-- 정책: 6.1.0
+- 정책: 6.2.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 42개
-- 배포 입력 해시: `679c02e2b857636123286b2a04b5956f7159717d7014600fed741d0de4758b0d`
+- 변경 파일: 150개
+- 배포 입력 해시: `ab78828a6cdd6e3e6bcc0109551df769559e1c4322d601690e08851c14882d5e`
 - 검토: 통과
-- 사용자 확인: 현재 해시와 일치
+- 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
-- `content/editorial/still-working-on-my-topic-2026-10-20.json`
-- `content/editorial/still-working-on-my-topic-2026-10-20.md`
+- `.github/workflows/pele-source-preview.yml`
 - `content/i18n/en.json`
+- `content/pele-examples.json`
 - `content/presenter-notes.json`
-- `content/reading/manifest.json`
-- `content/reading/still-working-on-my-topic-2026-10-20.md`
 - `content/site-policy.json`
 - `content/web-assets.json`
-- `content/web-source-only.json`
 - `content/works.json`
+- `docs/PELE-DEMO-CONTRACT.md`
 - `docs/STORAGE-CONTRACT.md`
-- `docs/topic-lecture-provenance.json`
-- `public/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html`
-- `public/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source-web.html`
-- `public/decks/still-working-on-my-topic-2026-10-20/v1.0.0/source.html`
-- `public/images/still-working-on-my-topic-2026-10-20.png`
-- `scripts/audit-lecture-markup.ts`
-- `scripts/audit-runtime-sharing.ts`
+- `docs/pele-engine-pin.json`
+- `docs/pele-social-science-provenance.json`
+- `docs/pele-versions.json`
+- `package.json`
+- `public/decks/pele-social-science/v1.0.0/dark.html`
+- `public/decks/pele-social-science/v1.0.0/index.html`
+- `public/images/pele-social-science.png`
+- `public/pele-examples/LICENSE-pele.txt`
+- `public/pele-examples/REUSE.md`
+- `public/pele-examples/analyses.json`
+- `public/pele-examples/anova-classic/anova-classic-native.svg`
+- `public/pele-examples/anova-classic/anova-classic.svg`
+- `public/pele-examples/anova-classic/data.json`
+- `public/pele-examples/anova-classic/figure-branch.txt`
+- `public/pele-examples/anova-classic/slide.png`
+- `public/pele-examples/anova-classic/source.pele`
+- `public/pele-examples/anova-welch/anova-welch-native.svg`
+- `public/pele-examples/anova-welch/anova-welch.svg`
+- `public/pele-examples/anova-welch/data.json`
+- `public/pele-examples/anova-welch/figure-branch.txt`
+- `public/pele-examples/anova-welch/slide.png`
+- `public/pele-examples/anova-welch/source.pele`
+- `public/pele-examples/chi3/chi3-native.svg`
+- `public/pele-examples/chi3/chi3.svg`
+- `public/pele-examples/chi3/data.json`
+- `public/pele-examples/chi3/figure-branch.txt`
+- `public/pele-examples/chi3/slide.png`
+- `public/pele-examples/chi3/source.pele`
+- `public/pele-examples/chi7/chi7-native.svg`
+- `public/pele-examples/chi7/chi7.svg`
+- `public/pele-examples/chi7/data.json`
+- `public/pele-examples/chi7/figure-branch.txt`
+- `public/pele-examples/chi7/slide.png`
+- `public/pele-examples/chi7/source.pele`
+- `public/pele-examples/figures.mjs.txt`
+- `public/pele-examples/med-delta/data.json`
+- `public/pele-examples/med-delta/figure-branch.txt`
+- `public/pele-examples/med-delta/med-delta-native.svg`
+- `public/pele-examples/med-delta/med-delta.svg`
+- `public/pele-examples/med-delta/slide.png`
+- `public/pele-examples/med-delta/source.pele`
+- `public/pele-examples/med-mc/data.json`
+- `public/pele-examples/med-mc/figure-branch.txt`
+- `public/pele-examples/med-mc/med-mc-native.svg`
+- `public/pele-examples/med-mc/med-mc.svg`
+- `public/pele-examples/med-mc/slide.png`
+- `public/pele-examples/med-mc/source.pele`
+- `public/pele-examples/mod-classic/data.json`
+- `public/pele-examples/mod-classic/figure-branch.txt`
+- `public/pele-examples/mod-classic/mod-classic-native.svg`
+- `public/pele-examples/mod-classic/mod-classic.svg`
+- `public/pele-examples/mod-classic/slide.png`
+- `public/pele-examples/mod-classic/source.pele`
+- `public/pele-examples/mod-hc3/data.json`
+- `public/pele-examples/mod-hc3/figure-branch.txt`
+- `public/pele-examples/mod-hc3/mod-hc3-native.svg`
+- `public/pele-examples/mod-hc3/mod-hc3.svg`
+- `public/pele-examples/mod-hc3/slide.png`
+- `public/pele-examples/mod-hc3/source.pele`
+- `public/pele-examples/paired/data.json`
+- `public/pele-examples/paired/figure-branch.txt`
+- `public/pele-examples/paired/paired-native.svg`
+- `public/pele-examples/paired/paired.svg`
+- `public/pele-examples/paired/slide.png`
+- `public/pele-examples/paired/source.pele`
+- `public/pele-examples/pearson/data.json`
+- `public/pele-examples/pearson/figure-branch.txt`
+- `public/pele-examples/pearson/pearson-native.svg`
+- `public/pele-examples/pearson/pearson.svg`
+- `public/pele-examples/pearson/slide.png`
+- `public/pele-examples/pearson/source.pele`
+- `public/pele-examples/reg-hc3/data.json`
+- `public/pele-examples/reg-hc3/figure-branch.txt`
+- `public/pele-examples/reg-hc3/reg-hc3-native.svg`
+- `public/pele-examples/reg-hc3/reg-hc3.svg`
+- `public/pele-examples/reg-hc3/slide.png`
+- `public/pele-examples/reg-hc3/source.pele`
+- `public/pele-examples/reg-ols/data.json`
+- `public/pele-examples/reg-ols/figure-branch.txt`
+- `public/pele-examples/reg-ols/reg-ols-native.svg`
+- `public/pele-examples/reg-ols/reg-ols.svg`
+- `public/pele-examples/reg-ols/slide.png`
+- `public/pele-examples/reg-ols/source.pele`
+- `public/pele-examples/sem-full/data.json`
+- `public/pele-examples/sem-full/figure-branch.txt`
+- `public/pele-examples/sem-full/sem-full-native.svg`
+- `public/pele-examples/sem-full/sem-full.svg`
+- `public/pele-examples/sem-full/slide.png`
+- `public/pele-examples/sem-full/source.pele`
+- `public/pele-examples/sem-reduced/data.json`
+- `public/pele-examples/sem-reduced/figure-branch.txt`
+- `public/pele-examples/sem-reduced/sem-reduced-native.svg`
+- `public/pele-examples/sem-reduced/sem-reduced.svg`
+- `public/pele-examples/sem-reduced/slide.png`
+- `public/pele-examples/sem-reduced/source.pele`
+- `public/pele-examples/semantic-models.mjs.txt`
+- `public/pele-examples/spearman/data.json`
+- `public/pele-examples/spearman/figure-branch.txt`
+- `public/pele-examples/spearman/slide.png`
+- `public/pele-examples/spearman/source.pele`
+- `public/pele-examples/spearman/spearman-native.svg`
+- `public/pele-examples/spearman/spearman.svg`
+- `public/pele-examples/svg-helpers.txt`
+- `public/pele-examples/two-classic/data.json`
+- `public/pele-examples/two-classic/figure-branch.txt`
+- `public/pele-examples/two-classic/slide.png`
+- `public/pele-examples/two-classic/source.pele`
+- `public/pele-examples/two-classic/two-classic-native.svg`
+- `public/pele-examples/two-classic/two-classic.svg`
+- `public/pele-examples/two-hc3/data.json`
+- `public/pele-examples/two-hc3/figure-branch.txt`
+- `public/pele-examples/two-hc3/slide.png`
+- `public/pele-examples/two-hc3/source.pele`
+- `public/pele-examples/two-hc3/two-hc3-native.svg`
+- `public/pele-examples/two-hc3/two-hc3.svg`
+- `public/pele-examples/welch/data.json`
+- `public/pele-examples/welch/figure-branch.txt`
+- `public/pele-examples/welch/slide.png`
+- `public/pele-examples/welch/source.pele`
+- `public/pele-examples/welch/welch-native.svg`
+- `public/pele-examples/welch/welch.svg`
 - `scripts/build-web.ts`
-- `scripts/complete-topic-english.ts`
-- `scripts/dedupe-web-html.ts`
-- `scripts/emit-review-input.ts`
-- `scripts/finalize-topic-review.ts`
-- `scripts/preview-lecture.ts`
-- `scripts/print-contract.ts`
-- `scripts/probe-font-cors.ts`
-- `scripts/reader-image-url.ts`
-- `scripts/register-recomposed-lecture.ts`
-- `scripts/register-topic-lecture.ts`
-- `scripts/scan-topic-english.ts`
-- `scripts/share-web-runtime.ts`
-- `scripts/source-only.ts`
-- `scripts/verify-english.ts`
-- `scripts/verify-web-output.ts`
-- `scripts/web-assets.ts`
-- `tests/html-dedupe.test.ts`
-- `tests/reader-image-url.test.ts`
-- `tests/runtime-sharing.test.ts`
-- `tests/source-only.test.ts`
-- `tests/student-kit-links.test.ts`
-- `tests/topic-reader-tables.test.ts`
+- `scripts/notes-contract.ts`
+- `scripts/share-code-tokens.ts`
+- `scripts/verify-build.ts`
+- `src/components/PeleOverview.astro`
+- `src/components/SourceCode.astro`
+- `src/lib/content.ts`
+- `src/lib/extract.ts`
+- `src/lib/inspection.ts`
+- `src/lib/reader.ts`
+- `src/lib/schema.ts`
+- `src/pages/sitemap.xml.ts`
+- `src/pages/talks/[slug]/index.astro`
+- `src/pages/talks/pele-social-science/code/[variant].astro`
+- `src/pages/talks/pele-social-science/code/helpers.astro`
+- `src/pages/talks/pele-social-science/code/index.astro`
+- `tests/code-token-sharing.test.ts`
+- `tests/inspection.test.ts`
+- `tests/pele-demo.test.ts`
 - `vercel.json`
 
 ## 확인할 결과
 
+- Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함
 - 설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠? · 한국어 `/talks/survey-scale-intro-2026-10-13/` · 영어 `/en/talks/survey-scale-intro-2026-10-13/` · 양언어 웹 읽기/Markdown 포함
 - 3주 AI 활용 읽기 파일럿 · 한국어 `/talks/ai-reading-pilot/` · 영어 `/en/talks/ai-reading-pilot/` · 양언어 웹 읽기/Markdown 포함
