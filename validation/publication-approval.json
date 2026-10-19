@@ -2,13 +2,13 @@
   "version": 1,
   "status": "approved",
   "scope": "portfolio-production",
-  "policyVersion": "6.0.0",
-  "digest": "526806aede5456e35f9984ad5e7f8064effe9d4ce1a2ed0f427ad55b46cb38a6",
-  "reviewHash": "79953a94b056f5b5daae859e0634cfbf64b476bcf46e67f6e0426ba7292946b2",
+  "policyVersion": "6.1.0",
+  "digest": "679c02e2b857636123286b2a04b5956f7159717d7014600fed741d0de4758b0d",
+  "reviewHash": "a26574ee7804ed0467aa57aa7c278dee88561474c4b47969ab17921c311d8a1a",
   "decision": {
     "by": "user",
-    "quote": "어 그렇게 하라고 했잖아 지금도 그렇고 앞으로도 그렇게 하도록",
-    "sessionId": "01a1350d-5a68-7281-a40e-77c76efa8fc5",
-    "at": "2026-10-14T04:16:22.425Z"
+    "quote": "공개 반영",
+    "sessionId": "01a133c1-118a-7bb1-a621-c04e3d926b8c",
+    "at": "2026-10-19T12:43:25Z"
   }
 }
