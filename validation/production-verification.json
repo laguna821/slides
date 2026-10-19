@@ -1,0 +1,464 @@
+{
+  "origin": "https://achmage-slides.vercel.app",
+  "at": "2026-10-19T22:55:10.100Z",
+  "commit": "9c0035df3365c0059ae008f60491f3367f1a8f4a",
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/archive/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/archive/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi3/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/chi3/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/helpers/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 1,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/helpers/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 1,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/chi7/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi7/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/welch/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/welch/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/pearson/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/paired/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/pearson/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/paired/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/reg-ols/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/reg-ols/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/spearman/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/spearman/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/anova-welch/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/reg-hc3/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/anova-welch/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/reg-hc3/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/anova-classic/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/two-classic/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/anova-classic/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/two-classic/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/mod-classic/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/two-hc3/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/two-hc3/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-classic/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-hc3/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/mod-hc3/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/med-mc/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/sem-full/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/med-delta/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/med-delta/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/sem-full/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/talks/pele-social-science/code/sem-reduced/",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/sem-reduced/",
+      "status": 200,
+      "lang": "en",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 2,
+      "exactHtml": true
+    },
+    {
+      "route": "/decks/pele-social-science/v1.0.0/index.html",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    },
+    {
+      "route": "/decks/pele-social-science/v1.0.0/dark.html",
+      "status": 200,
+      "lang": "ko",
+      "sameMainText": true,
+      "sameCode": true,
+      "codeBlocks": 0,
+      "exactHtml": true
+    }
+  ],
+  "assets": [
+    {
+      "url": "/_code-tokens/6e94a56f3c42167d1592.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "sameBytes": true,
+      "bytes": 535
+    },
+    {
+      "url": "/fonts/AchmageSameTone-1.000.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "sameBytes": true,
+      "bytes": 2140332
+    }
+  ],
+  "failures": [],
+  "browser": {
+    "koreanOverview": "passed",
+    "englishOverview": "passed",
+    "sourceAtlas": "passed",
+    "semCodeExpand": "passed",
+    "copySuccessUI": "passed",
+    "clipboardRoundTrip": "unverified: browser clipboard API returned empty; no clipboard equality claim"
+  }
+}
