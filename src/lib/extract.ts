@@ -1,4 +1,5 @@
 import { load } from 'cheerio';
+import { inspectionHtml } from './inspection';
 import sanitizeHtml from 'sanitize-html';
 import { marked } from 'marked';
 import type { Segment } from './schema';
@@ -36,7 +37,7 @@ export function normalizeVideoUrl(
   return null;
 }
 export function extractHtml(html: string, href: string) {
-  const $ = load(html);
+  const $ = load(inspectionHtml(html));
   $(
     privateSelectors + ',.toolbar,.controls,[role=toolbar],dialog,.modal',
   ).remove();

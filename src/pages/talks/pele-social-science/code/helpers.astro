@@ -1,0 +1,47 @@
+---
+import fs from 'node:fs/promises';
+import Base from '../../../../layouts/Base.astro';
+import SourceCode from '../../../../components/SourceCode.astro';
+const source = await fs.readFile(
+  'public/pele-examples/svg-helpers.txt',
+  'utf8',
+);
+---
+
+<Base
+  title="공용 SVG 함수"
+  description="이 소스는 실행 가능한 편집기가 아니라 원문을 보존한 참고 코드입니다."
+  image="/images/pele-social-science.png"
+  active="archive"
+>
+  <section class="page-intro page-gutter" data-slide-exempt>
+    <div class="crumb">
+      <a href="/talks/pele-social-science/code/">모든 예제로 돌아가기</a>
+      <span>/</span>
+      <span>SVG HELPERS</span>
+    </div>
+    <h1>공용 SVG 함수</h1>
+    <p class="intro-text">
+      공개된 추정치를 받아 축·선·구간·라벨을 직접 배치하는 실제 제작 분기입니다.
+      생략한 공용 함수와 전체 파일도 확인할 수 있습니다.
+    </p>
+  </section>
+  <section class="page-gutter helper-code">
+    <SourceCode title="SVG helpers · JavaScript" source={source} />
+    <p>
+      <a href="/pele-examples/REUSE.md">REUSE.md ↗</a> ·{' '}
+      <a href="/pele-examples/figures.mjs.txt">전체 제작 소스 보기 ↗</a>
+    </p>
+  </section>
+</Base>
+<style>
+  .helper-code {
+    padding-bottom: 80px;
+    min-width: 0;
+  }
+  .helper-code a {
+    color: var(--blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+</style>

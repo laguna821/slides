@@ -12,6 +12,7 @@ import {
   siteOrigin,
 } from './web-assets';
 import { verifyWebOutput } from './verify-web-output';
+import {shareCodeTokens} from './share-code-tokens';
 import {shareWebRuntime} from './share-web-runtime';
 import {dedupeWebHtml} from './dedupe-web-html';
 import {validateSourceOnly} from './source-only';
@@ -105,6 +106,7 @@ for (const asset of Object.values(manifest.assets))
     await fs.mkdir(path.dirname(target), { recursive: true });
     await fs.writeFile(target, bytes);
   }
+const codeTokenSharing=await shareCodeTokens(output);
 const runtimeSharing=await shareWebRuntime(output);
 for(const file of Object.keys(proofs))proofs[file].outputHash=sha(await fs.readFile(path.join(output,file)));
 const htmlSharing=await dedupeWebHtml(output);
@@ -152,6 +154,7 @@ await fs.writeFile(
       redirects: expected.length,
       assetManifestHash: sha(await fs.readFile('content/web-assets.json')),
       runtimeSharing,
+      codeTokenSharing,
       htmlSharing,
       archivalOnly:{files:[...sourceOnly],sourceBytes:sourceOnlyBytes},
     },

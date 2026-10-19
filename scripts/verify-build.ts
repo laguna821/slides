@@ -1,3 +1,4 @@
+import {inspectionHtml} from '../src/lib/inspection';
 import {verifyExperiments} from './experiments';
 import {verifyReaders} from './verify-readers';
 import fs from 'node:fs/promises';
@@ -65,7 +66,7 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
     continue;
   htmlCount++;
   const text = await fs.readFile(path.join('dist', file), 'utf8');
-  const $ = load(text);
+  const $ = load(inspectionHtml(text));
   for (const el of $(
     'a[href],img[src],script[src],link[href],source[src],track[src]',
   ).toArray()) {

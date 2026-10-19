@@ -72,7 +72,7 @@
   },
   "storage": {
     "outputDirectory": "web-dist",
-    "maxBytes": 20971520,
+    "maxBytes": 25165824,
     "maxHtmlBytes": 1048576,
     "embeddedAssets": false,
     "publishPdf": false,

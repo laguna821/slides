@@ -1,5 +1,4 @@
 ---
-import fs from 'node:fs/promises';
 import Base from '../../../../layouts/Base.astro';
 import SourceCode from '../../../../components/SourceCode.astro';
 import cases from '../../../../../content/pele-examples.json';
@@ -10,10 +9,6 @@ export function getStaticPaths() {
   }));
 }
 const { c, previous, next } = Astro.props;
-const helpers = await fs.readFile(
-  'public/pele-examples/svg-helpers.txt',
-  'utf8',
-);
 const link =
   '/decks/pele-social-science/v1.0.0/index.html?mode=stage&viewMode=fit#' +
   c.number;
@@ -105,11 +100,12 @@ const link =
         source={c.figureCode}
         compact
       />
-      <details class="helpers">
-        <summary>공용 SVG 함수 보기</summary>
-        <SourceCode title="SVG helpers · JavaScript" source={helpers} compact />
-      </details>
+
       <div class="source-links">
+        <a href="/talks/pele-social-science/code/helpers/">
+          공용 SVG 함수 보기
+        </a>
+        <a href={c.sourceBase + '/' + c.id + '.svg'}>SVG 결과 보기 ↗</a>
         <a href="/pele-examples/figures.mjs.txt">전체 제작 소스 보기 ↗</a>
         <a href={c.sourceBase + '/data.json'}>분석 데이터 보기 ↗</a>
       </div>

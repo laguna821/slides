@@ -3,7 +3,7 @@ import { Code } from 'astro:components';
 interface Props {
   source: string;
   title: string;
-  lang?: string;
+  lang?: 'javascript' | 'pele' | 'xml';
   compact?: boolean;
 }
 const { source, title, lang = 'javascript', compact = false } = Astro.props;
@@ -12,6 +12,11 @@ const { source, title, lang = 'javascript', compact = false } = Astro.props;
 <section class:list={['source-code', { compact }]} data-source-code>
   <div class="code-heading">
     <span>{title}</span>
+    {compact && (
+      <button type="button" data-expand-code aria-expanded="false">
+        전체 코드 펼치기
+      </button>
+    )}
     <button type="button" data-copy-code>
       복사
     </button>
@@ -34,6 +39,20 @@ const { source, title, lang = 'javascript', compact = false } = Astro.props;
   for (const block of document.querySelectorAll<HTMLElement>(
     '[data-source-code]',
   )) {
+    const expand = block.querySelector<HTMLButtonElement>('[data-expand-code]');
+    expand?.addEventListener('click', () => {
+      const open = expand.getAttribute('aria-expanded') !== 'true';
+      expand.setAttribute('aria-expanded', String(open));
+      block.classList.toggle('expanded', open);
+      const en = document.documentElement.lang === 'en';
+      expand.textContent = open
+        ? en
+          ? 'Collapse code'
+          : '코드 접기'
+        : en
+          ? 'Expand the complete code'
+          : '전체 코드 펼치기';
+    });
     const button = block.querySelector<HTMLButtonElement>('[data-copy-code]')!;
     button.addEventListener('click', async () => {
       const code = block.querySelector('pre code')!;
@@ -97,6 +116,12 @@ const { source, title, lang = 'javascript', compact = false } = Astro.props;
     overflow: auto;
     max-height: 600px;
     min-width: 0;
+  }
+  .source-code.expanded .code-scroll {
+    max-height: none;
+  }
+  .code-heading > span:first-child {
+    margin-right: auto;
   }
   .compact .code-scroll {
     max-height: 420px;

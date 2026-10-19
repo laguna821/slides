@@ -10,6 +10,7 @@ export const GET: APIRoute = () => {
     '/posters/',
     '/about/',
     '/talks/pele-social-science/code/',
+    '/talks/pele-social-science/code/helpers/',
     ...peleCases.map(c=>'/talks/pele-social-science/code/'+c.id+'/'),
     ...works
       .filter((w) => w.visibility === 'listed' && w.seo === 'index')
