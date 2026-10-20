@@ -1,8 +1,9 @@
 name: Prepare Pele source preview
 on:
-  push:
-    branches: [pele-statistics-source-guide, pele-atlas-editorial]
   workflow_dispatch:
+concurrency:
+  group: pele-source-preview-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -15,24 +16,18 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npm run build:source
-      - run: npm run check
-      - run: npm test
-      - name: Prepare web deployment files
-        run: npx tsx scripts/build-web.ts --write-redirects
-      - name: Collect missing translations
-        if: always()
-        run: npx tsx scripts/report-missing-translations.ts
+      - name: Collect all technical checks and diagnostics
+        run: node scripts/remote-preview.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: pele-source-preview
           retention-days: 1
           path: |
-            dist/talks/pele-atlas/
-            dist/en/talks/pele-atlas/
-            dist/_astro/
-            dist/pele-atlas/
+            validation/remote-preview/
+            validation/atlas-diagnostics/
+            web-dist/
+            dist/
             !dist/**/*.pdf
             !dist/**/*.zip
             !dist/**/*.png
@@ -44,6 +39,4 @@ jobs:
             !dist/**/*.mp4
             !dist/**/*.mov
             src/generated/
-            validation/atlas-diagnostics/
-            web-dist/
           include-hidden-files: false
