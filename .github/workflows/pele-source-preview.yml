@@ -18,13 +18,19 @@ jobs:
       - run: npm run build:source
       - run: npm run check
       - run: npm test
+      - name: Collect missing translations
+        if: always()
+        run: npx tsx scripts/report-missing-translations.ts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: pele-source-preview
           retention-days: 1
           path: |
-            dist/
+            dist/talks/pele-atlas/
+            dist/en/talks/pele-atlas/
+            dist/_astro/
+            dist/pele-atlas/
             !dist/**/*.pdf
             !dist/**/*.zip
             !dist/**/*.png
@@ -36,4 +42,5 @@ jobs:
             !dist/**/*.mp4
             !dist/**/*.mov
             src/generated/
+            validation/atlas-diagnostics/
           include-hidden-files: false
