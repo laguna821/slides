@@ -2,13 +2,13 @@
   "version": 1,
   "status": "approved",
   "scope": "portfolio-production",
-  "policyVersion": "6.2.0",
-  "digest": "86d79cd8461333bc7a55a3337d8a3c74e945e9f3c91749bbc8ca43ee638d2e65",
-  "reviewHash": "375a88289b3fbe9c89824d4adad7e55ccecb7b710421f1f506e0299c76edadd0",
+  "policyVersion": "6.3.1",
+  "digest": "af470e7e9e8d4746efa7262b8165ef864a0fb81600faaf0fc6dba822509c786e",
+  "reviewHash": "5cce01c49888c48cbda43d2c1eb9573acc277bdcee64f6351387903a804822fd",
   "decision": {
     "by": "user",
     "quote": "게시",
     "sessionId": "01a14e52-5d43-7640-ba67-0fe0be640810",
-    "at": "2026-10-19T22:50:54.607Z"
+    "at": "2026-10-20T11:18:55.153621+00:00"
   }
 }

@@ -2,172 +2,43 @@
 
 상태: **approved**
 
-- 정책: 6.2.0
+- 정책: 6.3.1
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 153개
-- 배포 입력 해시: `86d79cd8461333bc7a55a3337d8a3c74e945e9f3c91749bbc8ca43ee638d2e65`
+- 변경 파일: 23개
+- 배포 입력 해시: `af470e7e9e8d4746efa7262b8165ef864a0fb81600faaf0fc6dba822509c786e`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-- `.gitattributes`
 - `.github/workflows/pele-source-preview.yml`
+- `.github/workflows/validate.yml`
 - `content/i18n/en.json`
-- `content/pele-examples.json`
-- `content/presenter-notes.json`
 - `content/site-policy.json`
-- `content/web-assets.json`
 - `content/works.json`
-- `docs/PELE-DEMO-CONTRACT.md`
-- `docs/STORAGE-CONTRACT.md`
-- `docs/pele-engine-pin.json`
-- `docs/pele-social-science-provenance.json`
-- `docs/pele-versions.json`
-- `package.json`
-- `public/decks/pele-social-science/v1.0.0/dark.html`
-- `public/decks/pele-social-science/v1.0.0/index.html`
-- `public/images/pele-social-science.png`
-- `public/pele-examples/LICENSE-pele.txt`
-- `public/pele-examples/REUSE.md`
-- `public/pele-examples/analyses.json`
-- `public/pele-examples/anova-classic/anova-classic-native.svg`
-- `public/pele-examples/anova-classic/anova-classic.svg`
-- `public/pele-examples/anova-classic/data.json`
-- `public/pele-examples/anova-classic/figure-branch.txt`
-- `public/pele-examples/anova-classic/slide.png`
-- `public/pele-examples/anova-classic/source.pele`
-- `public/pele-examples/anova-welch/anova-welch-native.svg`
-- `public/pele-examples/anova-welch/anova-welch.svg`
-- `public/pele-examples/anova-welch/data.json`
-- `public/pele-examples/anova-welch/figure-branch.txt`
-- `public/pele-examples/anova-welch/slide.png`
-- `public/pele-examples/anova-welch/source.pele`
-- `public/pele-examples/chi3/chi3-native.svg`
-- `public/pele-examples/chi3/chi3.svg`
-- `public/pele-examples/chi3/data.json`
-- `public/pele-examples/chi3/figure-branch.txt`
-- `public/pele-examples/chi3/slide.png`
-- `public/pele-examples/chi3/source.pele`
-- `public/pele-examples/chi7/chi7-native.svg`
-- `public/pele-examples/chi7/chi7.svg`
-- `public/pele-examples/chi7/data.json`
-- `public/pele-examples/chi7/figure-branch.txt`
-- `public/pele-examples/chi7/slide.png`
-- `public/pele-examples/chi7/source.pele`
-- `public/pele-examples/figures.mjs.txt`
-- `public/pele-examples/med-delta/data.json`
-- `public/pele-examples/med-delta/figure-branch.txt`
-- `public/pele-examples/med-delta/med-delta-native.svg`
-- `public/pele-examples/med-delta/med-delta.svg`
-- `public/pele-examples/med-delta/slide.png`
-- `public/pele-examples/med-delta/source.pele`
-- `public/pele-examples/med-mc/data.json`
-- `public/pele-examples/med-mc/figure-branch.txt`
-- `public/pele-examples/med-mc/med-mc-native.svg`
-- `public/pele-examples/med-mc/med-mc.svg`
-- `public/pele-examples/med-mc/slide.png`
-- `public/pele-examples/med-mc/source.pele`
-- `public/pele-examples/mod-classic/data.json`
-- `public/pele-examples/mod-classic/figure-branch.txt`
-- `public/pele-examples/mod-classic/mod-classic-native.svg`
-- `public/pele-examples/mod-classic/mod-classic.svg`
-- `public/pele-examples/mod-classic/slide.png`
-- `public/pele-examples/mod-classic/source.pele`
-- `public/pele-examples/mod-hc3/data.json`
-- `public/pele-examples/mod-hc3/figure-branch.txt`
-- `public/pele-examples/mod-hc3/mod-hc3-native.svg`
-- `public/pele-examples/mod-hc3/mod-hc3.svg`
-- `public/pele-examples/mod-hc3/slide.png`
-- `public/pele-examples/mod-hc3/source.pele`
-- `public/pele-examples/paired/data.json`
-- `public/pele-examples/paired/figure-branch.txt`
-- `public/pele-examples/paired/paired-native.svg`
-- `public/pele-examples/paired/paired.svg`
-- `public/pele-examples/paired/slide.png`
-- `public/pele-examples/paired/source.pele`
-- `public/pele-examples/pearson/data.json`
-- `public/pele-examples/pearson/figure-branch.txt`
-- `public/pele-examples/pearson/pearson-native.svg`
-- `public/pele-examples/pearson/pearson.svg`
-- `public/pele-examples/pearson/slide.png`
-- `public/pele-examples/pearson/source.pele`
-- `public/pele-examples/reg-hc3/data.json`
-- `public/pele-examples/reg-hc3/figure-branch.txt`
-- `public/pele-examples/reg-hc3/reg-hc3-native.svg`
-- `public/pele-examples/reg-hc3/reg-hc3.svg`
-- `public/pele-examples/reg-hc3/slide.png`
-- `public/pele-examples/reg-hc3/source.pele`
-- `public/pele-examples/reg-ols/data.json`
-- `public/pele-examples/reg-ols/figure-branch.txt`
-- `public/pele-examples/reg-ols/reg-ols-native.svg`
-- `public/pele-examples/reg-ols/reg-ols.svg`
-- `public/pele-examples/reg-ols/slide.png`
-- `public/pele-examples/reg-ols/source.pele`
-- `public/pele-examples/sem-full/data.json`
-- `public/pele-examples/sem-full/figure-branch.txt`
-- `public/pele-examples/sem-full/sem-full-native.svg`
-- `public/pele-examples/sem-full/sem-full.svg`
-- `public/pele-examples/sem-full/slide.png`
-- `public/pele-examples/sem-full/source.pele`
-- `public/pele-examples/sem-reduced/data.json`
-- `public/pele-examples/sem-reduced/figure-branch.txt`
-- `public/pele-examples/sem-reduced/sem-reduced-native.svg`
-- `public/pele-examples/sem-reduced/sem-reduced.svg`
-- `public/pele-examples/sem-reduced/slide.png`
-- `public/pele-examples/sem-reduced/source.pele`
-- `public/pele-examples/semantic-models.mjs.txt`
-- `public/pele-examples/spearman/data.json`
-- `public/pele-examples/spearman/figure-branch.txt`
-- `public/pele-examples/spearman/slide.png`
-- `public/pele-examples/spearman/source.pele`
-- `public/pele-examples/spearman/spearman-native.svg`
-- `public/pele-examples/spearman/spearman.svg`
-- `public/pele-examples/svg-helpers.txt`
-- `public/pele-examples/two-classic/data.json`
-- `public/pele-examples/two-classic/figure-branch.txt`
-- `public/pele-examples/two-classic/slide.png`
-- `public/pele-examples/two-classic/source.pele`
-- `public/pele-examples/two-classic/two-classic-native.svg`
-- `public/pele-examples/two-classic/two-classic.svg`
-- `public/pele-examples/two-hc3/data.json`
-- `public/pele-examples/two-hc3/figure-branch.txt`
-- `public/pele-examples/two-hc3/slide.png`
-- `public/pele-examples/two-hc3/source.pele`
-- `public/pele-examples/two-hc3/two-hc3-native.svg`
-- `public/pele-examples/two-hc3/two-hc3.svg`
-- `public/pele-examples/welch/data.json`
-- `public/pele-examples/welch/figure-branch.txt`
-- `public/pele-examples/welch/slide.png`
-- `public/pele-examples/welch/source.pele`
-- `public/pele-examples/welch/welch-native.svg`
-- `public/pele-examples/welch/welch.svg`
-- `scripts/build-web.ts`
-- `scripts/notes-contract.ts`
-- `scripts/release-gate.ts`
-- `scripts/share-code-tokens.ts`
-- `scripts/verify-build.ts`
-- `src/components/PeleOverview.astro`
-- `src/components/SourceCode.astro`
-- `src/lib/content.ts`
-- `src/lib/extract.ts`
-- `src/lib/inspection.ts`
-- `src/lib/reader.ts`
-- `src/lib/schema.ts`
-- `src/pages/sitemap.xml.ts`
+- `docs/PELE-ATLAS.md`
+- `docs/REMOTE-CHANGE-CONTRACT.md`
+- `docs/pele-atlas-provenance.json`
+- `public/pele-atlas/comparison.json`
+- `public/pele-atlas/editorial.json`
+- `public/pele-atlas/history.json`
+- `scripts/remote-preview.d.mts`
+- `scripts/remote-preview.mjs`
+- `scripts/report-missing-translations.ts`
+- `src/components/PeleAtlas.astro`
+- `src/lib/svg-display-bounds.ts`
 - `src/pages/talks/[slug]/index.astro`
-- `src/pages/talks/pele-social-science/code/[variant].astro`
-- `src/pages/talks/pele-social-science/code/helpers.astro`
-- `src/pages/talks/pele-social-science/code/index.astro`
-- `tests/code-token-sharing.test.ts`
-- `tests/inspection.test.ts`
-- `tests/pele-demo.test.ts`
-- `tests/pele-fingerprint.test.ts`
-- `vercel.json`
+- `src/pages/talks/pele-atlas/explore.astro`
+- `src/scripts/pele-atlas.ts`
+- `src/styles/pele-atlas.css`
+- `tests/pele-atlas.test.ts`
+- `tests/remote-preview.test.ts`
+- `tests/svg-display-bounds.test.ts`
 
 ## 확인할 결과
 
+- Pele · 글·표·도식 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
 - Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함
 - 설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠? · 한국어 `/talks/survey-scale-intro-2026-10-13/` · 영어 `/en/talks/survey-scale-intro-2026-10-13/` · 양언어 웹 읽기/Markdown 포함
