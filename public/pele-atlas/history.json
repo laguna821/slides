@@ -1,0 +1,562 @@
+[
+  {
+    "id": "expressive",
+    "titleKo": "표현력 실험 15종",
+    "titleEn": "Fifteen expressive studies",
+    "scopeKo": "기본 배치·테마·별도 SVG의 차이와 단일 고밀도 도식.",
+    "scopeEn": "Native layout, theme editing and authored SVG; dense single diagrams.",
+    "version": "1.6.0",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/expressive/",
+    "sha256": "78d8c15796b8b8a9c5b831144647a778fe02ebcff01220a9914bb0f0db060401",
+    "sourceArtifact": "expressive/cases.json",
+    "variants": [
+      {
+        "id": "e01",
+        "profile": null,
+        "type": "flowchart"
+      },
+      {
+        "id": "e02",
+        "profile": null,
+        "type": "sankey"
+      },
+      {
+        "id": "e03",
+        "profile": null,
+        "type": "sequence"
+      },
+      {
+        "id": "e04",
+        "profile": null,
+        "type": "gantt"
+      },
+      {
+        "id": "e05",
+        "profile": null,
+        "type": "treemap"
+      },
+      {
+        "id": "e06",
+        "profile": null,
+        "type": "xychart"
+      },
+      {
+        "id": "e07",
+        "profile": null,
+        "type": "radar"
+      },
+      {
+        "id": "e08",
+        "profile": null,
+        "type": "mindmap"
+      },
+      {
+        "id": "e09",
+        "profile": null,
+        "type": "architecture"
+      },
+      {
+        "id": "e10",
+        "profile": null,
+        "type": "c4"
+      },
+      {
+        "id": "e11",
+        "profile": null,
+        "type": "er"
+      },
+      {
+        "id": "e12",
+        "profile": null,
+        "type": "state"
+      },
+      {
+        "id": "e13",
+        "profile": null,
+        "type": "flowchart"
+      },
+      {
+        "id": "e14",
+        "profile": null,
+        "type": "sankey"
+      },
+      {
+        "id": "e15",
+        "profile": null,
+        "type": "block"
+      }
+    ],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "bento",
+    "titleKo": "Bento 시각화 실험",
+    "titleEn": "Bento visualization studies",
+    "scopeKo": "유형별 지원과 복합 구성. 한국어 Sankey·전환 후 글리프 관찰은 당시 환경에 한정한다.",
+    "scopeEn": "Type coverage and composite layouts. Korean Sankey and post-transition glyph observations are environment-specific.",
+    "version": "1.6.0",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/bento/",
+    "sha256": "6813954ea07d961ae6dc865934776bee52056fa3d6152d9d34b6245728db95e4",
+    "sourceArtifact": "bento/coverage.json",
+    "variants": [],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "interaction",
+    "titleKo": "상호작용 18종 탐색",
+    "titleEn": "Eighteen interactive explorations",
+    "scopeKo": "20개 도식·109개 선택 대상의 별도 예시. 새 비교처럼 같은 원자료 47상태를 보존한 동등성 실험은 아니다.",
+    "scopeEn": "Separate examples with 20 diagrams and 109 targets; not a 47-state same-data parity experiment.",
+    "version": "1.6.0",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/interaction-atlas/",
+    "sha256": "95d7d6777aaa007463993f19b44d2add4eafc88a0e13860659dff44474976d0a",
+    "sourceArtifact": "interaction-atlas/atlas.json",
+    "variants": [
+      {
+        "id": "comparison",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "composition",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "paired",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "series",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "multiples",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "histogram",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "interval",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "scatter",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "matrix",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "likert",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "waterfall",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "sensitivity",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "rules",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "funnel",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "flow",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "hierarchy",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "connections",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "spatial",
+        "profile": null,
+        "type": null
+      }
+    ],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "skill-lab",
+    "titleKo": "스킬 유무 비교와 보류 입력",
+    "titleEn": "Skill comparison and holdout input",
+    "scopeKo": "작은 예시의 차이를 검토한 선행 시험. 스킬의 보편적 효과를 증명하지 않는다.",
+    "scopeEn": "An early small comparison; not evidence of a universal skill effect.",
+    "version": "0.3-review",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/skill-lab/",
+    "sha256": "81d76df05222f66f197eacf6da4e0a7d7f66a077ec82353ac2676d7ef29ee5e5",
+    "sourceArtifact": "skill-lab/skill.json",
+    "variants": [],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "recipes",
+    "titleKo": "실행·연결 예제 여섯 가지",
+    "titleEn": "Six executable integration recipes",
+    "scopeKo": "선택·팝업·연동·현장 편집·Markdown 연결을 역할별로 분리했다.",
+    "scopeEn": "Separates selection, popup, linking, live editing and Markdown responsibilities.",
+    "version": "0.4-review",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/skill-04/",
+    "sha256": "3b34b5d8b23aa3cdda8d9e78fdb7d43da088a6e42343e139451750bf1c820daf",
+    "sourceArtifact": "skill-04/manifest.json",
+    "variants": [
+      {
+        "id": "single",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "narrow",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "detail",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "theme",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "notes",
+        "profile": null,
+        "type": null
+      }
+    ],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "craft",
+    "titleKo": "미감과 호스트 프로필 비교",
+    "titleEn": "Craft and host-profile comparison",
+    "scopeKo": "6개 고정 과제의 27개 조건. 변형 수를 독립 과제 수로 합산하지 않는다.",
+    "scopeEn": "Twenty-seven variants of six fixed tasks; variants are not independent tasks.",
+    "version": "0.5-review",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/skill-05/",
+    "sha256": "0396bb8fffb9cf14328b81b4ee851c37ec5361532e9ca47d896b83a3f00f1fcb",
+    "sourceArtifact": "skill-05/manifest.json",
+    "variants": [
+      {
+        "id": "single",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "single",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "single",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "single",
+        "profile": "portfolio",
+        "type": null
+      },
+      {
+        "id": "single",
+        "profile": "bold",
+        "type": null
+      },
+      {
+        "id": "narrow",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "narrow",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "narrow",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "narrow",
+        "profile": "portfolio",
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": "portfolio",
+        "type": null
+      },
+      {
+        "id": "linked",
+        "profile": "bold",
+        "type": null
+      },
+      {
+        "id": "heat",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "heat",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "heat",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "heat",
+        "profile": "portfolio",
+        "type": null
+      },
+      {
+        "id": "evidence",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "evidence",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "evidence",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "evidence",
+        "profile": "portfolio",
+        "type": null
+      },
+      {
+        "id": "evidence",
+        "profile": "bold",
+        "type": null
+      },
+      {
+        "id": "table",
+        "profile": "baseline",
+        "type": null
+      },
+      {
+        "id": "table",
+        "profile": "standalone",
+        "type": null
+      },
+      {
+        "id": "table",
+        "profile": "hallym",
+        "type": null
+      },
+      {
+        "id": "table",
+        "profile": "portfolio",
+        "type": null
+      }
+    ],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "conference",
+    "titleKo": "공개 연구의 고밀도 발표",
+    "titleEn": "Dense public-research presentation",
+    "scopeKo": "관계도와 별도 통계 SVG를 결합했다. 계산·근거·시각 검수를 구분한다.",
+    "scopeEn": "Combines relation diagrams and authored statistical SVG; distinguishes calculation, evidence and visual review.",
+    "version": "0.6-review",
+    "url": "https://achmage-pele-html-lab.achmage2.chatgpt.site/research-brief/",
+    "sha256": "c7c22845b4fccf23b619df8952ec53954e90e89faa2ec80dae5a6355d93a2201",
+    "sourceArtifact": "research-brief/figures.json",
+    "variants": [
+      {
+        "id": "methods",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "outcomes",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "heterogeneity",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "robustness",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "specifications",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "translation",
+        "profile": null,
+        "type": null
+      }
+    ],
+    "screenReview": "historical-only"
+  },
+  {
+    "id": "social",
+    "titleKo": "사회과학 9개 분석군·18장",
+    "titleEn": "Nine social-science families, eighteen slides",
+    "scopeKo": "ANES96과 Political Democracy. 수치 재현과 상세 설명을 결합하되 인과효과로 과장하지 않는다.",
+    "scopeEn": "ANES96 and Political Democracy, numeric reproduction and meaningful detail without causal overclaims.",
+    "version": "0.7-review",
+    "url": "/talks/pele-social-science/code/",
+    "sha256": "e064ca7fdae62690a4d2e65e0fe797c6d0b4f727b51893e1574ba5de17e77222",
+    "sourceArtifact": "evidence-studio/figures.json",
+    "variants": [
+      {
+        "id": "chi3",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "chi7",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "welch",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "paired",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "pearson",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "spearman",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "reg-ols",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "reg-hc3",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "anova-welch",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "anova-classic",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "two-classic",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "two-hc3",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "mod-classic",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "mod-hc3",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "med-mc",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "med-delta",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "sem-full",
+        "profile": null,
+        "type": null
+      },
+      {
+        "id": "sem-reduced",
+        "profile": null,
+        "type": null
+      }
+    ],
+    "screenReview": "historical-only"
+  }
+]

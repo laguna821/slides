@@ -1,0 +1,31 @@
+{
+  "version": "0.8.0-review",
+  "date": "2026-10-20",
+  "scope": "Web reading and portrait HTML; no A4 portfolio PDF. Poster outputs belong only in Poster-Design.",
+  "research": [
+    "research:rr-606be5ae96fe05d2dea4e2d1aea6a0df:c5c8f51a50c4acafaedfd8e92eb3f704d77fff739936f79870d517013cbf5946",
+    "research:rr-8446b33666e0da1cd3b95373b4a4566b:582ff119a1c86eac8f393a4a30bbd7e3450b1d1fcc238488bb3ccc84a870592a",
+    "research:rr-91bceb19e95f7a01fba18f3fddd6b723:f36c0fbfddb4cf048183bbc824361f0a6956109d21abdfb4d3747e3f08b04853",
+    "research:rr-e89c576822c092445cee14b43ffbf355:8dc15e828db11b1a08472706ac6bc83fca4095438b68338de6bf3cddc7a80c34"
+  ],
+  "files": {
+    "comparison.json": "fd35cc059b9974dbb0612310aa032eed45673afff0bb663e915d4bff3c5e8213",
+    "editorial.json": "c35d29d383e331d512fb6805b39fe7eaea5dc1d9f0383f32f04766d62325b524",
+    "history.json": "328db1ee7af0ce52abb8cd714e5abd303b0e111c27cecec956b05ea0eb89a30f"
+  },
+  "baseline": {
+    "baselineCompilerSha256": "59ab050a188d5afe1471a15ce9f633dc3b9b0b9e3be4fe9e61454989fd44447a",
+    "sourceFixtureSha256": "9407b6bef1f64f2d8b8351e38746ececee02cba307aaef6441a50d994cca567c",
+    "scope": "Same registered computation and view states; display labels translated; not a change to an existing deck; native replacement is explicitly counted per state, not per recipe. Authored SVG is not Pele output.",
+    "version": "0.8.0-review",
+    "pele": {
+      "version": "1.6.0",
+      "sha256": "d1ebc1889f3069d7759fe5db34c4ad4b4823285edbee2b537d0ef3d505a76d8d"
+    }
+  },
+  "limitations": [
+    "Only four numeric comparison states currently use native Pele SVG; other states explicitly retain authored geometry.",
+    "Historical experiments are links with provenance, not fresh browser passes.",
+    "No new statistical recomputation or physical device/print verification is claimed."
+  ]
+}

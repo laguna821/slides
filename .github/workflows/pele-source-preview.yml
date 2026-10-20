@@ -1,7 +1,7 @@
 name: Prepare Pele source preview
 on:
   push:
-    branches: [pele-statistics-source-guide]
+    branches: [pele-statistics-source-guide, pele-atlas-editorial]
   workflow_dispatch:
 permissions:
   contents: read

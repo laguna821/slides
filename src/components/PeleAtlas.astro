@@ -1,0 +1,42 @@
+---
+import '../styles/pele-atlas.css';
+import editorial from '../../public/pele-atlas/editorial.json';
+---
+<section class="page-intro page-gutter" data-slide-exempt>
+ <div class="crumb"><a href="/talks/pele-atlas/">상세 소개</a><span>/</span><span>PELE / EDITORIAL ATLAS</span></div>
+ <span class="eyebrow">SAME DATA · DIFFERENT READING</span>
+ <h1>그림을 넘어,<br/>읽히는 구조로.</h1>
+ <p class="intro-text">18종의 같은 데이터·47개 상태를 비교하고, 글·표·도식을 결합한 여섯 편의 세로형 웹 예시를 살펴봅니다.</p>
+ <p class="atlas-scope">Pele 기본 SVG, 별도 SVG, 계산, HTML 동작의 기여를 구분합니다. 기존 실험은 당시의 버전과 검증 범위를 함께 연결합니다.</p>
+</section>
+<section class="page-gutter atlas-root" data-pele-atlas>
+ <nav class="atlas-tabs" aria-label="예시 모음">
+  <button type="button" data-section="editorial" aria-pressed="true">글·표·도식</button>
+  <button type="button" data-section="comparison" aria-pressed="false">기존 18종 비교</button>
+  <button type="button" data-section="history" aria-pressed="false">실험 아카이브</button>
+ </nav>
+ <div class="atlas-tools">
+  <label><span data-case-label>예시 선택</span><select data-case><option>불러오는 중</option></select></label>
+  <label data-state-wrap hidden><span data-state-label>같은 상태</span><select data-state></select></label>
+  <button type="button" data-portrait aria-pressed="false">세로형 보기</button>
+  <button type="button" data-zoom aria-pressed="false">도식 확대</button>
+  <button type="button" data-popup aria-pressed="false">상세 팝업</button>
+ </div>
+ <p class="atlas-status" role="status" data-atlas-status>데이터를 불러옵니다. JavaScript 없이도 아래 원본 실험과 제작 코드를 열 수 있습니다.</p>
+ <article class="atlas-sheet" data-sheet>
+  <header class="sheet-heading"><p class="eyebrow" data-purpose>EDITORIAL STUDIES</p><h2 data-title>같은 자료를, 목적에 맞는 읽기 순서로.</h2><p class="sheet-message" data-message>수치와 관계를 보존하면서 개요·세부 도식·해설을 함께 읽습니다.</p></header>
+  <div data-editorial></div>
+  <div class="atlas-comparison" data-comparison hidden>
+   <figure><figcaption data-baseline-label>기존 표현</figcaption><div class="atlas-viewport"><div data-baseline></div></div></figure>
+   <figure><figcaption data-candidate-label>새 표현 · 제작 기여 표시</figcaption><div class="atlas-viewport"><div data-candidate></div></div><p class="atlas-credit" data-credit></p></figure>
+  </div>
+  <div data-history hidden></div>
+  <section class="atlas-inspector" data-inspector hidden><div><p class="eyebrow">SELECT / INSPECT</p><h3 data-detail-title></h3><div data-detail></div></div><div class="atlas-list" data-record-list></div></section>
+  <details class="atlas-source" data-source-wrap><summary>원문과 제작 기여</summary><p data-source-note></p><pre tabindex="0"><code data-source></code></pre></details>
+  <p class="atlas-footnote" data-footnote></p>
+ </article>
+ <dialog data-atlas-dialog><button type="button" data-dialog-close>닫기</button><h2 data-modal-title></h2><div data-modal-body></div></dialog>
+ <noscript><p>동적 비교에는 JavaScript가 필요합니다. 아래 원본 실험은 별도로 열 수 있습니다.</p><figure class="atlas-viewport"><div set:html={editorial[0].svg}/></figure><div class="atlas-table-wrap"><table><thead><tr>{editorial[0].table.headers.map(h=><th>{h}</th>)}</tr></thead><tbody>{editorial[0].table.rows.map(r=><tr>{r.map(v=><td>{v}</td>)}</tr>)}</tbody></table></div></noscript>
+ <div class="atlas-related"><a href="/talks/pele-social-science/code/">사회과학 9개 분석군·18장 제작 코드 ↗</a><a href="https://pele.run/">Pele 공식 소개·문법 ↗</a><a href="https://github.com/laguna821/Achmage-Skills/tree/main/Poster-Design">포스터 스킬과 인쇄 예시 ↗</a></div>
+</section>
+<script>import '../scripts/pele-atlas';</script>
