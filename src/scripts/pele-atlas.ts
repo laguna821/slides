@@ -36,6 +36,7 @@ if(atlasElement){
   }
  }
  function active(){
+  $('[data-static-fallback]').hidden=true;
   diagrams.clear();selected='';$('[data-inspector]').hidden=section!=='comparison';$('[data-state-wrap]').hidden=section!=='comparison';$('[data-comparison]').hidden=section!=='comparison';$('[data-editorial]').hidden=section!=='editorial';$('[data-history]').hidden=section!=='history';$('[data-source-wrap]').hidden=section==='history';
   selection.disabled=section==='history';$('[data-portrait]').hidden=section==='history';$('[data-popup]').hidden=section!=='comparison';$('[data-zoom]').hidden=section==='history';
   if(section==='editorial'){
