@@ -5,10 +5,11 @@ const atlas=JSON.parse(fs.readFileSync('public/pele-atlas/comparison.json','utf8
 test('Atlas preserves every original numeric record across the 47 shared states',()=>{
  assert.equal(atlas.models.length,18);
  assert.equal(atlas.models.reduce((n:number,m:any)=>n+Object.keys(m.compiled.scenes).length,0),47);
- const numeric=(o:any):any=>Array.isArray(o)?o.map(numeric):o&&typeof o==='object'?Object.fromEntries(Object.entries(o).filter(([k,v])=>typeof v==='number'||Array.isArray(v)||k==='id').map(([k,v])=>[k,numeric(v)])):o;
+ const numeric=(o:any):any=>Array.isArray(o)?o.map(numeric):o&&typeof o==='object'?Object.fromEntries(Object.entries(o).filter(([k,v])=>k!=='sourceIndex'&&(typeof v==='number'||Array.isArray(v)||k==='id')).map(([k,v])=>[k,numeric(v)])):o;
  for(const m of atlas.models){
   assert.deepEqual(numeric(m.input.records),numeric(m.sourceRecords),m.id+' source values');
   assert.deepEqual(numeric(m.compiled.records),numeric(m.sourceRecords),m.id+' compiled values');
+  for(const r of m.compiled.records)if('sourceIndex' in r)assert.equal(r.sourceIndex,m.sourceRecords.findIndex((x:any)=>x.id===r.id)+1,'Derived source-row index');
   const ids=new Set(m.sourceRecords.map((r:any)=>r.id));
   assert.deepEqual(Object.keys(m.candidate).sort(),Object.keys(m.compiled.scenes).sort(),m.id+' states');
   for(const [key,scene]of Object.entries<any>(m.compiled.scenes)){
