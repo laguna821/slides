@@ -1,9 +1,17 @@
 name: Validate studio release
 on:
   push:
+    branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+permissions:
+  contents: read
+concurrency:
+  group: studio-release-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 jobs:
   studio-validation:
+    if: github.event_name == 'push' || github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
