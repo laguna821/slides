@@ -35,7 +35,7 @@ import editorial from '../../public/pele-atlas/editorial.json';
   <details class="atlas-source" data-source-wrap><summary>원문과 제작 기여</summary><p data-source-note></p><pre tabindex="0"><code data-source></code></pre></details>
   <p class="atlas-footnote" data-footnote></p>
  </article>
- <dialog data-atlas-dialog><button type="button" data-dialog-close>닫기</button><h2 data-modal-title></h2><div data-modal-body></div></dialog>
+ <dialog data-atlas-dialog aria-labelledby="atlas-modal-title"><button type="button" data-dialog-close>닫기</button><h2 id="atlas-modal-title" data-modal-title></h2><div data-modal-body></div></dialog>
  <section data-static-fallback><p>동적 비교에는 JavaScript가 필요합니다. 아래 원본 실험은 별도로 열 수 있습니다.</p><figure class="atlas-viewport"><div set:html={editorial[0].svg}/></figure><div class="atlas-table-wrap"><table><thead><tr>{editorial[0].table.headers.map(h=><th>{h}</th>)}</tr></thead><tbody>{editorial[0].table.rows.map(r=><tr>{r.map(v=><td>{v}</td>)}</tr>)}</tbody></table></div></section>
  <div class="atlas-related"><a href="/talks/pele-social-science/code/">사회과학 9개 분석군·18장 제작 코드 ↗</a><a href="https://pele.run/">Pele 공식 소개·문법 ↗</a><a href="https://github.com/laguna821/Achmage-Skills/tree/main/Poster-Design">포스터 스킬과 인쇄 예시 ↗</a></div>
 </section>

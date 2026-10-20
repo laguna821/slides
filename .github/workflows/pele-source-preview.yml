@@ -18,6 +18,8 @@ jobs:
       - run: npm run build:source
       - run: npm run check
       - run: npm test
+      - name: Prepare web deployment files
+        run: npx tsx scripts/build-web.ts --write-redirects
       - name: Collect missing translations
         if: always()
         run: npx tsx scripts/report-missing-translations.ts
@@ -43,4 +45,5 @@ jobs:
             !dist/**/*.mov
             src/generated/
             validation/atlas-diagnostics/
+            web-dist/
           include-hidden-files: false
