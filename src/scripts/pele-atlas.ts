@@ -13,7 +13,9 @@ if(atlasElement){
   diagrams.add(target);const shadow=target.shadowRoot||target.attachShadow({mode:'open'});
   shadow.innerHTML='<style>:host{display:block;font-family:inherit}svg{display:block;width:100%;height:auto;max-width:none;--pele-bg:#fff;--pele-fg:#16334a;--pele-surface:#eff5f5;--pele-line:#526573;--pele-border:#7295a5;--pele-node:#eff5f5;--pele-font:"Achmage SameTone"}svg text{font-family:"Achmage SameTone",sans-serif}[data-key]{cursor:pointer}[data-key].selected{filter:drop-shadow(0 0 2px #087f7b)}[data-key].selected :is(rect,circle,path,polygon){stroke:#087f7b;stroke-width:3}svg [data-key].selected text{stroke:none}[data-key]:focus{outline:3px solid #087f7b;outline-offset:3px}svg[role=group]{overflow:visible}</style>'+svg;
   const s=shadow.querySelector('svg')!;if(interactive){s.setAttribute('role','group');for(const mark of shadow.querySelectorAll<SVGElement>('[data-key]')){mark.setAttribute('role','button');mark.setAttribute('tabindex','-1');mark.addEventListener('click',()=>inspect(mark.dataset.key!,target));}}
-  target.tabIndex=-1;target.style.width=zoom?'1100px':'100%';
+  const natural=Number(s.getAttribute('viewBox')?.trim().split(/[ ,]+/)[2])||900;
+  target.dataset.naturalWidth=String(Math.max(900,natural));
+  target.tabIndex=-1;target.style.width=zoom?target.dataset.naturalWidth+'px':'100%';
  }
  function table(spec:Json){
   const wrap=node('div');wrap.className='atlas-table-wrap';const table=node('table'),head=node('thead'),tr=node('tr');
@@ -76,7 +78,7 @@ if(atlasElement){
  language();selection.addEventListener('change',()=>{stateOptions();active();});states.addEventListener('change',active);
  for(const b of root.querySelectorAll<HTMLButtonElement>('[data-section]'))b.addEventListener('click',()=>{section=b.dataset.section!;for(const x of root.querySelectorAll('[data-section]'))x.setAttribute('aria-pressed',String(x===b));populate();});
  $('[data-portrait]').addEventListener('click',()=>{root.dataset.portrait=String(root.dataset.portrait!=='true');$('[data-portrait]').setAttribute('aria-pressed',root.dataset.portrait);active();});
- $('[data-zoom]').addEventListener('click',()=>{zoom=!zoom;$('[data-zoom]').setAttribute('aria-pressed',String(zoom));for(const d of diagrams)d.style.width=zoom?'1100px':'100%';});
+ $('[data-zoom]').addEventListener('click',()=>{zoom=!zoom;$('[data-zoom]').setAttribute('aria-pressed',String(zoom));for(const d of diagrams)d.style.width=zoom?d.dataset.naturalWidth+'px':'100%';});
  $('[data-popup]').addEventListener('click',()=>{const b=$('[data-popup]');b.setAttribute('aria-pressed',String(b.getAttribute('aria-pressed')!=='true'));});
  $('[data-dialog-close]').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>lastTrigger?.focus());
  Promise.all(['/pele-atlas/comparison.json','/pele-atlas/editorial.json','/pele-atlas/history.json'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error(String(r.status));return r.json();})).then(([c,e,h])=>{comparison=c;editorial=e;history=h;const params=new URLSearchParams(location.hash.slice(1));section=['editorial','comparison','history'].includes(params.get('section')||'')?params.get('section')!:'editorial';root.dataset.portrait=params.get('portrait')==='true'?'true':'false';for(const b of root.querySelectorAll<HTMLButtonElement>('[data-section]'))b.setAttribute('aria-pressed',String(b.dataset.section===section));$('[data-portrait]').setAttribute('aria-pressed',root.dataset.portrait);populate(params.get('case')||undefined,params.get('state')||undefined);}).catch(()=>{$('[data-atlas-status]').textContent=t('예시를 불러오지 못했습니다. 연결을 확인한 뒤 새로고침하거나 아래 원본 링크를 열어 주세요.','Examples could not load. Check the connection and refresh, or open the original links below.');});
