@@ -1,4 +1,5 @@
 // Trusted, versioned static SVG compiled by the atlas producer. No user SVG or runtime renderer.
+import {fitSvgViewport} from '../lib/svg-display-bounds';
 type Json=Record<string,any>;
 const atlasElement=document.querySelector<HTMLElement>('[data-pele-atlas]');
 if(atlasElement){
@@ -16,6 +17,18 @@ if(atlasElement){
   const natural=Number(s.getAttribute('viewBox')?.trim().split(/[ ,]+/)[2])||900;
   target.dataset.naturalWidth=String(Math.max(900,natural));
   target.tabIndex=-1;target.style.width=zoom?target.dataset.naturalWidth+'px':'100%';
+  // The host font can be wider than the producer's font. Preserve the original
+  // SVG and all coordinates; fit only its displayed viewport after font loading.
+  void document.fonts.ready.then(()=>requestAnimationFrame(()=>{
+   if(!s.isConnected||shadow.querySelector('svg')!==s)return;
+   try{const v=s.viewBox.baseVal,b=s.getBBox(),f=fitSvgViewport({x:v.x,y:v.y,width:v.width,height:v.height},b);
+    if(f.x!==v.x||f.y!==v.y||f.width!==v.width||f.height!==v.height){
+     s.dataset.originalViewBox=s.getAttribute('viewBox')||'';
+     s.setAttribute('viewBox',[f.x,f.y,f.width,f.height].join(' '));s.dataset.viewportAdjusted='true';
+     target.dataset.naturalWidth=String(Math.max(900,f.width));if(zoom)target.style.width=target.dataset.naturalWidth+'px';
+    }
+   }catch{/* Hidden/replaced diagrams are checked when their next view mounts. */}
+  }));
  }
  function table(spec:Json){
   const wrap=node('div');wrap.className='atlas-table-wrap';const table=node('table'),head=node('thead'),tr=node('tr');
@@ -59,7 +72,7 @@ if(atlasElement){
    $('[data-detail-title]').textContent=t('정확한 항목에서 세부 근거까지','From exact records to the evidence');
    $('[data-detail]').replaceChildren(node('p',t('그림 또는 항목 목록을 선택하면 실제 원자료·단위·조건을 확인할 수 있습니다. 필터로 숨겨진 항목도 원자료 목록에는 남습니다.','Select a mark or record to inspect actual source values, units and conditions. Filtered records remain available in the exact source list.')));
    $('[data-source]').textContent=v.source||JSON.stringify({input:m.input,view:states.value,rows:s.rows,summary:s.summary,note:s.note},null,2);
-   $('[data-source-note]').textContent=t('원본과 동일한 계산·전환 상태입니다. Pele SVG가 아닌 상태는 원래 SVG 기하를 유지하며 HTML 선택과 편집을 적용했습니다. 전체 교체나 절감률을 주장하지 않습니다.','Uses the same calculation and view states. Non-Pele states preserve the original SVG geometry with HTML selection and editorial styling. This does not claim full replacement or a savings ratio.');
+   $('[data-source-note]').textContent=t('원본과 동일한 계산·전환 상태입니다. Pele SVG가 아닌 상태는 원래 SVG 기하를 유지하며 HTML 선택과 편집을 적용했습니다. 글꼴 실측 후 표시 영역만 확장할 수 있으며 원문 좌표·수치는 바꾸지 않습니다. 전체 교체나 절감률을 주장하지 않습니다.','Uses the same calculation and view states. Non-Pele states preserve the original SVG geometry with HTML selection and editorial styling. The display viewport may expand after font measurement; source coordinates and values remain unchanged. This does not claim full replacement or a savings ratio.');
    $('[data-footnote]').textContent=t('가상 시연 자료 · 원자료 해시 ','Synthetic demonstration · source input hash ')+m.originalInputHash;
   }else{
    $('[data-title]').textContent=t('한 번의 성공보다, 축적된 실험의 범위','The scope of accumulated experiments');$('[data-message]').textContent=t('서로 다른 과제와 변형을 구분하고, 당시 결과의 한계를 남깁니다.','Distinguish tasks from variants and retain the limits of the original findings.');$('[data-purpose]').textContent='RESEARCH / PROVENANCE';
