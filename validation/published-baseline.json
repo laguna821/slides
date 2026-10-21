@@ -1,6 +1,6 @@
 {
-  "commit": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
-  "verifiedAt": "2026-10-21T12:53:44.115435+00:00",
+  "commit": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
+  "verifiedAt": "2026-10-21T13:14:04.795870+00:00",
   "sourceFiles": {
     ".gitattributes": "53d868d2c3a9136bdbfe213fa014867e742de042eed72cd74e77a77dd842b680",
     ".github/workflows/pele-source-preview.yml": "0fe99007faa9afdbfb41b52aa27002b643398f5d8d40f679047cf916ba729fa8",
@@ -21,7 +21,7 @@
     "content/editorial/survey-scale-intro-2026-10-13.json": "815d80e938d4bf8ff3b1de15e512e1cb34b5c21e89f01bd6468dc6858179d49e",
     "content/editorial/survey-scale-intro-2026-10-13.md": "339dd7702126028edb3b344acd6b9cfb0d635874b1c817e8c1fbb10427de09d7",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
-    "content/i18n/en.json": "bdf5465c8c5e7e14a895ccb13093decfa5ebc7c7817e016cfa7e3eb37a1362a5",
+    "content/i18n/en.json": "e6ef622b629e7b4d74e22e742f963468153791a491e11c80e8d8237945de315b",
     "content/i18n/figure-manifest.json": "3b89dbf0654d64e14296d6fb61e1b625e5d667210eec53ab90fb49c7c80fdda6",
     "content/i18n/figure-strings.json": "baf483d35c0cd0a1c80d6636ae77ad453422cb9f6e4188f98ee4f862b4eca682",
     "content/i18n/figures.json": "a0eb2f83e9df86f217c61ff3f2b4f541d306c85116e647263a92cc063ec10a63",
@@ -47,7 +47,7 @@
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "content/web-assets.json": "047ab97a8ab92e24d23552f33e05271c51035f87e2a46394c1c1b8ea9583c2a8",
     "content/web-source-only.json": "713ea786b5f0d1bc04acb0bc06ac73e6ba9756cbdae6e451ff9c507a66cc6653",
-    "content/works.json": "e65daf6caf60abfb908b3be088d76fe5381f5100c91c3e14442fbcba9d8556dd",
+    "content/works.json": "928c7a52ec96b17d1e00a30ea3ab590b99bc8e9ca5f4a9ba39e0e0db53557029",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
@@ -91,7 +91,7 @@
     "docs/image-prompts.json": "2bebf318139125661d9c41b08fe0f7fb74a6437d763d3588ba874c0514de1455",
     "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
     "docs/media-colloquium-provenance.json": "6aafa2bed65d26118aeb728a19d9ccfb1709e8101bc2771a57202bdf7fdbfe15",
-    "docs/pele-atlas-provenance.json": "4588ddd6234cd5953e4442a29bfb031a7a8ecbd727010bbf6327bf0a05b6cc7d",
+    "docs/pele-atlas-provenance.json": "66eb8ed62c7430e2c890b0fdcf414118da6ab4a6ccc3df0049b1882c6a843171",
     "docs/pele-engine-pin.json": "b63a384b659ebb814d627538d3dcf5ef931106e3ace60489c40e5dd32fbbc343",
     "docs/pele-social-science-provenance.json": "d9407ade151e39300851f80cf2d7c403353febc409fa3573634d0d583299c92b",
     "docs/pele-versions.json": "5d3d5b66de74ed99a08e8481ff527f1b2f4aeb60379eef4297fa25769a3626e0",
@@ -619,36 +619,36 @@
     "vercel.json": "14aa1705480ef0bff2da726fae45cd36633ebb6ec4874f7adf4433e89294d87a"
   },
   "evidence": {
-    "headSha": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
+    "headSha": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
     "runs": [
       {
-        "id": 39553708473,
+        "id": 39605748832,
         "name": "pages build and deployment",
         "status": "completed",
         "conclusion": "failure",
-        "headSha": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
-        "url": "https://github.com/laguna821/slides/actions/runs/39553708473"
+        "headSha": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
+        "url": "https://github.com/laguna821/slides/actions/runs/39605748832"
       },
       {
-        "id": 39553708536,
+        "id": 39605749290,
         "name": "Validate studio release",
         "status": "completed",
         "conclusion": "success",
-        "headSha": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
-        "url": "https://github.com/laguna821/slides/actions/runs/39553708536"
+        "headSha": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
+        "url": "https://github.com/laguna821/slides/actions/runs/39605749290"
       }
     ],
     "deployments": [
       {
-        "id": 7219129314,
-        "sha": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
+        "id": 7226991825,
+        "sha": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
         "environment": "Production",
         "statuses": [
           {
             "state": "success",
-            "environment_url": "https://slides-bthqj8beh-laguna821s-projects.vercel.app",
-            "log_url": "https://slides-bthqj8beh-laguna821s-projects.vercel.app",
-            "created_at": "2026-10-21T06:11:50Z"
+            "environment_url": "https://slides-d31m50sa8-laguna821s-projects.vercel.app",
+            "log_url": "https://slides-d31m50sa8-laguna821s-projects.vercel.app",
+            "created_at": "2026-10-21T13:13:27Z"
           }
         ]
       }

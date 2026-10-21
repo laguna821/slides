@@ -6,7 +6,7 @@
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
 - 변경 파일: 6개
-- 배포 입력 해시: `922bad59caa13fa3459fd93e655f3dcfa5b089ec4955b35d296e41bb02089a7a`
+- 배포 입력 해시: `8b9dd3b0610323bbed397d5da895dcd364d8621e4e08407efc3bf3c5088dbe16`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
@@ -21,7 +21,7 @@
 
 ## 확인할 결과
 
-- Pele · 글·표·도식 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
+- Pele · 전체 도식 검토실과 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
 - Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함
 - 설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠? · 한국어 `/talks/survey-scale-intro-2026-10-13/` · 영어 `/en/talks/survey-scale-intro-2026-10-13/` · 양언어 웹 읽기/Markdown 포함

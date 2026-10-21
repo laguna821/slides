@@ -2,9 +2,9 @@
   "version": 1,
   "status": "approved",
   "policyVersion": "6.3.1",
-  "digest": "922bad59caa13fa3459fd93e655f3dcfa5b089ec4955b35d296e41bb02089a7a",
-  "reviewHash": "0c8c3476835bf20a7e04e63acef2a69fe5391d8fb1f8455a75f9cf0a6197bea8",
-  "baselineCommit": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
+  "digest": "8b9dd3b0610323bbed397d5da895dcd364d8621e4e08407efc3bf3c5088dbe16",
+  "reviewHash": "0cd39e9bb41ce4e5f401eaedc162d038d1402dec9a8a1bc12ffdda3865777052",
+  "baselineCommit": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
   "changedFiles": [
     "content/i18n/en.json",
     "content/media.json",
@@ -33,7 +33,7 @@
   "works": [
     {
       "id": "pele-atlas",
-      "title": "Pele · 글·표·도식 아틀라스",
+      "title": "Pele · 전체 도식 검토실과 아틀라스",
       "ko": "/talks/pele-atlas/",
       "en": "/en/talks/pele-atlas/",
       "reader": false

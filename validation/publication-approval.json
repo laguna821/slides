@@ -3,13 +3,13 @@
   "status": "approved",
   "scope": "portfolio-production",
   "policyVersion": "6.3.1",
-  "digest": "922bad59caa13fa3459fd93e655f3dcfa5b089ec4955b35d296e41bb02089a7a",
-  "reviewHash": "0c8c3476835bf20a7e04e63acef2a69fe5391d8fb1f8455a75f9cf0a6197bea8",
+  "digest": "8b9dd3b0610323bbed397d5da895dcd364d8621e4e08407efc3bf3c5088dbe16",
+  "reviewHash": "0cd39e9bb41ce4e5f401eaedc162d038d1402dec9a8a1bc12ffdda3865777052",
   "decision": {
     "by": "user",
     "quote": "영상 180초짜리 새로 완성한것만 링크 따서 내 포트폴리오 웹사이트에 업로드 작업 - 승인 물어보지 말고 공개 게시까지 쭉 진행",
     "sessionId": "01a10afc-c367-7481-b617-1445fee5a4be",
-    "at": "2026-10-21T13:06:05.578Z",
+    "at": "2026-10-21T13:16:42.585Z",
     "authorizationKind": "explicit-production-instruction",
     "note": "Current task explicitly authorizes publication without another preview approval. Timestamp records binding that instruction to the completed reviewed digest; it does not claim a new user statement or aesthetic review."
   }
