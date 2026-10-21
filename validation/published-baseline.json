@@ -1,6 +1,6 @@
 {
-  "commit": "1ca9cd206324a7ec10e5389d1c7aadbcfef063d5",
-  "verifiedAt": "2026-10-21T05:57:13.226Z",
+  "commit": "25f54f4fe98973d81dad7e4be041c5f0ca044bd1",
+  "verifiedAt": "2026-10-21T13:15:23.645125+00:00",
   "sourceFiles": {
     ".gitattributes": "53d868d2c3a9136bdbfe213fa014867e742de042eed72cd74e77a77dd842b680",
     ".github/workflows/pele-source-preview.yml": "0fe99007faa9afdbfb41b52aa27002b643398f5d8d40f679047cf916ba729fa8",
@@ -21,13 +21,13 @@
     "content/editorial/survey-scale-intro-2026-10-13.json": "815d80e938d4bf8ff3b1de15e512e1cb34b5c21e89f01bd6468dc6858179d49e",
     "content/editorial/survey-scale-intro-2026-10-13.md": "339dd7702126028edb3b344acd6b9cfb0d635874b1c817e8c1fbb10427de09d7",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
-    "content/i18n/en.json": "667ade9fc0f1a9fb33f989c0c92a0f1f810935bcbc4ed7891a057cc92b2d1175",
+    "content/i18n/en.json": "e6ef622b629e7b4d74e22e742f963468153791a491e11c80e8d8237945de315b",
     "content/i18n/figure-manifest.json": "3b89dbf0654d64e14296d6fb61e1b625e5d667210eec53ab90fb49c7c80fdda6",
     "content/i18n/figure-strings.json": "baf483d35c0cd0a1c80d6636ae77ad453422cb9f6e4188f98ee4f862b4eca682",
     "content/i18n/figures.json": "a0eb2f83e9df86f217c61ff3f2b4f541d306c85116e647263a92cc063ec10a63",
     "content/i18n/print-manifest.json": "9a77a5766547d66a9c1231edefd31601f0a119cf6e095c9d6e3e591b110086a0",
     "content/legacy.json": "d9317c659cc601b29422283af06ce0f75de36cef8bd0d589364159f9396405c1",
-    "content/media.json": "fafd250daa67e027b9ec991b0b8e0dacf2fd3e1445fce86c7d6c32e00e7bc453",
+    "content/media.json": "40fc9b543ceedf36e2e8bf7f03d5a98fe5ade0af741de6a1294b486e31b136af",
     "content/pele-examples.json": "820ae19070b4d235cdf781cb4767f3cda7ce873de78a134f676ec99e0efd5c76",
     "content/presenter-notes.json": "bce46551992bd318326e4e9218bab8235dc3eaa13b14459ae59fe8c5c49e3aa5",
     "content/print-manifest.json": "0b1be8fecff95bde2828809b861ddca459a7b55d33f319b0a6c6abb6c878bf1e",
@@ -45,9 +45,9 @@
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
     "content/site-policy.json": "9f7db5a3f0bbcda52024e4f8b3669b8ffe2a122e233ec7650d74a13a49503e58",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/web-assets.json": "9866ef16cdebc92bd9b6d7a1c66a260c45d2a110ac6bde1e8e5a68f455094df8",
+    "content/web-assets.json": "047ab97a8ab92e24d23552f33e05271c51035f87e2a46394c1c1b8ea9583c2a8",
     "content/web-source-only.json": "713ea786b5f0d1bc04acb0bc06ac73e6ba9756cbdae6e451ff9c507a66cc6653",
-    "content/works.json": "d6b0ce94db8258216873847735b38979ed1de2661e070dedc8b0246582fb63ff",
+    "content/works.json": "928c7a52ec96b17d1e00a30ea3ab590b99bc8e9ca5f4a9ba39e0e0db53557029",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
@@ -91,7 +91,7 @@
     "docs/image-prompts.json": "2bebf318139125661d9c41b08fe0f7fb74a6437d763d3588ba874c0514de1455",
     "docs/logo-process.json": "72c7ec341b3810ca62d66ed48e7d4b5069c1a4793c6d5b8de0cb2ef51267bf3f",
     "docs/media-colloquium-provenance.json": "6aafa2bed65d26118aeb728a19d9ccfb1709e8101bc2771a57202bdf7fdbfe15",
-    "docs/pele-atlas-provenance.json": "4588ddd6234cd5953e4442a29bfb031a7a8ecbd727010bbf6327bf0a05b6cc7d",
+    "docs/pele-atlas-provenance.json": "66eb8ed62c7430e2c890b0fdcf414118da6ab4a6ccc3df0049b1882c6a843171",
     "docs/pele-engine-pin.json": "b63a384b659ebb814d627538d3dcf5ef931106e3ace60489c40e5dd32fbbc343",
     "docs/pele-social-science-provenance.json": "d9407ade151e39300851f80cf2d7c403353febc409fa3573634d0d583299c92b",
     "docs/pele-versions.json": "5d3d5b66de74ed99a08e8481ff527f1b2f4aeb60379eef4297fa25769a3626e0",
@@ -237,6 +237,7 @@
     "public/images/flight.webp": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
     "public/images/grandeur.webp": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
     "public/images/human-reading-writing.webp": "4f6acaf6be084d82fdb76b471ebeff88da719d087c4eda9b218abc489b71759b",
+    "public/images/light-memory.png": "3e28357ed6a76a97c0f78b0734a05b54aa28fc7b0293b068c5d8d0013e65de89",
     "public/images/meal.webp": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
     "public/images/media-colloquium-2026-06-10.webp": "f4326965fa23ad99e83c64ed3ab804d3af0d58f42e60aee07dbed7c5ffbea4d4",
     "public/images/pedal.webp": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
@@ -247,6 +248,7 @@
     "public/images/studio-frame.webp": "e58371a02188f2a5c79a1c397b57885f8c8607178f36e4fc04298947ddf75374",
     "public/images/studio-paper.webp": "b7190b2a025ff8a8917b9e11850241544e10fe21b64dade0333774c18e79433e",
     "public/images/survey-scale-intro-2026-10-13.webp": "ee1f71b4670544117f47c69fa258141becea31e4e05be7379fa0a8ac794f761b",
+    "public/images/tailoring-director.png": "863a3cff1ef3db225d5ff885c27477907d7482498e1176444915fd6c0207f7c8",
     "public/images/water.webp": "269ebf574eb564d75e0ac711f038c38fbad1e6940e77e50b02679ae58b1f4333",
     "public/pele-atlas/comparison.json": "fd35cc059b9974dbb0612310aa032eed45673afff0bb663e915d4bff3c5e8213",
     "public/pele-atlas/editorial.json": "4df9feabb8f5c494d414a4f5818a3fdaff6b637e4f99369c2830de343e0975d7",
@@ -614,21 +616,9 @@
     "tests/web-assets.test.ts": "77734775161dd240c7d600eb01f78f9832046fae66fdfdfc6bc73fe040f234ac",
     "tests/web-output.test.ts": "d91c73280969648fbf1ecf501e571126ae9dd5077eba0549214d6cf10062ac32",
     "tsconfig.json": "d8a3c8cbac653061b04890991a919d6bb9a1daefa810f006702007f2319dcb95",
-    "vercel.json": "ebe27cc2d210a1e4dfe16ec2b3c9185439548bdae53546642f7646c8681d9396"
+    "vercel.json": "14aa1705480ef0bff2da726fae45cd36633ebb6ec4874f7adf4433e89294d87a"
   },
-  "evidence": {
-    "commit": "1ca9cd206324a7ec10e5389d1c7aadbcfef063d5",
-    "environment": "Production",
-    "deploymentId": 7198481310,
-    "status": "success",
-    "statusAt": "2026-10-20T11:27:53Z",
-    "observedAt": "2026-10-21T05:57:13.226Z",
-    "source": "https://api.github.com/repos/laguna821/slides/deployments/7198481310/statuses",
-    "publicMotion": {
-      "url": "https://achmage-slides.vercel.app/motion/",
-      "status": 200,
-      "newFilmsAbsent": true
-    },
-    "limitation": "Deployment-specific URL is authentication protected and was not treated as a reviewed preview."
-  }
+  "url": "https://achmage-slides.vercel.app",
+  "pullRequest": "https://github.com/laguna821/slides/pull/26",
+  "deployment": "https://vercel.com/laguna821s-projects/slides/DbPTNjLZdJQaSsmsNcc6EtphLnkZ"
 }
