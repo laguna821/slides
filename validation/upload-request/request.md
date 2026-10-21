@@ -5,8 +5,8 @@
 - 정책: 6.3.1
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 7개
-- 배포 입력 해시: `a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd`
+- 변경 파일: 6개
+- 배포 입력 해시: `922bad59caa13fa3459fd93e655f3dcfa5b089ec4955b35d296e41bb02089a7a`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
@@ -16,8 +16,7 @@
 - `content/media.json`
 - `content/web-assets.json`
 - `content/works.json`
-- `public/images/light-memory.png`
-- `public/images/tailoring-director.png`
+- `public/images/before-the-first-note.jpg`
 - `vercel.json`
 
 ## 확인할 결과
@@ -41,5 +40,6 @@
 - Achmage SameTone · 한국어 `/talks/achmage-sametone/` · 영어 `/en/talks/achmage-sametone/`
 - 한 벌의 판단 · 디렉팅 재제작 · 한국어 `/motion/tailoring-director/` · 영어 `/en/motion/tailoring-director/`
 - 빛이 기억이 되는 순간 · 한국어 `/motion/light-memory/` · 영어 `/en/motion/light-memory/`
+- 첫 음이 울리기까지 · 한국어 `/motion/before-the-first-note/` · 영어 `/en/motion/before-the-first-note/`
 
 Vercel 미리보기 주소는 해당 커밋의 배포 결과를 확인해 함께 제시합니다. 인증 보호로 확인하지 못한 항목은 미검증으로 표시합니다. 사용자 확인 후 승인 영수증을 기록하고 운영 배포·실제 응답 검증까지 진행합니다.

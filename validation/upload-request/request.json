@@ -2,16 +2,15 @@
   "version": 1,
   "status": "approved",
   "policyVersion": "6.3.1",
-  "digest": "a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd",
-  "reviewHash": "778863623650b3880f4f17e2b7953d4bfeac851e6438aa069ef079e0660e3037",
-  "baselineCommit": "1ca9cd206324a7ec10e5389d1c7aadbcfef063d5",
+  "digest": "922bad59caa13fa3459fd93e655f3dcfa5b089ec4955b35d296e41bb02089a7a",
+  "reviewHash": "0c8c3476835bf20a7e04e63acef2a69fe5391d8fb1f8455a75f9cf0a6197bea8",
+  "baselineCommit": "46bbd29667e7a8574866c0198bee8f83b38e9ddb",
   "changedFiles": [
     "content/i18n/en.json",
     "content/media.json",
     "content/web-assets.json",
     "content/works.json",
-    "public/images/light-memory.png",
-    "public/images/tailoring-director.png",
+    "public/images/before-the-first-note.jpg",
     "vercel.json"
   ],
   "requiredFont": {
@@ -163,6 +162,13 @@
       "title": "빛이 기억이 되는 순간",
       "ko": "/motion/light-memory/",
       "en": "/en/motion/light-memory/",
+      "reader": false
+    },
+    {
+      "id": "before-the-first-note",
+      "title": "첫 음이 울리기까지",
+      "ko": "/motion/before-the-first-note/",
+      "en": "/en/motion/before-the-first-note/",
       "reader": false
     }
   ],

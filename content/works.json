@@ -965,5 +965,88 @@
     ],
     "resourceIds": [],
     "provenance": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#light"
+  },
+  {
+    "id": "before-the-first-note",
+    "slug": "before-the-first-note",
+    "title": "첫 음이 울리기까지",
+    "summary": "공연은 함께 소리를 내는 순간보다, 서로의 소리를 듣는 순간에 시작된다. 준비하고 조율하며 하나의 방향을 찾는 오케스트라의 시간을 담았습니다.",
+    "date": "2026-10-21",
+    "dateKind": "registered",
+    "registeredAt": "2026-10-21",
+    "kind": "motion",
+    "topics": [
+      "실사 + 그래픽",
+      "클래식 음악",
+      "모션 실험"
+    ],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/before-the-first-note.jpg",
+    "posterAlt": "첼로 받침봉을 조절하며 연주를 준비하는 손",
+    "body": "공연은 함께 소리를 내는 순간보다, 서로의 소리를 듣는 순간에 시작된다. 준비하고 조율하며 하나의 방향을 찾는 오케스트라의 시간을 담았습니다.\n\n180초 · 36컷. 실제 촬영 자료와 직접 그린 악기·악보·무대 그래픽을 연결한 모션 에세이입니다. 음악은 Musopen Symphony의 모차르트 교향곡 40번 1악장 녹음을 편집했습니다.\n\n여러 출처의 촬영 자료를 재구성했습니다. 특정 악단의 공연 기록이나 화면 속 연주와 녹음이 동기화된 영상은 아닙니다.",
+    "productionNote": "180초 · 36컷. 실제 촬영 자료와 직접 그린 악기·악보·무대 그래픽을 연결한 모션 에세이입니다. 음악은 Musopen Symphony의 모차르트 교향곡 40번 1악장 녹음을 편집했습니다. 여러 출처의 촬영 자료를 재구성했습니다. 특정 악단의 공연 기록이나 화면 속 연주와 녹음이 동기화된 영상은 아닙니다.",
+    "artifacts": [
+      {
+        "id": "first-note-source-0",
+        "type": "link",
+        "role": "reference",
+        "url": "https://www.pexels.com/video/a-orchestra-on-stage-7097480/",
+        "label": "무대 준비 촬영",
+        "version": "2026-10-21",
+        "modes": []
+      },
+      {
+        "id": "first-note-source-1",
+        "type": "link",
+        "role": "reference",
+        "url": "https://www.pexels.com/video/a-person-holding-a-cello-8519027/",
+        "label": "첼로 준비 촬영",
+        "version": "2026-10-21",
+        "modes": []
+      },
+      {
+        "id": "first-note-source-2",
+        "type": "link",
+        "role": "reference",
+        "url": "https://www.pexels.com/video/women-reading-a-musical-sheet-7097491/",
+        "label": "악보 확인 촬영",
+        "version": "2026-10-21",
+        "modes": []
+      },
+      {
+        "id": "first-note-source-3",
+        "type": "link",
+        "role": "reference",
+        "url": "https://www.pexels.com/video/a-woman-playing-and-tuning-a-violin-7097485/",
+        "label": "바이올린 조율 촬영",
+        "version": "2026-10-21",
+        "modes": []
+      },
+      {
+        "id": "first-note-source-4",
+        "type": "link",
+        "role": "reference",
+        "url": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac",
+        "label": "음악 녹음 출처",
+        "version": "2026-10-21",
+        "modes": []
+      },
+      {
+        "id": "first-note-footage-license",
+        "type": "link",
+        "role": "reference",
+        "url": "https://www.pexels.com/license/",
+        "label": "촬영 자료 이용 조건",
+        "version": "2026-10-21",
+        "modes": []
+      }
+    ],
+    "mediaIds": [
+      "before-the-first-note-film"
+    ],
+    "resourceIds": [],
+    "provenance": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac"
   }
 ]
