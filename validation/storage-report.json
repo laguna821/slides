@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "bytes": 24974181,
-  "htmlCount": 151,
+  "bytes": 25062547,
+  "htmlCount": 155,
   "maxHtmlBytes": 791692,
   "pdfFiles": 0,
   "zipFiles": 0,
   "embeddedAssets": 0,
   "localContentImages": 0,
-  "sourceBuildBytes": 655507505,
-  "savedBytes": 630533324,
-  "redirects": 225,
-  "assetManifestHash": "047ab97a8ab92e24d23552f33e05271c51035f87e2a46394c1c1b8ea9583c2a8",
+  "sourceBuildBytes": 655630856,
+  "savedBytes": 630568309,
+  "redirects": 226,
+  "assetManifestHash": "ff77b84d4b45c147431002165c2df064f12b9b046eccee90a1d3b6d8de56b109",
   "runtimeSharing": {
     "assets": 17,
-    "removedBytes": 3198649,
+    "removedBytes": 3205873,
     "insertedBytes": 991273,
-    "rawSavingBytes": 2207376
+    "rawSavingBytes": 2214600
   },
   "codeTokenSharing": {
     "files": 38,

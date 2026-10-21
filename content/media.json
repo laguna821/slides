@@ -180,5 +180,23 @@
     "poster": "/images/light-memory.png",
     "credits": "Deep Urban — Eugenio Mininni / Mixkit. 기존 녹음 편집. 촬영 자료: Mixkit. 자료별 출처와 이용 조건은 작품 페이지에 표시합니다.",
     "external": false
+  },
+  {
+    "id": "before-the-first-note-film",
+    "workId": "before-the-first-note",
+    "title": "첫 음이 울리기까지",
+    "currentVersion": "4.1.0-2026-10-21",
+    "versions": [
+      {
+        "id": "4.1.0-2026-10-21",
+        "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792571590691-526be0ed-2358-4d97-91a7-52771066fab1.mp4",
+        "duration": 180,
+        "label": "180초 완성본",
+        "creditsUrl": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac"
+      }
+    ],
+    "poster": "/images/before-the-first-note.jpg",
+    "credits": "음악: Mozart / Musopen Symphony, 교향곡 40번 K.550 제1악장 — 퍼블릭 도메인 헌정 녹음. 촬영: cottonbro studio·Yan Krukau / Pexels. 그래픽·편집: Achmage. 개별 자료 출처는 아래 링크에 표시합니다.",
+    "external": false
   }
 ]

@@ -513,6 +513,11 @@
       "permanent": false
     },
     {
+      "source": "/images/before-the-first-note.jpg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792586609840-5e040599-79b0-4658-81cd-b9dc67d8a9be.jpeg",
+      "permanent": false
+    },
+    {
       "source": "/images/book.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893538663-358c58c9-1a20-4ba1-a8d9-3c3334aa3f57.webp",
       "permanent": false
