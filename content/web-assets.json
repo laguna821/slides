@@ -1990,6 +1990,24 @@
       "mime": "image/svg+xml",
       "kind": "image",
       "verifiedAt": "2026-10-19T15:40:16.378Z"
+    },
+    "image/png:3e28357ed6a76a97c0f78b0734a05b54aa28fc7b0293b068c5d8d0013e65de89": {
+      "sourceHash": "3e28357ed6a76a97c0f78b0734a05b54aa28fc7b0293b068c5d8d0013e65de89",
+      "sha256": "3e28357ed6a76a97c0f78b0734a05b54aa28fc7b0293b068c5d8d0013e65de89",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560186525-6d17699c-24bc-4ca6-a6a8-d5905aaada79.png",
+      "bytes": 23338,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-21T05:23:07.859Z"
+    },
+    "image/png:863a3cff1ef3db225d5ff885c27477907d7482498e1176444915fd6c0207f7c8": {
+      "sourceHash": "863a3cff1ef3db225d5ff885c27477907d7482498e1176444915fd6c0207f7c8",
+      "sha256": "863a3cff1ef3db225d5ff885c27477907d7482498e1176444915fd6c0207f7c8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560189087-577f8d84-b70d-43b0-956c-a83caf21f4ee.png",
+      "bytes": 32220,
+      "mime": "image/png",
+      "kind": "image",
+      "verifiedAt": "2026-10-21T05:23:10.570Z"
     }
   },
   "paths": {
@@ -2184,6 +2202,8 @@
     "/pele-examples/two-hc3/two-hc3.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424408020-c9704fad-c3d0-4887-9298-dc3803e687a5.svg",
     "/pele-examples/welch/slide.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424410252-4348393e-a46c-4dac-8c86-2a5520988316.png",
     "/pele-examples/welch/welch-native.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424412369-6b7e2445-6dff-497e-bbc6-9a7adfa21430.svg",
-    "/pele-examples/welch/welch.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424414558-03b3bd91-ead6-4e95-8b25-2a65b018bd27.svg"
+    "/pele-examples/welch/welch.svg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424414558-03b3bd91-ead6-4e95-8b25-2a65b018bd27.svg",
+    "/images/light-memory.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560186525-6d17699c-24bc-4ca6-a6a8-d5905aaada79.png",
+    "/images/tailoring-director.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560189087-577f8d84-b70d-43b0-956c-a83caf21f4ee.png"
   }
 }

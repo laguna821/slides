@@ -3,12 +3,12 @@
   "status": "approved",
   "scope": "portfolio-production",
   "policyVersion": "6.3.1",
-  "digest": "af470e7e9e8d4746efa7262b8165ef864a0fb81600faaf0fc6dba822509c786e",
-  "reviewHash": "5cce01c49888c48cbda43d2c1eb9573acc277bdcee64f6351387903a804822fd",
+  "digest": "a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd",
+  "reviewHash": "778863623650b3880f4f17e2b7953d4bfeac851e6438aa069ef079e0660e3037",
   "decision": {
     "by": "user",
-    "quote": "게시",
-    "sessionId": "01a14e52-5d43-7640-ba67-0fe0be640810",
-    "at": "2026-10-20T11:18:55.153621+00:00"
+    "quote": "게시하고 마저 진행해.",
+    "sessionId": "01a10afc-c367-7481-b617-1445fee5a4be",
+    "at": "2026-10-21T06:03:38.927Z"
   }
 }
