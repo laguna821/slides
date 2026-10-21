@@ -889,5 +889,81 @@
     "mediaIds": [],
     "resourceIds": [],
     "takeaways": []
+  },
+  {
+    "id": "tailoring-director",
+    "slug": "tailoring-director",
+    "title": "한 벌의 판단 · 디렉팅 재제작",
+    "summary": "주름을 읽고, 재료를 고르고, 형태를 바꾸는 과정. 실사와 직접 그린 그래픽으로 옷을 만드는 판단을 살펴봅니다.",
+    "date": "2026-10-21",
+    "dateKind": "registered",
+    "registeredAt": "2026-10-21",
+    "kind": "motion",
+    "topics": [
+      "실사 + 그래픽",
+      "기획",
+      "모션 실험"
+    ],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/tailoring-director.png",
+    "posterAlt": "실과 옷의 형태를 보여주는 한 벌의 판단 영상 장면",
+    "body": "주름을 읽고, 재료를 고르고, 형태를 바꾸는 과정. 실사와 직접 그린 그래픽으로 옷을 만드는 판단을 살펴봅니다.\n\n180초 · 27컷. Hazy After Hours의 기존 음악 편집을 유지한 디렉팅 재제작입니다. 완성 영상 검토용 습작이며 최종 미감 승인을 뜻하지 않습니다.",
+    "productionNote": "180초 · 27컷. Hazy After Hours의 기존 음악 편집을 유지한 디렉팅 재제작입니다. 완성 영상 검토용 습작이며 최종 미감 승인을 뜻하지 않습니다.",
+    "artifacts": [
+      {
+        "id": "tailoring-director-source",
+        "type": "link",
+        "role": "reference",
+        "url": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#tailoring",
+        "label": "작품 페이지 열기",
+        "version": "director-rc3-2026-10-21",
+        "modes": []
+      }
+    ],
+    "mediaIds": [
+      "tailoring-director-film"
+    ],
+    "resourceIds": [],
+    "provenance": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#tailoring"
+  },
+  {
+    "id": "light-memory",
+    "slug": "light-memory",
+    "title": "빛이 기억이 되는 순간",
+    "summary": "빛이 렌즈와 조리개, 셔터를 지나 한 장의 이미지가 되고, 그중 한 장을 고르는 시선으로 이어지는 3분 작품입니다.",
+    "date": "2026-10-21",
+    "dateKind": "registered",
+    "registeredAt": "2026-10-21",
+    "kind": "motion",
+    "topics": [
+      "실사 + 그래픽",
+      "기획",
+      "모션 실험"
+    ],
+    "visibility": "listed",
+    "seo": "noindex",
+    "status": "study",
+    "poster": "/images/light-memory.png",
+    "posterAlt": "빛과 렌즈의 관계를 그린 빛이 기억이 되는 순간 영상 장면",
+    "body": "빛이 렌즈와 조리개, 셔터를 지나 한 장의 이미지가 되고, 그중 한 장을 고르는 시선으로 이어지는 3분 작품입니다.\n\n180초 · 23컷. 정밀 그래픽과 촬영 자료를 결합한 독립 주제 시험입니다. 특정 제품의 측정 결과나 한 사진가의 연속 기록으로 표현하지 않습니다.",
+    "productionNote": "180초 · 23컷. 정밀 그래픽과 촬영 자료를 결합한 독립 주제 시험입니다. 특정 제품의 측정 결과나 한 사진가의 연속 기록으로 표현하지 않습니다.",
+    "artifacts": [
+      {
+        "id": "light-memory-source",
+        "type": "link",
+        "role": "reference",
+        "url": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#light",
+        "label": "작품 페이지 열기",
+        "version": "director-rc3-2026-10-21",
+        "modes": []
+      }
+    ],
+    "mediaIds": [
+      "light-memory-film"
+    ],
+    "resourceIds": [],
+    "provenance": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#light"
   }
 ]

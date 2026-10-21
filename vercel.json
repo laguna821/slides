@@ -543,6 +543,11 @@
       "permanent": false
     },
     {
+      "source": "/images/light-memory.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560186525-6d17699c-24bc-4ca6-a6a8-d5905aaada79.png",
+      "permanent": false
+    },
+    {
       "source": "/images/meal.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893557432-42b863d8-f63d-49b1-92d5-c173fb0939ee.webp",
       "permanent": false
@@ -590,6 +595,11 @@
     {
       "source": "/images/survey-scale-intro-2026-10-13.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791945477323-05f4c093-88f5-44a0-9816-3a745604cf5f.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/tailoring-director.png",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560189087-577f8d84-b70d-43b0-956c-a83caf21f4ee.png",
       "permanent": false
     },
     {

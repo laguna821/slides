@@ -144,5 +144,41 @@
     "poster": "/images/water.webp",
     "credits": "Achmage · 직접 제작한 SVG 모션 및 음악·효과음. 세부 제작 정보는 원본 공개 페이지에서 확인할 수 있습니다.",
     "external": false
+  },
+  {
+    "id": "tailoring-director-film",
+    "workId": "tailoring-director",
+    "title": "한 벌의 판단 · 디렉팅 재제작",
+    "currentVersion": "director-rc3-2026-10-21",
+    "versions": [
+      {
+        "id": "director-rc3-2026-10-21",
+        "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560791888-10f4ca75-957e-4600-8a0b-86e50e14683a.mp4",
+        "duration": 180,
+        "label": "검토용 완성본",
+        "creditsUrl": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#tailoring"
+      }
+    ],
+    "poster": "/images/tailoring-director.png",
+    "credits": "Hazy After Hours — Alejandro Magaña (A. M.) / Mixkit. 기존 녹음 편집. 촬영 자료: Videezy·Mixkit. Free Stock Footage by Videezy — https://www.videezy.com. 자료별 출처와 이용 조건은 작품 페이지에 표시합니다.",
+    "external": false
+  },
+  {
+    "id": "light-memory-film",
+    "workId": "light-memory",
+    "title": "빛이 기억이 되는 순간",
+    "currentVersion": "director-rc3-2026-10-21",
+    "versions": [
+      {
+        "id": "director-rc3-2026-10-21",
+        "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792560801684-4b253b58-70fc-4ce5-8e0e-a6b0c209c385.mp4",
+        "duration": 180,
+        "label": "검토용 완성본",
+        "creditsUrl": "https://one-garment-motion.achmage2.chatgpt.site/director/?v=6#light"
+      }
+    ],
+    "poster": "/images/light-memory.png",
+    "credits": "Deep Urban — Eugenio Mininni / Mixkit. 기존 녹음 편집. 촬영 자료: Mixkit. 자료별 출처와 이용 조건은 작품 페이지에 표시합니다.",
+    "external": false
   }
 ]

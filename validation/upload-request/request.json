@@ -2,33 +2,17 @@
   "version": 1,
   "status": "approved",
   "policyVersion": "6.3.1",
-  "digest": "af470e7e9e8d4746efa7262b8165ef864a0fb81600faaf0fc6dba822509c786e",
-  "reviewHash": "5cce01c49888c48cbda43d2c1eb9573acc277bdcee64f6351387903a804822fd",
-  "baselineCommit": "9c0035df3365c0059ae008f60491f3367f1a8f4a",
+  "digest": "a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd",
+  "reviewHash": "778863623650b3880f4f17e2b7953d4bfeac851e6438aa069ef079e0660e3037",
+  "baselineCommit": "1ca9cd206324a7ec10e5389d1c7aadbcfef063d5",
   "changedFiles": [
-    ".github/workflows/pele-source-preview.yml",
-    ".github/workflows/validate.yml",
     "content/i18n/en.json",
-    "content/site-policy.json",
+    "content/media.json",
+    "content/web-assets.json",
     "content/works.json",
-    "docs/PELE-ATLAS.md",
-    "docs/REMOTE-CHANGE-CONTRACT.md",
-    "docs/pele-atlas-provenance.json",
-    "public/pele-atlas/comparison.json",
-    "public/pele-atlas/editorial.json",
-    "public/pele-atlas/history.json",
-    "scripts/remote-preview.d.mts",
-    "scripts/remote-preview.mjs",
-    "scripts/report-missing-translations.ts",
-    "src/components/PeleAtlas.astro",
-    "src/lib/svg-display-bounds.ts",
-    "src/pages/talks/[slug]/index.astro",
-    "src/pages/talks/pele-atlas/explore.astro",
-    "src/scripts/pele-atlas.ts",
-    "src/styles/pele-atlas.css",
-    "tests/pele-atlas.test.ts",
-    "tests/remote-preview.test.ts",
-    "tests/svg-display-bounds.test.ts"
+    "public/images/light-memory.png",
+    "public/images/tailoring-director.png",
+    "vercel.json"
   ],
   "requiredFont": {
     "family": "Achmage SameTone",
@@ -165,6 +149,20 @@
       "title": "Achmage SameTone",
       "ko": "/talks/achmage-sametone/",
       "en": "/en/talks/achmage-sametone/",
+      "reader": false
+    },
+    {
+      "id": "tailoring-director",
+      "title": "한 벌의 판단 · 디렉팅 재제작",
+      "ko": "/motion/tailoring-director/",
+      "en": "/en/motion/tailoring-director/",
+      "reader": false
+    },
+    {
+      "id": "light-memory",
+      "title": "빛이 기억이 되는 순간",
+      "ko": "/motion/light-memory/",
+      "en": "/en/motion/light-memory/",
       "reader": false
     }
   ],

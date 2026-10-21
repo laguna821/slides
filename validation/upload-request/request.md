@@ -5,36 +5,20 @@
 - 정책: 6.3.1
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 23개
-- 배포 입력 해시: `af470e7e9e8d4746efa7262b8165ef864a0fb81600faaf0fc6dba822509c786e`
+- 변경 파일: 7개
+- 배포 입력 해시: `a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-- `.github/workflows/pele-source-preview.yml`
-- `.github/workflows/validate.yml`
 - `content/i18n/en.json`
-- `content/site-policy.json`
+- `content/media.json`
+- `content/web-assets.json`
 - `content/works.json`
-- `docs/PELE-ATLAS.md`
-- `docs/REMOTE-CHANGE-CONTRACT.md`
-- `docs/pele-atlas-provenance.json`
-- `public/pele-atlas/comparison.json`
-- `public/pele-atlas/editorial.json`
-- `public/pele-atlas/history.json`
-- `scripts/remote-preview.d.mts`
-- `scripts/remote-preview.mjs`
-- `scripts/report-missing-translations.ts`
-- `src/components/PeleAtlas.astro`
-- `src/lib/svg-display-bounds.ts`
-- `src/pages/talks/[slug]/index.astro`
-- `src/pages/talks/pele-atlas/explore.astro`
-- `src/scripts/pele-atlas.ts`
-- `src/styles/pele-atlas.css`
-- `tests/pele-atlas.test.ts`
-- `tests/remote-preview.test.ts`
-- `tests/svg-display-bounds.test.ts`
+- `public/images/light-memory.png`
+- `public/images/tailoring-director.png`
+- `vercel.json`
 
 ## 확인할 결과
 
@@ -55,5 +39,7 @@
 - 독서토론이 곧 뉴스레터다 · 한국어 `/talks/media-colloquium-2026-06-10/` · 영어 `/en/talks/media-colloquium-2026-06-10/` · 양언어 웹 읽기/Markdown 포함
 - Educational Harness Engineering · 한국어 `/talks/educational-harness-workshop-2026-07-06/` · 영어 `/en/talks/educational-harness-workshop-2026-07-06/` · 양언어 웹 읽기/Markdown 포함
 - Achmage SameTone · 한국어 `/talks/achmage-sametone/` · 영어 `/en/talks/achmage-sametone/`
+- 한 벌의 판단 · 디렉팅 재제작 · 한국어 `/motion/tailoring-director/` · 영어 `/en/motion/tailoring-director/`
+- 빛이 기억이 되는 순간 · 한국어 `/motion/light-memory/` · 영어 `/en/motion/light-memory/`
 
 Vercel 미리보기 주소는 해당 커밋의 배포 결과를 확인해 함께 제시합니다. 인증 보호로 확인하지 못한 항목은 미검증으로 표시합니다. 사용자 확인 후 승인 영수증을 기록하고 운영 배포·실제 응답 검증까지 진행합니다.
