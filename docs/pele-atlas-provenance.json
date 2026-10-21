@@ -27,5 +27,18 @@
     "Only four numeric comparison states currently use native Pele SVG; other states explicitly retain authored geometry.",
     "Historical experiments are links with provenance, not fresh browser passes.",
     "No new statistical recomputation or physical device/print verification is claimed."
-  ]
+  ],
+  "completeCollection": {
+    "date": "2026-10-21",
+    "version": "1.0.0-rc.2",
+    "siteVersion": 1,
+    "url": "https://achmage-pele-complete.achmage2.chatgpt.site",
+    "audience": "owner-only; ChatGPT sign-in required",
+    "sourceCommit": "683ce07eb235ebffefa476ed7ed0dd7f7d5d8318",
+    "groups": 39,
+    "cases": 104,
+    "browserConditions": 624,
+    "source": "research:rr-94a11c72dc917926990dfed514c020e4:6e2d9e14568f9be8d5f8552c5bc9d4b01d8cb546a61b549aaebdde8ff6b67336",
+    "scope": "External collection link and bilingual description. Historical atlas outputs unchanged."
+  }
 }

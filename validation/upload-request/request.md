@@ -1,14 +1,14 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **approved**
+상태: **awaiting-user-confirmation**
 
 - 정책: 6.3.1
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 7개
-- 배포 입력 해시: `a0604866c1c265dd238795184c97fccb1e6b66802ff952ec707aca0fc877acbd`
+- 변경 파일: 8개
+- 배포 입력 해시: `4befb4be0267af2ab5481acf890876ed8173b79b6426dffa3a4704624a5fdcff`
 - 검토: 통과
-- 사용자 확인: 현재 해시와 일치
+- 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
@@ -16,13 +16,14 @@
 - `content/media.json`
 - `content/web-assets.json`
 - `content/works.json`
+- `docs/pele-atlas-provenance.json`
 - `public/images/light-memory.png`
 - `public/images/tailoring-director.png`
 - `vercel.json`
 
 ## 확인할 결과
 
-- Pele · 글·표·도식 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
+- Pele · 전체 도식 검토실과 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
 - Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함
 - 설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠? · 한국어 `/talks/survey-scale-intro-2026-10-13/` · 영어 `/en/talks/survey-scale-intro-2026-10-13/` · 양언어 웹 읽기/Markdown 포함
