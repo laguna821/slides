@@ -1,0 +1,30 @@
+{
+  "id": "editorial-brief",
+  "label": "편집 문맥 · 의사결정 브리프",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "flowchart LR\n A[문제 정의] --> B[두 대안 비교]\n B --> C{근거 충분}\n C -->|예| D[조건부 실행]\n C -->|아니오| E[자료 보완]",
+    "title": "의사결정 브리프"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-flowchart\" viewBox=\"0 0 696 158\" width=\"696\" height=\"158\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"flowchart\" role=\"img\" aria-labelledby=\"editorial-brief-title editorial-brief-desc\"><title id=\"editorial-brief-title\">의사결정 브리프</title><desc id=\"editorial-brief-desc\">의사결정 브리프</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge\" data-id=\"L_A_B_0\"><path d=\"M110.71,79L151.71,79\"/><path class=\"pele-marker\" d=\"M158.71,79L150.71,82.36L150.71,75.64Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_B_C_0\"><path d=\"M281.46,79L322.46,79\"/><path class=\"pele-marker\" d=\"M329.46,79L321.46,82.36L321.46,75.64Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_C_D_0\"><path d=\"M455.37,71C472.02,71 472.02,33.5 488.67,33.5L562.65,33.5\"/><path class=\"pele-marker\" d=\"M569.65,33.5L561.65,36.86L561.65,30.14Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_C_E_0\"><path d=\"M455.37,87C472.02,87 472.02,124.5 488.67,124.5L562.65,124.5\"/><path class=\"pele-marker\" d=\"M569.65,124.5L561.65,127.86L561.65,121.14Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-edge-labels\" font-size=\"16\"><g class=\"pele-edge-label\" data-id=\"L_C_D_0\"><rect x=\"504.49\" y=\"21.5\" width=\"21.83\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"515.41\" y=\"39.1\" text-anchor=\"middle\">예</text></g><g class=\"pele-edge-label\" data-id=\"L_C_E_0\"><rect x=\"490.67\" y=\"112.5\" width=\"49.48\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"515.41\" y=\"130.1\" text-anchor=\"middle\">아니오</text></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-shape-rect\" data-id=\"A\" transform=\"translate(59.35,79)\"><rect x=\"-51.35\" y=\"-25.5\" width=\"102.71\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">문제 정의</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"B\" transform=\"translate(220.08,79)\"><rect x=\"-61.37\" y=\"-25.5\" width=\"122.75\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">두 대안 비교</text></g><g class=\"pele-node pele-shape-diam\" data-id=\"C\" transform=\"translate(398.81,79)\"><polygon points=\"0,-43.35 69.35,0 0,43.35 -69.35,0\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">근거 충분</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"D\" transform=\"translate(628.78,33.5)\"><rect x=\"-59.13\" y=\"-25.5\" width=\"118.27\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">조건부 실행</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"E\" transform=\"translate(621,124.5)\"><rect x=\"-51.35\" y=\"-25.5\" width=\"102.71\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">자료 보완</text></g></g></svg>",
+  "description": "같은 흐름 문법의 다른 쓰임. 별도 도표 종류로 세지 않습니다.",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "문맥": "의사결정 브리프",
+      "source": "flowchart LR\n A[문제 정의] --> B[두 대안 비교]\n B --> C{근거 충분}\n C -->|예| D[조건부 실행]\n C -->|아니오| E[자료 보완]"
+    }
+  ],
+  "diagnostics": [],
+  "tags": [
+    "편집 문맥"
+  ],
+  "kind": "flowchart",
+  "sha256": "945d397760e7756b387da3d61b021a2566876932d81fdbfce8297f081ede70f2",
+  "sourceSha256": "7c29d035a1ee0782628ca016b4427f0248bb178f21bd033a4ca1e8d94c3d2797",
+  "url": "/pele/cases/editorial-brief.json",
+  "svgUrl": "/pele/cases/editorial-brief.svg",
+  "pngUrl": null
+}

@@ -1,0 +1,329 @@
+{
+  "id": "legacy-spatial-rate",
+  "label": "총량과 비율은 다른 지도를 만든다 · 인구 100명당",
+  "type": "legacy",
+  "source": {
+    "recipe": "spatial",
+    "state": "rate",
+    "records": [
+      {
+        "id": "r1",
+        "label": "서북",
+        "value": 80,
+        "population": 400,
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            48,
+            0
+          ],
+          [
+            48,
+            45
+          ],
+          [
+            0,
+            45
+          ]
+        ]
+      },
+      {
+        "id": "r2",
+        "label": "동북",
+        "value": 60,
+        "population": 150,
+        "polygon": [
+          [
+            52,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            45
+          ],
+          [
+            52,
+            45
+          ]
+        ]
+      },
+      {
+        "id": "r3",
+        "label": "서남",
+        "value": 40,
+        "population": 200,
+        "polygon": [
+          [
+            0,
+            52
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            48,
+            100
+          ],
+          [
+            0,
+            100
+          ]
+        ]
+      },
+      {
+        "id": "r4",
+        "label": "동남",
+        "value": 90,
+        "population": 600,
+        "polygon": [
+          [
+            52,
+            52
+          ],
+          [
+            100,
+            52
+          ],
+          [
+            100,
+            100
+          ],
+          [
+            52,
+            100
+          ]
+        ]
+      }
+    ],
+    "assumptions": [
+      "임의로 작성한 평면 권역이며 실제 지도·지리 투영이 아니다.",
+      "비율의 분모는 각 권역 인구다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"가상 권역 지도 · 명 / 인구 100명\"><title>가상 권역 지도 · 명 / 인구 100명</title><g data-key=\"r1\"><polygon points=\"25.0,12.0 289.0,12.0 289.0,133.5 25.0,133.5\" class=\"vz-primary\" opacity=\"0.625\" fill=\"var(--pele-series-1)\" /><rect x=\"129.0\" y=\"47.75\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"157.00\" y=\"72.75\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">서북</text><rect x=\"129.0\" y=\"77.75\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"157.00\" y=\"102.75\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">20</text></g><g data-key=\"r2\"><polygon points=\"311.0,12.0 575.0,12.0 575.0,133.5 311.0,133.5\" class=\"vz-primary\" opacity=\"1.0\" fill=\"var(--pele-series-1)\" /><rect x=\"415.0\" y=\"47.75\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"443.00\" y=\"72.75\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">동북</text><rect x=\"415.0\" y=\"77.75\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"443.00\" y=\"102.75\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">40</text></g><g data-key=\"r3\"><polygon points=\"25.0,152.4 289.0,152.4 289.0,282.0 25.0,282.0\" class=\"vz-primary\" opacity=\"0.625\" fill=\"var(--pele-series-1)\" /><rect x=\"129.0\" y=\"192.2\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"157.00\" y=\"217.20\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">서남</text><rect x=\"129.0\" y=\"222.2\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"157.00\" y=\"247.20\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">20</text></g><g data-key=\"r4\"><polygon points=\"311.0,152.4 575.0,152.4 575.0,282.0 311.0,282.0\" class=\"vz-primary\" opacity=\"0.53125\" fill=\"var(--pele-series-1)\" /><rect x=\"415.0\" y=\"192.2\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"443.00\" y=\"217.20\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">동남</text><rect x=\"415.0\" y=\"222.2\" width=\"56\" height=\"31\" fill=\"var(--pele-bg)\" stroke=\"none\" class=\"vz-print-label-bg\" aria-hidden=\"true\" /><text x=\"443.00\" y=\"247.20\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">15</text></g></svg>",
+  "description": "이용 총량과 인구 대비 이용률을 비교하자.",
+  "limits": "가상 평면 좌표; 실제 지리 위치·투영 아님",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "서북",
+      "value": 80,
+      "population": 400,
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          48,
+          45
+        ],
+        [
+          0,
+          45
+        ]
+      ],
+      "display": 20
+    },
+    {
+      "id": "r2",
+      "label": "동북",
+      "value": 60,
+      "population": 150,
+      "polygon": [
+        [
+          52,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          100,
+          45
+        ],
+        [
+          52,
+          45
+        ]
+      ],
+      "display": 40
+    },
+    {
+      "id": "r3",
+      "label": "서남",
+      "value": 40,
+      "population": 200,
+      "polygon": [
+        [
+          0,
+          52
+        ],
+        [
+          48,
+          52
+        ],
+        [
+          48,
+          100
+        ],
+        [
+          0,
+          100
+        ]
+      ],
+      "display": 20
+    },
+    {
+      "id": "r4",
+      "label": "동남",
+      "value": 90,
+      "population": 600,
+      "polygon": [
+        [
+          52,
+          52
+        ],
+        [
+          100,
+          52
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          52,
+          100
+        ]
+      ],
+      "display": 15
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "서북",
+      "value": 80,
+      "population": 400,
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          48,
+          45
+        ],
+        [
+          0,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "동북",
+      "value": 60,
+      "population": 150,
+      "polygon": [
+        [
+          52,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          100,
+          45
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "서남",
+      "value": 40,
+      "population": 200,
+      "polygon": [
+        [
+          0,
+          52
+        ],
+        [
+          48,
+          52
+        ],
+        [
+          48,
+          100
+        ],
+        [
+          0,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "동남",
+      "value": 90,
+      "population": 600,
+      "polygon": [
+        [
+          52,
+          52
+        ],
+        [
+          100,
+          52
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          52,
+          100
+        ]
+      ]
+    }
+  ],
+  "summary": "전체 인구 기준 20 명 / 인구 100명",
+  "unit": "명 / 인구 100명",
+  "tags": [
+    "기존 레시피",
+    "spatial"
+  ],
+  "kind": "spatial",
+  "sha256": "ad7ddab45463b99b6c732ffaf213a8ca72dd9e80c5f68e6477ed121125c3d87d",
+  "sourceSha256": "987b7cc0e055a8ad402354f7dbdd5cbf2138f63571b318a507f602bee395c08e",
+  "url": "/pele/cases/legacy-spatial-rate.json",
+  "svgUrl": "/pele/cases/legacy-spatial-rate.svg",
+  "pngUrl": null
+}

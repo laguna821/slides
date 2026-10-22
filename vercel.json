@@ -1265,5 +1265,1027 @@
       "pele-statistics-source-guide": true,
       "codex/topic-lecture-62-web": true
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/pele/app.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645623205-1e49bc6a-3abb-440d-aaac-72cbb2219ab0.mjs"
+    },
+    {
+      "source": "/pele/cases/agentflow-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645625788-2a4d08bb-5387-497b-b8e5-8830614de8c9.json"
+    },
+    {
+      "source": "/pele/cases/agentflow-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645627796-1ae8a5dc-57e6-4774-886a-9ce25477dbd3.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-anova-classic.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645629810-15dd0dfc-c1b8-49d5-9528-be6a642e48a6.json"
+    },
+    {
+      "source": "/pele/cases/analysis-anova-classic.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645632025-b78ee6c7-92e5-493c-a117-d8cfe3ea8a25.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-anova-welch.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645634178-aac7adbb-4ccb-4a71-87e8-8e07e4155e10.json"
+    },
+    {
+      "source": "/pele/cases/analysis-anova-welch.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645636557-d0c1f35a-8671-4d5a-bfe6-12f6341df805.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-chi3.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645638673-025c94c7-024b-42f2-b3e4-9ec8232298eb.json"
+    },
+    {
+      "source": "/pele/cases/analysis-chi3.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645640707-475224a9-94bb-464a-88d3-97dbc60c6ed3.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-chi7.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645642849-29738073-3d2d-4e68-9078-f1d065816452.json"
+    },
+    {
+      "source": "/pele/cases/analysis-chi7.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645645167-bb617e5a-a807-40be-b8e8-fc07eef5f293.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-med-delta.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645647352-50ce882c-6228-491d-85dd-eee67f1683be.json"
+    },
+    {
+      "source": "/pele/cases/analysis-med-delta.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645649434-a4cb857a-800e-4dce-a8fe-eb6449c0a7d2.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-med-mc.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645651422-0b972344-2014-4202-9498-0c7390d3495d.json"
+    },
+    {
+      "source": "/pele/cases/analysis-med-mc.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645653332-60e00c4d-ef22-42d8-9fa6-1b8634e674db.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-mod-classic.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645655648-fb990ab1-bcd2-4ec0-9f5c-541f6fec3af2.json"
+    },
+    {
+      "source": "/pele/cases/analysis-mod-classic.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645657923-f22ef4a6-801b-422f-b4da-2a95fb833cda.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-mod-hc3.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645660069-072967f2-95cd-4ddf-b047-4b84961b25d0.json"
+    },
+    {
+      "source": "/pele/cases/analysis-mod-hc3.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645662273-4ae5d6e4-3425-4fe9-b720-724a69032a3d.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-paired.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645664397-d68b44e8-3d14-4a79-9b2d-2181aa80ca03.json"
+    },
+    {
+      "source": "/pele/cases/analysis-paired.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645666441-e2558737-24a4-4305-b45d-f25bb26d4a65.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-pearson.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645668519-acd6d22a-2f88-4634-9a0b-a22586ab0f99.json"
+    },
+    {
+      "source": "/pele/cases/analysis-pearson.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645670847-89efd227-c537-4bd3-b0e2-3dfe0d7ea085.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-reg-hc3.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645673333-443c87eb-2a8a-4ed1-bd83-d91900f3ddca.json"
+    },
+    {
+      "source": "/pele/cases/analysis-reg-hc3.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645675252-ec2f56ad-7bbd-4962-a4ca-111474c2be5f.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-reg-ols.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645677203-07d81e7d-a6f8-4399-b9ec-b35176ee0a12.json"
+    },
+    {
+      "source": "/pele/cases/analysis-reg-ols.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645679217-f509aa97-1710-47e7-90a8-29cd8f5714b3.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-sem-full.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645681241-6562f76f-5992-4d1b-a5fc-93e164fe021c.json"
+    },
+    {
+      "source": "/pele/cases/analysis-sem-full.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645683208-7a2688d1-c476-49c4-b545-0a22ac8eac75.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-sem-reduced.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645685279-dcf5c45e-eccf-43e5-adac-dc87778872da.json"
+    },
+    {
+      "source": "/pele/cases/analysis-sem-reduced.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645687369-7becb5c4-4ca1-47ce-8d31-6225547d575e.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-spearman.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645689983-33403bf5-4686-4e30-afee-9ddbd80b5caa.json"
+    },
+    {
+      "source": "/pele/cases/analysis-spearman.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645692005-d1603c9f-7735-4b1a-9891-192ea0768e6f.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-two-classic.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645694018-ebf731d0-190b-4888-9a77-7657cbb873b4.json"
+    },
+    {
+      "source": "/pele/cases/analysis-two-classic.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645696149-64469aef-a108-4069-b4f4-ad1ae0b84d1d.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-two-hc3.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645698309-d9b95254-566f-45d7-85ae-fc92cb042bb8.json"
+    },
+    {
+      "source": "/pele/cases/analysis-two-hc3.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645700375-dade2e22-f59a-4a6e-bf15-392758b40137.svg"
+    },
+    {
+      "source": "/pele/cases/analysis-welch.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645702444-9bd009b0-9be2-4932-83b6-35a807582294.json"
+    },
+    {
+      "source": "/pele/cases/analysis-welch.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645704530-ca58a143-5ff3-4a5d-bda2-8ab45d71cdbd.svg"
+    },
+    {
+      "source": "/pele/cases/architecture-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645706433-1b4569f6-5a30-479a-979b-2ad11c38e8ba.json"
+    },
+    {
+      "source": "/pele/cases/architecture-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645708446-8aa9800a-c1c6-46a3-8210-31a19156bc88.svg"
+    },
+    {
+      "source": "/pele/cases/block-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645710513-46f09a83-00d8-4017-8631-1304bb22cfa6.json"
+    },
+    {
+      "source": "/pele/cases/block-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645712380-e0beeaa3-b0e1-456f-8ad3-baf811193eaa.svg"
+    },
+    {
+      "source": "/pele/cases/c4-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645714474-08d895c7-147d-412e-bced-b860e3e8d573.json"
+    },
+    {
+      "source": "/pele/cases/c4-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645716392-d1df7d56-66ec-4b67-9c39-92fc3b7c47b0.svg"
+    },
+    {
+      "source": "/pele/cases/class-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645718298-8788ebb1-a517-4a78-a173-94286be06755.json"
+    },
+    {
+      "source": "/pele/cases/class-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645720332-8ff7df31-2c74-4a61-b48b-d9feb594354c.svg"
+    },
+    {
+      "source": "/pele/cases/cynefin-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645722351-65d91cdc-d624-43cf-bfba-536dc6b4a6d1.json"
+    },
+    {
+      "source": "/pele/cases/cynefin-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645724319-c789f775-007b-4020-9388-467c8a8c1447.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-brief.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645726290-e233ded2-f611-4a63-b95e-41b12d92f98a.json"
+    },
+    {
+      "source": "/pele/cases/editorial-brief.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645728226-6b493fc2-0434-4ef0-8cd7-99d73280a328.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-education.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645730922-73011537-1cc7-464b-9f9a-0d2d241be9d7.json"
+    },
+    {
+      "source": "/pele/cases/editorial-education.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645733032-de53b9f8-8937-49df-bf61-13a904d71b97.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-evidence.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645734978-1f7ba3a3-c080-4b4a-8b7d-b8caf9b4e260.json"
+    },
+    {
+      "source": "/pele/cases/editorial-evidence.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645736960-2eee1f79-a34e-4f2e-a1c7-9a1a49f9cb9f.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-findings.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645738837-f43fcee4-3a21-4863-ac4c-20d852e92aa0.json"
+    },
+    {
+      "source": "/pele/cases/editorial-findings.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645740788-76232da5-4640-4c53-81a0-a82d98e52efb.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-infographic.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645742826-d09a8b66-2d52-41e4-9ae5-1896261b7ab2.json"
+    },
+    {
+      "source": "/pele/cases/editorial-infographic.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645745088-6bf9f8a6-5bfa-441a-aebc-b40154604cd6.svg"
+    },
+    {
+      "source": "/pele/cases/editorial-methods.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645747152-f8ec2661-ecbb-4237-a246-1be51f1f0fbe.json"
+    },
+    {
+      "source": "/pele/cases/editorial-methods.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645749294-cf7a81e6-dd1c-4fc6-9d16-2ffdf96eead8.svg"
+    },
+    {
+      "source": "/pele/cases/er-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645751283-09be59f0-90a8-44d8-8e3d-b7720b99d3e4.json"
+    },
+    {
+      "source": "/pele/cases/er-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645753207-2210dbca-adbd-4446-a70d-f6a4a1d1fb07.svg"
+    },
+    {
+      "source": "/pele/cases/eventmodeling-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645755115-5b967f4f-274a-4228-a703-2539a3637907.json"
+    },
+    {
+      "source": "/pele/cases/eventmodeling-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645757147-9043dfd5-ebe2-456c-ad7f-2a9561f31854.svg"
+    },
+    {
+      "source": "/pele/cases/flowchart-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645759125-60e74f1a-cd4d-4dfa-bda7-c8e5af7af65a.json"
+    },
+    {
+      "source": "/pele/cases/flowchart-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645761256-b783278a-2216-4fdf-a2d7-1c3548b68b58.svg"
+    },
+    {
+      "source": "/pele/cases/gantt-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645763260-e3ccf681-ad31-43ab-a991-a133a35d2bd3.json"
+    },
+    {
+      "source": "/pele/cases/gantt-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645765198-f8268a23-5c14-48de-a1a5-6cb30eaabb22.svg"
+    },
+    {
+      "source": "/pele/cases/gitGraph-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645767216-f95e7631-1ea9-4e24-b7a2-9a5cd9312faa.json"
+    },
+    {
+      "source": "/pele/cases/gitGraph-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645769269-2163c2a7-30ef-443d-98fe-5313b0da4991.svg"
+    },
+    {
+      "source": "/pele/cases/ishikawa-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645771176-1c25623d-3f37-4a46-913c-4e5145f5eaea.json"
+    },
+    {
+      "source": "/pele/cases/ishikawa-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645773262-1d975e83-8822-4db9-b512-ae7b8e91ffa3.svg"
+    },
+    {
+      "source": "/pele/cases/journey-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645775289-32714e8f-6c49-4159-b017-9ce4cde0467a.json"
+    },
+    {
+      "source": "/pele/cases/journey-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645777175-bc8a89ce-0e75-4b5d-bbfb-9700348df75c.svg"
+    },
+    {
+      "source": "/pele/cases/kanban-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645779167-e306768a-7661-4eec-8d4d-3992f7c85678.json"
+    },
+    {
+      "source": "/pele/cases/kanban-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645781236-e5fe3832-0396-4587-b3f2-0498a735a1ed.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-dots.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645783155-da7cfb52-ef4d-4f77-96fc-80ac0c6e61f3.json"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-dots.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645785094-c1295bd0-f13e-4e46-ac3e-30078dd9245f.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-original.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645787019-bf0b2e7d-7890-46ad-a285-4a4c869a8799.json"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-original.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645789017-c8d7c37f-4a49-4f02-9f9e-fd5a60787290.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-reach.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645791094-300f9815-098d-4f34-8e5a-55a6af04a17c.json"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-reach.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645793163-05647647-4ef6-467e-ac33-44aabed087e3.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-value.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645795362-697a2be2-03ba-42a1-b3a5-e258f6899bc2.json"
+    },
+    {
+      "source": "/pele/cases/legacy-comparison-value.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645797317-96d55ba2-4480-4110-b095-871183827459.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-composition-stack.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645799413-e5b38ac1-fdf2-4068-9ed3-0af7e79a98d8.json"
+    },
+    {
+      "source": "/pele/cases/legacy-composition-stack.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645801431-87c877c7-afab-413b-a0f8-e3741d50b492.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-composition-waffle.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645803337-3ce358a4-d260-4aa5-9643-1444499a0ec1.json"
+    },
+    {
+      "source": "/pele/cases/legacy-composition-waffle.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645805382-51365f20-2ba3-450e-b268-b9ea75c876b0.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-connections-process.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645807417-21bd60c8-74fa-431d-8b9b-6f5a0d2d9bcc.json"
+    },
+    {
+      "source": "/pele/cases/legacy-connections-process.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645809408-bde75d56-1185-4c38-859c-50aad0803e20.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-connections-relation.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645811628-741ad49f-f1c7-4201-9492-6ad821e1c3f2.json"
+    },
+    {
+      "source": "/pele/cases/legacy-connections-relation.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645813367-9937fb2d-8a8f-4a6f-8b49-d40af39a6db3.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-all.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645815465-3bff8a54-2e8d-471c-bcb8-aeec49e715bf.json"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-all.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645817737-2943ebd4-c4ff-4f4e-9e9f-9527c6de20a8.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-filter-0.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645819706-4076a895-12bb-43bd-857e-6bc770c324da.json"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-filter-0.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645822085-83e3dc9c-7940-420a-87f2-0eeec74a8a88.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-filter-1.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645824074-2fbb5076-9303-402f-8704-6a34b9417ec2.json"
+    },
+    {
+      "source": "/pele/cases/legacy-flow-filter-1.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645826116-09fabf66-5a2c-4620-8007-3924f9c69341.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-funnel-initial.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645828008-15cd7b10-4cc6-4eb3-b169-9f56fc98f6fc.json"
+    },
+    {
+      "source": "/pele/cases/legacy-funnel-initial.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645830114-b3a9040a-4cd4-4482-b217-4cf712abe0da.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-funnel-previous.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645832154-ddc4e0f6-7e69-4223-9a6a-94e8a119a2ca.json"
+    },
+    {
+      "source": "/pele/cases/legacy-funnel-previous.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645834002-01228fb5-399d-4d4e-90a0-f4d135c5868a.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-all.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645835875-c687d5a6-1db6-453c-b077-2ad8803fafe9.json"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-all.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645837809-25a1600f-97d5-48db-9f8b-b8078161644d.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-filter-0.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645839869-00ebca43-0955-4395-b5e8-28d34f9b3940.json"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-filter-0.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645841769-85b79e93-6a54-4bc4-a475-e787960bfba2.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-filter-1.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645843851-78df8114-f508-4c01-b238-0a6e5f31a5c3.json"
+    },
+    {
+      "source": "/pele/cases/legacy-hierarchy-filter-1.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645845891-d6c8c5d9-c56c-4792-8e32-373b3a42e74c.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-histogram-narrow.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645847936-fcad0d8d-9faf-48c2-b0d2-1530fed766fc.json"
+    },
+    {
+      "source": "/pele/cases/legacy-histogram-narrow.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645850270-31f4a66d-e85b-4627-b338-8e7cbe1995ad.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-histogram-wide.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645852223-157889f0-27f1-4baf-a09b-f570ee27fe4c.json"
+    },
+    {
+      "source": "/pele/cases/legacy-histogram-wide.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645854447-d7f2906d-8d25-464a-add9-a0c5cde59de8.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-interval-box.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645856349-8b2326e6-1e1f-4120-b6ce-c52fed867f32.json"
+    },
+    {
+      "source": "/pele/cases/legacy-interval-box.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645858279-61df744a-4987-4fd0-ad0b-02686e93fcb2.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-interval-ci.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645860175-b0dc3a34-4c15-477a-bf88-3d86214e1d8e.json"
+    },
+    {
+      "source": "/pele/cases/legacy-interval-ci.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645862263-41661709-65f1-491e-a88c-f3f46dbdffc0.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-likert-count.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645864279-24a844ab-7c62-41b9-b194-d64661671944.json"
+    },
+    {
+      "source": "/pele/cases/legacy-likert-count.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645866360-e5f08bfa-421c-4b04-952d-60fbe0e54c1e.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-likert-percent.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645868667-1a9c4570-0f6b-40e6-8fc6-233af957616e.json"
+    },
+    {
+      "source": "/pele/cases/legacy-likert-percent.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645870713-4b42e185-2619-42b3-81bd-ec39b80e83ac.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-matrix-original.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645872752-5e798cf3-fb64-4633-b872-52b058f0915a.json"
+    },
+    {
+      "source": "/pele/cases/legacy-matrix-original.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645874835-418c6537-2136-4226-8aae-1f16f4931989.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-matrix-reverse.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645876904-fb85692e-4d17-4d2d-b7a5-ac1fdd369fdd.json"
+    },
+    {
+      "source": "/pele/cases/legacy-matrix-reverse.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645879016-f03f1d4a-bbd8-4e23-923c-012635351c1c.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-multiples-local.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645880956-31307066-2054-454d-9103-ab26cf918c98.json"
+    },
+    {
+      "source": "/pele/cases/legacy-multiples-local.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645882864-0997028f-3667-4380-9621-d899e13b15f3.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-multiples-shared.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645884856-47ecd746-35d7-41b2-8f84-91bbf6619180.json"
+    },
+    {
+      "source": "/pele/cases/legacy-multiples-shared.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645886737-d1b50ecf-66cf-47b7-b63f-e59116b51080.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-paired-dumbbell.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645888803-58993daf-7c9d-4cb3-bf6f-857f1c99d6a4.json"
+    },
+    {
+      "source": "/pele/cases/legacy-paired-dumbbell.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645890752-377f3113-3f42-4604-b96b-b697faff900b.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-paired-slope.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645892697-f1d7de43-6970-4ebf-bb1b-521176452aea.json"
+    },
+    {
+      "source": "/pele/cases/legacy-paired-slope.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645894763-71efb63f-9d93-4f1c-aa7c-c5f7893cebbc.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-100.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645896776-9e214f5f-d15f-4c10-86d0-8edfc0002c31.json"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-100.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645898768-d09f213e-7000-40a5-b0f7-7b8bc07e392b.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-20.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645900992-a755ef9d-c3af-40f3-9ea6-ddf897cdd669.json"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-20.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645902893-05d856e9-c409-41ee-aa9c-dddb2bcfd073.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-40.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645905277-0d2fb192-aafd-4ecf-8d20-884841989f88.json"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-40.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645907361-c69d7b90-5bc1-43f2-8623-f19d9b223bfb.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-60.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645909424-473ee922-dca4-42e0-9bf9-e581b78ee5a0.json"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-60.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645911477-9f6d5251-14e9-4de8-8b51-3a7d34bb75aa.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-80.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645913767-23b059af-d974-4084-8ef5-7e1ba659f917.json"
+    },
+    {
+      "source": "/pele/cases/legacy-rules-people-80.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645916096-36ad7bbf-709c-4bcb-acc6-3b09570ec355.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-all.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645918224-270b16bb-d94c-4495-a6e0-ea8a281e9f43.json"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-all.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645920171-8bfa58e3-46ae-471c-bffe-eec59f3acb1f.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-filter-0.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645922223-4cbc22fe-968d-422c-88c4-90e2023b1eef.json"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-filter-0.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645924193-49934979-dbd0-4074-9a6f-81617b658389.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-filter-1.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645926224-eddf172c-a85b-4dd3-83ba-f53f446bf9d5.json"
+    },
+    {
+      "source": "/pele/cases/legacy-scatter-filter-1.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645928239-087215da-e32c-4da5-ace2-e19a5127d16e.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-100.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645930247-7f27e508-8c7b-4792-bcdf-9ef9a4ad2cbc.json"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-100.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645932270-ee8e26eb-3d9e-4fa9-8e38-90c0538840ca.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-125.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645934297-8dc5536e-684a-4c29-8b94-e9e12201bb1f.json"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-125.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645936174-f0beac6d-f1c7-43fa-bce9-f584e3bd0e22.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-150.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645938167-da006021-0f92-4607-a191-817746d48fc7.json"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-150.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645940146-af35b29d-6c1f-4b7f-b540-7db66f391ed2.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-50.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645942111-c593ddd3-5ef9-4a07-8f31-a912a05bb992.json"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-50.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645944331-edf85ddf-7f60-40db-837a-e824a7dab6cb.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-75.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645946443-2864c95d-6216-459e-b114-c3c21e6905e7.json"
+    },
+    {
+      "source": "/pele/cases/legacy-sensitivity-factor-75.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645948399-e1d7ecb3-7ef8-4975-9d79-cf5fc9d04b67.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-series-line.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645950361-bccc2b43-dd57-4f04-85c0-fc2a8a35fcc1.json"
+    },
+    {
+      "source": "/pele/cases/legacy-series-line.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645952360-44cba19d-75fd-4120-870d-c1c93397f43d.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-series-step.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645954206-5696841c-a8f9-442c-b011-627d58176665.json"
+    },
+    {
+      "source": "/pele/cases/legacy-series-step.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645956526-2f971384-7f04-4e66-8337-daca78ccc5e2.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-spatial-count.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645958520-ba6e0374-bd89-472e-b23a-0ab8659e2926.json"
+    },
+    {
+      "source": "/pele/cases/legacy-spatial-count.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645960898-c67f4ec0-43f4-4e46-845e-4ad696e031ef.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-spatial-rate.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645962860-59a9f6c8-0d07-4d0c-b4fb-237d701b1718.json"
+    },
+    {
+      "source": "/pele/cases/legacy-spatial-rate.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645964979-36a38f4e-cd15-4a3c-a34c-321d471a9fb1.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-waterfall-bridge.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645967073-5c2588d1-5c35-4eb8-aee8-4f976bf4ab61.json"
+    },
+    {
+      "source": "/pele/cases/legacy-waterfall-bridge.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645969098-dec89277-fb27-4b61-a90f-e2b2ec21b5de.svg"
+    },
+    {
+      "source": "/pele/cases/legacy-waterfall-delta.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645971187-0ea11c67-2559-4c25-acd3-656512ad956b.json"
+    },
+    {
+      "source": "/pele/cases/legacy-waterfall-delta.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645973507-05b0b582-a033-4f85-b879-41bbf7eb6851.svg"
+    },
+    {
+      "source": "/pele/cases/mindmap-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645975468-d53ca1d6-c076-40ff-8059-4432723378a6.json"
+    },
+    {
+      "source": "/pele/cases/mindmap-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645977605-76b8c512-96c5-47a1-bcd1-13cd2237b3d0.svg"
+    },
+    {
+      "source": "/pele/cases/packet-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645979603-30e659ad-6b00-46b0-be8a-727f115b6527.json"
+    },
+    {
+      "source": "/pele/cases/packet-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645981838-f140abd4-becd-4066-9776-2337822a17a7.svg"
+    },
+    {
+      "source": "/pele/cases/pie-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645983842-e35f8954-a072-4736-9195-bb1c0c2c2db1.json"
+    },
+    {
+      "source": "/pele/cases/pie-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645985854-42f48761-6395-435d-a43f-df530e869f63.svg"
+    },
+    {
+      "source": "/pele/cases/quadrantChart-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645987874-ed5b09a3-147c-46c5-98aa-d47e0e842c00.json"
+    },
+    {
+      "source": "/pele/cases/quadrantChart-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645989941-0c828c1a-f3f9-46a9-937b-492130d49c13.svg"
+    },
+    {
+      "source": "/pele/cases/radar-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645991985-29706645-31f4-4f30-80c6-579a2a6aa04d.json"
+    },
+    {
+      "source": "/pele/cases/radar-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645993878-926caabf-857b-4725-8e09-bb2cfa029c48.svg"
+    },
+    {
+      "source": "/pele/cases/railroad-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645996185-161dec54-9d3e-42c4-87d5-3b7a1011a244.json"
+    },
+    {
+      "source": "/pele/cases/railroad-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645998082-c1a25505-433b-42a2-a4b3-996468a1ca08.svg"
+    },
+    {
+      "source": "/pele/cases/requirement-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792645999988-4f583b6a-eead-42ae-be6c-4e71446ed9b8.json"
+    },
+    {
+      "source": "/pele/cases/requirement-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646002161-7a7c3010-c498-4bda-9be3-b14a3503e96c.svg"
+    },
+    {
+      "source": "/pele/cases/sankey-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646004216-063fe8d5-77ef-4bd5-b283-32bb23343930.json"
+    },
+    {
+      "source": "/pele/cases/sankey-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646006356-2dbd1209-22d9-4b46-becb-37e1980b3053.svg"
+    },
+    {
+      "source": "/pele/cases/sequence-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646008381-8aa8a7f0-fb53-410f-a825-2c37f896c0ef.json"
+    },
+    {
+      "source": "/pele/cases/sequence-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646010333-c67eccd0-9144-4b38-b32c-f7b4c132c153.svg"
+    },
+    {
+      "source": "/pele/cases/state-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646012550-6f9beaed-1e10-40e8-bf92-b0b4e1968a7f.json"
+    },
+    {
+      "source": "/pele/cases/state-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646014485-bdedec8c-5d15-49c1-9ed2-9036316fd034.svg"
+    },
+    {
+      "source": "/pele/cases/swimlane-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646016428-d0113d4d-90c9-4b77-8dcb-0a0d1e95fa3f.json"
+    },
+    {
+      "source": "/pele/cases/swimlane-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646018429-f3c25445-96bd-49e0-a358-33b8c7badf1d.svg"
+    },
+    {
+      "source": "/pele/cases/timeline-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646020435-77890ec1-2134-4d2f-8f2c-c97b9ac2256d.json"
+    },
+    {
+      "source": "/pele/cases/timeline-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646022430-450c25e2-38cc-453d-b40d-47c41122eb2f.svg"
+    },
+    {
+      "source": "/pele/cases/treemap-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646024281-1d7f1d55-7e6b-440f-975b-cf572aa9f159.json"
+    },
+    {
+      "source": "/pele/cases/treemap-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646026355-c257e06b-6177-4928-ac22-60475167472c.svg"
+    },
+    {
+      "source": "/pele/cases/treeView-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646028307-d36c5eaf-ee95-4279-a859-eddb9c7ab0ed.json"
+    },
+    {
+      "source": "/pele/cases/treeView-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646030318-d97e2958-6e8d-40fd-ab67-15863a418b5a.svg"
+    },
+    {
+      "source": "/pele/cases/usecase-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646032395-e6811ebf-3eb3-4b71-8e47-d95d90b96f68.json"
+    },
+    {
+      "source": "/pele/cases/usecase-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646034498-68f4a83a-6f91-4225-b6c6-c3904106178d.svg"
+    },
+    {
+      "source": "/pele/cases/venn-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646036376-fd1cb1b8-f5d1-4d76-bfaa-fd4c02c58491.json"
+    },
+    {
+      "source": "/pele/cases/venn-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646038271-1b05b9dd-5106-419f-8794-3bdc76acf72d.svg"
+    },
+    {
+      "source": "/pele/cases/wardley-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646040466-c71c4748-66e3-47ed-a48b-c5988c2a9d3c.json"
+    },
+    {
+      "source": "/pele/cases/wardley-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646042525-33be6d57-6cae-4ac9-8ace-7333bd6a5fd9.svg"
+    },
+    {
+      "source": "/pele/cases/xy-data-binding.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646044615-fb4652f9-5f4d-4721-a11e-ed34d8e2347c.json"
+    },
+    {
+      "source": "/pele/cases/xy-data-binding.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646046709-5ee685e8-a416-4d9f-96fe-2f65f405155a.svg"
+    },
+    {
+      "source": "/pele/cases/xychart-native.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646048908-a05e5a59-ee1f-4818-bd9a-0ecb43820ced.json"
+    },
+    {
+      "source": "/pele/cases/xychart-native.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646050959-5bae6958-1a5f-4ce0-9c58-32a920f61346.svg"
+    },
+    {
+      "source": "/pele/data/browser-checks.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646053026-99309e98-cd27-49ac-bf2a-ae242f5fa107.json"
+    },
+    {
+      "source": "/pele/data/build.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646055320-3700567d-bd24-464c-9fe3-9ff9b8eef4b1.json"
+    },
+    {
+      "source": "/pele/data/catalog.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646057558-4433925c-ce42-45e1-aace-b3cf3db6e426.json"
+    },
+    {
+      "source": "/pele/data/coverage.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646059711-e5a8e10a-9537-46db-a513-568f54718ea9.json"
+    },
+    {
+      "source": "/pele/data/documents.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646061796-61645312-ad1e-413e-a5bc-23ea9a5c707c.json"
+    },
+    {
+      "source": "/pele/data/info.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646063725-6c320582-6e5f-47e7-a4ff-50133969539a.json"
+    },
+    {
+      "source": "/pele/data/legacy.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646065713-61b8bc50-11b1-41e1-bc4d-cd772bceb5fe.json"
+    },
+    {
+      "source": "/pele/data/project-checks.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646067858-da571f75-ac88-4827-8bb5-d7c39af0911a.json"
+    },
+    {
+      "source": "/pele/data/render-checks.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646070442-d6dfe6fc-0c61-4bea-bfd7-89cb3e3c3cde.json"
+    },
+    {
+      "source": "/pele/data/visual-review.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646072526-2c1eef31-16dc-4a3f-be7f-3432aa6c2e92.json"
+    },
+    {
+      "source": "/pele/downloads/analyse.py",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646074357-452b5f4a-2942-4940-99e8-67b943326527.py"
+    },
+    {
+      "source": "/pele/downloads/analyses.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646076485-c12cfd81-ca43-4359-a8cc-61d2e015ea72.json"
+    },
+    {
+      "source": "/pele/downloads/analysis-reference-checks.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646078552-0afeaaf7-0dee-4406-b44d-6733f8a9e819.json"
+    },
+    {
+      "source": "/pele/downloads/figures.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646080634-77e4676c-2e93-4348-98be-147981a7877d.mjs"
+    },
+    {
+      "source": "/pele/downloads/profile-image.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646082796-4077b4f5-c4e0-4af6-bea0-b1834ac994a6.svg"
+    },
+    {
+      "source": "/pele/downloads/profile-note.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646084786-6e85a5c4-1145-4b2c-98f6-28f0fc5e3c5e.svg"
+    },
+    {
+      "source": "/pele/downloads/profile-report.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646086822-f277363f-16ec-42cd-b28c-86c7c6de58fd.svg"
+    },
+    {
+      "source": "/pele/downloads/profile-slide.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646088793-12d1d299-881a-45b6-8b11-a85b5bb2c8a3.svg"
+    },
+    {
+      "source": "/pele/downloads/profile-web.svg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646090836-f3bcf667-711a-41f6-9b99-53262c1bc63a.svg"
+    },
+    {
+      "source": "/pele/downloads/report-created.hwpx",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646092953-fa5b70c2-7966-4b68-8b83-35952d2edfbe.hwpx"
+    },
+    {
+      "source": "/pele/downloads/report-diagram-edited.hwpx",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646095404-2d6f1876-24ce-44cd-842f-6e7d85ca9011.hwpx"
+    },
+    {
+      "source": "/pele/downloads/report-text-edited.hwpx",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646097610-6017e58d-1724-432e-a648-925d0ec0898e.hwpx"
+    },
+    {
+      "source": "/pele/downloads/sem-model.txt",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646099737-430b25f2-3d31-45c9-85bc-c5dfa79dcf46.txt"
+    },
+    {
+      "source": "/pele/downloads/synthetic-latent.csv",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646101719-ba8cfb33-9658-4466-82d5-d1506d4a67a0.csv"
+    },
+    {
+      "source": "/pele/downloads/synthetic-survey.csv",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646103686-698092a5-ffd6-4c66-90f8-f8100a1309c5.csv"
+    },
+    {
+      "source": "/pele/downloads/versions.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646105719-87b326dc-2247-4e4a-b729-7a6fdce1e59f.json"
+    },
+    {
+      "source": "/pele/engine/assets/explorer.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646107704-720b6cd0-486a-40d8-95da-c95f06099e23.mjs"
+    },
+    {
+      "source": "/pele/engine/assets/fonts/AchmageSameTone-1.000.woff2",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646110252-843fc018-b203-4db1-96ae-52646f30d30a.woff2"
+    },
+    {
+      "source": "/pele/engine/assets/fonts/Pretendard-OFL.txt",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646112662-dbdc1b02-1bf6-4022-a8a1-2c6fc040a4ed.txt"
+    },
+    {
+      "source": "/pele/engine/assets/fonts/PretendardVariable.woff2",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646114847-7add745b-f2c6-4b03-8cf5-27ccc42195b2.woff2"
+    },
+    {
+      "source": "/pele/engine/assets/fonts/SameTone-NOTICE.txt",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646117645-4d11f4ec-5321-44d2-984b-2e0dd4c15eaf.txt"
+    },
+    {
+      "source": "/pele/engine/assets/fonts/SameTone-OFL.txt",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646119625-e7354a89-8eab-437d-90af-344ebc073d89.txt"
+    },
+    {
+      "source": "/pele/engine/LICENSE",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646121569-02e82036-7dae-4f9f-89ed-67ced0455d80.bin"
+    },
+    {
+      "source": "/pele/engine/runtime/brand.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646123504-afad2431-465c-4864-aecc-5011ca32f7e1.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/browser.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646125464-82787f75-30f0-469a-8a12-18644944cba3.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/catalog.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646127488-0016ba9f-d7d7-4cd6-878c-c99bc631ef18.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/hwpx.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646129697-c1579e7f-37a3-44c9-8d2c-c83cddc38334.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/node.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646131857-0ec3eb0e-84b2-47e8-9c6d-e083133864d5.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/project.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646133865-702bfc24-8ec7-439c-b518-dca08bd50969.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/raster.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646135944-830a5b91-9ff0-4ca1-a5ba-1a75f011280e.mjs"
+    },
+    {
+      "source": "/pele/engine/runtime/render.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646137880-7579998f-8eb6-4401-92de-d5ae9fe04371.mjs"
+    },
+    {
+      "source": "/pele/engine/scripts/bind-svg.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646139820-1e47e6e9-25b2-4e94-aebf-4a0bc44fd5da.mjs"
+    },
+    {
+      "source": "/pele/engine/vendor/pele/LICENSE",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646141827-32cded52-872c-40f1-8425-6b1e3a731238.bin"
+    },
+    {
+      "source": "/pele/engine/vendor/pele/package.json",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646143690-14efca77-5a7d-4934-8adb-aad714f1c513.json"
+    },
+    {
+      "source": "/pele/engine/vendor/pele/pele.mjs",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646145659-7fc094f1-afea-41c8-930c-de6359709852.mjs"
+    },
+    {
+      "source": "/pele/style.css",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792646147799-d3ca1240-1b8a-4fc9-9f8f-bab7e89ac5cf.css"
+    }
+  ]
 }

@@ -1,0 +1,2655 @@
+{
+  "checks": [
+    {
+      "caseId": "flowchart-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b180d2e28d7a46ab19358a89f5c3ee661d67d461e6afffde35f1624e294acc1c"
+    },
+    {
+      "caseId": "flowchart-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "18c800f7bc01a6ed12df08fee1e19d446e7d10e5a8cf7c6e698550f2d6b0ad95"
+    },
+    {
+      "caseId": "flowchart-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b180d2e28d7a46ab19358a89f5c3ee661d67d461e6afffde35f1624e294acc1c"
+    },
+    {
+      "caseId": "flowchart-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "18c800f7bc01a6ed12df08fee1e19d446e7d10e5a8cf7c6e698550f2d6b0ad95"
+    },
+    {
+      "caseId": "flowchart-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b180d2e28d7a46ab19358a89f5c3ee661d67d461e6afffde35f1624e294acc1c"
+    },
+    {
+      "caseId": "flowchart-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "18c800f7bc01a6ed12df08fee1e19d446e7d10e5a8cf7c6e698550f2d6b0ad95"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "메시지 순서: 560px 이상 또는 메시지 순서 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "c8a04326e8a23834a06618485a12b7e8190073afbb9b6efcfdc05fc0564d67d5"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "메시지 순서: 560px 이상 또는 메시지 순서 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "8787556e1621b38395c67fc7964f46caf6ddc4677053fa2850e0c3db418e0f9d"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "c8a04326e8a23834a06618485a12b7e8190073afbb9b6efcfdc05fc0564d67d5"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "8787556e1621b38395c67fc7964f46caf6ddc4677053fa2850e0c3db418e0f9d"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "c8a04326e8a23834a06618485a12b7e8190073afbb9b6efcfdc05fc0564d67d5"
+    },
+    {
+      "caseId": "sequence-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "자기 호출과 긴 메시지는 겹침을 직접 확인한다."
+        }
+      ],
+      "sha256": "8787556e1621b38395c67fc7964f46caf6ddc4677053fa2850e0c3db418e0f9d"
+    },
+    {
+      "caseId": "class-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "객체 구조: 560px 이상 또는 속성·관계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "64bf8e8b3922f30bba1dc97e2506dbfc352c7363a084e082c6521533ee54325c"
+    },
+    {
+      "caseId": "class-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "객체 구조: 560px 이상 또는 속성·관계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "9cb752662dbe191b704b2fcd4628f830754b570ecc5187cb32b542fc583e3609"
+    },
+    {
+      "caseId": "class-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "64bf8e8b3922f30bba1dc97e2506dbfc352c7363a084e082c6521533ee54325c"
+    },
+    {
+      "caseId": "class-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9cb752662dbe191b704b2fcd4628f830754b570ecc5187cb32b542fc583e3609"
+    },
+    {
+      "caseId": "class-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "64bf8e8b3922f30bba1dc97e2506dbfc352c7363a084e082c6521533ee54325c"
+    },
+    {
+      "caseId": "class-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9cb752662dbe191b704b2fcd4628f830754b570ecc5187cb32b542fc583e3609"
+    },
+    {
+      "caseId": "state-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "47fd25c443888ad5ed98aae8d8a64c70c380603b48198d44492fcc6eea97aeb0"
+    },
+    {
+      "caseId": "state-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "71f36abbc5bef2dabe418cb8efeba0a15820376b022bf7ed72317a2a5a35979b"
+    },
+    {
+      "caseId": "state-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "47fd25c443888ad5ed98aae8d8a64c70c380603b48198d44492fcc6eea97aeb0"
+    },
+    {
+      "caseId": "state-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "71f36abbc5bef2dabe418cb8efeba0a15820376b022bf7ed72317a2a5a35979b"
+    },
+    {
+      "caseId": "state-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "47fd25c443888ad5ed98aae8d8a64c70c380603b48198d44492fcc6eea97aeb0"
+    },
+    {
+      "caseId": "state-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "71f36abbc5bef2dabe418cb8efeba0a15820376b022bf7ed72317a2a5a35979b"
+    },
+    {
+      "caseId": "er-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "데이터 관계: 760px 이상 또는 개체·키·관계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "c89a430ccfafed4076a8080f09ae3c08689626f8afef0efaf311cefed2c31d22"
+    },
+    {
+      "caseId": "er-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "데이터 관계: 760px 이상 또는 개체·키·관계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "db3418fccd6b0cb415c033cb646532321729d0298bf3c5f341c5ce764c1cf5e7"
+    },
+    {
+      "caseId": "er-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c89a430ccfafed4076a8080f09ae3c08689626f8afef0efaf311cefed2c31d22"
+    },
+    {
+      "caseId": "er-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "db3418fccd6b0cb415c033cb646532321729d0298bf3c5f341c5ce764c1cf5e7"
+    },
+    {
+      "caseId": "er-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c89a430ccfafed4076a8080f09ae3c08689626f8afef0efaf311cefed2c31d22"
+    },
+    {
+      "caseId": "er-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "db3418fccd6b0cb415c033cb646532321729d0298bf3c5f341c5ce764c1cf5e7"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "0be487263baf061e40ccad4319b57914421d1566ab29e37f3a2f59ce70be4de7"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2bcff9ca8cb73d05e9f7a85df5dc5d6ca34fa1f110036c777b1edcb495795d7a"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9a9617557ca45b800c414e6b801d4a235181a4ff331660402a99644d30e87263"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "5cf47418cea1c3890998af329ccff160f3705c322c8af52671d59a881163587c"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9a9617557ca45b800c414e6b801d4a235181a4ff331660402a99644d30e87263"
+    },
+    {
+      "caseId": "pie-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "5cf47418cea1c3890998af329ccff160f3705c322c8af52671d59a881163587c"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "작업 일정: 640px 이상 또는 일정 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "abd1d959986ea654f4260c0b0d7108d528e37e742be84978747909473b83831e"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "작업 일정: 640px 이상 또는 일정 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "4c741f59f7df37fa81a1ffb1197bbda77253773ec8f6d648421c5ac2ccffd6f4"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "8886d010d7580a134bc89c4153d7cbbb87f41f51c106d2b8f19675dda6b215a9"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cdbfb492c109a692fe98375ba9ee9fae83178e087abfcba34abe727e57775f99"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9cb293a5363e8f5d6fb5cf22825cb6491292223c72f13e26718c5dad4e51bec2"
+    },
+    {
+      "caseId": "gantt-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "63d59fbf82ed19d7f691459164ba7cd5b891943b4d6ff1286eea075f5b3b046a"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "분기 이력: 560px 이상 또는 커밋·분기 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "ac5072637035c8d21a0c5b6f80fece843025f131e6f740554daab3078db9b096"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "분기 이력: 560px 이상 또는 커밋·분기 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "166de905ff492e2d3c7184c3861bcd6fb57cc298191e383709f901aa8ee909dc"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "ac5072637035c8d21a0c5b6f80fece843025f131e6f740554daab3078db9b096"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "166de905ff492e2d3c7184c3861bcd6fb57cc298191e383709f901aa8ee909dc"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "ac5072637035c8d21a0c5b6f80fece843025f131e6f740554daab3078db9b096"
+    },
+    {
+      "caseId": "gitGraph-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "166de905ff492e2d3c7184c3861bcd6fb57cc298191e383709f901aa8ee909dc"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "1a9301cb69f4c55cf1f74f5f455baad509c76257ada7500edca0ca3e7e3a512c"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c4ac1d605b4a1c5522b445b3375cc757e34e74632cb8a66bfbe8f7ba5ed819cd"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cc45fb36ccca4009588c0997b676b51f5a17836238cbdaa478e616f24517c75f"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2ce705d1b739a321600577e84eac80f1b4684d509cc9d983462286ee883d3ecc"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cc45fb36ccca4009588c0997b676b51f5a17836238cbdaa478e616f24517c75f"
+    },
+    {
+      "caseId": "mindmap-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2ce705d1b739a321600577e84eac80f1b4684d509cc9d983462286ee883d3ecc"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사건 연표: 480px 이상 또는 사건 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "864b079406da7243c18795d4562703488bce37fe3592224b137700afc7bae9ee"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사건 연표: 480px 이상 또는 사건 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "810c919960d96e8944941d9839d4f5a502daccf6df477ca7127ccf4fac86309b"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "f186cc8f613fc89fae6174f57cbdc5e877221df92f043e0c9b009348a287dd0c"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4746e572fe20b429cba68217f22132dcab61cdaaefbc4d76eb00d603d0b0e867"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "f186cc8f613fc89fae6174f57cbdc5e877221df92f043e0c9b009348a287dd0c"
+    },
+    {
+      "caseId": "timeline-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4746e572fe20b429cba68217f22132dcab61cdaaefbc4d76eb00d603d0b0e867"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "경험 단계: 560px 이상 또는 단계·경험 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "bfed696b7c4ad3d2c3720720ca0fa7692a9967367e1dcf62c77bcda88bfb8384"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "경험 단계: 560px 이상 또는 단계·경험 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "cb2f6cecc3fd4579e0b87708c7e353621b9e7a1acb0ef1e8a52b22982607b245"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4d5a592b975925066ec0d4cd38c6150664ae5de68e5279a91383d12e59d76e56"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d028ca37aceba5fd4486d9849a6ec044d73fd54beca69f9445491dbe538346f1"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4d5a592b975925066ec0d4cd38c6150664ae5de68e5279a91383d12e59d76e56"
+    },
+    {
+      "caseId": "journey-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d028ca37aceba5fd4486d9849a6ec044d73fd54beca69f9445491dbe538346f1"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "축과 수량: 480px 이상 또는 원자료 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "b45c469b9227fe0549e926a6febefd4a84cd5ad201c69d46acffbc32ce808c10"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "축과 수량: 480px 이상 또는 원자료 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "ffedba2153f0cef286c2ee16dbff0c2e934b01b82e317e65e052b622fb37540b"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "e02f3fa01deecdec835c5cc035516307663e7b124eeeb5b2b791c302f96fcc46"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "48fd08bc76ab949ecc320526fd38d0a1809913099ab27f8561df41cc91c41859"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "e02f3fa01deecdec835c5cc035516307663e7b124eeeb5b2b791c302f96fcc46"
+    },
+    {
+      "caseId": "xychart-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+        }
+      ],
+      "sha256": "48fd08bc76ab949ecc320526fd38d0a1809913099ab27f8561df41cc91c41859"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "두 기준 분류: 560px 이상 또는 두 기준 평가표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "9ce2a70589a006ab89fe2c1276187dac118a9167c758f2659fe7f4dcd212aa38"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "두 기준 분류: 560px 이상 또는 두 기준 평가표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "796e3fccb4c6e0ccfe032d5dd3dee0df5e1fef2bc09fcf082ca70cc855d6e9b6"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "90613c435d1898473e3e465d055487797c41df2d6bddf51093c50e6430d6c8f9"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "4f8f5cfca4714a03b88654cad27c31ecd6c88923d505569909f2e4ee7ae80365"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "90613c435d1898473e3e465d055487797c41df2d6bddf51093c50e6430d6c8f9"
+    },
+    {
+      "caseId": "quadrantChart-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "축 정의·정규화 기준과 구두점 문법을 확인한다."
+        }
+      ],
+      "sha256": "4f8f5cfca4714a03b88654cad27c31ecd6c88923d505569909f2e4ee7ae80365"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "요구와 검증: 760px 이상 또는 요구·검증 추적표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "b401d381a2b4f5a88bf8acf6277dff078da35889a24b21e10058e05ba666bc4d"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "요구와 검증: 760px 이상 또는 요구·검증 추적표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "465f5d9e816c02461f458e0fdea146b0ac4c51046f28c7804be6d979ea56b0d5"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b401d381a2b4f5a88bf8acf6277dff078da35889a24b21e10058e05ba666bc4d"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "465f5d9e816c02461f458e0fdea146b0ac4c51046f28c7804be6d979ea56b0d5"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b401d381a2b4f5a88bf8acf6277dff078da35889a24b21e10058e05ba666bc4d"
+    },
+    {
+      "caseId": "requirement-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "465f5d9e816c02461f458e0fdea146b0ac4c51046f28c7804be6d979ea56b0d5"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "시스템 경계: 640px 이상 또는 시스템·연결 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "bc995e77f1e22a5147766d835626d51f7f1b1aa9657366e40881dba1d1528bfd"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "시스템 경계: 640px 이상 또는 시스템·연결 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "262cfda8c7ddd0ca6d0953bb7fa5b40a82d0255f6d5c050056d309a83a9f6e9e"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "e682dbe1a74fc666ebb2e0fb032a33c1d0fc2550bbe89361ee1fa06799f81504"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "b28e5034b1443db5620d82354b5278a4e71699a9a15c8afe97dc6e4a7286ec3a"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "a916e53c302149b981594e7f3e255428d1fe34a0b0606448b6834925c5517640"
+    },
+    {
+      "caseId": "c4-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "18daa3ed06e792a74ccff308e3cbfd9664db8716b4b8ce61e7d417047226f68d"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "유량 이동: 640px 이상 또는 한글 흐름 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "906040ed6f8d4353a742dd360635f0cf5adef9246724cc081b0a6b14edcc912d"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "유량 이동: 640px 이상 또는 한글 흐름 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "bc1a7745077f4a72e081d9465b82cdd4c81cf20d16e601ac8a75c9b051602224"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "0bdd9d10b14d6b11456e18947dbbbf4f1b69f72e22639ce82c4f5a13ea28d231"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "f22165872aa1b95ed208802782ea8d7df7eb693a09fe5b533dcd5c3f27cbf58e"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "0bdd9d10b14d6b11456e18947dbbbf4f1b69f72e22639ce82c4f5a13ea28d231"
+    },
+    {
+      "caseId": "sankey-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "f22165872aa1b95ed208802782ea8d7df7eb693a09fe5b533dcd5c3f27cbf58e"
+    },
+    {
+      "caseId": "block-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "영역 배치: 480px 이상 또는 구역 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "13817e4661538a45853cb8f0b1ae8b429e8ebbc9f110c8eaa45a16170f7d6f13"
+    },
+    {
+      "caseId": "block-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "영역 배치: 480px 이상 또는 구역 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "c2709ff052a2b33753ce4d05230afc5c488494821a15167257847f6b88c79568"
+    },
+    {
+      "caseId": "block-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "13817e4661538a45853cb8f0b1ae8b429e8ebbc9f110c8eaa45a16170f7d6f13"
+    },
+    {
+      "caseId": "block-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c2709ff052a2b33753ce4d05230afc5c488494821a15167257847f6b88c79568"
+    },
+    {
+      "caseId": "block-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "13817e4661538a45853cb8f0b1ae8b429e8ebbc9f110c8eaa45a16170f7d6f13"
+    },
+    {
+      "caseId": "block-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c2709ff052a2b33753ce4d05230afc5c488494821a15167257847f6b88c79568"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "필드 구조: 480px 이상 또는 필드·범위 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "e97a0ed56e0a56378d4c821f65de648d5d81dda55faa87a07df378f060aede77"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "필드 구조: 480px 이상 또는 필드·범위 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "2810e2a6c72b9ba5ba13fb8ecba334052b57640065640d34f4c644b71aacd7b6"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "66a1debb963401a1800e4fadb6cd01bad521ced42685d09e44b54e38c3cb1449"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "e226f4062f34997d104938549ffb5ff6f4f7e5a3f2978b96fbad331cfb181208"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "66a1debb963401a1800e4fadb6cd01bad521ced42685d09e44b54e38c3cb1449"
+    },
+    {
+      "caseId": "packet-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "e226f4062f34997d104938549ffb5ff6f4f7e5a3f2978b96fbad331cfb181208"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "작업 상태판: 560px 이상 또는 상태별 작업 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "40779e81f31ca3c533d71a40cd36fe5912c4a1ec0042406b6f8a2355ff33f82d"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "작업 상태판: 560px 이상 또는 상태별 작업 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "f3c135528b901449b91e962f157cc0a3305fbfc250d1d32f97cac033c0ea16f7"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9cce0b1583b02da0cc142177632aff5cc5a30f51ceca542472664c8829a6aa4a"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c504c06572308bf35f82e220e06fd9da19f75a66b0ed2ecee8d54bc149ae7fa0"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9cce0b1583b02da0cc142177632aff5cc5a30f51ceca542472664c8829a6aa4a"
+    },
+    {
+      "caseId": "kanban-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "c504c06572308bf35f82e220e06fd9da19f75a66b0ed2ecee8d54bc149ae7fa0"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "서비스 연결: 640px 이상 또는 서비스 연결표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "4fb8ab2b848fbc6c408fefdb20c323b745755544f3201f7c85f106f5ae680801"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "서비스 연결: 640px 이상 또는 서비스 연결표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "fc7966151a49a2724367fc3bb0b5f198e49ac6a1526adbd3c3de0523066d2355"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4fb8ab2b848fbc6c408fefdb20c323b745755544f3201f7c85f106f5ae680801"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "fc7966151a49a2724367fc3bb0b5f198e49ac6a1526adbd3c3de0523066d2355"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4fb8ab2b848fbc6c408fefdb20c323b745755544f3201f7c85f106f5ae680801"
+    },
+    {
+      "caseId": "architecture-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "fc7966151a49a2724367fc3bb0b5f198e49ac6a1526adbd3c3de0523066d2355"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "다기준 윤곽: 480px 이상 또는 기준별 점수 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "59cc18e83f7fd97cbfba44ea37996cbaef110651e2202971c214d264558855f9"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "다기준 윤곽: 480px 이상 또는 기준별 점수 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "dfe15eec5499ed0a037b3690a37f063e043a31bbb5437073ff16e5db0203f385"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "678ec89b925b1fdfd327612fbc4b3c5cb52ea90238ddb3edad7921dbf30d34df"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2884cfd5b27d9ed3b7d0e6b69adf1d11b0e60e6700212b0f1a99d43fddcd9b18"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "678ec89b925b1fdfd327612fbc4b3c5cb52ea90238ddb3edad7921dbf30d34df"
+    },
+    {
+      "caseId": "radar-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2884cfd5b27d9ed3b7d0e6b69adf1d11b0e60e6700212b0f1a99d43fddcd9b18"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "계층 구성비: 640px 이상 또는 계층별 수량 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "102058590dfe5621ab340550f8f59cb7df36e9872260471d1eade474e8e37e0b"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "계층 구성비: 640px 이상 또는 계층별 수량 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "e9f5134c06a583b95b745f2c2e334c5ba856c38615e3dbfbfa072ce560253e07"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "0b49d9f403828afe3a983aba7bd54fbfc8a7e149950491e0608242d670d71f3e"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "7107eb23793136a5f6167533134c48e1acfba490a6e0e5d9dcf7778cdb7d6903"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "0b49d9f403828afe3a983aba7bd54fbfc8a7e149950491e0608242d670d71f3e"
+    },
+    {
+      "caseId": "treemap-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "visual-review",
+          "severity": "warning",
+          "message": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다."
+        }
+      ],
+      "sha256": "7107eb23793136a5f6167533134c48e1acfba490a6e0e5d9dcf7778cdb7d6903"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "에이전트 작업: 480px 이상 또는 역할·입출력 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "70c641607b4139c20d167a3533a9a406a19d5f3f490c757acdfd205156303cdc"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "에이전트 작업: 480px 이상 또는 역할·입출력 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "d1720e15255e887ec058e898854a933f157468efdc84dd2e1001f826a5ffdd09"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "70c641607b4139c20d167a3533a9a406a19d5f3f490c757acdfd205156303cdc"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d1720e15255e887ec058e898854a933f157468efdc84dd2e1001f826a5ffdd09"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "70c641607b4139c20d167a3533a9a406a19d5f3f490c757acdfd205156303cdc"
+    },
+    {
+      "caseId": "agentflow-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d1720e15255e887ec058e898854a933f157468efdc84dd2e1001f826a5ffdd09"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사용자 목표: 560px 이상 또는 역할·목표 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "11d1e88143daef349e370d6359e44735aa91be7d8f387b8a249bc8ecf3b96971"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사용자 목표: 560px 이상 또는 역할·목표 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "bf848fa08fb0053cfb7dc4da34ffb267b8965e30047a5b2e952c19a63d8abdf6"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "11d1e88143daef349e370d6359e44735aa91be7d8f387b8a249bc8ecf3b96971"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "bf848fa08fb0053cfb7dc4da34ffb267b8965e30047a5b2e952c19a63d8abdf6"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "11d1e88143daef349e370d6359e44735aa91be7d8f387b8a249bc8ecf3b96971"
+    },
+    {
+      "caseId": "usecase-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "bf848fa08fb0053cfb7dc4da34ffb267b8965e30047a5b2e952c19a63d8abdf6"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "문법 경로: 480px 이상 또는 EBNF 원문. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "3d0b59907d2d96c9174da69c83023935be51c232e222d21bde3915585f5e9115"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "문법 경로: 480px 이상 또는 EBNF 원문. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "ff075c153cbd0001b3622b80b5e0ac11d160b3e7442203c037d9c0a820f5ba2b"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "55d3d550fc5b52ec24d3e07fcbd4b1c2d0551af6ee31e6435eb7a0a44c66e56d"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "23733434b7f333015b2517aa10027e74032a9df43b8d52c33eff9fd1dd118d1b"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "55d3d550fc5b52ec24d3e07fcbd4b1c2d0551af6ee31e6435eb7a0a44c66e56d"
+    },
+    {
+      "caseId": "railroad-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "23733434b7f333015b2517aa10027e74032a9df43b8d52c33eff9fd1dd118d1b"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cf10e43033c231da7e7bf6ea75b23d6c27959b9fc85ec54015cc81e3e9488d56"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "fc39b7f1bc003f9460e57b23896cc33fa711bc3c9768d520bbd22ba0b2dfa3f4"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cf10e43033c231da7e7bf6ea75b23d6c27959b9fc85ec54015cc81e3e9488d56"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "fc39b7f1bc003f9460e57b23896cc33fa711bc3c9768d520bbd22ba0b2dfa3f4"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "cf10e43033c231da7e7bf6ea75b23d6c27959b9fc85ec54015cc81e3e9488d56"
+    },
+    {
+      "caseId": "treeView-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "fc39b7f1bc003f9460e57b23896cc33fa711bc3c9768d520bbd22ba0b2dfa3f4"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "집합의 겹침: 480px 이상 또는 교집합 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "4017b390ef88ca845c7bcc0636a50af799189dbf206cdf6617852e6371da57bb"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "집합의 겹침: 480px 이상 또는 교집합 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "e6b6f459e261b2ae625f3006405103bef68fd9417f2263fbc5ca7f8d627f8a01"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4017b390ef88ca845c7bcc0636a50af799189dbf206cdf6617852e6371da57bb"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "e6b6f459e261b2ae625f3006405103bef68fd9417f2263fbc5ca7f8d627f8a01"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4017b390ef88ca845c7bcc0636a50af799189dbf206cdf6617852e6371da57bb"
+    },
+    {
+      "caseId": "venn-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "e6b6f459e261b2ae625f3006405103bef68fd9417f2263fbc5ca7f8d627f8a01"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "상황 분류: 760px 이상 또는 영역별 판단표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "9384e8bda9196001480997269e8fc03e70cd601f35f7020e0572aae74e9f44ec"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "상황 분류: 760px 이상 또는 영역별 판단표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        },
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "612f361d3b45f57fd11d7162cec0a70e3321aa5984224f2c11fb83772f0d68f1"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "9384e8bda9196001480997269e8fc03e70cd601f35f7020e0572aae74e9f44ec"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "overflow",
+          "severity": "warning",
+          "message": "자연 폭이 출력 폭을 초과합니다. 가로 탐색 또는 별도 구성을 사용하세요."
+        }
+      ],
+      "sha256": "612f361d3b45f57fd11d7162cec0a70e3321aa5984224f2c11fb83772f0d68f1"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "9384e8bda9196001480997269e8fc03e70cd601f35f7020e0572aae74e9f44ec"
+    },
+    {
+      "caseId": "cynefin-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "612f361d3b45f57fd11d7162cec0a70e3321aa5984224f2c11fb83772f0d68f1"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "가치와 성숙도: 640px 이상 또는 구성요소 평가표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "5c7369f8d5a826cb7f4184890b8b9da9207c262a51c976a567eb6a269bd033ca"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "가치와 성숙도: 640px 이상 또는 구성요소 평가표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "93bf3019cdd9061199a0f25debc4190f9a0fe945034e7101ca61ac9053d21cf9"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "8c053a4a87841f0f13ecfda5667dbd3cb241f52cf29c98b4cd1e70877e0cfbbc"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "6de1a8504f896582072d1ac8f56c0575216f7ead53370c0ef61678c9c7271bdd"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "dfaa8bf092eba5bfd7c1fbcd673e833b63a90d72afcbf799dca214c19fdc1b43"
+    },
+    {
+      "caseId": "wardley-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "4f749d229c90ee4d47154c2b3e943cbb7f1e7894be20b949ca7f727754621ce7"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "역할별 과정: 640px 이상 또는 책임·단계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "d3a2f7faca8f46729ceb708a3ca0651ce2670b79dbe1917f540164d19d1f0dce"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "역할별 과정: 640px 이상 또는 책임·단계 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "f29ae283704e8314644b552ca9391cc5c2ec35ed946fcb56c613abe7a271cc50"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d46ae30e88599554750421595a66cf487381a329c03ae8adfd1d566c02d4568f"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "058a3a15b8bb772da60d187763fc72d8e60ae3f8acb895f3d3b9aa0ecb3dcf97"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "d46ae30e88599554750421595a66cf487381a329c03ae8adfd1d566c02d4568f"
+    },
+    {
+      "caseId": "swimlane-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "058a3a15b8bb772da60d187763fc72d8e60ae3f8acb895f3d3b9aa0ecb3dcf97"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "원인 후보: 640px 이상 또는 원인 후보 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "237c1aa8fd423c4c20e496c564c3f63f1e0c3753920a9b506c5090148e401b62"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "원인 후보: 640px 이상 또는 원인 후보 목록. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "e120f628c004fd692c01888127ce340b33b72af7cd6e038cdd45121218ccc8da"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2a436d7e3b4258f9bc585bc6fe77feeac0e7427a6a6e85ebb9dcc96d538aa71a"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "3d06d2651fb5d393a6ee016cb225fed6768d9ae56d481656f5ee7fd7f1526df8"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "2a436d7e3b4258f9bc585bc6fe77feeac0e7427a6a6e85ebb9dcc96d538aa71a"
+    },
+    {
+      "caseId": "ishikawa-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "3d06d2651fb5d393a6ee016cb225fed6768d9ae56d481656f5ee7fd7f1526df8"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 360,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사건과 명령: 640px 이상 또는 명령·사건 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "6ae760b737587aecd8b92496a4a42a07924e8fa950b88afe1f2b8ec18559774a"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 360,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [
+        {
+          "code": "narrow-surface",
+          "severity": "warning",
+          "message": "사건과 명령: 640px 이상 또는 명령·사건 표. 자동 축소만으로 읽기 검증을 통과하지 않습니다."
+        }
+      ],
+      "sha256": "18ade9be7d0e43ab71fdfd2428366453f473ad566e8c6cf859fc69148313603a"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 768,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "7331f3b2cd23eb5fe2df47b5cff39d81d4152aec6bbe65fa18e11d98f32400a3"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 768,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "30269850eebe7ba888ea60396a7707606c5eb3670d984b35ec16869301c14094"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 1440,
+      "theme": "light",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "7331f3b2cd23eb5fe2df47b5cff39d81d4152aec6bbe65fa18e11d98f32400a3"
+    },
+    {
+      "caseId": "eventmodeling-native",
+      "width": 1440,
+      "theme": "dark",
+      "ok": true,
+      "measurement": "font-metrics",
+      "diagnostics": [],
+      "sha256": "30269850eebe7ba888ea60396a7707606c5eb3670d984b35ec16869301c14094"
+    },
+    {
+      "caseId": "legacy-comparison-value",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-comparison-reach",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-comparison-dots",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-comparison-original",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-composition-stack",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-composition-waffle",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-paired-dumbbell",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-paired-slope",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-series-line",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 2
+    },
+    {
+      "caseId": "legacy-series-step",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 2
+    },
+    {
+      "caseId": "legacy-multiples-shared",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-multiples-local",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-histogram-wide",
+      "calculation": true,
+      "ok": true,
+      "rows": 24,
+      "uniqueKeys": 24,
+      "sourceRecords": 24
+    },
+    {
+      "caseId": "legacy-histogram-narrow",
+      "calculation": true,
+      "ok": true,
+      "rows": 24,
+      "uniqueKeys": 24,
+      "sourceRecords": 24
+    },
+    {
+      "caseId": "legacy-interval-box",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-interval-ci",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-scatter-all",
+      "calculation": true,
+      "ok": true,
+      "rows": 6,
+      "uniqueKeys": 6,
+      "sourceRecords": 6
+    },
+    {
+      "caseId": "legacy-scatter-filter-0",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 6
+    },
+    {
+      "caseId": "legacy-scatter-filter-1",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 6
+    },
+    {
+      "caseId": "legacy-matrix-original",
+      "calculation": true,
+      "ok": true,
+      "rows": 9,
+      "uniqueKeys": 9,
+      "sourceRecords": 9
+    },
+    {
+      "caseId": "legacy-matrix-reverse",
+      "calculation": true,
+      "ok": true,
+      "rows": 9,
+      "uniqueKeys": 9,
+      "sourceRecords": 9
+    },
+    {
+      "caseId": "legacy-likert-percent",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-likert-count",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-waterfall-bridge",
+      "calculation": true,
+      "ok": true,
+      "rows": 5,
+      "uniqueKeys": 5,
+      "sourceRecords": 5
+    },
+    {
+      "caseId": "legacy-waterfall-delta",
+      "calculation": true,
+      "ok": true,
+      "rows": 5,
+      "uniqueKeys": 5,
+      "sourceRecords": 5
+    },
+    {
+      "caseId": "legacy-sensitivity-factor-50",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-sensitivity-factor-75",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-sensitivity-factor-100",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-sensitivity-factor-125",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-sensitivity-factor-150",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-rules-people-20",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-rules-people-40",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-rules-people-60",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-rules-people-80",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-rules-people-100",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 3
+    },
+    {
+      "caseId": "legacy-funnel-initial",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-funnel-previous",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-flow-all",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-flow-filter-0",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-flow-filter-1",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-hierarchy-all",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-hierarchy-filter-0",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-hierarchy-filter-1",
+      "calculation": true,
+      "ok": true,
+      "rows": 2,
+      "uniqueKeys": 2,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-connections-relation",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 6
+    },
+    {
+      "caseId": "legacy-connections-process",
+      "calculation": true,
+      "ok": true,
+      "rows": 3,
+      "uniqueKeys": 3,
+      "sourceRecords": 6
+    },
+    {
+      "caseId": "legacy-spatial-count",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    },
+    {
+      "caseId": "legacy-spatial-rate",
+      "calculation": true,
+      "ok": true,
+      "rows": 4,
+      "uniqueKeys": 4,
+      "sourceRecords": 4
+    }
+  ],
+  "summary": {
+    "coreRuns": 192,
+    "legacyStates": 47,
+    "allOk": true
+  },
+  "fonts": {
+    "sametone": {
+      "family": "Achmage SameTone",
+      "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16"
+    },
+    "pretendard": {
+      "family": "Pretendard",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    }
+  },
+  "scientificChecks": [
+    {
+      "check": "SEM full/reduced convergence",
+      "pass": true
+    },
+    {
+      "check": "SEM positive residual variances",
+      "pass": true
+    },
+    {
+      "check": "SEM dimensions",
+      "pass": true
+    },
+    {
+      "check": "nested ML objective",
+      "pass": true
+    },
+    {
+      "check": "OLS normal equations",
+      "pass": true
+    },
+    {
+      "check": "same regression point estimates",
+      "pass": true
+    },
+    {
+      "check": "chi squared independent formula",
+      "pass": true
+    },
+    {
+      "check": "all factorial cells conserve N",
+      "pass": true
+    },
+    {
+      "check": "mediation identities",
+      "pass": true
+    }
+  ]
+}

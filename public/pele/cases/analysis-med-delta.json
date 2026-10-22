@@ -1,0 +1,209 @@
+{
+  "id": "analysis-med-delta",
+  "label": "Mediation · Delta-method 구간",
+  "type": "analysis",
+  "source": {
+    "analysis": {
+      "id": "med-delta",
+      "label": "Delta-method 구간",
+      "kind": "mediation",
+      "n": 300,
+      "effects": [
+        {
+          "label": "간접 a×b",
+          "b": 0.5496064268918612,
+          "lo": 0.40113331695150983,
+          "hi": 0.6980795368322126,
+          "key": "med-delta-0"
+        },
+        {
+          "label": "직접 c′",
+          "b": 0.3321701870168981,
+          "lo": 0.15857234107853574,
+          "hi": 0.5057680329552605,
+          "key": "med-delta-1"
+        },
+        {
+          "label": "총 c′+a×b",
+          "b": 0.8817766139087593,
+          "lo": 0.7032797013166007,
+          "hi": 1.0602735265009178,
+          "key": "med-delta-2"
+        }
+      ],
+      "a": 0.733805638326662,
+      "b": 0.7489809265368409,
+      "c": 0.3321701870168981,
+      "key": "med-delta-0"
+    },
+    "formula": "See downloadable synthetic generator",
+    "dataset": {
+      "name": "가상 잠재변수 모형",
+      "n": 300,
+      "unit": "synthetic cases",
+      "credit": "Achmage synthetic generator",
+      "definition": "자원→참여→성과. ind60/dem60/dem65는 이전 API 변수 ID이며 시점이나 국가가 아니다. 3개 잠재변수, 11개 지표, 생성 시 6개 잔차 공분산 .12.",
+      "sha256": "721dad18c3433a54ad32440dcda3c31ee9d4a9e8220427e36ba931b59d3b0a5e"
+    }
+  },
+  "svg": "<svg viewBox=\"0 0 1600 650\" width=\"1600\" height=\"650\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Scientific analysis figure\"><title>Mediation · Delta-method 구간</title><desc>간접 연결의 구간을 인과적 매개의 입증과 구분한다 First-order delta normal intervals retain cross-parameter covariance. Path direction is model structure,not causal proof.</desc><rect x=\"0\" y=\"0\" width=\"1600\" height=\"650\" fill=\"var(--pele-bg)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"0\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">A  Structural path overview</text><text x=\"760\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">B  Direct,indirect and total association</text><rect x=\"40\" y=\"270\" width=\"190\" height=\"85\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"135\" y=\"303\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"middle\">Resource</text><text x=\"135\" y=\"335\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">latent</text><rect x=\"250\" y=\"90\" width=\"190\" height=\"85\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"345\" y=\"123\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"middle\">Engagement</text><text x=\"345\" y=\"155\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">latent</text><rect x=\"470\" y=\"270\" width=\"190\" height=\"85\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"565\" y=\"303\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"middle\">Outcome</text><text x=\"565\" y=\"335\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">latent</text><path d=\"M180 270 L290 175\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\"></path><path d=\"M285.8265378372178 186.25087612481025 L290 175 L278.2777829572996 177.56702699709695\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\" fill=\"none\"></path><path d=\"M400 175 L520 270\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\"></path><path d=\"M508.1595000357614 268.0499844624037 L520 270 L515.2434320615022 258.98296494303236\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\" fill=\"none\"></path><path d=\"M230 310 L470 310\" stroke=\"var(--pele-series-2)\" stroke-width=\"3\" fill=\"none\"></path><path d=\"M459.4690092573155 315.75310646325045 L470 310 L459.4690092573155 304.24689353674955\" stroke=\"var(--pele-series-2)\" stroke-width=\"2\" fill=\"none\"></path><text x=\"60\" y=\"205\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-series-1)\" text-anchor=\"start\">a = 0.734</text><text x=\"460\" y=\"205\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-series-1)\" text-anchor=\"start\">b = 0.749</text><text x=\"350\" y=\"350\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-series-2)\" text-anchor=\"middle\">c′ = 0.332</text><text x=\"70\" y=\"470\" font-size=\"33\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Indirect a×b = 0.55</text><text x=\"70\" y=\"520\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">Same measurement + residual model</text><text x=\"70\" y=\"559\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">N = 300 synthetic cases · MLW fit</text><text x=\"760\" y=\"93\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\"></text><line x1=\"980\" y1=\"127\" x2=\"980\" y2=\"419\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"980\" y=\"465\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">-0.08</text><line x1=\"1078.75\" y1=\"127\" x2=\"1078.75\" y2=\"419\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1078.75\" y=\"465\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.22</text><line x1=\"1177.5\" y1=\"127\" x2=\"1177.5\" y2=\"419\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1177.5\" y=\"465\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.53</text><line x1=\"1276.25\" y1=\"127\" x2=\"1276.25\" y2=\"419\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1276.25\" y=\"465\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.84</text><line x1=\"1375\" y1=\"127\" x2=\"1375\" y2=\"419\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1375\" y=\"465\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1.15</text><line x1=\"1007.2413793103449\" y1=\"127\" x2=\"1007.2413793103449\" y2=\"419\" stroke=\"var(--pele-series-3)\" stroke-width=\"2\" stroke-dasharray=\"5 5\"></line><g  data-key=\"med-delta-0\" aria-label=\"간접 a×b\"><text x=\"768\" y=\"162\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">간접 a×b</text><line x1=\"1136.0692780549641\" y1=\"155\" x2=\"1231.4364687887446\" y2=\"155\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1136.0692780549641\" y1=\"146\" x2=\"1136.0692780549641\" y2=\"164\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1231.4364687887446\" y1=\"146\" x2=\"1231.4364687887446\" y2=\"164\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1183.7528734218545\" cy=\"155\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"155\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+0.55</text><text x=\"1590\" y=\"189\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.4, 0.7]</text></g><g  data-key=\"med-delta-1\" aria-label=\"직접 c′\"><text x=\"768\" y=\"280\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">직접 c′</text><line x1=\"1058.168441802719\" y1=\"273\" x2=\"1169.6737432760185\" y2=\"273\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1058.168441802719\" y1=\"264\" x2=\"1058.168441802719\" y2=\"282\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1169.6737432760185\" y1=\"264\" x2=\"1169.6737432760185\" y2=\"282\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1113.9210925393686\" cy=\"273\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"273\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+0.33</text><text x=\"1590\" y=\"307\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.16, 0.51]</text></g><g  data-key=\"med-delta-2\" aria-label=\"총 c′+a×b\"><text x=\"768\" y=\"398\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">총 c′+a×b</text><line x1=\"1233.1065526121013\" y1=\"391\" x2=\"1347.7586206896551\" y2=\"391\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1233.1065526121013\" y1=\"382\" x2=\"1233.1065526121013\" y2=\"400\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1347.7586206896551\" y1=\"382\" x2=\"1347.7586206896551\" y2=\"400\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1290.4325866508782\" cy=\"391\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"391\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+0.88</text><text x=\"1590\" y=\"425\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.7, 1.06]</text></g><text x=\"1177.5\" y=\"506\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">Unstandardized latent-scale B</text></svg>",
+  "description": "가상 자원와 이후 가상 참여·성과의 간접 연결은 어떻게 추정되는가? — 간접 연결의 구간을 인과적 매개의 입증과 구분한다",
+  "limits": "전부 합성 자료. First-order delta normal intervals retain cross-parameter covariance. Path direction is model structure,not causal proof.",
+  "diagnostics": [],
+  "engine": "Achmage 통계 분석 + 과학 SVG",
+  "minWidth": 1280,
+  "records": [
+    {
+      "id": "med-delta-0",
+      "label": "간접 a×b",
+      "value": 0.5496064268918612,
+      "unit": "latent-scale B",
+      "ci": [
+        0.40113331695150983,
+        0.6980795368322126
+      ],
+      "n": 300,
+      "method": "First-order delta normal CI,full covariance",
+      "meaning": "ind60 → dem60 → dem65의 모형상 간접 연관 및 직접/총 연관.",
+      "caveat": "정규모수 근사에 기반하며 비모수 bootstrap이 아니다. 관측자료의 동시점 ind60/dem60 경로는 인과적 매개를 식별하지 않는다. 측정모형과 잔차 공분산6개를 포함한 동일 SEM에서 계산했다.",
+      "source": "dem",
+      "seDelta": 0.07575158670426092,
+      "a": 0.733805638326662,
+      "b": 0.7489809265368409,
+      "cPrime": 0.3321701870168981,
+      "covABC": [
+        [
+          0.005953040163022721,
+          -0.0008794590498911081,
+          0.0006757380334676821
+        ],
+        [
+          -0.0008794590498911081,
+          0.006250152684935654,
+          -0.00429372400722009
+        ],
+        [
+          0.0006757380334676821,
+          -0.00429372400722009,
+          0.00784470327843591
+        ]
+      ]
+    },
+    {
+      "id": "med-delta-1",
+      "label": "직접 c′",
+      "value": 0.3321701870168981,
+      "unit": "latent-scale B",
+      "ci": [
+        0.15857234107853574,
+        0.5057680329552605
+      ],
+      "n": 300,
+      "method": "First-order delta normal CI,full covariance",
+      "meaning": "ind60 → dem60 → dem65의 모형상 간접 연관 및 직접/총 연관.",
+      "caveat": "정규모수 근사에 기반하며 비모수 bootstrap이 아니다. 관측자료의 동시점 ind60/dem60 경로는 인과적 매개를 식별하지 않는다. 측정모형과 잔차 공분산6개를 포함한 동일 SEM에서 계산했다.",
+      "source": "dem",
+      "seDelta": 0.08857032956038896,
+      "a": 0.733805638326662,
+      "b": 0.7489809265368409,
+      "cPrime": 0.3321701870168981,
+      "covABC": [
+        [
+          0.005953040163022721,
+          -0.0008794590498911081,
+          0.0006757380334676821
+        ],
+        [
+          -0.0008794590498911081,
+          0.006250152684935654,
+          -0.00429372400722009
+        ],
+        [
+          0.0006757380334676821,
+          -0.00429372400722009,
+          0.00784470327843591
+        ]
+      ]
+    },
+    {
+      "id": "med-delta-2",
+      "label": "총 c′+a×b",
+      "value": 0.8817766139087593,
+      "unit": "latent-scale B",
+      "ci": [
+        0.7032797013166007,
+        1.0602735265009178
+      ],
+      "n": 300,
+      "method": "First-order delta normal CI,full covariance",
+      "meaning": "ind60 → dem60 → dem65의 모형상 간접 연관 및 직접/총 연관.",
+      "caveat": "정규모수 근사에 기반하며 비모수 bootstrap이 아니다. 관측자료의 동시점 ind60/dem60 경로는 인과적 매개를 식별하지 않는다. 측정모형과 잔차 공분산6개를 포함한 동일 SEM에서 계산했다.",
+      "source": "dem",
+      "seDelta": 0.09106985336334622,
+      "a": 0.733805638326662,
+      "b": 0.7489809265368409,
+      "cPrime": 0.3321701870168981,
+      "covABC": [
+        [
+          0.005953040163022721,
+          -0.0008794590498911081,
+          0.0006757380334676821
+        ],
+        [
+          -0.0008794590498911081,
+          0.006250152684935654,
+          -0.00429372400722009
+        ],
+        [
+          0.0006757380334676821,
+          -0.00429372400722009,
+          0.00784470327843591
+        ]
+      ]
+    }
+  ],
+  "model": {
+    "id": "med-delta",
+    "label": "Delta-method 구간",
+    "kind": "mediation",
+    "n": 300,
+    "effects": [
+      {
+        "label": "간접 a×b",
+        "b": 0.5496064268918612,
+        "lo": 0.40113331695150983,
+        "hi": 0.6980795368322126,
+        "key": "med-delta-0"
+      },
+      {
+        "label": "직접 c′",
+        "b": 0.3321701870168981,
+        "lo": 0.15857234107853574,
+        "hi": 0.5057680329552605,
+        "key": "med-delta-1"
+      },
+      {
+        "label": "총 c′+a×b",
+        "b": 0.8817766139087593,
+        "lo": 0.7032797013166007,
+        "hi": 1.0602735265009178,
+        "key": "med-delta-2"
+      }
+    ],
+    "a": 0.733805638326662,
+    "b": 0.7489809265368409,
+    "c": 0.3321701870168981,
+    "key": "med-delta-0"
+  },
+  "tags": [
+    "통계 분석",
+    "Mediation"
+  ],
+  "summary": "가상 자료 n=300 · 조건 med-delta",
+  "kind": "flowchart",
+  "sha256": "07769950c4c87bdce9b9bb59b7966401d11d10b5a3db7dde760a6d419e4bf098",
+  "sourceSha256": "829660fd1ac623370e295a558af4857bf21321c3c42f4bdd901edff90863ef98",
+  "url": "/pele/cases/analysis-med-delta.json",
+  "svgUrl": "/pele/cases/analysis-med-delta.svg",
+  "pngUrl": null
+}

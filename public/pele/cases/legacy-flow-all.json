@@ -1,0 +1,121 @@
+{
+  "id": "legacy-flow-all",
+  "label": "이동은 연결과 두께로 읽는다 · 전체",
+  "type": "legacy",
+  "source": {
+    "recipe": "flow",
+    "state": "all",
+    "records": [
+      {
+        "id": "f1",
+        "label": "기초→실습",
+        "source": "기초",
+        "target": "실습",
+        "value": 35
+      },
+      {
+        "id": "f2",
+        "label": "기초→연구",
+        "source": "기초",
+        "target": "연구",
+        "value": 15
+      },
+      {
+        "id": "f3",
+        "label": "경험→실습",
+        "source": "경험",
+        "target": "실습",
+        "value": 20
+      },
+      {
+        "id": "f4",
+        "label": "경험→연구",
+        "source": "경험",
+        "target": "연구",
+        "value": 30
+      }
+    ],
+    "assumptions": [
+      "2단계 이동으로 한 사람은 하나의 연결에만 포함한다.",
+      "필터는 전체 흐름의 배치와 두께 척도를 유지한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"가중 흐름 · 명\"><title>가중 흐름 · 명</title><g data-key=\"f1\"><path d=\"M 145 35 C 250 35,350 35,455 35 L455 98.0 C350 98.0,250 98.0,145 98.0 Z\" class=\"vz-flow\" fill=\"var(--pele-series-1)\" fill-opacity=\".45\" stroke=\"var(--pele-series-1)\" stroke-width=\"1\" /></g><g data-key=\"f2\"><path d=\"M 145 98.0 C 250 98.0,350 148.0,455 148.0 L455 175.0 C350 175.0,250 125.0,145 125.0 Z\" class=\"vz-flow\" fill=\"var(--pele-series-1)\" fill-opacity=\".45\" stroke=\"var(--pele-series-1)\" stroke-width=\"1\" /></g><g data-key=\"f3\"><path d=\"M 145 139.0 C 250 139.0,350 98.0,455 98.0 L455 134.0 C350 134.0,250 175.0,145 175.0 Z\" class=\"vz-flow\" fill=\"var(--pele-series-1)\" fill-opacity=\".45\" stroke=\"var(--pele-series-1)\" stroke-width=\"1\" /></g><g data-key=\"f4\"><path d=\"M 145 175.0 C 250 175.0,350 175.0,455 175.0 L455 229.0 C350 229.0,250 229.0,145 229.0 Z\" class=\"vz-flow\" fill=\"var(--pele-series-1)\" fill-opacity=\".45\" stroke=\"var(--pele-series-1)\" stroke-width=\"1\" /></g><text x=\"5.00\" y=\"59.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기초</text><text x=\"5.00\" y=\"163.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">경험</text><text x=\"470.00\" y=\"59.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">실습</text><text x=\"470.00\" y=\"172.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">연구</text></svg>",
+  "description": "입문 경로가 다음 학습 경로로 어떻게 이어질까?",
+  "limits": "2단계 흐름; 선 두께는 가중치, 전체 총량 100",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "f1",
+      "label": "기초→실습",
+      "source": "기초",
+      "target": "실습",
+      "value": 35
+    },
+    {
+      "id": "f2",
+      "label": "기초→연구",
+      "source": "기초",
+      "target": "연구",
+      "value": 15
+    },
+    {
+      "id": "f3",
+      "label": "경험→실습",
+      "source": "경험",
+      "target": "실습",
+      "value": 20
+    },
+    {
+      "id": "f4",
+      "label": "경험→연구",
+      "source": "경험",
+      "target": "연구",
+      "value": 30
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "f1",
+      "label": "기초→실습",
+      "source": "기초",
+      "target": "실습",
+      "value": 35
+    },
+    {
+      "id": "f2",
+      "label": "기초→연구",
+      "source": "기초",
+      "target": "연구",
+      "value": 15
+    },
+    {
+      "id": "f3",
+      "label": "경험→실습",
+      "source": "경험",
+      "target": "실습",
+      "value": 20
+    },
+    {
+      "id": "f4",
+      "label": "경험→연구",
+      "source": "경험",
+      "target": "연구",
+      "value": 30
+    }
+  ],
+  "summary": "4개 항목 · 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "flow"
+  ],
+  "kind": "sankey",
+  "sha256": "1abcc80f59096a6a9d2902ad5b293843ef37f058d4b5bc180be1264f872c27ee",
+  "sourceSha256": "ab3c3396a15bd11393e128d2034269f7b9d59fa63cadc2f4f34bd1f1f8b3d62a",
+  "url": "/pele/cases/legacy-flow-all.json",
+  "svgUrl": "/pele/cases/legacy-flow-all.svg",
+  "pngUrl": null
+}

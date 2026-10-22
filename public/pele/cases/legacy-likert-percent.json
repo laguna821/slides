@@ -1,0 +1,136 @@
+{
+  "id": "legacy-likert-percent",
+  "label": "중립을 중심으로 응답 방향을 읽는다 · 비율",
+  "type": "legacy",
+  "source": {
+    "recipe": "likert",
+    "state": "percent",
+    "records": [
+      {
+        "id": "r1",
+        "label": "내용",
+        "values": [
+          5,
+          10,
+          20,
+          40,
+          25
+        ]
+      },
+      {
+        "id": "r2",
+        "label": "난도",
+        "values": [
+          10,
+          20,
+          15,
+          25,
+          10
+        ]
+      },
+      {
+        "id": "r3",
+        "label": "실습",
+        "values": [
+          3,
+          7,
+          10,
+          25,
+          15
+        ]
+      }
+    ],
+    "assumptions": [
+      "범주 순서: 매우 부정·부정·중립·긍정·매우 긍정.",
+      "무응답은 제외하며 문항마다 분모가 다르다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"리커트 응답 · 명\"><title>리커트 응답 · 명</title><g data-key=\"r1\"><text x=\"5.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">내용</text><rect x=\"272.50\" y=\"30.00\" width=\"11.50\" height=\"28.00\" class=\"vz-ordinal-0 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"284.00\" y=\"30.00\" width=\"23.00\" height=\"28.00\" class=\"vz-ordinal-1 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"307.00\" y=\"30.00\" width=\"46.00\" height=\"28.00\" class=\"vz-ordinal-2 vz-boundary\" fill=\"#A1ACB8\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"353.00\" y=\"30.00\" width=\"92.00\" height=\"28.00\" class=\"vz-ordinal-3 vz-boundary\" fill=\"#74B8B3\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"445.00\" y=\"30.00\" width=\"57.50\" height=\"28.00\" class=\"vz-ordinal-4 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"590.00\" y=\"54.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">100</text></g><g data-key=\"r2\"><text x=\"5.00\" y=\"122.33\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">난도</text><rect x=\"222.19\" y=\"98.33\" width=\"28.75\" height=\"28.00\" class=\"vz-ordinal-0 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"250.94\" y=\"98.33\" width=\"57.50\" height=\"28.00\" class=\"vz-ordinal-1 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"308.44\" y=\"98.33\" width=\"43.12\" height=\"28.00\" class=\"vz-ordinal-2 vz-boundary\" fill=\"#A1ACB8\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"351.56\" y=\"98.33\" width=\"71.88\" height=\"28.00\" class=\"vz-ordinal-3 vz-boundary\" fill=\"#74B8B3\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"423.44\" y=\"98.33\" width=\"28.75\" height=\"28.00\" class=\"vz-ordinal-4 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"590.00\" y=\"122.33\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">80</text></g><g data-key=\"r3\"><text x=\"5.00\" y=\"190.67\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">실습</text><rect x=\"272.50\" y=\"166.67\" width=\"11.50\" height=\"28.00\" class=\"vz-ordinal-0 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"284.00\" y=\"166.67\" width=\"26.83\" height=\"28.00\" class=\"vz-ordinal-1 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"310.83\" y=\"166.67\" width=\"38.33\" height=\"28.00\" class=\"vz-ordinal-2 vz-boundary\" fill=\"#A1ACB8\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"349.17\" y=\"166.67\" width=\"95.83\" height=\"28.00\" class=\"vz-ordinal-3 vz-boundary\" fill=\"#74B8B3\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"445.00\" y=\"166.67\" width=\"57.50\" height=\"28.00\" class=\"vz-ordinal-4 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"590.00\" y=\"190.67\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">60</text></g><line x1=\"330.00\" y1=\"15.00\" x2=\"330.00\" y2=\"240.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><rect x=\"8.00\" y=\"279.00\" width=\"16.00\" height=\"16.00\" class=\"vz-ordinal-0 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"30.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">부정2</text><rect x=\"128.00\" y=\"279.00\" width=\"16.00\" height=\"16.00\" class=\"vz-ordinal-1 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"150.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">부정1</text><rect x=\"248.00\" y=\"279.00\" width=\"16.00\" height=\"16.00\" class=\"vz-ordinal-2 vz-boundary\" fill=\"#A1ACB8\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"270.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">중립</text><rect x=\"368.00\" y=\"279.00\" width=\"16.00\" height=\"16.00\" class=\"vz-ordinal-3 vz-boundary\" fill=\"#74B8B3\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"390.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">긍정1</text><rect x=\"488.00\" y=\"279.00\" width=\"16.00\" height=\"16.00\" class=\"vz-ordinal-4 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"510.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">긍정2</text></svg>",
+  "description": "응답자 수가 다른 문항을 어떤 기준으로 비교할까?",
+  "limits": "왼쪽 부정·가운데 중립·오른쪽 긍정; 2는 강한 응답, 미응답 제외, 오른쪽은 응답자 수",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "내용",
+      "values": [
+        5,
+        10,
+        20,
+        40,
+        25
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "난도",
+      "values": [
+        10,
+        20,
+        15,
+        25,
+        10
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "실습",
+      "values": [
+        3,
+        7,
+        10,
+        25,
+        15
+      ]
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "내용",
+      "values": [
+        5,
+        10,
+        20,
+        40,
+        25
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "난도",
+      "values": [
+        10,
+        20,
+        15,
+        25,
+        10
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "실습",
+      "values": [
+        3,
+        7,
+        10,
+        25,
+        15
+      ]
+    }
+  ],
+  "summary": "3개 항목 · 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "likert"
+  ],
+  "kind": "likert",
+  "sha256": "5adb5adcb807f242635d5465094c6c4b651e68c35512c1f78024d35bcf4d387e",
+  "sourceSha256": "40103e1103b37bc919256c4359e4f22da3b5291ab0d2bac3ad49c77002a2db6c",
+  "url": "/pele/cases/legacy-likert-percent.json",
+  "svgUrl": "/pele/cases/legacy-likert-percent.svg",
+  "pngUrl": null
+}

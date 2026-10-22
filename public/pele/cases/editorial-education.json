@@ -1,0 +1,30 @@
+{
+  "id": "editorial-education",
+  "label": "편집 문맥 · 학습 안내",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "flowchart LR\n A[개념] --> B[예시]\n B --> C[연습]\n C --> D{이해 확인}\n D -->|재연습| B\n D -->|통과| E[확장]",
+    "title": "학습 안내"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-flowchart\" viewBox=\"0 0 655 123\" width=\"655\" height=\"123\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"flowchart\" role=\"img\" aria-labelledby=\"editorial-education-title editorial-education-desc\"><title id=\"editorial-education-title\">학습 안내</title><desc id=\"editorial-education-desc\">학습 안내</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge\" data-id=\"L_A_B_0\"><path d=\"M75.11,67.25L116.11,67.25\"/><path class=\"pele-marker\" d=\"M123.11,67.25L115.11,70.61L115.11,63.89Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_B_C_0\"><path d=\"M190.22,59.25L203.22,59.25C214.22,59.25 214.22,33.5 225.22,33.5L231.22,33.5\"/><path class=\"pele-marker\" d=\"M238.22,33.5L230.22,36.86L230.22,30.14Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_C_D_0\"><path d=\"M305.33,33.5C329.23,33.5 329.23,59.25 353.13,59.25L359.13,59.25\"/><path class=\"pele-marker\" d=\"M366.13,59.25L358.13,62.61L358.13,55.89Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_D_B_0\"><path d=\"M366.13,75.25L353.13,75.25C329.23,75.25 329.23,101 305.33,101L238.22,101C220.72,101 220.72,75.25 203.22,75.25L197.22,75.25\"/><path class=\"pele-marker\" d=\"M190.22,75.25L198.22,71.89L198.22,78.61Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_D_E_0\"><path d=\"M492.04,67.25L572.7,67.25\"/><path class=\"pele-marker\" d=\"M579.7,67.25L571.7,70.61L571.7,63.89Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-edge-labels\" font-size=\"16\"><g class=\"pele-edge-label\" data-id=\"L_D_B_0\"><rect x=\"247.04\" y=\"89\" width=\"49.48\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"271.78\" y=\"106.6\" text-anchor=\"middle\">재연습</text></g><g class=\"pele-edge-label\" data-id=\"L_D_E_0\"><rect x=\"514.54\" y=\"55.25\" width=\"35.66\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"532.37\" y=\"72.85\" text-anchor=\"middle\">통과</text></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-shape-rect\" data-id=\"A\" transform=\"translate(41.56,67.25)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">개념</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"B\" transform=\"translate(156.67,67.25)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">예시</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"C\" transform=\"translate(271.78,33.5)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">연습</text></g><g class=\"pele-node pele-shape-diam\" data-id=\"D\" transform=\"translate(422.69,67.25)\"><polygon points=\"0,-43.35 69.35,0 0,43.35 -69.35,0\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">이해 확인</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"E\" transform=\"translate(613.26,67.25)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">확장</text></g></g></svg>",
+  "description": "같은 흐름 문법의 다른 쓰임. 별도 도표 종류로 세지 않습니다.",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "문맥": "학습 안내",
+      "source": "flowchart LR\n A[개념] --> B[예시]\n B --> C[연습]\n C --> D{이해 확인}\n D -->|재연습| B\n D -->|통과| E[확장]"
+    }
+  ],
+  "diagnostics": [],
+  "tags": [
+    "편집 문맥"
+  ],
+  "kind": "flowchart",
+  "sha256": "bd9a9d4ad7ab53ab488167e2785a5bfd2cfcd3e38629db64ed50389d15271822",
+  "sourceSha256": "8bdd5fb6de4b702fe71decf194b055c0c68f380c6308d3ff11f8e768b4dcbb38",
+  "url": "/pele/cases/editorial-education.json",
+  "svgUrl": "/pele/cases/editorial-education.svg",
+  "pngUrl": null
+}

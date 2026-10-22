@@ -1,0 +1,157 @@
+{
+  "id": "legacy-multiples-shared",
+  "label": "공통 축이 집단 차이를 지킨다 · 공통 축",
+  "type": "legacy",
+  "source": {
+    "recipe": "multiples",
+    "state": "shared",
+    "records": [
+      {
+        "id": "r1",
+        "label": "기초",
+        "values": [
+          15,
+          20,
+          24,
+          28
+        ]
+      },
+      {
+        "id": "r2",
+        "label": "중급",
+        "values": [
+          40,
+          42,
+          45,
+          50
+        ]
+      },
+      {
+        "id": "r3",
+        "label": "심화",
+        "values": [
+          6,
+          9,
+          12,
+          15
+        ]
+      },
+      {
+        "id": "r4",
+        "label": "실습",
+        "values": [
+          28,
+          26,
+          30,
+          32
+        ]
+      }
+    ],
+    "assumptions": [
+      "동일한 4주 기간을 비교한다.",
+      "개별 축에서는 선의 높이를 집단 간 규모로 비교할 수 없다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"소형 다중 그래프 · 명\"><title>소형 다중 그래프 · 명</title><g data-key=\"r1\"><text x=\"16.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기초 0–50</text><polyline points=\"16.00,94.50 101.00,90.00 186.00,86.40 271.00,82.80\" class=\"vz-line\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"r2\"><text x=\"316.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">중급 0–50</text><polyline points=\"316.00,72.00 401.00,70.20 486.00,67.50 571.00,63.00\" class=\"vz-line\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"r3\"><text x=\"16.00\" y=\"138.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">심화 0–50</text><polyline points=\"16.00,202.60 101.00,199.90 186.00,197.20 271.00,194.50\" class=\"vz-line\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"r4\"><text x=\"316.00\" y=\"138.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">실습 0–50</text><polyline points=\"316.00,182.80 401.00,184.60 486.00,181.00 571.00,179.20\" class=\"vz-line\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /></g></svg>",
+  "description": "개별 축으로 보면 성장과 규모가 어떻게 달라 보일까?",
+  "limits": "공통 축 유지",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "기초",
+      "values": [
+        15,
+        20,
+        24,
+        28
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "중급",
+      "values": [
+        40,
+        42,
+        45,
+        50
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "심화",
+      "values": [
+        6,
+        9,
+        12,
+        15
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "실습",
+      "values": [
+        28,
+        26,
+        30,
+        32
+      ]
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "기초",
+      "values": [
+        15,
+        20,
+        24,
+        28
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "중급",
+      "values": [
+        40,
+        42,
+        45,
+        50
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "심화",
+      "values": [
+        6,
+        9,
+        12,
+        15
+      ]
+    },
+    {
+      "id": "r4",
+      "label": "실습",
+      "values": [
+        28,
+        26,
+        30,
+        32
+      ]
+    }
+  ],
+  "summary": "4개 항목 · 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "multiples"
+  ],
+  "kind": "xychart",
+  "sha256": "0a330dbb0176455b688fe3d598b87baf615a327ceba5a0520fc2a53170c9a5ad",
+  "sourceSha256": "79dbb26dbda8105218a5b5e6bc573b43deb7bd2dbf83f510ef98daeb276e2da9",
+  "url": "/pele/cases/legacy-multiples-shared.json",
+  "svgUrl": "/pele/cases/legacy-multiples-shared.svg",
+  "pngUrl": null
+}

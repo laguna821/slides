@@ -1,0 +1,107 @@
+{
+  "id": "legacy-hierarchy-filter-0",
+  "label": "면적으로 계층의 비중을 비교한다 · 운영",
+  "type": "legacy",
+  "source": {
+    "recipe": "hierarchy",
+    "state": "filter-0",
+    "records": [
+      {
+        "id": "r1",
+        "label": "촬영",
+        "parent": "제작",
+        "value": 32,
+        "sourceIndex": 1
+      },
+      {
+        "id": "r2",
+        "label": "편집",
+        "parent": "제작",
+        "value": 28,
+        "sourceIndex": 2
+      },
+      {
+        "id": "r3",
+        "label": "기획",
+        "parent": "운영",
+        "value": 22,
+        "sourceIndex": 3
+      },
+      {
+        "id": "r4",
+        "label": "검토",
+        "parent": "운영",
+        "value": 18,
+        "sourceIndex": 4
+      }
+    ],
+    "assumptions": [
+      "2단계 계층이며 각 항목은 하나의 부모에만 속한다.",
+      "면적은 값에 비례한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"계층 구성 · 시간\"><title>계층 구성 · 시간</title><text x=\"10.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">운영</text><g data-key=\"r3\"><rect x=\"10.00\" y=\"50.00\" width=\"580.00\" height=\"126.50\" class=\"vz-secondary vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"16.00\" y=\"75.00\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-secondary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">3</text><text x=\"48.00\" y=\"76.00\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-secondary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">기획</text><text x=\"18.00\" y=\"103.00\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-secondary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">22</text></g><g data-key=\"r4\"><rect x=\"10.00\" y=\"176.50\" width=\"580.00\" height=\"103.50\" class=\"vz-primary vz-boundary\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"16.00\" y=\"201.50\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-primary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">4</text><text x=\"48.00\" y=\"202.50\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-primary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">검토</text><text x=\"18.00\" y=\"229.50\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-primary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">18</text></g></svg>",
+  "description": "상위 분류 안에서 어떤 콘텐츠가 자원을 차지할까?",
+  "limits": "부모별 구획·자식별 면적; 번호는 원자료 행과 대응. 교대 색은 경계 보조이며 고유 범주색 아님",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r3",
+      "label": "기획",
+      "parent": "운영",
+      "value": 22,
+      "sourceIndex": 3
+    },
+    {
+      "id": "r4",
+      "label": "검토",
+      "parent": "운영",
+      "value": 18,
+      "sourceIndex": 4
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "촬영",
+      "parent": "제작",
+      "value": 32,
+      "sourceIndex": 1
+    },
+    {
+      "id": "r2",
+      "label": "편집",
+      "parent": "제작",
+      "value": 28,
+      "sourceIndex": 2
+    },
+    {
+      "id": "r3",
+      "label": "기획",
+      "parent": "운영",
+      "value": 22,
+      "sourceIndex": 3
+    },
+    {
+      "id": "r4",
+      "label": "검토",
+      "parent": "운영",
+      "value": 18,
+      "sourceIndex": 4
+    }
+  ],
+  "summary": "2개 항목 · 시간",
+  "unit": "시간",
+  "tags": [
+    "기존 레시피",
+    "hierarchy"
+  ],
+  "kind": "treemap",
+  "sha256": "64ab771061841d8a75dfcadd0a4103942629bfade1be7d3ad599fe50e8277259",
+  "sourceSha256": "da547d9e1a2290b2662f8f90f75ffd9dd6e70b564ff85cd4cbc993f518adca66",
+  "url": "/pele/cases/legacy-hierarchy-filter-0.json",
+  "svgUrl": "/pele/cases/legacy-hierarchy-filter-0.svg",
+  "pngUrl": null
+}

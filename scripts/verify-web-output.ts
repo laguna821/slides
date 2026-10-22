@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { load } from 'cheerio';
 import {policy} from '../src/lib/policy';
+import {readCollection,validateCollection,collectionRewrites} from './pele-collection';
 import {
   isBrandAsset,
   isMedia,
@@ -15,6 +16,9 @@ import {
 } from './web-assets';
 export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
   const manifest = await readManifest();
+  const collection=await readCollection();validateCollection(collection);
+  const rewrites=JSON.parse(await fs.readFile('vercel.json','utf8')).rewrites||[];
+  assert.deepEqual(rewrites,collectionRewrites(collection),'Collection rewrites must match verified assets');
   const redirects=JSON.parse(await fs.readFile('vercel.json','utf8')).redirects||[];
   const list = await regularFiles(root);
   let bytes = 0,
@@ -159,6 +163,7 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
         if (u.origin !== siteOrigin) continue;
         let rel = decodeURIComponent(u.pathname);
         if (manifest.paths[rel]) continue;
+        if(rewrites.some((r:any)=>r.source===rel))continue;
         const alias=redirects.find((r:any)=>r.source===rel);
         if(alias){const destination=new URL(alias.destination,siteOrigin);if(destination.origin!==siteOrigin)continue;rel=decodeURIComponent(destination.pathname);}
         const target = path.resolve(

@@ -1,0 +1,181 @@
+{
+  "id": "legacy-interval-box",
+  "label": "분포와 평균의 불확실성은 다르다 · 사분위 분포",
+  "type": "legacy",
+  "source": {
+    "recipe": "interval",
+    "state": "box",
+    "records": [
+      {
+        "id": "r1",
+        "label": "A반",
+        "values": [
+          42,
+          46,
+          48,
+          50,
+          51,
+          52,
+          54,
+          57,
+          61,
+          65
+        ]
+      },
+      {
+        "id": "r2",
+        "label": "B반",
+        "values": [
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85
+        ]
+      },
+      {
+        "id": "r3",
+        "label": "C반",
+        "values": [
+          55,
+          57,
+          59,
+          61,
+          62,
+          63,
+          65,
+          67,
+          69,
+          71
+        ]
+      }
+    ],
+    "assumptions": [
+      "상자도: 선형 보간 사분위수와 1.5 IQR 수염.",
+      "구간: 평균 ± 1.96×표본표준편차/√n. 독립·정규근사 가정이며 소표본의 정확한 95% 구간이 아니다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"분포·추정 구간 · 점\"><title>분포·추정 구간 · 점</title><text x=\"160.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">40</text><text x=\"560.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">85</text><g data-key=\"r1\"><text x=\"6.00\" y=\"55.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">A반</text><line x1=\"177.78\" y1=\"47.00\" x2=\"382.22\" y2=\"47.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><rect x=\"235.56\" y=\"35.00\" width=\"68.89\" height=\"24.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><line x1=\"262.22\" y1=\"35.00\" x2=\"262.22\" y2=\"59.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"r2\"><text x=\"6.00\" y=\"133.33\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">B반</text><line x1=\"160.00\" y1=\"125.33\" x2=\"560.00\" y2=\"125.33\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><rect x=\"260.00\" y=\"113.33\" width=\"200.00\" height=\"24.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><line x1=\"360.00\" y1=\"113.33\" x2=\"360.00\" y2=\"137.33\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"r3\"><text x=\"6.00\" y=\"211.67\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">C반</text><line x1=\"293.33\" y1=\"203.67\" x2=\"435.56\" y2=\"203.67\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><rect x=\"333.33\" y=\"191.67\" width=\"62.22\" height=\"24.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><line x1=\"360.00\" y1=\"191.67\" x2=\"360.00\" y2=\"215.67\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g></svg>",
+  "description": "상자도와 정규근사 구간이 각각 무엇을 보여줄까?",
+  "limits": "선형 보간 사분위수·1.5 IQR 수염",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "A반",
+      "values": [
+        42,
+        46,
+        48,
+        50,
+        51,
+        52,
+        54,
+        57,
+        61,
+        65
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "B반",
+      "values": [
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "C반",
+      "values": [
+        55,
+        57,
+        59,
+        61,
+        62,
+        63,
+        65,
+        67,
+        69,
+        71
+      ]
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "A반",
+      "values": [
+        42,
+        46,
+        48,
+        50,
+        51,
+        52,
+        54,
+        57,
+        61,
+        65
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "B반",
+      "values": [
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85
+      ]
+    },
+    {
+      "id": "r3",
+      "label": "C반",
+      "values": [
+        55,
+        57,
+        59,
+        61,
+        62,
+        63,
+        65,
+        67,
+        69,
+        71
+      ]
+    }
+  ],
+  "summary": "3개 항목 · 점",
+  "unit": "점",
+  "tags": [
+    "기존 레시피",
+    "interval"
+  ],
+  "kind": "interval",
+  "sha256": "14ca1011f269b76c55e8eda1495518230b4fa340b1b3dd578577991000f9f258",
+  "sourceSha256": "f9822e62e6af4d1d546172a2035166754240b36ba1bfd50cd88716c2bc82e1f9",
+  "url": "/pele/cases/legacy-interval-box.json",
+  "svgUrl": "/pele/cases/legacy-interval-box.svg",
+  "pngUrl": null
+}

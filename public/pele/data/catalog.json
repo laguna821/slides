@@ -1,0 +1,2196 @@
+[
+  {
+    "id": "flowchart",
+    "name": "흐름과 판단",
+    "purpose": "과정",
+    "use": "어느 조건에서 다음 단계가 달라지는가",
+    "avoid": "순서가 없는 단순 목록",
+    "budget": 9,
+    "minWidth": 360,
+    "limits": "방향·그룹 간 연결을 확인한다.",
+    "fallback": "단계별 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/flowchart",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "flowchart-native",
+        "label": "기본 문법 · 흐름과 판단",
+        "kind": "flowchart",
+        "url": "/pele/cases/flowchart-native.json",
+        "svgUrl": "/pele/cases/flowchart-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "legacy-rules-people-20",
+        "label": "경계값에서 필요한 인원이 바뀐다 · 20명",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-rules-people-20.json",
+        "svgUrl": "/pele/cases/legacy-rules-people-20.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "rules"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-rules-people-40",
+        "label": "경계값에서 필요한 인원이 바뀐다 · 40명",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-rules-people-40.json",
+        "svgUrl": "/pele/cases/legacy-rules-people-40.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "rules"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-rules-people-60",
+        "label": "경계값에서 필요한 인원이 바뀐다 · 60명",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-rules-people-60.json",
+        "svgUrl": "/pele/cases/legacy-rules-people-60.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "rules"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-rules-people-80",
+        "label": "경계값에서 필요한 인원이 바뀐다 · 80명",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-rules-people-80.json",
+        "svgUrl": "/pele/cases/legacy-rules-people-80.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "rules"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-rules-people-100",
+        "label": "경계값에서 필요한 인원이 바뀐다 · 100명",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-rules-people-100.json",
+        "svgUrl": "/pele/cases/legacy-rules-people-100.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "rules"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-connections-relation",
+        "label": "관계와 절차는 다른 데이터다 · 협업 관계",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-connections-relation.json",
+        "svgUrl": "/pele/cases/legacy-connections-relation.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "connections"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-connections-process",
+        "label": "관계와 절차는 다른 데이터다 · 제작 절차",
+        "kind": "flowchart",
+        "url": "/pele/cases/legacy-connections-process.json",
+        "svgUrl": "/pele/cases/legacy-connections-process.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "connections"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "analysis-med-mc",
+        "label": "Mediation · Monte Carlo 구간",
+        "kind": "flowchart",
+        "url": "/pele/cases/analysis-med-mc.json",
+        "svgUrl": "/pele/cases/analysis-med-mc.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Mediation"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-med-delta",
+        "label": "Mediation · Delta-method 구간",
+        "kind": "flowchart",
+        "url": "/pele/cases/analysis-med-delta.json",
+        "svgUrl": "/pele/cases/analysis-med-delta.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Mediation"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-sem-full",
+        "label": "SEM · 잔차 공분산6개 포함",
+        "kind": "flowchart",
+        "url": "/pele/cases/analysis-sem-full.json",
+        "svgUrl": "/pele/cases/analysis-sem-full.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "SEM"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-sem-reduced",
+        "label": "SEM · 잔차 공분산 생략",
+        "kind": "flowchart",
+        "url": "/pele/cases/analysis-sem-reduced.json",
+        "svgUrl": "/pele/cases/analysis-sem-reduced.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "SEM"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "editorial-brief",
+        "label": "편집 문맥 · 의사결정 브리프",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-brief.json",
+        "svgUrl": "/pele/cases/editorial-brief.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "editorial-methods",
+        "label": "편집 문맥 · 연구 방법",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-methods.json",
+        "svgUrl": "/pele/cases/editorial-methods.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "editorial-findings",
+        "label": "편집 문맥 · 결과 설명",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-findings.json",
+        "svgUrl": "/pele/cases/editorial-findings.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "editorial-evidence",
+        "label": "편집 문맥 · 근거 탐색",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-evidence.json",
+        "svgUrl": "/pele/cases/editorial-evidence.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "editorial-education",
+        "label": "편집 문맥 · 학습 안내",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-education.json",
+        "svgUrl": "/pele/cases/editorial-education.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "editorial-infographic",
+        "label": "편집 문맥 · 설명형 인포그래픽",
+        "kind": "flowchart",
+        "url": "/pele/cases/editorial-infographic.json",
+        "svgUrl": "/pele/cases/editorial-infographic.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "편집 문맥"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "sequence",
+    "name": "메시지 순서",
+    "purpose": "과정",
+    "use": "누가 누구에게 언제 요청하는가",
+    "avoid": "조직의 정적인 소속 관계",
+    "budget": 4,
+    "minWidth": 560,
+    "limits": "자기 호출과 긴 메시지는 겹침을 직접 확인한다.",
+    "fallback": "메시지 순서 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/sequence",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "sequence-native",
+        "label": "기본 문법 · 메시지 순서",
+        "kind": "sequence",
+        "url": "/pele/cases/sequence-native.json",
+        "svgUrl": "/pele/cases/sequence-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "class",
+    "name": "객체 구조",
+    "purpose": "시스템",
+    "use": "객체의 속성과 의존 관계는 무엇인가",
+    "avoid": "실제 처리 순서",
+    "budget": 6,
+    "minWidth": 560,
+    "limits": "속성이 많으면 핵심 클래스와 상세 표를 분리한다.",
+    "fallback": "속성·관계 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/class",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "class-native",
+        "label": "기본 문법 · 객체 구조",
+        "kind": "class",
+        "url": "/pele/cases/class-native.json",
+        "svgUrl": "/pele/cases/class-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "state",
+    "name": "상태 전이",
+    "purpose": "과정",
+    "use": "어떤 사건이 상태를 바꾸는가",
+    "avoid": "단순 일정",
+    "budget": 7,
+    "minWidth": 360,
+    "limits": "종료·재진입 조건을 라벨로 남긴다.",
+    "fallback": "전이 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/state",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "state-native",
+        "label": "기본 문법 · 상태 전이",
+        "kind": "state",
+        "url": "/pele/cases/state-native.json",
+        "svgUrl": "/pele/cases/state-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "er",
+    "name": "데이터 관계",
+    "purpose": "시스템",
+    "use": "개체 간 수량 관계는 무엇인가",
+    "avoid": "속성 값의 크기 비교",
+    "budget": 5,
+    "minWidth": 760,
+    "limits": "카디널리티와 긴 속성이 좁은 화면에서 혼잡하다.",
+    "fallback": "개체·키·관계 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/er",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "er-native",
+        "label": "기본 문법 · 데이터 관계",
+        "kind": "er",
+        "url": "/pele/cases/er-native.json",
+        "svgUrl": "/pele/cases/er-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "pie",
+    "name": "부분과 전체",
+    "purpose": "수량",
+    "use": "서로 배타적인 항목의 구성비는 얼마인가",
+    "avoid": "음수·겹치는 범주·미세한 차이",
+    "budget": 5,
+    "minWidth": 360,
+    "limits": "전체 분모를 명시한다. 정확한 비교는 막대와 표가 낫다.",
+    "fallback": "구성비 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/pie",
+    "category": "수량",
+    "cases": [
+      {
+        "id": "pie-native",
+        "label": "기본 문법 · 부분과 전체",
+        "kind": "pie",
+        "url": "/pele/cases/pie-native.json",
+        "svgUrl": "/pele/cases/pie-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "legacy-composition-stack",
+        "label": "비중은 전체를 기준으로 읽는다 · 100% 누적",
+        "kind": "pie",
+        "url": "/pele/cases/legacy-composition-stack.json",
+        "svgUrl": "/pele/cases/legacy-composition-stack.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "composition"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-composition-waffle",
+        "label": "비중은 전체를 기준으로 읽는다 · 와플",
+        "kind": "pie",
+        "url": "/pele/cases/legacy-composition-waffle.json",
+        "svgUrl": "/pele/cases/legacy-composition-waffle.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "composition"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "gantt",
+    "name": "작업 일정",
+    "purpose": "시간",
+    "use": "작업 기간과 의존 관계는 무엇인가",
+    "avoid": "기한이 없는 아이디어 목록",
+    "budget": 8,
+    "minWidth": 640,
+    "limits": "기준일을 고정하고 실제 날짜와 기간을 함께 검토한다.",
+    "fallback": "일정 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/gantt",
+    "category": "시간",
+    "cases": [
+      {
+        "id": "gantt-native",
+        "label": "기본 문법 · 작업 일정",
+        "kind": "gantt",
+        "url": "/pele/cases/gantt-native.json",
+        "svgUrl": "/pele/cases/gantt-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "gitGraph",
+    "name": "분기 이력",
+    "purpose": "시간",
+    "use": "분기가 어디서 갈라지고 합쳐졌는가",
+    "avoid": "일반 조직도",
+    "budget": 8,
+    "minWidth": 560,
+    "limits": "분기 색 위 글자 대비와 병합 순서를 확인한다.",
+    "fallback": "커밋·분기 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/gitgraph",
+    "category": "시간",
+    "cases": [
+      {
+        "id": "gitGraph-native",
+        "label": "기본 문법 · 분기 이력",
+        "kind": "gitGraph",
+        "url": "/pele/cases/gitGraph-native.json",
+        "svgUrl": "/pele/cases/gitGraph-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "mindmap",
+    "name": "개념 확장",
+    "purpose": "구조",
+    "use": "중심 개념을 어떤 갈래로 나눌 것인가",
+    "avoid": "인과·수량·정확한 시간 순서",
+    "budget": 12,
+    "minWidth": 360,
+    "limits": "계층과 연상의 차이를 설명하고 긴 가지는 분리한다.",
+    "fallback": "계층 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/mindmap",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "mindmap-native",
+        "label": "기본 문법 · 개념 확장",
+        "kind": "mindmap",
+        "url": "/pele/cases/mindmap-native.json",
+        "svgUrl": "/pele/cases/mindmap-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "timeline",
+    "name": "사건 연표",
+    "purpose": "시간",
+    "use": "주요 사건이 어떤 순서로 발생했는가",
+    "avoid": "기간과 의존성을 동시에 비교",
+    "budget": 6,
+    "minWidth": 480,
+    "limits": "시점 간 간격이 실제 기간을 비례 표현한다고 해석하지 않는다.",
+    "fallback": "사건 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/timeline",
+    "category": "시간",
+    "cases": [
+      {
+        "id": "timeline-native",
+        "label": "기본 문법 · 사건 연표",
+        "kind": "timeline",
+        "url": "/pele/cases/timeline-native.json",
+        "svgUrl": "/pele/cases/timeline-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "journey",
+    "name": "경험 단계",
+    "purpose": "과정",
+    "use": "단계별 경험은 어떻게 달라지는가",
+    "avoid": "검증되지 않은 감정을 객관 수치로 제시",
+    "budget": 6,
+    "minWidth": 560,
+    "limits": "점수 척도와 응답 주체를 명시한다.",
+    "fallback": "단계·경험 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/journey",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "journey-native",
+        "label": "기본 문법 · 경험 단계",
+        "kind": "journey",
+        "url": "/pele/cases/journey-native.json",
+        "svgUrl": "/pele/cases/journey-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "xychart",
+    "name": "축과 수량",
+    "purpose": "수량",
+    "use": "같은 척도에서 값은 어떻게 달라지는가",
+    "avoid": "서로 다른 분모·단위의 무설명 결합",
+    "budget": 8,
+    "minWidth": 480,
+    "limits": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다.",
+    "fallback": "원자료 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/xychart",
+    "category": "수량",
+    "cases": [
+      {
+        "id": "xychart-native",
+        "label": "기본 문법 · 축과 수량",
+        "kind": "xychart",
+        "url": "/pele/cases/xychart-native.json",
+        "svgUrl": "/pele/cases/xychart-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "legacy-comparison-value",
+        "label": "비교 기준을 바꾸면 순위도 바뀐다 · 기준값 막대",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-comparison-value.json",
+        "svgUrl": "/pele/cases/legacy-comparison-value.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "comparison"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-comparison-reach",
+        "label": "비교 기준을 바꾸면 순위도 바뀐다 · 대안 지표",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-comparison-reach.json",
+        "svgUrl": "/pele/cases/legacy-comparison-reach.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "comparison"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-comparison-dots",
+        "label": "비교 기준을 바꾸면 순위도 바뀐다 · 기준값 점",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-comparison-dots.json",
+        "svgUrl": "/pele/cases/legacy-comparison-dots.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "comparison"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-comparison-original",
+        "label": "비교 기준을 바꾸면 순위도 바뀐다 · 원래 순서",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-comparison-original.json",
+        "svgUrl": "/pele/cases/legacy-comparison-original.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "comparison"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-series-line",
+        "label": "연속 변화와 단계 변화를 구분한다 · 연속선",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-series-line.json",
+        "svgUrl": "/pele/cases/legacy-series-line.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "series"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-series-step",
+        "label": "연속 변화와 단계 변화를 구분한다 · 계단",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-series-step.json",
+        "svgUrl": "/pele/cases/legacy-series-step.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "series"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-multiples-shared",
+        "label": "공통 축이 집단 차이를 지킨다 · 공통 축",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-multiples-shared.json",
+        "svgUrl": "/pele/cases/legacy-multiples-shared.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "multiples"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-multiples-local",
+        "label": "공통 축이 집단 차이를 지킨다 · 개별 축",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-multiples-local.json",
+        "svgUrl": "/pele/cases/legacy-multiples-local.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "multiples"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-histogram-wide",
+        "label": "구간 폭이 분포의 인상을 바꾼다 · 넓은 구간",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-histogram-wide.json",
+        "svgUrl": "/pele/cases/legacy-histogram-wide.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "histogram"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-histogram-narrow",
+        "label": "구간 폭이 분포의 인상을 바꾼다 · 좁은 구간",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-histogram-narrow.json",
+        "svgUrl": "/pele/cases/legacy-histogram-narrow.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "histogram"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-sensitivity-factor-50",
+        "label": "가정을 바꾸면 비용도 달라진다 · 50%",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-sensitivity-factor-50.json",
+        "svgUrl": "/pele/cases/legacy-sensitivity-factor-50.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "sensitivity"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-sensitivity-factor-75",
+        "label": "가정을 바꾸면 비용도 달라진다 · 75%",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-sensitivity-factor-75.json",
+        "svgUrl": "/pele/cases/legacy-sensitivity-factor-75.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "sensitivity"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-sensitivity-factor-100",
+        "label": "가정을 바꾸면 비용도 달라진다 · 100%",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-sensitivity-factor-100.json",
+        "svgUrl": "/pele/cases/legacy-sensitivity-factor-100.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "sensitivity"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-sensitivity-factor-125",
+        "label": "가정을 바꾸면 비용도 달라진다 · 125%",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-sensitivity-factor-125.json",
+        "svgUrl": "/pele/cases/legacy-sensitivity-factor-125.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "sensitivity"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-sensitivity-factor-150",
+        "label": "가정을 바꾸면 비용도 달라진다 · 150%",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-sensitivity-factor-150.json",
+        "svgUrl": "/pele/cases/legacy-sensitivity-factor-150.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "sensitivity"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-funnel-initial",
+        "label": "분모를 바꾸면 이탈 해석이 달라진다 · 최초 대비",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-funnel-initial.json",
+        "svgUrl": "/pele/cases/legacy-funnel-initial.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "funnel"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-funnel-previous",
+        "label": "분모를 바꾸면 이탈 해석이 달라진다 · 직전 대비",
+        "kind": "xychart",
+        "url": "/pele/cases/legacy-funnel-previous.json",
+        "svgUrl": "/pele/cases/legacy-funnel-previous.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "funnel"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "analysis-two-classic",
+        "label": "Two-way ANOVA · Type III F",
+        "kind": "xychart",
+        "url": "/pele/cases/analysis-two-classic.json",
+        "svgUrl": "/pele/cases/analysis-two-classic.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Two-way ANOVA"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-two-hc3",
+        "label": "Two-way ANOVA · HC3 joint F",
+        "kind": "xychart",
+        "url": "/pele/cases/analysis-two-hc3.json",
+        "svgUrl": "/pele/cases/analysis-two-hc3.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Two-way ANOVA"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-mod-classic",
+        "label": "Interaction / Moderation · 고전적 조건부 효과",
+        "kind": "xychart",
+        "url": "/pele/cases/analysis-mod-classic.json",
+        "svgUrl": "/pele/cases/analysis-mod-classic.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Interaction / Moderation"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-mod-hc3",
+        "label": "Interaction / Moderation · HC3 조건부 효과",
+        "kind": "xychart",
+        "url": "/pele/cases/analysis-mod-hc3.json",
+        "svgUrl": "/pele/cases/analysis-mod-hc3.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Interaction / Moderation"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "xy-data-binding",
+        "label": "JSON 데이터 연결 · 신청과 이수",
+        "kind": "xychart",
+        "url": "/pele/cases/xy-data-binding.json",
+        "svgUrl": "/pele/cases/xy-data-binding.svg",
+        "engine": "Pele XY + 데이터 결합",
+        "tags": [
+          "데이터 연결"
+        ],
+        "type": "xy"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "quadrantChart",
+    "name": "두 기준 분류",
+    "purpose": "판단",
+    "use": "두 기준에서 항목은 어느 위치인가",
+    "avoid": "실측치가 없는 위치를 정밀 순위로 해석",
+    "budget": 6,
+    "minWidth": 560,
+    "limits": "축 정의·정규화 기준과 구두점 문법을 확인한다.",
+    "fallback": "두 기준 평가표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/quadrant",
+    "category": "판단과 전략",
+    "cases": [
+      {
+        "id": "quadrantChart-native",
+        "label": "기본 문법 · 두 기준 분류",
+        "kind": "quadrantChart",
+        "url": "/pele/cases/quadrantChart-native.json",
+        "svgUrl": "/pele/cases/quadrantChart-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "requirement",
+    "name": "요구와 검증",
+    "purpose": "시스템",
+    "use": "어떤 요소가 요구사항을 충족하는가",
+    "avoid": "단순 할 일 목록",
+    "budget": 4,
+    "minWidth": 760,
+    "limits": "긴 설명과 관계 유형을 표로 함께 제공한다.",
+    "fallback": "요구·검증 추적표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/requirement",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "requirement-native",
+        "label": "기본 문법 · 요구와 검증",
+        "kind": "requirement",
+        "url": "/pele/cases/requirement-native.json",
+        "svgUrl": "/pele/cases/requirement-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "c4",
+    "name": "시스템 경계",
+    "purpose": "시스템",
+    "use": "사용자와 시스템 경계는 어디인가",
+    "avoid": "상세 호출 순서",
+    "budget": 6,
+    "minWidth": 640,
+    "limits": "추상화 수준을 하나로 맞추고 경계 의미를 설명한다.",
+    "fallback": "시스템·연결 목록",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/c4",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "c4-native",
+        "label": "기본 문법 · 시스템 경계",
+        "kind": "c4",
+        "url": "/pele/cases/c4-native.json",
+        "svgUrl": "/pele/cases/c4-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "sankey",
+    "name": "유량 이동",
+    "purpose": "수량",
+    "use": "어디에서 어디로 얼마나 이동했는가",
+    "avoid": "한글 이름 필수·보존되지 않는 흐름량",
+    "budget": 6,
+    "minWidth": 640,
+    "limits": "Pele 1.6.0은 ASCII 입력을 요구한다. 한글 원자료를 임의 영문화하지 않는다.",
+    "fallback": "한글 흐름 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/sankey",
+    "category": "수량",
+    "cases": [
+      {
+        "id": "sankey-native",
+        "label": "기본 문법 · 유량 이동",
+        "kind": "sankey",
+        "url": "/pele/cases/sankey-native.json",
+        "svgUrl": "/pele/cases/sankey-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "legacy-flow-all",
+        "label": "이동은 연결과 두께로 읽는다 · 전체",
+        "kind": "sankey",
+        "url": "/pele/cases/legacy-flow-all.json",
+        "svgUrl": "/pele/cases/legacy-flow-all.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "flow"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-flow-filter-0",
+        "label": "이동은 연결과 두께로 읽는다 · 경험",
+        "kind": "sankey",
+        "url": "/pele/cases/legacy-flow-filter-0.json",
+        "svgUrl": "/pele/cases/legacy-flow-filter-0.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "flow"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-flow-filter-1",
+        "label": "이동은 연결과 두께로 읽는다 · 기초",
+        "kind": "sankey",
+        "url": "/pele/cases/legacy-flow-filter-1.json",
+        "svgUrl": "/pele/cases/legacy-flow-filter-1.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "flow"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "block",
+    "name": "영역 배치",
+    "purpose": "구조",
+    "use": "고정된 자리와 묶음을 어떻게 보여줄 것인가",
+    "avoid": "자동 배치가 더 적절한 큰 관계망",
+    "budget": 9,
+    "minWidth": 480,
+    "limits": "열 수와 줄바꿈은 작성자가 설계한다.",
+    "fallback": "구역 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/block",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "block-native",
+        "label": "기본 문법 · 영역 배치",
+        "kind": "block",
+        "url": "/pele/cases/block-native.json",
+        "svgUrl": "/pele/cases/block-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "packet",
+    "name": "필드 구조",
+    "purpose": "시스템",
+    "use": "정해진 비트 구간을 어떻게 나누는가",
+    "avoid": "일반적인 화면 배치",
+    "budget": 8,
+    "minWidth": 480,
+    "limits": "비트 범위의 연속성과 중복을 확인한다.",
+    "fallback": "필드·범위 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/packet",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "packet-native",
+        "label": "기본 문법 · 필드 구조",
+        "kind": "packet",
+        "url": "/pele/cases/packet-native.json",
+        "svgUrl": "/pele/cases/packet-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "kanban",
+    "name": "작업 상태판",
+    "purpose": "과정",
+    "use": "어떤 작업이 어느 상태에 있는가",
+    "avoid": "상태 이동의 조건 설명",
+    "budget": 9,
+    "minWidth": 560,
+    "limits": "정적 그림에는 실제 드래그·저장 기능이 없다.",
+    "fallback": "상태별 작업 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/kanban",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "kanban-native",
+        "label": "기본 문법 · 작업 상태판",
+        "kind": "kanban",
+        "url": "/pele/cases/kanban-native.json",
+        "svgUrl": "/pele/cases/kanban-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "architecture",
+    "name": "서비스 연결",
+    "purpose": "시스템",
+    "use": "서비스와 저장소가 어떻게 연결되는가",
+    "avoid": "비기술 독자에게 추상 기호만 제시",
+    "budget": 6,
+    "minWidth": 640,
+    "limits": "포트 방향과 그룹 연결을 확인한다.",
+    "fallback": "서비스 연결표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/architecture",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "architecture-native",
+        "label": "기본 문법 · 서비스 연결",
+        "kind": "architecture",
+        "url": "/pele/cases/architecture-native.json",
+        "svgUrl": "/pele/cases/architecture-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "radar",
+    "name": "다기준 윤곽",
+    "purpose": "수량",
+    "use": "같은 척도의 여러 기준이 어떻게 다른가",
+    "avoid": "면적만으로 우열을 단정",
+    "budget": 6,
+    "minWidth": 480,
+    "limits": "축 순서·범위에 따라 인상이 달라진다. 수치를 병기한다.",
+    "fallback": "기준별 점수 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/radar",
+    "category": "수량",
+    "cases": [
+      {
+        "id": "radar-native",
+        "label": "기본 문법 · 다기준 윤곽",
+        "kind": "radar",
+        "url": "/pele/cases/radar-native.json",
+        "svgUrl": "/pele/cases/radar-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "treemap",
+    "name": "계층 구성비",
+    "purpose": "수량",
+    "use": "계층별 부분의 크기는 얼마인가",
+    "avoid": "작은 항목도 반드시 읽혀야 하는 지면",
+    "budget": 8,
+    "minWidth": 640,
+    "limits": "작은 타일과 라벨이 사라질 수 있다. 모든 항목을 표에 남긴다.",
+    "fallback": "계층별 수량 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 버전별 문법 확인; 이 PC의 실제 Obsidian은 미검증",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/treemap",
+    "category": "수량",
+    "cases": [
+      {
+        "id": "treemap-native",
+        "label": "기본 문법 · 계층 구성비",
+        "kind": "treemap",
+        "url": "/pele/cases/treemap-native.json",
+        "svgUrl": "/pele/cases/treemap-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      },
+      {
+        "id": "legacy-hierarchy-all",
+        "label": "면적으로 계층의 비중을 비교한다 · 전체",
+        "kind": "treemap",
+        "url": "/pele/cases/legacy-hierarchy-all.json",
+        "svgUrl": "/pele/cases/legacy-hierarchy-all.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "hierarchy"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-hierarchy-filter-0",
+        "label": "면적으로 계층의 비중을 비교한다 · 운영",
+        "kind": "treemap",
+        "url": "/pele/cases/legacy-hierarchy-filter-0.json",
+        "svgUrl": "/pele/cases/legacy-hierarchy-filter-0.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "hierarchy"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-hierarchy-filter-1",
+        "label": "면적으로 계층의 비중을 비교한다 · 제작",
+        "kind": "treemap",
+        "url": "/pele/cases/legacy-hierarchy-filter-1.json",
+        "svgUrl": "/pele/cases/legacy-hierarchy-filter-1.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "hierarchy"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "agentflow",
+    "name": "에이전트 작업",
+    "purpose": "과정",
+    "use": "입력과 판단이 어떤 역할을 거치는가",
+    "avoid": "실제 자동 실행이 있다고 오인할 설명",
+    "budget": 7,
+    "minWidth": 480,
+    "limits": "다이어그램은 실행 권한이나 실제 연결 증거가 아니다.",
+    "fallback": "역할·입출력 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/agentflow",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "agentflow-native",
+        "label": "기본 문법 · 에이전트 작업",
+        "kind": "agentflow",
+        "url": "/pele/cases/agentflow-native.json",
+        "svgUrl": "/pele/cases/agentflow-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "usecase",
+    "name": "사용자 목표",
+    "purpose": "시스템",
+    "use": "누가 시스템에서 무엇을 달성하는가",
+    "avoid": "화면 이동 순서를 설명",
+    "budget": 6,
+    "minWidth": 560,
+    "limits": "사용자 역할과 기능을 구별한다.",
+    "fallback": "역할·목표 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/usecase",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "usecase-native",
+        "label": "기본 문법 · 사용자 목표",
+        "kind": "usecase",
+        "url": "/pele/cases/usecase-native.json",
+        "svgUrl": "/pele/cases/usecase-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "railroad",
+    "name": "문법 경로",
+    "purpose": "구조",
+    "use": "입력이 어떤 조합으로 유효해지는가",
+    "avoid": "실행 순서나 확률",
+    "budget": 5,
+    "minWidth": 480,
+    "limits": "반복과 선택의 의미를 설명한다.",
+    "fallback": "EBNF 원문",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/railroad",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "railroad-native",
+        "label": "기본 문법 · 문법 경로",
+        "kind": "railroad",
+        "url": "/pele/cases/railroad-native.json",
+        "svgUrl": "/pele/cases/railroad-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "treeView",
+    "name": "계층 목록",
+    "purpose": "구조",
+    "use": "파일과 항목이 어디에 속하는가",
+    "avoid": "여러 부모를 갖는 관계망",
+    "budget": 12,
+    "minWidth": 360,
+    "limits": "깊은 들여쓰기를 줄이되 계층을 숨기지 않는다.",
+    "fallback": "중첩 목록",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/treeview",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "treeView-native",
+        "label": "기본 문법 · 계층 목록",
+        "kind": "treeView",
+        "url": "/pele/cases/treeView-native.json",
+        "svgUrl": "/pele/cases/treeView-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "venn",
+    "name": "집합의 겹침",
+    "purpose": "구조",
+    "use": "범주가 어디서 겹치는가",
+    "avoid": "정밀한 면적 비교나 많은 집합",
+    "budget": 3,
+    "minWidth": 480,
+    "limits": "겹침 라벨과 정량 면적의 보장 범위를 구별한다.",
+    "fallback": "교집합 표",
+    "surfaces": [
+      "web",
+      "slide",
+      "report",
+      "note",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/venn",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "venn-native",
+        "label": "기본 문법 · 집합의 겹침",
+        "kind": "venn",
+        "url": "/pele/cases/venn-native.json",
+        "svgUrl": "/pele/cases/venn-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "cynefin",
+    "name": "상황 분류",
+    "purpose": "판단",
+    "use": "문제에 어떤 대응 방식이 필요한가",
+    "avoid": "확정적인 인과 분석",
+    "budget": 5,
+    "minWidth": 760,
+    "limits": "분류는 해석이며 점수나 순위가 아니다.",
+    "fallback": "영역별 판단표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/cynefin",
+    "category": "판단과 전략",
+    "cases": [
+      {
+        "id": "cynefin-native",
+        "label": "기본 문법 · 상황 분류",
+        "kind": "cynefin",
+        "url": "/pele/cases/cynefin-native.json",
+        "svgUrl": "/pele/cases/cynefin-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "wardley",
+    "name": "가치와 성숙도",
+    "purpose": "판단",
+    "use": "사용자 가치와 구성요소의 성숙도는 무엇인가",
+    "avoid": "근거 없는 좌표의 객관화",
+    "budget": 6,
+    "minWidth": 640,
+    "limits": "좌표는 판단 기준과 근거를 함께 기록한다.",
+    "fallback": "구성요소 평가표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/wardley",
+    "category": "판단과 전략",
+    "cases": [
+      {
+        "id": "wardley-native",
+        "label": "기본 문법 · 가치와 성숙도",
+        "kind": "wardley",
+        "url": "/pele/cases/wardley-native.json",
+        "svgUrl": "/pele/cases/wardley-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "swimlane",
+    "name": "역할별 과정",
+    "purpose": "과정",
+    "use": "어떤 역할이 어느 단계에 책임지는가",
+    "avoid": "책임 구분이 필요 없는 짧은 절차",
+    "budget": 8,
+    "minWidth": 640,
+    "limits": "좁은 화면에서도 역할과 단계 대응을 확인한다.",
+    "fallback": "책임·단계 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/swimlane",
+    "category": "과정과 시간",
+    "cases": [
+      {
+        "id": "swimlane-native",
+        "label": "기본 문법 · 역할별 과정",
+        "kind": "swimlane",
+        "url": "/pele/cases/swimlane-native.json",
+        "svgUrl": "/pele/cases/swimlane-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "ishikawa",
+    "name": "원인 후보",
+    "purpose": "판단",
+    "use": "문제에 기여할 원인은 무엇인가",
+    "avoid": "검증된 인과 효과로 주장",
+    "budget": 10,
+    "minWidth": 640,
+    "limits": "후보 원인과 확인된 원인을 글로 구분한다.",
+    "fallback": "원인 후보 목록",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/ishikawa",
+    "category": "판단과 전략",
+    "cases": [
+      {
+        "id": "ishikawa-native",
+        "label": "기본 문법 · 원인 후보",
+        "kind": "ishikawa",
+        "url": "/pele/cases/ishikawa-native.json",
+        "svgUrl": "/pele/cases/ishikawa-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "eventmodeling",
+    "name": "사건과 명령",
+    "purpose": "시스템",
+    "use": "명령이 어떤 사건과 화면 변화를 만드는가",
+    "avoid": "단순 연표",
+    "budget": 6,
+    "minWidth": 640,
+    "limits": "시간 프레임과 명령·사건을 혼동하지 않는다.",
+    "fallback": "명령·사건 표",
+    "surfaces": [
+      "web",
+      "report",
+      "image"
+    ],
+    "noteCompatibility": "호스트 Mermaid 버전 확인 필수; SVG 대체 권장",
+    "exampleData": "가상 자료",
+    "official": "https://pele.run/examples/eventmodeling",
+    "category": "시스템과 구조",
+    "cases": [
+      {
+        "id": "eventmodeling-native",
+        "label": "기본 문법 · 사건과 명령",
+        "kind": "eventmodeling",
+        "url": "/pele/cases/eventmodeling-native.json",
+        "svgUrl": "/pele/cases/eventmodeling-native.svg",
+        "engine": "Pele 1.6.0 · 공통 렌더러",
+        "tags": [
+          "기본"
+        ],
+        "type": "mermaid"
+      }
+    ],
+    "engine": "Pele 1.6.0"
+  },
+  {
+    "id": "paired",
+    "name": "전후 비교",
+    "use": "같은 대상의 두 시점은 얼마나 달라졌는가",
+    "forms": "덤벨 · 슬로프",
+    "limits": "전후 대응이 없는 두 집단을 잇지 않는다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-paired-dumbbell",
+        "label": "변화는 같은 대상을 연결한다 · 덤벨",
+        "kind": "paired",
+        "url": "/pele/cases/legacy-paired-dumbbell.json",
+        "svgUrl": "/pele/cases/legacy-paired-dumbbell.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "paired"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-paired-slope",
+        "label": "변화는 같은 대상을 연결한다 · 슬로프",
+        "kind": "paired",
+        "url": "/pele/cases/legacy-paired-slope.json",
+        "svgUrl": "/pele/cases/legacy-paired-slope.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "paired"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "interval",
+    "name": "분포와 추정 구간",
+    "use": "분포의 범위와 추정의 불확실성은 어떻게 다른가",
+    "forms": "상자도 · 신뢰구간 · 계수",
+    "limits": "상자도의 IQR과 평균의 신뢰구간은 다른 통계량이다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-interval-box",
+        "label": "분포와 평균의 불확실성은 다르다 · 사분위 분포",
+        "kind": "interval",
+        "url": "/pele/cases/legacy-interval-box.json",
+        "svgUrl": "/pele/cases/legacy-interval-box.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "interval"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-interval-ci",
+        "label": "분포와 평균의 불확실성은 다르다 · 평균 ± 표준오차 1.96배",
+        "kind": "interval",
+        "url": "/pele/cases/legacy-interval-ci.json",
+        "svgUrl": "/pele/cases/legacy-interval-ci.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "interval"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "analysis-welch",
+        "label": "t-test · 독립 Welch 비교",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-welch.json",
+        "svgUrl": "/pele/cases/analysis-welch.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "t-test"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-paired",
+        "label": "t-test · 대응 인식 비교",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-paired.json",
+        "svgUrl": "/pele/cases/analysis-paired.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "t-test"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-reg-ols",
+        "label": "Regression · 고전적 표준오차",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-reg-ols.json",
+        "svgUrl": "/pele/cases/analysis-reg-ols.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Regression"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-reg-hc3",
+        "label": "Regression · HC3 강건 오차",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-reg-hc3.json",
+        "svgUrl": "/pele/cases/analysis-reg-hc3.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Regression"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-anova-welch",
+        "label": "One-way ANOVA · Welch + Games–Howell",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-anova-welch.json",
+        "svgUrl": "/pele/cases/analysis-anova-welch.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "One-way ANOVA"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-anova-classic",
+        "label": "One-way ANOVA · 고전적 F + Tukey",
+        "kind": "interval",
+        "url": "/pele/cases/analysis-anova-classic.json",
+        "svgUrl": "/pele/cases/analysis-anova-classic.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "One-way ANOVA"
+        ],
+        "type": "analysis"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "scatter",
+    "name": "산점도",
+    "use": "연속 변수의 공동 분포는 어떤가",
+    "forms": "실수축 · 버블 · 필터",
+    "limits": "점의 중첩과 범위를 확인한다. 상관을 인과로 읽지 않는다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-scatter-all",
+        "label": "두 변수의 관계를 함께 본다 · 전체",
+        "kind": "scatter",
+        "url": "/pele/cases/legacy-scatter-all.json",
+        "svgUrl": "/pele/cases/legacy-scatter-all.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "scatter"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-scatter-filter-0",
+        "label": "두 변수의 관계를 함께 본다 · 문서",
+        "kind": "scatter",
+        "url": "/pele/cases/legacy-scatter-filter-0.json",
+        "svgUrl": "/pele/cases/legacy-scatter-filter-0.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "scatter"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-scatter-filter-1",
+        "label": "두 변수의 관계를 함께 본다 · 영상",
+        "kind": "scatter",
+        "url": "/pele/cases/legacy-scatter-filter-1.json",
+        "svgUrl": "/pele/cases/legacy-scatter-filter-1.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "scatter"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "analysis-pearson",
+        "label": "Correlation · Pearson 수치",
+        "kind": "scatter",
+        "url": "/pele/cases/analysis-pearson.json",
+        "svgUrl": "/pele/cases/analysis-pearson.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Correlation"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-spearman",
+        "label": "Correlation · Spearman 순위",
+        "kind": "scatter",
+        "url": "/pele/cases/analysis-spearman.json",
+        "svgUrl": "/pele/cases/analysis-spearman.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "Correlation"
+        ],
+        "type": "analysis"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "matrix",
+    "name": "수치 행렬",
+    "use": "행과 열의 조합에서 어떤 값이 큰가",
+    "forms": "히트맵 · 상관 · 잔차",
+    "limits": "같은 색 척도와 행·열 순서, 원래 값을 함께 읽는다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-matrix-original",
+        "label": "행과 열의 교차점에서 패턴을 찾는다 · 원래 순서",
+        "kind": "matrix",
+        "url": "/pele/cases/legacy-matrix-original.json",
+        "svgUrl": "/pele/cases/legacy-matrix-original.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "matrix"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-matrix-reverse",
+        "label": "행과 열의 교차점에서 패턴을 찾는다 · 행 순서 반전",
+        "kind": "matrix",
+        "url": "/pele/cases/legacy-matrix-reverse.json",
+        "svgUrl": "/pele/cases/legacy-matrix-reverse.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "matrix"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "analysis-chi3",
+        "label": "χ² 독립성 · 3개 참여군군",
+        "kind": "matrix",
+        "url": "/pele/cases/analysis-chi3.json",
+        "svgUrl": "/pele/cases/analysis-chi3.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "χ² 독립성"
+        ],
+        "type": "analysis"
+      },
+      {
+        "id": "analysis-chi7",
+        "label": "χ² 독립성 · 원래7수준",
+        "kind": "matrix",
+        "url": "/pele/cases/analysis-chi7.json",
+        "svgUrl": "/pele/cases/analysis-chi7.svg",
+        "engine": "Achmage 통계 분석 + 과학 SVG",
+        "tags": [
+          "통계 분석",
+          "χ² 독립성"
+        ],
+        "type": "analysis"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "likert",
+    "name": "서열 응답",
+    "use": "부정에서 긍정까지 응답이 어떻게 분포하는가",
+    "forms": "리커트 · 인원 · 비율",
+    "limits": "응답 순서와 분모를 보존한다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-likert-percent",
+        "label": "중립을 중심으로 응답 방향을 읽는다 · 비율",
+        "kind": "likert",
+        "url": "/pele/cases/legacy-likert-percent.json",
+        "svgUrl": "/pele/cases/legacy-likert-percent.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "likert"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-likert-count",
+        "label": "중립을 중심으로 응답 방향을 읽는다 · 응답 수",
+        "kind": "likert",
+        "url": "/pele/cases/legacy-likert-count.json",
+        "svgUrl": "/pele/cases/legacy-likert-count.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "likert"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "waterfall",
+    "name": "증감과 누계",
+    "use": "시작 값에 각 증감이 더해진 결과는 무엇인가",
+    "forms": "워터폴 · 증감",
+    "limits": "중간 누계와 순수 증감을 구별한다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-waterfall-bridge",
+        "label": "변화의 합이 최종 금액을 만든다 · 증감 연결",
+        "kind": "waterfall",
+        "url": "/pele/cases/legacy-waterfall-bridge.json",
+        "svgUrl": "/pele/cases/legacy-waterfall-bridge.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "waterfall"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-waterfall-delta",
+        "label": "변화의 합이 최종 금액을 만든다 · 증감 비교",
+        "kind": "waterfall",
+        "url": "/pele/cases/legacy-waterfall-delta.json",
+        "svgUrl": "/pele/cases/legacy-waterfall-delta.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "waterfall"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  },
+  {
+    "id": "spatial",
+    "name": "가상 권역",
+    "use": "영역별 규모와 기준 인구 대비 비율은 어떤가",
+    "forms": "평면 구획 · 수 · 비율",
+    "limits": "가상의 평면 좌표다. 실제 행정구역이나 지도 투영 기능이 아니다.",
+    "category": "통계와 데이터",
+    "engine": "Achmage 통계 SVG",
+    "minWidth": 600,
+    "cases": [
+      {
+        "id": "legacy-spatial-count",
+        "label": "총량과 비율은 다른 지도를 만든다 · 이용 총량",
+        "kind": "spatial",
+        "url": "/pele/cases/legacy-spatial-count.json",
+        "svgUrl": "/pele/cases/legacy-spatial-count.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "spatial"
+        ],
+        "type": "legacy"
+      },
+      {
+        "id": "legacy-spatial-rate",
+        "label": "총량과 비율은 다른 지도를 만든다 · 인구 100명당",
+        "kind": "spatial",
+        "url": "/pele/cases/legacy-spatial-rate.json",
+        "svgUrl": "/pele/cases/legacy-spatial-rate.svg",
+        "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+        "tags": [
+          "기존 레시피",
+          "spatial"
+        ],
+        "type": "legacy"
+      }
+    ],
+    "avoid": "단위·분모·대응 관계가 불명확한 자료",
+    "fallback": "데이터 표",
+    "noteCompatibility": "사전 생성 SVG로 삽입"
+  }
+]

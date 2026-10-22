@@ -1,0 +1,30 @@
+{
+  "id": "editorial-findings",
+  "label": "편집 문맥 · 결과 설명",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "flowchart TB\n A[관측된 차이] --> B[불확실성 확인]\n B --> C[대안 설명]\n C --> D[일반화 범위]",
+    "title": "결과 설명"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-flowchart\" viewBox=\"0 0 150 364\" width=\"150\" height=\"364\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"flowchart\" role=\"img\" aria-labelledby=\"editorial-findings-title editorial-findings-desc\"><title id=\"editorial-findings-title\">결과 설명</title><desc id=\"editorial-findings-desc\">결과 설명</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge\" data-id=\"L_A_B_0\"><path d=\"M74.91,59L74.91,100\"/><path class=\"pele-marker\" d=\"M74.91,107L71.55,99L78.27,99Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_B_C_0\"><path d=\"M74.91,158L74.91,199\"/><path class=\"pele-marker\" d=\"M74.91,206L71.55,198L78.27,198Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_C_D_0\"><path d=\"M74.91,257L74.91,298\"/><path class=\"pele-marker\" d=\"M74.91,305L71.55,297L78.27,297Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-shape-rect\" data-id=\"A\" transform=\"translate(74.91,33.5)\"><rect x=\"-59.13\" y=\"-25.5\" width=\"118.27\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">관측된 차이</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"B\" transform=\"translate(74.91,132.5)\"><rect x=\"-66.91\" y=\"-25.5\" width=\"133.82\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">불확실성 확인</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"C\" transform=\"translate(74.91,231.5)\"><rect x=\"-51.35\" y=\"-25.5\" width=\"102.71\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">대안 설명</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"D\" transform=\"translate(74.91,330.5)\"><rect x=\"-59.13\" y=\"-25.5\" width=\"118.27\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">일반화 범위</text></g></g></svg>",
+  "description": "같은 흐름 문법의 다른 쓰임. 별도 도표 종류로 세지 않습니다.",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "문맥": "결과 설명",
+      "source": "flowchart TB\n A[관측된 차이] --> B[불확실성 확인]\n B --> C[대안 설명]\n C --> D[일반화 범위]"
+    }
+  ],
+  "diagnostics": [],
+  "tags": [
+    "편집 문맥"
+  ],
+  "kind": "flowchart",
+  "sha256": "0a4beb18dfbad5c03ef800ba10b3775f2f10e12cb45b24b47273c889d83a8eff",
+  "sourceSha256": "a0245085caea45cd1d4e3cfe9855766ad5832c0d4eea05ce334c8f0536a92ff2",
+  "url": "/pele/cases/editorial-findings.json",
+  "svgUrl": "/pele/cases/editorial-findings.svg",
+  "pngUrl": null
+}

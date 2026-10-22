@@ -1,0 +1,392 @@
+{
+  "id": "analysis-two-hc3",
+  "label": "Two-way ANOVA · HC3 joint F",
+  "type": "analysis",
+  "source": {
+    "analysis": {
+      "id": "two-hc3",
+      "label": "HC3 joint F",
+      "kind": "two-way",
+      "n": 944,
+      "terms": [
+        {
+          "term": "C(party3, Sum)",
+          "F": 3.2811394569176917,
+          "p": 0.0380186388230095,
+          "df": 2
+        },
+        {
+          "term": "C(age_band, Sum)",
+          "F": 19.106044053070967,
+          "p": 7.36926817286995e-09,
+          "df": 2
+        },
+        {
+          "term": "C(party3, Sum):C(age_band, Sum)",
+          "F": 1.7269721183572473,
+          "p": 0.14182502972375663,
+          "df": 4
+        }
+      ],
+      "dfResidual": 935,
+      "cells": [
+        {
+          "party": "Group A",
+          "band": "18–34",
+          "mean": 3.643835616438352,
+          "lo": 3.3069719685002026,
+          "hi": 3.9806992643765016,
+          "n": 73,
+          "key": "two-hc3-Group A-18–34"
+        },
+        {
+          "party": "Group A",
+          "band": "35–54",
+          "mean": 3.4077669902912597,
+          "lo": 3.107919243159585,
+          "hi": 3.7076147374229347,
+          "n": 103,
+          "key": "two-hc3-Group A-35–54"
+        },
+        {
+          "party": "Group A",
+          "band": "55+",
+          "mean": 4.127272727272726,
+          "lo": 3.9284154068102675,
+          "hi": 4.326130047735185,
+          "n": 220,
+          "key": "two-hc3-Group A-55+"
+        },
+        {
+          "party": "Group B",
+          "band": "18–34",
+          "mean": 2.7692307692307687,
+          "lo": 2.240222388225286,
+          "hi": 3.2982391502362516,
+          "n": 39,
+          "key": "two-hc3-Group B-18–34"
+        },
+        {
+          "party": "Group B",
+          "band": "35–54",
+          "mean": 3.2564102564102564,
+          "lo": 2.845076276465932,
+          "hi": 3.6677442363545807,
+          "n": 39,
+          "key": "two-hc3-Group B-35–54"
+        },
+        {
+          "party": "Group B",
+          "band": "55+",
+          "mean": 3.883720930232556,
+          "lo": 3.379556102395692,
+          "hi": 4.38788575806942,
+          "n": 43,
+          "key": "two-hc3-Group B-55+"
+        },
+        {
+          "party": "Group C",
+          "band": "18–34",
+          "mean": 3.1030927835051565,
+          "lo": 2.7766679743251905,
+          "hi": 3.4295175926851225,
+          "n": 97,
+          "key": "two-hc3-Group C-18–34"
+        },
+        {
+          "party": "Group C",
+          "band": "35–54",
+          "mean": 3.588235294117649,
+          "lo": 3.3355565721907894,
+          "hi": 3.8409140160445085,
+          "n": 119,
+          "key": "two-hc3-Group C-35–54"
+        },
+        {
+          "party": "Group C",
+          "band": "55+",
+          "mean": 4.175355450236967,
+          "lo": 3.9667003101024574,
+          "hi": 4.384010590371478,
+          "n": 211,
+          "key": "two-hc3-Group C-55+"
+        }
+      ],
+      "key": "two-hc3-Group A-18–34"
+    },
+    "formula": "See downloadable synthetic generator",
+    "dataset": {
+      "name": "가상 학습 설문",
+      "n": 944,
+      "unit": "synthetic respondents",
+      "credit": "Achmage synthetic generator",
+      "definition": "독립적인 가상 자료. 실제 인물·정치 조사·기관 성과가 아님. 이전 분석 API의 column ID를 보존하며 PID는 참여군, vote는 프로그램 선택, TVnews는 연습 횟수, ClinLR/DoleLR는 프로그램 A/B 평가, logpopul은 환경 지수이다.",
+      "sha256": "4e4601b618203f6745bb6a100f351bebcf2e33c634c1ede839db09fc2943f128"
+    }
+  },
+  "svg": "<svg viewBox=\"0 0 1600 650\" width=\"1600\" height=\"650\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Scientific analysis figure\"><title>Two-way ANOVA · HC3 joint F</title><desc>집단 조합의 차이와 상호작용 검정을 함께 읽는다 Unbalanced 3×3 design, sum contrasts. Cell n and pointwise intervals remain visible. Joint interaction test is not inferred from line crossings.</desc><rect x=\"0\" y=\"0\" width=\"1600\" height=\"650\" fill=\"var(--pele-bg)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"0\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">A  Full-interaction cell means ·95% CI</text><text x=\"1010\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">B  HC3 joint F tests</text><line x1=\"80\" y1=\"470\" x2=\"830\" y2=\"470\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"66\" y=\"478\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">0</text><line x1=\"80\" y1=\"380\" x2=\"830\" y2=\"380\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"66\" y=\"388\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">2</text><line x1=\"80\" y1=\"290\" x2=\"830\" y2=\"290\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"66\" y=\"298\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">4</text><line x1=\"80\" y1=\"200\" x2=\"830\" y2=\"200\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"66\" y=\"208\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">6</text><line x1=\"80\" y1=\"110\" x2=\"830\" y2=\"110\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"66\" y=\"118\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">8</text><text x=\"455\" y=\"548\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">Age band</text><text x=\"80\" y=\"90\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">Practice (times/week)</text><text x=\"142.5\" y=\"510\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">18–34</text><text x=\"454.99999999999994\" y=\"510\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">35–54</text><text x=\"767.5\" y=\"510\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">55+</text><path d=\"M130.5 306.02739726027414 L442.99999999999994 316.6504854368933 L755.5 284.27272727272737\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\"></path><g  data-key=\"two-hc3-Group A-18–34\" aria-label=\"Group A / 18–34\"><line x1=\"130.5\" y1=\"321.18626141749087\" x2=\"130.5\" y2=\"290.8685331030574\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\"></line><circle cx=\"130.5\" cy=\"306.02739726027414\" r=\"7\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group A-35–54\" aria-label=\"Group A / 35–54\"><line x1=\"442.99999999999994\" y1=\"330.14363405781864\" x2=\"442.99999999999994\" y2=\"303.15733681596794\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\"></line><circle cx=\"442.99999999999994\" cy=\"316.6504854368933\" r=\"7\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group A-55+\" aria-label=\"Group A / 55+\"><line x1=\"755.5\" y1=\"293.22130669353794\" x2=\"755.5\" y2=\"275.3241478519167\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\"></line><circle cx=\"755.5\" cy=\"284.27272727272737\" r=\"7\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle></g><rect x=\"40\" y=\"585\" width=\"16\" height=\"16\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"68\" y=\"604\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group A</text><text x=\"68\" y=\"640\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n: 73 / 103 / 220</text><path d=\"M142.5 345.3846153846154 L454.99999999999994 323.46153846153845 L767.5 295.23255813953494\" stroke=\"var(--pele-series-2)\" stroke-width=\"3\" fill=\"none\"></path><g  data-key=\"two-hc3-Group B-18–34\" aria-label=\"Group B / 18–34\"><line x1=\"142.5\" y1=\"369.18999252986214\" x2=\"142.5\" y2=\"321.5792382393687\" stroke=\"var(--pele-series-2)\" stroke-width=\"3\"></line><circle cx=\"142.5\" cy=\"345.3846153846154\" r=\"7\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-series-2)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group B-35–54\" aria-label=\"Group B / 35–54\"><line x1=\"454.99999999999994\" y1=\"341.971567559033\" x2=\"454.99999999999994\" y2=\"304.9515093640439\" stroke=\"var(--pele-series-2)\" stroke-width=\"3\"></line><circle cx=\"454.99999999999994\" cy=\"323.46153846153845\" r=\"7\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-series-2)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group B-55+\" aria-label=\"Group B / 55+\"><line x1=\"767.5\" y1=\"317.91997539219386\" x2=\"767.5\" y2=\"272.5451408868761\" stroke=\"var(--pele-series-2)\" stroke-width=\"3\"></line><circle cx=\"767.5\" cy=\"295.23255813953494\" r=\"7\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-series-2)\" stroke-width=\"2\"></circle></g><rect x=\"340\" y=\"585\" width=\"16\" height=\"16\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"368\" y=\"604\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group B</text><text x=\"368\" y=\"640\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n: 39 / 39 / 43</text><path d=\"M154.5 330.36082474226794 L466.99999999999994 308.5294117647058 L779.5 282.10900473933646\" stroke=\"var(--pele-series-3)\" stroke-width=\"3\" fill=\"none\"></path><g  data-key=\"two-hc3-Group C-18–34\" aria-label=\"Group C / 18–34\"><line x1=\"154.5\" y1=\"345.0499411553664\" x2=\"154.5\" y2=\"315.6717083291695\" stroke=\"var(--pele-series-3)\" stroke-width=\"3\"></line><circle cx=\"154.5\" cy=\"330.36082474226794\" r=\"7\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-series-3)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group C-35–54\" aria-label=\"Group C / 35–54\"><line x1=\"466.99999999999994\" y1=\"319.89995425141444\" x2=\"466.99999999999994\" y2=\"297.15886927799716\" stroke=\"var(--pele-series-3)\" stroke-width=\"3\"></line><circle cx=\"466.99999999999994\" cy=\"308.5294117647058\" r=\"7\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-series-3)\" stroke-width=\"2\"></circle></g><g  data-key=\"two-hc3-Group C-55+\" aria-label=\"Group C / 55+\"><line x1=\"779.5\" y1=\"291.4984860453894\" x2=\"779.5\" y2=\"272.7195234332835\" stroke=\"var(--pele-series-3)\" stroke-width=\"3\"></line><circle cx=\"779.5\" cy=\"282.10900473933646\" r=\"7\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-series-3)\" stroke-width=\"2\"></circle></g><rect x=\"640\" y=\"585\" width=\"16\" height=\"16\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"668\" y=\"604\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group C</text><text x=\"668\" y=\"640\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n: 97 / 119 / 211</text><text x=\"1015\" y=\"125\" font-size=\"29\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Participation group</text><text x=\"1015\" y=\"168\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">F(2, 935) = 3.281</text><text x=\"1015\" y=\"208\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">p = 0.038</text><text x=\"1015\" y=\"260\" font-size=\"29\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Age band</text><text x=\"1015\" y=\"303\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">F(2, 935) = 19.106</text><text x=\"1015\" y=\"343\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">p &lt; .001</text><text x=\"1015\" y=\"395\" font-size=\"29\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group × age</text><text x=\"1015\" y=\"438\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">F(4, 935) = 1.727</text><text x=\"1015\" y=\"478\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">p = 0.142</text></svg>",
+  "description": "참여군과 연령의 조합에 따라 연습 횟수이 다른가? — 집단 조합의 차이와 상호작용 검정을 함께 읽는다",
+  "limits": "전부 합성 자료. Unbalanced 3×3 design, sum contrasts. Cell n and pointwise intervals remain visible. Joint interaction test is not inferred from line crossings.",
+  "diagnostics": [],
+  "engine": "Achmage 통계 분석 + 과학 SVG",
+  "minWidth": 1280,
+  "records": [
+    {
+      "id": "two-hc3-Group A-18–34",
+      "label": "Group A / 18–34",
+      "value": 3.643835616438352,
+      "unit": "times/week",
+      "ci": [
+        3.3069719685002026,
+        3.9806992643765016
+      ],
+      "n": 73,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group A-35–54",
+      "label": "Group A / 35–54",
+      "value": 3.4077669902912597,
+      "unit": "times/week",
+      "ci": [
+        3.107919243159585,
+        3.7076147374229347
+      ],
+      "n": 103,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group A-55+",
+      "label": "Group A / 55+",
+      "value": 4.127272727272726,
+      "unit": "times/week",
+      "ci": [
+        3.9284154068102675,
+        4.326130047735185
+      ],
+      "n": 220,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group B-18–34",
+      "label": "Group B / 18–34",
+      "value": 2.7692307692307687,
+      "unit": "times/week",
+      "ci": [
+        2.240222388225286,
+        3.2982391502362516
+      ],
+      "n": 39,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group B-35–54",
+      "label": "Group B / 35–54",
+      "value": 3.2564102564102564,
+      "unit": "times/week",
+      "ci": [
+        2.845076276465932,
+        3.6677442363545807
+      ],
+      "n": 39,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group B-55+",
+      "label": "Group B / 55+",
+      "value": 3.883720930232556,
+      "unit": "times/week",
+      "ci": [
+        3.379556102395692,
+        4.38788575806942
+      ],
+      "n": 43,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group C-18–34",
+      "label": "Group C / 18–34",
+      "value": 3.1030927835051565,
+      "unit": "times/week",
+      "ci": [
+        2.7766679743251905,
+        3.4295175926851225
+      ],
+      "n": 97,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group C-35–54",
+      "label": "Group C / 35–54",
+      "value": 3.588235294117649,
+      "unit": "times/week",
+      "ci": [
+        3.3355565721907894,
+        3.8409140160445085
+      ],
+      "n": 119,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "two-hc3-Group C-55+",
+      "label": "Group C / 55+",
+      "value": 4.175355450236967,
+      "unit": "times/week",
+      "ci": [
+        3.9667003101024574,
+        4.384010590371478
+      ],
+      "n": 211,
+      "method": "Full interaction cell mean; HC3 t CI",
+      "meaning": "해당 참여군·연령 셀의 모형 평균. 포화된 두 요인 상호작용 셀 구조로 원 셀 평균과 같다.",
+      "caveat": "불균형 셀 크기와 작은 Group B 셀의 불확실성을 함께 읽는다. 선이 교차하는 모양만으로 상호작용 유의성을 판단하지 않는다.",
+      "source": "anes"
+    }
+  ],
+  "model": {
+    "id": "two-hc3",
+    "label": "HC3 joint F",
+    "kind": "two-way",
+    "n": 944,
+    "terms": [
+      {
+        "term": "C(party3, Sum)",
+        "F": 3.2811394569176917,
+        "p": 0.0380186388230095,
+        "df": 2
+      },
+      {
+        "term": "C(age_band, Sum)",
+        "F": 19.106044053070967,
+        "p": 7.36926817286995e-09,
+        "df": 2
+      },
+      {
+        "term": "C(party3, Sum):C(age_band, Sum)",
+        "F": 1.7269721183572473,
+        "p": 0.14182502972375663,
+        "df": 4
+      }
+    ],
+    "dfResidual": 935,
+    "cells": [
+      {
+        "party": "Group A",
+        "band": "18–34",
+        "mean": 3.643835616438352,
+        "lo": 3.3069719685002026,
+        "hi": 3.9806992643765016,
+        "n": 73,
+        "key": "two-hc3-Group A-18–34"
+      },
+      {
+        "party": "Group A",
+        "band": "35–54",
+        "mean": 3.4077669902912597,
+        "lo": 3.107919243159585,
+        "hi": 3.7076147374229347,
+        "n": 103,
+        "key": "two-hc3-Group A-35–54"
+      },
+      {
+        "party": "Group A",
+        "band": "55+",
+        "mean": 4.127272727272726,
+        "lo": 3.9284154068102675,
+        "hi": 4.326130047735185,
+        "n": 220,
+        "key": "two-hc3-Group A-55+"
+      },
+      {
+        "party": "Group B",
+        "band": "18–34",
+        "mean": 2.7692307692307687,
+        "lo": 2.240222388225286,
+        "hi": 3.2982391502362516,
+        "n": 39,
+        "key": "two-hc3-Group B-18–34"
+      },
+      {
+        "party": "Group B",
+        "band": "35–54",
+        "mean": 3.2564102564102564,
+        "lo": 2.845076276465932,
+        "hi": 3.6677442363545807,
+        "n": 39,
+        "key": "two-hc3-Group B-35–54"
+      },
+      {
+        "party": "Group B",
+        "band": "55+",
+        "mean": 3.883720930232556,
+        "lo": 3.379556102395692,
+        "hi": 4.38788575806942,
+        "n": 43,
+        "key": "two-hc3-Group B-55+"
+      },
+      {
+        "party": "Group C",
+        "band": "18–34",
+        "mean": 3.1030927835051565,
+        "lo": 2.7766679743251905,
+        "hi": 3.4295175926851225,
+        "n": 97,
+        "key": "two-hc3-Group C-18–34"
+      },
+      {
+        "party": "Group C",
+        "band": "35–54",
+        "mean": 3.588235294117649,
+        "lo": 3.3355565721907894,
+        "hi": 3.8409140160445085,
+        "n": 119,
+        "key": "two-hc3-Group C-35–54"
+      },
+      {
+        "party": "Group C",
+        "band": "55+",
+        "mean": 4.175355450236967,
+        "lo": 3.9667003101024574,
+        "hi": 4.384010590371478,
+        "n": 211,
+        "key": "two-hc3-Group C-55+"
+      }
+    ],
+    "key": "two-hc3-Group A-18–34"
+  },
+  "tags": [
+    "통계 분석",
+    "Two-way ANOVA"
+  ],
+  "summary": "가상 자료 n=944 · 조건 two-hc3",
+  "kind": "xychart",
+  "sha256": "27c5be845d1e35106bdd3248e5a1f5d2f84b041bdbce0fbfb3aab71b70d4455b",
+  "sourceSha256": "581d4dc5ed960687f9ba5fb628ce78cee82f80c3017a98e30f2a507061ea9a71",
+  "url": "/pele/cases/analysis-two-hc3.json",
+  "svgUrl": "/pele/cases/analysis-two-hc3.svg",
+  "pngUrl": null
+}

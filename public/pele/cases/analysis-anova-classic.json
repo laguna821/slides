@@ -1,0 +1,485 @@
+{
+  "id": "analysis-anova-classic",
+  "label": "One-way ANOVA · 고전적 F + Tukey",
+  "type": "analysis",
+  "source": {
+    "analysis": {
+      "id": "anova-classic",
+      "label": "고전적 F + Tukey",
+      "kind": "anova",
+      "n": 944,
+      "F": 45.62575690513504,
+      "df": [
+        2,
+        941
+      ],
+      "p": 1.2241275968330597e-19,
+      "eta2Descriptive": 0.08840046499272299,
+      "groups": [
+        {
+          "label": "Level 1-3",
+          "n": 390,
+          "mean": 3.235897435897436,
+          "sd": 1.487131981994206,
+          "ci": [
+            3.0878439523145103,
+            3.3839509194803616
+          ],
+          "hist": [
+            [
+              0,
+              14
+            ],
+            [
+              1,
+              30
+            ],
+            [
+              2,
+              78
+            ],
+            [
+              3,
+              103
+            ],
+            [
+              4,
+              87
+            ],
+            [
+              5,
+              56
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "key": "anova-classic-group-0"
+        },
+        {
+          "label": "Level 4",
+          "n": 131,
+          "mean": 3.66412213740458,
+          "sd": 1.4915695761017382,
+          "ci": [
+            3.406301504305201,
+            3.921942770503959
+          ],
+          "hist": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              24
+            ],
+            [
+              3,
+              28
+            ],
+            [
+              4,
+              36
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              5
+            ]
+          ],
+          "key": "anova-classic-group-1"
+        },
+        {
+          "label": "Level 5-7",
+          "n": 423,
+          "mean": 4.24113475177305,
+          "sd": 1.5203238113236286,
+          "ci": [
+            4.09583617558904,
+            4.38643332795706
+          ],
+          "hist": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              43
+            ],
+            [
+              3,
+              73
+            ],
+            [
+              4,
+              111
+            ],
+            [
+              5,
+              94
+            ],
+            [
+              6,
+              57
+            ],
+            [
+              7,
+              32
+            ]
+          ],
+          "key": "anova-classic-group-2"
+        }
+      ],
+      "contrasts": [
+        {
+          "label": "2 − 1",
+          "b": 0.4282247015071441,
+          "lo": 0.07200425650500314,
+          "hi": 0.784445146509285,
+          "p": 0.013504675792870957,
+          "key": "anova-classic-contrast-0-1"
+        },
+        {
+          "label": "3 − 1",
+          "b": 1.0052373158756138,
+          "lo": 0.7576030625260594,
+          "hi": 1.2528715692251684,
+          "p": 8.413270080609436e-13,
+          "key": "anova-classic-contrast-0-2"
+        },
+        {
+          "label": "3 − 2",
+          "b": 0.5770126143684697,
+          "lo": 0.22430325639468923,
+          "hi": 0.9297219723422503,
+          "p": 0.00038528764675360705,
+          "key": "anova-classic-contrast-1-2"
+        }
+      ],
+      "key": "anova-classic-contrast-0-1"
+    },
+    "formula": "See downloadable synthetic generator",
+    "dataset": {
+      "name": "가상 학습 설문",
+      "n": 944,
+      "unit": "synthetic respondents",
+      "credit": "Achmage synthetic generator",
+      "definition": "독립적인 가상 자료. 실제 인물·정치 조사·기관 성과가 아님. 이전 분석 API의 column ID를 보존하며 PID는 참여군, vote는 프로그램 선택, TVnews는 연습 횟수, ClinLR/DoleLR는 프로그램 A/B 평가, logpopul은 환경 지수이다.",
+      "sha256": "4e4601b618203f6745bb6a100f351bebcf2e33c634c1ede839db09fc2943f128"
+    }
+  },
+  "svg": "<svg viewBox=\"0 0 1600 650\" width=\"1600\" height=\"650\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Scientific analysis figure\"><title>One-way ANOVA · 고전적 F + Tukey</title><desc>전체 차이와 보정된 집단 간 차이를 분리한다 Groups: 1 = high school or less; 2 = some college; 3 = degree+. Bars show within-group frequencies; contrasts use the selected correction.</desc><rect x=\"0\" y=\"0\" width=\"1600\" height=\"650\" fill=\"var(--pele-bg)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"0\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">A  Synthetic 0–7 times distributions</text><text x=\"900\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">B  Familywise mean contrasts</text><text x=\"0\" y=\"105\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Level 1-3</text><text x=\"0\" y=\"142\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n 390 · mean 3.24</text><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"370\" y=\"184.43589743589743\" width=\"40\" height=\"5.564102564102564\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"390\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"426\" y=\"178.07692307692307\" width=\"40\" height=\"11.923076923076923\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"446\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"482\" y=\"159\" width=\"40\" height=\"31\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"502\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">2</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"538\" y=\"149.06410256410257\" width=\"40\" height=\"40.93589743589744\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"558\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">3</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"594\" y=\"155.4230769230769\" width=\"40\" height=\"34.57692307692308\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"614\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">4</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"650\" y=\"167.74358974358975\" width=\"40\" height=\"22.256410256410255\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"670\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">5</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"706\" y=\"184.03846153846155\" width=\"40\" height=\"5.961538461538462\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"726\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">6</text></g><g  data-key=\"anova-classic-group-0\" aria-label=\"Level 1-3\"><rect x=\"762\" y=\"187.21794871794873\" width=\"40\" height=\"2.782051282051282\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"782\" y=\"223\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">7</text></g><text x=\"0\" y=\"260\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Level 4</text><text x=\"0\" y=\"297\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n 131 · mean 3.66</text><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"370\" y=\"342.63358778625957\" width=\"40\" height=\"2.3664122137404577\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"390\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"426\" y=\"339.08396946564886\" width=\"40\" height=\"5.916030534351145\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"446\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"482\" y=\"316.6030534351145\" width=\"40\" height=\"28.396946564885496\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"502\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">2</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"538\" y=\"311.8702290076336\" width=\"40\" height=\"33.12977099236641\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"558\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">3</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"594\" y=\"302.40458015267177\" width=\"40\" height=\"42.595419847328245\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"614\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">4</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"650\" y=\"318.96946564885496\" width=\"40\" height=\"26.03053435114504\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"670\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">5</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"706\" y=\"334.35114503816794\" width=\"40\" height=\"10.648854961832061\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"726\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">6</text></g><g  data-key=\"anova-classic-group-1\" aria-label=\"Level 4\"><rect x=\"762\" y=\"339.08396946564886\" width=\"40\" height=\"5.916030534351145\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"782\" y=\"378\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">7</text></g><text x=\"0\" y=\"415\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Level 5-7</text><text x=\"0\" y=\"452\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n 423 · mean 4.24</text><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"370\" y=\"498.5342789598109\" width=\"40\" height=\"1.4657210401891252\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"390\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"426\" y=\"496.70212765957444\" width=\"40\" height=\"3.2978723404255317\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"446\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"482\" y=\"484.2434988179669\" width=\"40\" height=\"15.756501182033096\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"502\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">2</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"538\" y=\"473.25059101654847\" width=\"40\" height=\"26.749408983451538\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"558\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">3</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"594\" y=\"459.3262411347518\" width=\"40\" height=\"40.673758865248224\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"614\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">4</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"650\" y=\"465.55555555555554\" width=\"40\" height=\"34.44444444444444\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"670\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">5</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"706\" y=\"479.11347517730496\" width=\"40\" height=\"20.886524822695037\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"726\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">6</text></g><g  data-key=\"anova-classic-group-2\" aria-label=\"Level 5-7\"><rect x=\"762\" y=\"488.274231678487\" width=\"40\" height=\"11.725768321513002\" fill=\"var(--pele-series-3)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"782\" y=\"533\" font-size=\"22\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">7</text></g><text x=\"900\" y=\"83\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\"></text><line x1=\"1030\" y1=\"117\" x2=\"1030\" y2=\"403\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1030\" y=\"449\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">-0.1</text><line x1=\"1116.25\" y1=\"117\" x2=\"1116.25\" y2=\"403\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1116.25\" y=\"449\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.26</text><line x1=\"1202.5\" y1=\"117\" x2=\"1202.5\" y2=\"403\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1202.5\" y=\"449\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.63</text><line x1=\"1288.75\" y1=\"117\" x2=\"1288.75\" y2=\"403\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1288.75\" y=\"449\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">0.99</text><line x1=\"1375\" y1=\"117\" x2=\"1375\" y2=\"403\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"1375\" y=\"449\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1.35</text><line x1=\"1053.7931034482758\" y1=\"117\" x2=\"1053.7931034482758\" y2=\"403\" stroke=\"var(--pele-series-3)\" stroke-width=\"2\" stroke-dasharray=\"5 5\"></line><g  data-key=\"anova-classic-contrast-0-1\" aria-label=\"Level 4 − Level 1-3\"><text x=\"908\" y=\"152\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">2 − 1</text><line x1=\"1070.8858842031227\" y1=\"145\" x2=\"1240.0091628079776\" y2=\"145\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1070.8858842031227\" y1=\"136\" x2=\"1070.8858842031227\" y2=\"154\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1240.0091628079776\" y1=\"136\" x2=\"1240.0091628079776\" y2=\"154\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1155.4475235055502\" cy=\"145\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"145\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+0.43</text><text x=\"1590\" y=\"179\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.07, 0.78]</text></g><g  data-key=\"anova-classic-contrast-0-2\" aria-label=\"Level 5-7 − Level 1-3\"><text x=\"908\" y=\"267\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">3 − 1</text><line x1=\"1233.6372359414515\" y1=\"260\" x2=\"1351.2068965517242\" y2=\"260\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1233.6372359414515\" y1=\"251\" x2=\"1233.6372359414515\" y2=\"269\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1351.2068965517242\" y1=\"251\" x2=\"1351.2068965517242\" y2=\"269\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1292.4220662465877\" cy=\"260\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"260\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+1.01</text><text x=\"1590\" y=\"294\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.76, 1.25]</text></g><g  data-key=\"anova-classic-contrast-1-2\" aria-label=\"Level 5-7 − Level 4\"><text x=\"908\" y=\"382\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">3 − 2</text><line x1=\"1107.039488735043\" y1=\"375\" x2=\"1274.4958036435842\" y2=\"375\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"1107.039488735043\" y1=\"366\" x2=\"1107.039488735043\" y2=\"384\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"1274.4958036435842\" y1=\"366\" x2=\"1274.4958036435842\" y2=\"384\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"1190.7676461893136\" cy=\"375\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"1590\" y=\"375\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">+0.58</text><text x=\"1590\" y=\"409\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[0.22, 0.93]</text></g><text x=\"1202.5\" y=\"490\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">Times/week · corrected95% CI</text><text x=\"905\" y=\"560\" font-size=\"27\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">F(2, 941) = 45.626</text><text x=\"905\" y=\"605\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">p &lt; .001 · descriptive η² 0.0884</text></svg>",
+  "description": "교육집단의 연습 횟수 평균은 어떻게 다른가? — 전체 차이와 보정된 집단 간 차이를 분리한다",
+  "limits": "전부 합성 자료. Groups: 1 = high school or less; 2 = some college; 3 = degree+. Bars show within-group frequencies; contrasts use the selected correction.",
+  "diagnostics": [],
+  "engine": "Achmage 통계 분석 + 과학 SVG",
+  "minWidth": 1280,
+  "records": [
+    {
+      "id": "anova-classic-contrast-0-1",
+      "label": "Level 4 − Level 1-3",
+      "value": 0.4282247015071441,
+      "unit": "times/week",
+      "ci": [
+        0.07200425650500314,
+        0.784445146509285
+      ],
+      "n": 944,
+      "method": "Tukey HSD family3",
+      "meaning": "교육3집단 중 두 집단의 연습 횟수 평균 차이.",
+      "caveat": "전체 F검정만으로 이 쌍의 차이를 판단하지 않는다. 신뢰구간은 선택한 비교법의 다중비교 보정을 반영한다. 무가중·탐색적 비교.",
+      "source": "anes",
+      "pAdjusted": 0.013504675792870957,
+      "df": 941
+    },
+    {
+      "id": "anova-classic-contrast-0-2",
+      "label": "Level 5-7 − Level 1-3",
+      "value": 1.0052373158756138,
+      "unit": "times/week",
+      "ci": [
+        0.7576030625260594,
+        1.2528715692251684
+      ],
+      "n": 944,
+      "method": "Tukey HSD family3",
+      "meaning": "교육3집단 중 두 집단의 연습 횟수 평균 차이.",
+      "caveat": "전체 F검정만으로 이 쌍의 차이를 판단하지 않는다. 신뢰구간은 선택한 비교법의 다중비교 보정을 반영한다. 무가중·탐색적 비교.",
+      "source": "anes",
+      "pAdjusted": 8.413270080609436e-13,
+      "df": 941
+    },
+    {
+      "id": "anova-classic-contrast-1-2",
+      "label": "Level 5-7 − Level 4",
+      "value": 0.5770126143684697,
+      "unit": "times/week",
+      "ci": [
+        0.22430325639468923,
+        0.9297219723422503
+      ],
+      "n": 944,
+      "method": "Tukey HSD family3",
+      "meaning": "교육3집단 중 두 집단의 연습 횟수 평균 차이.",
+      "caveat": "전체 F검정만으로 이 쌍의 차이를 판단하지 않는다. 신뢰구간은 선택한 비교법의 다중비교 보정을 반영한다. 무가중·탐색적 비교.",
+      "source": "anes",
+      "pAdjusted": 0.00038528764675360705,
+      "df": 941
+    },
+    {
+      "id": "anova-classic-group-0",
+      "label": "Level 1-3",
+      "value": 3.235897435897436,
+      "unit": "times/week",
+      "ci": [
+        3.0878439523145103,
+        3.3839509194803616
+      ],
+      "n": 390,
+      "method": "Within-group t CI",
+      "meaning": "해당 교육집단의 실제 분포와 평균.",
+      "caveat": "표시한 평균 CI는 집단별 pointwise 구간이며 옆의 보정된 쌍별 차이 구간과 다르다.",
+      "source": "anes"
+    },
+    {
+      "id": "anova-classic-group-1",
+      "label": "Level 4",
+      "value": 3.66412213740458,
+      "unit": "times/week",
+      "ci": [
+        3.406301504305201,
+        3.921942770503959
+      ],
+      "n": 131,
+      "method": "Within-group t CI",
+      "meaning": "해당 교육집단의 실제 분포와 평균.",
+      "caveat": "표시한 평균 CI는 집단별 pointwise 구간이며 옆의 보정된 쌍별 차이 구간과 다르다.",
+      "source": "anes"
+    },
+    {
+      "id": "anova-classic-group-2",
+      "label": "Level 5-7",
+      "value": 4.24113475177305,
+      "unit": "times/week",
+      "ci": [
+        4.09583617558904,
+        4.38643332795706
+      ],
+      "n": 423,
+      "method": "Within-group t CI",
+      "meaning": "해당 교육집단의 실제 분포와 평균.",
+      "caveat": "표시한 평균 CI는 집단별 pointwise 구간이며 옆의 보정된 쌍별 차이 구간과 다르다.",
+      "source": "anes"
+    }
+  ],
+  "model": {
+    "id": "anova-classic",
+    "label": "고전적 F + Tukey",
+    "kind": "anova",
+    "n": 944,
+    "F": 45.62575690513504,
+    "df": [
+      2,
+      941
+    ],
+    "p": 1.2241275968330597e-19,
+    "eta2Descriptive": 0.08840046499272299,
+    "groups": [
+      {
+        "label": "Level 1-3",
+        "n": 390,
+        "mean": 3.235897435897436,
+        "sd": 1.487131981994206,
+        "ci": [
+          3.0878439523145103,
+          3.3839509194803616
+        ],
+        "hist": [
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            30
+          ],
+          [
+            2,
+            78
+          ],
+          [
+            3,
+            103
+          ],
+          [
+            4,
+            87
+          ],
+          [
+            5,
+            56
+          ],
+          [
+            6,
+            15
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "key": "anova-classic-group-0"
+      },
+      {
+        "label": "Level 4",
+        "n": 131,
+        "mean": 3.66412213740458,
+        "sd": 1.4915695761017382,
+        "ci": [
+          3.406301504305201,
+          3.921942770503959
+        ],
+        "hist": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            24
+          ],
+          [
+            3,
+            28
+          ],
+          [
+            4,
+            36
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "key": "anova-classic-group-1"
+      },
+      {
+        "label": "Level 5-7",
+        "n": 423,
+        "mean": 4.24113475177305,
+        "sd": 1.5203238113236286,
+        "ci": [
+          4.09583617558904,
+          4.38643332795706
+        ],
+        "hist": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            43
+          ],
+          [
+            3,
+            73
+          ],
+          [
+            4,
+            111
+          ],
+          [
+            5,
+            94
+          ],
+          [
+            6,
+            57
+          ],
+          [
+            7,
+            32
+          ]
+        ],
+        "key": "anova-classic-group-2"
+      }
+    ],
+    "contrasts": [
+      {
+        "label": "2 − 1",
+        "b": 0.4282247015071441,
+        "lo": 0.07200425650500314,
+        "hi": 0.784445146509285,
+        "p": 0.013504675792870957,
+        "key": "anova-classic-contrast-0-1"
+      },
+      {
+        "label": "3 − 1",
+        "b": 1.0052373158756138,
+        "lo": 0.7576030625260594,
+        "hi": 1.2528715692251684,
+        "p": 8.413270080609436e-13,
+        "key": "anova-classic-contrast-0-2"
+      },
+      {
+        "label": "3 − 2",
+        "b": 0.5770126143684697,
+        "lo": 0.22430325639468923,
+        "hi": 0.9297219723422503,
+        "p": 0.00038528764675360705,
+        "key": "anova-classic-contrast-1-2"
+      }
+    ],
+    "key": "anova-classic-contrast-0-1"
+  },
+  "tags": [
+    "통계 분석",
+    "One-way ANOVA"
+  ],
+  "summary": "가상 자료 n=944 · 조건 anova-classic",
+  "kind": "interval",
+  "sha256": "a0a856c56b197cb1bca2dad471101104be01796214a512da99dfa56d6c8bf27c",
+  "sourceSha256": "6d255edc63845d93bf5767002c0f839a25140f6a1d06b94d9a61400f28365ad0",
+  "url": "/pele/cases/analysis-anova-classic.json",
+  "svgUrl": "/pele/cases/analysis-anova-classic.svg",
+  "pngUrl": null
+}

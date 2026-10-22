@@ -1,0 +1,124 @@
+{
+  "id": "legacy-comparison-reach",
+  "label": "비교 기준을 바꾸면 순위도 바뀐다 · 대안 지표",
+  "type": "legacy",
+  "source": {
+    "recipe": "comparison",
+    "state": "reach",
+    "records": [
+      {
+        "id": "r1",
+        "label": "강의",
+        "value": 420,
+        "reach": 300,
+        "group": "학습"
+      },
+      {
+        "id": "r2",
+        "label": "인터뷰",
+        "value": 260,
+        "reach": 600,
+        "group": "소통"
+      },
+      {
+        "id": "r3",
+        "label": "실습",
+        "value": 340,
+        "reach": 240,
+        "group": "학습"
+      },
+      {
+        "id": "r4",
+        "label": "리뷰",
+        "value": 180,
+        "reach": 410,
+        "group": "소통"
+      }
+    ],
+    "assumptions": [
+      "서로 다른 성과 지표이며 실제 채널 통계가 아니다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"막대·점 비교 · 명\"><title>막대·점 비교 · 명</title><line x1=\"170.00\" y1=\"24.00\" x2=\"170.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"170.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><text x=\"500.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">600</text><g data-key=\"r2\"><text x=\"8.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">인터뷰</text><rect x=\"170.00\" y=\"36.00\" width=\"330.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"56.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">600</text></g><g data-key=\"r4\"><text x=\"8.00\" y=\"113.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">리뷰</text><rect x=\"170.00\" y=\"95.00\" width=\"225.50\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"115.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">410</text></g><g data-key=\"r1\"><text x=\"8.00\" y=\"172.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">강의</text><rect x=\"170.00\" y=\"154.00\" width=\"165.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"174.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">300</text></g><g data-key=\"r3\"><text x=\"8.00\" y=\"231.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">실습</text><rect x=\"170.00\" y=\"213.00\" width=\"132.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"233.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">240</text></g></svg>",
+  "description": "조회 수와 도달 수 중 무엇을 비교할까?",
+  "limits": "",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r2",
+      "label": "인터뷰",
+      "value": 260,
+      "reach": 600,
+      "group": "소통",
+      "display": 600
+    },
+    {
+      "id": "r4",
+      "label": "리뷰",
+      "value": 180,
+      "reach": 410,
+      "group": "소통",
+      "display": 410
+    },
+    {
+      "id": "r1",
+      "label": "강의",
+      "value": 420,
+      "reach": 300,
+      "group": "학습",
+      "display": 300
+    },
+    {
+      "id": "r3",
+      "label": "실습",
+      "value": 340,
+      "reach": 240,
+      "group": "학습",
+      "display": 240
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "강의",
+      "value": 420,
+      "reach": 300,
+      "group": "학습"
+    },
+    {
+      "id": "r2",
+      "label": "인터뷰",
+      "value": 260,
+      "reach": 600,
+      "group": "소통"
+    },
+    {
+      "id": "r3",
+      "label": "실습",
+      "value": 340,
+      "reach": 240,
+      "group": "학습"
+    },
+    {
+      "id": "r4",
+      "label": "리뷰",
+      "value": 180,
+      "reach": 410,
+      "group": "소통"
+    }
+  ],
+  "summary": "합계 1550 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "comparison"
+  ],
+  "kind": "xychart",
+  "sha256": "36d48afc5bc5e2ab52cd05cd1c67f9172007699332d1ad74220e4e71379ec658",
+  "sourceSha256": "39bff20f9c82711b6b89e52859f84db14bc1336f47b73caea56107acbe8586ae",
+  "url": "/pele/cases/legacy-comparison-reach.json",
+  "svgUrl": "/pele/cases/legacy-comparison-reach.svg",
+  "pngUrl": null
+}

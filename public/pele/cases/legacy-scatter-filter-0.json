@@ -1,0 +1,142 @@
+{
+  "id": "legacy-scatter-filter-0",
+  "label": "두 변수의 관계를 함께 본다 · 문서",
+  "type": "legacy",
+  "source": {
+    "recipe": "scatter",
+    "state": "filter-0",
+    "records": [
+      {
+        "id": "r1",
+        "label": "가",
+        "x": 2,
+        "y": 18,
+        "group": "영상"
+      },
+      {
+        "id": "r2",
+        "label": "나",
+        "x": 4,
+        "y": 52,
+        "group": "문서"
+      },
+      {
+        "id": "r3",
+        "label": "다",
+        "x": 6,
+        "y": 35,
+        "group": "영상"
+      },
+      {
+        "id": "r4",
+        "label": "라",
+        "x": 7,
+        "y": 74,
+        "group": "문서"
+      },
+      {
+        "id": "r5",
+        "label": "마",
+        "x": 9,
+        "y": 57,
+        "group": "영상"
+      },
+      {
+        "id": "r6",
+        "label": "바",
+        "x": 11,
+        "y": 88,
+        "group": "문서"
+      }
+    ],
+    "assumptions": [
+      "필터를 바꿔도 축 범위는 전체 데이터 기준으로 고정한다.",
+      "관측된 연관성을 인과 관계로 해석하지 않는다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"산점도 · 성과 점수\"><title>산점도 · 성과 점수</title><line x1=\"60.00\" y1=\"270.00\" x2=\"560.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><line x1=\"60.00\" y1=\"270.00\" x2=\"60.00\" y2=\"80.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><line x1=\"55.00\" y1=\"80.00\" x2=\"65.00\" y2=\"80.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"60.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><text x=\"560.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">11</text><text x=\"10.00\" y=\"88.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">88</text><g data-key=\"r2\"><circle cx=\"241.82\" cy=\"155.68\" r=\"9\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"251.82\" y=\"135.68\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">나</text></g><g data-key=\"r4\"><circle cx=\"378.18\" cy=\"109.43\" r=\"9\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"388.18\" y=\"89.43\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">라</text></g><g data-key=\"r6\"><circle cx=\"560.00\" cy=\"80.00\" r=\"9\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"570.00\" y=\"60.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">바</text></g></svg>",
+  "description": "제작시간이 긴 콘텐츠의 성과도 높을까?",
+  "limits": "가로: 제작시간 (시간), 세로: 성과 (점); 상관은 인과가 아님",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r2",
+      "label": "나",
+      "x": 4,
+      "y": 52,
+      "group": "문서"
+    },
+    {
+      "id": "r4",
+      "label": "라",
+      "x": 7,
+      "y": 74,
+      "group": "문서"
+    },
+    {
+      "id": "r6",
+      "label": "바",
+      "x": 11,
+      "y": 88,
+      "group": "문서"
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "가",
+      "x": 2,
+      "y": 18,
+      "group": "영상"
+    },
+    {
+      "id": "r2",
+      "label": "나",
+      "x": 4,
+      "y": 52,
+      "group": "문서"
+    },
+    {
+      "id": "r3",
+      "label": "다",
+      "x": 6,
+      "y": 35,
+      "group": "영상"
+    },
+    {
+      "id": "r4",
+      "label": "라",
+      "x": 7,
+      "y": 74,
+      "group": "문서"
+    },
+    {
+      "id": "r5",
+      "label": "마",
+      "x": 9,
+      "y": 57,
+      "group": "영상"
+    },
+    {
+      "id": "r6",
+      "label": "바",
+      "x": 11,
+      "y": 88,
+      "group": "문서"
+    }
+  ],
+  "summary": "3개 항목 · 성과 점수",
+  "unit": "성과 점수",
+  "tags": [
+    "기존 레시피",
+    "scatter"
+  ],
+  "kind": "scatter",
+  "sha256": "66e986164f5c61bed99e3d0ab3e672562dce4d7e9a706962ac3a40320ad897f2",
+  "sourceSha256": "d99d0f47e0e20269795de38a08f85540475c83e4d8c74797fbe5cecc1421de82",
+  "url": "/pele/cases/legacy-scatter-filter-0.json",
+  "svgUrl": "/pele/cases/legacy-scatter-filter-0.svg",
+  "pngUrl": null
+}

@@ -1,0 +1,97 @@
+{
+  "id": "legacy-composition-stack",
+  "label": "비중은 전체를 기준으로 읽는다 · 100% 누적",
+  "type": "legacy",
+  "source": {
+    "recipe": "composition",
+    "state": "stack",
+    "records": [
+      {
+        "id": "r1",
+        "label": "현장",
+        "value": 38
+      },
+      {
+        "id": "r2",
+        "label": "온라인",
+        "value": 27
+      },
+      {
+        "id": "r3",
+        "label": "혼합",
+        "value": 23
+      },
+      {
+        "id": "r4",
+        "label": "자율",
+        "value": 12
+      }
+    ],
+    "assumptions": [
+      "전체 100명이며 네 범주는 중복되지 않는다.",
+      "와플 칸 수는 최대잔여법으로 반올림한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"구성비 · 명\"><title>구성비 · 명</title><g data-key=\"r1\"><rect x=\"10.00\" y=\"20.00\" width=\"220.40\" height=\"50.00\" class=\"vz-tone-0 vz-boundary\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"12.00\" y=\"88.00\" width=\"18.00\" height=\"18.00\" class=\"vz-tone-0 vz-boundary\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"38.00\" y=\"106.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">현장</text><text x=\"38.00\" y=\"146.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">38%</text></g><g data-key=\"r2\"><rect x=\"230.40\" y=\"20.00\" width=\"156.60\" height=\"50.00\" class=\"vz-tone-1 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"312.00\" y=\"88.00\" width=\"18.00\" height=\"18.00\" class=\"vz-tone-1 vz-boundary\" fill=\"var(--pele-series-2)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"338.00\" y=\"106.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">온라인</text><text x=\"338.00\" y=\"146.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">27%</text></g><g data-key=\"r3\"><rect x=\"387.00\" y=\"20.00\" width=\"133.40\" height=\"50.00\" class=\"vz-tone-2 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"12.00\" y=\"168.00\" width=\"18.00\" height=\"18.00\" class=\"vz-tone-2 vz-boundary\" fill=\"var(--pele-series-3)\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"38.00\" y=\"186.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">혼합</text><text x=\"38.00\" y=\"226.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">23%</text></g><g data-key=\"r4\"><rect x=\"520.40\" y=\"20.00\" width=\"69.60\" height=\"50.00\" class=\"vz-tone-3 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><rect x=\"312.00\" y=\"168.00\" width=\"18.00\" height=\"18.00\" class=\"vz-tone-3 vz-boundary\" fill=\"#4D9ED1\" stroke=\"var(--pele-bg)\" stroke-width=\"2\" stroke-linejoin=\"round\" /><text x=\"338.00\" y=\"186.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">자율</text><text x=\"338.00\" y=\"226.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">12%</text></g></svg>",
+  "description": "같은 구성비를 누적 막대와 와플로 비교해 보자.",
+  "limits": "분모 100; 와플은 최대잔여법으로 100칸 배분",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "현장",
+      "value": 38
+    },
+    {
+      "id": "r2",
+      "label": "온라인",
+      "value": 27
+    },
+    {
+      "id": "r3",
+      "label": "혼합",
+      "value": 23
+    },
+    {
+      "id": "r4",
+      "label": "자율",
+      "value": 12
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "현장",
+      "value": 38
+    },
+    {
+      "id": "r2",
+      "label": "온라인",
+      "value": 27
+    },
+    {
+      "id": "r3",
+      "label": "혼합",
+      "value": 23
+    },
+    {
+      "id": "r4",
+      "label": "자율",
+      "value": 12
+    }
+  ],
+  "summary": "합계 100 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "composition"
+  ],
+  "kind": "pie",
+  "sha256": "ffcbc71e77e713b830499a17c788d113ac7658fea5be4e1bc31fbe29a892ef3c",
+  "sourceSha256": "de566d29815062ca51b67b71d2bd03f64de3bf738fba0131ea6516a5b395e417",
+  "url": "/pele/cases/legacy-composition-stack.json",
+  "svgUrl": "/pele/cases/legacy-composition-stack.svg",
+  "pngUrl": null
+}

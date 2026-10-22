@@ -1,0 +1,109 @@
+{
+  "id": "legacy-paired-dumbbell",
+  "label": "변화는 같은 대상을 연결한다 · 덤벨",
+  "type": "legacy",
+  "source": {
+    "recipe": "paired",
+    "state": "dumbbell",
+    "records": [
+      {
+        "id": "r1",
+        "label": "기획",
+        "before": 44,
+        "after": 72
+      },
+      {
+        "id": "r2",
+        "label": "촬영",
+        "before": 58,
+        "after": 70
+      },
+      {
+        "id": "r3",
+        "label": "편집",
+        "before": 41,
+        "after": 78
+      },
+      {
+        "id": "r4",
+        "label": "검토",
+        "before": 62,
+        "after": 74
+      }
+    ],
+    "assumptions": [
+      "동일 집단의 전후 집계값이다.",
+      "개입의 인과 효과를 입증하는 실험은 아니다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"전후 변화 · 점\"><title>전후 변화 · 점</title><line x1=\"170.00\" y1=\"24.00\" x2=\"170.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"170.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><text x=\"500.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">78</text><g data-key=\"r1\"><text x=\"8.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기획</text><line x1=\"356.15\" y1=\"46.00\" x2=\"474.62\" y2=\"46.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"356.15\" cy=\"46.00\" r=\"7\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"474.62\" cy=\"46.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"54.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">28</text></g><g data-key=\"r2\"><text x=\"8.00\" y=\"113.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">촬영</text><line x1=\"415.38\" y1=\"105.00\" x2=\"466.15\" y2=\"105.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"415.38\" cy=\"105.00\" r=\"7\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"466.15\" cy=\"105.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"113.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">12</text></g><g data-key=\"r3\"><text x=\"8.00\" y=\"172.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">편집</text><line x1=\"343.46\" y1=\"164.00\" x2=\"500.00\" y2=\"164.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"343.46\" cy=\"164.00\" r=\"7\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"500.00\" cy=\"164.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"172.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">37</text></g><g data-key=\"r4\"><text x=\"8.00\" y=\"231.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">검토</text><line x1=\"432.31\" y1=\"223.00\" x2=\"483.08\" y2=\"223.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"432.31\" cy=\"223.00\" r=\"7\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"483.08\" cy=\"223.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"231.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">12</text></g></svg>",
+  "description": "교육 전후 차이는 어느 집단에서 큰가?",
+  "limits": "",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "기획",
+      "before": 44,
+      "after": 72
+    },
+    {
+      "id": "r2",
+      "label": "촬영",
+      "before": 58,
+      "after": 70
+    },
+    {
+      "id": "r3",
+      "label": "편집",
+      "before": 41,
+      "after": 78
+    },
+    {
+      "id": "r4",
+      "label": "검토",
+      "before": 62,
+      "after": 74
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "기획",
+      "before": 44,
+      "after": 72
+    },
+    {
+      "id": "r2",
+      "label": "촬영",
+      "before": 58,
+      "after": 70
+    },
+    {
+      "id": "r3",
+      "label": "편집",
+      "before": 41,
+      "after": 78
+    },
+    {
+      "id": "r4",
+      "label": "검토",
+      "before": 62,
+      "after": 74
+    }
+  ],
+  "summary": "4개 항목 · 점",
+  "unit": "점",
+  "tags": [
+    "기존 레시피",
+    "paired"
+  ],
+  "kind": "paired",
+  "sha256": "5e2f469ebc021bacc30d236123dc23c5eb93e35b3c60b0e6947661ca7329bd74",
+  "sourceSha256": "00254d67289f932e9b0c0fdd8a1d8f3acdd770b108081e2e8d83bf6e0c227f25",
+  "url": "/pele/cases/legacy-paired-dumbbell.json",
+  "svgUrl": "/pele/cases/legacy-paired-dumbbell.svg",
+  "pngUrl": null
+}

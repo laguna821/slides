@@ -1,0 +1,330 @@
+{
+  "id": "analysis-chi3",
+  "label": "χ² 독립성 · 3개 참여군군",
+  "type": "analysis",
+  "source": {
+    "analysis": {
+      "id": "chi3",
+      "label": "3개 참여군군",
+      "kind": "chi",
+      "n": 944,
+      "stat": 65.51066221342161,
+      "df": 2,
+      "p": 5.950321717119266e-15,
+      "effect": 0.2634328907671679,
+      "effectCI": [
+        0.20338036565329415,
+        0.3249359263816457
+      ],
+      "rows": [
+        "Group A",
+        "Group B",
+        "Group C"
+      ],
+      "cols": [
+        "Program A",
+        "Program B"
+      ],
+      "cells": [
+        {
+          "row": "Group A",
+          "col": "Program A",
+          "i": 0,
+          "j": 0,
+          "obs": 255,
+          "expected": 199.2584745762712,
+          "residual": 7.353019920121934,
+          "pct": 64.39393939393939,
+          "key": "chi3-cell-0-0"
+        },
+        {
+          "row": "Group A",
+          "col": "Program B",
+          "i": 0,
+          "j": 1,
+          "obs": 141,
+          "expected": 196.7415254237288,
+          "residual": -7.353019920121934,
+          "pct": 35.60606060606061,
+          "key": "chi3-cell-0-1"
+        },
+        {
+          "row": "Group B",
+          "col": "Program A",
+          "i": 1,
+          "j": 0,
+          "obs": 65,
+          "expected": 60.88453389830509,
+          "residual": 0.8014034198032647,
+          "pct": 53.71900826446281,
+          "key": "chi3-cell-1-0"
+        },
+        {
+          "row": "Group B",
+          "col": "Program B",
+          "i": 1,
+          "j": 1,
+          "obs": 56,
+          "expected": 60.11546610169491,
+          "residual": -0.8014034198032647,
+          "pct": 46.28099173553719,
+          "key": "chi3-cell-1-1"
+        },
+        {
+          "row": "Group C",
+          "col": "Program A",
+          "i": 2,
+          "j": 0,
+          "obs": 155,
+          "expected": 214.85699152542372,
+          "residual": -7.828533983502811,
+          "pct": 36.29976580796253,
+          "key": "chi3-cell-2-0"
+        },
+        {
+          "row": "Group C",
+          "col": "Program B",
+          "i": 2,
+          "j": 1,
+          "obs": 272,
+          "expected": 212.14300847457628,
+          "residual": 7.828533983502811,
+          "pct": 63.70023419203747,
+          "key": "chi3-cell-2-1"
+        }
+      ],
+      "key": "chi3-V"
+    },
+    "formula": "See downloadable synthetic generator",
+    "dataset": {
+      "name": "가상 학습 설문",
+      "n": 944,
+      "unit": "synthetic respondents",
+      "credit": "Achmage synthetic generator",
+      "definition": "독립적인 가상 자료. 실제 인물·정치 조사·기관 성과가 아님. 이전 분석 API의 column ID를 보존하며 PID는 참여군, vote는 프로그램 선택, TVnews는 연습 횟수, ClinLR/DoleLR는 프로그램 A/B 평가, logpopul은 환경 지수이다.",
+      "sha256": "4e4601b618203f6745bb6a100f351bebcf2e33c634c1ede839db09fc2943f128"
+    }
+  },
+  "svg": "<svg viewBox=\"0 0 1600 650\" width=\"1600\" height=\"650\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Scientific analysis figure\"><title>χ² 독립성 · 3개 참여군군</title><desc>가상 프로그램 선택의 분포는 가상 참여 코드에 따라 달라진다 Counts are observed. E = expected counts. Residual color is descriptive; no cellwise significance claim.</desc><rect x=\"0\" y=\"0\" width=\"1600\" height=\"650\" fill=\"var(--pele-bg)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"10\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">A  Program choice within each participation group</text><text x=\"1000\" y=\"35\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">B  Deviation from independence</text><text x=\"1135\" y=\"82\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">Program A</text><text x=\"1425\" y=\"82\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">Program B</text><text x=\"10\" y=\"129\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group A</text><text x=\"10\" y=\"161\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n = 396</text><g  data-key=\"chi3-cell-0-0\" aria-label=\"Group A / Program A\"><rect x=\"230\" y=\"105\" width=\"412.1212121212121\" height=\"46\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"436.06060606060606\" y=\"136\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">64.4%</text></g><g  data-key=\"chi3-cell-0-0\" aria-label=\"Group A / Program A\"><rect x=\"1000\" y=\"105\" width=\"270\" height=\"65\" fill=\"var(--pele-surface-alt)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1010\" y=\"132\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">255 / E 199.3</text><text x=\"1260\" y=\"159\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res +7.4</text></g><g  data-key=\"chi3-cell-0-1\" aria-label=\"Group A / Program B\"><rect x=\"642.1212121212121\" y=\"105\" width=\"227.8787878787879\" height=\"46\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"756.0606060606061\" y=\"136\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">35.6%</text></g><g  data-key=\"chi3-cell-0-1\" aria-label=\"Group A / Program B\"><rect x=\"1290\" y=\"105\" width=\"270\" height=\"65\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1300\" y=\"132\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">141 / E 196.7</text><text x=\"1550\" y=\"159\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res -7.4</text></g><text x=\"10\" y=\"274\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group B</text><text x=\"10\" y=\"306\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n = 121</text><g  data-key=\"chi3-cell-1-0\" aria-label=\"Group B / Program A\"><rect x=\"230\" y=\"250\" width=\"343.801652892562\" height=\"46\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"401.90082644628103\" y=\"281\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">53.7%</text></g><g  data-key=\"chi3-cell-1-0\" aria-label=\"Group B / Program A\"><rect x=\"1000\" y=\"250\" width=\"270\" height=\"65\" fill=\"var(--pele-surface-alt)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1010\" y=\"277\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">65 / E 60.9</text><text x=\"1260\" y=\"304\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res +0.8</text></g><g  data-key=\"chi3-cell-1-1\" aria-label=\"Group B / Program B\"><rect x=\"573.8016528925621\" y=\"250\" width=\"296.19834710743805\" height=\"46\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"721.9008264462811\" y=\"281\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">46.3%</text></g><g  data-key=\"chi3-cell-1-1\" aria-label=\"Group B / Program B\"><rect x=\"1290\" y=\"250\" width=\"270\" height=\"65\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1300\" y=\"277\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">56 / E 60.1</text><text x=\"1550\" y=\"304\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res -0.8</text></g><text x=\"10\" y=\"419\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Group C</text><text x=\"10\" y=\"451\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">n = 427</text><g  data-key=\"chi3-cell-2-0\" aria-label=\"Group C / Program A\"><rect x=\"230\" y=\"395\" width=\"232.3185011709602\" height=\"46\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"346.1592505854801\" y=\"426\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">36.3%</text></g><g  data-key=\"chi3-cell-2-0\" aria-label=\"Group C / Program A\"><rect x=\"1000\" y=\"395\" width=\"270\" height=\"65\" fill=\"var(--pele-surface)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1010\" y=\"422\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">155 / E 214.9</text><text x=\"1260\" y=\"449\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res -7.8</text></g><g  data-key=\"chi3-cell-2-1\" aria-label=\"Group C / Program B\"><rect x=\"462.3185011709602\" y=\"395\" width=\"407.6814988290398\" height=\"46\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"666.1592505854801\" y=\"426\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"600\" fill=\"var(--pele-bg)\" text-anchor=\"middle\">63.7%</text></g><g  data-key=\"chi3-cell-2-1\" aria-label=\"Group C / Program B\"><rect x=\"1290\" y=\"395\" width=\"270\" height=\"65\" fill=\"var(--pele-surface-alt)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"1300\" y=\"422\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">272 / E 212.1</text><text x=\"1550\" y=\"449\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">res +7.8</text></g><rect x=\"12\" y=\"587\" width=\"18\" height=\"18\" fill=\"var(--pele-series-1)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"40\" y=\"605\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Program A</text><rect x=\"180\" y=\"587\" width=\"18\" height=\"18\" fill=\"var(--pele-series-2)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"208\" y=\"605\" font-size=\"25\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Program B</text><text x=\"450\" y=\"605\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">χ²(2) = 65.5 · p &lt; .001</text><g  data-key=\"chi3-V\" aria-label=\"Cramér’s V\"><text x=\"1000\" y=\"605\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">V 0.263  [0.203, 0.325]</text></g></svg>",
+  "description": "가상 참여 코드과 가상 프로그램 선택는 독립적인가? — 가상 프로그램 선택의 분포는 가상 참여 코드에 따라 달라진다",
+  "limits": "전부 합성 자료. Counts are observed. E = expected counts. Residual color is descriptive; no cellwise significance claim.",
+  "diagnostics": [],
+  "engine": "Achmage 통계 분석 + 과학 SVG",
+  "minWidth": 1280,
+  "records": [
+    {
+      "id": "chi3-cell-0-0",
+      "label": "Group A / Program A",
+      "value": 255,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 255명, 독립 가정 기대 199.258명. 행 비율 64.39%. 조정 잔차 7.353.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 199.2584745762712,
+      "residual": 7.353019920121934,
+      "rowN": 396,
+      "rowPct": 64.39393939393939
+    },
+    {
+      "id": "chi3-cell-0-1",
+      "label": "Group A / Program B",
+      "value": 141,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 141명, 독립 가정 기대 196.742명. 행 비율 35.61%. 조정 잔차 -7.353.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 196.7415254237288,
+      "residual": -7.353019920121934,
+      "rowN": 396,
+      "rowPct": 35.60606060606061
+    },
+    {
+      "id": "chi3-cell-1-0",
+      "label": "Group B / Program A",
+      "value": 65,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 65명, 독립 가정 기대 60.885명. 행 비율 53.72%. 조정 잔차 0.801.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 60.88453389830509,
+      "residual": 0.8014034198032647,
+      "rowN": 121,
+      "rowPct": 53.71900826446281
+    },
+    {
+      "id": "chi3-cell-1-1",
+      "label": "Group B / Program B",
+      "value": 56,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 56명, 독립 가정 기대 60.115명. 행 비율 46.28%. 조정 잔차 -0.801.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 60.11546610169491,
+      "residual": -0.8014034198032647,
+      "rowN": 121,
+      "rowPct": 46.28099173553719
+    },
+    {
+      "id": "chi3-cell-2-0",
+      "label": "Group C / Program A",
+      "value": 155,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 155명, 독립 가정 기대 214.857명. 행 비율 36.30%. 조정 잔차 -7.829.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 214.85699152542372,
+      "residual": -7.828533983502811,
+      "rowN": 427,
+      "rowPct": 36.29976580796253
+    },
+    {
+      "id": "chi3-cell-2-1",
+      "label": "Group C / Program B",
+      "value": 272,
+      "unit": "respondents",
+      "ci": null,
+      "n": 944,
+      "method": "Pearson χ² independence; no continuity correction",
+      "meaning": "관측 272명, 독립 가정 기대 212.143명. 행 비율 63.70%. 조정 잔차 7.829.",
+      "caveat": "색은 독립 기대에서의 편차이며 보정된 개별 셀 검정의 유의성 표시가 아니다. 현실 선택가 아니라 가상 프로그램 선택다.",
+      "source": "anes",
+      "expected": 212.14300847457628,
+      "residual": 7.828533983502811,
+      "rowN": 427,
+      "rowPct": 63.70023419203747
+    },
+    {
+      "id": "chi3-V",
+      "label": "Cramér’s V",
+      "value": 0.2634328907671679,
+      "unit": "V",
+      "ci": [
+        0.20338036565329415,
+        0.3249359263816457
+      ],
+      "n": 944,
+      "method": "Multinomial percentile bootstrap,2000 draws,seed20261019",
+      "meaning": "가상 참여 코드과 가상 프로그램 선택의 범주 연관 크기.",
+      "caveat": "합성 표본. 집단 묶는 방식은 사전에 지정한3/7수준 비교이며 원자료 코딩을 유지한다.",
+      "source": "anes"
+    }
+  ],
+  "model": {
+    "id": "chi3",
+    "label": "3개 참여군군",
+    "kind": "chi",
+    "n": 944,
+    "stat": 65.51066221342161,
+    "df": 2,
+    "p": 5.950321717119266e-15,
+    "effect": 0.2634328907671679,
+    "effectCI": [
+      0.20338036565329415,
+      0.3249359263816457
+    ],
+    "rows": [
+      "Group A",
+      "Group B",
+      "Group C"
+    ],
+    "cols": [
+      "Program A",
+      "Program B"
+    ],
+    "cells": [
+      {
+        "row": "Group A",
+        "col": "Program A",
+        "i": 0,
+        "j": 0,
+        "obs": 255,
+        "expected": 199.2584745762712,
+        "residual": 7.353019920121934,
+        "pct": 64.39393939393939,
+        "key": "chi3-cell-0-0"
+      },
+      {
+        "row": "Group A",
+        "col": "Program B",
+        "i": 0,
+        "j": 1,
+        "obs": 141,
+        "expected": 196.7415254237288,
+        "residual": -7.353019920121934,
+        "pct": 35.60606060606061,
+        "key": "chi3-cell-0-1"
+      },
+      {
+        "row": "Group B",
+        "col": "Program A",
+        "i": 1,
+        "j": 0,
+        "obs": 65,
+        "expected": 60.88453389830509,
+        "residual": 0.8014034198032647,
+        "pct": 53.71900826446281,
+        "key": "chi3-cell-1-0"
+      },
+      {
+        "row": "Group B",
+        "col": "Program B",
+        "i": 1,
+        "j": 1,
+        "obs": 56,
+        "expected": 60.11546610169491,
+        "residual": -0.8014034198032647,
+        "pct": 46.28099173553719,
+        "key": "chi3-cell-1-1"
+      },
+      {
+        "row": "Group C",
+        "col": "Program A",
+        "i": 2,
+        "j": 0,
+        "obs": 155,
+        "expected": 214.85699152542372,
+        "residual": -7.828533983502811,
+        "pct": 36.29976580796253,
+        "key": "chi3-cell-2-0"
+      },
+      {
+        "row": "Group C",
+        "col": "Program B",
+        "i": 2,
+        "j": 1,
+        "obs": 272,
+        "expected": 212.14300847457628,
+        "residual": 7.828533983502811,
+        "pct": 63.70023419203747,
+        "key": "chi3-cell-2-1"
+      }
+    ],
+    "key": "chi3-V"
+  },
+  "tags": [
+    "통계 분석",
+    "χ² 독립성"
+  ],
+  "summary": "가상 자료 n=944 · 조건 chi3",
+  "kind": "matrix",
+  "sha256": "6709c60e3ce2552638c86b90fbea14c8ebae3d7dac7501afd027907dc0d958a1",
+  "sourceSha256": "66db2730338cc9f240093f4b3a5edac6b6a929ad6b9cfba12f915f467153686e",
+  "url": "/pele/cases/analysis-chi3.json",
+  "svgUrl": "/pele/cases/analysis-chi3.svg",
+  "pngUrl": null
+}

@@ -1,0 +1,17 @@
+{
+  "passed": 11,
+  "scenarios": [
+    "build",
+    "embedded-font",
+    "stale",
+    "update",
+    "previous-retained",
+    "atomic-failure",
+    "manual-conflict",
+    "last-good-retained",
+    "live-lock-retained",
+    "no-lock",
+    "host-outside-preserved"
+  ],
+  "source": "achmage-pele 1.0.0-rc.2 tests/project.mjs"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "editorial-evidence",
+  "label": "편집 문맥 · 근거 탐색",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "flowchart LR\n A[주장] --> B[근거 A]\n A --> C[근거 B]\n B --> D[제약]\n C --> D",
+    "title": "근거 탐색"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-flowchart\" viewBox=\"0 0 330 158\" width=\"330\" height=\"158\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"flowchart\" role=\"img\" aria-labelledby=\"editorial-evidence-title editorial-evidence-desc\"><title id=\"editorial-evidence-title\">근거 탐색</title><desc id=\"editorial-evidence-desc\">근거 탐색</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge\" data-id=\"L_A_B_0\"><path d=\"M75.11,71C92.61,71 92.61,33.5 110.11,33.5L116.11,33.5\"/><path class=\"pele-marker\" d=\"M123.11,33.5L115.11,36.86L115.11,30.14Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_A_C_0\"><path d=\"M75.11,87C92.72,87 92.72,124.5 110.33,124.5L116.33,124.5\"/><path class=\"pele-marker\" d=\"M123.33,124.5L115.33,127.86L115.33,121.14Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_B_D_0\"><path d=\"M206.35,33.5C223.85,33.5 223.85,71 241.35,71L247.35,71\"/><path class=\"pele-marker\" d=\"M254.35,71L246.35,74.36L246.35,67.64Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge\" data-id=\"L_C_D_0\"><path d=\"M206.14,124.5C223.74,124.5 223.74,87 241.35,87L247.35,87\"/><path class=\"pele-marker\" d=\"M254.35,87L246.35,90.36L246.35,83.64Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-shape-rect\" data-id=\"A\" transform=\"translate(41.56,79)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">주장</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"B\" transform=\"translate(164.73,33.5)\"><rect x=\"-41.62\" y=\"-25.5\" width=\"83.24\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">근거 A</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"C\" transform=\"translate(164.73,124.5)\"><rect x=\"-41.41\" y=\"-25.5\" width=\"82.81\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">근거 B</text></g><g class=\"pele-node pele-shape-rect\" data-id=\"D\" transform=\"translate(287.91,79)\"><rect x=\"-33.56\" y=\"-25.5\" width=\"67.11\" height=\"51\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">제약</text></g></g></svg>",
+  "description": "같은 흐름 문법의 다른 쓰임. 별도 도표 종류로 세지 않습니다.",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "문맥": "근거 탐색",
+      "source": "flowchart LR\n A[주장] --> B[근거 A]\n A --> C[근거 B]\n B --> D[제약]\n C --> D"
+    }
+  ],
+  "diagnostics": [],
+  "tags": [
+    "편집 문맥"
+  ],
+  "kind": "flowchart",
+  "sha256": "14db346b4cc2f1e188d12c45951674ab5d6924b5374a15c500f247380406d134",
+  "sourceSha256": "64007e294d56be71c37611478b1450f1a954ee5b9be5b472bffe2e78ac536b3d",
+  "url": "/pele/cases/editorial-evidence.json",
+  "svgUrl": "/pele/cases/editorial-evidence.svg",
+  "pngUrl": null
+}

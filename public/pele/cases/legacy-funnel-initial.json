@@ -1,0 +1,97 @@
+{
+  "id": "legacy-funnel-initial",
+  "label": "분모를 바꾸면 이탈 해석이 달라진다 · 최초 대비",
+  "type": "legacy",
+  "source": {
+    "recipe": "funnel",
+    "state": "initial",
+    "records": [
+      {
+        "id": "r1",
+        "label": "신청",
+        "value": 120
+      },
+      {
+        "id": "r2",
+        "label": "확인",
+        "value": 96
+      },
+      {
+        "id": "r3",
+        "label": "참석",
+        "value": 72
+      },
+      {
+        "id": "r4",
+        "label": "수료",
+        "value": 60
+      }
+    ],
+    "assumptions": [
+      "동일한 모집 코호트를 순서대로 추적한다.",
+      "단계별 중복 집계와 신규 유입은 없다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"동일 코호트 퍼널 · 명\"><title>동일 코호트 퍼널 · 명</title><line x1=\"170.00\" y1=\"24.00\" x2=\"170.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"170.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><text x=\"340.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">120</text><g data-key=\"r1\"><text x=\"8.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">신청</text><rect x=\"170.00\" y=\"36.00\" width=\"170.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"56.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">120</text><text x=\"420.00\" y=\"56.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">100%</text></g><g data-key=\"r2\"><text x=\"8.00\" y=\"113.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">확인</text><rect x=\"170.00\" y=\"95.00\" width=\"136.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"115.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">96</text><text x=\"420.00\" y=\"115.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">80%</text></g><g data-key=\"r3\"><text x=\"8.00\" y=\"172.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">참석</text><rect x=\"170.00\" y=\"154.00\" width=\"102.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"174.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">72</text><text x=\"420.00\" y=\"174.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">60%</text></g><g data-key=\"r4\"><text x=\"8.00\" y=\"231.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">수료</text><rect x=\"170.00\" y=\"213.00\" width=\"85.00\" height=\"22.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"233.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">60</text><text x=\"420.00\" y=\"233.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">50%</text></g></svg>",
+  "description": "최초 신청자 대비와 직전 단계 대비를 비교하자.",
+  "limits": "",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "신청",
+      "value": 120
+    },
+    {
+      "id": "r2",
+      "label": "확인",
+      "value": 96
+    },
+    {
+      "id": "r3",
+      "label": "참석",
+      "value": 72
+    },
+    {
+      "id": "r4",
+      "label": "수료",
+      "value": 60
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "신청",
+      "value": 120
+    },
+    {
+      "id": "r2",
+      "label": "확인",
+      "value": 96
+    },
+    {
+      "id": "r3",
+      "label": "참석",
+      "value": 72
+    },
+    {
+      "id": "r4",
+      "label": "수료",
+      "value": 60
+    }
+  ],
+  "summary": "4개 항목 · 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "funnel"
+  ],
+  "kind": "xychart",
+  "sha256": "d67b964748ee4aa6eda2357a69978b675916cb6f4f3f3957ed5867b0b743d6a9",
+  "sourceSha256": "2712833f4f087a9e61113a95954634a52ba9ed43580c2160055866c784229c95",
+  "url": "/pele/cases/legacy-funnel-initial.json",
+  "svgUrl": "/pele/cases/legacy-funnel-initial.svg",
+  "pngUrl": null
+}

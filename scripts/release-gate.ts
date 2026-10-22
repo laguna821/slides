@@ -5,6 +5,7 @@ import { policy } from '../src/lib/policy';
 import works from '../content/works.json';
 import experiments from '../content/experiments.json';
 import { workHref } from '../src/lib/schema';
+import {readCollection} from './pele-collection';
 export const reviewRoutes = [
   ...new Set([
     '/',
@@ -26,6 +27,8 @@ export const reviewRoutes = [
 ];
 export async function builtReviewRoutes(root = process.cwd()) {
   const generated: string[] = [];
+  const collection=await readCollection(root);
+  generated.push(...collection.files.filter(f=>f.path.endsWith('.html')).map(f=>f.path.replace(/index\.html$/,'')));
   for (const f of (
     await fs.readdir(path.join(root, 'dist'), { recursive: true })
   ).filter((f) => f.endsWith('.html'))) {

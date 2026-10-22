@@ -1,0 +1,303 @@
+{
+  "canonicalCount": 39,
+  "mermaidContentCount": 32,
+  "additionalGroups": [
+    "paired",
+    "interval",
+    "scatter",
+    "matrix",
+    "likert",
+    "waterfall",
+    "spatial"
+  ],
+  "legacyRecipes": [
+    {
+      "id": "comparison",
+      "page": "xychart",
+      "states": [
+        "legacy-comparison-value",
+        "legacy-comparison-reach",
+        "legacy-comparison-dots",
+        "legacy-comparison-original"
+      ]
+    },
+    {
+      "id": "composition",
+      "page": "pie",
+      "states": [
+        "legacy-composition-stack",
+        "legacy-composition-waffle"
+      ]
+    },
+    {
+      "id": "paired",
+      "page": "paired",
+      "states": [
+        "legacy-paired-dumbbell",
+        "legacy-paired-slope"
+      ]
+    },
+    {
+      "id": "series",
+      "page": "xychart",
+      "states": [
+        "legacy-series-line",
+        "legacy-series-step"
+      ]
+    },
+    {
+      "id": "multiples",
+      "page": "xychart",
+      "states": [
+        "legacy-multiples-shared",
+        "legacy-multiples-local"
+      ]
+    },
+    {
+      "id": "histogram",
+      "page": "xychart",
+      "states": [
+        "legacy-histogram-wide",
+        "legacy-histogram-narrow"
+      ]
+    },
+    {
+      "id": "interval",
+      "page": "interval",
+      "states": [
+        "legacy-interval-box",
+        "legacy-interval-ci"
+      ]
+    },
+    {
+      "id": "scatter",
+      "page": "scatter",
+      "states": [
+        "legacy-scatter-all",
+        "legacy-scatter-filter-0",
+        "legacy-scatter-filter-1"
+      ]
+    },
+    {
+      "id": "matrix",
+      "page": "matrix",
+      "states": [
+        "legacy-matrix-original",
+        "legacy-matrix-reverse"
+      ]
+    },
+    {
+      "id": "likert",
+      "page": "likert",
+      "states": [
+        "legacy-likert-percent",
+        "legacy-likert-count"
+      ]
+    },
+    {
+      "id": "waterfall",
+      "page": "waterfall",
+      "states": [
+        "legacy-waterfall-bridge",
+        "legacy-waterfall-delta"
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "page": "xychart",
+      "states": [
+        "legacy-sensitivity-factor-50",
+        "legacy-sensitivity-factor-75",
+        "legacy-sensitivity-factor-100",
+        "legacy-sensitivity-factor-125",
+        "legacy-sensitivity-factor-150"
+      ]
+    },
+    {
+      "id": "rules",
+      "page": "flowchart",
+      "states": [
+        "legacy-rules-people-20",
+        "legacy-rules-people-40",
+        "legacy-rules-people-60",
+        "legacy-rules-people-80",
+        "legacy-rules-people-100"
+      ]
+    },
+    {
+      "id": "funnel",
+      "page": "xychart",
+      "states": [
+        "legacy-funnel-initial",
+        "legacy-funnel-previous"
+      ]
+    },
+    {
+      "id": "flow",
+      "page": "sankey",
+      "states": [
+        "legacy-flow-all",
+        "legacy-flow-filter-0",
+        "legacy-flow-filter-1"
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "page": "treemap",
+      "states": [
+        "legacy-hierarchy-all",
+        "legacy-hierarchy-filter-0",
+        "legacy-hierarchy-filter-1"
+      ]
+    },
+    {
+      "id": "connections",
+      "page": "flowchart",
+      "states": [
+        "legacy-connections-relation",
+        "legacy-connections-process"
+      ]
+    },
+    {
+      "id": "spatial",
+      "page": "spatial",
+      "states": [
+        "legacy-spatial-count",
+        "legacy-spatial-rate"
+      ]
+    }
+  ],
+  "analysisVariants": [
+    {
+      "id": "chi3",
+      "family": "χ² 독립성",
+      "page": "matrix",
+      "caseId": "analysis-chi3"
+    },
+    {
+      "id": "chi7",
+      "family": "χ² 독립성",
+      "page": "matrix",
+      "caseId": "analysis-chi7"
+    },
+    {
+      "id": "welch",
+      "family": "t-test",
+      "page": "interval",
+      "caseId": "analysis-welch"
+    },
+    {
+      "id": "paired",
+      "family": "t-test",
+      "page": "interval",
+      "caseId": "analysis-paired"
+    },
+    {
+      "id": "pearson",
+      "family": "Correlation",
+      "page": "scatter",
+      "caseId": "analysis-pearson"
+    },
+    {
+      "id": "spearman",
+      "family": "Correlation",
+      "page": "scatter",
+      "caseId": "analysis-spearman"
+    },
+    {
+      "id": "reg-ols",
+      "family": "Regression",
+      "page": "interval",
+      "caseId": "analysis-reg-ols"
+    },
+    {
+      "id": "reg-hc3",
+      "family": "Regression",
+      "page": "interval",
+      "caseId": "analysis-reg-hc3"
+    },
+    {
+      "id": "anova-welch",
+      "family": "One-way ANOVA",
+      "page": "interval",
+      "caseId": "analysis-anova-welch"
+    },
+    {
+      "id": "anova-classic",
+      "family": "One-way ANOVA",
+      "page": "interval",
+      "caseId": "analysis-anova-classic"
+    },
+    {
+      "id": "two-classic",
+      "family": "Two-way ANOVA",
+      "page": "xychart",
+      "caseId": "analysis-two-classic"
+    },
+    {
+      "id": "two-hc3",
+      "family": "Two-way ANOVA",
+      "page": "xychart",
+      "caseId": "analysis-two-hc3"
+    },
+    {
+      "id": "mod-classic",
+      "family": "Interaction / Moderation",
+      "page": "xychart",
+      "caseId": "analysis-mod-classic"
+    },
+    {
+      "id": "mod-hc3",
+      "family": "Interaction / Moderation",
+      "page": "xychart",
+      "caseId": "analysis-mod-hc3"
+    },
+    {
+      "id": "med-mc",
+      "family": "Mediation",
+      "page": "flowchart",
+      "caseId": "analysis-med-mc"
+    },
+    {
+      "id": "med-delta",
+      "family": "Mediation",
+      "page": "flowchart",
+      "caseId": "analysis-med-delta"
+    },
+    {
+      "id": "sem-full",
+      "family": "SEM",
+      "page": "flowchart",
+      "caseId": "analysis-sem-full"
+    },
+    {
+      "id": "sem-reduced",
+      "family": "SEM",
+      "page": "flowchart",
+      "caseId": "analysis-sem-reduced"
+    }
+  ],
+  "editorial": [
+    "brief",
+    "methods",
+    "findings",
+    "evidence",
+    "education",
+    "infographic"
+  ],
+  "counts": {
+    "cases": 104,
+    "legacyStates": 47,
+    "analysisConditions": 18,
+    "editorialContexts": 6
+  },
+  "excludedFromKindCount": [
+    "info 진단",
+    "색·폰트·폭",
+    "47개 조작 상태",
+    "18개 분석 조건",
+    "6개 편집 문맥",
+    "문서 출력/갱신/복구 검사"
+  ],
+  "rule": "각 문법/기하 도표군을 한 번만 집계. 전체 사례는 하나의 소유 페이지에만 속한다. 동일 의미의 다른 계산 상태는 해당 페이지의 사례로 묶는다."
+}

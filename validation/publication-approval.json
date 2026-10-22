@@ -2,15 +2,17 @@
   "version": 1,
   "status": "approved",
   "scope": "portfolio-production",
-  "policyVersion": "6.3.1",
-  "digest": "8b9dd3b0610323bbed397d5da895dcd364d8621e4e08407efc3bf3c5088dbe16",
-  "reviewHash": "0cd39e9bb41ce4e5f401eaedc162d038d1402dec9a8a1bc12ffdda3865777052",
+  "policyVersion": "6.4.0",
+  "digest": "043c2f50efa30f63ded80cd88c42f0a028f930de83c39360658b95c0ecf21cf7",
+  "reviewHash": "d1c305686abc63602df9e57fc34cf13cb1a2014b2842808c9f35ecb4a7a65c27",
+  "boundAt": "2026-10-22T05:49:38.943Z",
   "decision": {
     "by": "user",
-    "quote": "영상 180초짜리 새로 완성한것만 링크 따서 내 포트폴리오 웹사이트에 업로드 작업 - 승인 물어보지 말고 공개 게시까지 쭉 진행",
-    "sessionId": "01a10afc-c367-7481-b617-1445fee5a4be",
-    "at": "2026-10-21T13:16:42.585Z",
-    "authorizationKind": "explicit-production-instruction",
-    "note": "Current task explicitly authorizes publication without another preview approval. Timestamp records binding that instruction to the completed reviewed digest; it does not claim a new user statement or aesthetic review."
+    "quote": "게시 확인 굳이 물어보지 말고 공개까지 하라고",
+    "correctionQuote": "전체 사례 원본이 vercel 내 포트폴리오 사이트에 안보이는데? 로그인 안해도  이런 전체 내용을 볼 수 있게 해야지 왜 이렇게 해놨어 ㅡㅡ",
+    "sessionId": "01a15c26-4e1d-7a12-89d8-79e6c6ec37b2",
+    "at": "2026-10-21T13:07:59Z",
+    "authorization": "publish-when-verified",
+    "requestScope": "pele-complete-public-migration"
   }
 }
