@@ -1,0 +1,396 @@
+{
+  "id": "legacy-histogram-narrow",
+  "label": "구간 폭이 분포의 인상을 바꾼다 · 좁은 구간",
+  "type": "legacy",
+  "source": {
+    "recipe": "histogram",
+    "state": "narrow",
+    "records": [
+      {
+        "id": "r1",
+        "label": "표본1",
+        "value": 12
+      },
+      {
+        "id": "r2",
+        "label": "표본2",
+        "value": 14
+      },
+      {
+        "id": "r3",
+        "label": "표본3",
+        "value": 16
+      },
+      {
+        "id": "r4",
+        "label": "표본4",
+        "value": 18
+      },
+      {
+        "id": "r5",
+        "label": "표본5",
+        "value": 18
+      },
+      {
+        "id": "r6",
+        "label": "표본6",
+        "value": 19
+      },
+      {
+        "id": "r7",
+        "label": "표본7",
+        "value": 20
+      },
+      {
+        "id": "r8",
+        "label": "표본8",
+        "value": 21
+      },
+      {
+        "id": "r9",
+        "label": "표본9",
+        "value": 21
+      },
+      {
+        "id": "r10",
+        "label": "표본10",
+        "value": 22
+      },
+      {
+        "id": "r11",
+        "label": "표본11",
+        "value": 23
+      },
+      {
+        "id": "r12",
+        "label": "표본12",
+        "value": 24
+      },
+      {
+        "id": "r13",
+        "label": "표본13",
+        "value": 25
+      },
+      {
+        "id": "r14",
+        "label": "표본14",
+        "value": 25
+      },
+      {
+        "id": "r15",
+        "label": "표본15",
+        "value": 26
+      },
+      {
+        "id": "r16",
+        "label": "표본16",
+        "value": 28
+      },
+      {
+        "id": "r17",
+        "label": "표본17",
+        "value": 29
+      },
+      {
+        "id": "r18",
+        "label": "표본18",
+        "value": 30
+      },
+      {
+        "id": "r19",
+        "label": "표본19",
+        "value": 33
+      },
+      {
+        "id": "r20",
+        "label": "표본20",
+        "value": 36
+      },
+      {
+        "id": "r21",
+        "label": "표본21",
+        "value": 40
+      },
+      {
+        "id": "r22",
+        "label": "표본22",
+        "value": 44
+      },
+      {
+        "id": "r23",
+        "label": "표본23",
+        "value": 48
+      },
+      {
+        "id": "r24",
+        "label": "표본24",
+        "value": 55
+      }
+    ],
+    "assumptions": [
+      "구간은 하한 포함·상한 제외, 마지막은 최댓값을 포함한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"히스토그램 · 분\"><title>히스토그램 · 분</title><rect x=\"20.00\" y=\"123.33\" width=\"85.33\" height=\"136.67\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"35.00\" y=\"113.33\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">6</text><text x=\"20.00\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">12</text><rect x=\"113.33\" y=\"55.00\" width=\"85.33\" height=\"205.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"128.33\" y=\"45.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">9</text><text x=\"113.33\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">19.17</text><rect x=\"206.67\" y=\"168.89\" width=\"85.33\" height=\"91.11\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"221.67\" y=\"158.89\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">4</text><text x=\"206.67\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">26.33</text><rect x=\"300.00\" y=\"214.44\" width=\"85.33\" height=\"45.56\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"315.00\" y=\"204.44\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">2</text><text x=\"300.00\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">33.5</text><rect x=\"393.33\" y=\"237.22\" width=\"85.33\" height=\"22.78\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"408.33\" y=\"227.22\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">1</text><text x=\"393.33\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">40.67</text><rect x=\"486.67\" y=\"214.44\" width=\"85.33\" height=\"45.56\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"501.67\" y=\"204.44\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">2</text><text x=\"486.67\" y=\"300.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">47.83</text></svg>",
+  "description": "시간 데이터의 몰림과 꼬리를 살펴보자.",
+  "limits": "표본 24개; [하한, 상한), 마지막 구간은 최댓값 포함",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "표본1",
+      "value": 12
+    },
+    {
+      "id": "r2",
+      "label": "표본2",
+      "value": 14
+    },
+    {
+      "id": "r3",
+      "label": "표본3",
+      "value": 16
+    },
+    {
+      "id": "r4",
+      "label": "표본4",
+      "value": 18
+    },
+    {
+      "id": "r5",
+      "label": "표본5",
+      "value": 18
+    },
+    {
+      "id": "r6",
+      "label": "표본6",
+      "value": 19
+    },
+    {
+      "id": "r7",
+      "label": "표본7",
+      "value": 20
+    },
+    {
+      "id": "r8",
+      "label": "표본8",
+      "value": 21
+    },
+    {
+      "id": "r9",
+      "label": "표본9",
+      "value": 21
+    },
+    {
+      "id": "r10",
+      "label": "표본10",
+      "value": 22
+    },
+    {
+      "id": "r11",
+      "label": "표본11",
+      "value": 23
+    },
+    {
+      "id": "r12",
+      "label": "표본12",
+      "value": 24
+    },
+    {
+      "id": "r13",
+      "label": "표본13",
+      "value": 25
+    },
+    {
+      "id": "r14",
+      "label": "표본14",
+      "value": 25
+    },
+    {
+      "id": "r15",
+      "label": "표본15",
+      "value": 26
+    },
+    {
+      "id": "r16",
+      "label": "표본16",
+      "value": 28
+    },
+    {
+      "id": "r17",
+      "label": "표본17",
+      "value": 29
+    },
+    {
+      "id": "r18",
+      "label": "표본18",
+      "value": 30
+    },
+    {
+      "id": "r19",
+      "label": "표본19",
+      "value": 33
+    },
+    {
+      "id": "r20",
+      "label": "표본20",
+      "value": 36
+    },
+    {
+      "id": "r21",
+      "label": "표본21",
+      "value": 40
+    },
+    {
+      "id": "r22",
+      "label": "표본22",
+      "value": 44
+    },
+    {
+      "id": "r23",
+      "label": "표본23",
+      "value": 48
+    },
+    {
+      "id": "r24",
+      "label": "표본24",
+      "value": 55
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "표본1",
+      "value": 12
+    },
+    {
+      "id": "r2",
+      "label": "표본2",
+      "value": 14
+    },
+    {
+      "id": "r3",
+      "label": "표본3",
+      "value": 16
+    },
+    {
+      "id": "r4",
+      "label": "표본4",
+      "value": 18
+    },
+    {
+      "id": "r5",
+      "label": "표본5",
+      "value": 18
+    },
+    {
+      "id": "r6",
+      "label": "표본6",
+      "value": 19
+    },
+    {
+      "id": "r7",
+      "label": "표본7",
+      "value": 20
+    },
+    {
+      "id": "r8",
+      "label": "표본8",
+      "value": 21
+    },
+    {
+      "id": "r9",
+      "label": "표본9",
+      "value": 21
+    },
+    {
+      "id": "r10",
+      "label": "표본10",
+      "value": 22
+    },
+    {
+      "id": "r11",
+      "label": "표본11",
+      "value": 23
+    },
+    {
+      "id": "r12",
+      "label": "표본12",
+      "value": 24
+    },
+    {
+      "id": "r13",
+      "label": "표본13",
+      "value": 25
+    },
+    {
+      "id": "r14",
+      "label": "표본14",
+      "value": 25
+    },
+    {
+      "id": "r15",
+      "label": "표본15",
+      "value": 26
+    },
+    {
+      "id": "r16",
+      "label": "표본16",
+      "value": 28
+    },
+    {
+      "id": "r17",
+      "label": "표본17",
+      "value": 29
+    },
+    {
+      "id": "r18",
+      "label": "표본18",
+      "value": 30
+    },
+    {
+      "id": "r19",
+      "label": "표본19",
+      "value": 33
+    },
+    {
+      "id": "r20",
+      "label": "표본20",
+      "value": 36
+    },
+    {
+      "id": "r21",
+      "label": "표본21",
+      "value": 40
+    },
+    {
+      "id": "r22",
+      "label": "표본22",
+      "value": 44
+    },
+    {
+      "id": "r23",
+      "label": "표본23",
+      "value": 48
+    },
+    {
+      "id": "r24",
+      "label": "표본24",
+      "value": 55
+    }
+  ],
+  "summary": "24개 항목 · 분",
+  "unit": "분",
+  "tags": [
+    "기존 레시피",
+    "histogram"
+  ],
+  "kind": "xychart",
+  "sha256": "d7bf3deb2ba3431fc9a428787264412906bb501c8e9dc1095319e4e6fc92dcae",
+  "sourceSha256": "8621146193edb11f13ffb1910140b61cdc26b58502b946655bb6ff447601cfad",
+  "url": "/pele/cases/legacy-histogram-narrow.json",
+  "svgUrl": "/pele/cases/legacy-histogram-narrow.svg",
+  "pngUrl": null
+}

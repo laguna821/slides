@@ -1,0 +1,114 @@
+{
+  "id": "legacy-sensitivity-factor-75",
+  "label": "가정을 바꾸면 비용도 달라진다 · 75%",
+  "type": "legacy",
+  "source": {
+    "recipe": "sensitivity",
+    "state": "factor-75",
+    "records": [
+      {
+        "id": "r1",
+        "label": "공간",
+        "value": 10,
+        "rate": 8
+      },
+      {
+        "id": "r2",
+        "label": "장비",
+        "value": 8,
+        "rate": 6
+      },
+      {
+        "id": "r3",
+        "label": "인력",
+        "value": 12,
+        "rate": 10
+      },
+      {
+        "id": "r4",
+        "label": "재료",
+        "value": 20,
+        "rate": 2
+      }
+    ],
+    "assumptions": [
+      "합계 = 각 항목의 기준 수량×배율×단가 합.",
+      "범위는 해당 항목 비용의 ±20%; 다른 항목은 고정.",
+      "배율은 50·75·100·125·150%의 유한 상태를 지원한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"민감도 · 만원\"><title>민감도 · 만원</title><line x1=\"335.00\" y1=\"24.00\" x2=\"335.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"170.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">-18</text><text x=\"500.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">18</text><g data-key=\"r3\"><text x=\"8.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">인력</text><rect x=\"170.00\" y=\"36.00\" width=\"330.00\" height=\"20.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"335.00\" cy=\"46.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"54.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">±18</text></g><g data-key=\"r1\"><text x=\"8.00\" y=\"113.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">공간</text><rect x=\"225.00\" y=\"95.00\" width=\"220.00\" height=\"20.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"335.00\" cy=\"105.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"113.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">±12</text></g><g data-key=\"r2\"><text x=\"8.00\" y=\"172.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">장비</text><rect x=\"269.00\" y=\"154.00\" width=\"132.00\" height=\"20.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"335.00\" cy=\"164.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"172.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">±7.2</text></g><g data-key=\"r4\"><text x=\"8.00\" y=\"231.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">재료</text><rect x=\"280.00\" y=\"213.00\" width=\"110.00\" height=\"20.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"335.00\" cy=\"223.00\" r=\"6\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"590.00\" y=\"231.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">±6</text></g></svg>",
+  "description": "수량 배율이 바뀔 때 어느 항목의 영향이 큰가?",
+  "limits": "총비용 변화량: 한 항목의 수량만 ±20%, 나머지는 고정",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r3",
+      "label": "인력",
+      "value": 12,
+      "rate": 10,
+      "display": 90
+    },
+    {
+      "id": "r1",
+      "label": "공간",
+      "value": 10,
+      "rate": 8,
+      "display": 60
+    },
+    {
+      "id": "r2",
+      "label": "장비",
+      "value": 8,
+      "rate": 6,
+      "display": 36
+    },
+    {
+      "id": "r4",
+      "label": "재료",
+      "value": 20,
+      "rate": 2,
+      "display": 30
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "공간",
+      "value": 10,
+      "rate": 8
+    },
+    {
+      "id": "r2",
+      "label": "장비",
+      "value": 8,
+      "rate": 6
+    },
+    {
+      "id": "r3",
+      "label": "인력",
+      "value": 12,
+      "rate": 10
+    },
+    {
+      "id": "r4",
+      "label": "재료",
+      "value": 20,
+      "rate": 2
+    }
+  ],
+  "summary": "합계 216 만원",
+  "unit": "만원",
+  "tags": [
+    "기존 레시피",
+    "sensitivity"
+  ],
+  "kind": "xychart",
+  "sha256": "c45cae3cb5eca49ac6b09c34b1c5f231f6ebdf83c13deb5eb0019847d94abcdb",
+  "sourceSha256": "ae038455e245ef607946a7ac4eb0f8c0845cca50beae072c98d9117f69d82a1a",
+  "url": "/pele/cases/legacy-sensitivity-factor-75.json",
+  "svgUrl": "/pele/cases/legacy-sensitivity-factor-75.svg",
+  "pngUrl": null
+}

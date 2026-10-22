@@ -1,0 +1,301 @@
+{
+  "id": "analysis-paired",
+  "label": "t-test · 대응 인식 비교",
+  "type": "analysis",
+  "source": {
+    "analysis": {
+      "id": "paired",
+      "label": "대응 인식 비교",
+      "kind": "t",
+      "n": 944,
+      "unit": "rating points",
+      "groups": [
+        {
+          "label": "Program A 인식",
+          "n": 944,
+          "mean": 4.093220338983051,
+          "sd": 1.2313493491661622,
+          "ci": [
+            4.014569899664034,
+            4.171870778302068
+          ],
+          "hist": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              84
+            ],
+            [
+              3,
+              216
+            ],
+            [
+              4,
+              292
+            ],
+            [
+              5,
+              229
+            ],
+            [
+              6,
+              90
+            ],
+            [
+              7,
+              27
+            ]
+          ],
+          "key": "paired-group-0"
+        },
+        {
+          "label": "Program B 인식",
+          "n": 944,
+          "mean": 4.576271186440678,
+          "sd": 1.2099396033129866,
+          "ci": [
+            4.498988259857344,
+            4.653554113024012
+          ],
+          "hist": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              37
+            ],
+            [
+              3,
+              133
+            ],
+            [
+              4,
+              288
+            ],
+            [
+              5,
+              272
+            ],
+            [
+              6,
+              157
+            ],
+            [
+              7,
+              56
+            ]
+          ],
+          "key": "paired-group-1"
+        }
+      ],
+      "difference": 0.4830508474576271,
+      "ci": [
+        0.4162400276250782,
+        0.5498616672901759
+      ],
+      "stat": 14.189004033335468,
+      "df": 943,
+      "p": 1.4638143789416513e-41,
+      "effect": 0.4618127457506156,
+      "effectName": "Cohen dz",
+      "effectCI": [
+        0.3992125270676724,
+        0.5272813540434089
+      ],
+      "key": "paired-difference"
+    },
+    "formula": "See downloadable synthetic generator",
+    "dataset": {
+      "name": "가상 학습 설문",
+      "n": 944,
+      "unit": "synthetic respondents",
+      "credit": "Achmage synthetic generator",
+      "definition": "독립적인 가상 자료. 실제 인물·정치 조사·기관 성과가 아님. 이전 분석 API의 column ID를 보존하며 PID는 참여군, vote는 프로그램 선택, TVnews는 연습 횟수, ClinLR/DoleLR는 프로그램 A/B 평가, logpopul은 환경 지수이다.",
+      "sha256": "4e4601b618203f6745bb6a100f351bebcf2e33c634c1ede839db09fc2943f128"
+    }
+  },
+  "svg": "<svg viewBox=\"0 0 1600 650\" width=\"1600\" height=\"650\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Scientific analysis figure\"><title>t-test · 대응 인식 비교</title><desc>비교 설계가 달라지면 차이의 의미도 달라진다 Program B − Program A on the same 1–7 numeric-coded scale. Not a causal candidate effect.</desc><rect x=\"0\" y=\"0\" width=\"1600\" height=\"650\" fill=\"var(--pele-bg)\" stroke=\"none\" stroke-width=\"1\"></rect><text x=\"0\" y=\"41\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">A  Group means · pointwise 95% CI</text><line x1=\"260\" y1=\"75\" x2=\"260\" y2=\"286\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"260\" y=\"332\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">1</text><line x1=\"388.75\" y1=\"75\" x2=\"388.75\" y2=\"286\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"388.75\" y=\"332\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">2.5</text><line x1=\"517.5\" y1=\"75\" x2=\"517.5\" y2=\"286\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"517.5\" y=\"332\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">4</text><line x1=\"646.25\" y1=\"75\" x2=\"646.25\" y2=\"286\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"646.25\" y=\"332\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">5.5</text><line x1=\"775\" y1=\"75\" x2=\"775\" y2=\"286\" stroke=\"var(--pele-border)\" stroke-width=\"1\"></line><text x=\"775\" y=\"332\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">7</text><g  data-key=\"paired-group-0\" aria-label=\"Program A 인식\"><text x=\"8\" y=\"110\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Program A 인식</text><line x1=\"518.7505830544962\" y1=\"103\" x2=\"532.2522418042608\" y2=\"103\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"518.7505830544962\" y1=\"94\" x2=\"518.7505830544962\" y2=\"112\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"532.2522418042608\" y1=\"94\" x2=\"532.2522418042608\" y2=\"112\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"525.5014124293785\" cy=\"103\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"990\" y=\"103\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">4.09</text><text x=\"990\" y=\"137\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[4.01, 4.17]</text></g><g  data-key=\"paired-group-1\" aria-label=\"Program B 인식\"><text x=\"8\" y=\"265\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">Program B 인식</text><line x1=\"560.3298256377554\" y1=\"258\" x2=\"573.596728034561\" y2=\"258\" stroke=\"var(--pele-series-1)\" stroke-width=\"4\"></line><line x1=\"560.3298256377554\" y1=\"249\" x2=\"560.3298256377554\" y2=\"267\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><line x1=\"573.596728034561\" y1=\"249\" x2=\"573.596728034561\" y2=\"267\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></line><circle cx=\"566.9632768361582\" cy=\"258\" r=\"8\" fill=\"var(--pele-series-1)\" stroke=\"var(--pele-series-1)\" stroke-width=\"2\"></circle><text x=\"990\" y=\"258\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-1)\" text-anchor=\"end\">4.58</text><text x=\"990\" y=\"292\" font-size=\"23\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"end\">[4.5, 4.65]</text></g><text x=\"517.5\" y=\"373\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"middle\">rating points</text><text x=\"1100\" y=\"47\" font-size=\"32\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-fg)\" text-anchor=\"start\">B  Difference</text><g  data-key=\"paired-difference\" aria-label=\"Program B−Program A 차이\"><text x=\"1100\" y=\"145\" font-size=\"66\" font-family=\"Achmage SameTone\" font-weight=\"750\" fill=\"var(--pele-series-1)\" text-anchor=\"start\">+0.48</text><text x=\"1100\" y=\"190\" font-size=\"28\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">rating points</text><text x=\"1100\" y=\"258\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">95% CI</text><text x=\"1100\" y=\"305\" font-size=\"36\" font-family=\"Achmage SameTone\" font-weight=\"650\" fill=\"var(--pele-fg)\" text-anchor=\"start\">[0.416, 0.55]</text><text x=\"1100\" y=\"377\" font-size=\"27\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">t(943) = 14.19</text><text x=\"1100\" y=\"423\" font-size=\"27\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-fg)\" text-anchor=\"start\">p &lt; .001</text><text x=\"1100\" y=\"491\" font-size=\"30\" font-family=\"Achmage SameTone\" font-weight=\"700\" fill=\"var(--pele-series-2)\" text-anchor=\"start\">Cohen dz = 0.462</text><text x=\"1100\" y=\"533\" font-size=\"24\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">effect CI [0.399, 0.527]</text></g><text x=\"15\" y=\"580\" font-size=\"27\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">Group n: 944 / 944 · same 944 respondents</text><text x=\"15\" y=\"625\" font-size=\"26\" font-family=\"Achmage SameTone\" font-weight=\"400\" fill=\"var(--pele-muted)\" text-anchor=\"start\">Scale: 1 low rating → 7 high rating</text></svg>",
+  "description": "다른 사람의 차이와 같은 사람 안의 차이는 어떻게 다른가? — 비교 설계가 달라지면 차이의 의미도 달라진다",
+  "limits": "전부 합성 자료. Program B − Program A on the same 1–7 numeric-coded scale. Not a causal candidate effect.",
+  "diagnostics": [],
+  "engine": "Achmage 통계 분석 + 과학 SVG",
+  "minWidth": 1280,
+  "records": [
+    {
+      "id": "paired-difference",
+      "label": "Program B−Program A 차이",
+      "value": 0.4830508474576271,
+      "unit": "rating points",
+      "ci": [
+        0.4162400276250782,
+        0.5498616672901759
+      ],
+      "n": 944,
+      "method": "Paired t; DoleLR−ClinLR; numeric1–7 scale",
+      "meaning": "같은 응답자의 인식 차이.",
+      "caveat": "인식 척도는1–7 순서형을 수치로 취급한 분석이다. 인식 차이가 실제 프로그램의 객관적 위치나 인과효과를 뜻하지 않는다.",
+      "source": "anes",
+      "t": 14.189004033335468,
+      "df": 943,
+      "p": 1.4638143789416513e-41,
+      "effect": 0.4618127457506156,
+      "effectName": "Cohen dz",
+      "effectCI": [
+        0.3992125270676724,
+        0.5272813540434089
+      ]
+    },
+    {
+      "id": "paired-group-0",
+      "label": "Program A 인식",
+      "value": 4.093220338983051,
+      "unit": "rating points",
+      "ci": [
+        4.014569899664034,
+        4.171870778302068
+      ],
+      "n": 944,
+      "method": "Within-group t interval",
+      "meaning": "집단 평균과95% 구간.",
+      "caveat": "집단 평균 구간의 겹침은 평균차 검정을 대체하지 않는다.",
+      "source": "anes"
+    },
+    {
+      "id": "paired-group-1",
+      "label": "Program B 인식",
+      "value": 4.576271186440678,
+      "unit": "rating points",
+      "ci": [
+        4.498988259857344,
+        4.653554113024012
+      ],
+      "n": 944,
+      "method": "Within-group t interval",
+      "meaning": "집단 평균과95% 구간.",
+      "caveat": "집단 평균 구간의 겹침은 평균차 검정을 대체하지 않는다.",
+      "source": "anes"
+    }
+  ],
+  "model": {
+    "id": "paired",
+    "label": "대응 인식 비교",
+    "kind": "t",
+    "n": 944,
+    "unit": "rating points",
+    "groups": [
+      {
+        "label": "Program A 인식",
+        "n": 944,
+        "mean": 4.093220338983051,
+        "sd": 1.2313493491661622,
+        "ci": [
+          4.014569899664034,
+          4.171870778302068
+        ],
+        "hist": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            84
+          ],
+          [
+            3,
+            216
+          ],
+          [
+            4,
+            292
+          ],
+          [
+            5,
+            229
+          ],
+          [
+            6,
+            90
+          ],
+          [
+            7,
+            27
+          ]
+        ],
+        "key": "paired-group-0"
+      },
+      {
+        "label": "Program B 인식",
+        "n": 944,
+        "mean": 4.576271186440678,
+        "sd": 1.2099396033129866,
+        "ci": [
+          4.498988259857344,
+          4.653554113024012
+        ],
+        "hist": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            37
+          ],
+          [
+            3,
+            133
+          ],
+          [
+            4,
+            288
+          ],
+          [
+            5,
+            272
+          ],
+          [
+            6,
+            157
+          ],
+          [
+            7,
+            56
+          ]
+        ],
+        "key": "paired-group-1"
+      }
+    ],
+    "difference": 0.4830508474576271,
+    "ci": [
+      0.4162400276250782,
+      0.5498616672901759
+    ],
+    "stat": 14.189004033335468,
+    "df": 943,
+    "p": 1.4638143789416513e-41,
+    "effect": 0.4618127457506156,
+    "effectName": "Cohen dz",
+    "effectCI": [
+      0.3992125270676724,
+      0.5272813540434089
+    ],
+    "key": "paired-difference"
+  },
+  "tags": [
+    "통계 분석",
+    "t-test"
+  ],
+  "summary": "가상 자료 n=944 · 조건 paired",
+  "kind": "interval",
+  "sha256": "57054be6f7df9b8ad507b758414077554a34aec4cac00931ab83769071b49ec9",
+  "sourceSha256": "9da9f5f9fe9061e59cfab78c234c03285e12b0b6880202e8124e5374e372c7b2",
+  "url": "/pele/cases/analysis-paired.json",
+  "svgUrl": "/pele/cases/analysis-paired.svg",
+  "pngUrl": null
+}

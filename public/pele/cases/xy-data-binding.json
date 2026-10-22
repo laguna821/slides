@@ -1,0 +1,191 @@
+{
+  "id": "xy-data-binding",
+  "label": "JSON 데이터 연결 · 신청과 이수",
+  "type": "xy",
+  "source": {
+    "kind": "xy",
+    "title": "프로그램별 신청과 이수",
+    "description": "가상 자료. 막대와 선은 같은 프로그램의 다른 값이다.",
+    "labels": [
+      "글쓰기",
+      "영상",
+      "데이터",
+      "기획"
+    ],
+    "unit": "명",
+    "series": [
+      {
+        "type": "bar",
+        "values": [
+          40,
+          60,
+          50,
+          30
+        ],
+        "items": [
+          {
+            "key": "apply-0",
+            "label": "글쓰기 신청",
+            "value": 40,
+            "unit": "명",
+            "detail": "신청 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "apply-1",
+            "label": "영상 신청",
+            "value": 60,
+            "unit": "명",
+            "detail": "신청 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "apply-2",
+            "label": "데이터 신청",
+            "value": 50,
+            "unit": "명",
+            "detail": "신청 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "apply-3",
+            "label": "기획 신청",
+            "value": 30,
+            "unit": "명",
+            "detail": "신청 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          }
+        ]
+      },
+      {
+        "type": "line",
+        "values": [
+          35,
+          48,
+          45,
+          27
+        ],
+        "items": [
+          {
+            "key": "finish-0",
+            "label": "글쓰기 이수",
+            "value": 35,
+            "unit": "명",
+            "detail": "이수 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "finish-1",
+            "label": "영상 이수",
+            "value": 48,
+            "unit": "명",
+            "detail": "이수 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "finish-2",
+            "label": "데이터 이수",
+            "value": 45,
+            "unit": "명",
+            "detail": "이수 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          },
+          {
+            "key": "finish-3",
+            "label": "기획 이수",
+            "value": 27,
+            "unit": "명",
+            "detail": "이수 인원 · 합성 자료",
+            "evidence": "synthetic-v1"
+          }
+        ]
+      }
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-xychart\" viewBox=\"0 0 700 500\" width=\"700\" height=\"500\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"xychart\" role=\"img\" aria-labelledby=\"bound-xy-title bound-xy-desc\"><title id=\"bound-xy-title\">프로그램별 신청과 이수</title><desc id=\"bound-xy-desc\">가상 자료. 막대와 선은 같은 프로그램의 다른 값이다.</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><path class=\"pele-grid\" d=\"M67.42,460H692M67.42,386.67H692M67.42,313.33H692M67.42,240H692M67.42,166.67H692M67.42,93.33H692M67.42,20H692\" stroke=\"var(--_a)\"/><g class=\"pele-plot\"><g class=\"pele-series pele-bars\" fill=\"var(--pele-series-1,#4c78a8)\"><g data-key=\"apply-0\"><rect x=\"90.84\" y=\"166.67\" width=\"109.3\" height=\"293.33\"/></g><g data-key=\"apply-1\"><rect x=\"246.99\" y=\"20\" width=\"109.3\" height=\"440\"/></g><g data-key=\"apply-2\"><rect x=\"403.13\" y=\"93.33\" width=\"109.3\" height=\"366.67\"/></g><g data-key=\"apply-3\"><rect x=\"559.28\" y=\"240\" width=\"109.3\" height=\"220\"/></g></g><g class=\"pele-series pele-line\" fill=\"var(--pele-series-2,#f58518)\"><path d=\"M145.49,203.33L301.64,108L457.78,130L613.93,262\" fill=\"none\" stroke=\"var(--pele-series-2,#f58518)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g data-key=\"finish-0\"><circle cx=\"145.49\" cy=\"203.33\" r=\"3\"/><circle cx=\"145.49\" cy=\"203.33\" r=\"14\" fill=\"transparent\"/></g><g data-key=\"finish-1\"><circle cx=\"301.64\" cy=\"108\" r=\"3\"/><circle cx=\"301.64\" cy=\"108\" r=\"14\" fill=\"transparent\"/></g><g data-key=\"finish-2\"><circle cx=\"457.78\" cy=\"130\" r=\"3\"/><circle cx=\"457.78\" cy=\"130\" r=\"14\" fill=\"transparent\"/></g><g data-key=\"finish-3\"><circle cx=\"613.93\" cy=\"262\" r=\"3\"/><circle cx=\"613.93\" cy=\"262\" r=\"14\" fill=\"transparent\"/></g></g></g><path class=\"pele-axis\" d=\"M67.42,20V460M67.42,460H692M67.42,460h-4M67.42,386.67h-4M67.42,313.33h-4M67.42,240h-4M67.42,166.67h-4M67.42,93.33h-4M67.42,20h-4M145.49,460v4M301.64,460v4M457.78,460v4M613.93,460v4\" fill=\"none\" stroke=\"var(--_b)\"/><g class=\"pele-axis-labels\" font-size=\"16\" fill=\"var(--_m)\"><text x=\"57.42\" y=\"465.6\" text-anchor=\"end\">0</text><text x=\"57.42\" y=\"392.27\" text-anchor=\"end\">10</text><text x=\"57.42\" y=\"318.93\" text-anchor=\"end\">20</text><text x=\"57.42\" y=\"245.6\" text-anchor=\"end\">30</text><text x=\"57.42\" y=\"172.27\" text-anchor=\"end\">40</text><text x=\"57.42\" y=\"98.93\" text-anchor=\"end\">50</text><text x=\"57.42\" y=\"25.6\" text-anchor=\"end\">60</text><text x=\"145.49\" y=\"485.6\" text-anchor=\"middle\">글쓰기</text><text x=\"301.64\" y=\"485.6\" text-anchor=\"middle\">영상</text><text x=\"457.78\" y=\"485.6\" text-anchor=\"middle\">데이터</text><text x=\"613.93\" y=\"485.6\" text-anchor=\"middle\">기획</text></g><g class=\"pele-axis-titles\" font-size=\"16\"><g transform=\"translate(20,240) rotate(-90)\"><text x=\"0\" y=\"5.6\" text-anchor=\"middle\">명</text></g></g></svg>",
+  "description": "가상 자료. 막대와 선은 같은 프로그램의 다른 값이다.",
+  "engine": "Pele XY + 데이터 결합",
+  "minWidth": 760,
+  "records": [
+    {
+      "key": "apply-0",
+      "label": "글쓰기 신청",
+      "value": 40,
+      "unit": "명",
+      "detail": "신청 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "apply-1",
+      "label": "영상 신청",
+      "value": 60,
+      "unit": "명",
+      "detail": "신청 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "apply-2",
+      "label": "데이터 신청",
+      "value": 50,
+      "unit": "명",
+      "detail": "신청 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "apply-3",
+      "label": "기획 신청",
+      "value": 30,
+      "unit": "명",
+      "detail": "신청 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "finish-0",
+      "label": "글쓰기 이수",
+      "value": 35,
+      "unit": "명",
+      "detail": "이수 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "finish-1",
+      "label": "영상 이수",
+      "value": 48,
+      "unit": "명",
+      "detail": "이수 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "finish-2",
+      "label": "데이터 이수",
+      "value": 45,
+      "unit": "명",
+      "detail": "이수 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    },
+    {
+      "key": "finish-3",
+      "label": "기획 이수",
+      "value": 27,
+      "unit": "명",
+      "detail": "이수 인원 · 합성 자료",
+      "evidence": "synthetic-v1"
+    }
+  ],
+  "diagnostics": [
+    {
+      "code": "visual-review",
+      "severity": "warning",
+      "message": "축 라벨이 생략될 수 있다. 원자료 표와 표시 라벨을 대조한다."
+    }
+  ],
+  "tags": [
+    "데이터 연결"
+  ],
+  "kind": "xychart",
+  "sha256": "697376776b52983bb301b18ec00b019e74c60c3a4f04ba6a709454014d7bae05",
+  "sourceSha256": "14e9fe45c354ee6c50b1a9c5d16a46dd7dc9e8b67de526e91a22b9a6e3fcd6f8",
+  "url": "/pele/cases/xy-data-binding.json",
+  "svgUrl": "/pele/cases/xy-data-binding.svg",
+  "pngUrl": null
+}

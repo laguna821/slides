@@ -1,0 +1,34 @@
+{
+  "id": "radar-native",
+  "label": "기본 문법 · 다기준 윤곽",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "radar-beta\n axis a[\"명료성\"], b[\"근거\"], c[\"재현성\"]\n curve x[\"초안\"]{3,4,2}\n curve y[\"수정\"]{4,4,4}\n max 5\n min 0",
+    "title": "다기준 윤곽",
+    "description": "같은 척도의 여러 기준이 어떻게 다른가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-radar\" viewBox=\"0 0 459 390\" width=\"459\" height=\"390\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"radar\" role=\"img\" aria-labelledby=\"radar-title radar-desc\"><title id=\"radar-title\">다기준 윤곽</title><desc id=\"radar-desc\">같은 척도의 여러 기준이 어떻게 다른가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g transform=\"translate(200.17,206)\"><g class=\"pele-graticule\" fill=\"none\" stroke=\"var(--_a)\"><circle r=\"32\"/><circle r=\"64\"/><circle r=\"96\"/><circle r=\"128\"/><circle r=\"160\"/></g><path class=\"pele-axes\" d=\"M0,0L0,-160M0,0L138.56,80M0,0L-138.56,80\" fill=\"none\" stroke=\"var(--_b)\"/><g class=\"pele-curves\" fill-opacity=\"0.2\" stroke-width=\"1.5\" stroke-linejoin=\"round\"><path class=\"pele-curve\" data-id=\"x\" fill=\"var(--pele-series-1,#4c78a8)\" stroke=\"var(--pele-series-1,#4c78a8)\" d=\"M0,-96 C28.27,-90.56 120.27,42.24 110.85,64 C101.43,85.76 -36.58,59.2 -55.43,32 C-74.27,4.8 -28.27,-101.44 0,-96 Z\"/><path class=\"pele-curve\" data-id=\"y\" fill=\"var(--pele-series-2,#f58518)\" stroke=\"var(--pele-series-2,#f58518)\" d=\"M0,-128 C37.69,-128 129.7,31.36 110.85,64 C92.01,96.64 -92.01,96.64 -110.85,64 C-129.7,31.36 -37.69,-128 0,-128 Z\"/></g><g class=\"pele-axis-labels\" font-size=\"16\"><g class=\"pele-axis-label\" data-id=\"a\"><text x=\"0\" y=\"-180.4\" text-anchor=\"middle\">명료성</text></g><g class=\"pele-axis-label\" data-id=\"b\"><text x=\"164.52\" y=\"104.6\" text-anchor=\"middle\">근거</text></g><g class=\"pele-axis-label\" data-id=\"c\"><text x=\"-171.43\" y=\"104.6\" text-anchor=\"middle\">재현성</text></g></g><g class=\"pele-legend\" font-size=\"16\"><g class=\"pele-legend-item\" data-id=\"x\"><rect x=\"202.35\" y=\"-19\" width=\"12\" height=\"12\" rx=\"2\" fill=\"var(--pele-series-1,#4c78a8)\" fill-opacity=\"0.4\" stroke=\"var(--pele-series-1,#4c78a8)\"/><text x=\"236.18\" y=\"-7.4\" text-anchor=\"middle\">초안</text></g><g class=\"pele-legend-item\" data-id=\"y\"><rect x=\"202.35\" y=\"7\" width=\"12\" height=\"12\" rx=\"2\" fill=\"var(--pele-series-2,#f58518)\" fill-opacity=\"0.4\" stroke=\"var(--pele-series-2,#f58518)\"/><text x=\"236.18\" y=\"18.6\" text-anchor=\"middle\">수정</text></g></g></g></svg>",
+  "description": "같은 척도의 여러 기준이 어떻게 다른가",
+  "limits": "축 순서·범위에 따라 인상이 달라진다. 수치를 병기한다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 480,
+  "records": [
+    {
+      "질문": "같은 척도의 여러 기준이 어떻게 다른가",
+      "대안": "기준별 점수 표",
+      "입력": "radar-beta\n axis a[\"명료성\"], b[\"근거\"], c[\"재현성\"]\n curve x[\"초안\"]{3,4,2}\n curve y[\"수정\"]{4,4,4}\n max 5\n min 0"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "radar",
+  "sha256": "ff42a495a77ca2392a4c0c4fdff44631969a86be7309b3371db6bf6b9c8e6980",
+  "sourceSha256": "e5bfdb94228cc1a3d17f760658e3d4625d1d5c1862e605b2e2e37eca8b7252cd",
+  "url": "/pele/cases/radar-native.json",
+  "svgUrl": "/pele/cases/radar-native.svg",
+  "pngUrl": null
+}

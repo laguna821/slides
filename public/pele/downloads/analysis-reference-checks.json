@@ -1,0 +1,38 @@
+[
+  {
+    "check": "SEM full/reduced convergence",
+    "pass": true
+  },
+  {
+    "check": "SEM positive residual variances",
+    "pass": true
+  },
+  {
+    "check": "SEM dimensions",
+    "pass": true
+  },
+  {
+    "check": "nested ML objective",
+    "pass": true
+  },
+  {
+    "check": "OLS normal equations",
+    "pass": true
+  },
+  {
+    "check": "same regression point estimates",
+    "pass": true
+  },
+  {
+    "check": "chi squared independent formula",
+    "pass": true
+  },
+  {
+    "check": "all factorial cells conserve N",
+    "pass": true
+  },
+  {
+    "check": "mediation identities",
+    "pass": true
+  }
+]

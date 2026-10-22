@@ -1,0 +1,157 @@
+{
+  "id": "legacy-connections-relation",
+  "label": "관계와 절차는 다른 데이터다 · 협업 관계",
+  "type": "legacy",
+  "source": {
+    "recipe": "connections",
+    "state": "relation",
+    "records": [
+      {
+        "id": "n1",
+        "label": "기획–촬영",
+        "source": "기획",
+        "target": "촬영",
+        "value": 1,
+        "kind": "relation"
+      },
+      {
+        "id": "n2",
+        "label": "촬영–편집",
+        "source": "촬영",
+        "target": "편집",
+        "value": 1,
+        "kind": "relation"
+      },
+      {
+        "id": "n3",
+        "label": "편집–기획",
+        "source": "편집",
+        "target": "기획",
+        "value": 1,
+        "kind": "relation"
+      },
+      {
+        "id": "n4",
+        "label": "기획→촬영",
+        "source": "기획",
+        "target": "촬영",
+        "value": 1,
+        "kind": "process"
+      },
+      {
+        "id": "n5",
+        "label": "촬영→편집",
+        "source": "촬영",
+        "target": "편집",
+        "value": 1,
+        "kind": "process"
+      },
+      {
+        "id": "n6",
+        "label": "편집→검토",
+        "source": "편집",
+        "target": "검토",
+        "value": 1,
+        "kind": "process"
+      }
+    ],
+    "assumptions": [
+      "협업 관계는 무방향, 제작 절차는 방향을 가진 별도 기록이다.",
+      "같은 관계에 화살표만 붙여 의미를 바꾸지 않는다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"관계·절차 · 연결\"><title>관계·절차 · 연결</title><g data-key=\"n1\"><line x1=\"435.00\" y1=\"160.00\" x2=\"232.50\" y2=\"224.95\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"n2\"><line x1=\"232.50\" y1=\"224.95\" x2=\"232.50\" y2=\"95.05\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g><g data-key=\"n3\"><line x1=\"232.50\" y1=\"95.05\" x2=\"435.00\" y2=\"160.00\" class=\"vz-link\" stroke=\"var(--pele-fg)\" stroke-width=\"3\" fill=\"none\" /></g><rect x=\"452.00\" y=\"137.00\" width=\"70.00\" height=\"42.00\" class=\"vz-label-ground\" aria-hidden=\"true\" pointer-events=\"none\" fill=\"var(--pele-bg)\" stroke=\"none\" /><rect x=\"197.50\" y=\"257.00\" width=\"70.00\" height=\"42.00\" class=\"vz-label-ground\" aria-hidden=\"true\" pointer-events=\"none\" fill=\"var(--pele-bg)\" stroke=\"none\" /><rect x=\"197.50\" y=\"27.00\" width=\"70.00\" height=\"42.00\" class=\"vz-label-ground\" aria-hidden=\"true\" pointer-events=\"none\" fill=\"var(--pele-bg)\" stroke=\"none\" /><text x=\"455.00\" y=\"170.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기획</text><text x=\"232.50\" y=\"290.00\" text-anchor=\"middle\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">촬영</text><text x=\"232.50\" y=\"60.00\" text-anchor=\"middle\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">편집</text><circle cx=\"435.00\" cy=\"160.00\" r=\"12\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"232.50\" cy=\"224.95\" r=\"12\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><circle cx=\"232.50\" cy=\"95.05\" r=\"12\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /></svg>",
+  "description": "협업 관계와 제작 순서를 따로 살펴보자.",
+  "limits": "방향 없는 별도 협업 관계 데이터",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "n1",
+      "label": "기획–촬영",
+      "source": "기획",
+      "target": "촬영",
+      "value": 1,
+      "kind": "relation"
+    },
+    {
+      "id": "n2",
+      "label": "촬영–편집",
+      "source": "촬영",
+      "target": "편집",
+      "value": 1,
+      "kind": "relation"
+    },
+    {
+      "id": "n3",
+      "label": "편집–기획",
+      "source": "편집",
+      "target": "기획",
+      "value": 1,
+      "kind": "relation"
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "n1",
+      "label": "기획–촬영",
+      "source": "기획",
+      "target": "촬영",
+      "value": 1,
+      "kind": "relation"
+    },
+    {
+      "id": "n2",
+      "label": "촬영–편집",
+      "source": "촬영",
+      "target": "편집",
+      "value": 1,
+      "kind": "relation"
+    },
+    {
+      "id": "n3",
+      "label": "편집–기획",
+      "source": "편집",
+      "target": "기획",
+      "value": 1,
+      "kind": "relation"
+    },
+    {
+      "id": "n4",
+      "label": "기획→촬영",
+      "source": "기획",
+      "target": "촬영",
+      "value": 1,
+      "kind": "process"
+    },
+    {
+      "id": "n5",
+      "label": "촬영→편집",
+      "source": "촬영",
+      "target": "편집",
+      "value": 1,
+      "kind": "process"
+    },
+    {
+      "id": "n6",
+      "label": "편집→검토",
+      "source": "편집",
+      "target": "검토",
+      "value": 1,
+      "kind": "process"
+    }
+  ],
+  "summary": "3개 항목 · 연결",
+  "unit": "연결",
+  "tags": [
+    "기존 레시피",
+    "connections"
+  ],
+  "kind": "flowchart",
+  "sha256": "f18674a6a2949209bae9444733464b52b4f2a2fc0fb6c72a7be4a54b444c9265",
+  "sourceSha256": "b595df5458a432044cecb257d0a196e81d552ce5f90bd57b318451bf0b9a9f49",
+  "url": "/pele/cases/legacy-connections-relation.json",
+  "svgUrl": "/pele/cases/legacy-connections-relation.svg",
+  "pngUrl": null
+}

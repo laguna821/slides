@@ -1,0 +1,109 @@
+{
+  "id": "legacy-series-line",
+  "label": "연속 변화와 단계 변화를 구분한다 · 연속선",
+  "type": "legacy",
+  "source": {
+    "recipe": "series",
+    "state": "line",
+    "records": [
+      {
+        "id": "r1",
+        "label": "영상",
+        "values": [
+          24,
+          30,
+          28,
+          45,
+          52,
+          61
+        ]
+      },
+      {
+        "id": "r2",
+        "label": "문서",
+        "values": [
+          40,
+          38,
+          44,
+          47,
+          45,
+          56
+        ]
+      }
+    ],
+    "assumptions": [
+      "가로축은 1주차부터 6주차까지 같은 간격이다.",
+      "계단은 다음 관측 전까지 이전 값을 유지한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"시간 추이 · 회\"><title>시간 추이 · 회</title><text x=\"8.00\" y=\"45.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">61</text><text x=\"8.00\" y=\"215.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><line x1=\"65.00\" y1=\"220.00\" x2=\"580.00\" y2=\"220.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><g data-key=\"r1\"><polyline points=\"70.00,143.11 170.00,126.39 270.00,131.97 370.00,84.59 470.00,65.08 570.00,40.00\" class=\"vz-line\" style=\"stroke-dasharray:none\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /><line x1=\"12\" y1=\"252\" x2=\"44\" y2=\"252\" class=\"vz-line\" style=\"stroke-dasharray:none\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /><text x=\"52.00\" y=\"260.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">영상</text></g><g data-key=\"r2\"><polyline points=\"70.00,98.52 170.00,104.10 270.00,87.38 370.00,79.02 470.00,84.59 570.00,53.93\" class=\"vz-line\" style=\"stroke-dasharray:10 5\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /><line x1=\"208\" y1=\"252\" x2=\"240\" y2=\"252\" class=\"vz-line\" style=\"stroke-dasharray:10 5\" stroke=\"var(--pele-series-1)\" stroke-width=\"3\" fill=\"none\" /><text x=\"248.00\" y=\"260.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">문서</text></g></svg>",
+  "description": "같은 주별 관측값을 어떻게 연결해야 할까?",
+  "limits": "가로축: 주차 1–6",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "영상",
+      "values": [
+        24,
+        30,
+        28,
+        45,
+        52,
+        61
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "문서",
+      "values": [
+        40,
+        38,
+        44,
+        47,
+        45,
+        56
+      ]
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "영상",
+      "values": [
+        24,
+        30,
+        28,
+        45,
+        52,
+        61
+      ]
+    },
+    {
+      "id": "r2",
+      "label": "문서",
+      "values": [
+        40,
+        38,
+        44,
+        47,
+        45,
+        56
+      ]
+    }
+  ],
+  "summary": "2개 항목 · 회",
+  "unit": "회",
+  "tags": [
+    "기존 레시피",
+    "series"
+  ],
+  "kind": "xychart",
+  "sha256": "c77bfc58db970c74ae12dea194f61667575d4a1b5d6e45d8da9a7726ae2eba9b",
+  "sourceSha256": "0a729b813c432855640dc25242c00d562ce793a9d6f14e487778c9de03439651",
+  "url": "/pele/cases/legacy-series-line.json",
+  "svgUrl": "/pele/cases/legacy-series-line.svg",
+  "pngUrl": null
+}

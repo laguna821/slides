@@ -1,0 +1,12 @@
+{
+  "skill": "1.0.0-rc.2",
+  "engine": "1.6.0",
+  "sameTone": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16",
+  "canonicalCount": 39,
+  "caseCount": 104,
+  "synthetic": true,
+  "nativeAppTests": "미검증",
+  "testStatus": "624개 화면 조건 확인 · 알려진 제약 별도",
+  "builtAt": "2026-10-21T08:39:43.621Z",
+  "browserVerifiedAt": "2026-10-21T08:42:13.870183+00:00"
+}

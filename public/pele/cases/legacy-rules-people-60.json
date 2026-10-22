@@ -1,0 +1,98 @@
+{
+  "id": "legacy-rules-people-60",
+  "label": "경계값에서 필요한 인원이 바뀐다 · 60명",
+  "type": "legacy",
+  "source": {
+    "recipe": "rules",
+    "state": "people-60",
+    "records": [
+      {
+        "id": "r1",
+        "label": "진행",
+        "value": 3,
+        "capacity": 20
+      },
+      {
+        "id": "r2",
+        "label": "안전",
+        "value": 2,
+        "capacity": 25
+      },
+      {
+        "id": "r3",
+        "label": "기술",
+        "value": 2,
+        "capacity": 40
+      }
+    ],
+    "assumptions": [
+      "필요 인원 = 올림(참여자 수 ÷ 담당자 1인 수용량).",
+      "제공 인원 / 필요 인원을 표시한다.",
+      "참여자 수 20·40·60·80·100명만 지원하는 시연 규칙이다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"임계값 규칙 · 명\"><title>임계값 규칙 · 명</title><line x1=\"170.00\" y1=\"24.00\" x2=\"170.00\" y2=\"270.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"170.00\" y=\"310.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">0</text><text x=\"500.00\" y=\"310.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">3</text><g data-key=\"r1\"><text x=\"8.00\" y=\"54.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">진행</text><rect x=\"190.00\" y=\"36.00\" width=\"190.00\" height=\"28.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><text x=\"202.00\" y=\"59.00\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-secondary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">충족</text><text x=\"590.00\" y=\"59.00\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">3 / 3</text></g><g data-key=\"r2\"><text x=\"8.00\" y=\"132.67\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">안전</text><rect x=\"190.00\" y=\"114.67\" width=\"190.00\" height=\"28.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"202.00\" y=\"137.67\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-primary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">추가 필요</text><text x=\"590.00\" y=\"137.67\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">2 / 3</text></g><g data-key=\"r3\"><text x=\"8.00\" y=\"211.33\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기술</text><rect x=\"190.00\" y=\"193.33\" width=\"190.00\" height=\"28.00\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><text x=\"202.00\" y=\"216.33\" text-anchor=\"start\" class=\"vz-text vz-inverse vz-on-bar vz-on-secondary vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" stroke=\"none\">충족</text><text x=\"590.00\" y=\"216.33\" text-anchor=\"end\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">2 / 2</text></g></svg>",
+  "description": "참여자 수에 따라 현재 인력이 충분할까?",
+  "limits": "필요 인원 = 올림(참여자 ÷ 1인 수용량)",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "진행",
+      "value": 3,
+      "capacity": 20,
+      "display": 3,
+      "satisfied": true
+    },
+    {
+      "id": "r2",
+      "label": "안전",
+      "value": 2,
+      "capacity": 25,
+      "display": 3,
+      "satisfied": false
+    },
+    {
+      "id": "r3",
+      "label": "기술",
+      "value": 2,
+      "capacity": 40,
+      "display": 2,
+      "satisfied": true
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "진행",
+      "value": 3,
+      "capacity": 20
+    },
+    {
+      "id": "r2",
+      "label": "안전",
+      "value": 2,
+      "capacity": 25
+    },
+    {
+      "id": "r3",
+      "label": "기술",
+      "value": 2,
+      "capacity": 40
+    }
+  ],
+  "summary": "3개 항목 · 명",
+  "unit": "명",
+  "tags": [
+    "기존 레시피",
+    "rules"
+  ],
+  "kind": "flowchart",
+  "sha256": "6247cce9d42662f73c97751c360a8fb2de3279836daa1bedf2705807865a1304",
+  "sourceSha256": "c8e3ab1cbf1a01907b174195af0969001cf26def1dbd630fd849fb573cba4d59",
+  "url": "/pele/cases/legacy-rules-people-60.json",
+  "svgUrl": "/pele/cases/legacy-rules-people-60.svg",
+  "pngUrl": null
+}

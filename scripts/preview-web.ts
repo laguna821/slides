@@ -7,6 +7,7 @@ const mime: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css',
   '.js': 'text/javascript',
+  '.mjs': 'text/javascript',
   '.json': 'application/json',
   '.woff2': 'font/woff2',
   '.woff': 'font/woff',
@@ -28,6 +29,8 @@ http
         res.end();
         return;
       }
+      const proxy=config.rewrites?.find((r:any)=>r.source===decodeURIComponent(url.pathname));
+      if(proxy){const remote=await fetch(proxy.destination,{signal:AbortSignal.timeout(30000)});res.writeHead(remote.status,{'Content-Type':remote.headers.get('content-type')||'application/octet-stream'});res.end(Buffer.from(await remote.arrayBuffer()));return;}
       const target = path.resolve(
         root,
         '.' +

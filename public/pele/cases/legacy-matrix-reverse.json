@@ -1,0 +1,226 @@
+{
+  "id": "legacy-matrix-reverse",
+  "label": "행과 열의 교차점에서 패턴을 찾는다 · 행 순서 반전",
+  "type": "legacy",
+  "source": {
+    "recipe": "matrix",
+    "state": "reverse",
+    "records": [
+      {
+        "id": "c00",
+        "label": "월 오전",
+        "row": "월",
+        "column": "오전",
+        "value": 12
+      },
+      {
+        "id": "c01",
+        "label": "월 오후",
+        "row": "월",
+        "column": "오후",
+        "value": 23
+      },
+      {
+        "id": "c02",
+        "label": "월 저녁",
+        "row": "월",
+        "column": "저녁",
+        "value": 18
+      },
+      {
+        "id": "c10",
+        "label": "수 오전",
+        "row": "수",
+        "column": "오전",
+        "value": 20
+      },
+      {
+        "id": "c11",
+        "label": "수 오후",
+        "row": "수",
+        "column": "오후",
+        "value": 45
+      },
+      {
+        "id": "c12",
+        "label": "수 저녁",
+        "row": "수",
+        "column": "저녁",
+        "value": 28
+      },
+      {
+        "id": "c20",
+        "label": "금 오전",
+        "row": "금",
+        "column": "오전",
+        "value": 16
+      },
+      {
+        "id": "c21",
+        "label": "금 오후",
+        "row": "금",
+        "column": "오후",
+        "value": 36
+      },
+      {
+        "id": "c22",
+        "label": "금 저녁",
+        "row": "금",
+        "column": "저녁",
+        "value": 52
+      }
+    ],
+    "assumptions": [
+      "각 셀은 서로 다른 요일·시간대 집계다.",
+      "색 농도와 함께 정확한 숫자를 표시한다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"히트맵 · 회\"><title>히트맵 · 회</title><text x=\"155.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">오전</text><text x=\"260.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">오후</text><text x=\"365.00\" y=\"38.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">저녁</text><text x=\"5.00\" y=\"82.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">금</text><text x=\"5.00\" y=\"140.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">수</text><text x=\"5.00\" y=\"198.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">월</text><g data-key=\"c00\"><g opacity=\"0.3846153846153847\"><rect x=\"145.00\" y=\"168.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"193.00\" y=\"200.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">12</text></g><g data-key=\"c01\"><g opacity=\"0.5538461538461539\"><rect x=\"250.00\" y=\"168.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"298.00\" y=\"200.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">23</text></g><g data-key=\"c02\"><g opacity=\"0.47692307692307695\"><rect x=\"355.00\" y=\"168.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"403.00\" y=\"200.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">18</text></g><g data-key=\"c10\"><g opacity=\"0.5076923076923077\"><rect x=\"145.00\" y=\"110.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"193.00\" y=\"142.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">20</text></g><g data-key=\"c11\"><g opacity=\"0.8923076923076922\"><rect x=\"250.00\" y=\"110.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"298.00\" y=\"142.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">45</text></g><g data-key=\"c12\"><g opacity=\"0.6307692307692307\"><rect x=\"355.00\" y=\"110.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"403.00\" y=\"142.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">28</text></g><g data-key=\"c20\"><g opacity=\"0.4461538461538462\"><rect x=\"145.00\" y=\"52.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"193.00\" y=\"84.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">16</text></g><g data-key=\"c21\"><g opacity=\"0.7538461538461538\"><rect x=\"250.00\" y=\"52.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"298.00\" y=\"84.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-black\" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">36</text></g><g data-key=\"c22\"><g opacity=\"1.0\"><rect x=\"355.00\" y=\"52.00\" width=\"96.00\" height=\"47.00\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /></g><text x=\"403.00\" y=\"84.00\" text-anchor=\"middle\" class=\"vz-text vz-cell-text vz-print-ink-white\" font-size=\"24\" fill=\"var(--pele-bg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\" paint-order=\"stroke\" stroke=\"none\" stroke-width=\"4\" stroke-linejoin=\"round\">52</text></g></svg>",
+  "description": "어느 요일·시간대에 이용이 집중될까?",
+  "limits": "색 농도는 절댓값; 부호는 셀 숫자",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "c00",
+      "label": "월 오전",
+      "row": "월",
+      "column": "오전",
+      "value": 12
+    },
+    {
+      "id": "c01",
+      "label": "월 오후",
+      "row": "월",
+      "column": "오후",
+      "value": 23
+    },
+    {
+      "id": "c02",
+      "label": "월 저녁",
+      "row": "월",
+      "column": "저녁",
+      "value": 18
+    },
+    {
+      "id": "c10",
+      "label": "수 오전",
+      "row": "수",
+      "column": "오전",
+      "value": 20
+    },
+    {
+      "id": "c11",
+      "label": "수 오후",
+      "row": "수",
+      "column": "오후",
+      "value": 45
+    },
+    {
+      "id": "c12",
+      "label": "수 저녁",
+      "row": "수",
+      "column": "저녁",
+      "value": 28
+    },
+    {
+      "id": "c20",
+      "label": "금 오전",
+      "row": "금",
+      "column": "오전",
+      "value": 16
+    },
+    {
+      "id": "c21",
+      "label": "금 오후",
+      "row": "금",
+      "column": "오후",
+      "value": 36
+    },
+    {
+      "id": "c22",
+      "label": "금 저녁",
+      "row": "금",
+      "column": "저녁",
+      "value": 52
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "c00",
+      "label": "월 오전",
+      "row": "월",
+      "column": "오전",
+      "value": 12
+    },
+    {
+      "id": "c01",
+      "label": "월 오후",
+      "row": "월",
+      "column": "오후",
+      "value": 23
+    },
+    {
+      "id": "c02",
+      "label": "월 저녁",
+      "row": "월",
+      "column": "저녁",
+      "value": 18
+    },
+    {
+      "id": "c10",
+      "label": "수 오전",
+      "row": "수",
+      "column": "오전",
+      "value": 20
+    },
+    {
+      "id": "c11",
+      "label": "수 오후",
+      "row": "수",
+      "column": "오후",
+      "value": 45
+    },
+    {
+      "id": "c12",
+      "label": "수 저녁",
+      "row": "수",
+      "column": "저녁",
+      "value": 28
+    },
+    {
+      "id": "c20",
+      "label": "금 오전",
+      "row": "금",
+      "column": "오전",
+      "value": 16
+    },
+    {
+      "id": "c21",
+      "label": "금 오후",
+      "row": "금",
+      "column": "오후",
+      "value": 36
+    },
+    {
+      "id": "c22",
+      "label": "금 저녁",
+      "row": "금",
+      "column": "저녁",
+      "value": 52
+    }
+  ],
+  "summary": "9개 항목 · 회",
+  "unit": "회",
+  "tags": [
+    "기존 레시피",
+    "matrix"
+  ],
+  "kind": "matrix",
+  "sha256": "c1d36f9263662c55a926e98199481f4fe98f5b9810e8727809f2f5fb9f3c2f8e",
+  "sourceSha256": "23f9fdf7f099e8dd9c175c75fa409665b3a40285d7febe55ed19e98b63753e63",
+  "url": "/pele/cases/legacy-matrix-reverse.json",
+  "svgUrl": "/pele/cases/legacy-matrix-reverse.svg",
+  "pngUrl": null
+}

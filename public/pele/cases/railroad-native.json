@@ -1,0 +1,34 @@
+{
+  "id": "railroad-native",
+  "label": "기본 문법 · 문법 경로",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "railroad-ebnf-beta\n query = \"find\" name [ \"in\" collection ] ;",
+    "title": "문법 경로",
+    "description": "입력이 어떤 조합으로 유효해지는가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-railroad\" viewBox=\"0 0 400 93\" width=\"400\" height=\"93\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_hw:var(--pele-heading-weight,bold);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"railroad\" role=\"img\" aria-labelledby=\"railroad-title railroad-desc\"><title id=\"railroad-title\">문법 경로</title><desc id=\"railroad-desc\">입력이 어떤 조합으로 유효해지는가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-rules\" transform=\"translate(0.5,0.5)\" font-size=\"16\" text-anchor=\"middle\"><g class=\"pele-rule\" data-id=\"query\"><text class=\"pele-rule-name\" x=\"8\" y=\"27.8\" font-size=\"18\" font-weight=\"var(--_hw)\" text-anchor=\"start\">query</text><path class=\"pele-edge pele-track\" d=\"M16,68H28M372,68H384M164,68H180M84,68H100M180,68H200M352,68H372M180,68a10,10 0 0 0 10,-10V51a10,10 0 0 1 10,-10H352a10,10 0 0 1 10,10V58a10,10 0 0 0 10,10M240,68H256\" fill=\"none\" stroke=\"var(--_l)\"/><circle class=\"pele-marker pele-start\" cx=\"12\" cy=\"68\" r=\"4\" fill=\"var(--_l)\"/><circle class=\"pele-marker pele-end\" cx=\"388\" cy=\"68\" r=\"4\" fill=\"var(--_l)\"/><g class=\"pele-node pele-terminal\"><rect x=\"28\" y=\"51\" width=\"56\" height=\"34\" rx=\"17\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text x=\"56\" y=\"73.6\" font-family=\"var(--_fm)\">find</text></g><g class=\"pele-node pele-nonterminal\" data-id=\"name\"><rect x=\"100\" y=\"51\" width=\"64\" height=\"34\" fill=\"var(--_bg)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text x=\"132\" y=\"73.6\">name</text></g><g class=\"pele-node pele-terminal\"><rect x=\"200\" y=\"51\" width=\"40\" height=\"34\" rx=\"17\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text x=\"220\" y=\"73.6\" font-family=\"var(--_fm)\">in</text></g><g class=\"pele-node pele-nonterminal\" data-id=\"collection\"><rect x=\"256\" y=\"51\" width=\"96\" height=\"34\" fill=\"var(--_bg)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text x=\"304\" y=\"73.6\">collection</text></g></g></g></svg>",
+  "description": "입력이 어떤 조합으로 유효해지는가",
+  "limits": "반복과 선택의 의미를 설명한다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 480,
+  "records": [
+    {
+      "질문": "입력이 어떤 조합으로 유효해지는가",
+      "대안": "EBNF 원문",
+      "입력": "railroad-ebnf-beta\n query = \"find\" name [ \"in\" collection ] ;"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "railroad",
+  "sha256": "4dcc7fb0a5fa49eb4bcc27b3cbb0004b8083652755e31b3a21c2dcdb453e9847",
+  "sourceSha256": "3f32df26d63eef2bc3315d257d4441472b3e4de8c0c35184297db7acf2fad5c3",
+  "url": "/pele/cases/railroad-native.json",
+  "svgUrl": "/pele/cases/railroad-native.svg",
+  "pngUrl": null
+}

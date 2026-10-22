@@ -1,0 +1,55 @@
+{
+  "status": "completed-with-declared-limitations",
+  "findings": [
+    {
+      "case": "scientific-units",
+      "issue": "prior data units remained in synthetic labels",
+      "fix": "rating points, Group A reference, synthetic context index; latent role names",
+      "dataChanged": false
+    },
+    {
+      "case": "wardley-native",
+      "issue": "fine relationship lines at preview scale",
+      "fix": "2px relationship lines",
+      "relationshipsChanged": false
+    },
+    {
+      "case": "analysis-chi3/chi7",
+      "issue": "expected count reference became NaN",
+      "fix": "c.expected restored, all SVG finite-value checks passed"
+    },
+    {
+      "case": "legacy-spatial",
+      "issue": "black labels on dark theme",
+      "fix": "foreground token applied; direct screenshot reviewed"
+    },
+    {
+      "case": "scientific-series",
+      "issue": "accent and series2 were same teal",
+      "fix": "series1 blue and series2 teal; direct dark chi screenshot reviewed"
+    },
+    {
+      "case": "dense-xy-fixture",
+      "issue": "missing detail/evidence metadata",
+      "fix": "metadata supplied; twelve keyboard items and table rows verified"
+    }
+  ],
+  "physicalDevices": "unverified",
+  "reviewScope": "104 actual SVG previews in 13 sheets; dark review and targeted native-size inspection. This is not 624 separate human inspections.",
+  "nativeApps": "unverified",
+  "interaction": {
+    "keyboardSelection": true,
+    "selectionAfterVariantChange": true,
+    "svgFontEmbedded": true,
+    "pngDownloaded": [
+      1200,
+      640
+    ],
+    "koreanSearch": true
+  },
+  "knownLimitations": [
+    "XY diagnostic over-reports missing rotated HTML labels; dense fixture shows4of12, full12items retained",
+    "Korean Sankey rejected; original Korean table retained",
+    "Tiny treemap labels may be omitted; values retained in table"
+  ]
+}

@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { Resvg } from '@resvg/resvg-js';
+import {readCollection,verifyCollectionSources} from './pele-collection';
 import {
   assetKey,
   dataPattern,
@@ -287,7 +288,10 @@ async function register(bytes: Buffer, mime: string): Promise<Asset> {
   return asset;
 }
 const existingRemoteUrls = new Set<string>();
+const collection=await readCollection();await verifyCollectionSources(collection);
+const collectionAssets=new Set(collection.files.filter(f=>f.delivery==='proxy').map(f=>f.path.slice(1)));
 for (const file of await regularFiles('dist')) {
+  if(collectionAssets.has(file))continue;
   const bytes = await fs.readFile(path.join('dist', file));
   if (
     (isMedia(file) && !isBrandAsset(file)) ||

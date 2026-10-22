@@ -1,0 +1,34 @@
+{
+  "id": "er-native",
+  "label": "기본 문법 · 데이터 관계",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "erDiagram\n STUDY ||--o{ EVIDENCE : includes\n STUDY {\n int id PK\n string title\n }\n EVIDENCE {\n int id PK\n string source\n }",
+    "title": "데이터 관계",
+    "description": "개체 간 수량 관계는 무엇인가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-er\" viewBox=\"0 0 181 330\" width=\"181\" height=\"330\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"er\" role=\"img\" aria-labelledby=\"er-title er-desc\"><title id=\"er-title\">데이터 관계</title><desc id=\"er-desc\">개체 간 수량 관계는 무엇인가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge pele-er-identifying\" data-id=\"id_entity-STUDY-0_entity-EVIDENCE-1_0\"><path d=\"M90.15,119L90.15,211\"/><path class=\"pele-marker\" d=\"M85.15,125L95.15,125M85.15,129L95.15,129\"/><path class=\"pele-marker\" d=\"M96.15,211L90.15,201L84.15,211\"/><circle class=\"pele-marker\" cx=\"90.15\" cy=\"197\" r=\"3.5\" fill=\"var(--_bg)\"/></g></g><g class=\"pele-edge-labels\" font-size=\"16\"><g class=\"pele-edge-label\" data-id=\"id_entity-STUDY-0_entity-EVIDENCE-1_0\"><rect x=\"55.86\" y=\"153\" width=\"68.59\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"90.15\" y=\"170.6\" text-anchor=\"middle\">includes</text></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-entity\" data-id=\"STUDY\" transform=\"translate(90.15,63.5)\"><rect x=\"-72.56\" y=\"-55.5\" width=\"145.12\" height=\"111\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><g class=\"pele-er-stripes\" fill=\"var(--_bg)\"><rect x=\"-72.56\" width=\"145.12\" y=\"-10.5\" height=\"33\"/></g><path class=\"pele-er-divider\" d=\"M-72.56,-10.5H72.56\" stroke=\"var(--_b)\"/><rect x=\"-72.56\" y=\"-55.5\" width=\"145.12\" height=\"111\" fill=\"none\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"-26.7\" text-anchor=\"middle\">STUDY</text><g class=\"pele-er-attributes\" font-size=\"16\"><text class=\"pele-er-type\" fill=\"var(--_m)\" x=\"-60.56\" y=\"11.6\">int</text><text class=\"pele-er-name\" x=\"-1.94\" y=\"11.6\">id</text><text class=\"pele-er-keys\" font-size=\"14\" fill=\"var(--_m)\" x=\"42.75\" y=\"11.6\">PK</text><text class=\"pele-er-type\" fill=\"var(--_m)\" x=\"-60.56\" y=\"44.6\">string</text><text class=\"pele-er-name\" x=\"-1.94\" y=\"44.6\">title</text></g></g><g class=\"pele-node pele-entity\" data-id=\"EVIDENCE\" transform=\"translate(90.15,266.5)\"><rect x=\"-82.15\" y=\"-55.5\" width=\"164.31\" height=\"111\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><g class=\"pele-er-stripes\" fill=\"var(--_bg)\"><rect x=\"-82.15\" width=\"164.31\" y=\"-10.5\" height=\"33\"/></g><path class=\"pele-er-divider\" d=\"M-82.15,-10.5H82.15\" stroke=\"var(--_b)\"/><rect x=\"-82.15\" y=\"-55.5\" width=\"164.31\" height=\"111\" fill=\"none\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><text class=\"pele-label\" x=\"0\" y=\"-26.7\" text-anchor=\"middle\">EVIDENCE</text><g class=\"pele-er-attributes\" font-size=\"16\"><text class=\"pele-er-type\" fill=\"var(--_m)\" x=\"-70.15\" y=\"11.6\">int</text><text class=\"pele-er-name\" x=\"-11.54\" y=\"11.6\">id</text><text class=\"pele-er-keys\" font-size=\"14\" fill=\"var(--_m)\" x=\"52.35\" y=\"11.6\">PK</text><text class=\"pele-er-type\" fill=\"var(--_m)\" x=\"-70.15\" y=\"44.6\">string</text><text class=\"pele-er-name\" x=\"-11.54\" y=\"44.6\">source</text></g></g></g></svg>",
+  "description": "개체 간 수량 관계는 무엇인가",
+  "limits": "카디널리티와 긴 속성이 좁은 화면에서 혼잡하다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 760,
+  "records": [
+    {
+      "질문": "개체 간 수량 관계는 무엇인가",
+      "대안": "개체·키·관계 표",
+      "입력": "erDiagram\n STUDY ||--o{ EVIDENCE : includes\n STUDY {\n int id PK\n string title\n }\n EVIDENCE {\n int id PK\n string source\n }"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "er",
+  "sha256": "439baa59b1a6c485c049616e30aa3f3bd715839805aaa88a7630ce7e6da9e629",
+  "sourceSha256": "a8aad3bb65f90f29660f92dffa085eb2bd95c8d5aed9ca96635de67e25f4b547",
+  "url": "/pele/cases/er-native.json",
+  "svgUrl": "/pele/cases/er-native.svg",
+  "pngUrl": null
+}

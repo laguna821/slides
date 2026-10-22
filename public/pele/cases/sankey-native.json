@@ -1,0 +1,34 @@
+{
+  "id": "sankey-native",
+  "label": "기본 문법 · 유량 이동",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "sankey-beta\n Collected,Reviewed,24\n Collected,Pending,6\n Reviewed,Accepted,18\n Reviewed,Revision,6",
+    "title": "유량 이동",
+    "description": "어디에서 어디로 얼마나 이동했는가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-sankey\" viewBox=\"0 0 616 416\" width=\"616\" height=\"416\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"sankey\" role=\"img\" aria-labelledby=\"sankey-title sankey-desc\"><title id=\"sankey-title\">유량 이동</title><desc id=\"sankey-desc\">어디에서 어디로 얼마나 이동했는가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g transform=\"translate(8,8)\"><g class=\"pele-sankey-links\" fill-opacity=\"0.4\"><path class=\"pele-sankey-link\" data-id=\"Collected-&gt;Reviewed\" d=\"M10,95.94C152.5,95.94 152.5,96.27 295,96.27L295,373.07C152.5,373.07 152.5,372.74 10,372.74Z\" fill=\"var(--pele-series-1,#4c78a8)\"><title>Collected → Reviewed: 24</title></path><path class=\"pele-sankey-link\" data-id=\"Collected-&gt;Pending\" d=\"M10,26.74C300,26.74 300,0 590,0L590,69.2C300,69.2 300,95.94 10,95.94Z\" fill=\"var(--pele-series-1,#4c78a8)\"><title>Collected → Pending: 6</title></path><path class=\"pele-sankey-link\" data-id=\"Reviewed-&gt;Accepted\" d=\"M305,96.27C447.5,96.27 447.5,96.2 590,96.2L590,303.8C447.5,303.8 447.5,303.87 305,303.87Z\" fill=\"var(--pele-series-2,#f58518)\"><title>Reviewed → Accepted: 18</title></path><path class=\"pele-sankey-link\" data-id=\"Reviewed-&gt;Revision\" d=\"M305,303.87C447.5,303.87 447.5,330.8 590,330.8L590,400C447.5,400 447.5,373.07 305,373.07Z\" fill=\"var(--pele-series-2,#f58518)\"><title>Reviewed → Revision: 6</title></path></g><g class=\"pele-sankey-nodes\"><rect class=\"pele-sankey-node\" data-id=\"Collected\" x=\"0\" y=\"26.74\" width=\"10\" height=\"346\" rx=\"2\" fill=\"var(--pele-series-1,#4c78a8)\"/><rect class=\"pele-sankey-node\" data-id=\"Reviewed\" x=\"295\" y=\"96.27\" width=\"10\" height=\"276.8\" rx=\"2\" fill=\"var(--pele-series-2,#f58518)\"/><rect class=\"pele-sankey-node\" data-id=\"Pending\" x=\"590\" y=\"0\" width=\"10\" height=\"69.2\" rx=\"2\" fill=\"var(--pele-series-3,#54a24b)\"/><rect class=\"pele-sankey-node\" data-id=\"Accepted\" x=\"590\" y=\"96.2\" width=\"10\" height=\"207.6\" rx=\"2\" fill=\"var(--pele-series-4,#e45756)\"/><rect class=\"pele-sankey-node\" data-id=\"Revision\" x=\"590\" y=\"330.8\" width=\"10\" height=\"69.2\" rx=\"2\" fill=\"var(--pele-series-5,#72b7b2)\"/></g><g class=\"pele-labels\" font-size=\"16\"><g class=\"pele-label\" data-id=\"Collected\"><text x=\"16\" y=\"205.34\" text-anchor=\"start\">Collected <tspan class=\"pele-sankey-value\" fill=\"var(--_m)\">30</tspan></text></g><g class=\"pele-label\" data-id=\"Reviewed\"><text x=\"311\" y=\"240.27\" text-anchor=\"start\">Reviewed <tspan class=\"pele-sankey-value\" fill=\"var(--_m)\">24</tspan></text></g><g class=\"pele-label\" data-id=\"Pending\"><text x=\"584\" y=\"40.2\" text-anchor=\"end\">Pending <tspan class=\"pele-sankey-value\" fill=\"var(--_m)\">6</tspan></text></g><g class=\"pele-label\" data-id=\"Accepted\"><text x=\"584\" y=\"205.6\" text-anchor=\"end\">Accepted <tspan class=\"pele-sankey-value\" fill=\"var(--_m)\">18</tspan></text></g><g class=\"pele-label\" data-id=\"Revision\"><text x=\"584\" y=\"371\" text-anchor=\"end\">Revision <tspan class=\"pele-sankey-value\" fill=\"var(--_m)\">6</tspan></text></g></g></g></svg>",
+  "description": "어디에서 어디로 얼마나 이동했는가",
+  "limits": "Pele 1.6.0은 ASCII 입력을 요구한다. 한글 원자료를 임의 영문화하지 않는다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "질문": "어디에서 어디로 얼마나 이동했는가",
+      "대안": "한글 흐름 표",
+      "입력": "sankey-beta\n Collected,Reviewed,24\n Collected,Pending,6\n Reviewed,Accepted,18\n Reviewed,Revision,6"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "sankey",
+  "sha256": "15d8ad9f2984dfd60efbb4a9602bcc47f014c08b5ec169b52d296740b483cbb9",
+  "sourceSha256": "2d52473c41112e02feb348febd2c8e62b685b476a2f967a63bde0ce399e91acf",
+  "url": "/pele/cases/sankey-native.json",
+  "svgUrl": "/pele/cases/sankey-native.svg",
+  "pngUrl": null
+}

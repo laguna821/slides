@@ -1,0 +1,34 @@
+{
+  "id": "architecture-native",
+  "label": "기본 문법 · 서비스 연결",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "architecture-beta\n service api(server)[API]\n service db(database)[자료]\n api:R --> L:db",
+    "title": "서비스 연결",
+    "description": "서비스와 저장소가 어떻게 연결되는가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-architecture\" viewBox=\"0 0 152 95\" width=\"152\" height=\"95\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_r:var(--pele-radius,4px);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"architecture\" role=\"img\" aria-labelledby=\"architecture-title architecture-desc\"><title id=\"architecture-title\">서비스 연결</title><desc id=\"architecture-desc\">서비스와 저장소가 어떻게 연결되는가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g transform=\"translate(8,8)\"><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g class=\"pele-edge\" data-id=\"api-db\"><path d=\"M48,24L81,24\"/><path class=\"pele-marker\" d=\"M88,24L80,27.36L80,20.64Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-service\" data-id=\"api\" transform=\"translate(24,0)\"><rect x=\"-24\" width=\"48\" height=\"48\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><svg class=\"pele-icon\" data-icon=\"server\" x=\"-12\" y=\"12\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 4h18v7H3zM3 13h18v7H3zM7 7.5h.01M7 16.5h.01M11 7.5h6M11 16.5h6\" stroke=\"var(--_fg)\" stroke-width=\"1.5\"/></svg><text class=\"pele-label\" x=\"0\" y=\"71.8\" text-anchor=\"middle\">API</text></g><g class=\"pele-node pele-service\" data-id=\"db\" transform=\"translate(112,0)\"><rect x=\"-24\" width=\"48\" height=\"48\" fill=\"var(--_s)\" stroke=\"var(--_b)\" style=\"rx:var(--_r)\"/><svg class=\"pele-icon\" data-icon=\"database\" x=\"-12\" y=\"12\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 6a8 3 0 1 0 16 0a8 3 0 1 0-16 0M4 6v12a8 3 0 0 0 16 0V6M4 12a8 3 0 0 0 16 0\" stroke=\"var(--_fg)\" stroke-width=\"1.5\"/></svg><text class=\"pele-label\" x=\"0\" y=\"71.8\" text-anchor=\"middle\">자료</text></g></g></g></svg>",
+  "description": "서비스와 저장소가 어떻게 연결되는가",
+  "limits": "포트 방향과 그룹 연결을 확인한다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 640,
+  "records": [
+    {
+      "질문": "서비스와 저장소가 어떻게 연결되는가",
+      "대안": "서비스 연결표",
+      "입력": "architecture-beta\n service api(server)[API]\n service db(database)[자료]\n api:R --> L:db"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "architecture",
+  "sha256": "99e8aebc2f34ae8fd6cb553cbb4929eb01c48fd34b73ed79408d4f50291f723f",
+  "sourceSha256": "b1a74fd68951fc49e580e33722f720481418b65592ec4e289beaf50e5e9b05bd",
+  "url": "/pele/cases/architecture-native.json",
+  "svgUrl": "/pele/cases/architecture-native.svg",
+  "pngUrl": null
+}

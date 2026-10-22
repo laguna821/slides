@@ -16,6 +16,10 @@ import {shareCodeTokens} from './share-code-tokens';
 import {shareWebRuntime} from './share-web-runtime';
 import {dedupeWebHtml} from './dedupe-web-html';
 import {validateSourceOnly} from './source-only';
+import {readCollection,verifyCollectionSources,collectionRewrites} from './pele-collection';
+const collection=await readCollection();
+await verifyCollectionSources(collection);
+const collectionAssets=new Set(collection.files.filter(f=>f.delivery==='proxy').map(f=>f.path.slice(1)));
 const manifest = await readManifest();
 if (!Object.keys(manifest.assets).length)
   throw Error('Run assets:sync before the first web build');
@@ -58,6 +62,7 @@ const proofs: Record<string, { sourceHash: string; outputHash: string; outputAli
 for (const file of inputs) {
   const bytes = await fs.readFile('dist/' + file);
   before += bytes.length;
+  if(collectionAssets.has(file))continue;
   if(sourceOnly.has(file)){sourceOnlyBytes+=bytes.length;continue;}
   if (isRemoved(file)) continue;
   if (
@@ -134,13 +139,16 @@ for (const r of expected) {
   });
 }
 const vercel = JSON.parse(await fs.readFile('vercel.json', 'utf8'));
+const expectedRewrites=collectionRewrites(collection);
 if (process.argv.includes('--write-redirects')) {
   vercel.redirects = expected;
+  vercel.rewrites=expectedRewrites;
   await fs.writeFile('vercel.json', JSON.stringify(vercel, null, 2) + '\n');
 } else if (JSON.stringify(vercel.redirects) !== JSON.stringify(expected))
   throw Error(
     'Redirect manifest changed: run web:prepare and review vercel.json',
   );
+if(JSON.stringify(vercel.rewrites)!==JSON.stringify(expectedRewrites))throw Error('Collection proxy manifest changed: run web:prepare');
 await fs.mkdir('.local', { recursive: true });
 await fs.writeFile('.local/web-proof.json', JSON.stringify(proofs));
 const report = await verifyWebOutput();

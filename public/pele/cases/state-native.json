@@ -1,0 +1,34 @@
+{
+  "id": "state-native",
+  "label": "기본 문법 · 상태 전이",
+  "type": "mermaid",
+  "source": {
+    "kind": "mermaid",
+    "source": "stateDiagram-v2\n [*] --> 접수\n 접수 --> 검토: 자료 확보\n 검토 --> 보완: 근거 부족\n 보완 --> 검토: 재제출\n 검토 --> 완료: 승인\n 완료 --> [*]",
+    "title": "상태 전이",
+    "description": "어떤 사건이 상태를 바꾸는가 · 합성 자료"
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"pele pele-state\" viewBox=\"0 0 241 421\" width=\"241\" height=\"421\" style=\"max-width:100%;height:auto;--_bg:var(--pele-bg,#fff);--_fg:var(--pele-fg,#1f1f1f);--_m:var(--pele-muted,#6e6e6e);--_l:var(--pele-line,#1f1f1f);--_s:var(--pele-surface,#f3f3f3);--_a:var(--pele-surface-alt,#e6e6e6);--_b:var(--pele-border,#8a8a8a);--_c:var(--pele-accent,#5b7bd5);color:var(--_fg);--_fm:var(--pele-font-mono,Achmage SameTone);font:18px sans-serif;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;font-family:var(--pele-font,Achmage SameTone)\" fill=\"var(--_fg)\" aria-roledescription=\"state\" role=\"img\" aria-labelledby=\"state-title state-desc\"><title id=\"state-title\">상태 전이</title><desc id=\"state-desc\">어떤 사건이 상태를 바꾸는가 · 합성 자료</desc><style>.pele{--pele-bg:#ffffff;--pele-fg:#16334a;--pele-muted:#526778;--pele-line:#526778;--pele-surface:#eef5fb;--pele-surface-alt:#dfedf5;--pele-border:#6c879b;--pele-accent:#007F86;--pele-critical:#a23737;--pele-error:#a23737;--pele-series-1:#0066B3;--pele-series-2:#007F86;--pele-series-3:#002E6E;--pele-series-4:#6c4b85;--pele-series-5:#8b551c;--pele-series-6:#366b4b;--pele-series-7:#8c425c;--pele-series-8:#475f86;--pele-font:\"Achmage SameTone\";--pele-font-mono:\"Achmage SameTone\";background:var(--pele-bg)}.achmage-key>rect,.achmage-key>path,.achmage-key>polygon{stroke:var(--pele-accent);stroke-width:3}.achmage-interpretation>rect,.achmage-interpretation>polygon{stroke-dasharray:5 3}.achmage-aux>rect,.achmage-aux>polygon{fill:var(--pele-surface-alt)}.achmage-data-marker{stroke:var(--pele-bg);stroke-width:2}</style><g class=\"pele-edges\" fill=\"none\" stroke=\"var(--_l)\" stroke-linecap=\"round\"><g class=\"pele-edge pele-transition\" data-id=\"edge0\"><path d=\"M122.04,22L122.04,59\"/><path class=\"pele-marker\" d=\"M122.04,66L118.68,58L125.4,58Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge pele-transition\" data-id=\"edge1\"><path d=\"M122.04,113L122.04,178\"/><path class=\"pele-marker\" d=\"M122.04,185L118.68,177L125.4,177Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge pele-transition\" data-id=\"edge2\"><path d=\"M106.04,232L106.04,241.63C106.04,247.81 43.65,247.81 43.65,254L43.65,282C43.65,287.63 74.84,287.63 74.84,293.25L74.84,297\"/><path class=\"pele-marker\" d=\"M74.84,304L71.48,296L78.2,296Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge pele-transition\" data-id=\"edge3\"><path d=\"M90.84,304L90.84,294.38C90.84,288.19 122.04,288.19 122.04,282L122.04,239\"/><path class=\"pele-marker\" d=\"M122.04,232L125.4,240L118.68,240Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge pele-transition\" data-id=\"edge4\"><path d=\"M138.04,232L138.04,241.63C138.04,247.81 200.88,247.81 200.88,254L200.88,297\"/><path class=\"pele-marker\" d=\"M200.88,304L197.52,296L204.24,296Z\" fill=\"var(--_l)\" stroke=\"none\"/></g><g class=\"pele-edge pele-transition\" data-id=\"edge5\"><path d=\"M200.88,351L200.88,388\"/><path class=\"pele-marker\" d=\"M200.88,395L197.52,387L204.24,387Z\" fill=\"var(--_l)\" stroke=\"none\"/></g></g><g class=\"pele-edge-labels\" font-size=\"16\"><g class=\"pele-edge-label\" data-id=\"edge1\"><rect x=\"88.39\" y=\"133.5\" width=\"67.3\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"122.04\" y=\"151.1\" text-anchor=\"middle\">자료 확보</text></g><g class=\"pele-edge-label\" data-id=\"edge2\"><rect x=\"10\" y=\"256\" width=\"67.3\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"43.65\" y=\"273.6\" text-anchor=\"middle\">근거 부족</text></g><g class=\"pele-edge-label\" data-id=\"edge3\"><rect x=\"97.3\" y=\"256\" width=\"49.48\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"122.04\" y=\"273.6\" text-anchor=\"middle\">재제출</text></g><g class=\"pele-edge-label\" data-id=\"edge4\"><rect x=\"183.05\" y=\"256\" width=\"35.66\" height=\"24\" rx=\"3\" fill=\"var(--_bg)\"/><text x=\"200.88\" y=\"273.6\" text-anchor=\"middle\">승인</text></g></g><g class=\"pele-nodes\"><g class=\"pele-node pele-state-start\" data-id=\"root_start\" transform=\"translate(122.04,15)\"><circle r=\"7\" fill=\"var(--_l)\"/></g><g class=\"pele-node pele-state\" data-id=\"접수\" transform=\"translate(122.04,89.5)\"><rect x=\"-31.56\" y=\"-23.5\" width=\"63.11\" height=\"47\" rx=\"10\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">접수</text></g><g class=\"pele-node pele-state\" data-id=\"검토\" transform=\"translate(122.04,208.5)\"><rect x=\"-31.56\" y=\"-23.5\" width=\"63.11\" height=\"47\" rx=\"10\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">검토</text></g><g class=\"pele-node pele-state\" data-id=\"보완\" transform=\"translate(82.84,327.5)\"><rect x=\"-31.56\" y=\"-23.5\" width=\"63.11\" height=\"47\" rx=\"10\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">보완</text></g><g class=\"pele-node pele-state\" data-id=\"완료\" transform=\"translate(200.88,327.5)\"><rect x=\"-31.56\" y=\"-23.5\" width=\"63.11\" height=\"47\" rx=\"10\" fill=\"var(--_s)\" stroke=\"var(--_b)\"/><text class=\"pele-label\" x=\"0\" y=\"6.3\" text-anchor=\"middle\">완료</text></g><g class=\"pele-node pele-state-end\" data-id=\"root_end\" transform=\"translate(200.88,404)\"><circle r=\"8.5\" fill=\"var(--_bg)\" stroke=\"var(--_l)\"/><circle r=\"5\" fill=\"var(--_l)\"/></g></g></svg>",
+  "description": "어떤 사건이 상태를 바꾸는가",
+  "limits": "종료·재진입 조건을 라벨로 남긴다.",
+  "diagnostics": [],
+  "measurement": "font-metrics",
+  "engine": "Pele 1.6.0 · 공통 렌더러",
+  "minWidth": 360,
+  "records": [
+    {
+      "질문": "어떤 사건이 상태를 바꾸는가",
+      "대안": "전이 표",
+      "입력": "stateDiagram-v2\n [*] --> 접수\n 접수 --> 검토: 자료 확보\n 검토 --> 보완: 근거 부족\n 보완 --> 검토: 재제출\n 검토 --> 완료: 승인\n 완료 --> [*]"
+    }
+  ],
+  "tags": [
+    "기본"
+  ],
+  "kind": "state",
+  "sha256": "5a5bdaad08f0b726954437247462b14e3edcf281618de479564e476e6f250a3e",
+  "sourceSha256": "8056083d4ddc7966f38c8684bf7e6fc48a2dbfe84b94f360a048bfad983ace6d",
+  "url": "/pele/cases/state-native.json",
+  "svgUrl": "/pele/cases/state-native.svg",
+  "pngUrl": null
+}

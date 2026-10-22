@@ -1,0 +1,26 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>전체 브라우저 검사 · Achmage Pele</title><link rel="stylesheet" href="/pele/style.css"><link rel="canonical" href="https://achmage-slides.vercel.app/pele/qa/"></head><body><main><a href="/pele/coverage/">검증 목록으로</a><h1>104개 사례 전수 검사</h1><p>104개 사례 × 3개 폭 × 2개 테마. SameTone 로딩·SVG·페이지 가로 넘침·텍스트 경계·텍스트 겹침 후보를 브라우저에서 관찰합니다. 겹침 후보는 사람이 구분해야 하며 자동 통과시키지 않습니다.</p><button id="run">전수 검사 실행</button> <button id="save" disabled>검사 JSON 저장</button><p id="progress" role="status">대기</p><pre id="summary" class="log"></pre><div style="overflow:auto"><iframe id="frame" title="검사 대상 화면" style="box-sizing:content-box;border:1px solid #aaa;width:1440px;height:1100px"></iframe></div><div id="results"></div></main><script type="module">
+const pages=await(await fetch('/pele/data/catalog.json')).json();let results=[],lifecycle=[];
+const f=document.querySelector('#frame'),p=document.querySelector('#progress');
+const waitFrame=async url=>{await new Promise((resolve,reject)=>{const t=setTimeout(()=>reject(Error('load timeout '+url)),20000);f.onload=()=>{clearTimeout(t);resolve()};f.src=url});const doc=f.contentDocument;for(let i=0;i<200;i++){if(doc.body?.dataset.ready==='true')return;await new Promise(r=>setTimeout(r,30));}throw Error('ready timeout '+url)};
+const inspect=()=>{const doc=f.contentDocument,w=f.contentWindow,svg=doc.querySelector('.drawing>svg');if(!svg)return{svg:false};
+ const sr=svg.getBoundingClientRect(),texts=[...svg.querySelectorAll('text')].map(t=>({text:t.textContent,r:t.getBoundingClientRect(),font:w.getComputedStyle(t).fontSize})).filter(t=>t.r.width&&t.r.height);
+ const outside=texts.filter(t=>t.r.left<sr.left-3||t.r.top<sr.top-3||t.r.right>sr.right+3||t.r.bottom>sr.bottom+3).map(t=>({text:t.text,font:t.font}));
+ const overlaps=[];for(let i=0;i<texts.length;i++)for(let j=i+1;j<texts.length;j++){const a=texts[i],b=texts[j],x=Math.min(a.r.right,b.r.right)-Math.max(a.r.left,b.r.left),y=Math.min(a.r.bottom,b.r.bottom)-Math.max(a.r.top,b.r.top);if(x>3&&y>3&&x*y>Math.min(a.r.width*a.r.height,b.r.width*b.r.height)*.18)overlaps.push([a.text,b.text])}
+ return{svg:true,viewportWidth:w.innerWidth,observedWidth:doc.documentElement.clientWidth,invalidValues:/NaN|undefined|Infinity/.test(svg.textContent),fontReady:doc.fonts.check('18px "Achmage SameTone"'),textCount:texts.length,outside,overlaps,bodyOverflow:doc.documentElement.scrollWidth>doc.documentElement.clientWidth+2,theme:doc.documentElement.dataset.theme};
+};
+document.querySelector('#run').onclick=async()=>{document.querySelector('#run').disabled=true;results=[];let n=0;
+ try{
+ for(const page of pages)for(const c of page.cases)for(const width of [360,768,1440])for(const theme of ['light','dark']){
+ f.style.width=width+'px';await waitFrame('/pele/diagrams/'+page.id+'/?case='+c.id+'&theme='+theme);const r={page:page.id,caseId:c.id,width,requestedTheme:theme,...inspect()};results.push(r);n++;p.textContent=n+' / 624 · '+c.id+' · '+width+' · '+theme;
+ }
+ f.style.width='1000px';await waitFrame('/pele/workbench/');const doc=f.contentDocument;doc.querySelector('#run-lifecycle').click();for(let i=0;i<500;i++){const text=doc.querySelector('#live-log').textContent;if(text.includes('재연결'))break;await new Promise(r=>setTimeout(r,30))}
+ lifecycle=doc.querySelector('#live-log').textContent.split('\n').map(text=>({test:text.slice(2),pass:text.startsWith('✓')}));
+ const aggregate={runs:results.length,caseCount:new Set(results.map(r=>r.caseId)).size,pageCount:new Set(results.map(r=>r.page)).size,svgMissing:results.filter(r=>!r.svg).length,fontFailures:results.filter(r=>!r.fontReady).length,bodyOverflow:results.filter(r=>r.bodyOverflow).length,invalidValues:results.filter(r=>r.invalidValues).length,actualWidths:[...new Set(results.map(r=>r.viewportWidth))],contentWidths:[...new Set(results.map(r=>r.observedWidth))],clippedTextCases:[...new Set(results.filter(r=>r.outside?.length).map(r=>r.caseId))],overlapCandidates:[...new Set(results.filter(r=>r.overlaps?.length).map(r=>r.caseId))],lifecycle};
+ const summary='실제 브라우저에서 '+aggregate.caseCount+'개 사례, '+aggregate.pageCount+'개 페이지, '+results.length+'개 폭·테마 조합을 검사했습니다.';
+ document.querySelector('#summary').textContent=JSON.stringify({summary,aggregate},null,2);document.querySelector('#save').disabled=false;
+ document.querySelector('#results').textContent=JSON.stringify(results.filter(r=>r.outside?.length||r.overlaps?.length||r.bodyOverflow),null,2);
+ document.querySelector('#save').onclick=()=>{const b=new Blob([JSON.stringify({summary,aggregate,results},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='browser-checks.json';a.click()};
+ p.textContent='완료 · '+results.length+'개 화면 조건';
+ }catch(e){p.textContent='검사 중단: '+e.message;console.error(e)}
+};
+</script></body></html>

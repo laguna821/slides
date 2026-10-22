@@ -1,0 +1,112 @@
+{
+  "id": "legacy-waterfall-bridge",
+  "label": "변화의 합이 최종 금액을 만든다 · 증감 연결",
+  "type": "legacy",
+  "source": {
+    "recipe": "waterfall",
+    "state": "bridge",
+    "records": [
+      {
+        "id": "r1",
+        "label": "기초",
+        "value": 100
+      },
+      {
+        "id": "r2",
+        "label": "추가",
+        "value": 30
+      },
+      {
+        "id": "r3",
+        "label": "절감",
+        "value": -20
+      },
+      {
+        "id": "r4",
+        "label": "외주",
+        "value": 25
+      },
+      {
+        "id": "r5",
+        "label": "지원",
+        "value": -15
+      }
+    ],
+    "assumptions": [
+      "시작값 0에 첫 기초예산과 이후 증감을 합산한다.",
+      "양수는 증가, 음수는 감소다."
+    ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" role=\"img\" aria-label=\"워터폴 · 만원\"><title>워터폴 · 만원</title><g data-key=\"r1\"><rect x=\"30.00\" y=\"106.85\" width=\"100.00\" height=\"148.15\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"30.00\" y=\"98.85\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">100</text><text x=\"30.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">기초</text></g><line x1=\"130.00\" y1=\"106.85\" x2=\"142.00\" y2=\"106.85\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><g data-key=\"r2\"><rect x=\"142.00\" y=\"62.41\" width=\"100.00\" height=\"44.44\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"142.00\" y=\"54.41\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">30</text><text x=\"142.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">추가</text></g><line x1=\"242.00\" y1=\"62.41\" x2=\"254.00\" y2=\"62.41\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><g data-key=\"r3\"><rect x=\"254.00\" y=\"62.41\" width=\"100.00\" height=\"29.63\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><text x=\"254.00\" y=\"54.41\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">-20</text><text x=\"254.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">절감</text></g><line x1=\"354.00\" y1=\"92.04\" x2=\"366.00\" y2=\"92.04\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><g data-key=\"r4\"><rect x=\"366.00\" y=\"55.00\" width=\"100.00\" height=\"37.04\" class=\"vz-primary\" fill=\"var(--pele-series-1)\" /><text x=\"366.00\" y=\"47.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">25</text><text x=\"366.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">외주</text></g><line x1=\"466.00\" y1=\"55.00\" x2=\"478.00\" y2=\"55.00\" class=\"vz-grid\" stroke=\"var(--pele-border)\" stroke-width=\"1.5\" fill=\"none\" /><g data-key=\"r5\"><rect x=\"478.00\" y=\"55.00\" width=\"100.00\" height=\"22.22\" class=\"vz-secondary\" fill=\"var(--pele-series-2)\" /><text x=\"478.00\" y=\"47.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">-15</text><text x=\"478.00\" y=\"296.00\" text-anchor=\"start\" class=\"vz-text \" font-size=\"24\" fill=\"var(--pele-fg)\" font-family=\"Achmage SameTone\" letter-spacing=\"0\">지원</text></g></svg>",
+  "description": "예산을 늘리거나 줄인 항목은 무엇인가?",
+  "limits": "시작 0 + 증감 합계 = 120 만원",
+  "diagnostics": [],
+  "engine": "기존 Achmage 통계 SVG 어댑터 · 재계산",
+  "minWidth": 650,
+  "records": [
+    {
+      "id": "r1",
+      "label": "기초",
+      "value": 100
+    },
+    {
+      "id": "r2",
+      "label": "추가",
+      "value": 30
+    },
+    {
+      "id": "r3",
+      "label": "절감",
+      "value": -20
+    },
+    {
+      "id": "r4",
+      "label": "외주",
+      "value": 25
+    },
+    {
+      "id": "r5",
+      "label": "지원",
+      "value": -15
+    }
+  ],
+  "rawRecords": [
+    {
+      "id": "r1",
+      "label": "기초",
+      "value": 100
+    },
+    {
+      "id": "r2",
+      "label": "추가",
+      "value": 30
+    },
+    {
+      "id": "r3",
+      "label": "절감",
+      "value": -20
+    },
+    {
+      "id": "r4",
+      "label": "외주",
+      "value": 25
+    },
+    {
+      "id": "r5",
+      "label": "지원",
+      "value": -15
+    }
+  ],
+  "summary": "5개 항목 · 만원",
+  "unit": "만원",
+  "tags": [
+    "기존 레시피",
+    "waterfall"
+  ],
+  "kind": "waterfall",
+  "sha256": "470087ac25c306ed33fd43072c7700db5aace290c7b3991f63ccb23ffdc9c3dd",
+  "sourceSha256": "d84b22badc00ed1a123fdd63c100443c012fd1eb354b843c13da523099800b11",
+  "url": "/pele/cases/legacy-waterfall-bridge.json",
+  "svgUrl": "/pele/cases/legacy-waterfall-bridge.svg",
+  "pngUrl": null
+}
