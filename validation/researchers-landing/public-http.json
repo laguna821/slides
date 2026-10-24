@@ -1,0 +1,95 @@
+{
+  "at": "2026-10-24T02:51:15.033Z",
+  "anonymousHttp": true,
+  "loginHeadersUsed": false,
+  "homeStatus": 200,
+  "cases": [
+    {
+      "id": "rstat-scatter-mileage-weight",
+      "status": 200,
+      "bytes": 4384,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-bubble-gapminder-population",
+      "status": 200,
+      "bytes": 9916,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-normal-histogram",
+      "status": 200,
+      "bytes": 2069,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-mirrored-density",
+      "status": 200,
+      "bytes": 11961,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-cumulative-random-trajectory",
+      "status": 200,
+      "bytes": 1897,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-geographic-ranking-ascending",
+      "status": 200,
+      "bytes": 1996,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-heatmap-column-zscore-fixed-order",
+      "status": 200,
+      "bytes": 10979,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-waffle-80-observations",
+      "status": 200,
+      "bytes": 3157,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-ext-composition-rgc-0037-pie",
+      "status": 200,
+      "bytes": 1324,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-treemap-group-and-subgroup",
+      "status": 200,
+      "bytes": 1739,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-corpus-network-rgc-0245",
+      "status": 200,
+      "bytes": 2274,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-ext-flow-rgc-0429-six-connections",
+      "status": 200,
+      "bytes": 1621,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-ext-composition-rgc-0057-radar",
+      "status": 200,
+      "bytes": 1674,
+      "hashVerified": true
+    },
+    {
+      "id": "rstat-closure-venn-rgc-0052",
+      "status": 200,
+      "bytes": 1860,
+      "hashVerified": true
+    }
+  ],
+  "catalogCount": 922,
+  "catalogRevision": "1e4ec2d40b78093ce367ff9e8bce6ee19704cd78317b27c22a019fb14f4258ae",
+  "browserInteractionVerified": false
+}

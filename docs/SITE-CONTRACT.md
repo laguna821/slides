@@ -91,3 +91,7 @@ print.iccProfile은 명시적 CMYK 출력 ICC 경로다. sRGB 입력색을 Littl
 상세 소개의 목차가 30개를 넘으면 기본적으로 접힌 details/summary로 제공한다. 전체 링크와 읽기 원고는 보존하며 키보드로 열 수 있어야 한다. 학습 목표와 제공 자료를 목차가 가리지 않도록 한다. 기존 상세 페이지도 같은 기준으로 검수한다.
 
 읽기 페이지는 언어별 검증된 본문·Markdown을 비실행 JSON으로 내장하여 복사 때 추가 네트워크 요청을 하지 않는다. 파일 다운로드와 복사 데이터가 정확히 일치해야 하며, 클립보드 권한 거부 시 기존 수동 복사 창을 유지한다.
+
+## 6.5.0 · Research gallery gateway
+
+The existing pele-atlas detail is a bilingual, static gateway with 14 previews and 15 external category links to the public Researchers gallery. The 922-case payload stays on GPT Sites. Existing Pele and atlas routes remain intact. Thumbnail content uses the existing R2 manifest; no new renderer or font is loaded. New preview images and page-specific assets together must stay below 500,000 bytes. Public gallery access and exact case links require anonymous verification.

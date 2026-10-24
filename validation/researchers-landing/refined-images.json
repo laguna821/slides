@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-24T03:16:49.350Z",
+  "results": [
+    {
+      "type": "scatter",
+      "bytes": 9068,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "bubble",
+      "bytes": 15758,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "histogram",
+      "bytes": 11374,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "density",
+      "bytes": 16678,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "line",
+      "bytes": 12774,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "bar",
+      "bytes": 9864,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "heatmap",
+      "bytes": 15810,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "waffle",
+      "bytes": 16132,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "pie",
+      "bytes": 14582,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "treemap",
+      "bytes": 16158,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "network",
+      "bytes": 15828,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "flow",
+      "bytes": 9754,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "radar",
+      "bytes": 19480,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    },
+    {
+      "type": "venn",
+      "bytes": 15910,
+      "fontLoaded": true,
+      "source": "captured original SVG"
+    }
+  ],
+  "totalBytes": 234400
+}

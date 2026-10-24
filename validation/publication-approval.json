@@ -2,17 +2,19 @@
   "version": 1,
   "status": "approved",
   "scope": "portfolio-production",
-  "policyVersion": "6.4.0",
-  "digest": "043c2f50efa30f63ded80cd88c42f0a028f930de83c39360658b95c0ecf21cf7",
-  "reviewHash": "d1c305686abc63602df9e57fc34cf13cb1a2014b2842808c9f35ecb4a7a65c27",
-  "boundAt": "2026-10-22T05:49:38.943Z",
+  "policyVersion": "6.5.0",
+  "digest": "000796cc36ecef40216ed2fc6ee57254acc06ccff6f86c1950ecbdfbc0f75808",
+  "reviewHash": "fb11523268e08accddeaa644cba3c6827a57dbb6ad774a25001493d6ece3a2dd",
+  "boundAt": "2026-10-24T03:38:07.457Z",
   "decision": {
     "by": "user",
-    "quote": "게시 확인 굳이 물어보지 말고 공개까지 하라고",
-    "correctionQuote": "전체 사례 원본이 vercel 내 포트폴리오 사이트에 안보이는데? 로그인 안해도  이런 전체 내용을 볼 수 있게 해야지 왜 이렇게 해놨어 ㅡㅡ",
+    "quote": "Implement the proposed plan.",
+    "at": "2026-10-24T02:41:50.000Z",
     "sessionId": "01a15c26-4e1d-7a12-89d8-79e6c6ec37b2",
-    "at": "2026-10-21T13:07:59Z",
     "authorization": "publish-when-verified",
-    "requestScope": "pele-complete-public-migration"
+    "requestScope": "researchers-public-gateway",
+    "turnId": "01a16bc9-34c8-7823-a254-f42c816e2324",
+    "planTurnId": "01a16bc6-716a-7083-925c-4b79f5976ca3",
+    "planTitle": "Pele Atlas 개편 — 대표 14종과 공개 연구 갤러리 연결"
   }
 }

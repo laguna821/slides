@@ -1,0 +1,49 @@
+---
+import gallery from '../../content/pele-researchers.json';
+import '../styles/pele-researchers.css';
+---
+<div class="research-gateway" data-research-gateway data-slide-exempt>
+  <section class="pr-hero page-gutter">
+    <div class="crumb"><a href="/archive/">전체 자료</a><span>/</span><span>RESEARCH COLLECTION</span></div>
+    <div class="pr-wordmark"><span class="pr-symbol" aria-hidden="true">P<span>✦</span></span><span>Achmage Pele<small>for Researchers</small></span></div>
+    <div class="pr-intro">
+      <div>
+        <p class="pr-eyebrow">STATISTICAL GRAPHICS / MERMAID</p>
+        <h1><span>자료에서 연구로,</span><br/><em>그래프를 고르는 서랍.</em></h1>
+        <p class="pr-lead">연구 질문에 맞는 그래프를 찾으세요. 대표 14종을 둘러보고, 922개 사례와 15개 분류가 있는 공개 갤러리로 이어집니다.</p>
+        <a class="pr-cta" href={gallery.galleryUrl} target="_blank" rel="noopener noreferrer">전체 연구 갤러리 열기 ↗</a>
+        <p class="pr-hint">로그인 없이 누구나 · 새 탭에서 열립니다</p>
+      </div>
+      <dl class="pr-numbers">
+        <div><dt>개 사례</dt><dd>{gallery.caseCount}</dd></div>
+        <div><dt>개 분류</dt><dd>{gallery.categoryCount}</dd></div>
+        <div><dt>종 미리보기</dt><dd>{gallery.cards.length}</dd></div>
+      </dl>
+    </div>
+  </section>
+  <section class="pr-browse page-gutter" aria-labelledby="pr-types">
+    <div class="pr-section-heading"><div><p class="pr-eyebrow">01 / DISCOVER</p><h2 id="pr-types">도표 종류로 바로 찾기</h2></div><p>종류를 고르면 전체 갤러리의 해당 분류가 열립니다.</p></div>
+    <nav class="pr-types" aria-label="도표 종류로 바로 찾기">
+      {gallery.categories.map(c=><a href={c.url} target="_blank" rel="noopener noreferrer" title="새 탭에서 열기">{c.label.ko}<span aria-hidden="true">↗</span></a>)}
+    </nav>
+  </section>
+  <section class="pr-examples page-gutter" aria-labelledby="pr-examples-title">
+    <div class="pr-section-heading"><div><p class="pr-eyebrow">02 / SELECTED FORMS</p><h2 id="pr-examples-title">대표 14종 미리보기</h2></div><p>그림을 누르면 해당 사례의 그래프와 Mermaid 코드를 볼 수 있습니다.</p></div>
+    <div class="pr-grid">
+      {gallery.cards.map((card,index)=><a class="pr-card" href={card.url} target="_blank" rel="noopener noreferrer" data-research-case={card.id} title="새 탭에서 열기">
+        <div class="pr-card-top"><span class="pr-card-number">{String(index+1).padStart(2,'0')}</span><span>{card.label.ko}</span><span aria-hidden="true">↗</span></div>
+        <div class="pr-image"><img src={card.image} alt={card.title.ko} width="800" height="600" loading="lazy" decoding="async"/></div>
+        <div class="pr-card-body"><h3>{card.title.ko}</h3><p>{card.question.ko}</p><div class="pr-tags">{card.tags.map(tag=><span><i aria-hidden="true">#</i>{tag.ko}</span>)}</div></div>
+      </a>)}
+    </div>
+  </section>
+  <section class="pr-invitation page-gutter">
+    <div><p class="pr-eyebrow">03 / YOUR NEXT GRAPH</p><h2>찾고, 살펴보고, 복사하세요.</h2><p>전체 갤러리에서 연구 질문이나 해시태그로 찾고, 원하는 그래프의 Mermaid 코드를 복사하세요.</p></div>
+    <a class="pr-cta" href={gallery.galleryUrl} target="_blank" rel="noopener noreferrer">전체 922개 사례 탐색 ↗</a>
+  </section>
+  <section class="pr-related page-gutter" aria-labelledby="pr-related-title"><h2 id="pr-related-title">함께 볼 자료</h2><div class="pr-related-grid">
+    <a href="/pele/"><strong>기존 Pele 도식 검토실</strong><span>39개 도표군 · 104개 사례</span><i aria-hidden="true">↗</i></a>
+    <a href="/talks/pele-atlas/explore/"><strong>이전 아틀라스</strong><span>웹·세로형 편집 사례</span><i aria-hidden="true">↗</i></a>
+    <a href="/talks/pele-social-science/code/"><strong>사회과학 분석 자료</strong><span>기존 발표와 제작 코드</span><i aria-hidden="true">↗</i></a>
+  </div></section>
+</div>

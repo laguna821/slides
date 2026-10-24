@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-24T03:39:39.165Z",
+  "passed": true,
+  "results": [
+    {
+      "name": "bind-review",
+      "passed": true
+    },
+    {
+      "name": "content-final",
+      "passed": true
+    },
+    {
+      "name": "release-final",
+      "passed": true
+    },
+    {
+      "name": "approval-final",
+      "passed": true
+    },
+    {
+      "name": "upload-request",
+      "passed": true
+    }
+  ]
+}
