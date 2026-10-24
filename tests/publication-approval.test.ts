@@ -25,6 +25,15 @@ test('explicit Pele publication delegation still requires the exact request and 
  assert.throws(()=>validateApproval({...a,decision:{...a.decision,requestScope:'unrelated-change'}},'current',review,now));
  assert.throws(()=>validateApproval({...a,digest:'old'},'current',review,now));
 });
+test('research gateway delegation is limited to the exact approved plan and verified revision',()=>{
+ const reviewed={...review,reviewedAt:'2026-10-24T03:30:00Z'};
+ const a={...approval,reviewHash:reviewHash(reviewed),boundAt:'2026-10-24T03:40:00Z',decision:{by:'user',quote:'Implement the proposed plan.',sessionId:'01a15c26-4e1d-7a12-89d8-79e6c6ec37b2',authorization:'publish-when-verified',requestScope:'researchers-public-gateway',turnId:'01a16bc9-34c8-7823-a254-f42c816e2324',planTurnId:'01a16bc6-716a-7083-925c-4b79f5976ca3',planTitle:'Pele Atlas 개편 — 대표 14종과 공개 연구 갤러리 연결',at:'2026-10-24T02:41:50.000Z'}};
+ const time=Date.parse('2026-10-24T04:00:00Z');
+ validateApproval(a,'current',reviewed,time);
+ for(const change of [{turnId:'different'},{planTurnId:'different'},{requestScope:'other'},{quote:'Continue'},{sessionId:'another-session'}])assert.throws(()=>validateApproval({...a,decision:{...a.decision,...change}},'current',reviewed,time));
+ assert.throws(()=>validateApproval({...a,boundAt:'2026-10-24T03:00:00Z'},'current',reviewed,time));
+ assert.throws(()=>validateApproval({...a,digest:'stale'},'current',reviewed,time));
+});
 test('new site pages require corresponding language and SameTone preload',()=>{
  const html=(lang:string)=>'<html lang="'+lang+'"><head><link rel="canonical" href="https://achmage-slides.vercel.app/'+(lang==='en'?'en/':'')+'"><link rel="alternate" hreflang="ko"><link rel="alternate" hreflang="en"><link rel="preload" as="font" href="'+policy.webFont.url+'"></head><body><header class="site-header"><a data-language-switch href="'+(lang==='en'?'/':'/en/')+'"></a></header></body></html>';
  validatePagePair(html('ko'),html('en'),'/');

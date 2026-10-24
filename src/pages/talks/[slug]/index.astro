@@ -1,4 +1,5 @@
 ---
+import PeleResearchers from "../../../components/PeleResearchers.astro";
 import { usageHref } from '../../../lib/media-links';
 import PeleOverview from '../../../components/PeleOverview.astro';
 import ProjectResources from '../../../components/ProjectResources.astro';
@@ -35,6 +36,7 @@ const outline=work.segments.filter(s=>s.kind!=='poster');
   noindex={work.seo === 'noindex' || work.visibility !== 'listed'}
   active="archive"
 >
+  {work.id === "pele-atlas" ? <PeleResearchers /> : <>
   <section class="page-intro page-gutter" data-slide-exempt>
     <div class="crumb">
       <a href="/archive/">전체 자료</a>
@@ -169,4 +171,5 @@ const outline=work.segments.filter(s=>s.kind!=='poster');
     </div>
   </section>
 <section class="page-gutter resources-section"><ProjectResources work={work} /></section>
+  </>}
 </Base>

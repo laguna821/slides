@@ -2,11 +2,11 @@
 
 상태: **approved**
 
-- 정책: 6.4.0
+- 정책: 6.5.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 324개
-- 배포 입력 해시: `043c2f50efa30f63ded80cd88c42f0a028f930de83c39360658b95c0ecf21cf7`
+- 변경 파일: 346개
+- 배포 입력 해시: `000796cc36ecef40216ed2fc6ee57254acc06ccff6f86c1950ecbdfbc0f75808`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
@@ -16,13 +16,31 @@
 - `content/i18n/en.json`
 - `content/media.json`
 - `content/pele-collection.json`
+- `content/pele-researchers.json`
 - `content/site-policy.json`
 - `content/web-assets.json`
 - `content/works.json`
 - `docs/PELE-COLLECTION-CONTRACT.md`
+- `docs/RESEARCHERS-GATEWAY.md`
+- `docs/SITE-CONTRACT.md`
 - `docs/UPLOAD-CONTRACT.md`
 - `docs/pele-atlas-provenance.json`
 - `public/images/before-the-first-note.jpg`
+- `public/images/pele-researchers/bar.webp`
+- `public/images/pele-researchers/bubble.webp`
+- `public/images/pele-researchers/density.webp`
+- `public/images/pele-researchers/flow.webp`
+- `public/images/pele-researchers/heatmap.webp`
+- `public/images/pele-researchers/histogram.webp`
+- `public/images/pele-researchers/line.webp`
+- `public/images/pele-researchers/network.webp`
+- `public/images/pele-researchers/overview.webp`
+- `public/images/pele-researchers/pie.webp`
+- `public/images/pele-researchers/radar.webp`
+- `public/images/pele-researchers/scatter.webp`
+- `public/images/pele-researchers/treemap.webp`
+- `public/images/pele-researchers/venn.webp`
+- `public/images/pele-researchers/waffle.webp`
 - `public/pele/about/index.html`
 - `public/pele/app.mjs`
 - `public/pele/cases/agentflow-native.json`
@@ -331,15 +349,19 @@
 - `scripts/publication-approval.ts`
 - `scripts/release-gate.ts`
 - `scripts/sync-pele-collection.ts`
+- `scripts/verify-researchers-gateway.ts`
 - `scripts/verify-web-output.ts`
+- `src/components/PeleResearchers.astro`
 - `src/pages/talks/[slug]/index.astro`
+- `src/styles/pele-researchers.css`
 - `tests/pele-collection.test.ts`
 - `tests/publication-approval.test.ts`
+- `tests/researchers-gateway.test.ts`
 - `vercel.json`
 
 ## 확인할 결과
 
-- Pele · 전체 도식 검토실과 아틀라스 · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
+- Achmage Pele for Researchers · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
 - Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함
 - 설문척도 만들기 입문: 이 질문에 몇 점을 줘야 하죠? · 한국어 `/talks/survey-scale-intro-2026-10-13/` · 영어 `/en/talks/survey-scale-intro-2026-10-13/` · 양언어 웹 읽기/Markdown 포함

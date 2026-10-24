@@ -568,6 +568,81 @@
       "permanent": false
     },
     {
+      "source": "/images/pele-researchers/bar.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811812531-d76ff3b4-63aa-4ae3-8426-7c22144c10e6.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/bubble.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811815419-7213255d-4d3c-4a2f-9850-bc2af0b07366.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/density.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811818164-718e82c6-cc59-4f19-98af-c08b6e5bce4f.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/flow.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811820290-4b6bc798-a025-4e1b-8350-8376f36b6eb0.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/heatmap.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811822642-c599d82e-8252-4e32-bfd4-95f203217512.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/histogram.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811824932-a4c5ccef-97ef-4603-99a8-d5dbee65b733.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/line.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811827171-2f9b8e3a-ed36-4d55-81c6-3906ce78988a.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/network.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811831018-15de54eb-1a1a-415e-b8a3-dfa2327dbce1.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/overview.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811833530-da531c60-70c7-4471-b431-4e5707404436.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/pie.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811835727-1a1be8b1-22cc-4dea-befe-064556d6a8cb.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/radar.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811837897-f54c1eb3-48da-471d-8ff7-9e13bfb53363.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/scatter.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811840164-dc7cbd36-baf0-4faf-a1c3-1c7e7e1b914f.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/treemap.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811842327-90947498-5426-4946-a4b8-3cc4b71a852d.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/venn.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811844318-03056cb5-5bec-475e-b344-c53aa9854aac.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/pele-researchers/waffle.webp",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792811846785-f76a8e3b-c03e-4c93-9fd9-ba3ff48e676f.webp",
+      "permanent": false
+    },
+    {
       "source": "/images/pele-social-science.png",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1792424311975-01fb6749-6362-4951-a3e1-c94aecac9f86.png",
       "permanent": false

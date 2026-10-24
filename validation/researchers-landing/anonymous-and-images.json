@@ -1,0 +1,242 @@
+{
+  "at": "2026-10-24T03:08:58.854Z",
+  "anonymous": true,
+  "cookiesBefore": 0,
+  "cases": [
+    {
+      "id": "rstat-scatter-mileage-weight",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-scatter-mileage-weight",
+      "status": 200,
+      "bytes": 10534,
+      "svgSha256": "faf21126a5b2e64c8fc82eecf758908ac908307db4eacd81b583a95dc18eda8e",
+      "sourceSha256": "0734cce2808531e1ab1041077cf8b1cab74e9e86a0382588394af7b69d595493",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-bubble-gapminder-population",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-bubble-gapminder-population",
+      "status": 200,
+      "bytes": 16384,
+      "svgSha256": "181e32cd4953a66f4a71169c31ff9c7f8252d91dc524214863e012fddebf0174",
+      "sourceSha256": "d8500649f520c1d9d1615c54217285ec0363726f1a5a3cbe43c3787639588544",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-normal-histogram",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-normal-histogram",
+      "status": 200,
+      "bytes": 12934,
+      "svgSha256": "5666b7784d8431a3ff454facad32a9169861521d4745bbf7908afab7bc6fd951",
+      "sourceSha256": "b7ac6e849b24bee610b4b8f8d5dbe43d1efaed15debac77b562ad47914637957",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-mirrored-density",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-mirrored-density",
+      "status": 200,
+      "bytes": 16542,
+      "svgSha256": "36aa8ab803382c3f8248879a608a460424b9f4afb47a5ab944d8b27bdfab817a",
+      "sourceSha256": "6c801fa4857b2afbb82f2ff766b940469d314f18af87e422e67a35e3503c109e",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-cumulative-random-trajectory",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-cumulative-random-trajectory",
+      "status": 200,
+      "bytes": 13254,
+      "svgSha256": "bd8c9a08744bef45189019a3755b4e9251f749a8c53c468d82755fbb7401ba21",
+      "sourceSha256": "f26ee65a082bbc59770d96a5383f9e4da5297726abd9bccf6bcaa392895dd363",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-geographic-ranking-ascending",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-geographic-ranking-ascending",
+      "status": 200,
+      "bytes": 10820,
+      "svgSha256": "23a132b226539cd66ed573ff45fc33529f0c92ef6b6e8bed5333aab5fccd40d5",
+      "sourceSha256": "de9a9cf5b7ec72f1191dcb92b32bbee5075cd6a723506ffb15c39298a71337a4",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-heatmap-column-zscore-fixed-order",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-heatmap-column-zscore-fixed-order",
+      "status": 200,
+      "bytes": 17220,
+      "svgSha256": "4e75aaed8e859c2e447a2e40705bbb64d6e5ac866ac0756ba8c058fb56745cfb",
+      "sourceSha256": "5f66321fcf39b5e178d236e08896de0f026e02e2de307e167b871d66bd335b36",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-waffle-80-observations",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-waffle-80-observations",
+      "status": 200,
+      "bytes": 19178,
+      "svgSha256": "64a9f30a1274a7890f871d218f58d6ae26bffc1f2e4d1dfc12f5165b06f93677",
+      "sourceSha256": "6e5a28d00dee4c4ce18485c2033e7dc89e0ebf0eb5800922c5fcd32a6bc3b00a",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-ext-composition-rgc-0037-pie",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-ext-composition-rgc-0037-pie",
+      "status": 200,
+      "bytes": 11422,
+      "svgSha256": "62691278c96503d2fd0daf52d2741a829299efee2ba70377641464b7dc9eeade",
+      "sourceSha256": "00db89618cedc3bbec269b990689f7bfadedbd56576e0bf6c6add2fe736ef671",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-treemap-group-and-subgroup",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-treemap-group-and-subgroup",
+      "status": 200,
+      "bytes": 16172,
+      "svgSha256": "714773597faa7517d97083a6e855599b7b81df640cee5d2b810953926efa8409",
+      "sourceSha256": "a119aeafd5a24d697762192f21e04c5cd5f06065a3416aa633b5f1b37ef106b9",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-corpus-network-rgc-0245",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-corpus-network-rgc-0245",
+      "status": 200,
+      "bytes": 11578,
+      "svgSha256": "63e8c1f1ebb74b006373f003cfca12a4698ed68c8e5baaecf9874859a68955e9",
+      "sourceSha256": "9c946f94a9d6ba375a004215d13b15ffce6159c97be724fbf6d457b32981af56",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-ext-flow-rgc-0429-six-connections",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-ext-flow-rgc-0429-six-connections",
+      "status": 200,
+      "bytes": 9492,
+      "svgSha256": "d5cf9c5d527949df56c51e1fc9b0f065e73b3bb919d0c23ed9077fc300d480dc",
+      "sourceSha256": "aedcd83cd7fe588bfbc319b8bf0d5a6e90ef813feed0e3a5912435ef81dd82aa",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-ext-composition-rgc-0057-radar",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-ext-composition-rgc-0057-radar",
+      "status": 200,
+      "bytes": 16318,
+      "svgSha256": "89ffc5e56fb770fd723f01457c07c9ad63b2dd3208372376362652be7e065cc1",
+      "sourceSha256": "1807766564e153e1b972db45e1aa54a026c78821f52bb0d58d773b569cc778ff",
+      "clipboard": true,
+      "download": true
+    },
+    {
+      "id": "rstat-closure-venn-rgc-0052",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?case=rstat-closure-venn-rgc-0052",
+      "status": 200,
+      "bytes": 11098,
+      "svgSha256": "87a79bf3c4ecdd2a06d8d8fedc4514d5090c932b9dd4037c7d1dfc52707fc1ee",
+      "sourceSha256": "a808e4a7122536872aad2e9b1c493a6f59ef5be39ff7069c09340b864b81014b",
+      "clipboard": true,
+      "download": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "scatter",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=scatter",
+      "selected": "산점도\n235",
+      "count": "235 / 922개 독립 예제"
+    },
+    {
+      "id": "bubble",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=bubble",
+      "selected": "버블\n110",
+      "count": "110 / 922개 독립 예제"
+    },
+    {
+      "id": "histogram",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=histogram",
+      "selected": "히스토그램\n45",
+      "count": "45 / 922개 독립 예제"
+    },
+    {
+      "id": "density",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=density",
+      "selected": "밀도곡선\n24",
+      "count": "24 / 922개 독립 예제"
+    },
+    {
+      "id": "line",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=line",
+      "selected": "선·시계열\n218",
+      "count": "218 / 922개 독립 예제"
+    },
+    {
+      "id": "bar",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=bar",
+      "selected": "막대\n55",
+      "count": "55 / 922개 독립 예제"
+    },
+    {
+      "id": "heatmap",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=heatmap",
+      "selected": "히트맵\n73",
+      "count": "73 / 922개 독립 예제"
+    },
+    {
+      "id": "waffle",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=waffle",
+      "selected": "와플\n67",
+      "count": "67 / 922개 독립 예제"
+    },
+    {
+      "id": "pie",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=pie",
+      "selected": "파이·도넛\n8",
+      "count": "8 / 922개 독립 예제"
+    },
+    {
+      "id": "treemap",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=treemap",
+      "selected": "트리맵\n17",
+      "count": "17 / 922개 독립 예제"
+    },
+    {
+      "id": "network",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=network",
+      "selected": "연결망\n36",
+      "count": "36 / 922개 독립 예제"
+    },
+    {
+      "id": "flow",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=flow",
+      "selected": "흐름·생키\n24",
+      "count": "24 / 922개 독립 예제"
+    },
+    {
+      "id": "radar",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=radar",
+      "selected": "레이더\n6",
+      "count": "6 / 922개 독립 예제"
+    },
+    {
+      "id": "timeline",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=timeline",
+      "selected": "기간도\n1",
+      "count": "1 / 922개 독립 예제"
+    },
+    {
+      "id": "venn",
+      "url": "https://achmage-mermaid-research.achmage2.chatgpt.site/?type=venn",
+      "selected": "벤다이어그램\n3",
+      "count": "3 / 922개 독립 예제"
+    }
+  ],
+  "errors": [],
+  "totalImageBytes": 228024,
+  "status": "passed"
+}
