@@ -5,14 +5,15 @@
 - 정책: 6.6.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 359개
-- 배포 입력 해시: `41f6dfe1f44ffaf359619ac37ebfeb9fa5d2202500c68185024ac1cdc2ff19b7`
+- 변경 파일: 360개
+- 배포 입력 해시: `9fd5a6dd458a33fa7fa1d7a1c12fe896f37c37f87626c41c0e45d317083a2f1b`
 - 검토: 통과
 - 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
 - `.gitattributes`
+- `AGENTS.md`
 - `content/font-cdn.json`
 - `content/i18n/en.json`
 - `content/media.json`

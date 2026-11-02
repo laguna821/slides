@@ -30965,12 +30965,12 @@
     "quizOptions": 45,
     "sourceEqual": true
   },
-  "digest": "41f6dfe1f44ffaf359619ac37ebfeb9fa5d2202500c68185024ac1cdc2ff19b7",
+  "digest": "9fd5a6dd458a33fa7fa1d7a1c12fe896f37c37f87626c41c0e45d317083a2f1b",
   "sourceFiles": {
     ".gitattributes": "07b9ec080b7f5e2c4924cd916a22e5a3277b9b2837dd610102bf44a7c6b118e8",
     ".github/workflows/pele-source-preview.yml": "0fe99007faa9afdbfb41b52aa27002b643398f5d8d40f679047cf916ba729fa8",
     ".github/workflows/validate.yml": "c8a3b678d42a63f1f0901362e0ef6e5b813ffb9a9a3f86bd277520cf8e5b071a",
-    "AGENTS.md": "26b5f51c4ac93c73fe4c4a9017706daafbe7cc0d310be2b38a4498db0bce1291",
+    "AGENTS.md": "94ed5ca8cdc7f37dd42a5c94e5dc7d43d3d4e5914e28927a4a17664805643a59",
     "AI_reading_3week_pilot_20261008.html": "45ea835cdfb8a802925a429ef7ccae2390744370357d7267e32fc3e1a71c62e6",
     "astro.config.mjs": "eb1823a2cf235ce9e313886b257fcf861ae9df97b0c9fc3e9d3b535b6d8686ca",
     "content/editorial/ai-reading-pilot.json": "dc48be91651a7a2cd54be84b04ba0f38ad95eacf452a169f7042f9ace0049109",
@@ -31055,7 +31055,7 @@
     "docs/SITE-CONTRACT.md": "264b84178d7e71a1de5886759c04f43b14ab2f3684cfce24671aa6e6aae61a28",
     "docs/STORAGE-CONTRACT.md": "f867d0137ec6af6ffa95ce5cf996ace8e8cddf9d957936ec888f2ce27bf7a079",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
-    "docs/UPLOAD-CONTRACT.md": "ec1826b8c210d5737ccee421b5bffb77ef2f6ef6e1186456d7390db8cdc40903",
+    "docs/UPLOAD-CONTRACT.md": "2b2c1a85d3e5ba599fd933a17767446d783e68b37dc392fa714768051d36a776",
     "docs/VALIDATION.md": "b5f78e3b37ba01d336ee1e491d86bb2ebfd8e95f385dd2c12e0773fd3de423d8",
     "docs/asset-provenance.json": "c69d6e38ab29c7e4d49d17e4a82c243ffd828da5d942fca60de5eaece7c663da",
     "docs/educational-harness-provenance.json": "c5e87fc96ab7cd2f15b6796a2a2124f1ba80145fe653a4dc144298fcfb0700e8",
@@ -33199,5 +33199,14 @@
     "wrongPasswordRejected": true,
     "lockedAfterRejection": true,
     "observedMessage": "암호가 올바르지 않거나 노트가 손상되었습니다."
+  },
+  "fontDeliveryDefault": {
+    "kind": "documentation-only-policy-connection",
+    "changedPaths": [
+      "AGENTS.md",
+      "docs/UPLOAD-CONTRACT.md"
+    ],
+    "sourceVersion": "2026-11-02",
+    "note": "The shared font pipeline, page source, engine, styles and fonts are byte-identical to the prior reviewed source set. This refresh carries forward actual browser observations with their original dates; no new screen review is claimed."
   }
 }

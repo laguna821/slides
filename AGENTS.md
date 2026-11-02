@@ -2,6 +2,15 @@
 
 # Achmage Studio 운영 규약
 
+## 공용 폰트 자동 재사용 · 6.6.0 / 2026-11-02
+
+모든 새 자료·HTML·수정 업로드는 `npm run upload:prepare`를 사용한다. 폰트 정본은 `content/font-cdn.json`이며 공개 주소는 `https://achmage-fonts.laguna821-c08.workers.dev`의 바이트 해시 고정 URL이다. 같은 해시는 재사용하고 새 폰트만 라이선스와 함께 등록·배포·응답 검증한다. 웹 CSS·preload·내장 폰트·상대 경로 모두 같은 공용 주소로 연결한다.
+
+일반 CI/Vercel의 `release:verify`는 업로드하지 않는다. 미등록 폰트, 검증 영수증 불일치, web-dist의 폰트 바이너리·내장 폰트는 실패해야 한다. `assets:sync`만 실행하고 게시하거나 검사를 건너뛰지 않는다. 원본 HTML·폰트 파일·엔진 pin·노트·기존 서체 선택은 보존한다. 사이트 UI의 SameTone Full 1.000 가변 굵기100–900도 유지한다.
+
+이는 폰트 전달 기본값이며 운영 게시 승인이 아니다. 현재 버전의 한·영 미리보기와 검토 결과를 확인받는 절차는 그대로 적용한다.
+
+
 정책5.2부터 [발표자 노트 계약](docs/PRESENTER-NOTES-CONTRACT.md)을 적용한다. 최근 Achmage Presentation HTML은 사이트의 비공개 기본 암호 프로필로 N 잠금을 검증한다. 노트 미작성과 잠금 설정은 구분하며, 공개 산출물에 비밀번호를 넣지 않는다.
 
 정책 4.0.0부터 [웹 편집본 계약](docs/EDITORIAL-CONTRACT.md)을 우선 적용한다. 원문은 보관하고 웹·복사·Markdown·검색·HanMark PDF는 검토된 편집본으로 통일한다. 편집 대응표와 링크 영수증이 없거나 오래되면 게시를 차단한다.
