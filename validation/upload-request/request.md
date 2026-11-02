@@ -1,6 +1,6 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **awaiting-user-confirmation**
+상태: **approved**
 
 - 정책: 6.7.0
 - 서체: Achmage SameTone 1.000 Full /100–900
@@ -8,7 +8,7 @@
 - 변경 파일: 22개
 - 배포 입력 해시: `45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503`
 - 검토: 통과
-- 사용자 확인: 대기 — 자동 승인하지 않음
+- 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
