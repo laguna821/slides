@@ -2,8 +2,8 @@
   "version": "2.0.0",
   "workId": "why-research-hypotheses-2026-11-03",
   "status": "reviewed",
-  "sourceSha256": "285c45930c5a06f8e4a0ab1adf34cadf5e10e48dc8f1029480fc92b132b6e57e",
-  "editorialSha256": "1519f1eb0aae2c2de08ab88560495e71167126a8fb0f86512269976a3f9bf39a",
+  "sourceSha256": "f277b9c16d53a518da3f7ff1e16dbed80ccf4c8fcd9822931855955311f1522a",
+  "editorialSha256": "41a2192ce9c0a662d48eb389900eef89b58259cbc8bc3e2f0f2947ea502ef208",
   "review": {
     "reviewer": "Claude Code (Achmage Presentation remake session) with instructor feedback on 2026-11-02",
     "date": "2026-11-02",
@@ -206,11 +206,11 @@
     },
     {
       "id": "unit-25",
-      "sourceSha256": "5caad2039aa8055fc636bb7a49edb478f001bfe8f1993655cbeebecc21718319",
+      "sourceSha256": "bfb20c3700ac707ea93682fb491fc928acc08f813ae92a5c073df2b9bf5b3739",
       "legacyIds": [],
       "disposition": "retain",
       "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
-      "editedSha256": "66c1807232fd5a31ef040d4908a029ac6071fa01bba7bf201d3386ecdffa01b3"
+      "editedSha256": "d6b07f96714da95894e9440e4b06d8425cda95eaf492bc78e2bd8d6fa9890838"
     },
     {
       "id": "unit-26",
@@ -294,11 +294,11 @@
     },
     {
       "id": "unit-36",
-      "sourceSha256": "a66626f78e72081af8ff46e84e50cfeb61e009fa47b190a350b94ae5f1286476",
+      "sourceSha256": "991c340135f0f68978176568c7ecf28bcdb4b8ddc0ddea28a052335e4ed0981d",
       "legacyIds": [],
       "disposition": "retain",
       "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
-      "editedSha256": "f766c7bff7e37fb8d12e1b026438b586e9cbd1573d18cc2d2484ef56f428e571"
+      "editedSha256": "5c3d74c5eef6c8b62cd41333ed54991537511ae6821c938df92af64b8ce2a013"
     },
     {
       "id": "unit-37",

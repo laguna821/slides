@@ -7,8 +7,8 @@
   "remake": {
     "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
     "bundleLockSha256": "2d5266dd230dc16f3f71fe5c62f6eb7cd27a154bf4e279d35f1faadf3c98d4c3",
-    "htmlSha256": "50facbe2fd9689be75d656048b50cb11a41e8ce92c1230c78afc173622614335",
-    "webProjectionSha256": "fd382f395cf3e98af1acc9924439c376c22ba57c5dfa631bf281ebc3315eba08",
+    "htmlSha256": "14989e5643224ea9f6126a0d7b1bab35bfd10d1d4793473a33dac0030c8444d0",
+    "webProjectionSha256": "bd82c568fe0cd66a997be3a9b0ec41c332ee3b852abe6d022be22cff6e14b25e",
     "version": "1.0.0",
     "slides": 42,
     "diagrams": 12,

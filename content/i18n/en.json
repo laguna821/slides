@@ -4708,5 +4708,6 @@
   "몇 종류의 사탕이 있는지 모름": "We do not know how many kinds of candy there are",
   "3개의 강의 자료": "3 course materials",
   "9주차": "Week 9",
-  "전체 21개 자료": "All 21 works"
+  "전체 21개 자료": "All 21 works",
+  "네 개념이 마름모 꼴로 놓여 바깥 모서리를 도는 시계 방향 화살표로 순환한다. 왼쪽 이론에서 위의 가설로, 가설에서 오른쪽 데이터로, 데이터에서 아래 일반화로, 일반화에서 다시 이론으로 이어진다. 가설과 이론은 같은 색(논리와 추론 쪽), 데이터와 일반화는 같은 색(데이터 쪽)으로 묶여 있다.": "Four concepts are arranged in a diamond and cycle through clockwise arrows that run around the outer corners. The arrows lead from theory on the left to hypothesis at the top, from hypothesis to data on the right, from data to generalization at the bottom, and from generalization back to theory. Hypothesis and theory are grouped in the same color (the logic and reasoning side), and data and generalization in another shared color (the data side)."
 }

@@ -2074,8 +2074,8 @@
     },
     "why-research-hypotheses-2026-11-03": {
       "source": "public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source-web.html",
-      "sourceSha256": "fd382f395cf3e98af1acc9924439c376c22ba57c5dfa631bf281ebc3315eba08",
-      "markdownSha256": "285c45930c5a06f8e4a0ab1adf34cadf5e10e48dc8f1029480fc92b132b6e57e",
+      "sourceSha256": "bd82c568fe0cd66a997be3a9b0ec41c332ee3b852abe6d022be22cff6e14b25e",
+      "markdownSha256": "f277b9c16d53a518da3f7ff1e16dbed80ccf4c8fcd9822931855955311f1522a",
       "units": [
         {
           "id": "s01",
@@ -2217,8 +2217,8 @@
         },
         {
           "id": "s24",
-          "sha256": "5caad2039aa8055fc636bb7a49edb478f001bfe8f1993655cbeebecc21718319",
-          "characters": 489,
+          "sha256": "bfb20c3700ac707ea93682fb491fc928acc08f813ae92a5c073df2b9bf5b3739",
+          "characters": 511,
           "contiguousOrderPreserved": true
         },
         {
@@ -2283,7 +2283,7 @@
         },
         {
           "id": "s35",
-          "sha256": "a66626f78e72081af8ff46e84e50cfeb61e009fa47b190a350b94ae5f1286476",
+          "sha256": "991c340135f0f68978176568c7ecf28bcdb4b8ddc0ddea28a052335e4ed0981d",
           "characters": 680,
           "contiguousOrderPreserved": true
         },
@@ -2368,8 +2368,8 @@
           "sha256": "9c0a658a1c8750f8059cc04551afcf0cf8eed86f4f14ce868397357d69733fec"
         },
         {
-          "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793610696189-10cdd63d-dd04-4653-8d90-235eaeb892bd.png",
-          "sha256": "d11762367139b2ba01a0c6ad1b641dab9eb76766fa31dfc00cb4bbcb4a3b5c34"
+          "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793627288773-197608d6-6a75-45cb-a8bd-8249791eb760.png",
+          "sha256": "fd67f52b02b612199e25e4e83e821efe5e5d87b09be55e2618a80c61426a124f"
         },
         {
           "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793610697093-46ecdfb1-7561-438a-9083-8c4e28560bc7.jpg",
@@ -2396,8 +2396,8 @@
           "sha256": "2b2cd7ef358af962ec535d1817daf659ee556fd84e09e51c44d7631cd4b53b4b"
         },
         {
-          "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793610703302-e4f079e3-d766-4e09-b3db-8fecb983ac25.png",
-          "sha256": "c3e9aefaf4b31ee7b39ccc35100bd5344cc2974abeb5f0956aa25f9bf60e233b"
+          "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793627303344-b04ab35a-8a76-4931-9c76-c5500def78e1.png",
+          "sha256": "98dcd1602c110d4e16ad5948f6adbc22d3a404c31dd4a34b99a9d6a538af8d10"
         },
         {
           "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793610704164-82fecf26-60b7-4209-9e64-12a99c322155.jpg",
