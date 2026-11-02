@@ -3,6 +3,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { Resvg } from '@resvg/resvg-js';
 import {readCollection,verifyCollectionSources} from './pele-collection';
+import {registerFontBytes,fontSourcePath} from './font-cdn';
 import {
   assetKey,
   dataPattern,
@@ -37,8 +38,6 @@ const publicBase = new URL(config.publicUrl);
 if (publicBase.protocol !== 'https:')
   throw Error('HTTPS public origin required');
 const manifest = await readManifest();
-const canonicalFont = '/fonts/AchmageSameTone-1.000.woff2';
-const canonicalFontHash = sha(await fs.readFile('public' + canonicalFont));
 let added = 0,
   reused = 0;
 const svgConversion = 'resvg-2.6.2-exact-family-weight-2x-v4';
@@ -80,8 +79,13 @@ async function verify(asset: Asset) {
 async function register(bytes: Buffer, mime: string): Promise<Asset> {
   const key = assetKey(mime, bytes);
   const prior = manifest.assets[key];
-  if (prior?.kind === 'font' && prior.sha256 === canonicalFontHash)
-    prior.url = canonicalFont;
+  if (/^(font\/|application\/(?:x-font|font))/.test(mime) || (mime==='application/octet-stream' && /^(wOF2|wOFF|OTTO|\x00\x01\x00\x00)$/.test(bytes.subarray(0,4).toString()))) {
+    const font=await registerFontBytes(bytes);
+    manifest.assets[key]={...font,verifiedAt:prior?.verifiedAt||''};
+    manifest.paths['/'+font.sourcePath!.slice('public/'.length)]=font.url;
+    if(prior)reused++;else added++;
+    await save();return manifest.assets[key];
+  }
   const rasterSvg =
     mime === 'image/svg+xml' &&
     /data:(?:font|application)\//.test(bytes.toString());
@@ -221,18 +225,8 @@ async function register(bytes: Buffer, mime: string): Promise<Asset> {
     outMime = 'image/png';
   }
   const digest = sha(output);
-  const isFont = /^(font\/|application\/(?:x-font|font))/.test(mime);
   let url: string;
-  if (isFont) {
-    const ext =
-      extByMime[mime] ||
-      (bytes.subarray(0, 4).toString() === 'wOF2' ? '.woff2' : '.woff');
-    url =
-      digest === canonicalFontHash
-        ? canonicalFont
-        : '/fonts/shared/' + digest + ext;
-    if (url !== canonicalFont) await fs.writeFile('public' + url, bytes);
-  } else {
+  {
     const existing = Object.values(manifest.assets).find(
       (a) => a.sha256 === digest && a.kind === 'image',
     );
@@ -274,11 +268,11 @@ async function register(bytes: Buffer, mime: string): Promise<Asset> {
     url,
     bytes: output.length,
     mime: outMime,
-    kind: isFont ? 'font' : 'image',
+    kind: 'image',
     verifiedAt: new Date().toISOString(),
   };
   if (rasterSvg) asset.conversion = conversion;
-  if (!isFont) await verify(asset);
+  await verify(asset);
   manifest.assets[key] = asset;
   added++;
   await save();
@@ -295,9 +289,7 @@ for (const file of await regularFiles('dist')) {
   const bytes = await fs.readFile(path.join('dist', file));
   if (
     (isMedia(file) && !isBrandAsset(file)) ||
-    (/\.(?:woff2?|ttf|otf)$/.test(file) &&
-      file !== 'fonts/AchmageSameTone-1.000.woff2' &&
-      !file.startsWith('fonts/shared/'))
+    /\.(?:woff2?|ttf|otf)$/i.test(file)
   ) {
     const asset = await register(
       bytes,
@@ -346,7 +338,7 @@ const verified = new Set<string>();
 for (const asset of Object.values(manifest.assets)) {
   if (verified.has(asset.url)) continue;
   if (asset.kind === 'image') await verify(asset);
-  else if (sha(await fs.readFile('public' + asset.url)) !== asset.sha256)
+  else if (sha(await fs.readFile(fontSourcePath(asset.sourcePath!))) !== asset.sha256)
     throw Error('Shared font hash mismatch: ' + asset.url);
   verified.add(asset.url);
 }

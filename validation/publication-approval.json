@@ -2,19 +2,21 @@
   "version": 1,
   "status": "approved",
   "scope": "portfolio-production",
-  "policyVersion": "6.5.0",
-  "digest": "000796cc36ecef40216ed2fc6ee57254acc06ccff6f86c1950ecbdfbc0f75808",
-  "reviewHash": "fb11523268e08accddeaa644cba3c6827a57dbb6ad774a25001493d6ece3a2dd",
-  "boundAt": "2026-10-24T03:38:07.457Z",
+  "policyVersion": "6.6.0",
+  "digest": "9fd5a6dd458a33fa7fa1d7a1c12fe896f37c37f87626c41c0e45d317083a2f1b",
+  "reviewHash": "ed8bca1ebfe3ae823f05817ee93bec01847f6b5741377deed3a6c1e9ea4d78e9",
   "decision": {
     "by": "user",
-    "quote": "Implement the proposed plan.",
-    "at": "2026-10-24T02:41:50.000Z",
-    "sessionId": "01a15c26-4e1d-7a12-89d8-79e6c6ec37b2",
-    "authorization": "publish-when-verified",
-    "requestScope": "researchers-public-gateway",
-    "turnId": "01a16bc9-34c8-7823-a254-f42c816e2324",
-    "planTurnId": "01a16bc6-716a-7083-925c-4b79f5976ca3",
-    "planTitle": "Pele Atlas 개편 — 대표 14종과 공개 연구 갤러리 연결"
+    "quote": "반영",
+    "at": "2026-11-02T10:41:04.000Z",
+    "sessionId": "01a19b52-dd74-7292-9ef4-6f6336a91cf3"
+  },
+  "preview": {
+    "url": "https://slides-i89li2u0r-laguna821s-projects.vercel.app/talks/achmage-sametone/",
+    "deploymentId": "9Es6hKik6A817eEv5BjajW2Eibmp",
+    "status": "Ready",
+    "sourceCommit": "cbaefac18bec66b3035fa7b504fe66477ee00344",
+    "approvedSourceCommit": "7a9027925daa67299ea28e38ad6cddf1e958c53b",
+    "sameWebOutput": true
   }
 }

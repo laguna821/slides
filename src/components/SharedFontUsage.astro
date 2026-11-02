@@ -1,0 +1,36 @@
+---
+import registry from '../../content/font-cdn.json';
+const css=registry.origin+registry.sameToneCss;
+const html='<link rel="stylesheet" href="'+css+'">';
+const style="body {\n  font-family: 'Achmage SameTone', sans-serif;\n  font-weight: 400;\n}\n\nh1 { font-weight: 750; }";
+---
+<section class="prose shared-font-usage" aria-labelledby="shared-font-heading">
+  <h2 id="shared-font-heading">웹에서 사용하기</h2>
+  <p>SameTone Full 1.000을 웹사이트와 HTML 슬라이드에서 사용하세요. 한글·영문 전체 글자와 100–900 가변 굵기를 그대로 제공합니다.</p>
+  <p><a href={css}>버전 고정 CSS 열기 ↗</a></p>
+  <p>HTML의 head에 넣으세요.</p>
+  <div class="font-code"><pre><code>{html}</code></pre><button type="button" data-copy-font="font-html" aria-label="HTML 코드 복사">복사</button></div>
+  <p>CSS에서 서체와 굵기를 지정하세요.</p>
+  <div class="font-code"><pre><code>{style}</code></pre><button type="button" data-copy-font="font-css" aria-label="CSS 코드 복사">복사</button></div>
+  <p>폰트 파일을 HTML에 다시 넣을 필요가 없습니다. 이 주소는 버전과 파일 해시로 고정되어 있습니다.</p>
+  <p><a href={registry.origin+registry.fonts['5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16'].licenses[0]}>라이선스</a> · <a href={registry.origin+registry.fonts['5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16'].licenses[1]}>NOTICE</a></p>
+  <span role="status" aria-live="polite" data-font-copy-status></span>
+</section>
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-copy-font]').forEach(button=>{
+    button.addEventListener('click',async()=>{
+      const text=button.parentElement?.querySelector('code')?.textContent;
+      const status=document.querySelector('[data-font-copy-status]');
+      if(!text || !status)return;
+      const english=document.documentElement.lang==='en';
+      try {await navigator.clipboard.writeText(text);status.textContent=english?'Code copied.':'코드를 복사했습니다.';}
+      catch {status.textContent=english?'Select and copy the code.':'코드를 선택해 복사해 주세요.';}
+    });
+  });
+</script>
+<style>
+  .shared-font-usage {margin-top:3rem;min-width:0}
+  .font-code {position:relative;max-width:100%;border:1px solid var(--line,#aaa);border-radius:.5rem;padding:.8rem}
+  .font-code pre {margin:0 0 .7rem;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.85rem;line-height:1.65}
+  .font-code button {min-width:44px;min-height:44px;padding:.4rem .8rem;border:1px solid currentColor;border-radius:.3rem;color:inherit;background:transparent;cursor:pointer}
+</style>

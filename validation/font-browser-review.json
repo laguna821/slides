@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-02T09:22:48.014Z",
+  "browser": "Edge via CUA; browser-side QA fixture on actual web-dist",
+  "origin": "https://achmage-fonts.laguna821-c08.workers.dev",
+  "fonts": [
+    {
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 100,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        },
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        },
+        {
+          "weight": 700,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        },
+        {
+          "weight": 900,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.000030517578125
+        }
+      ]
+    },
+    {
+      "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16",
+      "loaded": true,
+      "samples": [
+        {
+          "weight": 100,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.00006103515625
+        },
+        {
+          "weight": 400,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.00006103515625
+        },
+        {
+          "weight": 700,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.00006103515625
+        },
+        {
+          "weight": 900,
+          "equal": true,
+          "lines": 3,
+          "maxDelta": 0.00006103515625
+        }
+      ]
+    }
+  ],
+  "cache": [
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 765892,
+          "duration": 5
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 765892,
+          "duration": 3.700000047683716
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 765892,
+          "duration": 2.1999998092651367
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 778432,
+          "duration": 3.8000001907348633
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 778432,
+          "duration": 3.4000000953674316
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 778432,
+          "duration": 2.200000047683716
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 785856,
+          "duration": 4.299999952316284
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 785856,
+          "duration": 2.8000001907348633
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 785856,
+          "duration": 2
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 791156,
+          "duration": 4.800000190734863
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 791156,
+          "duration": 2.9000000953674316
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 791156,
+          "duration": 2.0999999046325684
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 793540,
+          "duration": 4.299999952316284
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 793540,
+          "duration": 3
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 793540,
+          "duration": 2.200000047683716
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 92164,
+          "duration": 2.5
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 92164,
+          "duration": 1.5999999046325684
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 92164,
+          "duration": 1.2999999523162842
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2057688,
+          "duration": 10.5
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2057688,
+          "duration": 4.700000047683716
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2057688,
+          "duration": 3.1000001430511475
+        }
+      ],
+      "reused": true
+    },
+    {
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16.woff2",
+      "initialRequests": 1,
+      "resources": [
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2140332,
+          "duration": 10.5
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2140332,
+          "duration": 4
+        },
+        {
+          "transferSize": 0,
+          "encodedBodySize": 2140332,
+          "duration": 2.9000000953674316
+        }
+      ],
+      "reused": true
+    }
+  ],
+  "viewCount": 1104,
+  "routeCount": 184,
+  "errors": [],
+  "peleRecheck": {
+    "at": "2026-11-02T09:18:14.315Z",
+    "views": 276,
+    "noncanonicalRequests": 0,
+    "duplicateRequests": 0
+  },
+  "copyExamples": {
+    "ko": {
+      "html": true,
+      "css": true
+    },
+    "en": {
+      "html": true,
+      "css": true
+    },
+    "method": "Actual CUA clicks and clipboard text read; exact HTML link and CSS family/weights observed."
+  },
+  "sourceEvidence": {
+    "fullSha256": "4520e61529a4adcec740d74c809a1ecf6cde0cada6a22e3e58de66b13ccb1ef9",
+    "peleSha256": "f9cd82b05eb83cfdf33a0c0e50c268a02249ec798ef1ec92f8965f0a1efbfb44",
+    "fixtureSha256": "05229d1cbe4425cc9c630657ca387b379e8aad09bdf090d8279598703946f910",
+    "serverSha256": "5f6ea135b1edb391fd9d539fb35ff6dc183278e30523d781958fcc646f8072fe"
+  },
+  "fontMigrationNotes": {
+    "route": "/decks/still-working-on-my-topic-2026-10-20/v1.0.0/index.html?mode=notes&viewMode=fit#1",
+    "reviewedAt": "2026-11-02T09:27:29.853Z",
+    "locked": true,
+    "wrongPasswordRejected": true,
+    "lockedAfterRejection": true,
+    "observedMessage": "암호가 올바르지 않거나 노트가 손상되었습니다."
+  }
+}
