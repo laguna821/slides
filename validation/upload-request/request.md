@@ -1,21 +1,43 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **approved**
+상태: **awaiting-user-confirmation**
 
-- 정책: 6.6.0
+- 정책: 6.7.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 0개
-- 배포 입력 해시: `9fd5a6dd458a33fa7fa1d7a1c12fe896f37c37f87626c41c0e45d317083a2f1b`
+- 변경 파일: 22개
+- 배포 입력 해시: `7a889e630a94d4e43d0a140de9179819edaa8ca3cd495d615ee27ef1b9d00e02`
 - 검토: 통과
-- 사용자 확인: 현재 해시와 일치
+- 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
-
+- `content/editorial/why-research-hypotheses-2026-11-03.json`
+- `content/editorial/why-research-hypotheses-2026-11-03.md`
+- `content/i18n/en.json`
+- `content/presenter-notes.json`
+- `content/reading/manifest.json`
+- `content/reading/why-research-hypotheses-2026-11-03.md`
+- `content/site-policy.json`
+- `content/web-assets.json`
+- `content/web-source-only.json`
+- `content/works.json`
+- `docs/SITE-CONTRACT.md`
+- `docs/why-research-hypotheses-2026-11-03-provenance.json`
+- `docs/why-research-hypotheses-2026-11-03-publication.md`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/index.html`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source-web.html`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source.html`
+- `public/images/why-research-hypotheses-2026-11-03.png`
+- `scripts/complete-hypothesis-english.ts`
+- `scripts/finalize-hypothesis-review.ts`
+- `scripts/register-hypothesis-lecture.ts`
+- `src/styles/global.css`
+- `vercel.json`
 
 ## 확인할 결과
 
+- AI가 다 해주는데 연구가설은 왜 세워야 할까요? — 사회과학 양적 조사방법론의 기초 · 한국어 `/talks/why-research-hypotheses-2026-11-03/` · 영어 `/en/talks/why-research-hypotheses-2026-11-03/` · 양언어 웹 읽기/Markdown 포함
 - Achmage Pele for Researchers · 한국어 `/talks/pele-atlas/` · 영어 `/en/talks/pele-atlas/`
 - Pele를 활용한 고밀도 사회과학 통계 시각화 · 한국어 `/talks/pele-social-science/` · 영어 `/en/talks/pele-social-science/`
 - 교수님, 저 주제를 아직 잡고 있어요 — 그 말을 지금 몇 개월째 하고 계십니까? · 한국어 `/talks/still-working-on-my-topic-2026-10-20/` · 영어 `/en/talks/still-working-on-my-topic-2026-10-20/` · 양언어 웹 읽기/Markdown 포함

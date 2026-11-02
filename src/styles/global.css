@@ -2128,7 +2128,7 @@ html[lang='en'] body {word-break:normal;}
 .site-header{flex-wrap:wrap;}
 .font-credit{font-size:14px;}
 
-/* Policy 6.6.0 · Home featured works: four works as a 2x2 grid beside the introduction (instructor decision
+/* Policy 6.7.0 · Home featured works: four works as a 2x2 grid beside the introduction (instructor decision
    2026-11-02). Desktop cards stay compact so the set reads at a glance next to the opening text; summaries and
    event lines remain on each detail page. Tablet keeps two full cards per row, phones keep the compact list. */
 @media (min-width: 1051px) {

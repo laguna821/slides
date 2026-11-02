@@ -96,7 +96,7 @@ print.iccProfile은 명시적 CMYK 출력 ICC 경로다. sRGB 입력색을 Littl
 
 The existing pele-atlas detail is a bilingual, static gateway with 14 previews and 15 external category links to the public Researchers gallery. The 922-case payload stays on GPT Sites. Existing Pele and atlas routes remain intact. Thumbnail content uses the existing R2 manifest; no new renderer or font is loaded. New preview images and page-specific assets together must stay below 500,000 bytes. Public gallery access and exact case links require anonymous verification.
 
-## 6.6.0 · 첫 화면 대표작 2×2
+## 6.7.0 · 첫 화면 대표작 2×2
 
 2026-11-02 사용자 지시로 첫 화면 「먼저 만나볼 작업」을 대표작 4개의 2×2 배열로 바꿨다. 순서는 인간 중심 읽기와 쓰기 · 생각이 맛이 되다(윗줄), Achmage Pele for Researchers · Achmage SameTone(아랫줄)이다. 3주 AI 활용 읽기 파일럿은 대표작에서 빠지고 전체 자료에 그대로 남는다. 새 두 작품의 카드 한 줄 소개는 각 작품의 기존 요약에서 옮겼다.
 
