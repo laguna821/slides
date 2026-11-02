@@ -161,6 +161,23 @@
       "environment": "msedge 135.0.3179.73 headless (Playwright 1.62.1), 2026-11-02, 127.0.0.1 static server of public/: actual N key opened the ?view=notes window; a wrong value was rejected; the instructor typed the configured credential at a hidden console prompt and keyboard submission unlocked the empty notes (\"이 장의 노트 없음\") in that window only, the presentation window staying locked; 다시 잠그기 relocked; after unlocking again a reload returned the locked prompt; N on a fresh presentation tab opened a new locked notes window. No credential is stored in the receipt.",
       "popupBlockedAutomatic": "passed (simulated: window.open returned null; locked inline panel opened and rejected a wrong value)",
       "inlinePanelLocked": true
+    },
+    "c0be812a6bc89180624436a5d280397e524ae1bd438eec0fa3fe9ed7b489b8ca": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "msedge 135.0.3179.73 headless (Playwright 1.62.1), 2026-11-02, 127.0.0.1 static server of public/. Checked directly on this file without a credential: N opened the ?view=notes window, a wrong value was rejected, the window stayed locked after reload, N on a fresh presentation tab opened a new locked window, and a blocked popup fell back to the locked inline panel. NOT re-tested with the PIN: the configured-credential unlock and 다시 잠그기 are inherited from the instructor's PIN check of 796f9701eac0 (same day), because this revision keeps that release's deck id and carries its encrypted envelope byte for byte (sha256 a2875d6b2cf9) and the notes runtime script is byte-identical. The instructor was remote without a PC and explicitly instructed publication tonight.",
+      "popupBlockedAutomatic": "passed (simulated: window.open returned null; locked inline panel opened and rejected a wrong value)",
+      "inlinePanelLocked": true,
+      "inheritedFrom": "796f9701eac0bec4bd4f0f3cfad9995ae3dfe7bbcdf130b69eea826c91091333",
+      "inheritedChecks": [
+        "correctPassword",
+        "relock"
+      ]
     }
   },
   "preservedDemos": [

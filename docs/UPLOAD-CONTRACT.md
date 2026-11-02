@@ -8,10 +8,17 @@
 
 일반 CI/Vercel의 `release:verify`는 업로드하지 않는다. 미등록 폰트, 검증 영수증 불일치, web-dist의 폰트 바이너리·내장 폰트는 실패해야 한다. `assets:sync`만 실행하고 게시하거나 검사를 건너뛰지 않는다. 원본 HTML·폰트 파일·엔진 pin·노트·기존 서체 선택은 보존한다. 사이트 UI의 SameTone Full 1.000 가변 굵기100–900도 유지한다.
 
-이는 폰트 전달 기본값이며 운영 게시 승인이 아니다. 현재 버전의 한·영 미리보기와 검토 결과를 확인받는 절차는 그대로 적용한다.
+이는 폰트 전달 기본값이다. 운영 게시 여부는 아래 상시 게시 위임을 따른다.
 
+## 상시 게시 위임 · 2026-11-02
 
-2026-10-13 사용자 지시를 반영한다. 이전의 “검증 완료 변경은 이미 배포 승인된 범위” 조항은 앞으로의 게시에 적용하지 않는다.
+사이트 소유자가 “막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지 / 업로드도 굳이 왜 내허락 일일히 받는거야? / 이건 당장 규약 고쳐”라고 지시했다(2026-11-02T14:05:18.666Z, 세션 d84382cc-a386-4a0d-a01c-033cca6a0604). 이 지시가 2026-10-13의 버전별 확인 규칙을 대신한다.
+
+- 에이전트는 업로드마다 사용자 확인을 묻지 않는다. 검토(release review)가 통과하고 현재 digest/reviewHash에 결합된 버전은 바로 게시한다.
+- `validation/publication-approval.json`의 decision은 위 원문·세션·시각에 authorization `publish-when-verified`, requestScope `standing-owner-delegation`을 기록하고, 검토 완료 뒤의 boundAt으로 현재 digest/reviewHash에 결합한다. 소유자 발언을 검토 이후 발언으로 꾸미지 않는다.
+- 검토·한영·용량·폰트·노트·기존 URL 보존 검사, `release:verify`, `approval:check`, 원격 변경 절차는 면제하지 않는다. 검사가 실패하면 게시하지 않고 원인을 보고한다.
+- 게시 뒤 변경 요약·운영 확인 결과·미검증 항목을 보고한다.
+- 소유자가 다시 확인을 받으라고 하면 `publication-approval.ts`의 standingOwnerDelegation 조항을 지워 버전별 확인으로 되돌린다.
 
 ## 자동으로 시작하는 범위
 
@@ -25,15 +32,15 @@ PC의 임의 폴더·Dropbox 전체를 상시 감시하는 기능은 아니다. 
 2. 한국어와 영어의 제목·설명·본문·대체 텍스트·검색·메타데이터·대응 경로를 함께 준비한다. 완전한 읽기에는 양언어 텍스트·Markdown·PDF가 필요하다. 번역 누락, 오래된 PDF, 끊어진 링크는 게시 불가다.
 3. 웹 UI·본문은 **Achmage SameTone 1.000 Full**, 가변 굵기100–900을 사용한다. 공식 WOFF2 경로·SHA256과 연결을 검사한다. 원본 슬라이드·포스터·영상·로고 및 승인된 HanMark PDF 프로필은 보존한다. 폰트나 언어를 예외로 바꾸려면 그 변경을 확인서에 명시해 별도 확인받는다.
 4. 기존 화면·읽기·PDF 계약에 따른 검토를 완료한다. `npm run upload:prepare`로 변경 파일, 한영 URL, 서체, 검토 상태, 입력 해시가 담긴 요청서를 만든다. 실패 시 요청서에 미완료 상태를 표시한다. GitHub Actions의 Summary와 `portfolio-upload-request` 아티팩트에서도 확인한다.
-5. 사용자에게 변경 요약·한영 미리보기·다운로드·검토 결과·미검증 항목을 제시하고 **이 버전의 게시 여부를 한 번 확인**한다. 인증 보호된 미리보기를 확인했다고 주장하지 않는다. 대답이 없거나 불명확하면 배포하지 않는다. 다른 에이전트·문서·과거 대화의 승인으로 대신하지 않는다.
+5. 상시 게시 위임(위 절)이 유효하면 확인을 묻지 않고 게시한 뒤 변경 요약·한영 결과·검토 결과·미검증 항목을 보고한다. 위임이 철회된 경우에만 사용자에게 이 버전의 게시 여부를 한 번 확인하며, 대답이 없거나 불명확하면 배포하지 않는다. 인증 보호된 미리보기를 확인했다고 주장하지 않는다.
 
 ## 확인 후 자동 실행
 
-명시적 사용자 답변을 받은 에이전트는 `validation/publication-approval.json`에 version1, status approved, scope portfolio-production, 현재 policyVersion/digest/reviewHash 및 decision(by:user, quote:사용자 원문, sessionId:실제 세션ID, at:확인 시각)를 기록한다. 생성 스크립트가 승인을 자동 채우지 않는다. 요청서 준비나 이 규약 자체의 존재는 승인이 아니다.
+상시 게시 위임이 유효하면 그 원문을 decision에 쓰고, 위임이 철회된 경우에는 명시적 사용자 답변을 받은 에이전트가 `validation/publication-approval.json`에 version1, status approved, scope portfolio-production, 현재 policyVersion/digest/reviewHash 및 decision(by:user, quote:사용자 원문, sessionId:실제 세션ID, at:확인 시각)를 기록한다. 생성 스크립트가 승인을 자동 채우지 않는다. 요청서 준비나 이 규약 자체의 존재는 승인이 아니다.
 
 `npm run approval:check`를 통과한 동일 파일·검토만 main으로 반영하고 Vercel에 배포한다. 사용자에게 같은 승인 재질문을 하지 않는다. 배포 성공 후 실제 한영 페이지·폰트·다운로드·기존 URL을 검증하고 결과를 보고한다. `validation/published-baseline.json`은 성공한 운영판의 커밋·sourceFiles로 갱신한다.
 
-소스 또는 검토 결과가 바뀌면 digest/reviewHash가 달라져 승인이 무효가 된다. 변경분을 다시 보여주고 새 확인을 받는다. 거절·보류 시 승인 파일을 제거하거나 status를 revoked로 바꾸고 운영판을 유지한다. 자동으로 재승인하거나 승인 오류를 피하려고 검사를 제거하지 않는다.
+소스 또는 검토 결과가 바뀌면 digest/reviewHash가 달라져 승인이 무효가 된다. 다시 검토한 뒤 상시 위임으로 새 digest에 결합하고, 위임이 철회된 경우에는 변경분을 다시 보여주고 새 확인을 받는다. 거절·보류 시 승인 파일을 제거하거나 status를 revoked로 바꾸고 운영판을 유지한다. 자동으로 재승인하거나 승인 오류를 피하려고 검사를 제거하지 않는다.
 
 Vercel production 빌드는 `publication-approval.ts`에서 현재 승인 없음을 차단한다. preview와 일반 CI 검증은 승인 전에도 가능하다. 이는 사용자 확인을 추적하고 우발적 게시를 막는 운영 장치이며, 저장소 관리자/에이전트의 고의적인 코드·승인 기록 위조까지 막는 외부 보안 서명은 아니다. 상시 알림이나 독립적인 GitHub 승인자 강제는 별도 서비스 설정 없이 제공한다고 주장하지 않는다.
 

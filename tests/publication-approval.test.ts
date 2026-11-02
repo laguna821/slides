@@ -34,6 +34,16 @@ test('research gateway delegation is limited to the exact approved plan and veri
  assert.throws(()=>validateApproval({...a,boundAt:'2026-10-24T03:00:00Z'},'current',reviewed,time));
  assert.throws(()=>validateApproval({...a,digest:'stale'},'current',reviewed,time));
 });
+test('standing owner delegation publishes reviewed versions without a per-version confirmation',()=>{
+ const reviewed={...review,reviewedAt:'2026-11-05T03:00:00Z'};
+ const a={...approval,reviewHash:reviewHash(reviewed),boundAt:'2026-11-05T03:10:00Z',decision:{by:'user',quote:'막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지\n업로드도 굳이 왜 내허락 일일히 받는거야?\n이건 당장 규약 고쳐',sessionId:'d84382cc-a386-4a0d-a01c-033cca6a0604',authorization:'publish-when-verified',requestScope:'standing-owner-delegation',at:'2026-11-02T14:05:18.666Z'}};
+ const time=Date.parse('2026-11-05T03:20:00Z');
+ validateApproval(a,'current',reviewed,time);
+ for(const change of [{requestScope:'other'},{quote:'업로드'},{sessionId:'01a15c26-4e1d-7a12-89d8-79e6c6ec37b2'},{at:'2026-11-02T14:05:19.000Z'},{authorization:'none'}])assert.throws(()=>validateApproval({...a,decision:{...a.decision,...change}},'current',reviewed,time));
+ assert.throws(()=>validateApproval({...a,boundAt:'2026-11-05T02:00:00Z'},'current',reviewed,time));
+ assert.throws(()=>validateApproval({...a,digest:'stale'},'current',reviewed,time));
+ assert.throws(()=>validateApproval(a,'current',{...reviewed,status:'failed'},time));
+});
 test('new site pages require corresponding language and SameTone preload',()=>{
  const html=(lang:string)=>'<html lang="'+lang+'"><head><link rel="canonical" href="https://achmage-slides.vercel.app/'+(lang==='en'?'en/':'')+'"><link rel="alternate" hreflang="ko"><link rel="alternate" hreflang="en"><link rel="preload" as="font" href="'+policy.webFont.url+'"></head><body><header class="site-header"><a data-language-switch href="'+(lang==='en'?'/':'/en/')+'"></a></header></body></html>';
  validatePagePair(html('ko'),html('en'),'/');

@@ -5,14 +5,30 @@
 - 정책: 6.7.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 0개
-- 배포 입력 해시: `45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503`
+- 변경 파일: 17개
+- 배포 입력 해시: `351631ee61ff667ada7bc2cf206af43abd1978b2930a8fff80eb2e88405ea7e3`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-
+- `AGENTS.md`
+- `content/editorial/why-research-hypotheses-2026-11-03.json`
+- `content/editorial/why-research-hypotheses-2026-11-03.md`
+- `content/i18n/en.json`
+- `content/presenter-notes.json`
+- `content/reading/manifest.json`
+- `content/reading/why-research-hypotheses-2026-11-03.md`
+- `content/web-assets.json`
+- `docs/PRESENTER-NOTES-CONTRACT.md`
+- `docs/UPLOAD-CONTRACT.md`
+- `docs/why-research-hypotheses-2026-11-03-provenance.json`
+- `docs/why-research-hypotheses-2026-11-03-publication.md`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/index.html`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source-web.html`
+- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source.html`
+- `scripts/publication-approval.ts`
+- `tests/publication-approval.test.ts`
 
 ## 확인할 결과
 

@@ -16,8 +16,14 @@ export function validateApproval(a:any,digest:string,review:any,now=Date.now()){
   a.decision.planTurnId==='01a16bc6-716a-7083-925c-4b79f5976ca3'&&
   a.decision.planTitle==='Pele Atlas 개편 — 대표 14종과 공개 연구 갤러리 연결'&&
   a.decision.at==='2026-10-24T02:41:50.000Z';
- const delegated=a.decision?.authorization==='publish-when-verified'&&(originalPeleRequest||researchersRequest)&&
-  a.decision.sessionId==='01a15c26-4e1d-7a12-89d8-79e6c6ec37b2'&&
+ // Owner's standing delegation (2026-11-02): every version that passes the release review and is bound to the current
+ // digest/reviewHash is published without a per-version confirmation. Revoked by removing this clause.
+ const standingOwnerDelegation=a.decision?.requestScope==='standing-owner-delegation'&&
+  a.decision.quote==='막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지\n업로드도 굳이 왜 내허락 일일히 받는거야?\n이건 당장 규약 고쳐'&&
+  a.decision.sessionId==='d84382cc-a386-4a0d-a01c-033cca6a0604'&&
+  a.decision.at==='2026-11-02T14:05:18.666Z';
+ const delegated=a.decision?.authorization==='publish-when-verified'&&
+  ((originalPeleRequest||researchersRequest)&&a.decision.sessionId==='01a15c26-4e1d-7a12-89d8-79e6c6ec37b2'||standingOwnerDelegation)&&
   Number.isFinite(Date.parse(a.boundAt))&&Date.parse(a.boundAt)>=Date.parse(review.reviewedAt)&&Date.parse(a.boundAt)<=now+60000;
  if(a.decision?.by!=='user'||typeof a.decision.quote!=='string'||a.decision.quote.trim().length<1||typeof a.decision.sessionId!=='string'||a.decision.sessionId.trim().length<8||!Number.isFinite(Date.parse(a.decision.at))||Date.parse(a.decision.at)>now+60000||(!delegated&&Date.parse(a.decision.at)<Date.parse(review.reviewedAt)))throw Error('사용자의 실제 확인 발언·세션·검토 이후 확인 또는 명시적 이번 게시 위임이 필요합니다.');
 }

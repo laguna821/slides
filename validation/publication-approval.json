@@ -3,18 +3,20 @@
   "status": "approved",
   "scope": "portfolio-production",
   "policyVersion": "6.7.0",
-  "digest": "45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503",
-  "reviewHash": "a3b74eec4e80b68a9f9a570f2c27c8297ba00be45e962ec2169a0e0678d4a61b",
+  "digest": "351631ee61ff667ada7bc2cf206af43abd1978b2930a8fff80eb2e88405ea7e3",
+  "reviewHash": "d0cf2218f8d9226a2915941755b7f6a9e4ad2b3aaa63066a946ba9173f4436b5",
+  "boundAt": "2026-11-02T14:24:11.268Z",
   "decision": {
     "by": "user",
-    "quote": "업로드",
-    "at": "2026-11-02T12:49:28.916Z",
-    "sessionId": "d84382cc-a386-4a0d-a01c-033cca6a0604"
+    "quote": "막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지\n업로드도 굳이 왜 내허락 일일히 받는거야?\n이건 당장 규약 고쳐",
+    "sessionId": "d84382cc-a386-4a0d-a01c-033cca6a0604",
+    "at": "2026-11-02T14:05:18.666Z",
+    "authorization": "publish-when-verified",
+    "requestScope": "standing-owner-delegation"
   },
   "preview": {
     "status": "not-deployed",
     "reason": "vercel.json deploymentEnabled limits Vercel deployments to main and two named branches; the release review ran on the same web-dist through npm run preview",
-    "sourceCommit": "a779553bce61d2a1bb7a57c9003d824edf205917",
-    "reviewedAt": "2026-11-02T12:11:23.937Z"
+    "reviewedAt": "2026-11-02T14:16:58.786Z"
   }
 }
