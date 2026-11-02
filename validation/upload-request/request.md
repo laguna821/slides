@@ -5,35 +5,14 @@
 - 정책: 6.7.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 22개
+- 변경 파일: 0개
 - 배포 입력 해시: `45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-- `content/editorial/why-research-hypotheses-2026-11-03.json`
-- `content/editorial/why-research-hypotheses-2026-11-03.md`
-- `content/i18n/en.json`
-- `content/presenter-notes.json`
-- `content/reading/manifest.json`
-- `content/reading/why-research-hypotheses-2026-11-03.md`
-- `content/site-policy.json`
-- `content/web-assets.json`
-- `content/web-source-only.json`
-- `content/works.json`
-- `docs/SITE-CONTRACT.md`
-- `docs/why-research-hypotheses-2026-11-03-provenance.json`
-- `docs/why-research-hypotheses-2026-11-03-publication.md`
-- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/index.html`
-- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source-web.html`
-- `public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source.html`
-- `public/images/why-research-hypotheses-2026-11-03.png`
-- `scripts/complete-hypothesis-english.ts`
-- `scripts/finalize-hypothesis-review.ts`
-- `scripts/register-hypothesis-lecture.ts`
-- `src/styles/global.css`
-- `vercel.json`
+
 
 ## 확인할 결과
 
