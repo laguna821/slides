@@ -2,8 +2,8 @@
   "version": 1,
   "status": "awaiting-user-confirmation",
   "policyVersion": "6.7.0",
-  "digest": "7a889e630a94d4e43d0a140de9179819edaa8ca3cd495d615ee27ef1b9d00e02",
-  "reviewHash": "280a3db05cc503a0d405a42c54b2f50d02023ad3168f7a3d09db09bf59863ba8",
+  "digest": "45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503",
+  "reviewHash": "a3b74eec4e80b68a9f9a570f2c27c8297ba00be45e962ec2169a0e0678d4a61b",
   "baselineCommit": "3ecfc30a37a5c4c60f460730919a3102b221e88b",
   "changedFiles": [
     "content/editorial/why-research-hypotheses-2026-11-03.json",

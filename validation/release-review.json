@@ -19,9 +19,9 @@
     },
     {
       "route": "/",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -38,17 +38,8 @@
     {
       "route": "/",
       "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 375,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -65,51 +56,6 @@
     {
       "route": "/404.html",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
@@ -117,16 +63,7 @@
       "brokenImages": []
     },
     {
-      "route": "/about/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
+      "route": "/404.html",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -135,7 +72,25 @@
       "brokenImages": []
     },
     {
-      "route": "/about/",
+      "route": "/404.html",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -144,25 +99,70 @@
       "brokenImages": []
     },
     {
-      "route": "/about/",
+      "route": "/404.html",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/about/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/about/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -173,18 +173,18 @@
     {
       "route": "/archive/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/archive/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -207,15 +207,6 @@
       "brokenImages": []
     },
     {
-      "route": "/brand/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/archive/",
       "width": 1440,
       "theme": "dark",
@@ -227,6 +218,15 @@
     {
       "route": "/brand/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/brand/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -238,6 +238,15 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/brand/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -254,26 +263,8 @@
     {
       "route": "/brand/",
       "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/brand/",
-      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -289,9 +280,9 @@
     },
     {
       "route": "/courses/",
-      "width": 768,
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -302,6 +293,15 @@
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -432,6 +432,24 @@
       "brokenImages": []
     },
     {
+      "route": "/en/404.html",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/en/",
       "width": 1440,
       "theme": "dark",
@@ -442,18 +460,9 @@
     },
     {
       "route": "/en/404.html",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -478,27 +487,9 @@
     },
     {
       "route": "/en/404.html",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/about/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -514,6 +505,15 @@
     },
     {
       "route": "/en/about/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/about/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -523,18 +523,18 @@
     },
     {
       "route": "/en/about/",
-      "width": 1440,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/about/",
-      "width": 768,
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -581,6 +581,15 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -608,15 +617,6 @@
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -643,15 +643,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -668,6 +659,24 @@
     {
       "route": "/en/courses/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -680,15 +689,6 @@
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -767,18 +767,18 @@
     {
       "route": "/en/motion/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/motion/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -788,15 +788,6 @@
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -810,24 +801,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/before-the-first-note/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/before-the-first-note/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/motion/",
       "width": 1440,
       "theme": "dark",
@@ -837,6 +810,42 @@
       "brokenImages": []
     },
     {
+      "route": "/en/motion/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/before-the-first-note/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/before-the-first-note/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/before-the-first-note/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/en/motion/before-the-first-note/",
       "width": 768,
       "theme": "dark",
@@ -847,10 +856,10 @@
     },
     {
       "route": "/en/motion/before-the-first-note/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -866,15 +875,6 @@
     {
       "route": "/en/motion/before-the-first-note/embed/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/before-the-first-note/embed/",
-      "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -882,18 +882,9 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/before-the-first-note/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/motion/before-the-first-note/embed/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -901,8 +892,17 @@
     },
     {
       "route": "/en/motion/before-the-first-note/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/before-the-first-note/embed/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -929,27 +929,18 @@
     {
       "route": "/en/motion/book/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/motion/book/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/book/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -959,6 +950,15 @@
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/book/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -968,15 +968,6 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/book/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -992,6 +983,15 @@
     {
       "route": "/en/motion/book/embed/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/book/embed/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -1026,24 +1026,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/city/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/city/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/motion/book/embed/",
       "width": 1440,
       "theme": "dark",
@@ -1054,6 +1036,33 @@
     },
     {
       "route": "/en/motion/city/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/city/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/city/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/city/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -1072,36 +1081,27 @@
     },
     {
       "route": "/en/motion/city/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/city/embed/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/city/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/city/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/city/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/city/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1126,18 +1126,18 @@
     },
     {
       "route": "/en/motion/city/embed/",
-      "width": 768,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/motion/city/embed/",
-      "width": 1440,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1147,6 +1147,15 @@
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/flight/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -1171,9 +1180,9 @@
     },
     {
       "route": "/en/motion/flight/",
-      "width": 768,
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -1181,9 +1190,9 @@
     {
       "route": "/en/motion/flight/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -1192,15 +1201,6 @@
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/flight/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1253,15 +1253,6 @@
     {
       "route": "/en/motion/grandeur/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/grandeur/",
-      "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
@@ -1279,24 +1270,6 @@
     },
     {
       "route": "/en/motion/grandeur/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/grandeur/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/grandeur/embed/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -1307,8 +1280,35 @@
     {
       "route": "/en/motion/grandeur/",
       "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/grandeur/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/grandeur/",
+      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/grandeur/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1324,9 +1324,9 @@
     },
     {
       "route": "/en/motion/grandeur/embed/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1345,24 +1345,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/light-memory/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/light-memory/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1378,10 +1360,37 @@
     },
     {
       "route": "/en/motion/light-memory/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/light-memory/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/light-memory/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/light-memory/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -1396,15 +1405,6 @@
     },
     {
       "route": "/en/motion/light-memory/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/light-memory/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -1423,6 +1423,15 @@
     },
     {
       "route": "/en/motion/light-memory/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/light-memory/embed/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -1433,7 +1442,7 @@
     {
       "route": "/en/motion/light-memory/embed/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -1441,9 +1450,9 @@
     },
     {
       "route": "/en/motion/light-memory/embed/",
-      "width": 768,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1467,11 +1476,11 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/light-memory/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
+      "route": "/en/motion/meal/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -1479,6 +1488,24 @@
       "route": "/en/motion/meal/",
       "width": 375,
       "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/meal/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/meal/embed/",
+      "width": 375,
+      "theme": "light",
       "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
@@ -1495,45 +1522,18 @@
     },
     {
       "route": "/en/motion/meal/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/meal/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/meal/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/meal/embed/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/meal/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/meal/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1561,15 +1561,6 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/pedal/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1586,8 +1577,26 @@
     {
       "route": "/en/motion/pedal/",
       "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/pedal/",
+      "width": 375,
       "theme": "light",
       "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/pedal/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -1607,15 +1616,6 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/pedal/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -1623,15 +1623,6 @@
       "route": "/en/motion/pedal/embed/",
       "width": 375,
       "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/pedal/embed/",
-      "width": 375,
-      "theme": "light",
       "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
@@ -1648,9 +1639,18 @@
     },
     {
       "route": "/en/motion/pedal/embed/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/pedal/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1666,9 +1666,9 @@
     },
     {
       "route": "/en/motion/pedal/embed/",
-      "width": 1440,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1703,18 +1703,18 @@
     {
       "route": "/en/motion/racing/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/motion/racing/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -1757,15 +1757,6 @@
     {
       "route": "/en/motion/racing/embed/",
       "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/racing/embed/",
-      "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "dark",
@@ -1777,6 +1768,24 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/racing/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/tailoring-director/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1791,15 +1800,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/tailoring-director/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/motion/racing/embed/",
       "width": 1440,
       "theme": "dark",
@@ -1836,10 +1836,10 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/tailoring-director/",
-      "width": 1440,
+      "route": "/en/motion/tailoring-director/embed/",
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1854,10 +1854,10 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/tailoring-director/embed/",
-      "width": 375,
+      "route": "/en/motion/tailoring-director/",
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1901,6 +1901,15 @@
     {
       "route": "/en/motion/water/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/water/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -1909,10 +1918,19 @@
     },
     {
       "route": "/en/motion/water/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/water/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -1922,33 +1940,6 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/water/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/water/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/water/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -1972,9 +1963,18 @@
     },
     {
       "route": "/en/motion/water/embed/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/water/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -1990,9 +1990,9 @@
     },
     {
       "route": "/en/motion/water/embed/",
-      "width": 1440,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2008,10 +2008,10 @@
     },
     {
       "route": "/en/posters/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -2038,6 +2038,15 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/posters/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2061,19 +2070,19 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/achmage-sametone/",
-      "width": 768,
+      "route": "/en/posters/",
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/en/posters/",
-      "width": 375,
+      "route": "/en/talks/achmage-sametone/",
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2108,17 +2117,8 @@
     {
       "route": "/en/talks/ai-reading-pilot/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/posters/",
-      "width": 768,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2126,8 +2126,26 @@
     {
       "route": "/en/talks/ai-reading-pilot/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/ai-reading-pilot/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/ai-reading-pilot/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2137,24 +2155,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/ai-reading-pilot/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/ai-reading-pilot/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2278,19 +2278,28 @@
     },
     {
       "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -2299,24 +2308,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/human-reading-writing-2026/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2333,6 +2324,15 @@
     {
       "route": "/en/talks/human-reading-writing-2026/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/human-reading-writing-2026/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -2395,15 +2395,6 @@
     },
     {
       "route": "/en/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/human-reading-writing-2026/read/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -2413,6 +2404,15 @@
     },
     {
       "route": "/en/talks/human-reading-writing-2026/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/human-reading-writing-2026/read/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -2485,15 +2485,6 @@
     },
     {
       "route": "/en/talks/human-reading-writing-2026/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/media-colloquium-2026-06-10/read/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -2538,11 +2529,20 @@
       "brokenImages": []
     },
     {
+      "route": "/en/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/en/talks/pele-atlas/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -2575,24 +2575,15 @@
     },
     {
       "route": "/en/talks/pele-atlas/",
-      "width": 375,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-atlas/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-atlas/explore/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -2602,9 +2593,9 @@
     },
     {
       "route": "/en/talks/pele-atlas/explore/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -2621,8 +2612,26 @@
     {
       "route": "/en/talks/pele-atlas/explore/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-atlas/explore/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-atlas/explore/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2637,11 +2646,20 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-atlas/explore/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
+      "route": "/en/talks/pele-social-science/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -2657,6 +2675,42 @@
     {
       "route": "/en/talks/pele-social-science/",
       "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/",
+      "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
@@ -2664,11 +2718,11 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
+      "route": "/en/talks/pele-social-science/code/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -2682,69 +2736,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/talks/pele-social-science/code/",
       "width": 1440,
       "theme": "light",
@@ -2755,15 +2746,6 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/anova-classic/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -2774,9 +2756,9 @@
     {
       "route": "/en/talks/pele-social-science/code/anova-classic/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -2794,6 +2776,15 @@
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/anova-classic/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2845,6 +2836,15 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/anova-welch/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/anova-welch/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -2855,15 +2855,6 @@
     {
       "route": "/en/talks/pele-social-science/code/anova-welch/",
       "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/anova-welch/",
-      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
@@ -2891,8 +2882,26 @@
     {
       "route": "/en/talks/pele-social-science/code/chi3/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi3/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi3/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2907,19 +2916,19 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/code/chi3/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "route": "/en/talks/pele-social-science/code/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/code/chi3/",
-      "width": 1440,
+      "route": "/en/talks/pele-social-science/code/chi7/",
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -2935,37 +2944,19 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/chi7/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/chi7/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/chi7/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/chi7/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi7/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -2999,24 +2990,6 @@
     {
       "route": "/en/talks/pele-social-science/code/helpers/",
       "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/helpers/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/helpers/",
-      "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
@@ -3026,9 +2999,36 @@
     {
       "route": "/en/talks/pele-social-science/code/helpers/",
       "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/helpers/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/helpers/",
+      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/chi7/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3052,15 +3052,6 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/med-delta/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/med-delta/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -3071,18 +3062,18 @@
     {
       "route": "/en/talks/pele-social-science/code/med-delta/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-social-science/code/med-delta/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3106,18 +3097,18 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/med-mc/",
-      "width": 768,
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-social-science/code/med-mc/",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3136,6 +3127,24 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/med-delta/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/mod-classic/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3160,10 +3169,10 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/mod-classic/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3188,36 +3197,18 @@
     {
       "route": "/en/talks/pele-social-science/code/mod-hc3/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/mod-classic/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-social-science/code/mod-hc3/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/mod-hc3/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3232,9 +3223,9 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/mod-hc3/",
-      "width": 1440,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3245,6 +3236,15 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/mod-hc3/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3322,15 +3322,6 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/pearson/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/pearson/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -3349,6 +3340,15 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/pearson/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/pearson/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -3376,15 +3376,6 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/reg-hc3/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/reg-hc3/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -3394,9 +3385,9 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/reg-hc3/",
-      "width": 768,
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -3407,6 +3398,15 @@
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/reg-hc3/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3431,18 +3431,18 @@
     {
       "route": "/en/talks/pele-social-science/code/reg-ols/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-social-science/code/reg-ols/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3475,18 +3475,18 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/sem-full/",
-      "width": 768,
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/pele-social-science/code/sem-full/",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3519,15 +3519,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/code/sem-reduced/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/talks/pele-social-science/code/sem-full/",
       "width": 1440,
       "theme": "dark",
@@ -3538,10 +3529,10 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/sem-reduced/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3551,6 +3542,15 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/sem-reduced/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3573,15 +3573,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/code/spearman/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/talks/pele-social-science/code/sem-reduced/",
       "width": 1440,
       "theme": "dark",
@@ -3592,10 +3583,10 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/spearman/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3605,6 +3596,15 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/spearman/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3637,10 +3637,28 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/two-classic/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/two-classic/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/two-classic/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3656,18 +3674,18 @@
     {
       "route": "/en/talks/pele-social-science/code/two-classic/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/en/talks/pele-social-science/code/two-classic/",
+      "route": "/en/talks/pele-social-science/code/two-hc3/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3677,24 +3695,6 @@
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/two-classic/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/two-hc3/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3754,10 +3754,10 @@
     },
     {
       "route": "/en/talks/pele-social-science/code/welch/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3766,15 +3766,6 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/pele-social-science/code/welch/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -3791,6 +3782,15 @@
     {
       "route": "/en/talks/still-working-on-my-topic-2026-10-20/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/pele-social-science/code/welch/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -3800,9 +3800,9 @@
     {
       "route": "/en/talks/still-working-on-my-topic-2026-10-20/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3839,15 +3839,6 @@
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -3908,26 +3899,17 @@
     {
       "route": "/en/talks/survey-scale-intro-2026-10-13/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/survey-scale-intro-2026-10-13/",
       "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/",
-      "width": 1440,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3942,10 +3924,10 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 375,
+      "route": "/en/talks/survey-scale-intro-2026-10-13/",
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -3961,6 +3943,15 @@
     },
     {
       "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -3983,6 +3974,15 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -3996,64 +3996,55 @@
       "brokenImages": []
     },
     {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 1440,
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/why-research-hypotheses-2026-11-03/",
-      "width": 375,
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -4069,10 +4060,10 @@
     },
     {
       "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -4091,6 +4082,15 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -4100,24 +4100,6 @@
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -4167,10 +4149,28 @@
       "brokenImages": []
     },
     {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/experiments/pkm-poster-2026/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-poster-2026/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -4195,9 +4195,9 @@
     },
     {
       "route": "/experiments/pkm-poster-2026/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -4205,15 +4205,6 @@
     {
       "route": "/experiments/pkm-poster-2026/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-speaker-posters-2026/",
-      "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
@@ -4224,6 +4215,15 @@
       "route": "/experiments/pkm-speaker-posters-2026/",
       "width": 375,
       "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/experiments/pkm-speaker-posters-2026/",
+      "width": 375,
+      "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
@@ -4250,7 +4250,7 @@
     {
       "route": "/experiments/pkm-speaker-posters-2026/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
@@ -4259,26 +4259,8 @@
     {
       "route": "/experiments/pkm-speaker-posters-2026/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -4289,6 +4271,15 @@
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -4330,15 +4321,6 @@
     },
     {
       "route": "/motion/before-the-first-note/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/before-the-first-note/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -4349,6 +4331,15 @@
     {
       "route": "/motion/before-the-first-note/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/before-the-first-note/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
@@ -4359,15 +4350,6 @@
       "route": "/motion/before-the-first-note/",
       "width": 1440,
       "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/experiments/pkm-poster-2026/",
-      "width": 1440,
-      "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
@@ -4383,6 +4365,24 @@
       "brokenImages": []
     },
     {
+      "route": "/motion/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/before-the-first-note/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/motion/before-the-first-note/embed/",
       "width": 375,
       "theme": "light",
@@ -4394,7 +4394,7 @@
     {
       "route": "/motion/before-the-first-note/embed/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -4402,17 +4402,8 @@
     },
     {
       "route": "/motion/before-the-first-note/embed/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/before-the-first-note/embed/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -4423,6 +4414,24 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/before-the-first-note/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4437,29 +4446,20 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/before-the-first-note/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/book/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/motion/book/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -4491,15 +4491,6 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/book/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/book/embed/",
       "width": 375,
       "theme": "dark",
@@ -4520,15 +4511,6 @@
     {
       "route": "/motion/book/embed/",
       "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/book/embed/",
-      "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "dark",
@@ -4541,6 +4523,24 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/book/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -4555,9 +4555,9 @@
     },
     {
       "route": "/motion/city/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -4599,15 +4599,6 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/city/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/city/embed/",
       "width": 375,
       "theme": "dark",
@@ -4621,15 +4612,6 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/city/embed/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4654,6 +4636,33 @@
     },
     {
       "route": "/motion/flight/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/city/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/flight/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -4663,18 +4672,9 @@
     },
     {
       "route": "/motion/flight/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/",
-      "width": 375,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4689,10 +4689,10 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/flight/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
+      "route": "/motion/flight/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4717,15 +4717,6 @@
     },
     {
       "route": "/motion/flight/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/flight/embed/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -4752,6 +4743,15 @@
       "brokenImages": []
     },
     {
+      "route": "/motion/grandeur/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/motion/flight/embed/",
       "width": 1440,
       "theme": "dark",
@@ -4762,28 +4762,19 @@
     },
     {
       "route": "/motion/grandeur/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -4806,10 +4797,28 @@
       "brokenImages": []
     },
     {
+      "route": "/motion/grandeur/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/motion/grandeur/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/grandeur/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4825,18 +4834,9 @@
     },
     {
       "route": "/motion/grandeur/embed/",
-      "width": 375,
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4846,15 +4846,6 @@
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/grandeur/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4897,9 +4888,27 @@
     },
     {
       "route": "/motion/light-memory/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/light-memory/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/light-memory/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -4907,24 +4916,6 @@
     {
       "route": "/motion/light-memory/",
       "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/light-memory/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/light-memory/",
-      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
@@ -4951,18 +4942,18 @@
     },
     {
       "route": "/motion/light-memory/embed/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/motion/light-memory/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -5005,15 +4996,6 @@
     },
     {
       "route": "/motion/meal/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/meal/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -5031,6 +5013,15 @@
       "brokenImages": []
     },
     {
+      "route": "/motion/meal/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/motion/meal/embed/",
       "width": 375,
       "theme": "dark",
@@ -5051,7 +5042,7 @@
     {
       "route": "/motion/meal/embed/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -5060,7 +5051,7 @@
     {
       "route": "/motion/meal/embed/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
@@ -5095,6 +5086,24 @@
     },
     {
       "route": "/motion/pedal/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -5104,36 +5113,9 @@
     },
     {
       "route": "/motion/pedal/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -5158,6 +5140,24 @@
     },
     {
       "route": "/motion/pedal/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/pedal/embed/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -5167,17 +5167,8 @@
     },
     {
       "route": "/motion/pedal/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/pedal/embed/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
@@ -5186,7 +5177,7 @@
     {
       "route": "/motion/pedal/embed/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
@@ -5203,15 +5194,6 @@
     },
     {
       "route": "/motion/racing/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/racing/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -5229,19 +5211,10 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/racing/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/racing/",
-      "width": 1440,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -5256,6 +5229,24 @@
       "brokenImages": []
     },
     {
+      "route": "/motion/racing/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/racing/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/motion/racing/embed/",
       "width": 375,
       "theme": "dark",
@@ -5285,7 +5276,7 @@
     {
       "route": "/motion/racing/embed/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
@@ -5294,7 +5285,7 @@
     {
       "route": "/motion/racing/embed/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
@@ -5383,6 +5374,15 @@
     },
     {
       "route": "/motion/tailoring-director/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/tailoring-director/embed/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -5409,24 +5409,6 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/tailoring-director/embed/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/water/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/water/",
       "width": 768,
       "theme": "light",
@@ -5437,6 +5419,15 @@
     },
     {
       "route": "/motion/water/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -5445,10 +5436,10 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/water/embed/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
+      "route": "/motion/water/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -5463,19 +5454,10 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/water/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/water/embed/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -5492,6 +5474,15 @@
     {
       "route": "/motion/water/embed/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/water/embed/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
@@ -5519,23 +5510,15 @@
     {
       "route": "/pele/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -5550,6 +5533,14 @@
     },
     {
       "route": "/pele/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -5583,7 +5574,7 @@
     {
       "route": "/pele/about/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -5598,25 +5589,33 @@
     },
     {
       "route": "/pele/about/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/coverage/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/about/",
-      "width": 768,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/coverage/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/coverage/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -5630,14 +5629,6 @@
     },
     {
       "route": "/pele/coverage/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/coverage/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -5653,6 +5644,14 @@
       "brokenImages": []
     },
     {
+      "route": "/pele/diagrams/agentflow/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/pele/coverage/",
       "width": 1440,
       "theme": "dark",
@@ -5662,9 +5661,9 @@
     },
     {
       "route": "/pele/diagrams/agentflow/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -5673,14 +5672,6 @@
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/agentflow/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -5697,14 +5688,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/architecture/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -5726,6 +5709,14 @@
     },
     {
       "route": "/pele/diagrams/architecture/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/architecture/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -5775,23 +5766,15 @@
     {
       "route": "/pele/diagrams/block/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/block/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/block/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -5805,6 +5788,14 @@
       "brokenImages": []
     },
     {
+      "route": "/pele/diagrams/block/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/pele/diagrams/c4/",
       "width": 375,
       "theme": "light",
@@ -5839,32 +5830,32 @@
     {
       "route": "/pele/diagrams/c4/",
       "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/class/",
-      "width": 375,
       "theme": "light",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/class/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/c4/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/class/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/class/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -5878,14 +5869,6 @@
     },
     {
       "route": "/pele/diagrams/class/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/class/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -5897,6 +5880,22 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/class/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/cynefin/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -5910,16 +5909,16 @@
     },
     {
       "route": "/pele/diagrams/cynefin/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/cynefin/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -5949,14 +5948,6 @@
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/cynefin/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/pele/diagrams/er/",
       "width": 375,
       "theme": "dark",
@@ -5977,6 +5968,14 @@
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/er/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -5998,6 +5997,14 @@
     },
     {
       "route": "/pele/diagrams/eventmodeling/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/eventmodeling/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -6005,7 +6012,15 @@
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/er/",
+      "route": "/pele/diagrams/eventmodeling/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/eventmodeling/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -6014,25 +6029,9 @@
     },
     {
       "route": "/pele/diagrams/eventmodeling/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/eventmodeling/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/eventmodeling/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -6045,14 +6044,6 @@
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/eventmodeling/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/pele/diagrams/flowchart/",
       "width": 375,
       "theme": "dark",
@@ -6070,17 +6061,17 @@
     },
     {
       "route": "/pele/diagrams/flowchart/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/flowchart/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -6118,14 +6109,6 @@
     },
     {
       "route": "/pele/diagrams/gantt/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/gantt/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -6135,6 +6118,14 @@
     {
       "route": "/pele/diagrams/gantt/",
       "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/gantt/",
+      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
@@ -6150,17 +6141,17 @@
     },
     {
       "route": "/pele/diagrams/gitGraph/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/gitGraph/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -6198,14 +6189,6 @@
     },
     {
       "route": "/pele/diagrams/interval/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/interval/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -6215,16 +6198,16 @@
     {
       "route": "/pele/diagrams/interval/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/ishikawa/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
+      "route": "/pele/diagrams/interval/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -6233,22 +6216,6 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/ishikawa/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/ishikawa/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -6262,6 +6229,30 @@
     },
     {
       "route": "/pele/diagrams/ishikawa/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/ishikawa/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/ishikawa/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/ishikawa/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -6294,6 +6285,14 @@
     },
     {
       "route": "/pele/diagrams/journey/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/journey/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -6304,14 +6303,6 @@
       "route": "/pele/diagrams/journey/",
       "width": 768,
       "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/journey/",
-      "width": 768,
-      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6321,14 +6312,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/kanban/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -6351,6 +6334,31 @@
     {
       "route": "/pele/diagrams/kanban/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/kanban/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/kanban/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
@@ -6358,16 +6366,8 @@
     },
     {
       "route": "/pele/diagrams/kanban/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/kanban/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -6375,7 +6375,7 @@
     {
       "route": "/pele/diagrams/kanban/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -6398,14 +6398,6 @@
     },
     {
       "route": "/pele/diagrams/likert/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/likert/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -6414,9 +6406,9 @@
     },
     {
       "route": "/pele/diagrams/likert/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -6431,8 +6423,16 @@
     {
       "route": "/pele/diagrams/matrix/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/likert/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -6447,7 +6447,7 @@
     {
       "route": "/pele/diagrams/matrix/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6486,6 +6486,14 @@
     },
     {
       "route": "/pele/diagrams/mindmap/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/mindmap/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -6495,7 +6503,7 @@
     {
       "route": "/pele/diagrams/mindmap/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6505,14 +6513,6 @@
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/mindmap/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -6543,7 +6543,7 @@
     {
       "route": "/pele/diagrams/packet/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6551,7 +6551,7 @@
     {
       "route": "/pele/diagrams/packet/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6646,14 +6646,6 @@
     },
     {
       "route": "/pele/diagrams/pie/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/pie/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -6709,6 +6701,14 @@
       "brokenImages": []
     },
     {
+      "route": "/pele/diagrams/pie/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/pele/diagrams/quadrantChart/",
       "width": 1440,
       "theme": "dark",
@@ -6719,7 +6719,7 @@
     {
       "route": "/pele/diagrams/radar/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6727,24 +6727,8 @@
     {
       "route": "/pele/diagrams/radar/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/radar/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/radar/",
-      "width": 1440,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -6759,6 +6743,22 @@
     {
       "route": "/pele/diagrams/radar/",
       "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/radar/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/radar/",
+      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
@@ -6767,7 +6767,7 @@
     {
       "route": "/pele/diagrams/railroad/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6775,7 +6775,7 @@
     {
       "route": "/pele/diagrams/railroad/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6784,14 +6784,6 @@
       "route": "/pele/diagrams/railroad/",
       "width": 768,
       "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/railroad/",
-      "width": 768,
-      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6806,6 +6798,14 @@
     },
     {
       "route": "/pele/diagrams/railroad/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/railroad/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -6815,7 +6815,7 @@
     {
       "route": "/pele/diagrams/requirement/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6823,7 +6823,7 @@
     {
       "route": "/pele/diagrams/requirement/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6832,6 +6832,14 @@
       "route": "/pele/diagrams/requirement/",
       "width": 768,
       "theme": "light",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/requirement/",
+      "width": 768,
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6846,22 +6854,6 @@
     },
     {
       "route": "/pele/diagrams/requirement/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/sankey/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/requirement/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -6871,7 +6863,7 @@
     {
       "route": "/pele/diagrams/sankey/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -6881,6 +6873,14 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/sankey/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -6896,6 +6896,14 @@
       "route": "/pele/diagrams/sankey/",
       "width": 1440,
       "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/sankey/",
+      "width": 1440,
+      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -6909,14 +6917,6 @@
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/sankey/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/pele/diagrams/scatter/",
       "width": 375,
       "theme": "dark",
@@ -6928,14 +6928,6 @@
       "route": "/pele/diagrams/scatter/",
       "width": 768,
       "theme": "light",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/scatter/",
-      "width": 768,
-      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -6973,6 +6965,14 @@
       "brokenImages": []
     },
     {
+      "route": "/pele/diagrams/scatter/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/pele/diagrams/sequence/",
       "width": 768,
       "theme": "light",
@@ -6982,24 +6982,24 @@
     },
     {
       "route": "/pele/diagrams/sequence/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/sequence/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/sequence/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/sequence/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -7022,14 +7022,6 @@
     },
     {
       "route": "/pele/diagrams/spatial/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/spatial/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -7038,16 +7030,16 @@
     },
     {
       "route": "/pele/diagrams/spatial/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/diagrams/spatial/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -7057,6 +7049,14 @@
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/spatial/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -7103,7 +7103,7 @@
     {
       "route": "/pele/diagrams/swimlane/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -7111,7 +7111,7 @@
     {
       "route": "/pele/diagrams/swimlane/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -7136,14 +7136,6 @@
       "route": "/pele/diagrams/swimlane/",
       "width": 1440,
       "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/swimlane/",
-      "width": 1440,
-      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -7167,7 +7159,7 @@
     {
       "route": "/pele/diagrams/timeline/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -7175,7 +7167,7 @@
     {
       "route": "/pele/diagrams/timeline/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -7184,6 +7176,14 @@
       "route": "/pele/diagrams/timeline/",
       "width": 1440,
       "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/swimlane/",
+      "width": 1440,
+      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -7199,14 +7199,6 @@
     {
       "route": "/pele/diagrams/treeView/",
       "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/treeView/",
-      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "overflow": false,
@@ -7217,6 +7209,14 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/treeView/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
     },
@@ -7263,7 +7263,7 @@
     {
       "route": "/pele/diagrams/treemap/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -7271,16 +7271,8 @@
     {
       "route": "/pele/diagrams/treemap/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/treemap/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -7313,6 +7305,14 @@
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/treemap/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -7391,14 +7391,6 @@
     {
       "route": "/pele/diagrams/wardley/",
       "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/wardley/",
-      "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "overflow": false,
@@ -7406,6 +7398,14 @@
     },
     {
       "route": "/pele/diagrams/wardley/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/wardley/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -7462,14 +7462,6 @@
     },
     {
       "route": "/pele/diagrams/waterfall/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/waterfall/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -7479,16 +7471,16 @@
     {
       "route": "/pele/diagrams/waterfall/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/pele/diagrams/xychart/",
-      "width": 375,
+      "route": "/pele/diagrams/waterfall/",
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
@@ -7510,6 +7502,14 @@
     },
     {
       "route": "/pele/diagrams/xychart/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/xychart/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -7520,14 +7520,6 @@
       "route": "/pele/diagrams/xychart/",
       "width": 1440,
       "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/diagrams/xychart/",
-      "width": 1440,
-      "theme": "dark",
       "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
@@ -7551,15 +7543,23 @@
     {
       "route": "/pele/documents/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/diagrams/xychart/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/pele/documents/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
@@ -7573,14 +7573,6 @@
       "brokenImages": []
     },
     {
-      "route": "/pele/documents/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/pele/qa/",
       "width": 375,
       "theme": "dark",
@@ -7597,6 +7589,14 @@
       "brokenImages": []
     },
     {
+      "route": "/pele/documents/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/pele/qa/",
       "width": 768,
       "theme": "dark",
@@ -7625,6 +7625,24 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/visual/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/visual/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -7639,24 +7657,6 @@
     },
     {
       "route": "/pele/visual/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/visual/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/visual/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
@@ -7667,7 +7667,7 @@
     {
       "route": "/pele/visual/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
@@ -7676,7 +7676,7 @@
     {
       "route": "/pele/visual/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
@@ -7685,7 +7685,7 @@
     {
       "route": "/pele/workbench/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
       "overflow": false,
       "brokenImages": []
@@ -7693,16 +7693,8 @@
     {
       "route": "/pele/workbench/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/pele/workbench/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
@@ -7742,18 +7734,26 @@
     {
       "route": "/posters/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/pele/workbench/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/posters/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -7785,10 +7785,10 @@
       "brokenImages": []
     },
     {
-      "route": "/posters/",
-      "width": 375,
+      "route": "/talks/achmage-sametone/",
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -7796,9 +7796,9 @@
     {
       "route": "/talks/achmage-sametone/",
       "width": 768,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -7848,15 +7848,6 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/achmage-sametone/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/talks/ai-reading-pilot/",
       "width": 768,
       "theme": "dark",
@@ -7866,10 +7857,10 @@
       "brokenImages": []
     },
     {
-      "route": "/posters/",
-      "width": 768,
+      "route": "/talks/ai-reading-pilot/",
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -7929,6 +7920,15 @@
       "brokenImages": []
     },
     {
+      "route": "/posters/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/ai-reading-pilot/read/",
       "width": 1440,
       "theme": "dark",
@@ -7938,29 +7938,20 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/ai-reading-pilot/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -7984,36 +7975,27 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
       "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 768,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8029,9 +8011,9 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 1440,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8047,18 +8029,9 @@
     },
     {
       "route": "/talks/educational-harness-workshop-2026-07-06/read/",
-      "width": 375,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8068,6 +8041,24 @@
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/human-reading-writing-2026/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8084,15 +8075,6 @@
     {
       "route": "/talks/human-reading-writing-2026/",
       "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/",
-      "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
@@ -8101,9 +8083,18 @@
     },
     {
       "route": "/talks/human-reading-writing-2026/",
-      "width": 768,
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/educational-harness-workshop-2026-07-06/read/",
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8137,15 +8128,6 @@
     },
     {
       "route": "/talks/human-reading-writing-2026/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/human-reading-writing-2026/read/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -8164,9 +8146,9 @@
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8177,6 +8159,15 @@
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -8200,15 +8191,6 @@
     },
     {
       "route": "/talks/media-colloquium-2026-06-10/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/media-colloquium-2026-06-10/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -8217,7 +8199,7 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "route": "/talks/human-reading-writing-2026/read/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -8226,11 +8208,11 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
+      "route": "/posters/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -8240,6 +8222,15 @@
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -8272,15 +8263,15 @@
     },
     {
       "route": "/talks/pele-atlas/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "route": "/talks/pele-atlas/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -8300,17 +8291,17 @@
     {
       "route": "/talks/pele-atlas/",
       "width": 1440,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 1440,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/pele-atlas/",
-      "width": 375,
+      "width": 1440,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8380,15 +8371,6 @@
     },
     {
       "route": "/talks/pele-social-science/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -8399,6 +8381,15 @@
     {
       "route": "/talks/pele-social-science/",
       "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/",
+      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
@@ -8424,10 +8415,10 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-atlas/",
-      "width": 1440,
+      "route": "/talks/pele-social-science/code/",
+      "width": 375,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8444,18 +8435,18 @@
     {
       "route": "/talks/pele-social-science/code/",
       "width": 768,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 768,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/pele-social-science/code/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -8478,28 +8469,10 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-social-science/code/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/talks/pele-social-science/code/anova-classic/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/anova-classic/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8510,6 +8483,15 @@
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/anova-classic/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -8551,15 +8533,6 @@
     },
     {
       "route": "/talks/pele-social-science/code/anova-welch/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/anova-welch/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -8569,9 +8542,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/anova-welch/",
-      "width": 1440,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8588,6 +8561,15 @@
     {
       "route": "/talks/pele-social-science/code/anova-welch/",
       "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/anova-welch/",
+      "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
       "actualTheme": "dark",
@@ -8596,9 +8578,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/chi3/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8614,9 +8596,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/chi3/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -8651,6 +8633,15 @@
     {
       "route": "/talks/pele-social-science/code/chi7/",
       "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/chi7/",
+      "width": 375,
       "theme": "dark",
       "actualWidth": 375,
       "actualTheme": "dark",
@@ -8668,10 +8659,10 @@
     },
     {
       "route": "/talks/pele-social-science/code/chi7/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -8681,15 +8672,6 @@
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/chi7/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -8723,15 +8705,6 @@
     {
       "route": "/talks/pele-social-science/code/helpers/",
       "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/helpers/",
-      "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
@@ -8740,6 +8713,15 @@
     },
     {
       "route": "/talks/pele-social-science/code/helpers/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/helpers/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -8757,6 +8739,15 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/pele-social-science/code/med-delta/",
       "width": 375,
       "theme": "light",
@@ -8767,10 +8758,10 @@
     },
     {
       "route": "/talks/pele-social-science/code/med-delta/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -8802,37 +8793,91 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/pele-social-science/code/med-delta/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/med-mc/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/med-mc/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/med-mc/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/media-colloquium-2026-06-10/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-classic/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-classic/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-classic/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/mod-classic/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8840,72 +8885,9 @@
     {
       "route": "/talks/pele-social-science/code/med-mc/",
       "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/med-mc/",
-      "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/med-mc/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-classic/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-classic/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-classic/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-classic/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-classic/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -8939,15 +8921,6 @@
     {
       "route": "/talks/pele-social-science/code/mod-hc3/",
       "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/mod-hc3/",
-      "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
@@ -8956,9 +8929,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/mod-hc3/",
-      "width": 1440,
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -8973,6 +8946,15 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/pele-social-science/code/mod-hc3/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/pele-social-science/code/paired/",
       "width": 375,
       "theme": "light",
@@ -8983,18 +8965,27 @@
     },
     {
       "route": "/talks/pele-social-science/code/paired/",
-      "width": 768,
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/pele-social-science/code/paired/",
-      "width": 375,
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/paired/",
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9009,11 +9000,11 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-social-science/code/paired/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "route": "/talks/pele-social-science/code/med-mc/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -9037,9 +9028,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/pearson/",
-      "width": 375,
+      "width": 768,
       "theme": "light",
-      "actualWidth": 375,
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9055,18 +9046,27 @@
     },
     {
       "route": "/talks/pele-social-science/code/pearson/",
-      "width": 768,
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-social-science/code/pearson/",
+      "route": "/talks/pele-social-science/code/mod-classic/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/pearson/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9082,15 +9082,6 @@
     },
     {
       "route": "/talks/pele-social-science/code/reg-hc3/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/reg-hc3/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
@@ -9103,15 +9094,6 @@
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/reg-hc3/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9144,11 +9126,11 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-social-science/code/reg-ols/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "route": "/talks/pele-social-science/code/reg-hc3/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -9180,6 +9162,15 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/pele-social-science/code/reg-hc3/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/pele-social-science/code/reg-ols/",
       "width": 1440,
       "theme": "dark",
@@ -9191,9 +9182,9 @@
     {
       "route": "/talks/pele-social-science/code/sem-full/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
-      "actualTheme": "light",
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -9203,15 +9194,6 @@
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/sem-full/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -9235,19 +9217,19 @@
     },
     {
       "route": "/talks/pele-social-science/code/sem-full/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/sem-reduced/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/sem-full/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
@@ -9275,6 +9257,15 @@
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/reg-ols/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -9298,18 +9289,9 @@
     },
     {
       "route": "/talks/pele-social-science/code/sem-reduced/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/spearman/",
-      "width": 768,
+      "width": 375,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9361,33 +9343,6 @@
     },
     {
       "route": "/talks/pele-social-science/code/two-classic/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/two-classic/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/two-classic/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/two-classic/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -9397,10 +9352,37 @@
     },
     {
       "route": "/talks/pele-social-science/code/two-classic/",
-      "width": 1440,
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/two-classic/",
+      "width": 768,
       "theme": "dark",
-      "actualWidth": 1440,
+      "actualWidth": 768,
       "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/spearman/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/two-classic/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -9460,15 +9442,6 @@
     },
     {
       "route": "/talks/pele-social-science/code/welch/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/welch/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -9477,25 +9450,7 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/pele-social-science/code/welch/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/welch/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/pele-social-science/code/welch/",
+      "route": "/talks/pele-social-science/code/two-classic/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -9513,11 +9468,56 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/pele-social-science/code/welch/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/sem-reduced/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/welch/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/welch/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/pele-social-science/code/welch/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/still-working-on-my-topic-2026-10-20/",
       "width": 375,
-      "theme": "dark",
+      "theme": "light",
       "actualWidth": 375,
-      "actualTheme": "dark",
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -9541,45 +9541,54 @@
     },
     {
       "route": "/talks/still-working-on-my-topic-2026-10-20/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
       "width": 768,
       "theme": "light",
       "actualWidth": 768,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/talks/still-working-on-my-topic-2026-10-20/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/",
       "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9594,42 +9603,6 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/talks/survey-scale-intro-2026-10-13/",
       "width": 375,
       "theme": "light",
@@ -9640,9 +9613,9 @@
     },
     {
       "route": "/talks/survey-scale-intro-2026-10-13/",
-      "width": 768,
+      "width": 375,
       "theme": "dark",
-      "actualWidth": 768,
+      "actualWidth": 375,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9658,6 +9631,15 @@
     },
     {
       "route": "/talks/survey-scale-intro-2026-10-13/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
@@ -9667,6 +9649,15 @@
     },
     {
       "route": "/talks/survey-scale-intro-2026-10-13/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -9685,6 +9676,15 @@
     },
     {
       "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
@@ -9695,15 +9695,6 @@
     {
       "route": "/talks/survey-scale-intro-2026-10-13/read/",
       "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 768,
       "theme": "dark",
       "actualWidth": 768,
       "actualTheme": "dark",
@@ -9729,10 +9720,37 @@
       "brokenImages": []
     },
     {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
       "route": "/talks/why-research-hypotheses-2026-11-03/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9749,8 +9767,35 @@
     {
       "route": "/talks/why-research-hypotheses-2026-11-03/",
       "width": 1440,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9765,64 +9810,10 @@
       "brokenImages": []
     },
     {
-      "route": "/talks/why-research-hypotheses-2026-11-03/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/talks/why-research-hypotheses-2026-11-03/read/",
       "width": 768,
       "theme": "dark",
       "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9837,19 +9828,28 @@
       "brokenImages": []
     },
     {
-      "route": "/videos/",
-      "width": 768,
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
       "theme": "light",
-      "actualWidth": 768,
+      "actualWidth": 1440,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
     {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "route": "/videos/",
       "width": 375,
-      "theme": "light",
+      "theme": "dark",
       "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/videos/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
       "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
@@ -9865,28 +9865,28 @@
     },
     {
       "route": "/videos/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/videos/",
       "width": 1440,
       "theme": "light",
       "actualWidth": 1440,
       "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/videos/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     }
@@ -14518,7 +14518,7 @@
     "quizOptions": 45,
     "sourceEqual": true
   },
-  "digest": "7a889e630a94d4e43d0a140de9179819edaa8ca3cd495d615ee27ef1b9d00e02",
+  "digest": "45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503",
   "sourceFiles": {
     ".gitattributes": "07b9ec080b7f5e2c4924cd916a22e5a3277b9b2837dd610102bf44a7c6b118e8",
     ".github/workflows/pele-source-preview.yml": "0fe99007faa9afdbfb41b52aa27002b643398f5d8d40f679047cf916ba729fa8",
@@ -14608,7 +14608,7 @@
     "docs/REMOTE-CHANGE-CONTRACT.md": "59f4867f4c2d5983d4fe906f083352bb5cfd5a92defd862d62abc8c527b7160f",
     "docs/RESEARCH.md": "be5ae4588853ae2bf09ec411a7b22bf3ede319242e3f096eb33e38a7b160fb26",
     "docs/RESEARCHERS-GATEWAY.md": "24aadd8d4f826af8b7090d473689df8e14d51007805d20c4e2c52b294cb049f6",
-    "docs/SITE-CONTRACT.md": "c68d578f57d10ff38a5cfcbc761613579257473d39ea674614f5cadb42704989",
+    "docs/SITE-CONTRACT.md": "1a8a4807ebaf5ce36477db9d694cc01ea18002023069c8822b1cfc58761e2904",
     "docs/STORAGE-CONTRACT.md": "f867d0137ec6af6ffa95ce5cf996ace8e8cddf9d957936ec888f2ce27bf7a079",
     "docs/THIRD-PARTY.md": "f4938335508fa86b883441c5daa1b15703388da09977f3d0cd2bc24727c80410",
     "docs/UPLOAD-CONTRACT.md": "2b2c1a85d3e5ba599fd933a17767446d783e68b37dc392fa714768051d36a776",
@@ -14629,7 +14629,7 @@
     "docs/survey-scale-intro-publication.md": "93bbe1b34f03bdca807994d31a0f238ea5a4d556104114d28930a50cc1d75b04",
     "docs/topic-lecture-provenance.json": "efd6100acaa94f44f3dbbe423f933d8c4f767caba1d654d6f32f54fc0284458b",
     "docs/why-research-hypotheses-2026-11-03-provenance.json": "c4cf24bb008579151218cefee96037deea9de9b66cd2940a85af1baea54cb4ec",
-    "docs/why-research-hypotheses-2026-11-03-publication.md": "4334ee706b0dd2264bd7d95bda2f6bf227f50f1e887d6da47fdcbdac10e25618",
+    "docs/why-research-hypotheses-2026-11-03-publication.md": "cfed6eeb98f4f64b71a514f53f0a5d0ca360d3ba5808fbfca4deeed7580d6a6e",
     "package-lock.json": "109e7f9ceee93ed5a3816aed10c10622779ba171a618df52595f44ff2f336691",
     "package.json": "98ce1824ca4cf4e371f756328376ded16a82366cb3d731e17513aa0151d3dddc",
     "public/brand/ach-frame-mono.svg": "d167133514a827c35ec861c96e91df6d01f9cca1d57785df636c504329ce0738",
@@ -15325,7 +15325,7 @@
     "scripts/english-print-contract.ts": "a3545dbeb4efeee7b198bb53fb6c37531936093428c80ba49776cfc833a24a3c",
     "scripts/experiments.ts": "4994fe881c1dc92b92896d1819cdd003431f3ede26d04ef67bec68f0cd95d5d2",
     "scripts/finalize-bilingual-review.ts": "a52bc0ad88ef9c44b637df09d3e6466a8717ccf45526f0ea44aabcf599e0bcc4",
-    "scripts/finalize-hypothesis-review.ts": "765c41d521d930b3749b9d2924857e56e7970ddda29e9180c937dec1510a539f",
+    "scripts/finalize-hypothesis-review.ts": "bfa581f1d5d205fb26248a271e4287261d3071eabcb3ca662cb0a0ece3eeccfc",
     "scripts/finalize-topic-review.ts": "ba4d8a54d644be787d033f0a673da45376eec080533d0700b09c3c558accfc98",
     "scripts/font-cdn.ts": "f04336f0da30ee3dd3f146f102b55fb1595f597af93344825961a07270622e0f",
     "scripts/fonts-cli.ts": "52eee46b89de0e34cbd6eb6f6f412be22dfe0aa819a9fafff89a1852397f8718",
@@ -15440,7 +15440,7 @@
     "src/scripts/reader.ts": "ad70e3e5c05694c8c8f34af6587bf44c3e3fba93ebcdd728069726eede539b99",
     "src/scripts/site.ts": "a3d35f0c623a69860263f4c063aa2ef28150cb155a0ff90c06c5db11654365aa",
     "src/styles/editorial.css": "05b074d41ab85d923da28ba8022dab8b169549b33b5d6b84cd6af2745622088a",
-    "src/styles/global.css": "75761808c57b4758f76b78d3bfa5ca323cc90f35043b5e74261bd15786fc6a7a",
+    "src/styles/global.css": "7f01600777d95ed10ad37eb10bec5beab99b243680c91aeb961c44fd0bbec3ec",
     "src/styles/pele-atlas.css": "d373f1e265e1832766f106d13dbcebc92cf3c28e18a529c5be65738cdf759f9e",
     "src/styles/pele-researchers.css": "77387e0b3c266698f3e229174ef9d8694abd64e06452fded6025e26d941542d8",
     "src/styles/reader.css": "6169ddc2d6eede64f93cc86478986d4e641a93251fd1719bd932f63ad26e1f20",
@@ -15484,10 +15484,10 @@
     "tsconfig.json": "d8a3c8cbac653061b04890991a919d6bb9a1daefa810f006702007f2319dcb95",
     "vercel.json": "8a5e116d276824dec34cb76b6ef8eaaf5e92651f3fb5d188fa7dc5f0ca44fdcb"
   },
-  "reviewedAt": "2026-11-02T11:22:11.180Z",
+  "reviewedAt": "2026-11-02T12:11:23.937Z",
   "retainedEvidence": {
-    "baseline": "9fd5a6dd458a33fa7fa1d7a1c12fe896f37c37f87626c41c0e45d317083a2f1b",
-    "reviewedAt": "2026-11-02T09:22:48.014Z",
+    "baseline": "7751b806b52cc1b11c7c326bdbaf764f081ab45b394e3b97b14053535d73c973",
+    "reviewedAt": "2026-11-02T11:50:28.712Z",
     "verifiedUnchangedFiles": [
       "public/experiments/pkm-poster-2026/cmds-dark.svg",
       "public/experiments/pkm-poster-2026/cmds-reconstructed.svg",
@@ -16840,6 +16840,6 @@
       "pele-atlas",
       "achmage-sametone"
     ],
-    "visualReview": "New Korean and English detail and reading pages and the home page were inspected in screenshots at 375/768/1440 in both themes; the 2x2 featured grid was additionally measured at 1100/1440/1920/2000 px."
+    "visualReview": "New Korean and English detail and reading pages and the home page were inspected in screenshots at 375/768/1440 in both themes; the 2x2 featured grid was additionally measured at 1280x620, 1366x657, 1440x789, 1536x730, 1680x920, 1920x953 and 2560x1290 in Korean and English: introduction and all four cards fit the first screen without scrolling, and on wider screens the grid fills the screen height while the introduction stretches to the same top and bottom edges."
   }
 }

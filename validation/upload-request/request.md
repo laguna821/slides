@@ -6,7 +6,7 @@
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
 - 변경 파일: 22개
-- 배포 입력 해시: `7a889e630a94d4e43d0a140de9179819edaa8ca3cd495d615ee27ef1b9d00e02`
+- 배포 입력 해시: `45aaedb91cd2627489bb1dec97cfe74eee5fe160f937072b391beeecbd0f9503`
 - 검토: 통과
 - 사용자 확인: 대기 — 자동 승인하지 않음
 

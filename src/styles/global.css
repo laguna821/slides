@@ -2129,21 +2129,30 @@ html[lang='en'] body {word-break:normal;}
 .font-credit{font-size:14px;}
 
 /* Policy 6.7.0 · Home featured works: four works as a 2x2 grid beside the introduction (instructor decision
-   2026-11-02). Desktop cards stay compact so the set reads at a glance next to the opening text; summaries and
-   event lines remain on each detail page. Tablet keeps two full cards per row, phones keep the compact list. */
+   2026-11-02). On a PC the introduction and all four cards fill the first screen without scrolling, edge to edge:
+   the grid takes the height left under the header (16:9 thumbnails, so the width follows from that height), limited
+   so the introduction keeps 540px, and the introduction stretches to the same height with the catalogue line and
+   signature on the bottom edge. Desktop cards show image, type/date and title only; summaries, reasons and links stay
+   on each detail page, and tablets and phones keep the full cards. Measured at 1280x620 through 2560x1290 in Korean
+   and English. */
 @media (min-width: 1051px) {
-  .studio-opening { grid-template-columns: minmax(320px, 1fr) minmax(0, 1.05fr); align-items: start; }
-  .featured-pair { gap: 28px 24px; align-items: start; }
-  .featured-pair .work-card { padding-top: 14px; }
-  .featured-pair .card-context, .featured-pair .card-summary { display: none; }
-  .featured-pair .work-info { padding-top: 12px; }
-  .featured-pair .work-card h3 { font-size: 20px; line-height: 1.35; margin: 6px 0 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .featured-pair .selection-reason { margin-top: 6px; font-size: 13px; line-height: 1.55; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .featured-pair .card-actions { margin-top: 2px; gap: 4px 12px; }
-  .featured-pair .card-actions a { font-size: 12.5px; }
+  .studio-opening { grid-template-columns: minmax(0, 1fr) auto; align-items: stretch; padding-block: 28px 40px; }
+  .studio-intro { display: flex; flex-direction: column; }
+  .studio-intro h1 { font-size: clamp(34px, min(3.2vw, 6.6vh), 60px); margin: 14px 0; }
+  .home-search { margin-top: 20px; max-width: 720px; }
+  .home-routes { margin-bottom: auto; }
+  .catalogue-status { margin-top: 14px; }
+  .studio-signature { margin-top: 14px; }
+  .home-featured { align-self: start; width: min(calc(1.7778 * (100vh - 356px) + 18px), calc(100vw - 2 * var(--gutter) - clamp(32px, 4vw, 80px) - 540px), 1600px); }
+  .home-featured .compact-section-head { margin-bottom: 14px; }
+  .featured-pair { gap: 16px 18px; align-items: start; }
+  .featured-pair .work-card { padding-top: 10px; }
+  .featured-pair .card-context, .featured-pair .card-summary, .featured-pair .selection-reason, .featured-pair .card-actions { display: none; }
+  .featured-pair .work-info { padding-top: 8px; }
+  .featured-pair .work-card h3 { font-size: 17px; line-height: 1.35; margin: 4px 0 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 }
-@media (min-width: 1900px) {
-  .studio-opening { grid-template-columns: minmax(360px, 1.1fr) minmax(0, 1fr); }
-  .featured-pair { gap: 32px 28px; }
-  .featured-pair .work-card h3 { font-size: 22px; }
+@media (min-width: 2000px) and (min-height: 1000px) {
+  .studio-intro h1 { font-size: clamp(60px, min(3.4vw, 7vh), 84px); }
+  .studio-description { font-size: 18px; }
+  .featured-pair .work-card h3 { font-size: 20px; }
 }
