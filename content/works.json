@@ -1,5 +1,65 @@
 [
   {
+    "id": "why-research-hypotheses-2026-11-03",
+    "slug": "why-research-hypotheses-2026-11-03",
+    "title": "AI가 다 해주는데 연구가설은 왜 세워야 할까요? — 사회과학 양적 조사방법론의 기초",
+    "summary": "AI가 분석까지 대신해 주는데도 연구가설을 직접 세워야 하는 이유는 무엇일까요? 가설의 기본 구조에서 과학적 지식의 조건, 연역과 귀납, 이론의 역할까지 이어지는 42장 강의입니다.",
+    "date": "2026-11-03",
+    "registeredAt": "2026-11-02",
+    "kind": "lecture",
+    "topics": [
+      "연구방법론",
+      "양적 연구",
+      "연구가설",
+      "AI와 학습"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "poster": "/images/why-research-hypotheses-2026-11-03.png",
+    "posterAlt": "H1(연구가설/대립가설)과 H0(영가설/귀무가설)을 독립변인·종속변인 상자로 나란히 보여 주는 가설 구조 도식 슬라이드",
+    "audience": "AI로 분석은 돌려 보지만 연구가설을 왜, 어떻게 세우는지 아직 설명하기 어려운 대학원생",
+    "takeaways": [
+      "가설을 ‘A가 늘면 B도 늘거나 준다’는 기본 구조와 H1·H0로 적습니다.",
+      "반증가능성·포괄성·반복가능성으로 과학적 지식의 조건을 점검합니다.",
+      "관련 연구와 이론으로 내 가설을 일반화하고 변인의 측정 수준을 확인합니다."
+    ],
+    "event": "한림대학교 미디어스쿨 대학원 · 커뮤니케이션조사방법론 II · 2026년 11월 3일",
+    "body": "AI가 분석을 대신해 주는 시대에도 무엇을 검증할지는 연구자가 정해야 합니다. 가설의 기본 구조와 H1·H0, 변인의 측정 수준에서 시작해 내 가설이 왜 과학적 지식이 될 수 있는지를 다시 묻습니다.\n\n한림대학교 미디어스쿨 대학원 「커뮤니케이션조사방법론 II」 9주차 강의입니다. 2024년 학부 조사방법론 9주차 자료의 문구와 순서를 그대로 두고 Achmage Presentation으로 다시 만들었습니다. 반증가능성·포괄성·반복가능성, 연역법과 귀납법, 추론통계의 1종·2종 오류, 관련 연구와 이론으로 가설을 일반화하는 단계를 다룹니다.\n\n개념도는 Achmage Pele로 그렸고, 사진과 일러스트는 2024년 강의자료 원본입니다(원출처 미기재). 마지막 장의 주간 과제는 각자의 연구 관심사로 가설·연구문제를 세우고 설문 척도를 찾아보는 세 문항입니다.\n\n한국어 슬라이드와 전체 읽기, 영어 소개·읽기를 제공합니다.",
+    "course": {
+      "id": "communication-research-methods-ii-2026-2",
+      "title": "커뮤니케이션조사방법론 II",
+      "term": "2026학년도 2학기",
+      "week": 9
+    },
+    "artifacts": [
+      {
+        "id": "hypothesis-lecture-html",
+        "type": "html",
+        "role": "slides",
+        "url": "/decks/why-research-hypotheses-2026-11-03/v1.0.0/index.html",
+        "label": "강의 슬라이드 · 한국어 42장",
+        "version": "1.0.0",
+        "modes": [
+          "present",
+          "read"
+        ]
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [],
+    "htmlSource": "public/decks/why-research-hypotheses-2026-11-03/v1.0.0/source-web.html",
+    "reader": {
+      "version": "2.0.0",
+      "source": "content/reading/why-research-hypotheses-2026-11-03.md",
+      "sourceVersion": "1.0.0 · 2026-11-03",
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/why-research-hypotheses-2026-11-03.md",
+      "editorialManifest": "content/editorial/why-research-hypotheses-2026-11-03.json"
+    },
+    "provenance": "docs/why-research-hypotheses-2026-11-03-provenance.json"
+  },
+  {
     "id": "pele-atlas",
     "slug": "pele-atlas",
     "title": "Achmage Pele for Researchers",
@@ -73,7 +133,9 @@
     ],
     "mediaIds": [],
     "resourceIds": [],
-    "provenance": "docs/pele-atlas-provenance.json"
+    "provenance": "docs/pele-atlas-provenance.json",
+    "featuredOrder": 3,
+    "featuredReason": "연구 질문에서 알맞은 그래프로 이어 주는 Pele 대표 14종과 공개 갤러리."
   },
   {
     "id": "pele-social-science",
@@ -310,7 +372,6 @@
     "visibility": "listed",
     "seo": "index",
     "status": "selected",
-    "featuredOrder": 1,
     "poster": "/images/ai-reading-slide.webp",
     "posterAlt": "3주 AI 활용 읽기 파일럿의 실제 표지 슬라이드",
     "body": "AI 활용 읽기 파일럿 운영안. 핵심 이해, 질문, 검증, 설명과 평가를 연결하는 교육 설계.",
@@ -726,7 +787,9 @@
       "manifest": "content/reading/manifest.json",
       "editorialSource": "content/editorial/human-reading-writing-2026.md",
       "editorialManifest": "content/editorial/human-reading-writing-2026.json"
-    }
+    },
+    "featuredOrder": 1,
+    "featuredReason": "AI 요약에서 원문 확인·판단 기록·내 문장 쓰기로 이어지는 발표와 포스터."
   },
   {
     "id": "media-colloquium-2026-06-10",
@@ -883,7 +946,7 @@
     "visibility": "listed",
     "seo": "index",
     "status": "selected",
-    "featuredOrder": 3,
+    "featuredOrder": 4,
     "featuredReason": "직접 만든 서체를 실제 웹사이트의 읽기 경험으로 연결합니다.",
     "poster": "/images/sametone-specimen.svg",
     "posterAlt": "Achmage SameTone 1.000 · 한글과 영문, 아홉 가지 굵기",

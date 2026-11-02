@@ -68,6 +68,16 @@
       "notesState": "authored",
       "enginePackageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
       "provenance": "docs/topic-lecture-provenance.json"
+    },
+    {
+      "workId": "why-research-hypotheses-2026-11-03",
+      "url": "/decks/why-research-hypotheses-2026-11-03/v1.0.0/index.html",
+      "source": "/decks/why-research-hypotheses-2026-11-03/v1.0.0/source.html",
+      "sourceSha256": "50facbe2fd9689be75d656048b50cb11a41e8ce92c1230c78afc173622614335",
+      "sha256": "796f9701eac0bec4bd4f0f3cfad9995ae3dfe7bbcdf130b69eea826c91091333",
+      "notesState": "empty",
+      "enginePackageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+      "provenance": "docs/why-research-hypotheses-2026-11-03-provenance.json"
     }
   ],
   "verification": {
@@ -139,6 +149,18 @@
       "environment": "Edge CUA 2026-10-19. Latest web projection: button opened the notes window; wrong credential rejected and configured credential unlocked authored slide-2 notes through keyboard form submission. Relock and reload returned the locked prompt. Native N on a fresh presentation tab opened a new locked notes window. Popup mouse click timed out; keyboard submission succeeded.",
       "popupBlockedAutomatic": "not-tested",
       "webProjectionSha256": "2df0bee3b5d6b3db346454ae7f38d0443f0a3db87ed3e1997b97e040a0fb2e7f"
+    },
+    "796f9701eac0bec4bd4f0f3cfad9995ae3dfe7bbcdf130b69eea826c91091333": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "msedge 135.0.3179.73 headless (Playwright 1.62.1), 2026-11-02, 127.0.0.1 static server of public/: actual N key opened the ?view=notes window; a wrong value was rejected; the instructor typed the configured credential at a hidden console prompt and keyboard submission unlocked the empty notes (\"이 장의 노트 없음\") in that window only, the presentation window staying locked; 다시 잠그기 relocked; after unlocking again a reload returned the locked prompt; N on a fresh presentation tab opened a new locked notes window. No credential is stored in the receipt.",
+      "popupBlockedAutomatic": "passed (simulated: window.open returned null; locked inline panel opened and rejected a wrong value)",
+      "inlinePanelLocked": true
     }
   },
   "preservedDemos": [

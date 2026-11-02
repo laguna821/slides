@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "original": {
+    "filename": "9W-1.pptx (조사방법론 2024-1, 강의 PPT/9W)",
+    "slides": 43
+  },
+  "remake": {
+    "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+    "bundleLockSha256": "2d5266dd230dc16f3f71fe5c62f6eb7cd27a154bf4e279d35f1faadf3c98d4c3",
+    "htmlSha256": "50facbe2fd9689be75d656048b50cb11a41e8ce92c1230c78afc173622614335",
+    "webProjectionSha256": "fd382f395cf3e98af1acc9924439c376c22ba57c5dfa631bf281ebc3315eba08",
+    "version": "1.0.0",
+    "slides": 42,
+    "diagrams": 12,
+    "photographs": 8,
+    "font": "Achmage SameTone 1.000 through the engine custom-font option"
+  },
+  "adaptation": "Wording and order of the 2024 undergraduate week-9 slides are kept; instructor-approved fixes: typos, H1/H0 terms, the Describe translation, matched brackets and the course subtitle. After the instructor review of the first build: duplicate slide 24 and the review slide 2 removed, three titles changed and one explanation added by the instructor, cycle arrows restored from the original SmartArt connectors, measurement levels emphasised as instructed. One light-based HTML switches theme at runtime; dark diagram variants are attached per slide by CSS and the remaining theme font references point to SameTone. Instructor notes are not authored for this deck. No private notes or local paths are published."
+}
