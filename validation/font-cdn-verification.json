@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-11-02T09:26:39.170Z",
+  "registryHash": "00afc832b8347024e1f9b64b241a43c5970046d342f3542146a3c2bd0fa1ad1f",
+  "origin": "https://achmage-fonts.laguna821-c08.workers.dev",
+  "responses": [
+    {
+      "path": "/fonts/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+      "bytes": 765892,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"04e75704e28f271c4d84fd64236139ad\""
+    },
+    {
+      "path": "/fonts/d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c.woff2",
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "bytes": 778432,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"cbc3e721dfd129832d0541eb502bc05d\""
+    },
+    {
+      "path": "/fonts/c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0.woff2",
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "bytes": 785856,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"08451f8353cf7730398a32f16402dac0\""
+    },
+    {
+      "path": "/fonts/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "bytes": 791156,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"a08d6fde0a7b7a5c4b7a089ddb51d3e7\""
+    },
+    {
+      "path": "/fonts/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "bytes": 793540,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"10270eea8643d579c374cd10d276c71e\""
+    },
+    {
+      "path": "/fonts/a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2.woff2",
+      "sha256": "a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2",
+      "bytes": 92164,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"f9c6025d1f91fb3702352beac1e502ee\""
+    },
+    {
+      "path": "/fonts/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "bytes": 2057688,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"bd1ad83426710f79fb7803de627783e5\""
+    },
+    {
+      "path": "/fonts/5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16.woff2",
+      "sha256": "5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16",
+      "bytes": 2140332,
+      "mime": "font/woff2",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16.woff2",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "\"58f0aecbcd5f2836018d744b5af24574\""
+    },
+    {
+      "path": "/licenses/Pretendard-OFL-d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04.txt",
+      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+      "bytes": 4418,
+      "mime": "text/plain",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/licenses/Pretendard-OFL-d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04.txt",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"2e94af3360385253e02da6bfbd8a471f\""
+    },
+    {
+      "path": "/licenses/SameTone-OFL-b2fe33584e1773352aaf88c9a79e4b453a2d58c844d4efaaa21297b8d07eadbd.txt",
+      "sha256": "b2fe33584e1773352aaf88c9a79e4b453a2d58c844d4efaaa21297b8d07eadbd",
+      "bytes": 5397,
+      "mime": "text/plain",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/licenses/SameTone-OFL-b2fe33584e1773352aaf88c9a79e4b453a2d58c844d4efaaa21297b8d07eadbd.txt",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"3fc8450a7325a6e3108c7d20100d5a99\""
+    },
+    {
+      "path": "/licenses/SameTone-NOTICE-bd3a112a4f74b0813c684bc9c872218e5cc294cbc90e1719786fa177d67de541.txt",
+      "sha256": "bd3a112a4f74b0813c684bc9c872218e5cc294cbc90e1719786fa177d67de541",
+      "bytes": 35501,
+      "mime": "text/plain",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/licenses/SameTone-NOTICE-bd3a112a4f74b0813c684bc9c872218e5cc294cbc90e1719786fa177d67de541.txt",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"c6df87ee65c01820249598604c44a5fa\""
+    },
+    {
+      "path": "/licenses/JetBrainsMono-OFL-a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697.txt",
+      "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
+      "bytes": 4399,
+      "mime": "text/plain",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/licenses/JetBrainsMono-OFL-a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697.txt",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"3cf26b886d8c02e4a54cd79b8f2c7c91\""
+    },
+    {
+      "path": "/css/sametone/1.000/0399e9ab5a130798424abd431acec9859ba8a3c1b7584cac271c05902fcf98a9.css",
+      "sha256": "0399e9ab5a130798424abd431acec9859ba8a3c1b7584cac271c05902fcf98a9",
+      "bytes": 274,
+      "mime": "text/css",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/css/sametone/1.000/0399e9ab5a130798424abd431acec9859ba8a3c1b7584cac271c05902fcf98a9.css",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"8b1a386bb104d7672d64fd906b2295e6\""
+    },
+    {
+      "path": "/css/pretendard/1.3.9/ad79b6becb351704e5716a441b03643d4f96e8c9a3fd3b8ee82b6431b65921c8.css",
+      "sha256": "ad79b6becb351704e5716a441b03643d4f96e8c9a3fd3b8ee82b6431b65921c8",
+      "bytes": 277,
+      "mime": "text/css",
+      "url": "https://achmage-fonts.laguna821-c08.workers.dev/css/pretendard/1.3.9/ad79b6becb351704e5716a441b03643d4f96e8c9a3fd3b8ee82b6431b65921c8.css",
+      "cors": "*",
+      "cache": "public, max-age=31536000, immutable",
+      "etag": "W/\"b6cd47847b8a94755b2a0855b8ef9878\""
+    }
+  ],
+  "missing": []
+}

@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import {sha} from './web-assets';
 export type CollectionFile={path:string;originalSha256:string;sha256:string;bytes:number;mime:string;delivery:'local'|'proxy';url?:string;verifiedAt?:string};
 export type Collection={version:1;basePath:string;diagramGroups:number;cases:number;files:CollectionFile[]};
+export const collectionFontConsumers=new Set(['/pele/style.css','/pele/app.mjs']);
 export async function readCollection(root=process.cwd()):Promise<Collection>{return JSON.parse(await fs.readFile(path.join(root,'content/pele-collection.json'),'utf8'));}
 export function validateCollection(c:Collection,requireRemote=true){
  assert.equal(c.basePath,'/pele/');assert.equal(c.diagramGroups,39);assert.equal(c.cases,104);
@@ -24,4 +25,5 @@ export async function verifyCollectionSources(c:Collection,root='public',require
  const ids=pages.flatMap((p:any)=>p.cases.map((c:any)=>c.id));assert.equal(pages.length,39);assert.equal(ids.length,104);assert.equal(new Set(ids).size,104,'Case belongs to more than one diagram group');
  for(const p of pages)for(const item of p.cases){assert(c.files.some(f=>f.path===item.url),'Missing case '+item.id);const data=JSON.parse(await fs.readFile(path.join(root,item.url),'utf8'));assert.equal(data.id,item.id);assert(data.svg.includes('<svg')&&data.source!==undefined,'Missing actual case input/output');}
 }
-export function collectionRewrites(c:Collection){return c.files.filter(f=>f.delivery==='proxy').map(f=>({source:f.path,destination:f.url!})).sort((a,b)=>a.source.localeCompare(b.source));}
+// Fonts now redirect to their common immutable URL; other assets keep R2 proxies.
+export function collectionRewrites(c:Collection){return c.files.filter(f=>f.delivery==='proxy'&&!f.mime.startsWith('font/')&&!collectionFontConsumers.has(f.path)).map(f=>({source:f.path,destination:f.url!})).sort((a,b)=>a.source.localeCompare(b.source));}

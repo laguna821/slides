@@ -1,18 +1,19 @@
 # 포트폴리오 게시 확인 요청
 
-상태: **approved**
+상태: **awaiting-user-confirmation**
 
-- 정책: 6.5.0
+- 정책: 6.6.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 346개
-- 배포 입력 해시: `000796cc36ecef40216ed2fc6ee57254acc06ccff6f86c1950ecbdfbc0f75808`
+- 변경 파일: 359개
+- 배포 입력 해시: `41f6dfe1f44ffaf359619ac37ebfeb9fa5d2202500c68185024ac1cdc2ff19b7`
 - 검토: 통과
-- 사용자 확인: 현재 해시와 일치
+- 사용자 확인: 대기 — 자동 승인하지 않음
 
 ## 변경 파일
 
 - `.gitattributes`
+- `content/font-cdn.json`
 - `content/i18n/en.json`
 - `content/media.json`
 - `content/pele-collection.json`
@@ -20,11 +21,17 @@
 - `content/site-policy.json`
 - `content/web-assets.json`
 - `content/works.json`
+- `docs/CLAUDE-FONT-HANDOFF.md`
+- `docs/FONT-CDN-MIGRATION.md`
 - `docs/PELE-COLLECTION-CONTRACT.md`
 - `docs/RESEARCHERS-GATEWAY.md`
 - `docs/SITE-CONTRACT.md`
+- `docs/STORAGE-CONTRACT.md`
 - `docs/UPLOAD-CONTRACT.md`
 - `docs/pele-atlas-provenance.json`
+- `package-lock.json`
+- `package.json`
+- `public/fonts/JetBrainsMono-OFL.txt`
 - `public/images/before-the-first-note.jpg`
 - `public/images/pele-researchers/bar.webp`
 - `public/images/pele-researchers/bubble.webp`
@@ -344,16 +351,22 @@
 - `public/pele/workbench/index.html`
 - `scripts/assets-sync.ts`
 - `scripts/build-web.ts`
+- `scripts/font-cdn.ts`
+- `scripts/fonts-cli.ts`
 - `scripts/pele-collection.ts`
+- `scripts/prepare-upload.ts`
 - `scripts/preview-web.ts`
 - `scripts/publication-approval.ts`
 - `scripts/release-gate.ts`
 - `scripts/sync-pele-collection.ts`
 - `scripts/verify-researchers-gateway.ts`
 - `scripts/verify-web-output.ts`
+- `scripts/web-assets.ts`
 - `src/components/PeleResearchers.astro`
+- `src/components/SharedFontUsage.astro`
 - `src/pages/talks/[slug]/index.astro`
 - `src/styles/pele-researchers.css`
+- `tests/font-cdn.test.ts`
 - `tests/pele-collection.test.ts`
 - `tests/publication-approval.test.ts`
 - `tests/researchers-gateway.test.ts`

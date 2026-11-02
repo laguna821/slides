@@ -4437,5 +4437,14 @@
   "벤다이어그램": "Venn diagram",
   "세 집합의 일곱 영역": "Seven regions of three sets",
   "각 집합에만 있는 항목과 함께 속한 항목은 몇 개인가?": "How many items belong exclusively or jointly to the three sets?",
-  "Achmage Pele for Researchers 상세 보기": "View Achmage Pele for Researchers"
+  "Achmage Pele for Researchers 상세 보기": "View Achmage Pele for Researchers",
+  "웹에서 사용하기": "Use on the web",
+  "SameTone Full 1.000을 웹사이트와 HTML 슬라이드에서 사용하세요. 한글·영문 전체 글자와 100–900 가변 굵기를 그대로 제공합니다.": "Use SameTone Full 1.000 on websites and HTML slides, with the full Korean and Latin character set and variable weights from 100 to 900.",
+  "버전 고정 CSS 열기 ↗": "Open version-pinned CSS ↗",
+  "HTML의 head에 넣으세요.": "Add this to the HTML head.",
+  "CSS에서 서체와 굵기를 지정하세요.": "Set the font family and weight in CSS.",
+  "폰트 파일을 HTML에 다시 넣을 필요가 없습니다. 이 주소는 버전과 파일 해시로 고정되어 있습니다.": "There is no need to embed the font file in your HTML. This address is pinned to a version and file hash.",
+  "HTML 코드 복사": "Copy HTML code",
+  "CSS 코드 복사": "Copy CSS code",
+  "라이선스": "License"
 }

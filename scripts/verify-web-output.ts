@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { load } from 'cheerio';
 import {policy} from '../src/lib/policy';
+import {readFontRegistry,validateFontManifest,checkFontReceipt} from './font-cdn';
 import {readCollection,validateCollection,collectionRewrites} from './pele-collection';
 import {
   isBrandAsset,
@@ -13,10 +14,16 @@ import {
   replaceData,
   regularFiles,
   siteOrigin,
+  dataPattern,
 } from './web-assets';
 export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
   const manifest = await readManifest();
+  const fontRegistry=await readFontRegistry();
+  validateFontManifest(manifest,fontRegistry);await checkFontReceipt(fontRegistry);
+  const fontUrls=new Set(Object.values(fontRegistry.fonts).map(f=>fontRegistry.origin+f.path));
+  const checkFont=(value:string,file:string)=>{const u=new URL(value,new URL('/'+file,siteOrigin));u.search='';u.hash='';assert(fontUrls.has(u.href),'Unregistered font URL in '+file+': '+value);};
   const collection=await readCollection();validateCollection(collection);
+  for(const file of collection.files.filter(f=>f.mime.startsWith('font/')))assert(manifest.paths[file.path]===fontRegistry.origin+fontRegistry.fonts[file.sha256]?.path,'Collection font must share the verified public URL');
   const rewrites=JSON.parse(await fs.readFile('vercel.json','utf8')).rewrites||[];
   assert.deepEqual(rewrites,collectionRewrites(collection),'Collection rewrites must match verified assets');
   const redirects=JSON.parse(await fs.readFile('vercel.json','utf8')).redirects||[];
@@ -51,6 +58,7 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
     );
   };
   for (const file of list) {
+    assert(!/\.(woff2?|ttf|otf)$/i.test(file),'Font binary in Vercel deployment: '+file);
     assert(!isRemoved(file), 'PDF/ZIP in deployment: ' + file);
     assert(
       !isMedia(file) || isBrandAsset(file),
@@ -60,13 +68,17 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
     bytes += b.length;
     if (!isText(file)) continue;
     const text = b.toString();
+    for(const m of text.matchAll(/url\(\s*["']?([^)'"\s]+)/g))if(/\.(woff2?|ttf|otf)(?:[?#]|$)/i.test(m[1]))checkFont(m[1],file);
     assert(
-      !/data:(?:image|font|application\/(?:font|x-font|pdf))/i.test(text),
+      // The preserved Pele SVG export builds a data URI at runtime; it contains
+      // no embedded payload in the deployment. Actual binary payloads still fail.
+      file==='pele/app.mjs' ? ![...text.matchAll(dataPattern())].length : !/data:(?:image|font|application\/(?:font|x-font|pdf))/i.test(text),
       'Embedded asset in ' + file,
     );
     for (const m of text.matchAll(/https?:[^\s"'<>\\)]+/g))
       if (/\.(?:png|jpe?g|webp|gif|avif|svg)(?:[?#]|$)/i.test(m[0]))
         checkMedia(m[0], file);
+      else if(/\.(?:woff2?|ttf|otf)(?:[?#]|$)/i.test(m[0]))checkFont(m[0],file);
     for (const m of text.matchAll(/url\(\s*["']?([^)'"\s]+)/g))
       if (isMedia(m[1].split(/[?#]/)[0])) checkMedia(m[1], file);
     if (!file.endsWith('.html')) continue;
@@ -74,6 +86,7 @@ export async function verifyWebOutput(root = 'web-dist', sourceRoot = 'dist') {
     maxHtmlBytes = Math.max(maxHtmlBytes, b.length);
     assert(b.length <= policy.storage.maxHtmlBytes, 'HTML exceeds '+(policy.storage.maxHtmlBytes/1048576)+' MiB: ' + file);
     const $ = load(text);
+    for(const e of $('link[as="font"]').toArray())checkFont($(e).attr('href')!,file);
     const source = await fs.readFile(path.join(sourceRoot, file), 'utf8');
     // Embedded binary image/font payloads are not DOM text or anchors. Resolve
     // them through the verified manifest before parsing the archival source.

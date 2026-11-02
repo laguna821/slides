@@ -1,6 +1,6 @@
 import {spawnSync} from 'node:child_process';
 if(!process.env.npm_execpath)throw Error('Run npm run upload:prepare');
-for(const script of ['build:source','assets:sync','web:prepare']){
+for(const script of ['build:source','assets:sync','fonts:prepare','fonts:publish','web:prepare']){
  const prepared=spawnSync(process.execPath,[process.env.npm_execpath,'run',script],{stdio:'inherit'});
  if(prepared.status!==0)throw Error('Upload preparation stopped at '+script+'; no deployment attempted');
 }

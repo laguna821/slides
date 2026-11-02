@@ -27,6 +27,8 @@ export type Asset = {
   sourceHash: string;
   sha256: string;
   url: string;
+  /** Repository-relative archive; never derived from a public CDN URL. */
+  sourcePath?: string;
   bytes: number;
   mime: string;
   kind: 'image' | 'font';

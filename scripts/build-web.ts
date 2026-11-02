@@ -16,11 +16,16 @@ import {shareCodeTokens} from './share-code-tokens';
 import {shareWebRuntime} from './share-web-runtime';
 import {dedupeWebHtml} from './dedupe-web-html';
 import {validateSourceOnly} from './source-only';
-import {readCollection,verifyCollectionSources,collectionRewrites} from './pele-collection';
+import {readCollection,verifyCollectionSources,collectionRewrites,collectionFontConsumers} from './pele-collection';
+import {readFontRegistry,validateFontArchives,validateFontManifest,checkFontReceipt} from './font-cdn';
 const collection=await readCollection();
 await verifyCollectionSources(collection);
-const collectionAssets=new Set(collection.files.filter(f=>f.delivery==='proxy').map(f=>f.path.slice(1)));
+const collectionAssets=new Set(collection.files.filter(f=>f.delivery==='proxy'&&!collectionFontConsumers.has(f.path)).map(f=>f.path.slice(1)));
 const manifest = await readManifest();
+const fontRegistry=await readFontRegistry();
+await validateFontArchives(fontRegistry);
+validateFontManifest(manifest,fontRegistry);
+await checkFontReceipt(fontRegistry);
 if (!Object.keys(manifest.assets).length)
   throw Error('Run assets:sync before the first web build');
 const output = path.resolve('web-dist');
@@ -66,15 +71,8 @@ for (const file of inputs) {
   if(sourceOnly.has(file)){sourceOnlyBytes+=bytes.length;continue;}
   if (isRemoved(file)) continue;
   if (
-    file.startsWith('fonts/shared/') &&
-    !Object.values(manifest.assets).some((a) => a.url === '/' + file)
-  )
-    continue;
-  if (
     (isMedia(file) && !isBrandAsset(file)) ||
-    (/\.(?:woff2?|ttf|otf)$/.test(file) &&
-      file !== 'fonts/AchmageSameTone-1.000.woff2' &&
-      !file.startsWith('fonts/shared/'))
+    /\.(?:woff2?|ttf|otf)$/i.test(file)
   ) {
     const asset = Object.values(manifest.assets).find(
       (a) =>
@@ -103,14 +101,6 @@ for (const file of inputs) {
   await fs.writeFile(target, content);
   proofs[file] = { sourceHash: sha(bytes), outputHash: sha(content) };
 }
-for (const asset of Object.values(manifest.assets))
-  if (asset.kind === 'font') {
-    const bytes = await fs.readFile('public' + asset.url);
-    if (sha(bytes) !== asset.sha256) throw Error('Shared font mismatch');
-    const target = path.join(output, asset.url);
-    await fs.mkdir(path.dirname(target), { recursive: true });
-    await fs.writeFile(target, bytes);
-  }
 const codeTokenSharing=await shareCodeTokens(output);
 const runtimeSharing=await shareWebRuntime(output);
 for(const file of Object.keys(proofs))proofs[file].outputHash=sha(await fs.readFile(path.join(output,file)));
