@@ -1,0 +1,640 @@
+{
+  "version": "2.0.0",
+  "workId": "from-sample-to-population-2026-11-10",
+  "status": "reviewed",
+  "sourceSha256": "fae63dd41182f1b2c99e346d162c85fb72cf8ab809e729d0fa3ef4339a2cb807",
+  "editorialSha256": "87f0a85c09937d369317983566500b12498645a42746c5a905d6135a8fafcda2",
+  "review": {
+    "reviewer": "Claude Code (Achmage Presentation remake session) with instructor feedback on 2026-11-09",
+    "date": "2026-11-09",
+    "claims": "All 77 slides keep the 2024 wording and order of the week-5 slides 5W-1 and 5W-2 with the instructor-approved typo and title fixes; the R results are the actual output of running the slide code in R 4.3.3. On instructor request the two decks are merged, the exercise titles read AI & R Exercise, the assignment slide is removed and one slide links the web version of the candy simulator. No new factual claims are added beyond describing that simulator.",
+    "images": "Two Achmage Pele concept diagrams, R plots and re-typeset formulas (light and dark variants), screenshots and photographs or illustrations from the 2024 course slides, whose original sources are not recorded there, and a capture of the web candy simulator. Diagram descriptions are also given as body text.",
+    "links": "External links named on the slides: the RStudio and R download pages, a Statistics Korea index page, two Posit Cloud projects and the web candy simulator. Their response status is recorded separately."
+  },
+  "units": [
+    {
+      "id": "unit-1",
+      "sourceSha256": "424b17396f94eb5c0e92d2be81433a73833cfe2ec64ad98b2ffb5eaf3ab44b3f",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "6a41a211737b9c1b2679305a2b0d1c74433384b14c30cf7afdc211e25ac8164e"
+    },
+    {
+      "id": "unit-2",
+      "sourceSha256": "6a534016121956b80ce713f4d56236fb89595aa7cea38496facaf1a6f11e50e2",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "4b612294f00cea4c314d66345602084cffb6cd2df69cf9c0fc921302df02a9b8"
+    },
+    {
+      "id": "unit-3",
+      "sourceSha256": "165d8f6016d59422371b768425dbaa754c9ed9c38c8bd72fe5bd5a2adb5820ee",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "14f33319988019da4369b1b97b23c7d7ac3097cf7a8834e90f2ef0a1184c7dd8"
+    },
+    {
+      "id": "unit-4",
+      "sourceSha256": "a5f069d65dfcdfdeb70b07a1b69df939f906889420dcf877d73234c530a177bb",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "dbaaa858eb7c6bc33c68c2294089fc598e4bc055bbe1262833d5482ee6b70265"
+    },
+    {
+      "id": "unit-5",
+      "sourceSha256": "32cfeba953b51f0b1ebbb80af4f806de5e8ef0b7f264ac922979177fd6a2c6aa",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a5f7c87394aa122475b2b54f813d2978615c2693acf3594f74ff82c64bbbc2b1"
+    },
+    {
+      "id": "unit-6",
+      "sourceSha256": "e526b767e076075985e7f0ed9b099a0cff6a193be04d439340f41ed35a7a6c24",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "24d2a6a37a732ce89bbe4ac6ccc38742bc298acf5a7afa60c17f8daa09cbc4a8"
+    },
+    {
+      "id": "unit-7",
+      "sourceSha256": "6534f333f87e37b937ec5461ce07f8849c47fb077eb16f752e15101f39901398",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a1f23aa13fac7bd3e87c3b68d932d89635b28321e484c1824b97fac6a52c2d6a"
+    },
+    {
+      "id": "unit-8",
+      "sourceSha256": "b706f9b0d0e5c751be4ab19e4181d9f2d56d1fd642b35f7fb2bccd559c69d5db",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "d482181bc1661dd2e3ec297339b4034d1bfe6bf3cf606042170661165366896c"
+    },
+    {
+      "id": "unit-9",
+      "sourceSha256": "198dabe2ad6c1aab1fb74f437f26842fdbe41431a226254b312feac37e85bfa8",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1aaca06cbceb3a3d1b05a2e75f6365864170cd01548ed34d015172604f62dea6"
+    },
+    {
+      "id": "unit-10",
+      "sourceSha256": "bc5fe4e582627751e4b76820d8b3019828a3ac02c22e9b630006ce94253b5917",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1adeb20fdda8181474c735a038c55dee210f2ea70495ef9a1b86085aa99365f5"
+    },
+    {
+      "id": "unit-11",
+      "sourceSha256": "f092ab06e969c4cbcfe635aeb6a7209cd70dd90db7e1576c22c6d59bce9e0540",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "c42c1dd6bff8c9c237a57f6b5249f58a51c0385e3ee6aa6073b4d126635cec98"
+    },
+    {
+      "id": "unit-12",
+      "sourceSha256": "56b4b48b364fdd886ba31c1bfaf3a0bbf02c14029e07e0fcf15675d3e6a74be6",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "654c9eb7943b30152a1bcd0da283103d4507a9715546f451e48f9b9cef52a4ed"
+    },
+    {
+      "id": "unit-13",
+      "sourceSha256": "7dcdf4b061dd1c1e269b2668cf3affa93c51acd35988da36d24f6bab965fee74",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "2422c95aa5d0f40836dd011219184e3bda7b0d268bdc23817841145023121848"
+    },
+    {
+      "id": "unit-14",
+      "sourceSha256": "a781375c2406ea55331800e13bb364d5844697f72e606dc1c4dccba769abc880",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a557fecaca96271d1924be36c08569462727a3450c4c4c275bb36265c4d8b7dc"
+    },
+    {
+      "id": "unit-15",
+      "sourceSha256": "3c50463d5bc7ee57e8c96b2b1b35624a93ffc339dd8b542aa5c5e0b4505dc2db",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "d764c9688b17cd4979b503575bc94ef4fdb770973ff1eff4fade8426b7a1946f"
+    },
+    {
+      "id": "unit-16",
+      "sourceSha256": "3d304a69556a16b7b0fe343dc5bb0be3a6e37bf973beb93a9d2dfa0bedf44a2f",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "4334f6da2ef77aa03793aa67856f416715f68ee46c9a7cc04132b0644bdadb51"
+    },
+    {
+      "id": "unit-17",
+      "sourceSha256": "ece1257e13f5a877a493b954113956038a60c2bc4afc100c61797c1da71d5cd3",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a059ddf70da5268d7e09fb87ac13b9d8873edeccad8c4735d17a50f7d7fa4ef1"
+    },
+    {
+      "id": "unit-18",
+      "sourceSha256": "886af72b7caa9d1eda1eaf1addfbefec9291151162c6b45b8ba47642a2126c35",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "fd5f18e0582aee1f79e0473c847253d054ade705dfc7c37a81c229595953c5cb"
+    },
+    {
+      "id": "unit-19",
+      "sourceSha256": "f97821823627bd3f439ccda03a559284b3afc946640360711ccbead8994bece4",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "7cdb64e2c43a722a4bc7f6eb10270a6650c8922c43e8ecc572f6971def6bd8b9"
+    },
+    {
+      "id": "unit-20",
+      "sourceSha256": "ccf03fcf0472e715e12eda4ec5062f8913fb84768ea53700dad5ef8f33338319",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1d342d61c34cfa43fd453afc6ea416f14b61e97dfaeaf83b2dc0636a374c9d8f"
+    },
+    {
+      "id": "unit-21",
+      "sourceSha256": "6e621b38a00911c84a4f3098b88794172768efb19f0b4eb081895ca0491757b8",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "d2dde4c152a54cbf0ed1be925d5bb3cbee0debfad031b13ce3853d10d22758a6"
+    },
+    {
+      "id": "unit-22",
+      "sourceSha256": "8f28cda2d35ce34fbca9b809e407ba1a771061da7114c9b436b42076b54f2036",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "862ec4440e29af029f59537890e956484b7304c5d9c3abd83e8d5613a3e97a48"
+    },
+    {
+      "id": "unit-23",
+      "sourceSha256": "4cd2f95ac7d50b4292dd51d46a5004363fcbb58d0dc74e54b6b07366230d3bb4",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "9a3c6c4ba24731004ec90ad238d2e4eac4610ce3692d55d5ce87c43954c782d2"
+    },
+    {
+      "id": "unit-24",
+      "sourceSha256": "d83ba76019b1dcbfec33afd5ac514ef339814ed483d4ce08672ae00fe8b02335",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "c33cbbcf43d4f9413e4b00fe42d6915cf83376a9539dca2cda50388b5471be91"
+    },
+    {
+      "id": "unit-25",
+      "sourceSha256": "6aad819d7ef8773b07281084c1f49f1cf163f0f9d42e1f92c46ff38e6a21de20",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "195e5e0c994dfa348371f2140edbc8a90e12f7dbecd61e4f62fb7abc1aed21ae"
+    },
+    {
+      "id": "unit-26",
+      "sourceSha256": "802dd5b18c6410b1aedce723aec7af8783bc1556106409062e3fdfdbb36cd769",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "7eaf533a02dfcfc8c5de44384ca66f063eb16778bf14b61721b36dc3f061a03c"
+    },
+    {
+      "id": "unit-27",
+      "sourceSha256": "e534b87493395b5a1eb0a55dd53665519081da579c9343ad146ea5237e7c661b",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a8252da5819eda2f86105b25e8bc589f65ab1711503dce98f471041619c07abb"
+    },
+    {
+      "id": "unit-28",
+      "sourceSha256": "c98e28face6fd518a28d6f0494116eed3b16568280c43756f86e6cf15b26f9ea",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "86f7379f942e31a014b02d55ef30f7e6fe7175f91f38b660ccd0ef19190aff69"
+    },
+    {
+      "id": "unit-29",
+      "sourceSha256": "0a7216e0fbf41ec95a475a6d24cb8359ed26d1832a4e4ec270d5b62e9044c3a3",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "c8fea5a74e38757617a42e224471e5789f9f2bd739b51e655631663a181f80a2"
+    },
+    {
+      "id": "unit-30",
+      "sourceSha256": "2e3a7fd876564d73657923fd0fdf86f222afdb190889daf51c95916738ae21e7",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "2d3c5d02177b31a6f503d7f0bc4d291ac2566e946fce8965952a8f5978af98ee"
+    },
+    {
+      "id": "unit-31",
+      "sourceSha256": "0348afb9af8d0b9113b7a343229299dde483f3ec730d30824469110fd98cff88",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1cb2d667a27e7070f0b8902b71eff7f5b596d09fb1d19905544ebda0e44d7d4a"
+    },
+    {
+      "id": "unit-32",
+      "sourceSha256": "9762943f2a8e99a61bf07c514598d711a25fb1b01ce4740b6b3dfd5dc704789e",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "84368e22b0eeadd19df86cc012483fab162c29009f91e7dab52555a27dabd5ff"
+    },
+    {
+      "id": "unit-33",
+      "sourceSha256": "1c55f317cb2717959555d9fc2fcef3903418febeb1e8da01f4265c98b1e90ba0",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "c5394e35cea6d744417d80db3b4f55eb6f28ab432cd3214fb3c0d6845a7ff138"
+    },
+    {
+      "id": "unit-34",
+      "sourceSha256": "d96ab28a3c1aa59cb796d3ea01741ab055d0772dd9c4f1c1c200be77e74bd021",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "4634c0f16efddf281f25a68b2f054c90509b132461639b6d24e392abff4f4087"
+    },
+    {
+      "id": "unit-35",
+      "sourceSha256": "3e8b06f881827fcb1bb1010522afa0e6f0a4906ea6787a6c1898d2adda020aeb",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "ca110609f600baa99df7114e73ea392229d5b33202139efbd4d7f1a36ff2aea7"
+    },
+    {
+      "id": "unit-36",
+      "sourceSha256": "4a281a502cd016b0c86fbbb3cc3d64f5376b173a1ff9c5106563a711e1119ed5",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "b295ff12234287a0d2bd383f903520a754805715fd8125a2131b66f1e7ca8a4f"
+    },
+    {
+      "id": "unit-37",
+      "sourceSha256": "ff09ab5a051b7576be237e866a37c7b39cb195d7bb6512a88418a3e9bc5918b4",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "64e44da41c00cf67ae6d81d256603b37a3fdf5442e73d2b68f7366f9709593f9"
+    },
+    {
+      "id": "unit-38",
+      "sourceSha256": "1263f7901ff6f76adf7b0aca01ef7483618b1973e20c6940fbfd1b43d77806b5",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "e2b67b277293d091be57995e2f946aa53aae88fd6660f1bce1cdd0476275c391"
+    },
+    {
+      "id": "unit-39",
+      "sourceSha256": "832f169d2c6b23a6f19ceae11cabc04d8d98cfa9f7e64d6e08de9f9ef4e352c1",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1dff35cd303cbda009dfc64a8ec7bd3a69839ce6f504fc713753ad25c374fa73"
+    },
+    {
+      "id": "unit-40",
+      "sourceSha256": "dce05cc849a6d86e58ffffeac41201d0b040d530e0cc1806a1f84c36d35aebdd",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "6f8581dca855bb576a56f7d45ed36b13b19cdb6734d3016516b94ab7cb894e7e"
+    },
+    {
+      "id": "unit-41",
+      "sourceSha256": "756d8a7db35796866d9a2ca46cbd02ac68f846722252dbfc11a701118064f15a",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "aef99ae901a325ab363e53c45fe934241869b7afb0bf1daa93a936cafe01ac27"
+    },
+    {
+      "id": "unit-42",
+      "sourceSha256": "761795bc947363bff08db7776d5ad0cfd64fdb1f6133d7cd66be6391522268ae",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "46c0e2a8d637ff7fce51be0dc33dae022c2db830f4f171049514b783fe05b518"
+    },
+    {
+      "id": "unit-43",
+      "sourceSha256": "c452b1929776e334896d8e07d07747cd9210dcf81711d607e16d88dacf5b0516",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "8ec0c48b90770dd00cd7a99251af085bc98138167d80ff4ca483f71080581c64"
+    },
+    {
+      "id": "unit-44",
+      "sourceSha256": "30fa52fed0a729ade0e4b8577b1d5a3e6c08a909cb8572a0074ee3a2a55367ed",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "6816ea6fba41f46bc24b47f4714d7098d1f9a0a7735de22191402ffe45a180d8"
+    },
+    {
+      "id": "unit-45",
+      "sourceSha256": "7a1af953c648e97237a9f5b1c942388bd06d61e153ed74d16abea2e2581d7f1a",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "1492c9525ae7c8aa8e445cf4c1e98e915cf9913ed7d93088c760d4d39fc0c69f"
+    },
+    {
+      "id": "unit-46",
+      "sourceSha256": "893977d5eabef32140ac071aad6971005650dc406fb097d368b92e169342fa9a",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a48f7907f3a742b978e446988141c7e127d94fcd8a74b29735a62e4caec8fdaa"
+    },
+    {
+      "id": "unit-47",
+      "sourceSha256": "97465a0b1b4226935346eb59b3a472ed0070f01e931f2a81891dd632eae7961e",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "6ba29ed775cdf234e70a8c5e09db475154eaf3e0586fe5af5a89e7e9a5f55238"
+    },
+    {
+      "id": "unit-48",
+      "sourceSha256": "a98ce68d0cb83b4fb90e544848f009bda0030f46dafc01acf493b111837d69dd",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "4ade0f287dc02a9a80263861477e8481b3a78c02ef014573b65c47e0a6ef56d2"
+    },
+    {
+      "id": "unit-49",
+      "sourceSha256": "63fd143482df7be2a62adf6f34d43d2e37394de2af6ee3e6832fcfce8ee1fe59",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "9bc19bda760ea8f7475ce50b14d4c6fdcf9c32e94b214dc6ade11c0d80eff428"
+    },
+    {
+      "id": "unit-50",
+      "sourceSha256": "6e67dea77e28f3b270594e21a5fffbbf2ddbc9b8383da2ccc4188a68d085494f",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "6bdac3cc96781f3d695d8d38781b2d6bc8ad0386b7bd8f5fc73b11e037b06da4"
+    },
+    {
+      "id": "unit-51",
+      "sourceSha256": "0be2e6744863b268d83f249c1fa1e93a6a753e7e8d59a8f6f9bc9f92fab1f05f",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "c03f8712da5052645ac4b3b38629789d3c0faca80dc92f5fc6770d5ebc638563"
+    },
+    {
+      "id": "unit-52",
+      "sourceSha256": "074ca3714ad659a2ee148d34d6c953f9fa2edce81d74703393bfd4d2f4074114",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "269f81b23a7697d912f5da86180b7b5a9cb7835c3ca9bb0f6dae2408cb4e6789"
+    },
+    {
+      "id": "unit-53",
+      "sourceSha256": "08c21c49f021d75a6324382e7bcc10788a513b4ef62ea4ee3648e3ed464ae2b7",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "2ef9984d629ca9fa088359e281ee8fe0fd6045e4cb6787427055662c70948823"
+    },
+    {
+      "id": "unit-54",
+      "sourceSha256": "317c6c23eca388aa2b9419c88266ffcb434bbd054321fb4386cc8411af36e1fd",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "351bb31aec0931866c555c603766929d91235fa98bc0aa786825a6eca9dce842"
+    },
+    {
+      "id": "unit-55",
+      "sourceSha256": "9995236373a5f222c57e6976a9bf816431b153b43191e560f8c3005c897e4cfc",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "e6491b817bc57c0661b6399e35a3917fe6a79f28c255c44f37749effc85e9a46"
+    },
+    {
+      "id": "unit-56",
+      "sourceSha256": "1f7033e15c1c058586ec0602c309dbe7d88a1db2290ace8c9009c60ccbd766c7",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "2d16b752a4bb8caddd35899d1da32ab0f3b401673dfaa28b89b939d50bef63de"
+    },
+    {
+      "id": "unit-57",
+      "sourceSha256": "ccc3f56f49b510e1b4d3a978d57754b23dfec93c0eb58dc955d61f1c4a168746",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "ec75cdd0b7dc965c54dbf9b185782a25ef76014ce21f069bdd6f724ebc3dfb00"
+    },
+    {
+      "id": "unit-58",
+      "sourceSha256": "25798672f6067f0aff7aa7c46fb8eec1c78531b26833bb3ec9488bc808143b1a",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "7daa9437cb05037d3477fae3eaaf8dfa5eb9de060a62d5cdd438a0cf39a340c7"
+    },
+    {
+      "id": "unit-59",
+      "sourceSha256": "d27076def932d430202e9d6964605a1329f6554a508d0d0f699d18d517eea7f7",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "d1f6d0018aa47f16ecf4cdaf8cf2066dec2e6f4e34d11dfd13b650e86a29d927"
+    },
+    {
+      "id": "unit-60",
+      "sourceSha256": "37c9f78a1d85c0587f9fc5ed601663afcec8f3fa4526c65ece4030b39f8d55d5",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "0c64c76e37b0161c5e6fa55dbbe3ff63237b2323ba7cb63d6ba91a052076bdeb"
+    },
+    {
+      "id": "unit-61",
+      "sourceSha256": "d102b6470e02988a5734d91793863dd1d018979c299b33002b01a9d257df223e",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "e3a385718cd06ee5d6f3bd1657552632619bf56933dfeeb08fccaeaa129bc748"
+    },
+    {
+      "id": "unit-62",
+      "sourceSha256": "c69197b91805a0c96119890a3c8d172d0f45d72ea532c95885b6007a7901bf21",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "cb2f93636960b55a61d5b592249cc060e67af16da5fe45bc221d926ba16a62f2"
+    },
+    {
+      "id": "unit-63",
+      "sourceSha256": "e5e9bd243010bd7f022df1b88d2fec7f726fb92578cd432e1a103e79733b0772",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "56f52c413e563a5a9f35134db4bac55a7973421feb921bdb9381641a392084b3"
+    },
+    {
+      "id": "unit-64",
+      "sourceSha256": "12b815adb157390b62a0f40d0d1dff4be0f37d530956e9bdd7d8402bd39ae456",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "67963d133d292f88a37085aadf4a8955eb95de51257b1aab7ec84569a302bcf4"
+    },
+    {
+      "id": "unit-65",
+      "sourceSha256": "0db43398ccc9915716cd631ea8d221514173d479d2d619e8305760d64fdc0bdb",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "0f59a6ef016a9cfc86aec87f593c3b7e27422a47cf533fcacafc99164173e6b9"
+    },
+    {
+      "id": "unit-66",
+      "sourceSha256": "f6ef0ca3e6c9827cff3886b824f7da1fdc5d14228edf36524027abe384452440",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "03db026859c2cadb97ea2a3d8a32cd7552931ec90be4f0090d30b56067aab63f"
+    },
+    {
+      "id": "unit-67",
+      "sourceSha256": "f3eaa01ab83df1552419015562ee1ac86882f1d07950e52f987ebff700128534",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "07511292892ff71f4518f0792eb7747c778469e29485e1a61171cad6f7346050"
+    },
+    {
+      "id": "unit-68",
+      "sourceSha256": "9cc3982735f5887aac96fdd77090c9e2328696d237b560be8d9c97e89473e544",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "a29a10adca72696147d0c596f5b8fd224bbec36f6fa461dfb534b5ab65e5047b"
+    },
+    {
+      "id": "unit-69",
+      "sourceSha256": "767c9ec20c5fd94e2f9603fd42ae62220667fb83ba50e09bf372bd233be72915",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "f1d2bb46dd41485a3a005a5ecb2498596f9eb5a78fa33ca05690aa3aef6c1d72"
+    },
+    {
+      "id": "unit-70",
+      "sourceSha256": "32f1014a8ca2ba1027b5838246496c6618f803ada7d038f9c1100442e1bcf161",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "8b21ff7e45b4936680709166659be6055612a33db2443f0f183863a6648f5c00"
+    },
+    {
+      "id": "unit-71",
+      "sourceSha256": "d63186b0ef6fba23a70cf3f7e74405a77864520fdaa315d07d4d022f548a1b89",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "e3af9a263293228187d0f6f58eac8df5820aa0b65a89bf74032fe972a1050b53"
+    },
+    {
+      "id": "unit-72",
+      "sourceSha256": "1d8f051e50d46e3dc809743243d9c8a08477d039bc57b318c643af3719c1bca1",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "82d52a958aa39391a975607b21eaae259fbf6673f277d53e0838fda14f9d845a"
+    },
+    {
+      "id": "unit-73",
+      "sourceSha256": "c1aebc03b512f0c72aa77edf381fb54f7dc258a18a24c758642bccc03e60f91e",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "51d3fda78e08984f0353a204f5cd54c59056c63395e2681cda79d5a1075e27af"
+    },
+    {
+      "id": "unit-74",
+      "sourceSha256": "1878743c5f8acbb857bdc8598cf5a4b1908f999dcc917220adbcd4cbded45193",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "0aa5e93ef505250005413d30040ea59feeea0cdf0e83f6ed19c745dbdcc57bfd"
+    },
+    {
+      "id": "unit-75",
+      "sourceSha256": "ead9894334ef564327db0d8736356227ddf2b87e84ff1b47c56cac0b6a4d932d",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "39a6e288172395325d79a60eab86962052df5d5625cccc6852eff22c923fa9ba"
+    },
+    {
+      "id": "unit-76",
+      "sourceSha256": "50487c13e734b9fd469d3b8996030d427387f63741795f794a3da81aca4d71c0",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "f23d801b44332122d39db2ba2b326ef0649c653e8cebf76ed1708e5f8e44bd66"
+    },
+    {
+      "id": "unit-77",
+      "sourceSha256": "3ff4136b26a4ba2df9b3e24898f312c9910ebbb0d74d4412df6f031d433ef2f7",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "e6c44aa045d4b47486e6b4fa316af0429e7688abcb993863c5875a640f771eb4"
+    },
+    {
+      "id": "unit-78",
+      "sourceSha256": "e6685bc15cd1596a8bccc43720751f4ddc27a7966cadfc776f37201399084ebf",
+      "legacyIds": [],
+      "disposition": "retain",
+      "reason": "Retained as written: the reading text already follows the slides one by one in the original order, so no editorial change was needed.",
+      "editedSha256": "48c629150ab9f388555f320ae077a012682c2b67501d766e3d4428ede95801c7"
+    }
+  ]
+}

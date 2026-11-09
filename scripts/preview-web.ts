@@ -17,6 +17,18 @@ const mime: Record<string, string> = {
   '.xml': 'application/xml',
   '.vtt': 'text/vtt',
 };
+const proxied = new Map<string, Promise<{status: number; type: string; body: Buffer}>>();
+async function fetchProxied(url: string) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const remote = await fetch(url, {signal: AbortSignal.timeout(60000)});
+      return {status: remote.status, type: remote.headers.get('content-type') || 'application/octet-stream', body: Buffer.from(await remote.arrayBuffer())};
+    } catch (error) {
+      if (attempt >= 3) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 2000 * attempt));
+    }
+  }
+}
 http
   .createServer(async (req, res) => {
     try {
@@ -30,7 +42,14 @@ http
         return;
       }
       const proxy=config.rewrites?.find((r:any)=>r.source===decodeURIComponent(url.pathname));
-      if(proxy){const remote=await fetch(proxy.destination,{signal:AbortSignal.timeout(30000)});res.writeHead(remote.status,{'Content-Type':remote.headers.get('content-type')||'application/octet-stream'});res.end(Buffer.from(await remote.arrayBuffer()));return;}
+      if(proxy){
+        // Rewrites point at immutable R2 objects. Fetch each one once per preview (r2.dev can hold a request for
+        // minutes), buffer the whole body before answering, and retry timeouts/network errors twice.
+        let pending=proxied.get(proxy.destination);
+        if(!pending){pending=fetchProxied(proxy.destination);proxied.set(proxy.destination,pending);pending.catch(()=>proxied.delete(proxy.destination));}
+        const remote=await pending;
+        res.writeHead(remote.status,{'Content-Type':remote.type});res.end(remote.body);return;
+      }
       const target = path.resolve(
         root,
         '.' +
@@ -45,6 +64,7 @@ http
       });
       res.end(bytes);
     } catch {
+      if (res.headersSent) { res.destroy(); return; }
       res.writeHead(404);
       res.end('Not found');
     }

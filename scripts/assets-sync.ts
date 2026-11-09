@@ -64,13 +64,29 @@ async function save() {
     if (k === v) delete manifest.paths[k];
   await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 }
+// The r2.dev public URL sometimes holds one GET for minutes while the next request for the same object answers in
+// seconds (observed 2026-11-09 across old and new assets). A GET that times out or fails at the network level is tried
+// twice more; an HTTP error is not retried, and the hash, size and type checks are unchanged.
+async function getPublic(url: URL | string) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const r = await fetch(url, { signal: AbortSignal.timeout(60000) });
+      const bytes = Buffer.from(await r.arrayBuffer());
+      return { ok: r.ok, status: r.status, headers: r.headers, bytes };
+    } catch (error) {
+      if (attempt >= 3)
+        throw Error('R2 public GET failed 3 times: ' + url + ' (' + (error as Error).message + ')');
+      await new Promise((resolve) => setTimeout(resolve, 2000 * attempt));
+    }
+  }
+}
 async function verify(asset: Asset) {
   const u = new URL(asset.url);
   if (u.origin !== publicBase.origin)
     throw Error('Unexpected R2 public origin');
-  const r = await fetch(u, { signal: AbortSignal.timeout(60000) });
+  const r = await getPublic(u);
   if (!r.ok) throw Error('R2 public verification HTTP ' + r.status);
-  const bytes = Buffer.from(await r.arrayBuffer());
+  const bytes = r.bytes;
   if (sha(bytes) !== asset.sha256) throw Error('R2 public hash mismatch');
   if (bytes.length !== asset.bytes) throw Error('R2 public byte size mismatch');
   if ((r.headers.get('content-type') || '').split(';')[0] !== asset.mime)
@@ -315,10 +331,10 @@ for (const file of await regularFiles('dist')) {
 }
 for (const url of existingRemoteUrls) {
   if (Object.values(manifest.assets).some((a) => a.url === url)) continue;
-  const response = await fetch(url, { signal: AbortSignal.timeout(60000) });
+  const response = await getPublic(url);
   if (!response.ok)
     throw Error('Existing public image HTTP ' + response.status);
-  const bytes = Buffer.from(await response.arrayBuffer());
+  const bytes = response.bytes;
   const mime = (response.headers.get('content-type') || '').split(';')[0];
   if (!mime.startsWith('image/'))
     throw Error('Existing public image MIME mismatch');
@@ -334,11 +350,23 @@ for (const url of existingRemoteUrls) {
   };
   await save();
 }
+// Every image is downloaded and checked (hash, size, type) when it is uploaded or first registered, which sets
+// verifiedAt. Owner's instruction 2026-11-09 ("야 그걸 왜 일일히 또 대조해 패스하고 빨리 등록해"): do not download every
+// registered image again on each run; only images without verifiedAt are checked, and --full re-checks all of them.
+// Fonts are still compared with their local source bytes.
+const full = process.argv.includes('--full');
 const verified = new Set<string>();
+let reverified = 0,
+  carried = 0;
 for (const asset of Object.values(manifest.assets)) {
   if (verified.has(asset.url)) continue;
-  if (asset.kind === 'image') await verify(asset);
-  else if (sha(await fs.readFile(fontSourcePath(asset.sourcePath!))) !== asset.sha256)
+  if (asset.kind === 'image') {
+    if (!full && asset.verifiedAt) carried++;
+    else {
+      await verify(asset);
+      reverified++;
+    }
+  } else if (sha(await fs.readFile(fontSourcePath(asset.sourcePath!))) !== asset.sha256)
     throw Error('Shared font hash mismatch: ' + asset.url);
   verified.add(asset.url);
 }
@@ -348,9 +376,12 @@ await fs.writeFile(
   JSON.stringify(
     {
       verifiedAt: new Date().toISOString(),
+      mode: full ? 'full' : 'verified-at-upload',
       urls: [...verified],
       added,
       reused,
+      downloadedNow: reverified,
+      carriedFromUploadCheck: carried,
     },
     null,
     2,

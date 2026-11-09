@@ -51,3 +51,6 @@ Vercel production 빌드는 `publication-approval.ts`에서 현재 승인 없음
 
 ## 연구 갤러리 연결 계획의 실행 위임 · 2026-10-24
 사용자는 「Pele Atlas 개편 — 대표 14종과 공개 연구 갤러리 연결」의 공개·검증·게시 절차를 포함한 계획에 “Implement the proposed plan.”으로 실행을 지시했다. 이 요청은 기존 104개 사례 이관과 구분해 `researchers-public-gateway`로 기록한다. 실제 요청 시각은 2026-10-24T02:41:50Z이며, 해당 세션·실행 요청 turn·계획 turn을 함께 검증한다. 검토 완료 뒤 현재 digest/reviewHash에 연결하는 boundAt은 사용자 발언 시각과 별개다. 새 페이지의 검토·기존 기능 보존·언어·용량·원격 검증은 면제하지 않으며 다른 작업에 재사용하지 않는다.
+
+## 바뀐 경로만 다시 검수 · 2026-11-09
+소유자 지시(2026-11-09, 세션 d84382cc-a386-4a0d-a01c-033cca6a0604): “뭔 테스트를 이렇게 많이 계속 해 올리라니까 다 패스하고”. 강의 하나를 추가할 때마다 전체 192개 경로 × 3폭 × 2테마를 다시 찍으면 r2.dev 지연과 겹쳐 25분 넘게 걸렸다. 이제 web-dist의 각 경로 HTML을 운영 중인 게시본 응답과 SHA-256으로 비교해, 바이트까지 같은 경로는 그 게시본의 검수 기록(화면·읽기·읽기 탐색·편집 폭)을 이어받고 `retainedEvidence.unchangedRoutes`에 비교 대상·방법·시각·경로를 남긴다. 다르거나 새로운 경로는 `REVIEW_ONLY`(경로 목록 JSON)로 `scripts/review-bilingual.ts`·`scripts/review-reader-features.ts`를 돌려 실제 web-dist 미리보기에서 새로 측정한다. 이어받은 기록을 새 측정으로 표기하지 않고, 비교 목록이 현재 경로와 맞지 않으면 확정하지 않는다. `REVIEW_ONLY` 없이 실행하면 지금처럼 전체를 측정한다.

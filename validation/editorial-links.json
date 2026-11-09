@@ -8,7 +8,8 @@
     "media-colloquium-2026-06-10": "7547aedfcfec75919d918c929b2d5f45b3445ca3ce51470fd8161d450fc58e6e",
     "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6",
     "still-working-on-my-topic-2026-10-20": "03a8d7d79547340b2b8c8d8c238c4b32355a00d329f57e823374c06d422baccc",
-    "why-research-hypotheses-2026-11-03": "41a2192ce9c0a662d48eb389900eef89b58259cbc8bc3e2f0f2947ea502ef208"
+    "why-research-hypotheses-2026-11-03": "41a2192ce9c0a662d48eb389900eef89b58259cbc8bc3e2f0f2947ea502ef208",
+    "from-sample-to-population-2026-11-10": "87f0a85c09937d369317983566500b12498645a42746c5a905d6135a8fafcda2"
   },
   "links": [
     {
@@ -796,6 +797,55 @@
       "status": "verified",
       "http": 200,
       "checkedAt": "2026-11-02T14:00:59.629Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://posit.co/download/rstudio-desktop/",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:45.074Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://cran.rstudio.com/",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:45.136Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://www.index.go.kr/unify/idx-info.do?idxCd=8001",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:45.281Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=2762",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:45.438Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://posit.cloud/content/5906664",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:46.154Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://posit.cloud/content/7862513",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:46.757Z"
+    },
+    {
+      "workId": "from-sample-to-population-2026-11-10",
+      "href": "https://claude.ai/artifact/B3vs3qRXH6HRe755AbKnyh",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-09T10:06:46.797Z"
     }
   ]
 }

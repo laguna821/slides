@@ -1,5 +1,65 @@
 [
   {
+    "id": "from-sample-to-population-2026-11-10",
+    "slug": "from-sample-to-population-2026-11-10",
+    "title": "내 주먹 속 사탕으로 상자 전체를 알 수 있을까요? — 기술통계와 추론통계의 기초",
+    "summary": "주먹으로 뽑은 사탕 몇 개(표본)로 상자 전체(모집단)를 말하려면 무엇이 필요할까요? 최빈값·중앙값·평균과 분산·표준편차를 R로 직접 계산하고, 평균의 함정과 표본으로 모집단을 추정하는 추론통계학의 출발점까지 잇는 77장 강의입니다.",
+    "date": "2026-11-10",
+    "registeredAt": "2026-11-09",
+    "kind": "lecture",
+    "topics": [
+      "연구방법론",
+      "양적 연구",
+      "기술통계",
+      "추론통계"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "poster": "/images/from-sample-to-population-2026-11-10.png",
+    "posterAlt": "‘모집단과 샘플 – 사탕뽑기 시뮬레이터’ 슬라이드: “내가 주먹으로 뽑은건 딸기 초콜릿만 몰아서 나왔는데 – 박스에는 골고루 있던데?”라는 질문 아래 사탕 뽑기 시뮬레이터 화면, 주먹과 사탕 몇 개, 사탕 상자(모집단) 사진",
+    "audience": "R로 평균은 구해 보지만 표본의 숫자로 모집단을 말할 때 무엇이 달라지는지 아직 설명하기 어려운 대학원생",
+    "takeaways": [
+      "모집단·표본·모수·통계량을 구분하고, 기술통계와 추론통계가 각각 무엇을 하는지 설명합니다.",
+      "최빈값·중앙값·평균과 분산·표준편차를 R로 계산하고, 극단값이 평균을 끌어당기는 평균의 함정을 확인합니다.",
+      "표본 통계로 모집단을 추정할 때 표준오차와 신뢰구간이 왜 필요한지 이해합니다."
+    ],
+    "event": "한림대학교 미디어스쿨 대학원 · 커뮤니케이션조사방법론 II · 2026년 11월 10일",
+    "body": "내 주먹에 쥔 사탕 몇 개로 사탕 상자 전체를 말할 수 있을까요? 뽑은 사탕을 있는 그대로 요약하는 기술통계학과, 그 패턴으로 상자 전체를 추정하는 추론통계학을 사탕 뽑기 비유로 구분합니다.\n\n한림대학교 미디어스쿨 대학원 「커뮤니케이션조사방법론 II」 10주차 강의입니다. 2024년 학부 조사방법론 5주차 자료 두 편의 문구와 순서를 그대로 두고 한 편으로 합쳐 Achmage Presentation으로 다시 만들었습니다. 모집단과 샘플, 최빈값·중앙값·평균, 분산과 표준편차, 정규분포와 평균의 함정, t.test로 구한 신뢰구간을 다룹니다.\n\n슬라이드의 R 코드는 R 4.3.3으로 실제로 실행한 결과를 함께 실었고, 연습 장의 결과는 다음 클릭에 나타납니다. 사탕 뽑기 시뮬레이터 장은 R Shiny 코드를 웹으로 옮긴 페이지로 연결되며, 표본을 10번·100번·1000번 쌓아 표본 비율이 모집단 비율을 중심으로 종 모양으로 모이는 모습을 볼 수 있습니다. 개념도는 Achmage Pele로 그렸고, 사진과 일러스트는 2024년 강의자료 원본입니다(원출처 미기재).\n\n한국어 슬라이드와 전체 읽기, 영어 소개·읽기를 제공합니다.",
+    "course": {
+      "id": "communication-research-methods-ii-2026-2",
+      "title": "커뮤니케이션조사방법론 II",
+      "term": "2026학년도 2학기",
+      "week": 10
+    },
+    "artifacts": [
+      {
+        "id": "sample-population-lecture-html",
+        "type": "html",
+        "role": "slides",
+        "url": "/decks/from-sample-to-population-2026-11-10/v1.0.0/index.html",
+        "label": "강의 슬라이드 · 한국어 77장",
+        "version": "1.0.0",
+        "modes": [
+          "present",
+          "read"
+        ]
+      }
+    ],
+    "mediaIds": [],
+    "resourceIds": [],
+    "htmlSource": "public/decks/from-sample-to-population-2026-11-10/v1.0.0/source-web.html",
+    "reader": {
+      "version": "2.0.0",
+      "source": "content/reading/from-sample-to-population-2026-11-10.md",
+      "sourceVersion": "1.0.0 · 2026-11-10",
+      "manifest": "content/reading/manifest.json",
+      "editorialSource": "content/editorial/from-sample-to-population-2026-11-10.md",
+      "editorialManifest": "content/editorial/from-sample-to-population-2026-11-10.json"
+    },
+    "provenance": "docs/from-sample-to-population-2026-11-10-provenance.json"
+  },
+  {
     "id": "why-research-hypotheses-2026-11-03",
     "slug": "why-research-hypotheses-2026-11-03",
     "title": "AI가 다 해주는데 연구가설은 왜 세워야 할까요? — 사회과학 양적 조사방법론의 기초",

@@ -8,11 +8,14 @@ const out='.local/i18n/review';
 const browser=await chromium.launch();
 const context=await browser.newContext({permissions:['clipboard-read','clipboard-write'],acceptDownloads:true});
 const page=await context.newPage();page.setDefaultTimeout(12000);
+// A reading page waits for every R2 figure before "load"; r2.dev can take far longer than 12 s (2026-11-09).
+page.setDefaultNavigationTimeout(120000);
 const readers:any[]=[],navigation:any[]=[],extra:any[]=[],downloads:any[]=[],search:any[]=[];
 const settle=()=>page.evaluate(async()=>{await document.fonts.ready;await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);});
 const ready=async()=>{await page.evaluate(async()=>{for(const i of document.images){i.loading='eager';if(i.getAttribute('src'))await i.decode().catch(()=>{});}});await settle();};
 try {
- for(const route of (await builtReviewRoutes()).filter(r=>r.endsWith('/read/'))){
+ const only=process.env.REVIEW_ONLY?new Set<string>(JSON.parse(await fs.readFile(process.env.REVIEW_ONLY,'utf8'))):null; // see review-bilingual.ts
+ for(const route of (await builtReviewRoutes()).filter(r=>r.endsWith('/read/')&&(!only||only.has(r)))){
   await page.setViewportSize({width:375,height:900});await page.goto(base+route);await ready();
   const row:any={route,version:'2.0.0'};
   const toc=page.locator('.reader-toolbar [data-open-panel="reader-toc"]');

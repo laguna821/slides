@@ -3,9 +3,9 @@
   "status": "approved",
   "scope": "portfolio-production",
   "policyVersion": "6.7.0",
-  "digest": "351631ee61ff667ada7bc2cf206af43abd1978b2930a8fff80eb2e88405ea7e3",
-  "reviewHash": "d0cf2218f8d9226a2915941755b7f6a9e4ad2b3aaa63066a946ba9173f4436b5",
-  "boundAt": "2026-11-02T14:24:11.268Z",
+  "digest": "027d04cfbbb6107c03a124dddbc34f3eac10ec4573d87a95d0af5b409308ef3d",
+  "reviewHash": "b83da23ecf7136b6ae0d3af12d51a5b1ce4b6fc396f39a1c7aeedff578403641",
+  "boundAt": "2026-11-09T12:06:59.343Z",
   "decision": {
     "by": "user",
     "quote": "막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지\n업로드도 굳이 왜 내허락 일일히 받는거야?\n이건 당장 규약 고쳐",
@@ -14,9 +14,15 @@
     "authorization": "publish-when-verified",
     "requestScope": "standing-owner-delegation"
   },
+  "ownerRequest": {
+    "quote": "내 포트프ㅗㄹ리오 사이트에 올리자",
+    "sessionId": "d84382cc-a386-4a0d-a01c-033cca6a0604",
+    "at": "2026-11-09T08:39:21.683Z",
+    "workId": "from-sample-to-population-2026-11-10"
+  },
   "preview": {
     "status": "not-deployed",
     "reason": "vercel.json deploymentEnabled limits Vercel deployments to main and two named branches; the release review ran on the same web-dist through npm run preview",
-    "reviewedAt": "2026-11-02T14:16:58.786Z"
+    "reviewedAt": "2026-11-09T12:06:54.792Z"
   }
 }

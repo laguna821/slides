@@ -69,3 +69,9 @@ SVG 글꼴 검증: 변수 글꼴의 750 등 비표준 굵기는 정확한 정적
 공용 배포는 전체 누적 등록표를 입력으로 사용한다. 이미 공개 검증한 파일·CSS·라이선스의 해시 주소를 삭제하거나 변경하면 준비 단계가 실패한다. 원본 글자 축소와 Lite 전환은 하지 않는다. `fonts:verify`는 모든 파일의 공개 SHA256·크기·MIME·CORS·캐시를 확인한다. 후속 사이트 검토·게시 확인 계약은 그대로 적용한다.
 
 검증 이력: [FONT-CDN-MIGRATION.md](FONT-CDN-MIGRATION.md). 초기 근거는 R-006 revision `103a136dd5141458b95d11ed65825d7e691a15f117f7c88c9f93af9fbf39d822`이다.
+
+## R2 이미지 대조 시점 · 2026-11-09
+
+소유자 지시(2026-11-09, 세션 d84382cc-a386-4a0d-a01c-033cca6a0604): “야 그걸 왜 일일히 또 대조해 패스하고 빨리 등록해”. `assets:sync`는 이미지를 올리거나 처음 등록할 때 공개 주소에서 받아 SHA256·크기·형식을 대조하고 `verifiedAt`을 남긴다. 이후 실행에서는 `verifiedAt`이 있는 이미지를 다시 내려받지 않고 그 대조를 이어받으며, `validation/asset-verification.json`에 새로 받은 수와 이어받은 수를 구분해 기록한다. 전체 재대조가 필요하면 `npx tsx scripts/assets-sync.ts --full`을 쓴다. r2.dev가 한 요청을 오래 붙잡는 경우가 있어 공개 주소 GET은 시간 초과·네트워크 오류에 한해 두 번 더 시도한다(HTTP 오류는 재시도하지 않음).
+
+같은 지시를 공용 폰트에도 적용한다. `fonts:publish`는 `validation/font-cdn-verification.json`이 지금 등록부(`content/font-cdn.json`)를 그대로 덮을 때(등록부 해시 일치·누락 0·모든 폰트와 CSS/라이선스 파일 기록, 즉 `fonts:check`의 영수증 검사 통과) 공개 폰트를 다시 내려받지 않고 그 확인을 이어받는다. 같은 날 바뀌지 않은 폰트 8개를 매번 전부 받다가 workers.dev 응답 한 건이 60초를 넘겨 업로드 준비 전체가 멈췄다(2MB 한 개에 약 9초). 새 폰트나 바뀐 등록부는 지금처럼 누락분 배포 뒤 전체 공개 응답을 확인하고, `npx tsx scripts/fonts-cli.ts publish --full`이나 `npm run fonts:verify`는 언제나 전체를 다시 받는다. 업로드와 자산 등록 규칙은 바뀌지 않는다.

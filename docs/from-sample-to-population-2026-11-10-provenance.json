@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "original": {
+    "filename": "GPT 조사방법론 5W-1.pptx + 5W-2.pptx (조사방법론 2024-1, 강의 PPT/5W)",
+    "slides": 81
+  },
+  "remake": {
+    "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+    "bundleLockSha256": "2d5266dd230dc16f3f71fe5c62f6eb7cd27a154bf4e279d35f1faadf3c98d4c3",
+    "htmlSha256": "dd3a0a70f79a0f0c60e01245347e535ef702e8725679e8aff2382c1c7fcebdb3",
+    "webProjectionSha256": "b07904ef4abf4953e993a90c5604e96ce1c5c0d797eb8d35f3bef45ab8755122",
+    "version": "1.0.0",
+    "slides": 77,
+    "peleDiagrams": 2,
+    "rOutput": "R 4.3.3 console output, two R plots and four re-typeset formulas",
+    "font": "Achmage SameTone 1.000 through the engine custom-font option"
+  },
+  "adaptation": "Wording and order of the 2024 undergraduate week-5 slides (5W-1 and 5W-2) are kept and merged into one deck; 5W-2 slides 1–6 repeated 5W-1 and were dropped. Instructor-approved fixes: typos, the course subtitle, the AI & R Exercise titles and R comments moved onto their own lines so the code runs. Every R code block is shown with its actual R 4.3.3 output; RStudio data-view captures became HTML tables and formulas were re-typeset with R plotmath. Added on instructor request: one slide with the R result of the strawberry chocolate statistics and one slide linking the web version of the candy simulator (https://claude.ai/artifact/B3vs3qRXH6HRe755AbKnyh, a Claude artifact the instructor shared publicly). The weekly assignment slide was removed on instructor request. One light-based HTML switches theme at runtime; dark diagram, collage and formula variants are attached by CSS and the remaining theme font references point to SameTone. Instructor notes are not authored for this deck. No private notes or local paths are published."
+}

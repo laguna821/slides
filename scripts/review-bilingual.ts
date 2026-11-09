@@ -4,7 +4,10 @@ import {builtReviewRoutes} from './release-gate';
 const root='.local/i18n/review';await fs.mkdir(root,{recursive:true});
 const base=process.env.REVIEW_BASE||'http://127.0.0.1:4331';
 const browser=await chromium.launch({headless:true});
-const routes=await builtReviewRoutes();const views:any[]=[];const errors:any[]=[];
+// REVIEW_ONLY names a JSON list of routes to measure (routes whose HTML differs from the last reviewed release);
+// the rest keep their earlier review (docs/UPLOAD-CONTRACT.md, 2026-11-09). Without it every route is measured.
+const only=process.env.REVIEW_ONLY?new Set<string>(JSON.parse(await fs.readFile(process.env.REVIEW_ONLY,'utf8'))):null;
+const routes=(await builtReviewRoutes()).filter(r=>!only||only.has(r));const views:any[]=[];const errors:any[]=[];
 const jobs=routes.flatMap(route=>[375,768,1440].flatMap(width=>['light','dark'].map(theme=>({route,width,theme}))));
 try{
  await Promise.all(Array.from({length:3},async()=>{
