@@ -573,6 +573,11 @@
       "permanent": false
     },
     {
+      "source": "/images/espresso.jpg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472580884-de532b78-dc9b-44c8-a75b-6d58a361a508.jpeg",
+      "permanent": false
+    },
+    {
       "source": "/images/flight.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893547866-69c6a10d-08ea-46a8-abf2-6f67bb09402d.webp",
       "permanent": false
@@ -605,6 +610,11 @@
     {
       "source": "/images/media-colloquium-2026-06-10.webp",
       "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791893561244-9ac0b348-6da6-4857-aac0-4156812d4bf3.webp",
+      "permanent": false
+    },
+    {
+      "source": "/images/norman-door.jpg",
+      "destination": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472584089-f8ba8aa8-2dcf-45ee-820e-594704304dc3.jpeg",
       "permanent": false
     },
     {

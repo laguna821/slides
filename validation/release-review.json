@@ -1,7 +1,7 @@
 {
   "policyVersion": "6.7.0",
   "status": "passed",
-  "environment": "Headless Chromium via Playwright on the actual web-dist preview (port 4331). Fresh on 2026-11-09: 108 route views of 18 changed routes (375/768/1440 × light/dark), 8 reader feature flows, 48 reader navigation rows and 32 narrow/wide editorial measurements. Retained from the published review: 1044 views of 174 byte-identical routes and their reader rows. Lazy offscreen images are covered by the registered R2 asset verification.",
+  "environment": "Headless Chromium via Playwright on the actual web-dist preview (port 4331). Fresh on 2026-11-12: 96 route views of 16 changed routes (375/768/1440 × light/dark), Korean and English archive search, 0 reader feature flows (no reading page changed). Retained from the published review: 1104 views of 184 byte-identical routes and their reader rows. Lazy offscreen images are covered by the registered R2 asset verification.",
   "outputDirectory": "web-dist",
   "webAssets": {
     "status": "passed",
@@ -333,60 +333,6 @@
       "brokenImages": []
     },
     {
-      "route": "/en/motion/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/motion/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/en/motion/before-the-first-note/",
       "width": 375,
       "theme": "dark",
@@ -3511,60 +3457,6 @@
     },
     {
       "route": "/en/talks/why-research-hypotheses-2026-11-03/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/videos/",
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
@@ -3663,24 +3555,6 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/experiments/pkm-speaker-posters-2026/",
       "width": 1440,
       "theme": "dark",
@@ -3690,33 +3564,6 @@
       "brokenImages": []
     },
     {
-      "route": "/motion/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
       "route": "/motion/before-the-first-note/",
       "width": 375,
       "theme": "light",
@@ -3766,15 +3613,6 @@
       "width": 1440,
       "theme": "dark",
       "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/motion/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9076,6 +8914,1554 @@
       "width": 375,
       "theme": "dark",
       "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/courses/communication-research-methods-ii-2026-2/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/404.html",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/courses/communication-research-methods-ii-2026-2/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/from-sample-to-population-2026-11-10/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/survey-scale-intro-2026-10-13/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/archive/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/archive/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/espresso/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/motion/norman-door/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/en/videos/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/espresso/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 375,
+      "theme": "light",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 768,
+      "theme": "dark",
+      "actualWidth": 768,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 1440,
+      "theme": "light",
+      "actualWidth": 1440,
+      "actualTheme": "dark",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/motion/norman-door/embed/",
+      "width": 1440,
+      "theme": "dark",
+      "actualWidth": 1440,
       "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
@@ -9091,19 +10477,19 @@
     },
     {
       "route": "/videos/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
+      "width": 375,
+      "theme": "dark",
+      "actualWidth": 375,
+      "actualTheme": "dark",
       "overflow": false,
       "brokenImages": []
     },
     {
       "route": "/videos/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
+      "width": 768,
+      "theme": "light",
+      "actualWidth": 768,
+      "actualTheme": "light",
       "overflow": false,
       "brokenImages": []
     },
@@ -9136,960 +10522,6 @@
     },
     {
       "route": "/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/404.html",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/archive/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/courses/communication-research-methods-ii-2026-2/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/404.html",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/archive/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/courses/communication-research-methods-ii-2026-2/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/from-sample-to-population-2026-11-10/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/survey-scale-intro-2026-10-13/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "light",
-      "actualWidth": 375,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 375,
-      "theme": "dark",
-      "actualWidth": 375,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "light",
-      "actualWidth": 768,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 768,
-      "theme": "dark",
-      "actualWidth": 768,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "light",
-      "actualWidth": 1440,
-      "actualTheme": "light",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/why-research-hypotheses-2026-11-03/read/",
-      "width": 1440,
-      "theme": "dark",
-      "actualWidth": 1440,
-      "actualTheme": "dark",
-      "overflow": false,
-      "brokenImages": []
-    },
-    {
-      "route": "/talks/still-working-on-my-topic-2026-10-20/read/",
       "width": 375,
       "theme": "light",
       "actualWidth": 375,
@@ -15300,7 +15732,7 @@
     "quizOptions": 45,
     "sourceEqual": true
   },
-  "digest": "027d04cfbbb6107c03a124dddbc34f3eac10ec4573d87a95d0af5b409308ef3d",
+  "digest": "2a3f944032178981cd43258aed1ea66071ab8f2d448b04ca55a22fd8ad1b7711",
   "sourceFiles": {
     ".gitattributes": "07b9ec080b7f5e2c4924cd916a22e5a3277b9b2837dd610102bf44a7c6b118e8",
     ".github/workflows/pele-source-preview.yml": "0fe99007faa9afdbfb41b52aa27002b643398f5d8d40f679047cf916ba729fa8",
@@ -15326,13 +15758,13 @@
     "content/editorial/why-research-hypotheses-2026-11-03.md": "41a2192ce9c0a662d48eb389900eef89b58259cbc8bc3e2f0f2947ea502ef208",
     "content/experiments.json": "1ff5afa1732be5c3f46feff2f3929f75e50d87f2cd18b966403feb9534a3ee69",
     "content/font-cdn.json": "b3836bcffe8967fe875f2dfdc6ce295bf2bd8ad91f74fa81b7732e148c96c8df",
-    "content/i18n/en.json": "21123d44a328f4df1a842844cd647dc5c6b03cde456c4a23db3f1139d16c91a1",
+    "content/i18n/en.json": "fa0184ff88674cbfcf21de8a6f476a9aefc125e4226e661cb1b932c5c314ede0",
     "content/i18n/figure-manifest.json": "3b89dbf0654d64e14296d6fb61e1b625e5d667210eec53ab90fb49c7c80fdda6",
     "content/i18n/figure-strings.json": "baf483d35c0cd0a1c80d6636ae77ad453422cb9f6e4188f98ee4f862b4eca682",
     "content/i18n/figures.json": "a0eb2f83e9df86f217c61ff3f2b4f541d306c85116e647263a92cc063ec10a63",
     "content/i18n/print-manifest.json": "9a77a5766547d66a9c1231edefd31601f0a119cf6e095c9d6e3e591b110086a0",
     "content/legacy.json": "d9317c659cc601b29422283af06ce0f75de36cef8bd0d589364159f9396405c1",
-    "content/media.json": "fe6d0c58517ad35e70a6905e3f2c81610acd17173f8a5d7da47d4c15bf9d83c3",
+    "content/media.json": "9623e7db3c63f5f1113b11cbfeb3a8ed5a030a272a97a0514c2d65d0a8e0fcc3",
     "content/pele-collection.json": "63f169683c05276c0edb5d8b61ec009f8e5fec4a4cfa171156ad9207e7a95d7c",
     "content/pele-examples.json": "820ae19070b4d235cdf781cb4767f3cda7ce873de78a134f676ec99e0efd5c76",
     "content/pele-researchers.json": "181f55dc98bb78608d4dad2da529011f37a935cbf7d303e05643c2cf01e2fe92",
@@ -15354,9 +15786,9 @@
     "content/resources.json": "0e9ca0b04a53d303d3ae1cb49e0c4c81e1eeed421855046281e33a416d321be7",
     "content/site-policy.json": "b92ca22100b8c118deb116257f98bdc3cf55806420a87676300dbe930426c4b1",
     "content/usages.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "content/web-assets.json": "e95976f165e694e285e621cce617f0b2704fb4de31eb342458e60806b2c2e73e",
+    "content/web-assets.json": "f2b6252496cef66779942e826d46abfc47db1f4a4de9cf27003c367acb466d30",
     "content/web-source-only.json": "ed2176f640ec1509178d27c1207c0da7a8a2cf6164eb8a2047f0f143d47a007d",
-    "content/works.json": "ff5f810dac58402c3a73e70842ecc72d0087bc5d454851d41834c8db8ab540a6",
+    "content/works.json": "e8c0be65bf2f4a1a86a3945304b59e9b227cd8fc7af95355b15e8745635de87c",
     "docs/AS-REDESIGN.md": "cc421ae57dc934c02d7cf0031083a97e7cbc9862bff641e4ff7474fb9dc6704f",
     "docs/AS019-READER-VALIDATION.md": "d96e5ec0151a0cceab4046a1dc4962722f314e763fe45b4e27d48a58ae2738f4",
     "docs/AS020-PRINT-VALIDATION.md": "18838bb295433f60a283e53452775ee15966c92844f3bbde0d0d00599b4e1b40",
@@ -15415,6 +15847,7 @@
     "docs/survey-scale-intro-provenance.json": "9a70aad5c6d176e110ca1687af2509c349a201ee5764443ca34511502c53ad9f",
     "docs/survey-scale-intro-publication.md": "93bbe1b34f03bdca807994d31a0f238ea5a4d556104114d28930a50cc1d75b04",
     "docs/topic-lecture-provenance.json": "efd6100acaa94f44f3dbbe423f933d8c4f767caba1d654d6f32f54fc0284458b",
+    "docs/video-script-films-2026-11-12-publication.md": "00c0016c2574f61fc40cb4944ed983d8ebff4a3dd7b68733d834997fca2f5167",
     "docs/why-research-hypotheses-2026-11-03-provenance.json": "b7225a602687bdf65a08ea3ab7e6e9df45a6016d0d755858dd04f037573e8c14",
     "docs/why-research-hypotheses-2026-11-03-publication.md": "193e0adc9708193e4ad6e472bfac4178b9ae4e7dfdb1b404818b72441274d3df",
     "package-lock.json": "109e7f9ceee93ed5a3816aed10c10622779ba171a618df52595f44ff2f336691",
@@ -15559,6 +15992,7 @@
     "public/images/book.webp": "bdeb6c9584c76d11247c8639799c99ae7e5d5577c8396fea9b89c7d855342858",
     "public/images/city.webp": "3c848540b1efc25de968f81d4b21cdfc858f89cc86ddd4bd36bab2b5378b5f20",
     "public/images/educational-harness-workshop-2026-07-06.webp": "30d79c91136247219e3443239bde8ca7b26fab369b308e6b60cdd3960e2ba188",
+    "public/images/espresso.jpg": "7e826113ef7a85de523cb44b459a13aef0b3ac60389ea7774f7800f0ae11a7b8",
     "public/images/flight.webp": "ac27daec809df8ac98df00db9e5e28d0159a5c5b384a48f163a5fc3bbd5b4b5b",
     "public/images/from-sample-to-population-2026-11-10.png": "875063c0dff36a7ac91e9f6ab01998c101d705015b81ea0af8399a2818698d6e",
     "public/images/grandeur.webp": "5853b0a679a77658430d0769c09bcf3150cdb56019b03d8df757f8d3d29edbdc",
@@ -15566,6 +16000,7 @@
     "public/images/light-memory.png": "3e28357ed6a76a97c0f78b0734a05b54aa28fc7b0293b068c5d8d0013e65de89",
     "public/images/meal.webp": "2089d4b82eaba2920a5568b7d4e87761767ebe999b312c083725761accbaaed8",
     "public/images/media-colloquium-2026-06-10.webp": "f4326965fa23ad99e83c64ed3ab804d3af0d58f42e60aee07dbed7c5ffbea4d4",
+    "public/images/norman-door.jpg": "a739dbd12f50c9523f61ab53376551ebc112113b299ef0eaaa2ee721c8df3a70",
     "public/images/pedal.webp": "db1f1b1db30d311f0816ef2200e688ddfb8a963d280e37828e42cce4c3536509",
     "public/images/pele-researchers/bar.webp": "4a2efc31783ed22a60404fb39bce43ce223fb885b7a1591a90a2d68803c655ba",
     "public/images/pele-researchers/bubble.webp": "2807ebdeedb560fc755489ce9977bd29fa2b7fa000fb61bd95dc24d9dde93e0b",
@@ -16120,6 +16555,7 @@
     "scripts/finalize-hypothesis-review.ts": "bfa581f1d5d205fb26248a271e4287261d3071eabcb3ca662cb0a0ece3eeccfc",
     "scripts/finalize-sample-population-review.ts": "dfd07d640d190f30d3e5d01e5ff9d426b1147ea78dd19f2df5109d714528b130",
     "scripts/finalize-topic-review.ts": "ba4d8a54d644be787d033f0a673da45376eec080533d0700b09c3c558accfc98",
+    "scripts/finalize-video-films-review.ts": "ec6e641bac2e0b170a819287c2916e0230b61401957d700dc536eea72db0f6b8",
     "scripts/font-cdn.ts": "f04336f0da30ee3dd3f146f102b55fb1595f597af93344825961a07270622e0f",
     "scripts/fonts-cli.ts": "bc845eaead51746cf0c967311954f9d56636f7789c13d5d1bed429c3f27e0744",
     "scripts/generate-english-pdfs.ts": "2c9ca05b992d376b44c8cb1d75fb3599d049a31b2d1b595bfef82e64252f9322",
@@ -16276,12 +16712,12 @@
     "tests/web-assets.test.ts": "77734775161dd240c7d600eb01f78f9832046fae66fdfdfc6bc73fe040f234ac",
     "tests/web-output.test.ts": "d91c73280969648fbf1ecf501e571126ae9dd5077eba0549214d6cf10062ac32",
     "tsconfig.json": "d8a3c8cbac653061b04890991a919d6bb9a1daefa810f006702007f2319dcb95",
-    "vercel.json": "68ceb34d5b0756128c1ac5e4382d9cf145edbf75897dad8b6dda18d2b361c625"
+    "vercel.json": "f1839dd17772d5429c663a1e6915955c3a9cef742c52bc5a83ada0fedbfb011c"
   },
-  "reviewedAt": "2026-11-09T12:06:54.792Z",
+  "reviewedAt": "2026-11-12T09:06:39.063Z",
   "retainedEvidence": {
-    "baseline": "351631ee61ff667ada7bc2cf206af43abd1978b2930a8fff80eb2e88405ea7e3",
-    "reviewedAt": "2026-11-02T14:16:58.786Z",
+    "baseline": "027d04cfbbb6107c03a124dddbc34f3eac10ec4573d87a95d0af5b409308ef3d",
+    "reviewedAt": "2026-11-09T12:06:54.792Z",
     "verifiedUnchangedFiles": [
       "public/experiments/pkm-poster-2026/cmds-dark.svg",
       "public/experiments/pkm-poster-2026/cmds-reconstructed.svg",
@@ -16342,18 +16778,21 @@
     ],
     "reason": "Pinned poster and experiment sources are byte-identical to the previous review, so their detailed poster geometry and series receipts are kept as prior evidence, not relabelled as fresh. Routes whose web-dist HTML is byte-identical to the published release keep their previous view, reader, navigation and editorial rows; every changed or new route was measured fresh.",
     "unchangedRoutes": {
-      "comparedAgainst": "https://achmage-slides.vercel.app (published commit b3b187d, reviewed digest 351631ee61ff667ada7bc2cf206af43abd1978b2930a8fff80eb2e88405ea7e3)",
+      "comparedAgainst": "https://achmage-slides.vercel.app (published commit a9248ee, reviewed digest 027d04cfbbb6107c03a124dddbc34f3eac10ec4573d87a95d0af5b409308ef3d)",
       "method": "SHA-256 of each web-dist route HTML against the production response",
-      "comparedAt": "2026-11-09T11:49:41.732Z",
-      "count": 174,
+      "comparedAt": "2026-11-12T09:02:03.191Z",
+      "count": 184,
       "routes": [
+        "/404.html",
         "/about/",
         "/brand/",
         "/courses/",
+        "/courses/communication-research-methods-ii-2026-2/",
+        "/en/404.html",
         "/en/about/",
         "/en/brand/",
         "/en/courses/",
-        "/en/motion/",
+        "/en/courses/communication-research-methods-ii-2026-2/",
         "/en/motion/before-the-first-note/",
         "/en/motion/before-the-first-note/embed/",
         "/en/motion/book/",
@@ -16382,6 +16821,8 @@
         "/en/talks/ai-reading-pilot/read/",
         "/en/talks/educational-harness-workshop-2026-07-06/",
         "/en/talks/educational-harness-workshop-2026-07-06/read/",
+        "/en/talks/from-sample-to-population-2026-11-10/",
+        "/en/talks/from-sample-to-population-2026-11-10/read/",
         "/en/talks/human-reading-writing-2026/",
         "/en/talks/human-reading-writing-2026/read/",
         "/en/talks/media-colloquium-2026-06-10/",
@@ -16410,12 +16851,13 @@
         "/en/talks/pele-social-science/code/two-hc3/",
         "/en/talks/pele-social-science/code/welch/",
         "/en/talks/still-working-on-my-topic-2026-10-20/",
+        "/en/talks/still-working-on-my-topic-2026-10-20/read/",
         "/en/talks/survey-scale-intro-2026-10-13/",
+        "/en/talks/survey-scale-intro-2026-10-13/read/",
         "/en/talks/why-research-hypotheses-2026-11-03/",
-        "/en/videos/",
+        "/en/talks/why-research-hypotheses-2026-11-03/read/",
         "/experiments/pkm-poster-2026/",
         "/experiments/pkm-speaker-posters-2026/",
-        "/motion/",
         "/motion/before-the-first-note/",
         "/motion/before-the-first-note/embed/",
         "/motion/book/",
@@ -16490,6 +16932,8 @@
         "/talks/ai-reading-pilot/read/",
         "/talks/educational-harness-workshop-2026-07-06/",
         "/talks/educational-harness-workshop-2026-07-06/read/",
+        "/talks/from-sample-to-population-2026-11-10/",
+        "/talks/from-sample-to-population-2026-11-10/read/",
         "/talks/human-reading-writing-2026/",
         "/talks/human-reading-writing-2026/read/",
         "/talks/media-colloquium-2026-06-10/",
@@ -16518,30 +16962,30 @@
         "/talks/pele-social-science/code/two-hc3/",
         "/talks/pele-social-science/code/welch/",
         "/talks/still-working-on-my-topic-2026-10-20/",
+        "/talks/still-working-on-my-topic-2026-10-20/read/",
         "/talks/survey-scale-intro-2026-10-13/",
+        "/talks/survey-scale-intro-2026-10-13/read/",
         "/talks/why-research-hypotheses-2026-11-03/",
-        "/videos/"
+        "/talks/why-research-hypotheses-2026-11-03/read/"
       ]
     },
     "freshRoutes": [
       "/",
-      "/404.html",
       "/archive/",
-      "/courses/communication-research-methods-ii-2026-2/",
       "/en/",
-      "/en/404.html",
       "/en/archive/",
-      "/en/courses/communication-research-methods-ii-2026-2/",
-      "/en/talks/from-sample-to-population-2026-11-10/",
-      "/en/talks/from-sample-to-population-2026-11-10/read/",
-      "/en/talks/still-working-on-my-topic-2026-10-20/read/",
-      "/en/talks/survey-scale-intro-2026-10-13/read/",
-      "/en/talks/why-research-hypotheses-2026-11-03/read/",
-      "/talks/from-sample-to-population-2026-11-10/",
-      "/talks/from-sample-to-population-2026-11-10/read/",
-      "/talks/still-working-on-my-topic-2026-10-20/read/",
-      "/talks/survey-scale-intro-2026-10-13/read/",
-      "/talks/why-research-hypotheses-2026-11-03/read/"
+      "/en/motion/",
+      "/en/motion/espresso/",
+      "/en/motion/espresso/embed/",
+      "/en/motion/norman-door/",
+      "/en/motion/norman-door/embed/",
+      "/en/videos/",
+      "/motion/",
+      "/motion/espresso/",
+      "/motion/espresso/embed/",
+      "/motion/norman-door/",
+      "/motion/norman-door/embed/",
+      "/videos/"
     ],
     "ownerInstruction": {
       "quote": "뭔 테스트를 이렇게 많이 계속 해 올리라니까 다 패스하고",
@@ -17833,9 +18277,23 @@
     "sourceVersion": "2026-11-02",
     "note": "The shared font pipeline, page source, engine, styles and fonts are byte-identical to the prior reviewed source set. This refresh carries forward actual browser observations with their original dates; no new screen review is claimed."
   },
-  "sampleLecture": {
-    "workId": "from-sample-to-population-2026-11-10",
-    "homeFeaturedUnchanged": true,
-    "visualReview": "New English detail page (1440 light, 375 dark) and English reading page (768 dark) were inspected in screenshots; every new and changed route was measured at 375/768/1440 in both themes. The deck itself was measured separately in its lecture folder (present 1920x1080 light/dark, phone, fit and read views)."
+  "videoFilms": {
+    "workIds": [
+      "norman-door",
+      "espresso"
+    ],
+    "featured": {
+      "2": "norman-door (was meal)",
+      "3": "espresso (was pele-atlas)"
+    },
+    "unfeaturedStillListed": [
+      "meal",
+      "pele-atlas"
+    ],
+    "homeFirstScreen": "1280x620, 1366x625, 1440x760, 1920x940 and 2560x1290 in Korean and English: introduction and four featured cards fit without scrolling (Chromium, local web-dist preview).",
+    "playback": "The Espresso detail page played the pinned raw GitHub MP4 and seeked to 100 s (readyState 4, 1920x1080).",
+    "visualReview": "Korean home (1440 light), English home (1440 dark), Norman Door detail (1440 light) and English Espresso detail (375 dark) were inspected in screenshots.",
+    "notJudged": "Sound and aesthetics of the films were not judged in this registration.",
+    "publication": "docs/video-script-films-2026-11-12-publication.md"
   }
 }

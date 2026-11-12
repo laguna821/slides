@@ -3501,6 +3501,24 @@
       "mime": "image/png",
       "kind": "image",
       "verifiedAt": "2026-11-09T09:16:11.986Z"
+    },
+    "image/jpeg:7e826113ef7a85de523cb44b459a13aef0b3ac60389ea7774f7800f0ae11a7b8": {
+      "sourceHash": "7e826113ef7a85de523cb44b459a13aef0b3ac60389ea7774f7800f0ae11a7b8",
+      "sha256": "7e826113ef7a85de523cb44b459a13aef0b3ac60389ea7774f7800f0ae11a7b8",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472580884-de532b78-dc9b-44c8-a75b-6d58a361a508.jpeg",
+      "bytes": 43351,
+      "mime": "image/jpeg",
+      "kind": "image",
+      "verifiedAt": "2026-11-12T08:36:22.380Z"
+    },
+    "image/jpeg:a739dbd12f50c9523f61ab53376551ebc112113b299ef0eaaa2ee721c8df3a70": {
+      "sourceHash": "a739dbd12f50c9523f61ab53376551ebc112113b299ef0eaaa2ee721c8df3a70",
+      "sha256": "a739dbd12f50c9523f61ab53376551ebc112113b299ef0eaaa2ee721c8df3a70",
+      "url": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472584089-f8ba8aa8-2dcf-45ee-820e-594704304dc3.jpeg",
+      "bytes": 27162,
+      "mime": "image/jpeg",
+      "kind": "image",
+      "verifiedAt": "2026-11-12T08:36:26.622Z"
     }
   },
   "paths": {
@@ -3725,6 +3743,8 @@
     "/pele/engine/assets/fonts/AchmageSameTone-1.000.woff2": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/5ddc1264367dc547619dbae3f16df530cb74209f8d43808e86268d8cf9406d16.woff2",
     "/pele/engine/assets/fonts/PretendardVariable.woff2": "https://achmage-fonts.laguna821-c08.workers.dev/fonts/9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4.woff2",
     "/images/why-research-hypotheses-2026-11-03.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1793613650637-817e73c5-dd53-45f4-b22c-e24e63f3812d.png",
-    "/images/from-sample-to-population-2026-11-10.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215770408-4e0ff150-b497-411d-9230-7d23b276bb19.png"
+    "/images/from-sample-to-population-2026-11-10.png": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215770408-4e0ff150-b497-411d-9230-7d23b276bb19.png",
+    "/images/espresso.jpg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472580884-de532b78-dc9b-44c8-a75b-6d58a361a508.jpeg",
+    "/images/norman-door.jpg": "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472584089-f8ba8aa8-2dcf-45ee-820e-594704304dc3.jpeg"
   }
 }

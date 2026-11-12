@@ -1,5 +1,121 @@
 [
   {
+    "id": "norman-door",
+    "slug": "norman-door",
+    "title": "노먼 도어 · 또 틀렸다, 그런데 누가?",
+    "summary": "밀어야 할 문을 당겼을 때 틀린 쪽은 누구일까. 손잡이의 생김새와 문에 붙은 글자가 서로 다른 것을 시키는 문을, 내레이션 없이 화면 문장과 장면만으로 풀어 갑니다.",
+    "date": "2026-11-12",
+    "dateKind": "registered",
+    "registeredAt": "2026-11-12",
+    "kind": "motion",
+    "topics": [
+      "화면 문장",
+      "직접 그린 그래픽",
+      "공개 음원"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "featuredOrder": 2,
+    "featuredReason": "화면 문장만으로 한 편을 끌고 가는 90초 모션. 대본을 먼저 쓰고 만든 첫 작품입니다.",
+    "poster": "/images/norman-door.jpg",
+    "posterAlt": "어둑한 복도, 열린 문 두 개를 지나 유리문 손잡이를 쥔 사람과 화면 가운데의 두 줄 문장 “또 틀렸다 / 왜 이 문 앞에서만 이럴까”",
+    "body": "밀어야 할 문을 당겼을 때 틀린 쪽은 누구일까. 손잡이의 생김새와 문에 붙은 글자가 서로 다른 것을 시키는 문을, 내레이션 없이 화면 문장과 장면만으로 풀어 갑니다.\n\n90초 · 카드 16장. 영상 대본 스킬(Achmage Video Script)로 대본을 먼저 쓰고 Motion Art Director로 만들었습니다. 문과 사람은 코드로 직접 그렸고, 문장은 모든 장면에서 화면 한가운데 같은 자리에 가는 흰 글씨로 뜹니다. 그림은 그 자리를 비워 둡니다.\n\n처음 판은 문장을 화면 아래 띠에 깔고 음악을 합성음으로 만들었습니다. 그 판을 본 뒤 문장을 가운데로 옮기고, 공개 음원 세 곡으로 각각 만든 판을 들어 보고 피아노 곡을 골랐습니다. 인용은 Don Norman의 The Design of Everyday Things(2013)에서 우리말로 옮겼습니다.",
+    "productionNote": "90초 · 카드 16장. 영상 대본 스킬(Achmage Video Script)로 대본을 먼저 쓰고 Motion Art Director로 만들었습니다. 문과 사람은 코드로 직접 그렸고, 문장은 모든 장면에서 화면 한가운데 같은 자리에 가는 흰 글씨로 뜹니다. 그림은 그 자리를 비워 둡니다.\n\n처음 판은 문장을 화면 아래 띠에 깔고 음악을 합성음으로 만들었습니다. 그 판을 본 뒤 문장을 가운데로 옮기고, 공개 음원 세 곡으로 각각 만든 판을 들어 보고 피아노 곡을 골랐습니다. 인용은 Don Norman의 The Design of Everyday Things(2013)에서 우리말로 옮겼습니다.",
+    "artifacts": [
+      {
+        "id": "norman-door-making",
+        "type": "link",
+        "role": "reference",
+        "url": "https://laguna821.github.io/Achmage-Skills/Video-Script/examples/#norman-door",
+        "label": "대본·가편집 시트·제작 기록",
+        "version": "2026-11-12",
+        "modes": []
+      },
+      {
+        "id": "norman-door-skill",
+        "type": "link",
+        "role": "reference",
+        "url": "https://github.com/laguna821/Achmage-Skills/tree/main/Video-Script",
+        "label": "영상 대본 스킬",
+        "version": "1.0.0",
+        "modes": []
+      },
+      {
+        "id": "norman-door-credits",
+        "type": "link",
+        "role": "reference",
+        "url": "https://github.com/laguna821/Achmage-Skills/blob/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/norman-door/credits.md",
+        "label": "인용·음악·효과음 출처",
+        "version": "2026-11-12",
+        "modes": []
+      }
+    ],
+    "mediaIds": [
+      "norman-door-film"
+    ],
+    "resourceIds": [],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/norman-door/production-notes.md"
+  },
+  {
+    "id": "espresso",
+    "slug": "espresso",
+    "title": "에스프레소는 크레마보다 오래되었다",
+    "summary": "에스프레소 머신은 크레마보다 50년 넘게 먼저였습니다. 1884년의 특허에서 1961년의 전동 펌프까지, 같은 압력계가 세 번 돌아오며 크레마가 언제 어떻게 생겼는지 영어 화면 문장으로 보여 줍니다.",
+    "date": "2026-11-12",
+    "dateKind": "registered",
+    "registeredAt": "2026-11-12",
+    "kind": "motion",
+    "topics": [
+      "실사 + 그래픽",
+      "특허 도면",
+      "영어 화면 문장"
+    ],
+    "visibility": "listed",
+    "seo": "index",
+    "status": "selected",
+    "featuredOrder": 3,
+    "featuredReason": "실사 영상과 특허 도면, 도해를 섞어 영어 화면 문장으로 완결한 150초 모션.",
+    "poster": "/images/espresso.jpg",
+    "posterAlt": "어두운 배경에서 에스프레소 머신의 추출구 두 곳으로 흘러내리는 커피 두 줄기와 문장 “by more than fifty years.”",
+    "body": "에스프레소 머신은 크레마보다 50년 넘게 먼저였습니다. 1884년의 특허에서 1961년의 전동 펌프까지, 같은 압력계가 세 번 돌아오며 크레마가 언제 어떻게 생겼는지 영어 화면 문장으로 보여 줍니다.\n\n150초 · 카드 30장. 영상 대본 스킬로 쓴 첫 영어 대본을 Motion Art Director로 만들었습니다. Pexels의 실사 영상 넷, 1884년과 1903년의 특허 도면(공유 저작물), 직접 그린 압력계와 단면 도해, 타이포를 섞었습니다. 문장이 떠 있는 동안 실사와 도면은 어둡게 가라앉습니다.\n\n레버를 당기는 손처럼 공개 영상에서 찾지 못한 장면은 다른 기계의 영상으로 대신하지 않고 도해로 바꿨습니다. 날짜와 수치마다 출처를 달았고, 출처끼리 어긋나는 곳은 두 값이 모두 참이 되는 표현을 썼습니다. 특정 회사의 광고나 공식 기록이 아닙니다.",
+    "productionNote": "150초 · 카드 30장. 영상 대본 스킬로 쓴 첫 영어 대본을 Motion Art Director로 만들었습니다. Pexels의 실사 영상 넷, 1884년과 1903년의 특허 도면(공유 저작물), 직접 그린 압력계와 단면 도해, 타이포를 섞었습니다. 문장이 떠 있는 동안 실사와 도면은 어둡게 가라앉습니다.\n\n레버를 당기는 손처럼 공개 영상에서 찾지 못한 장면은 다른 기계의 영상으로 대신하지 않고 도해로 바꿨습니다. 날짜와 수치마다 출처를 달았고, 출처끼리 어긋나는 곳은 두 값이 모두 참이 되는 표현을 썼습니다. 특정 회사의 광고나 공식 기록이 아닙니다.",
+    "artifacts": [
+      {
+        "id": "espresso-making",
+        "type": "link",
+        "role": "reference",
+        "url": "https://laguna821.github.io/Achmage-Skills/Video-Script/examples/#espresso",
+        "label": "대본·가편집 시트·제작 기록",
+        "version": "2026-11-12",
+        "modes": []
+      },
+      {
+        "id": "espresso-skill",
+        "type": "link",
+        "role": "reference",
+        "url": "https://github.com/laguna821/Achmage-Skills/tree/main/Video-Script",
+        "label": "영상 대본 스킬",
+        "version": "1.0.0",
+        "modes": []
+      },
+      {
+        "id": "espresso-credits",
+        "type": "link",
+        "role": "reference",
+        "url": "https://github.com/laguna821/Achmage-Skills/blob/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/espresso/credits.md",
+        "label": "촬영·도면·음악 출처",
+        "version": "2026-11-12",
+        "modes": []
+      }
+    ],
+    "mediaIds": [
+      "espresso-film"
+    ],
+    "resourceIds": [],
+    "provenance": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/espresso/production-notes.md"
+  },
+  {
     "id": "from-sample-to-population-2026-11-10",
     "slug": "from-sample-to-population-2026-11-10",
     "title": "내 주먹 속 사탕으로 상자 전체를 알 수 있을까요? — 기술통계와 추론통계의 기초",
@@ -194,7 +310,6 @@
     "mediaIds": [],
     "resourceIds": [],
     "provenance": "docs/pele-atlas-provenance.json",
-    "featuredOrder": 3,
     "featuredReason": "연구 질문에서 알맞은 그래프로 이어 주는 Pele 대표 14종과 공개 갤러리."
   },
   {
@@ -484,7 +599,6 @@
     "visibility": "listed",
     "seo": "index",
     "status": "selected",
-    "featuredOrder": 2,
     "poster": "/images/meal.webp",
     "posterAlt": "생각이 맛이 되다의 실제 영상 장면",
     "body": "고르는 눈, 준비, 타이밍, 불의 강약, 마지막 조절. 빠른 손을 움직이는 판단을 보여주고, 완전한 문장을 여러 컷에 걸쳐 이어갑니다.\n\n180초 / 89컷 / 실사 + 정밀 그래픽",

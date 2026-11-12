@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-11-09T11:09:38.477Z",
+  "verifiedAt": "2026-11-12T08:36:28.178Z",
   "mode": "verified-at-upload",
   "urls": [
     "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1791892987381-74724e4c-9148-490b-bc0e-2d3ab9350471.png",
@@ -373,10 +373,12 @@
     "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215725670-8ac095f5-4495-4944-9eac-3ec248732a6d.png",
     "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215739848-63ec74cf-38c9-4fac-a5e0-2bfc032da5bd.png",
     "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215760485-3732cb1d-9bcf-486f-ac5c-3f427bc5e19a.png",
-    "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215770408-4e0ff150-b497-411d-9230-7d23b276bb19.png"
+    "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794215770408-4e0ff150-b497-411d-9230-7d23b276bb19.png",
+    "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472580884-de532b78-dc9b-44c8-a75b-6d58a361a508.jpeg",
+    "https://pub-acf6ad93f2ec4a5e8fa12e94d0c9b151.r2.dev/1794472584089-f8ba8aa8-2dcf-45ee-820e-594704304dc3.jpeg"
   ],
-  "added": 0,
+  "added": 2,
   "reused": 829,
   "downloadedNow": 0,
-  "carriedFromUploadCheck": 364
+  "carriedFromUploadCheck": 366
 }

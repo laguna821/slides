@@ -198,5 +198,41 @@
     "poster": "/images/before-the-first-note.jpg",
     "credits": "음악: Mozart / Musopen Symphony, 교향곡 40번 K.550 제1악장 — 퍼블릭 도메인 헌정 녹음. 촬영: cottonbro studio·Yan Krukau / Pexels. 그래픽·편집: Achmage. 개별 자료 출처는 아래 링크에 표시합니다.",
     "external": false
+  },
+  {
+    "id": "norman-door-film",
+    "workId": "norman-door",
+    "title": "노먼 도어 · 또 틀렸다, 그런데 누가?",
+    "currentVersion": "norman-door-90-v2",
+    "versions": [
+      {
+        "id": "norman-door-90-v2",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/norman-door/norman-door-90s-1080p.mp4",
+        "duration": 90,
+        "label": "등록 공개본",
+        "creditsUrl": "https://github.com/laguna821/Achmage-Skills/blob/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/norman-door/credits.md"
+      }
+    ],
+    "poster": "/images/norman-door.jpg",
+    "credits": "음악: “Piano - Piano Music” Pavel Bekirov / Pixabay. 효과음: Mixkit(발소리, 문이 걸리는 소리)와 짧은 합성음. 인용: Don Norman, The Design of Everyday Things(2013), 우리말 옮김. 그림은 모두 직접 그린 SVG입니다.",
+    "external": false
+  },
+  {
+    "id": "espresso-film",
+    "workId": "espresso",
+    "title": "에스프레소는 크레마보다 오래되었다",
+    "currentVersion": "espresso-150-v1",
+    "versions": [
+      {
+        "id": "espresso-150-v1",
+        "url": "https://raw.githubusercontent.com/laguna821/Achmage-Skills/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/espresso/espresso-150s-1080p.mp4",
+        "duration": 150,
+        "label": "등록 공개본",
+        "creditsUrl": "https://github.com/laguna821/Achmage-Skills/blob/ca29c81f669605107d7ec9df44f07ca1ce174727/Video-Script/examples/espresso/credits.md"
+      }
+    ],
+    "poster": "/images/espresso.jpg",
+    "credits": "촬영: Mike M·John Diez·Bobby Brown·Ketut Subiyanto / Pexels. 도면: Bollettino delle Privative Industriali 1884(Wikimedia Commons, 퍼블릭 도메인), 미국 특허 726,793. 음악: “Piano - Piano Music” Pavel Bekirov / Pixabay. 소리: freesound_community / Pixabay. 그래픽·편집: Achmage.",
+    "external": false
   }
 ]

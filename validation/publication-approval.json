@@ -3,9 +3,9 @@
   "status": "approved",
   "scope": "portfolio-production",
   "policyVersion": "6.7.0",
-  "digest": "027d04cfbbb6107c03a124dddbc34f3eac10ec4573d87a95d0af5b409308ef3d",
-  "reviewHash": "b83da23ecf7136b6ae0d3af12d51a5b1ce4b6fc396f39a1c7aeedff578403641",
-  "boundAt": "2026-11-09T12:06:59.343Z",
+  "digest": "2a3f944032178981cd43258aed1ea66071ab8f2d448b04ca55a22fd8ad1b7711",
+  "reviewHash": "79560ec13b51f37f2f116ad875308f88e3c9c58558c819476212fea7023db194",
+  "boundAt": "2026-11-12T09:07:04.212Z",
   "decision": {
     "by": "user",
     "quote": "막히먄 사이트 규약 고쳐 내 사이트인데 내 집인데 내가 불편하면 안되지\n업로드도 굳이 왜 내허락 일일히 받는거야?\n이건 당장 규약 고쳐",
@@ -15,14 +15,18 @@
     "requestScope": "standing-owner-delegation"
   },
   "ownerRequest": {
-    "quote": "내 포트프ㅗㄹ리오 사이트에 올리자",
-    "sessionId": "d84382cc-a386-4a0d-a01c-033cca6a0604",
-    "at": "2026-11-09T08:39:21.683Z",
-    "workId": "from-sample-to-population-2026-11-10"
+    "quote": "https://achmage-slides.vercel.app/ 내 포트폴리오 웹사이트인데, 이거랑 연동되는 웹사이트가 https://github.com/laguna821/slides 인데 확인해보고 웹사이트 규약에 따라서 에스프레소랑 노먼 도어 작품을 각각 등록하되, 이 두개는 각각 Pele for Researchers랑 생각이 맛이되다 대신 대표작으로 최신 업데이트 하면서 등록",
+    "sessionId": "qdesP9YH2BCvE6Oc",
+    "sessionKind": "Aside agent session",
+    "at": "2026-11-12T08:10:01.903Z",
+    "workIds": [
+      "norman-door",
+      "espresso"
+    ]
   },
   "preview": {
     "status": "not-deployed",
     "reason": "vercel.json deploymentEnabled limits Vercel deployments to main and two named branches; the release review ran on the same web-dist through npm run preview",
-    "reviewedAt": "2026-11-09T12:06:54.792Z"
+    "reviewedAt": "2026-11-12T09:06:39.063Z"
   }
 }
