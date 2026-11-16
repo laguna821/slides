@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "original": {
+    "filename": "6W-1.pptx + 6W-2.pptx (조사방법론 2024-1, 강의 PPT/6W)",
+    "slides": 82
+  },
+  "remake": {
+    "packageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+    "bundleLockSha256": "2d5266dd230dc16f3f71fe5c62f6eb7cd27a154bf4e279d35f1faadf3c98d4c3",
+    "htmlSha256": "11fd92485234d409d96f49cef8b7438d9cf6b5a6fe34fc2e17cfc3193f8b8fb1",
+    "webProjectionSha256": "9c854af8591744c65d1151f523b8a45f6760c950e6c14eaf6496aa893168a628",
+    "version": "1.0.0",
+    "slides": 70,
+    "peleDiagrams": 0,
+    "rOutput": "R 4.3.3 console output: the strawberry chocolate data frame, its confidence interval and a one-sample t-test",
+    "font": "Achmage SameTone 1.000 through the engine custom-font option"
+  },
+  "adaptation": "Wording and order of the 2024 undergraduate week-6 slides (6W-1 and 6W-2) are kept and merged into one deck. 6W-2 slides 1–10 (cover and review of 6W-1) and 12–14 (identical to 6W-1 slides 27–29) were dropped; the instructor-corrected 6W-2 slide 6 replaces 6W-1 slide 21. Fixes: typos, quotation marks and the course subtitle; R comments moved onto their own lines so the code runs. Every R code block is shown with its actual R 4.3.3 output; the t-test output is placed on the following slide (added) because code and result do not fit one 16:9 slide. On instructor request the GIF of slide 14 is replaced by the same scene as a YouTube video (https://youtu.be/lK4ouRWGHHI), played in a privacy-enhanced youtube-nocookie player when the deck is opened over the web, with a still and a link otherwise. Original slide pictures are re-drawn at their source positions in brand colours; one light-based HTML switches theme at runtime with dark figure and collage variants attached by CSS, and the remaining theme font references point to SameTone. Instructor notes are not authored for this deck. No private notes or local paths are published."
+}

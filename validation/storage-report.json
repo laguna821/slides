@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "bytes": 21478743,
-  "htmlCount": 221,
+  "bytes": 24264871,
+  "htmlCount": 227,
   "maxHtmlBytes": 791692,
   "pdfFiles": 0,
   "zipFiles": 0,
   "embeddedAssets": 0,
   "localContentImages": 0,
-  "sourceBuildBytes": 785149467,
-  "savedBytes": 763670724,
-  "redirects": 255,
-  "assetManifestHash": "f2b6252496cef66779942e826d46abfc47db1f4a4de9cf27003c367acb466d30",
+  "sourceBuildBytes": 852834556,
+  "savedBytes": 828569685,
+  "redirects": 256,
+  "assetManifestHash": "4dc4754abacea54d2da73db74c4f21b2f79d2c2e0d7718b908c2afc3af914446",
   "runtimeSharing": {
-    "assets": 19,
-    "removedBytes": 4068575,
-    "insertedBytes": 1288950,
-    "rawSavingBytes": 2779625
+    "assets": 21,
+    "removedBytes": 4494383,
+    "insertedBytes": 1438869,
+    "rawSavingBytes": 3055514
   },
   "codeTokenSharing": {
     "files": 38,
@@ -34,8 +34,9 @@
     "files": [
       "decks/still-working-on-my-topic-2026-10-20/v1.0.0/source.html",
       "decks/why-research-hypotheses-2026-11-03/v1.0.0/source.html",
-      "decks/from-sample-to-population-2026-11-10/v1.0.0/source.html"
+      "decks/from-sample-to-population-2026-11-10/v1.0.0/source.html",
+      "decks/p-value-and-hypotheses-2026-11-17/v1.0.0/source.html"
     ],
-    "sourceBytes": 114332949
+    "sourceBytes": 146938681
   }
 }

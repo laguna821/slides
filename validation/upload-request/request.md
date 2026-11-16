@@ -5,47 +5,40 @@
 - 정책: 6.7.0
 - 서체: Achmage SameTone 1.000 Full /100–900
 - 언어: 한국어와 영어 동시
-- 변경 파일: 31개
-- 배포 입력 해시: `2a3f944032178981cd43258aed1ea66071ab8f2d448b04ca55a22fd8ad1b7711`
+- 변경 파일: 23개
+- 배포 입력 해시: `9d18d18c50567b5bc5641490162e9d6c2b59e226684052a564005509723479ea`
 - 검토: 통과
 - 사용자 확인: 현재 해시와 일치
 
 ## 변경 파일
 
-- `content/editorial/from-sample-to-population-2026-11-10.json`
-- `content/editorial/from-sample-to-population-2026-11-10.md`
+- `content/editorial/p-value-and-hypotheses-2026-11-17.json`
+- `content/editorial/p-value-and-hypotheses-2026-11-17.md`
 - `content/i18n/en.json`
-- `content/media.json`
 - `content/presenter-notes.json`
-- `content/reading/from-sample-to-population-2026-11-10.md`
 - `content/reading/manifest.json`
+- `content/reading/p-value-and-hypotheses-2026-11-17.md`
 - `content/web-assets.json`
 - `content/web-source-only.json`
 - `content/works.json`
-- `docs/STORAGE-CONTRACT.md`
-- `docs/UPLOAD-CONTRACT.md`
-- `docs/from-sample-to-population-2026-11-10-provenance.json`
-- `docs/from-sample-to-population-2026-11-10-publication.md`
-- `docs/video-script-films-2026-11-12-publication.md`
-- `public/decks/from-sample-to-population-2026-11-10/v1.0.0/index.html`
-- `public/decks/from-sample-to-population-2026-11-10/v1.0.0/source-web.html`
-- `public/decks/from-sample-to-population-2026-11-10/v1.0.0/source.html`
-- `public/images/espresso.jpg`
-- `public/images/from-sample-to-population-2026-11-10.png`
-- `public/images/norman-door.jpg`
-- `scripts/assets-sync.ts`
-- `scripts/complete-sample-population-english.ts`
-- `scripts/finalize-sample-population-review.ts`
-- `scripts/finalize-video-films-review.ts`
-- `scripts/fonts-cli.ts`
-- `scripts/preview-web.ts`
-- `scripts/register-sample-population-lecture.ts`
-- `scripts/review-bilingual.ts`
-- `scripts/review-reader-features.ts`
+- `docs/PRESENTER-NOTES-CONTRACT.md`
+- `docs/p-value-and-hypotheses-2026-11-17-provenance.json`
+- `docs/p-value-and-hypotheses-2026-11-17-publication.md`
+- `public/decks/p-value-and-hypotheses-2026-11-17/v1.0.0/index.html`
+- `public/decks/p-value-and-hypotheses-2026-11-17/v1.0.0/source-web.html`
+- `public/decks/p-value-and-hypotheses-2026-11-17/v1.0.0/source.html`
+- `public/images/p-value-and-hypotheses-2026-11-17.png`
+- `scripts/complete-p-value-english.ts`
+- `scripts/finalize-p-value-review.ts`
+- `scripts/notes-contract.ts`
+- `scripts/register-p-value-lecture.ts`
+- `scripts/source-only.ts`
+- `tests/notes-contract.test.ts`
 - `vercel.json`
 
 ## 확인할 결과
 
+- 내 말이 틀릴 확률은 얼마일까요? — p-value와 가설검정, 그리고 가설 세우기 · 한국어 `/talks/p-value-and-hypotheses-2026-11-17/` · 영어 `/en/talks/p-value-and-hypotheses-2026-11-17/` · 양언어 웹 읽기/Markdown 포함
 - 노먼 도어 · 또 틀렸다, 그런데 누가? · 한국어 `/motion/norman-door/` · 영어 `/en/motion/norman-door/`
 - 에스프레소는 크레마보다 오래되었다 · 한국어 `/motion/espresso/` · 영어 `/en/motion/espresso/`
 - 내 주먹 속 사탕으로 상자 전체를 알 수 있을까요? — 기술통계와 추론통계의 기초 · 한국어 `/talks/from-sample-to-population-2026-11-10/` · 영어 `/en/talks/from-sample-to-population-2026-11-10/` · 양언어 웹 읽기/Markdown 포함

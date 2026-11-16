@@ -44,7 +44,28 @@ export async function verifyNotes(works:any[],root=process.cwd()) {
     }
     const legacy=manifest.legacy.find((e:any)=>e.url===a.url&&e.workId===w.id);
     if(legacy){if(sha(b)!==legacy.sha256)throw Error('Legacy notes exception changed');continue;}
-    if(!manifest.decks.some((e:any)=>e.url===a.url&&e.workId===w.id))throw Error('Missing presenter notes contract: '+w.id);
+    if(!manifest.decks.some((e:any)=>e.url===a.url&&e.workId===w.id)&&
+      !(manifest.pendingLock||[]).some((e:any)=>e.url===a.url&&e.workId===w.id))throw Error('Missing presenter notes contract: '+w.id);
+  }
+  // Pending lock (docs/PRESENTER-NOTES-CONTRACT.md, 2026-11-16): a new deck with NO authored notes may be published
+  // before its lock when the owner cannot enter the configured credential. Nothing is added to the engine output: the
+  // published file is byte-identical to the approved source, its notes payload is exactly null, and the owner's decision
+  // is recorded. It is locked later through the normal procedure (the entry then moves to decks).
+  for(const e of manifest.pendingLock||[]){
+    const b=await read(e.url),original=await read(e.source);
+    if(manifest.decks.some((d:any)=>d.url===e.url))throw Error('Deck is both locked and pending lock: '+e.url);
+    if(sha(b)!==e.sha256||sha(original)!==e.sourceSha256||e.sha256!==e.sourceSha256)throw Error('Pending-lock deck must be the unchanged approved source: '+e.url);
+    const html=b.toString('utf8'),payloads=[...html.matchAll(payload)];
+    if(payloads.length!==1||JSON.parse(payloads[0][1])!==null)throw Error('Pending-lock deck must have no notes: '+e.url);
+    if(!html.includes('openNotes')||!html.includes('AchmageNotes.attach'))throw Error('N-key notes runtime missing');
+    if(e.notesState!=='none')throw Error('Pending-lock notes state must be none');
+    if(!/^docs\/[a-z0-9-]+\.json$/.test(e.provenance))throw Error('Approved deck provenance required');
+    const provenance=JSON.parse(await fs.readFile(path.join(root,e.provenance),'utf8'));
+    if(e.enginePackageSha256!==provenance.remake.packageSha256||provenance.remake.htmlSha256!==e.sourceSha256)
+      throw Error('Pending-lock source requires approved engine provenance');
+    const d=e.ownerDecision;
+    if(!d||typeof d.quote!=='string'||!d.quote.trim()||typeof d.sessionId!=='string'||!d.sessionId||Number.isNaN(Date.parse(d.at)))
+      throw Error('Pending lock requires the owner decision (quote, session, time)');
   }
   for(const e of manifest.decks){
     const b=await read(e.url),original=await read(e.source);

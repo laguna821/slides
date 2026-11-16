@@ -88,6 +88,16 @@
       "notesState": "empty",
       "enginePackageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
       "provenance": "docs/from-sample-to-population-2026-11-10-provenance.json"
+    },
+    {
+      "workId": "p-value-and-hypotheses-2026-11-17",
+      "url": "/decks/p-value-and-hypotheses-2026-11-17/v1.0.0/index.html",
+      "source": "/decks/p-value-and-hypotheses-2026-11-17/v1.0.0/source.html",
+      "sourceSha256": "11fd92485234d409d96f49cef8b7438d9cf6b5a6fe34fc2e17cfc3193f8b8fb1",
+      "sha256": "5e2fdc4bb2cc8ccec8509ea2379dfa096f0a9210bc07f12898bb760ee62d2e35",
+      "notesState": "empty",
+      "enginePackageSha256": "234d5032fb53adb9268cbfee1bd4063ac12179999de5b8621a49e59a6ce15c4b",
+      "provenance": "docs/p-value-and-hypotheses-2026-11-17-provenance.json"
     }
   ],
   "verification": {
@@ -200,6 +210,35 @@
       "environment": "msedge 135.0.3179.73 headless (Playwright 1.62.1), 2026-11-09, 127.0.0.1 static server of public/: actual N key opened the ?view=notes window; a wrong value was rejected; the instructor typed the configured credential at a hidden console prompt and keyboard submission unlocked the empty notes (\"이 장의 노트 없음\") in that window only, the presentation window staying locked; 다시 잠그기 relocked; after unlocking again a reload returned the locked prompt; N on a fresh presentation tab opened a new locked notes window. No credential is stored in the receipt.",
       "popupBlockedAutomatic": "passed (simulated: window.open returned null; locked inline panel opened and rejected a wrong value)",
       "inlinePanelLocked": true
+    },
+    "5e2fdc4bb2cc8ccec8509ea2379dfa096f0a9210bc07f12898bb760ee62d2e35": {
+      "credentialProfile": "studio-presenter-default-v1",
+      "notesState": "empty",
+      "wrongPassword": true,
+      "correctPassword": true,
+      "relock": true,
+      "reloadLocked": true,
+      "nOpensPrompt": true,
+      "environment": "msedge 135.0.3179.73 headless (Playwright 1.62.1), 2026-11-16, 127.0.0.1 static server of public/. Checked directly on this file without a credential: N opened the ?view=notes window, a wrong value was rejected, the window stayed locked after reload, N on a fresh presentation tab opened a new locked window, and a blocked popup fell back to the locked inline panel. The PIN unlock and 다시 잠그기 were checked on the instructor's own phone (2026-11-16), because the instructor was remote without a PC and asked for a PIN prompt only they could type into (\"그냥 여기 모바일 채팅창에다가 너는 볼수없고 나만 입력하는 팝업창 띄우면 되잖아\", 2026-11-16): a private, owner-only page built this envelope from the PIN typed there (asked to use the site's configured presenter-notes PIN) and ran the deck's own notes runtime (sha256 5349eacf26bc, byte-identical to this file's after HTML newline normalization) against it with this deck id; a wrong value was rejected, the PIN unlocked the empty notes (\"이 장의 노트 없음\") and 다시 잠그기 relocked. Only the envelope and these results left the phone, and this file carries that envelope byte for byte (sha256 5a45bd50c52e). Not re-tested with the PIN inside this file's own notes window. No credential is stored in the receipt.",
+      "popupBlockedAutomatic": "passed (simulated: window.open returned null; locked inline panel opened and rejected a wrong value)",
+      "inlinePanelLocked": true,
+      "ownerDevice": {
+        "at": "2026-11-16T11:24:23.995Z",
+        "page": "11w1-notes-lock-v1",
+        "runtimeSha256": "5349eacf26bcc11d23cba108d6d102e8ca99af43e49e4b9f297123e72d7fb0c3",
+        "envelopeSha256": "5a45bd50c52eea04d441d46752c4ee243f19352b04503840b8c882c0b5268a9b",
+        "checks": [
+          "roundTrip",
+          "lockedAtStart",
+          "wrongPassword",
+          "correctPassword",
+          "relock"
+        ]
+      },
+      "ownerDeviceChecks": [
+        "correctPassword",
+        "relock"
+      ]
     }
   },
   "preservedDemos": [

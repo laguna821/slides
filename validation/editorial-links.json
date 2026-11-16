@@ -9,7 +9,8 @@
     "educational-harness-workshop-2026-07-06": "5b2d63f6e00578583e17b3d58c8c70649807ac405ac2178f112abc9cc55bf4e6",
     "still-working-on-my-topic-2026-10-20": "03a8d7d79547340b2b8c8d8c238c4b32355a00d329f57e823374c06d422baccc",
     "why-research-hypotheses-2026-11-03": "41a2192ce9c0a662d48eb389900eef89b58259cbc8bc3e2f0f2947ea502ef208",
-    "from-sample-to-population-2026-11-10": "87f0a85c09937d369317983566500b12498645a42746c5a905d6135a8fafcda2"
+    "from-sample-to-population-2026-11-10": "87f0a85c09937d369317983566500b12498645a42746c5a905d6135a8fafcda2",
+    "p-value-and-hypotheses-2026-11-17": "eabc2575458437f7f2c6c0d362e8c7c1da1c1c3a239544ee45170a84ff11e7c7"
   },
   "links": [
     {
@@ -846,6 +847,13 @@
       "status": "verified",
       "http": 200,
       "checkedAt": "2026-11-09T10:06:46.797Z"
+    },
+    {
+      "workId": "p-value-and-hypotheses-2026-11-17",
+      "href": "https://youtu.be/lK4ouRWGHHI",
+      "status": "verified",
+      "http": 200,
+      "checkedAt": "2026-11-16T11:41:32.785Z"
     }
   ]
 }
